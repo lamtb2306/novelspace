@@ -461,6 +461,95 @@ function applyTheme(theme) {
   localStorage.setItem(STORAGE_KEYS.theme, theme);
 }
 
+function updateMetaTags(book) {
+  // Update standard meta tags
+  const description = book.desc || `Đọc truyện "${book.title}" online miễn phí`;
+  const imageUrl = book.cover ? (book.cover.startsWith('http') ? book.cover : window.location.origin + '/' + book.cover) : window.location.origin + '/images/default.jpg';
+  const bookUrl = window.location.href;
+  const tags = Array.isArray(book.tags) ? book.tags.join(', ') : '';
+
+  // Update description
+  let descMeta = document.querySelector('meta[name="description"]');
+  if (!descMeta) {
+    descMeta = document.createElement('meta');
+    descMeta.name = 'description';
+    document.head.appendChild(descMeta);
+  }
+  descMeta.content = description;
+
+  // Update keywords
+  let keywordsMeta = document.querySelector('meta[name="keywords"]');
+  if (!keywordsMeta) {
+    keywordsMeta = document.createElement('meta');
+    keywordsMeta.name = 'keywords';
+    document.head.appendChild(keywordsMeta);
+  }
+  keywordsMeta.content = `${book.title}, ${book.author}, ${tags}, đọc truyện online, NovelSpace`;
+
+  // Update OG tags
+  updateOrCreateMeta('property', 'og:title', `${book.title} | NovelSpace`);
+  updateOrCreateMeta('property', 'og:description', description);
+  updateOrCreateMeta('property', 'og:image', imageUrl);
+  updateOrCreateMeta('property', 'og:url', bookUrl);
+  updateOrCreateMeta('property', 'og:type', 'book');
+
+  // Update Twitter tags
+  updateOrCreateMeta('name', 'twitter:title', `${book.title} | NovelSpace`);
+  updateOrCreateMeta('name', 'twitter:description', description);
+  updateOrCreateMeta('name', 'twitter:image', imageUrl);
+  updateOrCreateMeta('name', 'twitter:card', 'summary_large_image');
+
+  // Update canonical
+  let canonical = document.querySelector('link[rel="canonical"]');
+  if (!canonical) {
+    canonical = document.createElement('link');
+    canonical.rel = 'canonical';
+    document.head.appendChild(canonical);
+  }
+  canonical.href = bookUrl;
+
+  // Update structured data (JSON-LD)
+  updateStructuredData(book, imageUrl);
+}
+
+function updateOrCreateMeta(attribute, value, content) {
+  let meta = document.querySelector(`meta[${attribute}="${value}"]`);
+  if (!meta) {
+    meta = document.createElement('meta');
+    meta.setAttribute(attribute, value);
+    document.head.appendChild(meta);
+  }
+  meta.content = content;
+}
+
+function updateStructuredData(book, imageUrl) {
+  let scriptTag = document.querySelector('script[type="application/ld+json"]');
+  if (scriptTag) {
+    scriptTag.remove();
+  }
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": book.title,
+    "author": {
+      "@type": "Person",
+      "name": book.author || "Chưa rõ"
+    },
+    "image": imageUrl,
+    "description": book.desc || `Đọc truyện "${book.title}" online miễn phí`,
+    "url": window.location.href,
+    "inLanguage": "vi",
+    "genre": Array.isArray(book.tags) ? book.tags : [],
+    "numberOfPages": (Array.isArray(book.chapters) ? book.chapters.length : 0) * 10 // Ước tính
+  };
+
+  scriptTag = document.createElement('script');
+  scriptTag.type = 'application/ld+json';
+  scriptTag.textContent = JSON.stringify(structuredData);
+  document.head.appendChild(scriptTag);
+}
+
 function applySavedReaderSettings() {
   const savedFontSize = localStorage.getItem(STORAGE_KEYS.fontSize);
   const savedWidth = localStorage.getItem(STORAGE_KEYS.readerWidth);
@@ -921,6 +1010,9 @@ async function openReader(bookId, chapterIndex = null) {
 
     document.title = `${fullBook.title || "Không có tên"} | NovelSpace`;
 
+    // Update meta tags for SEO
+    updateMetaTags(fullBook);
+
     if (readerCover) {
       readerCover.onerror = null;
       readerCover.src = fullBook.cover || "images/default.jpg";
@@ -1022,8 +1114,33 @@ function goHome(e) {
   closeMobilePanels();
   updateMobileToggleState();
   resetToHomeMode();
+  resetHomeMetaTags();
   backHome();
   renderBooks();
+}
+
+function resetHomeMetaTags() {
+  document.title = "NovelSpace - Đọc truyện online miễn phí";
+
+  updateOrCreateMeta('name', 'description', 'NovelSpace là kho truyện online miễn phí, đọc truyện ngôn tình, hiện đại, cổ đại, xuyên không, sủng và chữa lành được cập nhật nhanh.');
+  updateOrCreateMeta('name', 'keywords', 'NovelSpace, đọc truyện online, truyện ngôn tình, truyện hiện đại, truyện cổ đại, truyện xuyên không, truyện miễn phí');
+
+  updateOrCreateMeta('property', 'og:title', 'NovelSpace - Đọc truyện online miễn phí');
+  updateOrCreateMeta('property', 'og:description', 'Kho truyện online miễn phí, nhiều thể loại hấp dẫn, giao diện đọc thoải mái trên điện thoại và máy tính.');
+  updateOrCreateMeta('property', 'og:url', 'https://novel-space.com/');
+  updateOrCreateMeta('property', 'og:image', 'https://novel-space.com/images/default.jpg');
+  updateOrCreateMeta('property', 'og:type', 'website');
+
+  updateOrCreateMeta('name', 'twitter:title', 'NovelSpace - Đọc truyện online miễn phí');
+  updateOrCreateMeta('name', 'twitter:description', 'Kho truyện online miễn phí, nhiều thể loại hấp dẫn, cập nhật nhanh.');
+  updateOrCreateMeta('name', 'twitter:image', 'https://novel-space.com/images/default.jpg');
+  updateOrCreateMeta('name', 'twitter:card', 'summary_large_image');
+
+  // Remove structured data script
+  let scriptTag = document.querySelector('script[type="application/ld+json"]');
+  if (scriptTag) {
+    scriptTag.remove();
+  }
 }
 
 function openCategorySection(e) {
