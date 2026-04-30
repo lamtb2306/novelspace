@@ -726,6 +726,8 @@ function getFilteredBooks() {
     filtered.sort((a, b) => (a.title || "").localeCompare(b.title || "", "vi"));
   } else if (sortValue === "chapters") {
     filtered.sort((a, b) => getBookChapterCount(b) - getBookChapterCount(a));
+  } else if (sortValue === "random") {
+    filtered.sort(() => Math.random() - 0.5);  // Random order
   } else {
     filtered.sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
   }
@@ -1104,7 +1106,7 @@ function resetToHomeMode() {
 
   if (searchInput) searchInput.value = "";
   if (authorFilter) authorFilter.value = "";
-  if (sortSelect) sortSelect.value = "popular";
+  if (sortSelect) sortSelect.value = "random";  // Default to random
 
   updateCategoryActiveState();
 }
@@ -1336,9 +1338,8 @@ function renderFeaturedBook() {
 }
 
 function openFeaturedBook() {
-  if (!featuredBookId) {
-    renderFeaturedBook();
-  }
+  // Always render new random featured book
+  renderFeaturedBook();
 
   if (featuredBookId) {
     openBookFromList(featuredBookId);
@@ -1385,30 +1386,60 @@ async function loadBooks() {
 
     booksGrid.innerHTML = '<div class="empty-state">Đang tải truyện...</div>';
 
-    const booksIndexPaths = ["books-index-seo.json", "data/books-index.json", "books-index.json"];
-    let res = null;
-    let lastError = null;
+    // Try to load from chunks first (books-index-1.json, books-index-2.json, etc.)
+    let data = [];
+    let loadedFromChunks = false;
 
-    for (const path of booksIndexPaths) {
+    for (let i = 1; i <= 10; i++) {
       try {
-        const currentRes = await fetch(path, { cache: "no-store" });
-        if (currentRes.ok) {
-          res = currentRes;
+        const chunkPath = `books-index-${i}.json`;
+        const res = await fetch(chunkPath, { cache: "no-store" });
+        if (res.ok) {
+          const chunkData = await res.json();
+          if (Array.isArray(chunkData)) {
+            data.push(...chunkData);
+            loadedFromChunks = true;
+          }
+        } else {
+          // If chunk doesn't exist, try legacy path
           break;
         }
-        lastError = new Error(`${path} → HTTP ${currentRes.status}`);
       } catch (err) {
-        lastError = err;
+        if (i === 1) {
+          // First chunk failed, try legacy path
+          break;
+        }
       }
     }
 
-    if (!res) {
-      throw lastError || new Error("Không tìm thấy books-index.json");
+    // If no chunks found, try legacy books-index-seo.json
+    if (!loadedFromChunks) {
+      const booksIndexPaths = ["books-index-seo.json", "data/books-index.json", "books-index.json"];
+      let res = null;
+      let lastError = null;
+
+      for (const path of booksIndexPaths) {
+        try {
+          const currentRes = await fetch(path, { cache: "no-store" });
+          if (currentRes.ok) {
+            res = currentRes;
+            break;
+          }
+          lastError = new Error(`${path} → HTTP ${currentRes.status}`);
+        } catch (err) {
+          lastError = err;
+        }
+      }
+
+      if (!res) {
+        throw lastError || new Error("Không tìm thấy books-index");
+      }
+
+      data = await res.json();
     }
 
-    const data = await res.json();
     if (!Array.isArray(data)) {
-      throw new Error("books-index.json không phải mảng");
+      throw new Error("books-index không phải mảng");
     }
 
     books = data.map((book, index) =>
@@ -1426,12 +1457,16 @@ async function loadBooks() {
 
     renderCategoryControls();
     collapseCategoryExtrasByDefault();
+
+    // Reset featured book ID to ensure random on each load
+    featuredBookId = null;
     renderFeaturedBook();
+
     renderRandomRankings();
     renderBooks();
     handleRoute();
   } catch (error) {
-    console.error("Không tải được books-index.json:", error);
+    console.error("Không tải được books-index:", error);
 
     if (booksGrid) {
       booksGrid.innerHTML =
@@ -1834,6 +1869,16 @@ document.addEventListener("DOMContentLoaded", () => {
   applySavedReaderSettings();
   updateBooksPanelTitle();
   loadBooks();
+
+  // Handle GitHub Pages 404 redirect
+  const redirectPath = sessionStorage.getItem('redirectPath');
+  if (redirectPath) {
+    sessionStorage.removeItem('redirectPath');
+    // Replace history to show the correct URL
+    if (redirectPath !== '/') {
+      window.history.replaceState(null, '', redirectPath);
+    }
+  }
 
   lastScrollY = window.scrollY || 0;
   handleMobileTopbarScroll();
