@@ -137,6 +137,16 @@ html_template = """<!DOCTYPE html>
           </label>
         </div>
 
+        <div class="chapter-list-wrap">
+          <div class="chapter-list-head">
+            <div class="chapter-list-title">Danh sách chương</div>
+            <div class="chapter-list-tools">
+              <select id="chapterSelect" class="chapter-select"></select>
+            </div>
+          </div>
+          <div id="chapterList" class="chapter-list"></div>
+        </div>
+
         <div class="reader-body" id="readerBody"></div>
 
         <div class="reader-footer">
