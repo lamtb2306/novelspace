@@ -3,23 +3,106 @@ import json
 import os
 from pathlib import Path
 
-print("🚀 Generating static HTML files for all books...")
+print("🚀 Generating static HTML files with unique meta tags for all books...")
 print()
 
 # Load books index
 with open('books-index-seo.json', 'r', encoding='utf-8') as f:
     books = json.load(f)
 
-# Base HTML template
-html_template = """<!DOCTYPE html>
+print(f"📚 Total books to process: {len(books)}")
+print()
+
+def escape_html(text):
+    """Escape HTML special characters"""
+    if not text:
+        return ""
+    return (str(text)
+            .replace('&', '&amp;')
+            .replace('<', '&lt;')
+            .replace('>', '&gt;')
+            .replace('"', '&quot;')
+            .replace("'", '&#039;'))
+
+def generate_html_template(book):
+    """Generate HTML with unique meta tags for each book"""
+
+    book_id = book.get('id')
+    book_title = escape_html(book.get('title', 'Truyện không tiêu đề'))
+    book_author = escape_html(book.get('author', 'Tác giả không rõ'))
+    book_desc = escape_html(book.get('desc', ''))
+    book_cover = book.get('cover', 'images/default.jpg')
+    book_tags = book.get('tags', [])
+    seo_url = book.get('seoUrl', f'book-{book_id}')
+
+    # Tạo meta description ngắn (155 ký tự)
+    if book_desc:
+        meta_desc = (book_desc[:152] + "...") if len(book_desc) > 152 else book_desc
+    else:
+        meta_desc = f"Đọc {book_title} bởi {book_author} trên NovelSpace"
+
+    # URL của book
+    book_url = f"https://novel-space.com/truyen/{seo_url}/chuong-1"
+
+    # Tags JSON
+    tags_json = json.dumps(book_tags) if book_tags else "[]"
+
+    # JSON-LD structured data
+    json_ld = {
+        "@context": "https://schema.org",
+        "@type": "Book",
+        "name": book_title,
+        "author": {
+            "@type": "Person",
+            "name": book_author
+        },
+        "description": book_desc[:200] if book_desc else "",
+        "image": book_cover,
+        "url": book_url,
+        "genre": book_tags[:3] if book_tags else [],
+        "isAccessibleForFree": True,
+        "inLanguage": "vi"
+    }
+
+    json_ld_str = json.dumps(json_ld, ensure_ascii=False, indent=2)
+
+    html = f"""<!DOCTYPE html>
 <html lang="vi">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <base href="/" />
-  <title>NovelSpace - Đọc truyện online miễn phí</title>
-  <meta name="description" content="NovelSpace là kho truyện online miễn phí" />
+
+  <!-- Unique Meta Tags for this Book -->
+  <title>{book_title} - Chương 1 | NovelSpace</title>
+  <meta name="description" content="{meta_desc}" />
+  <meta name="keywords" content="{escape_html(', '.join(book_tags))}, đọc truyện, NovelSpace" />
+  <meta name="author" content="{book_author}" />
   <meta name="robots" content="index, follow" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="{book_url}" />
+
+  <!-- Open Graph Tags for Social Media -->
+  <meta property="og:title" content="{book_title}" />
+  <meta property="og:description" content="{meta_desc}" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="{book_url}" />
+  <meta property="og:image" content="{book_cover}" />
+  <meta property="og:site_name" content="NovelSpace" />
+
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{book_title}" />
+  <meta name="twitter:description" content="{meta_desc}" />
+  <meta name="twitter:image" content="{book_cover}" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+{json_ld_str}
+  </script>
+
+  <!-- Icons & Sitemap -->
   <link rel="icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" href="/favicon_180.png" />
   <link rel="sitemap" href="/sitemap.xml" />
@@ -165,8 +248,9 @@ html_template = """<!DOCTYPE html>
   <link rel="stylesheet" href="/style.css" />
   <script src="/script.js"></script>
 </body>
-</html>
-"""
+</html>"""
+
+    return html
 
 # Create directories and HTML files
 generated_count = 0
@@ -184,10 +268,13 @@ for book in books:
         dir_path = Path(f'truyen/{seo_url}/chuong-1')
         dir_path.mkdir(parents=True, exist_ok=True)
 
+        # Generate HTML with unique meta tags
+        html_content = generate_html_template(book)
+
         # Write index.html
         file_path = dir_path / 'index.html'
         with open(file_path, 'w', encoding='utf-8') as f:
-            f.write(html_template)
+            f.write(html_content)
 
         generated_count += 1
 
@@ -201,6 +288,15 @@ print()
 print("=" * 60)
 print(f"✅ DONE! Generated {generated_count} HTML files")
 print("=" * 60)
+print()
+print("📊 SEO Improvements:")
+print("   ✅ Unique titles for each book")
+print("   ✅ Unique meta descriptions")
+print("   ✅ Unique Open Graph tags")
+print("   ✅ Unique Twitter cards")
+print("   ✅ JSON-LD structured data per book")
+print("   ✅ Canonical URLs")
+print()
 
 if errors:
     print(f"⚠️  Errors: {len(errors)}")
@@ -210,10 +306,8 @@ if errors:
 print()
 print("📁 File structure:")
 print("   truyen/")
-print("   ├── book-1/chuong-1/index.html")
-print("   ├── book-2/chuong-1/index.html")
-print("   └── ... (9,134 directories)")
+print("   ├── book-1/chuong-1/index.html (with unique meta tags)")
+print("   ├── book-2/chuong-1/index.html (with unique meta tags)")
+print("   └── ... (9,134 directories with SEO optimization)")
 print()
-print("✨ Now you can access URLs directly:")
-print("   http://localhost:5500/truyen/book-1/chuong-1")
-print("   http://localhost:5500/truyen/book-9/chuong-1")
+print("🚀 Ready for Google indexing!")
