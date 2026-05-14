@@ -108,7 +108,7 @@ function isHomeOpen() {
 }
 
 function shouldUseMobileTopbarEffect() {
-  return isMobileView() && (isReaderOpen() || isHomeOpen());
+  return isReaderOpen() || isHomeOpen();
 }
 
 function closeMobilePanels() {
@@ -126,6 +126,8 @@ function closeMobileSubmenus() {
 
 function resetTopbarState() {
   document.body.classList.remove("reader-mobile", "topbar-hidden", "topbar-compact");
+  const topbarEl = document.querySelector(".topbar");
+  if (topbarEl) topbarEl.style.transform = "";
 }
 
 function getSearchSvg() {
@@ -246,52 +248,24 @@ function toggleMobileCategory(e) {
 function updateMobileTopbarOnScroll() {
   mobileTopbarTicking = false;
 
-  if (!shouldUseMobileTopbarEffect()) {
-    resetTopbarState();
-    closeMobilePanels();
-    updateMobileToggleState();
-    return;
-  }
-
-  document.body.classList.add("reader-mobile");
+  const topbarEl = document.querySelector(".topbar");
+  if (!topbarEl) return;
 
   const panelOpen =
     document.body.classList.contains("mobile-search-open") ||
     document.body.classList.contains("mobile-menu-open");
 
   const currentScrollY = window.scrollY || window.pageYOffset || 0;
-  const delta = currentScrollY - lastScrollY;
 
-  if (panelOpen) {
-    document.body.classList.remove("topbar-hidden");
-
-    if (currentScrollY <= 80) {
-      document.body.classList.remove("topbar-compact");
-    } else {
-      document.body.classList.add("topbar-compact");
-    }
-
+  if (panelOpen || currentScrollY <= 0) {
+    topbarEl.style.transform = "translateY(0)";
     lastScrollY = currentScrollY;
     return;
   }
 
-  if (currentScrollY <= 10) {
-    document.body.classList.remove("topbar-hidden", "topbar-compact");
-  } else if (currentScrollY <= 80) {
-    document.body.classList.add("topbar-compact");
-    document.body.classList.remove("topbar-hidden");
-  } else if (delta > 6) {
-    document.body.classList.add("topbar-hidden");
-    document.body.classList.add("topbar-compact");
-  } else if (delta < -6) {
-    document.body.classList.remove("topbar-hidden");
-
-    if (currentScrollY <= 80) {
-      document.body.classList.remove("topbar-compact");
-    } else {
-      document.body.classList.add("topbar-compact");
-    }
-  }
+  const topbarHeight = topbarEl.offsetHeight;
+  const hideOffset = Math.min(currentScrollY, topbarHeight);
+  topbarEl.style.transform = `translateY(-${hideOffset}px)`;
 
   lastScrollY = currentScrollY;
 }
@@ -311,7 +285,9 @@ function normalizeBook(fullBook, fallback = {}) {
           ? chapter.content
               .map((p) => String(p ?? "").trim())
               .filter((p) => p !== "")
-          : []
+          : [],
+        audio: chapter?.audio || chapter?.audioUrl || chapter?.audio_url || "",
+        video: chapter?.video || chapter?.videoUrl || chapter?.video_url || ""
       }))
     : [];
 
@@ -868,6 +844,54 @@ function renderBooks() {
   renderPagination(filtered.length);
 }
 
+
+function getChapterMediaUrl(chapter, type = "audio") {
+  if (!chapter || typeof chapter !== "object") return "";
+
+  const keys = type === "video"
+    ? ["video", "videoUrl", "video_url", "mediaVideo", "media_video"]
+    : ["audio", "audioUrl", "audio_url", "mediaAudio", "media_audio"];
+
+  for (const key of keys) {
+    const value = chapter[key];
+    if (typeof value === "string" && value.trim()) return value.trim();
+  }
+
+  return "";
+}
+
+function getChapterMediaHtml(chapter, chapterTitle) {
+  const audioUrl = getChapterMediaUrl(chapter, "audio");
+  const mediaTitle = `${currentBook?.title || "Truyện"} • ${chapterTitle}`;
+  const note = audioUrl ? "" : "Audio đang trong quá trình xử lý";
+  const badge = audioUrl ? "Audio" : "Demo audio";
+  const audioSrc = audioUrl ? ` src="${escapeHtml(audioUrl)}"` : "";
+
+  return `
+    <section class="chapter-media ${audioUrl ? "has-media" : "is-demo"}" id="chapterMedia">
+      <div class="chapter-media-head">
+        <div>
+          <div class="chapter-media-kicker">🎧 Nghe audio</div>
+          <div class="chapter-media-title" id="chapterMediaTitle">${escapeHtml(mediaTitle)}</div>
+        </div>
+        <span class="chapter-media-badge" id="chapterMediaBadge">${badge}</span>
+      </div>
+      <audio id="chapterAudio" class="chapter-audio" controls preload="metadata"${audioSrc}></audio>
+      <div class="chapter-media-note" id="chapterMediaNote">${escapeHtml(note)}</div>
+    </section>
+  `;
+}
+
+function scrollToChapterMedia() {
+  const media = document.getElementById("chapterMedia");
+  if (!media) return;
+
+  media.scrollIntoView({
+    behavior: "smooth",
+    block: "center"
+  });
+}
+
 function renderChapterChips() {
   if (!currentBook || !chapterList) return;
 
@@ -881,6 +905,14 @@ function renderChapterChips() {
   chip.className = "chapter-chip active";
   chip.textContent = chapter.title || `Chương ${currentChapterIndex + 1}`;
   chapterList.appendChild(chip);
+
+  const listenBtn = document.createElement("button");
+  listenBtn.className = "listen-chapter-btn";
+  listenBtn.type = "button";
+  listenBtn.textContent = "🎧 Nghe truyện";
+  listenBtn.setAttribute("aria-label", "Chuyển xuống trình phát audio của chương hiện tại");
+  listenBtn.addEventListener("click", scrollToChapterMedia);
+  chapterList.appendChild(listenBtn);
 }
 
 function renderChapterSelect() {
@@ -945,7 +977,7 @@ function openChapter(chapterIndex) {
 
   if (!chapter || typeof chapter !== "object") {
     readerMeta.textContent = `${currentBook.author || "Chưa rõ"} • Chương không hợp lệ`;
-    readerBody.innerHTML = "<p>Chương này bị lỗi dữ liệu.</p>";
+    readerBody.innerHTML = "<p>Chương này bị lỗi dữ liệu.</p>" + getChapterMediaHtml({}, "Chương lỗi");
 
     renderChapterChips();
     renderChapterSelect();
@@ -964,9 +996,11 @@ function openChapter(chapterIndex) {
         .filter((p) => p !== "")
     : [];
 
-  readerBody.innerHTML = contentArray.length
+  const contentHtml = contentArray.length
     ? contentArray.map((p) => `<p>${escapeHtml(p)}</p>`).join("")
     : "<p>Chương này chưa có nội dung.</p>";
+
+  readerBody.innerHTML = contentHtml + getChapterMediaHtml(chapter, chapterTitle);
 
   renderChapterChips();
   renderChapterSelect();
@@ -1605,6 +1639,7 @@ function bindEvents() {
 
   if (searchBtn) {
     searchBtn.addEventListener("click", () => {
+      if (isReaderOpen()) backHome();
       currentPage = 1;
       renderBooks();
       if (isMobileView()) {
@@ -1617,6 +1652,7 @@ function bindEvents() {
   if (searchInput) {
     searchInput.addEventListener("keydown", (e) => {
       if (e.key === "Enter") {
+        if (isReaderOpen()) backHome();
         currentPage = 1;
         renderBooks();
         if (isMobileView()) {

@@ -60,7 +60,7 @@ def render_chapter(book, chapter, idx, slug, total):
 
     book_url    = f"{BASE_URL}/truyen/{slug}/"
     chapter_url = f"{BASE_URL}/truyen/{slug}/chuong-{num}/"
-    reader_url  = f"{BASE_URL}/index.html#{slug}/chuong-{num}"
+    reader_url  = f"{BASE_URL}/truyen/{slug}/chuong-{num}"
 
     prev_btn = (f'<a class="nav-btn prev" href="../chuong-{idx}/">← Chương trước</a>'
                 if idx > 0 else "<span></span>")
@@ -156,8 +156,8 @@ def render_overview(book, slug, chapters):
     book_id    = book.get("id", "")
     total      = len(chapters)
 
-    book_url   = f"{BASE_URL}/{slug}/"
-    reader_url = f"{BASE_URL}/index.html#book-{book_id}-1"
+    book_url   = f"{BASE_URL}/truyen/{slug}/"
+    reader_url = f"{BASE_URL}/truyen/{slug}/chuong-1"
     tags_html  = "".join(f'<span class="tag">{esc(t)}</span>' for t in tags)
     tags_meta  = esc(", ".join(tags))
 
