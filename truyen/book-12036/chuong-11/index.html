@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Cổ Vương Trở Về">
   <meta name="twitter:description" content="Cần phải có người, đi thắp cho họ một ngọn đèn trường minh chứ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

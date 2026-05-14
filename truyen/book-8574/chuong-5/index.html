@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Chị Em Một Nhà, Kẻ Thù Một Kiếp">
   <meta name="twitter:description" content="Ba tôi tiếp lời: “Chuyển thẳng nhà máy sang tên Uyển Uyển là xong. Đổi chủ mới, đối tác cũng dễ nói chuyện hơn.” Tôi siết chặt tay: “Khi nào…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

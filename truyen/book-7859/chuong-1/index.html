@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Đời Một Người Một Quân Nhân">
   <meta name="twitter:description" content="Sau khi trọng sinh trở lại, tôi không vội đi lật mặt đôi cẩu nam nữ kia, mà là tắm rửa thật sạch sẽ, thơm ngát, rồi gõ cửa phòng của tên sĩ quan thô kệch mà kiếp trước tôi từng khinh thường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

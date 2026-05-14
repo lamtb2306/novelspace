@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | DÂY DƯA KHÔNG DỨT">
   <meta name="twitter:description" content="Tôi dĩ nhiên là muốn. Tôi muốn Lâm Khải lập tức biến mất khỏi tầm mắt tôi, tốt nhất là phát nổ ngay tại chỗ. Nhưng tôi có thể nói gì? Nói “Được đó sếp, mau giúp tôi đuổi hắn đi” sao? Dựa vào cái gì...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

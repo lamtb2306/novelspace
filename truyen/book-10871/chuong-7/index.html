@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Tỉnh Mộng">
   <meta name="twitter:description" content="Lòng tôi ấm lại nhưng vẫn lắc đầu: “Tôi không muốn làm anh lỡ dở. Ba năm hôn nhân vừa qua khiến tôi quá mệt mỏi, tạm thời tôi không nghĩ tới chuyện tình cảm.” “Vậy cứ làm bạn trước, rồi tính sau.” ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

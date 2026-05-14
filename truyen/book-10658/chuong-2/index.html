@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Bố mẹ lên Thượng Hải kiểm tra tài khoản tôi">
   <meta name="twitter:description" content="Cuối tuần, tôi hẹn bạn thân Dương Đình đi ăn. Cô ấy là bạn đại học của tôi, người Thượng Hải chính gốc, hiện đang làm bác sĩ ở một bệnh viện. “Lại bị gia đình thúc ép à?” Vừa nhìn vẻ mặt tôi, Dương...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

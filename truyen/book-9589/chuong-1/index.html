@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KHÁCH MỜI BÍ ẨN">
   <meta name="twitter:description" content="Tôi làm khách mời bí ẩn trong buổi hòa nhạc của đỉnh lưu. Khi màn hình quay được một đôi tình nhân, bọn họ lại từ chối hôn nhau, hoảng loạn tránh né ống kính. Đỉnh lưu trêu chọc: “Hai người xấu hổ ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

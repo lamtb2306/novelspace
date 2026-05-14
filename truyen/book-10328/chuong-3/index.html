@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Lâu Đài Cát Trong Cơn Mưa">
   <meta name="twitter:description" content="Tôi muốn dọn về sống ở nhà cũ, ở cạnh con mãi mãi. Nhưng khi tôi đang thu dọn hành lý chuẩn bị chuyển nhà, hàng xóm gọi điện đến: “Cô Lâm, cô mau về đi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

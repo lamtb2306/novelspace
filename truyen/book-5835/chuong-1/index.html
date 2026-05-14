@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đứa Con Hư Trở Về">
   <meta name="twitter:description" content="Tôi sinh ra đã là đứa con hư, trong máu đã chảy dòng tàn ác. Mẹ nuôi thiên vị, đưa cái đùi gà duy nhất trong nhà cho em trai, nói rằng nó học hành vất vả cần bồi bổ sức khỏe.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

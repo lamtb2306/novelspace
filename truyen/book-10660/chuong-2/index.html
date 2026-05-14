@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Đường Về Phủ Thôi">
   <meta name="twitter:description" content="Chuyện gì thế này? Huynh chẳng phải nói người ấy ôn hòa khiêm nhường, phẩm hạnh cao khiết đó sao? Sao mới gặp mặt, thuộc hạ bên cạnh hắn đã rút đao định chém đầu người ta? Ta đứng chết lặng tại chỗ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

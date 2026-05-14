@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | BẠN CÙNG PHÒNG KHÔNG TỒN TẠI">
   <meta name="twitter:description" content="Tôi không biết làm sao để phân biệt thực với ảo nữa. Tôi bắt đầu ghi âm vào ban đêm. Ghi âm suốt 7 tiếng khi tôi ngủ. Sáng hôm sau mở ra nghe. Trước một tiếng, không có gì. Tiếng hít thở của tôi, t...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

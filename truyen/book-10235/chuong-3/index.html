@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Hào Môn Giả Tạo”">
   <meta name="twitter:description" content="Tôi vào nhà, lục tủ tìm một cuốn giấy chứng nhận trước đây của mình. Trong ngăn bàn làm việc của bố, tôi nhìn thấy một phong bì giấy kraft. Phong bì chưa dán kín. Ban đầu tôi không định xem.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

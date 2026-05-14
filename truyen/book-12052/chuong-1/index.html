@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | THẦN GÀ CHÂN">
   <meta name="twitter:description" content="Con gà trống đen nhà tôi là báu vật của cả làng, ai cũng biết rõ ràng: con gà đó tuyệt đối không được ăn. Vậy mà nửa đêm, chị dâu tôi mất ngủ, cứ khăng khăng đòi ăn gà rán.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

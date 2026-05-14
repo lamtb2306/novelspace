@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Dạ Khúc Dã Thú">
   <meta name="twitter:description" content="Tôi bẩm sinh có khả năng nghe hiểu ngôn ngữ của động vật, là chuyên gia bảo tồn động vật hoang dã hàng đầu thế giới. Tôi nhận nhiệm vụ cải tạo sân sau biệt thự thành trạm trung chuyển cho thú dữ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

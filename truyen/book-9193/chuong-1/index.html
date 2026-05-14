@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thực Tập Sinh Trà Xanh Của Phòng Dự Án">
   <meta name="twitter:description" content="Thực tập sinh mới của công ty cực kỳ đam mê việc “lưu vết công việc”. Tôi viết bản kế hoạch dự án suốt cả tháng trời, cô ta mỗi ngày chỉ cần chụp một tấm ảnh màn hình máy tính tôi là có ngay “bằng ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

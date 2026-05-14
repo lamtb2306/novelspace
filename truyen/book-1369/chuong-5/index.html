@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Máy Rút Tiền Mang Tên Con Gái">
   <meta name="twitter:description" content="Nhà hàng yêu cầu tôi trả tiền. Tôi thẳng tay đưa số điện thoại luật sư, nhân viên thu ngân cũng không làm gì được tôi. Vì nguyên tắc thanh toán xưa nay luôn là: Ai đặt phòng thì người đó trả,hoặc a...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

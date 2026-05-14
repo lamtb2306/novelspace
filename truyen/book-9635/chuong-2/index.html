@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NỒI CHÁO TRẠNG NGUYÊN">
   <meta name="twitter:description" content="Mãi đến khi tôi chết, Tôi mới biết — tất cả là do hệ thống cướp điểm của Cố Doanh gây ra. Nghĩ tới điểm số của mình, tôi lập tức lạnh mặt, đẩy hộp thuốc cảm ra xa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

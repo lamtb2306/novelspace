@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CÂY BÚT ĐỔI SỐ PHẬN">
   <meta name="twitter:description" content="Vừa thấy tôi, cô ta liền rơm rớm nước mắt: “Tiểu Khê, cậu đã đi đâu vậy? Bọn tớ tìm cậu ba ngày ba đêm…” Cô ta vừa khóc vừa chỉ vào vết trầy trên cổ tay tôi: “Cậu bị thương rồi?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

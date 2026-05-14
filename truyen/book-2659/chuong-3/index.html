@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chúng Ta Của Sau Này Không Còn Là Chúng Ta">
   <meta name="twitter:description" content="Vì nể mặt cấp trên, tôi buộc phải chỉnh đốn lại bản thân để quay về nơi làm việc. Mỗi ngày gắng gượng tinh thần, đi làm trâu ngựa cho người khác.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

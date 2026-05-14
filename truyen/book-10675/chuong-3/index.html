@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Người Ngoài Trong Nhà Mình">
   <meta name="twitter:description" content="“Bố, bố thấy sao rồi ạ?” Bố liếc nhìn tôi một cái, hừ nhẹ, quay mặt sang chỗ khác. “Còn biết đường mà về à?” Mẹ đặt dao gọt xuống, vẻ mặt phức tạp. Có chút vui mừng, nhưng nhiều hơn là trách móc. “...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

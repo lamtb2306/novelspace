@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Màn Kịch Ngày Cưới">
   <meta name="twitter:description" content="Tết Trung Thu, trên đường đến nhà chồng sắp cưới để bàn chuyện hôn lễ, tôi vô tình lướt thấy một bài đăng trong hội nhóm cùng thành phố: “Con dâu tương lai chuẩn bị về ra mắt, làm sao để nắm thóp n...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

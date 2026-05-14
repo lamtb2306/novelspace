@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Mẹ Không Phải Mẹ Tôi">
   <meta name="twitter:description" content="Tôi trả cái túi Mẹ để quên hôm qua cho Châu Chiêu: “Con yên tâm, con sẽ không để mẹ bị tổn thương thêm lần nào nữa.” Hầu như không do dự, tôi quay người chạy lại câu lạc bộ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

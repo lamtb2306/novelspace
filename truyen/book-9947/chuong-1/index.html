@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CÔ GÁI BỊ ĐÁNH CẮP TƯƠNG LAI">
   <meta name="twitter:description" content="Trước khi chết tôi mới biết, trong lòng chồng tôi chỉ có mỗi cô “hoa khôi thôn” tên Tô Kiều Kiều. Bọn họ ôm nhau khóc lóc ngay trước giường bệnh của tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

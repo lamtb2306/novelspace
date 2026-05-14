@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | ANH TRAO TOÀN BỘ TÀI SẢN CHO TÌNH ĐẦU">
   <meta name="twitter:description" content="Tôi gật đầu, bước đến bên khung cửa sổ sát đất, nhìn xuống thành phố xe cộ đông đúc phía dưới. “Giang Xuyên tới chưa?” “Vừa tới dưới sảnh, đang làm thủ tục đăng ký khách.” – Chị Trần đáp, giọng đầy...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Người Anh Nuối Tiếc Không Phải Tôi">
   <meta name="twitter:description" content="“Anh chỉ bảo em đến lấy đồ, ai cho em đổi ảnh cưới của anh, còn thay mật khẩu nhà nữa? Đây là nhà của anh và Vân Hi, em hiểu không?” “Sao? Anh không thích tấm ảnh kia à? Vậy em đổi tấm khác, đảm bả...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

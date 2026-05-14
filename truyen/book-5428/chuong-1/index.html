@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TỜ VÉ SỔ THẤU LÒNG NGƯỜI">
   <meta name="twitter:description" content="Hôm đó, tôi dắt cháu đi dạo phố, tiện tay mua một tờ vé số. Tối hôm sau, kết quả được công bố – tôi trúng hai mươi triệu tệ! Vui mừng khôn xiết, tôi chạy về phòng ngủ định báo tin vui cho chồng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

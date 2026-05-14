@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Nơi Tôi Thuộc Về">
   <meta name="twitter:description" content="Ông không hỏi nhiều về chuyện trong nhà tôi. Chỉ đưa cho tôi một túi hồ sơ giấy kraft dày cộp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

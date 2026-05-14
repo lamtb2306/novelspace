@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Tái Ngộ Sau Nhiều Năm Tìm Kiếm">
   <meta name="twitter:description" content="Ban đầu tôi tính kiếm cớ trốn về sớm, ai ngờ chưa kịp mở miệng đã bị quản lý gọi trúng tên. “Dữu Dữu, lần này cậu nhất định phải đi đó nhé! Tổng Giám đốc Vương nói rõ ràng là bữa tiệc hôm nay là ti...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

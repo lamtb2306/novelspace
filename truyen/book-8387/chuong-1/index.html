@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Từ Ăn Mày Thành Mẫu Nghi Thiên Hạ">
   <meta name="twitter:description" content="Hồi nhỏ, mẫu thân luôn miệng nói nhà mình nghèo lắm. Bà bắt ta mặc áo gai chắp vá, đi giày vải thủng lỗ, ăn thức ăn thừa canh cặn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

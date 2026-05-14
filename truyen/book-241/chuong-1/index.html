@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mười Đứa Con và Lời Hứa">
   <meta name="twitter:description" content="Ngày ký đơn ly hôn, tôi nhìn thấy trên đầu chồng mình bay qua một dòng chữ: 【Không được, tuyệt đối không thể ly hôn! Khó khăn lắm mới lừa được một người có thể sinh con, ly rồi ai sinh cho tôi mười...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

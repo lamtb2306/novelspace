@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Chiếc Đùi Gà Của Tôi">
   <meta name="twitter:description" content="Tại sao hai người họ ăn nhiều nhất, một người thì được ra ngoài chơi, một người chỉ cần cười nói với mẹ, còn việc nhà lại đổ hết lên đầu tôi? Tại sao tôi trong nhà này lúc nào cũng là kẻ thấp nhất?...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

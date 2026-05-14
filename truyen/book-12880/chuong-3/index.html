@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Khi Tiểu Tam Lên Ngôi">
   <meta name="twitter:description" content="Lý Tư Tư… cái tên này, tôi từng nghe rồi. Trong giấc ngủ của Giang Cảnh Uyên… Đêm hôm đó, sau khi quấn quýt bên tôi thật lâu, anh ôm tôi ngủ say. Còn tôi chẳng thể chợp mắt, nửa đêm mơ hồ nghe thấy...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

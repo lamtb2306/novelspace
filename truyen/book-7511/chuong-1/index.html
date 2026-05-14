@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mùng Một Tết, Tôi Bắt Gian Chồng Trên Ban Công">
   <meta name="twitter:description" content="Mùng một Tết, tôi đang bận rộn tiếp khách thì phát hiện chồng mình biến mất.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

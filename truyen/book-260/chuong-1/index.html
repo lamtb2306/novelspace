@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thiên Kim Thật Giả">
   <meta name="twitter:description" content="Tôi và cô bạn thân đều là “thiên kim thật” bị thất lạc bên ngoài. Sau khi được đón về, chúng tôi luôn giữ liên lạc, cái gì cũng kể cho nhau nghe. Tôi nói mình được cả nhà cưng như trứng: ba yêu, mẹ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

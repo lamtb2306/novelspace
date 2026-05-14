@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Cái Bát, Hai Triệu Tội Danh">
   <meta name="twitter:description" content="Tôi mở một trạm thu mua phế liệu, làm ăn vô cùng bổn phận. Không trộm không cướp, nguồn gốc đăng ký rõ ràng, sạch sẽ quy củ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

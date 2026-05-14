@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | NỮ TẾ ĐỘNG THẦN">
   <meta name="twitter:description" content="“Chờ mọi chuyện xong xuôi, anh sẽ đưa em lên tỉnh.” “Còn chị em em… dù sao cô ấy cũng chẳng có hiểu biết gì, sống cả đời trong làng là hợp rồi.” Thì ra, đây mới là sự thật.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

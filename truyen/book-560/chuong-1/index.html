@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | THIÊN KIM ĐỘC MIỆNG">
   <meta name="twitter:description" content="Tôi là một người bình thường nhưng cực kỳ độc miệng. Hàng xóm thường xuyên vứt rác trước cửa nhà tôi, tôi liền trong một đêm dọn cả trạm rác đặt ngay dưới cửa sổ nhà bà ta, suýt nữa khiến bà ta bị ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

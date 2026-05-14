@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Người Gọi Tôi Là Cả Thế Giới, Giờ Gọi Tôi Là Kẻ Thứ Ba">
   <meta name="twitter:description" content="Bạn thân của cô ta cười khinh bỉ: “Vì chuyện gì mà vào tù vậy?” “Không phải là đánh nhau với chính thất bị bắt à?” “Dù sao cũng có tiền sử làm ‘trà xanh nam tính’, loại không có giới hạn thì làm gá...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

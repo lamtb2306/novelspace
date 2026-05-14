@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | GIANG TẦM">
   <meta name="twitter:description" content="Tôi mở hệ thống tra cứu điểm thi, bên cạnh là mẹ đang ngồi cùng. Khoảnh khắc điểm thi được công bố, tôi thở phào nhẹ nhõm. Mẹ ôm lấy tôi đầy tự hào: “Con gái ngoan, con giỏi lắm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

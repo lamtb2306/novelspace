@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | HỌC BÁ LỚP HOÀNG KIM">
   <meta name="twitter:description" content="Hy vọng trong tôi tan biến ngay lập tức. Tôi ngẩn ngơ nhìn chiếc bánh bao lăn lóc trên đất — đó là bữa ăn duy nhất của tôi trong ngày.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

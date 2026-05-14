@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mẹ Chỉ Thương Người Giống Mẹ">
   <meta name="twitter:description" content="Vì tôi trông giống người cha đã ngoại tình, mẹ tôi ghét tôi suốt mười tám năm. Ngày khai giảng, bà đưa cho tôi một chiếc hộp mù: “Tiền sinh hoạt tháng này, tự mở đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

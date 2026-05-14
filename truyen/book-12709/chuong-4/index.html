@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | CÁI GIÁ CỦA LÒNG TỐT">
   <meta name="twitter:description" content="Tôi thấy qua camera, hắn lập tức rút điện thoại ra, mở danh bạ tìm số của tôi. Nhưng tôi đã chặn toàn bộ liên lạc, hắn không thể tìm thấy bất cứ thông tin gì.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

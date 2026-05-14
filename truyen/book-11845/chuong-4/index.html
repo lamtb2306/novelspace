@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Cô Gái Không Nhà">
   <meta name="twitter:description" content="Tôi do dự giây lát, rồi bắt máy. “Giang Nam! Mày là đồ vô ơn! Mày dám chặn số tao?!” Là dì Giang Tần. Bà ta đổi số khác để gọi tới, giọng điệu tức đến run người. “Mày có biết giờ anh mày ra sao khô...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

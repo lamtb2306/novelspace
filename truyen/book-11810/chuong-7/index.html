@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Ly Hôn Tay Trắng, Nhưng Tài Khoản Có 5 Triệu">
   <meta name="twitter:description" content="Tôi đứng một lúc, gọi taxi đến bệnh viện. Dưới lầu mua một giỏ trái cây, lên trên. Phòng 302, phòng ba giường. Mẹ tôi nằm giường sát cửa sổ, tay đang truyền dịch. Bố tôi ngồi bên giường, gật gù ngủ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | SÍNH LỄ VÀ LÒNG THAM">
   <meta name="twitter:description" content="Nói là mượn, thực ra là cho không. Thấy tôi không phản ứng gì, mẹ liếc mắt ra hiệu cho ba.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

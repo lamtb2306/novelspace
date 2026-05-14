@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thanh Mai Không Còn Đợi Trúc Mã">
   <meta name="twitter:description" content="Thi xong đại học, tôi và thanh mai trúc mã đã hẹn nhau đi du lịch tốt nghiệp. Nhưng khi tôi đang vội vã chạy ra sân bay, lại phát hiện vé máy bay của mình đột nhiên bị hủy. Tôi còn đang ngơ ngác th...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

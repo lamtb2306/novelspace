@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI KHÔNG LẤY NGƯỜI HIỀN LÀNH">
   <meta name="twitter:description" content="Bốn mươi năm trước, mẹ tôi đốt giấy báo trúng tuyển đại học của tôi, chỉ để tôi lấy một người đàn ông thật thà trong làng. Anh ta không có chính kiến, không có cá tính, chuyện gì cũng nghe theo tôi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

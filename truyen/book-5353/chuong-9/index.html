@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Tôi Lớn Lên Trong Một Gia Đình Ma">
   <meta name="twitter:description" content="Sắp trở về địa phủ — nơi mà tôi hoàn toàn xa lạ — để tiếp tục làm Tần Quảng Vương? Vậy còn tôi thì sao? Sau này… chúng tôi còn có thể gặp lại không? Như đọc được suy nghĩ của tôi, ba tôi quay lại, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

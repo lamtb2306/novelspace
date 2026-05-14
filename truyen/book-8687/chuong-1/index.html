@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tấm Thiệp Viết Nhầm">
   <meta name="twitter:description" content="Năm thứ mười sau khi được nhận lại về nhà, tôi đã đưa doanh nghiệp gia đình lên một tầm cao mới. Gia đình đặc biệt chuẩn bị quà cho tôi, nói là để ăn mừng một chút. Rượu quá tam tuần, cơm no rượu s...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

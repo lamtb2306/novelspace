@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ngày Đầy Tháng Con, Tôi Hất Tung Cả Bàn Tiệc">
   <meta name="twitter:description" content="Tiệc đầy tháng con thứ hai, chồng tôi bao trọn căn phòng lớn nhất của khách sạn, mời tới hai mươi bàn khách. Anh bế đứa con vừa tròn tháng, nâng ly bắt đầu mời rượu. “Ly thứ nhất, kính bố mẹ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

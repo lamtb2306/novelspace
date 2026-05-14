@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Trứng Cháy">
   <meta name="twitter:description" content="Giọng mẹ vẫn tiếp tục: “Hay lắm, cứng cáp rồi hả? Có giỏi… thì đừng quay về.” Tôi không quay đầu lại, cho đến khi kéo vali ra khỏi cổng khu chung cư, cảm xúc đè nén trong lòng mới được chút giải tỏa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

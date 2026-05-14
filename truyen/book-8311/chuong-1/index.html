@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BẢY NĂM KHÔNG NGHI NGỜ">
   <meta name="twitter:description" content="Chồng tôi là một người đàn ông rất chu đáo. Mỗi tối thứ Sáu hằng tuần, anh ấy đều giúp tôi “nắn xương”, nói là để điều chỉnh khung chậu. Lưng tôi không còn đau nữa, người cũng nhẹ nhõm hơn, tôi cảm...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

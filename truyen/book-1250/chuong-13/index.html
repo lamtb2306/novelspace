@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 13 | Hào Môn Cá Mặn">
   <meta name="twitter:description" content="Họ lập cho tôi hẳn một “profile” và “kế hoạch nội dung” chi tiết. Nói đơn giản: tiếp tục lười biếng, nhưng phải lười theo cách sang chảnh, lười theo cách tinh tế, lười sao cho có lợi cho hình ảnh T...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

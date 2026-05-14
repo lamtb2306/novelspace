@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BÔNG HỒNG ĐỎ">
   <meta name="twitter:description" content="Ngày đầu tiên trở về nước, tôi bắt gặp một người đàn ông trong thư phòng của cha. Cha nói, hắn là người mà cả nhà chúng tôi đều phải nịnh bợ, trong tay nắm giữ những tài nguyên có thể quyết định sự...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cái Cân Trong Phòng Ngủ">
   <meta name="twitter:description" content="Vài ngày trước khi dọn vào nhà mới, tôi vô tình lướt thấy một bài đăng: 【Con gái sinh ngày 10/10, con trai sinh ngày 31/12, làm sao đặt mật khẩu cửa nhà mà bao gồm được cả sinh nhật hai đứa?】 【Lưu ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

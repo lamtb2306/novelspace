@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐỪNG MỞ CỬA">
   <meta name="twitter:description" content="Lúc mười một rưỡi đêm, tôi đặt một đơn đồ ăn ngoài. Đang chuẩn bị ra mở cửa nhận thì điện thoại bất ngờ rung lên. “Đừng mở cửa!” “Đừng mở cửa!” “Đừng mở cửa!” Ba tin nhắn có nội dung giống hệt nhau...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

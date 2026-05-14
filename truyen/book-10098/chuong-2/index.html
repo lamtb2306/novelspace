@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Rời đi trong mưa">
   <meta name="twitter:description" content="Thật là một gia đình ba người hạnh phúc. Tôi chợt lên tiếng: “Sao chuyện họp phụ huynh tôi chưa từng nghe ai nói đến?” Vì sự xuất hiện của tôi, nụ cười trên mặt mọi người lập tức biến mất.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

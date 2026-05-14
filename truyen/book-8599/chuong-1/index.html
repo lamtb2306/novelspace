@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BẤT NGỜ CHO HAI BÁC">
   <meta name="twitter:description" content="Tết về quê, mẹ tôi hỏi: “Con đi đăng ký kết hôn rồi mà sao không nói với gia đình?” Cố Dục giải thích: “Khương Viện nói muốn dành cho hai bác một bất ngờ ạ.” Đợi người ta đi rồi, anh ta kéo tôi lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

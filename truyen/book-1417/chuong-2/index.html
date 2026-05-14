@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NGƯỜI LẠ MỘT TUẦN">
   <meta name="twitter:description" content="Tôi không ngờ Châu Tố lại ngất đi. Chẳng lẽ sáng nay anh bị bệnh mà không uống thuốc? Gọi xe cấp cứu thì hơi làm quá. Cô trợ lý một mình không thể đỡ được anh, chỉ có thể nhờ tôi giúp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Lòng Người Sau Một Lần Chuyển Khoản">
   <meta name="twitter:description" content="Một tuần trước, nó đăng một dòng trạng thái: “Haiz, sống mệt mỏi thật.” Ảnh kèm theo là ảnh chụp màn hình số dư thẻ ngân hàng, con số dừng ở mức hơn 300 tệ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

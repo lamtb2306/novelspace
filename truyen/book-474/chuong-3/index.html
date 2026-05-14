@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Món Quà Cưới Tôi Tặng Chị Dâu">
   <meta name="twitter:description" content="Chẳng bao lâu sau, điện thoại tôi đổ chuông. Là anh trai gọi. Tôi do dự vài giây, rồi vẫn bắt máy. Giọng anh nghẹn đầy giận dữ: “Lâm Khê! Chuyện này là sao hả?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

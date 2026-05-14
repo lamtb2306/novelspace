@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Giải Thoát">
   <meta name="twitter:description" content="“Người một nhà?” Tôi nhìn bà. “Thế tại sao mỗi lần có chuyện, người bị đem ra hy sinh luôn là tôi?” Bà bị tôi hỏi cho á khẩu. Tôi tiếp tục: “Ba năm qua, con trai bà làm việc không thuận, tôi đi nhờ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

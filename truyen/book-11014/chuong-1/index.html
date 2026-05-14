@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tôi Và Vị Hôn Phu Cùng Nhau Vặt Lông Cừu Bạn Cùng Phòng">
   <meta name="twitter:description" content="Tôi đã bị trói buộc với hệ thống phát tài từ lời nói dối. Ai nói dối tôi một câu, tôi sẽ nhận được 10.000 tệ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thiếu Gia Lưu Lạc">
   <meta name="twitter:description" content="Đêm ấy, lửa cháy đỏ nửa bầu trời. Ngay khoảnh khắc chiếu chỉ tịch biên phủ đệ được ban xuống, ta đang đốt lửa trong hậu trù. Ngọn lửa trong bếp lò liếm lên cành khô, phát ra tiếng lách tách.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

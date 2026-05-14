@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Chân Tướng Chuyến Bay XX">
   <meta name="twitter:description" content="Một tiếng sét ngang trời. Lời vừa dứt, cả khoang máy bay bùng nổ: “Thật không vậy? Đây đâu phải diễn tập nhỉ?!” “Diễn gì mà diễn, nhìn máu me bê bết thế kia kìa!” “Trời ơi, bà mẹ này đúng là xui xẻ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

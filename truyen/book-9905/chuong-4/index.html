@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | KHÔNG CÒN LÀ DÂU HỌ THẨM">
   <meta name="twitter:description" content="Nhưng đúng lúc tôi đang đau đớn xử lý những chuyện này. Thẩm Yến, người mà tôi đã gọi hàng chục cuộc điện thoại, cuối cùng cũng gửi cho tôi một tin nhắn WeChat.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

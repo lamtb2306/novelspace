@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Trò Chơi Chia Điểm">
   <meta name="twitter:description" content="Cô ta quay người chạy thẳng lên sân thượng của tòa nhà gần nhất. Thịnh Trác sững lại một giây, rồi vội đến mức đỏ bừng cả mặt. “Còn đứng đó làm gì! Đuổi theo đi!!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

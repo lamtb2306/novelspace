@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Một Bát Cháo Mặn Cho Trà Xanh">
   <meta name="twitter:description" content="Tôi nhướng mày, giọng nói đầy khinh miệt, “Rõ cho tôi, căn nhà này mang họ gì!” Tôi đưa tay chỉ vào xấp giấy tờ trên bàn, giọng dứt khoát, “Trên sổ đỏ ghi tên là Thẩm Thanh Hoan.” “Chủ của căn nhà ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

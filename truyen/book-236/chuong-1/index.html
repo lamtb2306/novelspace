@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KỶ NIỆM MỘT NĂM BÊN NHAU">
   <meta name="twitter:description" content="Tối sinh nhật của tôi, bạn trai nói anh ấy có việc phải tăng ca.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trận Chiến Hai Nghìn Tệ">
   <meta name="twitter:description" content="Mẹ tôi năm nay sáu mươi lăm tuổi. Tôi muốn mỗi tháng gửi cho mẹ hai nghìn tệ làm sinh hoạt phí, nhưng chồng tôi – Lâm Diễn – lại lấy lý do “chi tiêu không thiết yếu” để bác bỏ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

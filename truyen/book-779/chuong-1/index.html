@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nữ Sinh Bạch Phát">
   <meta name="twitter:description" content="Ngày đầu tiên huấn luyện quân sự, bạn cùng phòng là Trương Nhã nhìn thấy mái tóc trắng xóa của tôi liền bắt đầu mỉa mai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

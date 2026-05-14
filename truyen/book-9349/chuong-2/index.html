@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | LỜI TẠM BIỆT ĐẮNG CAY">
   <meta name="twitter:description" content="Tôi đứng bên cửa sổ, nhìn xe anh quay đầu rời đi. Mở máy tính, đăng nhập phần mềm, toàn bộ tin nhắn từ điện thoại của Tạ Chi Trầm và Hà Kiều lần lượt hiện ra.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

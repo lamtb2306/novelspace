@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CĂN NHÀ THÔNG MINH">
   <meta name="twitter:description" content="Ngồi phệt xuống đất, vừa đập đùi vừa gào khóc: “Mọi người đến phân xử giúp tôi với!” “Tên dân tỉnh này ức hiếp mẹ con góa phụ tôi đây này!” “Ở nhà tôi mà còn muốn dọn sạch đồ nhà tôi mang đi này!” ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

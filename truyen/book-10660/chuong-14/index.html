@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 14 | Đường Về Phủ Thôi">
   <meta name="twitter:description" content="Dần dần, không ai còn dám mời ta đi xem mắt nữa. Lúc đầu, huynh còn chưa hiểu tại sao. Về sau, hắn mới vỡ lẽ: “Tốt lắm, cái tên lưu manh này!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

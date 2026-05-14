@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Đứa Con Không Ai Muốn">
   <meta name="twitter:description" content="“Máy chơi game mới của con mất rồi! Đều tại chị ta!” “Trời biết đất biết, tôi chưa từng nói gì với bà ngoại.” Tôi lộ vẻ châm biếm. “Không biết à? Lừa ai vậy!” Bố hoàn toàn không tin. “Mày không biế...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

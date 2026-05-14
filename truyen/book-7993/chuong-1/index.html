@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Lắng nghe tuyết rơi">
   <meta name="twitter:description" content="Tô Tang Duyệt đứng trước máy tra cứu tự động của Cục Dân chính thành phố, Thông tin chuyển nhượng bất động sản hiện lên trên màn hình, như một cái tát vô hình giáng mạnh vào mặt cô.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

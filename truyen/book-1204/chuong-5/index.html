@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | EM LÀ SINH MẠNG CỦA TÔI">
   <meta name="twitter:description" content="Tôi gần như bật dậy khỏi giường, đến cả đồ ngủ cũng không kịp thay, vội khoác đại chiếc áo lông vũ rồi lao ra khỏi cửa. Khi xuống dưới, tôi mới phát hiện bên ngoài đang có tuyết rơi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

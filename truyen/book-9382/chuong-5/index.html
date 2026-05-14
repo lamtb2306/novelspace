@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | TỰ YÊU CHÍNH MÌNH">
   <meta name="twitter:description" content="TỰ YÊU CHÍNH MÌNH FUll Cô kể cho tôi nghe nhiều chuyện về Chu Khải. Ví dụ như nửa tháng qua anh ta đã sụt tới 10kg. Ví dụ như mỗi ngày, anh đều quay lại những nơi chúng tôi từng cùng đến, chỉ mong ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

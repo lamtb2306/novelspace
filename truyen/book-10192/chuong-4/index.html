@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | HAI CON ĐƯỜNG KHÁC BIỆT">
   <meta name="twitter:description" content="Giám đốc do dự một chút, giọng trầm xuống: “Cô với Tiểu Lục… có phải cãi nhau rồi không?” “Không có, không cãi nhau.” “Ha ha, vậy thì tốt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

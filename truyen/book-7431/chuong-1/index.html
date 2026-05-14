@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cả Nhà Đòi Hầu Tôi">
   <meta name="twitter:description" content="Ngày thứ ba sau khi sinh, tôi đang ở trung tâm dưỡng sinh thì mẹ bất ngờ xách theo mấy túi lớn đồ ăn, đồ dùng bước vào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

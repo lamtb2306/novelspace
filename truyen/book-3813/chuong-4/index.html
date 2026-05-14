@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Món Quà Đổi Lấy Giấy Nợ">
   <meta name="twitter:description" content="Nói xong, nó mở ngay trang web của trường: “Chị xem đi, đây là danh sách học bổng trên web Thanh Bắc! Năm nào chị cũng có tên!” “Tôi tính rồi, trong tay chị ít nhất còn ba vạn!” Cả nhà thoáng lặng ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

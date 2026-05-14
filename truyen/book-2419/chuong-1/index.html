@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHÚ NHỎ CỦA TÔI">
   <meta name="twitter:description" content="Người chú nhỏ hung dữ của tôi lần thứ N ngăn cản tôi yêu sớm. Tôi tức giận, định chuốc thuốc mê anh ta rồi cùng bạn trai bỏ trốn, nhưng đúng lúc ấy, một loạt bình luận bỗng tràn ngập trước mắt tôi:...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CHƯA TỪNG QUAY ĐẦU">
   <meta name="twitter:description" content="Lần đầu tiên, tôi nhận ra một cách rõ ràng đến vậy: Niềm vui của tôi, thành tựu của tôi, “khoảnh khắc quan trọng” của tôi… So với “cơ hội quan trọng” của anh, thì có thể bị dời lại, và “bù đắp” bằn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

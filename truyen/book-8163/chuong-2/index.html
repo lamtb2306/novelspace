@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Trở Lại Ngày Nhặt Tờ Giấy Đỏ">
   <meta name="twitter:description" content="Nhưng nhà thì vui như hội, không hề có một chút đau buồn nào vì cái chết của tôi. Mẹ tôi thậm chí còn thấy nhẹ nhõm. Bởi vì tôi chết, nên toàn bộ tài sản trong nhà có thể danh chính ngôn thuận chuy...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

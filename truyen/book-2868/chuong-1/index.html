@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cô Gái Trì Thị">
   <meta name="twitter:description" content="Vào năm thứ mười tám sau khi được nhà họ Giản nhận nuôi, tôi đã đưa đứa con ruột thật sự của họ trở về.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

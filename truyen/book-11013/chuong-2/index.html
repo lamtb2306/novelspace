@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TỈNH YÊU NĂM MƯỜI BẢY TUỔI">
   <meta name="twitter:description" content="Tôi mua vé tàu cao tốc sớm nhất, tâm trạng rất nhẹ nhõm. Tám năm qua, không có ngày nào, tôi cảm thấy nhẹ nhõm hơn lúc này. Tôi ngắm cảnh đẹp ngoài cửa sổ, cười nói với cặp đôi ngồi bên cạnh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

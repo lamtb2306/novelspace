@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Anh Chọn Khoa Học, Tôi Chọn Tự Do">
   <meta name="twitter:description" content="Trở về nhà, đối mặt với căn phòng trống trải và bụi bặm, anh lười bật hết đèn, chỉ bật mỗi đèn bàn trong thư phòng. Ngồi vào bàn làm việc, cố gắng tiếp tục nghiên cứu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

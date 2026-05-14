@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | MƯỜI NĂM TRONG TẦM NGẮM">
   <meta name="twitter:description" content="Tôi ôm gấu, đi về phía cổng Nam. Nhà hàng “Ngân Hà” nằm ở phía nam khu vui chơi, là nhà hàng xoay, khá nổi tiếng. Tôi báo tên Lục Tiêu, nhân viên quả nhiên dẫn tôi đến một chỗ đã được đặt sẵn. Bàn ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

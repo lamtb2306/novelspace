@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÌNH YÊU CỦA THIẾU TÁ">
   <meta name="twitter:description" content="Ngày tôi xuất cảnh, Lục Tẫn Dã liên tiếp vượt qua ba trạm gác quân khu, vậy mà vẫn không kịp ngăn tôi lên máy bay. Anh ta phát điên nhắn tin cho tôi liên tục: “Em đang làm loạn cái gì vậy?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

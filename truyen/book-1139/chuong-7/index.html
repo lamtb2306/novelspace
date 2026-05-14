@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Coi Tôi Là Người Ngoài? Vậy Đừng Mong Tôi Ký Tên">
   <meta name="twitter:description" content="Thấy tôi, mẹ tôi lao tới. “Tri Hạ! Con đến rồi!” Bà nắm chặt tay tôi, nước mắt tuôn rơi. “Bố con… sắp không qua khỏi rồi…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

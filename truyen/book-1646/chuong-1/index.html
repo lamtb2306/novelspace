@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tuần Trăng Mật Chết Tiệt">
   <meta name="twitter:description" content="Sau lễ cưới, tôi và Lâm Triết tự lái xe đi nghỉ tuần trăng mật ở Nam Đảo. Nhưng anh ta lại lái xe đến thẳng trước cổng nhà hỏa táng, đón cô học trò cưng của mình – Hứa Thiến.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

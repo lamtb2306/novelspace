@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Hy Vọng Của Chị, Gông Xiềng Của Tôi">
   <meta name="twitter:description" content="Là những người bạn của tôi — hôm nay chúng tôi đã hẹn nhau đi xem chung kết piano.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

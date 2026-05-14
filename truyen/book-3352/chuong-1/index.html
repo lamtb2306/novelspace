@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KHI TÔI GỌI NGƯỜI YÊU LÀ ĐỒ KHỐN">
   <meta name="twitter:description" content="Người yêu online của tôi siêu giàu. Mỗi lần bị ông sếp vô lương tâm bắt nạt, anh ấy lại chuyển khoản cho tôi để dỗ. Cho đến lần tăng ca tiếp theo, tôi chịu hết nổi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KẾT THÚC GỌN GÀNG">
   <meta name="twitter:description" content="Tôi chia tay rồi. Tôi ôm con mèo của bạn trai cũ, đăng video lên tài khoản phụ trên Douyin.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

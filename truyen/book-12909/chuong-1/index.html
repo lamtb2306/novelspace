@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bữa Tiệc Vạch Mặt Kẻ Vô Ơn">
   <meta name="twitter:description" content="Tôi chia sẻ một đường link gom mua trái cây trong nhóm gia đình, chỉ muốn tìm người ghép đơn cho rẻ, không ngờ đứa cháu vừa mới du học về—Ôn Hạo—đột nhiên nhắn riêng tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

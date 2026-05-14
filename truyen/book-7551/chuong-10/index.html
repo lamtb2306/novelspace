@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | ALBUM KHÔNG CÓ TÔI">
   <meta name="twitter:description" content="Hôm đó tôi ngồi dưới ánh đèn dầu, tỉ mỉ thêu đôi giày cho anh ta. Còn anh ta thì liếc qua một cái, lạnh nhạt buông một câu: “Xấu quá.” Nói xong, anh ta quay đầu đi thẳng, không thèm nhìn lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

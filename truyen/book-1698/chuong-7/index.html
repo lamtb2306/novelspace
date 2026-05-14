@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Tôi Thay Chị Sống Nốt Phần Còn Lại">
   <meta name="twitter:description" content="Trong điện thoại, đối phương cũng không còn giả giọng nữa, giễu cợt: “Cô tưởng tôi dễ mắc lừa chắc? Nếu nó không phải con gái của Cố Viêm, thì tại sao cô chăm nó kỹ thế?” “Tôi chăm sóc nó…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

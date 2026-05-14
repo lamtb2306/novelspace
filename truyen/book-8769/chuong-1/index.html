@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MÃ KHOÁ NGÔI SAO">
   <meta name="twitter:description" content="Khi phát hiện album ảnh bị khóa trong điện thoại của Chu Kỳ, tôi đang ủi bộ vest anh ấy sẽ mặc ngày mai. Tên album là “Ngôi Sao”, mật mã chính là ngày sinh nhật của Tô Tinh Vãn — cái tên của “bạch ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

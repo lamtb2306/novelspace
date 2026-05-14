@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Khi Pháp Y Trở Về Nhà">
   <meta name="twitter:description" content="Tiếng xì xào bắt đầu vang lên. “Đây là cô con gái mới được nhà họ Ôn tìm về sao? Ăn mặc thế này mà đến à? Vừa nhìn đã thấy nghèo kiết xác rồi.” “Không chỉ nghèo đâu, mùi gì ấy?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Nhà Tôi Mua, Nhưng Không Thuộc Về Tôi">
   <meta name="twitter:description" content="Lâm Tiểu Tiểu cũng hùa theo, thêm dầu vào lửa: “Đúng đó chị dâu, đừng có bốc đồng. Ly hôn rồi, chị chẳng được chia nổi một đồng tài sản nhà bọn em đâu đấy.” Ánh mắt khinh thường và vẻ đắc ý của họ ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

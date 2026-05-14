@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Trở Lại Phòng Mình Với Tư Cách Người Thuê">
   <meta name="twitter:description" content="Tay nghề tôi ngày càng khá hơn. Cuối tuần, Tiểu Trương đến chơi. “Trông cậu có khí sắc hơn đấy.” Cậu nói. “Cũng tạm.” “Từ ngày dọn ra, tâm trạng khá hơn nhiều nhỉ?” “Bố mẹ cậu… còn liên lạc không?”...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

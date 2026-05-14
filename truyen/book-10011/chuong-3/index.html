@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Ba Trăm Nghìn Không Mua Được Một Chỗ Trong Gia Đình">
   <meta name="twitter:description" content="Nhưng ngôi nhà này, không còn là của tôi nữa. Nhà là của anh. Tiền là của chị dâu. Tôi chỉ là một cái máy rút tiền đúng hẹn mỗi tháng. Điện thoại rung lên. Dì nhỏ Khương Dao gửi tin nhắn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

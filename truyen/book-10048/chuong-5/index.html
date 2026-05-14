@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Con Chóa Không Dám Nhìn Tôi">
   <meta name="twitter:description" content="Tôi khẽ vuốt lại nếp váy, rồi giữa khung cảnh hỗn loạn và ồn ào ấy, từng bước tiến về giữa sân khấu. Không biết từ khi nào, đèn sân khấu rọi thẳng vào tôi, thu hút toàn bộ ánh nhìn của cả hội trườn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

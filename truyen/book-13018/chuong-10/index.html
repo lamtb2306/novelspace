@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Quay lại khoảnh khắc bị bỏ lại phía sau">
   <meta name="twitter:description" content="Tôi làm ra vẻ ngạc nhiên: “Sao có thể chứ? Vũ Ninh không phải là cô gái hiền lành trong sáng à? Sao em lại nói về cô ấy như vậy?” Lúc nói câu này, tôi suýt bật cười, nhưng vẫn nhịn được.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

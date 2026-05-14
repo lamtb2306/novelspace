@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | 25 Năm Nuôi Cả Nhà">
   <meta name="twitter:description" content="Tôi mất nguyên một ngày để viết. Cuối cùng sửa tới sửa lui, chỉ còn lại mấy dòng: “Tôi tự nguyện xin đổi họ. Lý do: Họ hiện tại không phù hợp với nguyện vọng cuộc sống của bản thân.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

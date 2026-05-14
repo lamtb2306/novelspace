@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Anh Trai Tôi Là Kẻ Trộm">
   <meta name="twitter:description" content="Tôi không hứng thú nghe bà biện minh, bấm điện thoại nội bộ. “Bảo vệ, mời vị này ra ngoài.” “Sau này, tôi không muốn thấy bà ta xuất hiện trong tòa nhà công ty nữa.” Bảo vệ kéo bà ra ngoài, bà cuối...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

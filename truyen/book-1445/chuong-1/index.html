@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ngày công ty bên cạnh đăng tuyển">
   <meta name="twitter:description" content="Công ty bên cạnh đăng tuyển, nói rằng lương ở đó vĩnh viễn cao hơn chỗ tôi đúng một trăm tệ. Vừa vào làm còn tặng gói du lịch Đông Nam Á miễn phí. Các nhân viên cũ đồng loạt đòi nghỉ việc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

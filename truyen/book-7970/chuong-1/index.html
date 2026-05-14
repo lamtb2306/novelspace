@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đuôi Rắn Hồng">
   <meta name="twitter:description" content="Lục Minh là một người cá lạnh lùng lại xinh đẹp. Nhưng anh ta từ chối tình cảm của tôi, còn chê tôi không cùng giống loài với anh ta. Tôi sụp đổ: “Sao lại không? Chẳng phải đều có một cái đuôi to s...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

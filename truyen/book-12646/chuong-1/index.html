@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Di Vật Của Bà Ngoại">
   <meta name="twitter:description" content="Tôi là cháu gái mà bà ngoại thương yêu nhất. Sau khi bà mất, tôi chỉ được thừa kế một cái bàn phím cũ kỹ. Còn cô và cậu – những người từng bất hiếu – lại thừa kế toàn bộ khối tài sản hàng chục triệu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

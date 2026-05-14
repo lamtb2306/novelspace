@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Vì Một Thỏi Son">
   <meta name="twitter:description" content="Vào mùa đổi thời tiết, tôi mở ứng dụng mua sắm chung của hai vợ chồng, định mua cho chồng – Chu Minh – vài chiếc áo sơ mi. Vừa mới thêm hàng vào giỏ, hệ thống bỗng hiện ra mục “Có thể bạn sẽ thích”...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

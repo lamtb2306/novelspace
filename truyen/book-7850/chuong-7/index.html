@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | An An, Món Quà Của Mẹ">
   <meta name="twitter:description" content="Mẹ chỉ khẽ cười, không buồn đáp lại, nắm tay tôi rời khỏi nhà hàng. Trên đường về, tôi vui vẻ ăn cây kem trong tay. Mẹ đang trò chuyện với chú quản gia đang lái xe. “Đại tiểu thư, người thật sự muố...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

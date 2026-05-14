@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tài Xế Bị Làng Bỏ Rơi">
   <meta name="twitter:description" content="“Mười năm nay, ngày nào tôi cũng dậy lúc năm giờ sáng, tám giờ tối mới về.” “Trời tuyết chặn núi, tôi dọn tuyết mở đường chở trẻ bị ốm đi viện.” “Lũ lớn, tôi dựng xe chắn ngang đường ngăn nước tràn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

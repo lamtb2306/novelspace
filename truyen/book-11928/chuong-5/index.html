@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Tôi Không Thể Rời Đi">
   <meta name="twitter:description" content="“Ha!” Chị dâu cả như vừa thắng trận, lưng cũng ưỡn thẳng lên, giọng càng lớn hơn, “Đồng chí cảnh sát, các anh nghe đi! Cô ta nói sổ đỏ là của cô ta, mà lại không lấy ra được! Không phải nói dối thì...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

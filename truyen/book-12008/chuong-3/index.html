@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | BẠCH CỐT VÔ HOA">
   <meta name="twitter:description" content="Tiêu Dự, anh là đồ vô dụng à? Mau gọi lại cho mẹ tôi đi! Mẹ tôi thế nào rồi, anh còn không mau đi xem!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

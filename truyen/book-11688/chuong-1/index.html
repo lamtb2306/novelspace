@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÌNH YÊU DƯỚI GẦM BÀN">
   <meta name="twitter:description" content="Sếp công ty là bạn trai của tôi. Anh ấy nói muốn tránh bị người khác bàn tán. Ở công ty, anh gọi tôi bằng tên đầy đủ, nói chuyện lạnh nhạt. Về nhà, lại gọi tôi là “bé yêu”, vừa ôm vừa hôn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

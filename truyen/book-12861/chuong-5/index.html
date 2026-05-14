@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | TRỢ LÝ ÔN TỪ">
   <meta name="twitter:description" content="Vừa nghỉ Tết chưa bao lâu, tôi còn chưa kịp về đến nhà thì đã nhận được cuộc gọi từ Mục Bạc Đình. Tôi đang lái xe nên không tiện nghe máy, liền bật loa ngoài.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

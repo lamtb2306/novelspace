@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ÁNH SÁNG SAU CÁI CHẾT">
   <meta name="twitter:description" content="Ngày thi đại học kết thúc, tôi chết trong con hẻm bẩn thỉu phía sau một quán bar. Mà người gây ra tất cả, chính là người tôi từng yêu nhất — Chu Thời Yến.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

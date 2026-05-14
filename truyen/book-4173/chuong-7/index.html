@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Nghìn Năm Báo Oán">
   <meta name="twitter:description" content="Cô ta thấy tôi đang khóc, cười càng lúc càng lớn, ánh mắt cũng ngày càng độc ác. “Chị cũng có ngày hôm nay sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐIỀU ƯỚC NGÀY SINH NHẬT">
   <meta name="twitter:description" content="Chơi “nói thật hay mạo hiểm”, có người hỏi Trần Dịch: “ Nếu được một cơ hội nữa, anh sẽ chọn Lê Tưởng hay Hạ Tri? ” Trần Dịch nốc cạn một ly rượu, giọng đầy tiếc nuối: “ Hồi đó nghèo quá, Hạ Tri mà...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

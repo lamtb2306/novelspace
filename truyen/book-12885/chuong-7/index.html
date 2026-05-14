@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | NHẤT THẾ HOÀNG HẬU">
   <meta name="twitter:description" content="Có người ngồi bên giường, lặng lẽ nhìn ta thật lâu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

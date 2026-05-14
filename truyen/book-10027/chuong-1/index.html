@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Vị Khách Không Mời">
   <meta name="twitter:description" content="Tôi và Lục Tư Niên yêu nhau được năm năm. Anh luôn giữ cảm xúc ổn định, hành xử chững chạc như một “cán bộ già”, trong sinh hoạt thì chu đáo, săn sóc như một người cha. Chúng tôi chưa từng cãi vã, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

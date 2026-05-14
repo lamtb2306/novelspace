@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Thanh Thủy Viện">
   <meta name="twitter:description" content="Chờ mọi người đến đông đủ, bà liền hứng khởi bày đề thơ theo chủ đề Thượng Nguyên, rồi cùng các phu nhân trò chuyện. Bên kia hồ sen là thi hội dành cho nam tử, do phò mã gia chủ trì.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

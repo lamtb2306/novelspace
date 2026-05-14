@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Nhà Tôi Mua, Nhưng Không Thuộc Về Tôi">
   <meta name="twitter:description" content="“Cô cứ đợi đấy! Tôi nhất định sẽ không để cô sống yên ổn đâu!” Tôi không ngờ rằng, cái gọi là “không để tôi yên ổn” của cô ta, lại là đi quấy rối Trần Mặc. Cô ta bắt đầu theo dõi anh ấy, chặn đường...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

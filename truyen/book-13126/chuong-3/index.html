@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Bảy Năm Tái Ngộ">
   <meta name="twitter:description" content="Tôi tin, và còn cảm thấy vui mừng. Vì đứa trẻ đó, anh bắt đầu về nhà thường xuyên hơn. Thỉnh thoảng còn dẫn theo Hứa Tri Ý.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bị Vu Oan Trong Đồn Công An">
   <meta name="twitter:description" content="Trong phòng hòa giải của đồn công an, người khách vừa rồi của tôi đầu tóc rối bù, quần áo xộc xệch. Cô ta vừa khóc vừa gào lên với cảnh sát: “Cảnh sát ơi, chính là hắn!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | HÔN NHÂN CÓ HÓA ĐƠN">
   <meta name="twitter:description" content="Kết hôn ba năm, tôi luôn nghĩ rằng chúng tôi đang thuê nhà. “Một lần nữa chủ nhà lại đòi tiền thuê.” Ngày mồng 1 mỗi tháng, chồng tôi đều đưa mã QR cho tôi quét chuyển khoản. Tiền thuê nhà mỗi thán...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

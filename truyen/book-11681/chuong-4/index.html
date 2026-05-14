@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | ĐỔI MẠNG LẤY YÊU THƯƠNG">
   <meta name="twitter:description" content="Thế giới này… ngoài cô ấy ra, tôi đâu còn một người bạn nào nữa? Thấy tôi ngẩn ra, Lý Tuyết hạ giọng: “Xin lỗi Hân Hân… tớ chỉ là…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

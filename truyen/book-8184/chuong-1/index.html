@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Căn Nhà Của Tôi, Không Chứa Người Nhà Anh">
   <meta name="twitter:description" content="Ngày bàn giao biệt thự hồi môn, chồng tôi nhất định dẫn cả nhà bên chồng đến xem. Bố chồng, mẹ chồng, em chồng cùng chồng con, em trai chồng cùng vợ, bảy người hùng hổ như thể đến nghiệm thu tài sả...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

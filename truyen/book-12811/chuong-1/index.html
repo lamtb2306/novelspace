@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NƠI NÀO CÓ BÀ, NƠI ĐÓ LÀ NHÀ">
   <meta name="twitter:description" content="Lúc tôi ba tuổi, cha mất, mẹ đi lấy chồng, bà nội đón tôi về nuôi. Bà cụ tiết kiệm cả đời, gom góp hết số tiền dành dụm cho tôi đi học,còn bản thân thì mắc bệnh suy thận, thoi thóp từng hơi thở.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

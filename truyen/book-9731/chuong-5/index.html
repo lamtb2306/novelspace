@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Duyên tận mới hay tình đã sâu">
   <meta name="twitter:description" content="Phải rất lâu đầu dây bên kia mới bắt máy, giọng nam trầm thấp vang lên: “Hướng Uyển?” “Phó Tri Hựu, em hỏi anh một chuyện… anh bây giờ đã có bạn gái chưa? Kết hôn chưa?” Nguyễn Hướng Uyển khẽ hỏi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

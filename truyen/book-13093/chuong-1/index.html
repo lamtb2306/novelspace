@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐI NGANG QUA ĐỜI ANH">
   <meta name="twitter:description" content="Tôi là học sinh nghèo được nhà họ Giang tài trợ. Vì một chuyện nhỏ mà tôi và thiếu gia nhà họ Giang – Giang Trục Sâm – cãi nhau. Hôm nay là ngày thứ bảy, cậu ấy vẫn không chịu nói chuyện với tôi. T...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

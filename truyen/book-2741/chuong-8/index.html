@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Con đường đen tối của sự uy hiếp">
   <meta name="twitter:description" content="Cô ta gào đến khản cả giọng: “Trên này ghi thời gian là một tháng trước, bố nhiều lần lái xe vượt đèn đỏ, đụng người đi đường, còn bỏ trốn sau tai nạn!” “Bố điên rồi sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nuôi Nhầm Tra Nam">
   <meta name="twitter:description" content="Điện thoại tôi mấy ngày liên tiếp nhận được tin nhắn phạt nguội của chiếc BMW mà tôi tặng cho bạn trai. Tò mò mở ra xem thì giật mình — người lái xe trong ảnh vi phạm vốn dĩ tôi không hề quen.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

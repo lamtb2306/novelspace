@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | BÌNH MINH KHÔNG DÀNH CHO EM">
   <meta name="twitter:description" content="Tôi quay đầu lại nhìn — là Lâm Dật Trần. Sắc mặt anh trắng bệch, không màng đến chiếc điện thoại vừa rơi xuống, lảo đảo bước về phía tôi. “Vi Vi, những lời em vừa nói…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

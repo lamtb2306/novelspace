@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ÁP TRẠI PHU NHÂN">
   <meta name="twitter:description" content="Tôi là áp trại phu nhân của tên đầu lĩnh băng đảng thổ phỉ trên núi. Năm mười tám tuổi, vào một đêm tuyết rơi trắng trời, tôi đang đi vệ sinh phía sau nhà, quần còn chưa kịp kéo lên đã bị bắt cóc l...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

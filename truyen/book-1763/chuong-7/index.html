@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | ĐI THANG MÁY GẶP TRAI ĐẸP">
   <meta name="twitter:description" content="Trên bàn ăn bày ra sáu món, mỗi món đều được trình bày đẹp mắt, tinh tế. Bên cạnh còn đặt hai thùng bia và một chai rượu trắng — toàn bộ đều là tôi mua.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

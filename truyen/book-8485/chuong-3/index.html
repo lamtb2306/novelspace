@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | TẬN THẾ TRƯỚC KỲ THI ĐẠI HỌC">
   <meta name="twitter:description" content="Ngày hôm sau, tôi dứt khoát xin nghỉ học. Tôi đến một siêu thị lớn cách trường hai cây số, dựa theo danh sách đã chuẩn bị sẵn để mua đồ dự trữ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

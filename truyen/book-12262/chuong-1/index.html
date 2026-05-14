@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI ĐÃ Ở ĐÓ BA NĂM">
   <meta name="twitter:description" content="Chỉ vì tôi nhận quà của một nữ bạn học mà không đưa cho em gái. Ba mẹ cho rằng tôi có vấn đề. Liền đưa tôi vào trại quản giáo. Một ngôi trường chuyên “chữa trị những chứng bệnh khó nói”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KỶ NIỆM NGÀY CƯỚI">
   <meta name="twitter:description" content="10 giờ tối, Lục Hoài Xuyên nhắn tin cho tôi, nói rằng tiệc xã giao của anh ấy đã kết thúc và anh sẽ về nhà ngay. Tôi lấy từ trong tủ lạnh ra quả táo cuối cùng, làm một bát canh giải rượu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Năm Năm Bên Rìa Trái Tim">
   <meta name="twitter:description" content="Anh không thích phô bày đời sống cá nhân, nhưng trang cá nhân ngày xưa toàn là dấu vết của cô gái ấy. Đưa tôi đi xem triển lãm tranh, là họa sĩ mà Diệp Vãn Tình yêu thích.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

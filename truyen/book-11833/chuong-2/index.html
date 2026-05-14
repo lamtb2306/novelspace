@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | ÁNH SÁNG NƠI CUỐI ĐƯỜNG">
   <meta name="twitter:description" content="【Cậu nghe thấy không? Thẩm Tri Vi!】 Có lẽ vì tôi đã lâu không đáp lại, hệ thống dường như có chút tức giận. 【Nếu cậu vẫn giữ thái độ này, tôi nghĩ không cần tiếp tục nhiệm vụ nữa!】 “Không! Đừng!” T...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

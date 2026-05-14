@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Món Quà Cưới Tôi Tặng Chị Dâu">
   <meta name="twitter:description" content="Chị dâu tôi vì muốn làm màu với họ hàng, nhất quyết đòi mượn căn hộ cao cấp ở trung tâm thành phố của tôi làm nhà tân hôn. Chị ấy nói chỉ mượn một ngày để “lấy le”, nếu tôi không đồng ý thì là coi ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | TÌNH YÊU DỪNG LẠI">
   <meta name="twitter:description" content="Tôi bấm vào đường link cô ấy gửi, tiêu đề bài viết đập ngay vào mắt: “Bạn bè mời ăn một bữa cơm, ăn xong bạn gái người ta liền gửi link đòi chia tiền.” Tiêu đề khá bắt mắt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

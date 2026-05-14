@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Không Còn Hợp Đồng, Chỉ Còn Chúng Ta">
   <meta name="twitter:description" content="Hồi nhỏ tôi nghèo đến mức một cái quần lót phải mặc cả mặt trước lẫn mặt sau, đủ hai lượt mới dám đem đi giặt. Chỉ cần dùng thừa một miếng băng vệ sinh cũng bị mẹ tát cho hai cái, mắng là “đồ rẻ rú...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

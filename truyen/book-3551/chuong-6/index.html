@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | KỶ ĐÔNG">
   <meta name="twitter:description" content="KỲ ĐÔNG Tôi hơi ngạc nhiên: “Hôm nay cô đến đây là để khen tôi à?” Mễ Đoá cười, gương mặt đẹp thoáng chút ngượng: “Không hẳn, chỉ là… nếu là em, chắc em không làm được như chị.” Vẫn là khen tôi thô...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

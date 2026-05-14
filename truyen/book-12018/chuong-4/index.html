@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Chuyến Tàu Không Anh">
   <meta name="twitter:description" content="“Nói cho em biết nhé, nếu lỡ chuyến này, thì kỳ nghỉ này anh sẽ không về ra mắt bố mẹ em nữa đâu. Phí tiền mua vé cao tốc làm gì.” Tôi khẽ thở ra, đẩy bánh xe rời khỏi phòng riêng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

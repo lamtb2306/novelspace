@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÌNH YÊU HẾT HẠN">
   <meta name="twitter:description" content="Khi chồng đến bệnh viện đón tôi, trên ghế phụ là cô bạn thân nhất của tôi đang ngồi chễm chệ. Nụ cười của cô ta vẫn rạng rỡ, hào phóng như trước, nhưng hoàn toàn không có ý định nhường chỗ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

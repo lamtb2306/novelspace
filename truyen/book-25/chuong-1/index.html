@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ân Tình Hay Gánh Nợ">
   <meta name="twitter:description" content="Tôi được trọng sinh trở về năm mười sáu tuổi, vừa thi xong kỳ thi trung học cơ sở và đang trên đường về nhà. Dưới ánh hoàng hôn, mẹ tôi đang bận rộn bên bếp lò, chuẩn bị hấp một nồi màn thầu thật lớn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

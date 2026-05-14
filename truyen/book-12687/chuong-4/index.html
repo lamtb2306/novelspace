@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | CUỐI CÙNG CŨNG TÌM THẤY EM">
   <meta name="twitter:description" content="Du lịch thật sự rất tuyệt. Tôi đến Nhật Bản đầu tiên. Ngâm suối nước nóng, ăn yakitori ngon tuyệt, còn được vuốt ve mấy chú nai dễ thương. Sau đó đến châu Âu. Chụp hình dưới tháp Eiffel, nghỉ ở khá...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

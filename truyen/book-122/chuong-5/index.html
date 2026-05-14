@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | LẠC OÁN">
   <meta name="twitter:description" content="Ta cảm thấy mình dường như mắc phải một căn bệnh kỳ lạ. Chỉ cần nhìn thấy chiếc trâm ngọc kia, mặt ta liền đỏ lên, tim đập liên hồi. Vì thế, ta đã khóa chiếc trâm ấy vào trong hộp trang sức, mắt kh...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

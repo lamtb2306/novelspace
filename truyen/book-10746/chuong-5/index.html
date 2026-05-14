@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | BÁNH SINH NHẬT TUỔI NĂM MƯƠI">
   <meta name="twitter:description" content="“Hôm nay là tôi có mắt không tròng.” “Cậu muốn tôi bồi tội thế nào, cứ nói thẳng, tôi làm theo.” Tôi cạn lời.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

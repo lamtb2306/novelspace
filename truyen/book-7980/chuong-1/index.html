@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ba năm bên anh, đổi lấy một trò cười">
   <meta name="twitter:description" content="Để đứng vững trong công ty, tôi đã ba năm liên tiếp đứng đầu về doanh số. Không chỉ mang về hợp đồng trị giá hàng trăm triệu, mà còn giúp công ty con tiến tới niêm yết thành công.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

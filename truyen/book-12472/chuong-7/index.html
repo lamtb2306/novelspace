@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Lần Cuối Gọi Là Mẹ">
   <meta name="twitter:description" content="Đúng lúc cuối cùng, tôi kịp lên máy bay rời khỏi thành phố ấy. Trên máy bay, tôi uống liền mấy ly cà phê, gắng gượng tỉnh táo để hoàn thành buổi đàm phán. Sếp rất hài lòng, đồng ý thăng chức cho tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

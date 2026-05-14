@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trò Trốn Tìm Khiến Tôi Mãi Mãi Không Về Nhà">
   <meta name="twitter:description" content="Bố mẹ ăn Tết xong chuẩn bị lên thành phố làm việc, em trai đã sớm ngồi chễm chệ ở ghế phụ. Đứa trẻ bị bỏ lại là tôi cũng muốn đi theo, nhưng cửa xe thế nào cũng không mở được.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Lễ Tốt Nghiệp Cuối Cùng">
   <meta name="twitter:description" content="Cả lớp chúng tôi đều được trọng sinh về thời điểm trước kỳ thi đại học. Ai nấy đều sáng rực đôi mắt, hăng say học thuộc đáp án, thi xong ai cũng đạt được số điểm khủng lên tới 700.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

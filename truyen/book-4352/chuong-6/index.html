@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Nơi Tôi Thuộc Về">
   <meta name="twitter:description" content="Hứa Văn Bân và Lưu Vân đều không có ở đó. Trên bàn để lại một mảnh giấy. Là nét chữ bay bướm phóng khoáng của Hứa Văn Bân. “Chúng tao đến nhà bà nội mày ở mấy ngày, tự mày mà lo cho bản thân.” Đây ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | TÔI CHỌN TỰ DO">
   <meta name="twitter:description" content="Năm mới đầu tiên bên Hứa Cận Bạch. Tôi đưa anh về quê. Theo truyền thống gia đình tôi, dù ở đâu, đêm giao thừa nhất định phải quay về. Nhà tôi là một đại gia đình, mọi người yêu thương và giúp đỡ n...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

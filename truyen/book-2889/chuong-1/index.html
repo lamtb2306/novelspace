@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Căn Nhà Thuê của Chủ Nhà">
   <meta name="twitter:description" content="Hôm chồng tôi dẫn tiểu tam về nhà, tôi đang ở trong bếp hầm canh cho anh ta. Anh ta ném thẳng tờ đơn ly hôn vào mặt tôi. “Ký đi, rồi cút khỏi đây.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MỘT CHÚT THÚ VỊ">
   <meta name="twitter:description" content="Những người bạn ngồi xung quanh anh chàng đều không tin nổi mà dựng thẳng tai lên. “Thật hả? Anh Lục sau khi say rượu chẳng phải là người hay thú cũng không thể lại gần sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

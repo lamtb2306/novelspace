@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Món Nợ Mẹ">
   <meta name="twitter:description" content="Ăn xong, Xuân Huệ kéo tôi đi xem ruộng thuê: “Chúng ta trồng khoảng hơn chục mẫu nghệ vàng đi. Nghệ bây giờ bán được giá lắm, lại còn là dược liệu, thanh nhiệt giải độc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

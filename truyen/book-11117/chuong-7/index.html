@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | HỒNG TRANG VÃN HỐI">
   <meta name="twitter:description" content="Sau khi ăn một bữa sáng phong phú thỏa mãn, ta quay về Tây Uyển để chải chuốt, trang điểm. Chuẩn bị xuất phủ lo liệu công việc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

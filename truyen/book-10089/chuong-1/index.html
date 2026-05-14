@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NỤ CƯỜI CỦA MỸ NHÂN NGỐC">
   <meta name="twitter:description" content="Bạn cùng phòng là một “mỹ nhân ngốc”. Tôi hẹn người ta chạy bộ, cô ta lại gõ thành “hẹn ngủ” rồi đăng lên nhóm lớp. Sau đó còn khóc lóc nói không biết cách thu hồi. Tôi gặp bạn chạy bộ, cô ta liền ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

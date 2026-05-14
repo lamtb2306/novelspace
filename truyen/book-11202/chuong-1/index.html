@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chìa Khóa Của Kẻ Ngoài Cuộc">
   <meta name="twitter:description" content="Sau khi chuyển về nhà mới, cả nhà bốn người chỉ làm đúng ba chiếc chìa khóa. Ba mẹ bảo tôi: “Dù sao nhà lúc nào cũng có người, con cứ gõ cửa là được rồi.” Thế là tôi bắt đầu những ngày dài chờ đợi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Sau Khi Ta Bị Ban Cho Trang Đầu">
   <meta name="twitter:description" content="Oàng một tiếng. Ta cảm thấy cả thế giới như sụp đổ. Chiếm đoạt ruộng quan? Nhà Ngô trang đầu mấy đời nay giữ mấy mẫu ruộng mỏng này để sống, sao có thể chiếm ruộng quan! Đây là vu khống! Là hãm hại...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

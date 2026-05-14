@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHUYẾN XE BUÝT LÚC RẠNG SÁNG">
   <meta name="twitter:description" content="Lúc rạng sáng, tài xế bất ngờ xin nghỉ, tôi đành phải đi xe buýt về nhà. Tôi không ngờ trên xe buýt lúc rạng sáng mà vẫn đông người đến vậy. Khi xe vừa chạy lên đoạn đường cao tốc, có một hành khác...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

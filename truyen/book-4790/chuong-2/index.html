@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | THƯƠNG NHIỀU, HẬN NHIỀU">
   <meta name="twitter:description" content="Tôi quay lại chỗ ngồi trong quán bar, lập tức cảm nhận được bầu không khí có gì đó rất lạ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

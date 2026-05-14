@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | SÊN KÝ SINH">
   <meta name="twitter:description" content="Ba tôi cũng lớn tiếng: “Không ăn thì là chưa đói thôi! Nhịn ba ngày xem có ăn không! Nông thôn thì sao? Cơm gạo cô ăn chẳng phải cũng từ nông thôn mà ra à? Dân thành phố thì giỏi giang gì? Suốt ngà...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

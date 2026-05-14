@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | TRỊNH NHƯ YÊN">
   <meta name="twitter:description" content="Tôi đẩy cửa bước ra ngoài. Trong tay nắm chặt số tiền tôi đã dành dụm suốt những năm tháng làm thêm vất vả. Con đường phía trước rộng mở, ánh nắng rực rỡ tựa như cuộc đời mới của tôi đang chờ đón.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

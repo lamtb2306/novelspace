@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Sống Lại Một Đời, Tôi Chọn Rời Xa Anh">
   <meta name="twitter:description" content="Nghe dần nghe dần, không còn ai ngăn tôi dạy dỗ Diệp Thanh Thanh nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

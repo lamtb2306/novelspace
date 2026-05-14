@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NỔI HỨNG MUỐN YÊU ĐƯƠNG">
   <meta name="twitter:description" content="Nửa đêm lên cơn “trừu tượng”, tôi đăng một dòng trạng thái: Muốn yêu rồi, nhưng lại sợ yêu nhầm người. Mọi người có thể giới thiệu giúp mình một người yêu cũ đáng tin không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

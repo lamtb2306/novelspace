@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trường Khánh Cung Không Đèn">
   <meta name="twitter:description" content="Tiêu Hành đăng cơ, sắc phong lục cung. Hắn triệu ta và kẻ thù không đội trời chung tiến điện.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

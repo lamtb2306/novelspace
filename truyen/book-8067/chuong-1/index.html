@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | THẨM LINH">
   <meta name="twitter:description" content="Lúc đi nhận giấy chứng nhận ly hôn, tôi vì không tìm được chỗ đậu xe nên đến trễ mất hai phút. Giang Trì tức giận mắng tôi một trận: “Lần nào cũng vậy, không biết lên kế hoạch trước thời gian, đã n...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

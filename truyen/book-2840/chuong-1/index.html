@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cái Tủ Lạnh Đắt Giá">
   <meta name="twitter:description" content="Ba tôi cực kỳ rộng rãi. Cô ruột tôi mua nhà, ông đưa 200 triệu. Nhà chú hai sửa sang lại, ông góp 100 triệu. Anh họ cưới vợ, ông lại cho 50 triệu. Nhưng đến khi nhà tôi cần 5 triệu để mua tủ lạnh, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

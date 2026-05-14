@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 17 | Anh Chê Tôi Vô Dụng, Không Biết Tôi Nuôi Cả Tòa Nhà">
   <meta name="twitter:description" content="Rồi tiếp tục lái về phía trước. Lái về ngôi nhà mới của tôi. Đó là một căn biệt thự tôi mới mua gần đây. 280 mét vuông, có cả vườn. Ở khu vực tốt nhất của thành phố này. Tổng giá 9 triệu 800 nghìn....">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | VỢ CỦA DIÊM VƯƠNG">
   <meta name="twitter:description" content="Tôi lấy một người đàn ông lớn tuổi, trên người anh ấy cái gì cũng lớn hơn tôi. Anh cũng hơn tôi… như thể một vạn năm tuổi vậy. Tôi đã kết hôn với một ông chú, người mà toàn thân chỗ nào cũng to lớn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

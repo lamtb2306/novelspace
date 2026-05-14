@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | LỄ CƯỚI KHÔNG THÀNH">
   <meta name="twitter:description" content="Tôi suýt nữa thì nôn ra mất! Sao trước đây tôi lại không nhận ra người này có thể vô liêm sỉ đến thế?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

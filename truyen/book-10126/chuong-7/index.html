@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Trở Về Từ Đáy Biển Sâu">
   <meta name="twitter:description" content="Giọng tôi không lớn, nhưng lại như một chiếc búa nặng, nện thẳng vào tim ông ta. Ngay lúc bảo vệ sắp chạm vào cánh tay tôi, tôi giơ điện thoại lên, ấn nút phát.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

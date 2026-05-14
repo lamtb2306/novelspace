@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CHIẾC BÁNH Ú CỦA BÀ">
   <meta name="twitter:description" content="Cô Trương ngồi trên chiếc ghế gỗ nhà tôi, hết cuộc điện thoại này đến cuộc khác, gọi cho họ hàng, bạn học, bạn bè.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

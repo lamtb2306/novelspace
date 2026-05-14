@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bị Cả Tòa Nhà Sỉ Nhục, Tôi Trở Tay Bán Luôn Tòa Nhà">
   <meta name="twitter:description" content="Sau lần thứ n phát hiện vụn giấy vệ sinh đầy rẫy trong máy giặt công cộng. Tôi tốt bụng nhắn một câu nhắc nhở trong nhóm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

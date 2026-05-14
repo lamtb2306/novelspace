@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CÁNH TAY CỦA KẺ XA NHÀ">
   <meta name="twitter:description" content="Lắng nghe những câu chuyện của họ, tôi mới nhận ra — nhà nào cũng có nỗi niềm khó kể. Nhưng dù thế nào, cuộc sống vẫn phải tiếp tục.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

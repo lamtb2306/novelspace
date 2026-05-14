@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TẬN THẾ CỦA MỘT NGƯỜI MẸ">
   <meta name="twitter:description" content="Ngày tận thế xác sống ập đến, tôi nhắc cả nhà phải bảo vệ siêu thị của mình, đề phòng mấy vụ “mua hàng 0 đồng”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

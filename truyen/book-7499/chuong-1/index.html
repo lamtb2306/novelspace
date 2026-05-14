@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Dây Chuyền Tro Cốt">
   <meta name="twitter:description" content="Ra khỏi bệnh viện, một ông lão bỗng nhìn chằm chằm vào sợi dây chuyền trên cổ tôi rồi nói: “Cô gái, cô đang mang thai mà lại đeo tro cốt của một đứa trẻ chết non.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

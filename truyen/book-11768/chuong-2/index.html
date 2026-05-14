@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | LY HÔN TRONG VUI VẺ">
   <meta name="twitter:description" content="Tôi và Lục Tân Nam đã thỏa thuận, mỗi tối thứ Sáu tôi sẽ đón Tri Tri tan học, thứ Bảy là thời gian của tôi với con, đến tối sau bữa cơm tôi sẽ đưa con về lại cho anh ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

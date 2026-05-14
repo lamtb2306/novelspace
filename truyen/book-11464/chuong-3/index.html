@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | TRAO TÌNH YÊU NHẦM CHỖ">
   <meta name="twitter:description" content="Tôi cúi đầu, nhìn vào tấm ảnh. Trong khoảnh khắc, tôi cứ ngỡ đó là Kỳ Dã quay trở về. Thật sự quá giống, đặc biệt là đôi mắt ấy, như người sắp chết đuối nắm được cọng rơm cứu mạng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

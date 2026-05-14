@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | MUỘN MÀNG ĐÊ NÓI YÊU EM">
   <meta name="twitter:description" content="Đường Uyển Ngôn nhìn thấy tôi, khựng lại: “Chu Đường?” Cô ấy bước tới, nắm lấy tay tôi: “Chu Đường, thật sự là cậu rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

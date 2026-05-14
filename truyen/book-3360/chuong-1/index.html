@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KHÔNG CÃI, KHÔNG KHÓC">
   <meta name="twitter:description" content="Năm thứ sáu sau khi kết hôn, tôi nhìn thấy một người phụ nữ trong điện thoại của chồng. Không phải anh chủ động cho tôi xem, mà là lúc anh đang tắm, một số lạ gửi đến một tấm ảnh thân mật.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

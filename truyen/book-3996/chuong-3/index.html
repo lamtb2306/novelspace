@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Một Phút Lạc Con">
   <meta name="twitter:description" content="“Con ngu ngốc Lâm Tĩnh Thu đó, đối với cái nhà này toàn tâm toàn ý, đối với chúng ta thì chẳng hề phòng bị! Đến giờ nó vẫn còn tưởng rằng chúng ta là mẹ chồng và chồng tốt nhất thế giới!” Giọng bà ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

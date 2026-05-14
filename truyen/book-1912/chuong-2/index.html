@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | BÍ MẬT THÂN THẾ CỦA TÔI">
   <meta name="twitter:description" content="Tôi chạy theo ra ngoài, nhét mấy chục đồng lẻ trong túi vào tay chú Lý. Bây giờ ai cũng thanh toán bằng điện thoại, số tiền mặt này là tôi chuẩn bị sẵn để đổi tiền lẻ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

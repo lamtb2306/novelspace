@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | HỶ MỆNH AN DƯƠNG">
   <meta name="twitter:description" content="Ta cũng chẳng biết mình đang làm gì, chỉ là khi tay chạm vào quần áo kia, vết thương trong lòng mới thấy dịu bớt phần nào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Bảy Ngày Ngoại Phạm">
   <meta name="twitter:description" content="Chưa hết tháng cữ, cô ấy đã phải đi giao đồ ăn. “Tôi hận không thể băm hắn ra trăm mảnh!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

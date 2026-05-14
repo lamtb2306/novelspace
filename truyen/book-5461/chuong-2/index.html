@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TỰ DO ĐÁNG GIÁ BAO NHIÊU">
   <meta name="twitter:description" content="Tôi tìm một chỗ khuất ngồi xuống, lặng lẽ ăn cơm. Ánh đèn trong căn tin dần trở nên mờ nhòe trước mắt tôi. Nghĩ đến chuyện mẹ cứ thản nhiên đăng nhập WeChat của tôi, chẳng quan tâm tôi đang làm gì,...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

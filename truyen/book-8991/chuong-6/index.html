@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Tôi Yêu Một Người Không Tồn Tại Suốt 19 Năm">
   <meta name="twitter:description" content="Nói đến đây, tôi khựng lại, nhìn khuôn mặt trắng bệch đi vì sốc của anh ta, nói ra một câu mấu chốt nhất: “Thứ hai, và cũng là điểm quan trọng nhất: Tôi không thích anh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

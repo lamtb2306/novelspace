@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tấm Thẻ ATM Của Mẹ">
   <meta name="twitter:description" content="“Đi làm không tốn tiền đi lại? Ở nhà không trả tiền nước điện? Bệnh không mua thuốc? Quần áo toàn nhặt đồ rách mặc hả?” “Mày rốt cuộc có học xong chương trình giáo dục bắt buộc 9 năm không đấy? Não...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

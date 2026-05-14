@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Tôi Yêu Một Người Không Tồn Tại Suốt 19 Năm">
   <meta name="twitter:description" content="Nhiều hơn một đồng, tôi cũng sẽ không cho. Về sau này, tôi chỉ muốn vun vén tốt cho tổ ấm của riêng mình, như vậy là quá đủ rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

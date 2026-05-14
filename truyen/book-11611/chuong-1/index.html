@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KIM THÔN ĐỊA">
   <meta name="twitter:description" content="Mấy năm gần đây, nhà họ Tống liên tục có hơn chục người trẻ tuổi qua đời, nhìn thôi cũng thấy sắp tuyệt tự đến nơi rồi. Sư phụ cầu xin tôi xuống núi giúp nhà họ Tống giải quyết nguy cơ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

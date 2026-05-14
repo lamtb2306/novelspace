@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Niềm Tin Vỡ Nát">
   <meta name="twitter:description" content="Tôi hít sâu, cố giữ bình tĩnh. Tiếp tục mở app ngân hàng, kiểm tra tài khoản chung – mọi khoản chi vẫn bình thường. Nhưng tôi nhớ ra anh còn một thẻ ít dùng. Tôi thử lần lượt nhập ngày sinh anh, ng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

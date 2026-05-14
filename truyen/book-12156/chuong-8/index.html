@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Thưởng 0 Đồng">
   <meta name="twitter:description" content="“Chủ tịch Vương, người thiết kế bom logic này là một thiên tài tuyệt đỉnh… đồng thời cũng là một kẻ điên.” “Cách mã hóa và cơ chế kích hoạt của nó, chúng tôi chưa từng thấy qua.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

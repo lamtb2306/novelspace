@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÌNH YÊU DUY NHẤT">
   <meta name="twitter:description" content="Đêm mưa tầm tã, vị hôn phu của tôi vì cô thanh mai nhỏ mà bỏ tôi lại bên vệ đường. Khi bị mưa xối ướt sũng từ đầu đến chân, một chiếc Range Rover chạy ngang và dừng lại trước mặt tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

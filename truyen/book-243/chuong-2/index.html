@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Một Tuần Cuối Cùng Của Trang Hạ">
   <meta name="twitter:description" content="Là tôi một mình ngốc nghếch hiến thận, phá vỡ hạnh phúc của họ. Nhìn bức ảnh gia đình bị ghép lại gượng gạo, Điền Gia bỗng thoáng vẻ bi thương. “Chỉ tiếc, với tôi mà nói, có một gia đình là điều xa...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Bản Sao Của Tôi">
   <meta name="twitter:description" content="Ý nghĩ ấy vừa xuất hiện, đã không thể dập tắt. Tôi bật dậy khỏi giường. Rón rén mở cửa phòng. Phòng khách tối om. Cửa phòng làm việc của bố đóng kín. Chắc mẹ cũng đã về phòng. Tôi nhón chân đi qua ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | NỮ CHÍNH KHÔNG PHẢI TÔI">
   <meta name="twitter:description" content="Kỷ Thần điên cuồng hỏi khắp nơi xem tôi đã đi đâu,Bạn thân tôi lén nhắn cho tôi, nói rằng anh còn định báo cảnh sát mất tích, May mà cô ấy đã giúp giải thích mọi chuyện.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

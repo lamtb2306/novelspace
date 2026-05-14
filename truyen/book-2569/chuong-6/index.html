@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | CON GÁI BỊ BỎ QUÊN">
   <meta name="twitter:description" content="Tôi thấy số người đặt lịch hẹn xem tăng vùn vụt. Đến đúng ngày đó, đã vượt mốc năm triệu. Bên dưới bình luận không ngớt: 【Má ơi! Đây là chuẩn bị tung phốt à?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

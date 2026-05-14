@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mochi Đậu Thai">
   <meta name="twitter:description" content="Tôi bán mochi thủ công trong công viên, một cái giá mười nghìn tệ, vậy mà ngày nào cũng bị tranh mua. Bởi vì tôi bán mochi “đậu thai”, ăn vào là có thể mang thai ngay.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

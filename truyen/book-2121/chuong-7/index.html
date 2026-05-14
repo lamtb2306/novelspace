@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Bài Kiểm Tra Sau Năm Năm">
   <meta name="twitter:description" content="Tôi nhìn tờ thông báo đó — không có lấy một chút gợn sóng trong lòng. Đây chính là quy tắc tàn nhẫn của giới tư bản: Có giá trị thì được nâng như thần. Hết giá trị — bị vứt không thương tiếc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

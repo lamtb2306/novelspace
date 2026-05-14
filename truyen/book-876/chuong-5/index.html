@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Đứa Con Ngoan">
   <meta name="twitter:description" content="Chuyện ly hôn của tôi, mẹ chồng vui mừng thấy rõ. Dù sao giữ lại một nàng dâu không nắm trong tay được thì cũng vô ích, chi bằng đổi người khác.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

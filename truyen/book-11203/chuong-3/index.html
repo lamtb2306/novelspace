@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | TIẾP CẬN EM LẦN NỮA">
   <meta name="twitter:description" content="Tôi thấy anh ấy chắc chắn là mắt có vấn đề rồi, dạo này lúc nào cũng đỏ mắt. Hay là vẫn nên khéo léo đề nghị anh ấy đến bệnh viện khám xem? Thôi vậy, chỉ là bạn trai cũ thôi mà. Quản anh ấy làm gì.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

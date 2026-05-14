@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | BỤNG CÔ ẤY ĐÃ NHÔ LÊN">
   <meta name="twitter:description" content="Rồi tôi mở trang web của Cục Bản quyền Nhà nước. Đăng ký quyền tác giả phần mềm máy tính. Người nộp đơn có thể là cá nhân, cũng có thể là công ty. Trước đây tôi chưa từng để ý đến điều này. Nhưng b...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

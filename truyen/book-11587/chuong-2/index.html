@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CUỘC HÔN NHÂN BẨN THỈU">
   <meta name="twitter:description" content="Bước đi trên đường phố đông đúc, tôi bỗng không biết mình nên đi đâu. Cha mẹ tôi mất sớm, ở thành phố này ngoài Giang Thần Vũ và Lâm Thi Thi, tôi hầu như không còn ai thân thiết. Nghĩ đến đây, tôi ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

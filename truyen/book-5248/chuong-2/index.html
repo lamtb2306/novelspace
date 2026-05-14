@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TÔI KHÔNG LÀ BÓNG TỐI NỮA">
   <meta name="twitter:description" content="Tôi gọi chuyển phát, định đợi trời sáng sẽ gửi hết về quê. Làm xong tất cả, tôi ngồi trong phòng khách trống rỗng, thấy lòng mình nhẹ đi một chút. Điện thoại reo, lần này là Dương chị — quản lý của...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

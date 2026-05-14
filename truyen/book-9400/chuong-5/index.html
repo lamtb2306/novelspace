@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Em Gái Nhà Hào Môn">
   <meta name="twitter:description" content="“Câu đó tôi cũng tặng lại cho cô.” Cô ta lập tức gọi với người dẫn chương trình: “Tôi ra giá một triệu!” “Một triệu…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

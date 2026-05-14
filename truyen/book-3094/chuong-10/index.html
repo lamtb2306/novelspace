@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Giới Hạn Cuối Cùng Của Tôi">
   <meta name="twitter:description" content="“Chu Thần, cảm ơn anh năm đó đã không cưới tôi. Nhờ vậy tôi nhìn rõ rất nhiều người, và cuối cùng cũng nhìn rõ chính mình.” “Và nữa, đừng đến tìm tôi nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

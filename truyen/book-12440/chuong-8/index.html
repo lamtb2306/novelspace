@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | TÌNH YÊU KHÔNG CÓ LỖI">
   <meta name="twitter:description" content="Sáng hôm sau, tôi tiễn Tây Tây lên xe taxi. Những ngày nghỉ còn lại, tôi chỉ có thể trải qua một mình. Về khách sạn, đổi sang phòng đơn. Tôi lại đến sân trượt tuyết. Hoàn thành tiết học cuối cùng, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

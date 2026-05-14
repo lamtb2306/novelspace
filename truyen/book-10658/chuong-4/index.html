@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Bố mẹ lên Thượng Hải kiểm tra tài khoản tôi">
   <meta name="twitter:description" content="Tôi hiểu rõ bố mẹ mình, họ sẽ không vô cớ đến công ty tôi. Chắc chắn là họ không tin lời tôi nói, muốn kiểm tra xem thu nhập thật của tôi thế nào. Tôi lập tức gọi ngân hàng xác nhận lại rằng các cà...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | TÔI KHÔNG CÒN LÀ MẶC THƯ CỦA KIẾP  TRƯỚC">
   <meta name="twitter:description" content="Tôi đáp trả: “Đây là hôn nhân của con, con muốn chia tay thì chia tay, chẳng lẽ không được?” “Con tưởng hôn nhân này chỉ liên quan đến một mình con sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

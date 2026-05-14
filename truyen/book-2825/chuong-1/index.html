@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CÔNG LƯỢC NAM CHÍNH">
   <meta name="twitter:description" content="Sau khi thất bại trong nhiệm vụ “cưa đổ nam chính”, tôi tùy tiện tìm một người bình thường để cưới.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

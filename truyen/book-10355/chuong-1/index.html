@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ngôi Nhà Hai Nhiệt Độ">
   <meta name="twitter:description" content="Tôi và cô bạn thân than thở về chuyện năm nay hệ thống sưởi yếu kém. Có sưởi thật đấy, nhưng trong phòng tôi vẫn lạnh cóng. Cô ấy hỏi tôi: “Cậu đã vào thử mấy phòng khác trong nhà chưa?” Tôi như bừ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

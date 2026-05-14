@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Tôi Là Nữ Chính Của Chính Tôi">
   <meta name="twitter:description" content="Rời khỏi Iceland, tôi tiếp tục đặt chân đến hơn mười quốc gia lớn nhỏ khác, kết bạn với nhiều người đến từ khắp nơi trên thế giới. Những ước mơ từng tưởng chừng xa vời, giờ đây đều đã trở nên trong...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

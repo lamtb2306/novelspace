@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | HỨA THANH HÀN">
   <meta name="twitter:description" content="Bảy giờ sáng, tôi tỉnh dậy trong bệnh viện. Chu Diên Xuyên đang nắm lấy tay tôi, gương mặt tiều tụy, trông có vẻ như đã thức trắng cả đêm. Anh ta đứng dậy rót nước cho tôi: “Tôi không ở đây thì em ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

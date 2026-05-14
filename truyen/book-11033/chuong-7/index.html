@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | TIỂU TUYẾT">
   <meta name="twitter:description" content="Tôi nắm tay anh, bất ngờ thật sự. Tưởng đâu như mọi khi, anh sẽ không trả lời. “Cô không đến làm, cũng không liên lạc được… tôi lo.” Câu trả lời này, chút nào cũng không giống một chàng trai mắc ch...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

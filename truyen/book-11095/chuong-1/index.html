@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Bạn Đồng Hành Đáng Sợ">
   <meta name="twitter:description" content="Chồng tôi ra nước ngoài học nửa năm, tôi một mình chăm con gái, mỗi ngày tự lái xe đưa đón. Mẹ của bạn thân cùng lớp với con gái tôi muốn đi chung xe, nói là để tiện chăm sóc lẫn nhau, tôi đồng ý.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

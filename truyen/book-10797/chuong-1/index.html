@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | HAI NĂM CHÂN TÌNH">
   <meta name="twitter:description" content="Tôi chăm sóc Chu Uyên suốt hai năm trời, tận tâm từng chút một. Ai cũng nghĩ rằng điều đầu tiên anh ấy làm sau khi có thể đứng lên là cưới tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

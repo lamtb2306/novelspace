@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Cuộc Gọi Sau Mười Lăm Năm">
   <meta name="twitter:description" content="“Anh muốn biết vì sao tôi không về?” Tôi lấy điện thoại ra, mở một thư mục. Đó là những thứ tôi đã lưu rất lâu. “Tết năm 2014, tôi gọi điện nói muốn về nhà ăn Tết. Mẹ nói: ‘Đừng về nữa, anh con dẫn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

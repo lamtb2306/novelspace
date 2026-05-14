@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGƯỜI KHÔNG ĐÁNG BẬN TÂM">
   <meta name="twitter:description" content="Ở nhà xem phim cùng bạn bè, trên màn hình chiếu lớn, bỗng dưng hiện lên bức ảnh thân mật của bạn trai tôi với một cô gái khác. Họ nằm trên giường, ôm nhau đầy đam mê, cô gái cầm điện thoại, giơ tay...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

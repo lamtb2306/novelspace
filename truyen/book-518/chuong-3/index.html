@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Nhờ Sếp Làm Bạn Trai">
   <meta name="twitter:description" content="Tôi đấu tranh tâm lý một lúc, rồi dưới ánh mắt sáng rực của mẹ, tôi dứt khoát bấm gửi tin nhắn thoại: “Anh có thể qua nhà em ăn cơm không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

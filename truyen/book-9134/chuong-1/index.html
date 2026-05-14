@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BỆNH VIỆN BÁO NHẦM TIN">
   <meta name="twitter:description" content="Tôi đang ở giai đoạn cuối của bệnh ung thư, nên chẳng còn gì phải sợ, thế là tôi hôn luôn kẻ thù không đội trời chung của mình. Sáng hôm sau, bệnh viện gọi điện nói tôi lấy nhầm bệnh án. Tôi không ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

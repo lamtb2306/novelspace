@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Vì một cái váy mấy chục, cả nhà chồng tôi mất trắng">
   <meta name="twitter:description" content="“Em trả cái váy lại cho chị đi. Tiểu Bân còn nhỏ, chưa biết quý trọng đồng tiền. Anh trai em thì mất sớm, mẹ con chị sống cũng chẳng dễ dàng gì…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

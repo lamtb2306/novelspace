@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | YÊU SAI CÁCH">
   <meta name="twitter:description" content="Hôm nay là sinh nhật tôi. Nhưng gặp tôi, câu đầu tiên anh trai tôi nói lại là: “Giả vờ cái gì?” Thấy tôi im lặng. Anh đá mạnh vào giường bệnh. “Nói đi. Lại đang chơi trò gì?” Anh đã chặn số tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Bạch Cốt Kiệu Hoa">
   <meta name="twitter:description" content="Khi nhìn thấy chúng tôi, đặc biệt là Giang Thanh Khê, trên mặt hắn lập tức hiện lên vẻ vui mừng điên cuồng. “Thanh Khê!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

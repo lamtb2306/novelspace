@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | TH- UÔC YÊU">
   <meta name="twitter:description" content="“Mày có thấy có lỗi với chính mình nửa ngày trời cặm cụi không? Có lỗi với chai rượu ngon này không? Có lỗi với cái dạ dày của mày không?” “Ăn mau lên! Nhìn cái dáng mày giờ kìa, gió thổi là bay, s...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Họ Bắt Tôi Ở Nhà Trông Nhà, Tôi Cho Họ Ăn Tết Ở Sân Bay">
   <meta name="twitter:description" content="Ngày 27 tháng Chạp, trước khi công ty nghỉ Tết, tôi tự in một tấm “Phiếu trúng thưởng: Du lịch châu Âu 5 ngày dành cho gia đình 3 người, hạng sang” để đùa cho vui.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | KHÔNG BAO GIỜ QUAY LẠI">
   <meta name="twitter:description" content="Tôi vào viện cũng không phải chuyện lớn, chỉ là một vụ va quẹt xe bình thường. Bác sĩ đề nghị nên ở lại theo dõi hai ngày.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

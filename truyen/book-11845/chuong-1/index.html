@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cô Gái Không Nhà">
   <meta name="twitter:description" content="Sau khi bố mẹ qua đời, họ để lại căn nhà cho tôi. Nhưng đồng thời, họ cũng để lại cho tôi một “vị khách thuê trọn đời”. Anh trai tôi được ghi trong di chúc là có quyền cư trú trọn đời trong căn nhà...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

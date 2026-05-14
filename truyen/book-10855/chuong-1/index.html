@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BÁNH QUY CHO CHÓ">
   <meta name="twitter:description" content="Buổi tiệc liên hoan sau lễ khai giảng, thanh mai trúc mã Thẩm Mặc Thần đưa cho tôi một miếng bánh điểm tâm “đặc biệt không dị ứng”. Tôi vừa xé bao bì, mùi tanh nồng của thịt sống liền ập tới.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

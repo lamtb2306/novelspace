@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Sinh Mệnh Cứng Cỏi">
   <meta name="twitter:description" content="Tôi không nhịn được, lên tiếng: “Cô ấy tuy ngoại hình bình thường, nhưng phẩm chất rất tốt.” “Gặp nguy hiểm, phản ứng đầu tiên của cô ấy là bảo vệ người nhà.” “Còn anh, không chỉ lấy người khác làm...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

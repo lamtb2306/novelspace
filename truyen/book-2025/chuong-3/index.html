@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | BA NĂM CHO MỘT LỜI TẠM BIỆT">
   <meta name="twitter:description" content="Tiền thuê nhà, mua sắm, du lịch của Bạch Tuyết Phi — đều là từ tài khoản của tôi mà ra. Thậm chí những túi xách hàng hiệu, trang sức mà cô ta đeo trên người, đều do Tiêu Cảnh Thâm lấy tiền của tôi ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

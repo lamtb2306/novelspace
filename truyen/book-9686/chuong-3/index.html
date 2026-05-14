@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | TÔI SẼ ĐI CÙNG BẠN">
   <meta name="twitter:description" content="Cả đêm, tôi ở lại trong biệt thự của Hạ Thanh Dương. Anh ngồi dựa vào sofa nghỉ ngơi. Tôi ngồi xổm bên cạnh anh. Đáng tiếc là… anh chẳng cảm nhận được sự tồn tại của tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

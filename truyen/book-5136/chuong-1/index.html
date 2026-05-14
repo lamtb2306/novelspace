@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trở Về Giữa Yêu Thương">
   <meta name="twitter:description" content="Ngày hôm ấy, khi “tiểu thư thật” quay về, tôi không cãi cũng không khóc, ngoan ngoãn đi theo cha mẹ ruột về nhà. Họ nói tôi là kẻ trộm đã cướp đi cuộc đời của người khác.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

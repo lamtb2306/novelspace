@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | GẶP LẠI ANH SAU LẦN BỎ TRỐN">
   <meta name="twitter:description" content="Từ lúc quay về Thâm Thành, Lục Diễn Hằng chuyển vào tài khoản tôi một khoản tiền rất lớn. Ban đầu tôi không định nhận — vì số tiền này chẳng khác gì một món “bồi thường”. Nhưng bây giờ, nó lại trở ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

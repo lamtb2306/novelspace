@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Con Chóa Không Dám Nhìn Tôi">
   <meta name="twitter:description" content="Tôi không biết từ bao giờ, con chó nhà tôi đột nhiên không dám nhìn thẳng vào tôi nữa. Dẫn nó đi mấy bệnh viện thú y, bác sĩ cũng không tìm ra nguyên nhân. Hết cách, tôi đành liên hệ với một blogge...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

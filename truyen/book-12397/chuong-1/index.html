@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐI KHÁM THAI , TÌNH CỜ GẶP NYC">
   <meta name="twitter:description" content="Khi đi khám thai, tôi tình cờ đụng mặt người yêu cũ. Tôi cuống cuồng muốn chạy trốn, nhưng lại bị anh ta nắm chặt tay kéo lại. “Em sắp sinh rồi nhỉ?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

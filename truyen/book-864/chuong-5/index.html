@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Đêm Giao Thừa Năm Ấy, Tôi Chọn Mẹ">
   <meta name="twitter:description" content="Tôi cười. “Căn nhà này, tiền đặt cọc là ba mẹ con và con bỏ ra. Con dùng, con ăn, con mặc, không có thứ nào là nhà họ Lâm ban cho.” “Chúng con là vợ chồng, tài sản là chung.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

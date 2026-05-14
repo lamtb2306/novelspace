@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Mười Năm Chờ Báo Ứng">
   <meta name="twitter:description" content="Lý Vĩ Lâm còn tưởng tôi vui mừng, đắc ý nói, “Con trai tôi là thủ khoa thành phố, đó là sao Văn Khúc giáng trần đấy!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

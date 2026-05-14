@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thử Thách Trước Ngưỡng Cửa Hôn Nhân">
   <meta name="twitter:description" content="Khi đang chờ kiểm tra tiền hôn nhân, tôi nhận được ly trà sữa do cô bạn thân gửi đến. Anh shipper giao hàng nhìn tôi với ánh mắt rất kỳ lạ trước khi rời đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | BẢY NĂM ĐƠN PHƯƠNG">
   <meta name="twitter:description" content="Mùa xuân năm sau, tôi cùng Linh Thư đến Giang Thành du lịch. Cô ấy chuẩn bị kỹ lưỡng từ trước, kéo tôi đi dạo từ sáng đến tối, từ Thất Lý Đình đến Tháp Giang Ninh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

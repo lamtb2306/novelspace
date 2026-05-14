@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KHÔNG CÒN LIÊN QUAN GÌ NHAU NỮA">
   <meta name="twitter:description" content="Tôi tên là Kiều Ương, học sinh đứng nhất khối của trường Nhất Trung. Nghe thì có vẻ hào nhoáng, nhưng với tôi, danh hiệu này chẳng khác gì một tấm séc có thể đổi lấy tương lai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

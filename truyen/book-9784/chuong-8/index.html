@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Nửa Phần Mệnh">
   <meta name="twitter:description" content="Hồi nhỏ, trong nhà luôn có một quy tắc bất thành văn – đó là không ai được mượn bất kỳ thứ gì của tôi. Ngoài ra, tôi cũng được dạy rằng, từ nhỏ phải làm bạn với người có cùng năm, cùng tháng, cùng ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

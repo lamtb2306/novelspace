@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Bản Di Chúc Muốn Cướp Đi Căn Nhà Của Tôi">
   <meta name="twitter:description" content="Bố chồng vừa nằm xuống, mẹ chồng tôi đã đỏ hoe mắt, đập mạnh tờ di chúc xuống bàn: – “Căn nhà này thuộc về Gia Huệ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

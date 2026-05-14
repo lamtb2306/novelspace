@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | BÀI VIẾT BỊ XÓA SẠCH">
   <meta name="twitter:description" content="“Trưa nay em ăn gì? Chân còn đau không?” Đầu ngón tay dừng lại ngay khoảnh khắc chuẩn bị bấm gửi. Dựa vào đâu mà anh phải là người xuống nước trước? Rõ ràng lần này là cô vô lý gây chuyện trước!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

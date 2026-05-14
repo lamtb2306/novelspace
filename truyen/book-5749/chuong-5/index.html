@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Đường Về Thôn Tiểu Hòa">
   <meta name="twitter:description" content="Một người dân khác quay lại, thấy bao to bị lấy hết, liền bắt đầu lượm từng trái rơi vãi trên đất. Không rõ do mệt hay do trúng độc, lúc cúi nhặt ớt, mắt hắn đột nhiên mở không nổi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đường Về Thượng Hải">
   <meta name="twitter:description" content="【Chương 1】 Trong nhà có ba đứa con, tôi là con cả, bị để lại ở quê. Em gái là con thứ hai, ở bên cạnh bố mẹ. Tôi và em gái chẳng thân thiết gì với nhau, mãi đến nhiều năm sau, em ấy gọi điện cho tô...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

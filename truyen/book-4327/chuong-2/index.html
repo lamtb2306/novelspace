@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NÀNG THƠ CỦA CHÍNH TÔI">
   <meta name="twitter:description" content="Tôi đăng nhập vào và phát hiện phần mềm này thực ra lưu lại toàn bộ thao tác trên mỗi bản vẽ — từ khi tạo ra nét vẽ đầu tiên. Những bản thiết kế nổi tiếng được gắn tên Lâm Khê, người tạo file gốc… ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

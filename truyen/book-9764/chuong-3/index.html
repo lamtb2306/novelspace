@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Ly Hôn Trong Đêm">
   <meta name="twitter:description" content="Tôi vừa mới đỡ ông nội ngồi xuống, pha trà cho ông.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

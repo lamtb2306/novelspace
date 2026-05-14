@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bị Loại Khỏi Quy Hoạch, Tôi Xây Khách Sạn Bên Sân Bay">
   <meta name="twitter:description" content="Ngay khi tin tức xây sân bay lan ra, cả thị trấn như phát cuồng. Người của ban giải tỏa đến từng nhà đo đạc, bàn bạc phương án đền bù. Tôi chờ suốt ba tháng, vậy mà chẳng ai gõ cửa nhà tôi một lần.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

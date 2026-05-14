@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NỮ THỦ KHOA QUYẾT ĐÒI LẠI CUỘC ĐỜI">
   <meta name="twitter:description" content="Tôi thi đại học vượt xa mong đợi — đạt 710 điểm, chắc suất vào Thanh Hoa hoặc Bắc Đại. Trong buổi tiệc mừng, thẻ dự thi và chứng minh thư của tôi lại đột nhiên biến mất.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

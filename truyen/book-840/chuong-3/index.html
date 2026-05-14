@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tôi Không Cần Cả Chồng Lẫn Con">
   <meta name="twitter:description" content="Vì con, tôi xin nghỉ quá nhiều, bỏ lỡ cơ hội thăng tiến. Tôi đã cam tâm làm bà mẹ toàn thời gian, giữ hậu phương. Nhưng lúc này, tôi hối hận.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

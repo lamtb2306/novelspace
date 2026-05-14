@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Chị Cả">
   <meta name="twitter:description" content="“Trần Dương, em biết chuyện này gọi là gì không? Báo ứng.” Tôi lau nước mắt. “Năm đó các người lấy sạch tiền của tôi để mua nhà mua xe cho em, có từng nghĩ sẽ có ngày cần tiền cứu mạng không?” Mặt ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

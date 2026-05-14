@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đường Về Thôn Tiểu Hòa">
   <meta name="twitter:description" content="Chín năm trước, ba tôi lái xe tải lớn chạy ngang qua thôn Tiểu Hòa thì bị dính đinh, nổ lốp xe, dẫn đến tai nạn. Ba tôi chết tại chỗ, lũ heo béo chất đầy trên xe cũng bị dân làng gần đó tranh nhau ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

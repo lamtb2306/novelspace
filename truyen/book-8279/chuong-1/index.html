@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trò Trốn Tìm Cuối Cùng">
   <meta name="twitter:description" content="Ngay Khi tôi vừa chào đời, chị gái tôi đã mắc chứng biếng ăn. Chị ấy luôn không chịu ăn cơm, bố mẹ thì lúc nào cũng lo lắng. Họ nói, tất cả đều là vì sự xuất hiện của tôi, làm chị gái không vui. Vì...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

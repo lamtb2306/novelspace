@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 13 | TRÒ CHƠI TÌNH ÁI">
   <meta name="twitter:description" content="“Nếu tôi không đồng ý thì sao?” Hắn thử thăm dò. “Vậy thì chúng ta cứ tiếp tục chơi.” Tôi nhún vai, “Tôi thì không sao cả, dù gì tôi đã là nhân vật chính rồi, thêm vài vết bẩn cũng chẳng hề gì. Như...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

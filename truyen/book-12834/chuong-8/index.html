@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | APP TÀI VẬN">
   <meta name="twitter:description" content="Ánh mắt cô ta ngập tràn bất cam, không hề có lấy một tia hối hận. “Nhưng tôi đâu có thật sự làm hại gia đình cậu! Hơn nữa số tiền đó với cậu chẳng phải dễ như trở bàn tay sao, tôi đã biết sai rồi mà!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

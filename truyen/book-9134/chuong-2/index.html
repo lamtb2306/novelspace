@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BỆNH VIỆN BÁO NHẦM TIN">
   <meta name="twitter:description" content="Tôi chẳng còn chút khí phách nào, xách túi chạy trối chết ra khỏi đó. Dù sao thì tên đó cũng còn phải mặc quần áo, chắc chắn không đuổi kịp tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

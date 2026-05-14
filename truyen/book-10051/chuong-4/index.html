@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | KHI CON TÔI GỌI CÔ ẤY LÀ MẸ">
   <meta name="twitter:description" content="Trước đây mỗi lần tôi nói thế, anh đều bế tôi vào phòng không chút do dự. Nhưng hôm nay — anh lại đẩy tôi ra. “Đừng nhõng nhẽo nữa, sắp đến giờ đón con rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

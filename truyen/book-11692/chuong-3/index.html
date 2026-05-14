@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Ly Hôn Trong Đêm Mưa">
   <meta name="twitter:description" content="Tôi không đáp. Chỉ khẽ chạm vào túi áo — nơi lẽ ra phải có tờ kết quả mang thai. Tôi thậm chí đã chuẩn bị sẵn câu chúc mừng: “Thừa Cảnh, năm thứ tám yêu nhau…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

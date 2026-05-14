@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tôi Là Blogger Ăn Bún Ốc, Chồng Tôi Là Ông Trùm Tài Chính">
   <meta name="twitter:description" content="Kỹ đến mức trước mặt những người quen của anh, tôi chỉ là một người xa lạ có thể tùy ý sỉ nhục. Còn Thẩm Mạn lại có thể ngồi bên cạnh anh như nữ chủ nhân, hưởng thụ sự ưu ái và hào quang.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

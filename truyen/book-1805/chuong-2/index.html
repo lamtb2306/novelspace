@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BÓNG HỒNG TIM ĐEN">
   <meta name="twitter:description" content="Cú ngã đau đến nhói, tôi vừa đứng dậy thì bụng lại đau nhói một cái.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

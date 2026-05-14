@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | TÔI KHÔNG LÀ BÓNG TỐI NỮA">
   <meta name="twitter:description" content="Lục Chi Viễn nhìn tôi, đôi mắt sáng dần lên từng chút một, như bầu trời sao vừa được thắp sáng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

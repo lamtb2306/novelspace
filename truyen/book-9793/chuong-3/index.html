@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | YÊU ĐƯƠNG ONLINE">
   <meta name="twitter:description" content="Thái tử gia thật đang bận tham dự họp báo. Còn không biết cái Thái tử gia trên mạng kia đã bàn bạc thành công bao nhiêu tỷ rồi. Vì vậy, chúng tôi quyết định nhắn tin cho hắn. “Anh ơi, dự án bàn xon...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

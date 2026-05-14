@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TÌNH YÊU ONLINE VỚI TỔNG TÀI CAO LÃNH">
   <meta name="twitter:description" content="Trong mơ toàn là hình ảnh Cố Diễn Chi đội cái ID “Ngôi sao nhỏ của tôi”, đuổi theo tôi trên màn hình lớn trong phòng họp, vừa gọi “Bé ơi sao không trả lời anh”, vừa ép tôi chạy khắp nơi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

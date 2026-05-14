@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Bản Sao Của Tôi">
   <meta name="twitter:description" content="Những ngày sau đó. Tôi tự nhốt mình trong phòng, không đi đâu. Trường lái đương nhiên không quay lại nữa. Công việc cũng xin nghỉ dài hạn. Việc duy nhất tôi làm là phối hợp điều tra.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

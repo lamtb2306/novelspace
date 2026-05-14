@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Đi Công Tác Về, Tôi Phát Hiện Vân Tay Nhà Mình Bị Xóa">
   <meta name="twitter:description" content="Một chiếc vòng vàng trị giá 58.000 tệ. Dưới đường link kèm theo một câu: Không cần đưa phong bao đỏ nữa, mua chiếc vòng này đi. Con trai hay con gái đều đeo được, ý nghĩa cũng tốt, một đời mang vàng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

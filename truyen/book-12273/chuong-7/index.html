@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Hai Ngày Còn Lại">
   <meta name="twitter:description" content="Anh trai tôi ban đầu cho rằng đó là một kẻ lừa đảo, còn nguyền rủa đứa em gái mình yêu nhất chết không toàn thây. “Anh đang nói bậy bạ gì đó? Có tin tôi báo cảnh sát bắt anh không!” “Tôi là cảnh sát.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

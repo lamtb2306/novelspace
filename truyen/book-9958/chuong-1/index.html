@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ba Ngày Trước Dự Sinh">
   <meta name="twitter:description" content="Còn ba ngày nữa là đến ngày dự sinh, bố mẹ chồng bỗng nhiên thông báo sẽ dọn đến một thành phố ven biển định cư.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

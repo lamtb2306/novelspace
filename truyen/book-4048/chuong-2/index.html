@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NGÔI SAO BỊ LÃNG QUÊN">
   <meta name="twitter:description" content="“Cô ta là một con ngốc, chẳng lẽ định bám lấy tôi cả đời sao? Nếu không phải lúc trước mọi người cứ ép tôi cưới cô ta, tôi cũng chẳng cần phải giả vờ vất vả như vậy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

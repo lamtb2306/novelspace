@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | CÔ NHI">
   <meta name="twitter:description" content="Khi tỉnh dậy lần nữa, tôi nhận ra mình đang ở trong phòng bệnh viện. Trong phòng không chỉ có một mình cô, mà còn có ông nội Hạ ngồi bên giường và Hạ Tuấn đứng cạnh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

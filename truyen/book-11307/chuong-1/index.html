@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bông Hướng Dương Lặng Lẽ">
   <meta name="twitter:description" content="Tôi đã tài trợ cho cô gái vùng núi tên là Chu Hiểu Đường suốt bốn năm đại học. Thậm chí còn nhờ quan hệ để giúp cô ấy có một suất học thẳng cao học.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

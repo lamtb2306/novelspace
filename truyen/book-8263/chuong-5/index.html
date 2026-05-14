@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Chị Em Hai Kiếp">
   <meta name="twitter:description" content="Tôi đứng từ xa nhìn, thấy chị ta để A Dao lên xe xong liền bắt đầu lo lắng gọi điện thoại, quay lưng đi về hướng khác.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

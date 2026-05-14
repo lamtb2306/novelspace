@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHỒNG TÔI BÁN TÔI ĐỂ CẦU MAY">
   <meta name="twitter:description" content="Sau lần sảy thai thứ mười, tôi lại phải nhập viện vào trung tâm chăm sóc hậu sản. Trung tâm này sẽ ghi chú lại thông tin của từng khách hàng, nhưng tôi không ngờ, ghi chú của tôi lại là: “Xe buýt n...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

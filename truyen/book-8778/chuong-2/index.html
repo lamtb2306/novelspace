@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Mèo Chiêu Tình">
   <meta name="twitter:description" content="Về đến nơi, tôi trước tiên xác nhận anh ta có xóa bạn bè tôi không. Rất tốt. Không có dấu chấm than đỏ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

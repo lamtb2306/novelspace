@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Hủy Hôn Vì Một Tấm Ảnh">
   <meta name="twitter:description" content="Trong khung chat của tôi, icon của Mạnh Viễn Hoài nhấp nháy liên tục, đỏ rực. Mở ra, toàn là tin nhắn thoại anh gửi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

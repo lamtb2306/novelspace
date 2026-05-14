@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Hương Vị Không Thể Sao Chép">
   <meta name="twitter:description" content="Tôi ngồi trong quán, tự nấu cho mình một bát mì. Chậm rãi ăn từng chút. Nước dùng vẫn là hương vị đó. Tươi ngon, đậm đà, dư vị kéo dài. Mì vẫn dai như vậy. Trơn mịn, đàn hồi, tràn đầy hương lúa mì....">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

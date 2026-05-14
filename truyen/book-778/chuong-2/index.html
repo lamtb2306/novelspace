@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NỮ PHỤ ĐÓNG THẾ">
   <meta name="twitter:description" content="Tôi luôn biết rõ, bản thân không phải người tốt. Năm mười bảy tuổi, tôi lỡ tay đâm một gã khách háo sắc đến tàn phế. Mọi người đều nghĩ tôi chỉ là phòng vệ quá mức. Nhưng không ai biết, tôi cố tình...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

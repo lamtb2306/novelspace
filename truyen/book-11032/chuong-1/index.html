@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chuyến Tàu Ngược Hướng">
   <meta name="twitter:description" content="Năm 1986, tôi dắt con gái về quê, tình cờ gặp lại bạn học cấp ba đã mười năm không gặp ở bến xe. Cô ấy nhìn con gái trong lòng tôi, cười nửa đùa nửa giễu: “Đã nói rồi mà, năm đó chắc chỉ là giận dỗ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

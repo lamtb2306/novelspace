@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Chỉ vì 130 tệ, tôi mất cả một đứa con">
   <meta name="twitter:description" content="Hai bên nội ngoại tụ họp, tôi phải nấu hai mâm lớn. Từ đi chợ, nấu nướng đến rửa bát, dọn dẹp… tất cả chỉ một mình tôi làm. Cả nhà ngồi trong phòng khách nhàn nhã ăn hạt dưa, xem tivi, cười nói rôm...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Đời Là Người Dưng">
   <meta name="twitter:description" content="Sau khi trọng sinh, tôi cố tình nhiều lần đi lướt qua chồng là thiếu tướng mà không chạm mặt. Anh tan làm đi từ cổng trước đơn vị, tôi liền đi từ cổng sau.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

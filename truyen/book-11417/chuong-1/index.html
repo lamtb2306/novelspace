@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thầy Trò Không Giống Thầy Trò">
   <meta name="twitter:description" content="Ngày Nhà giáo, học trò của Tạ Hoài Cẩn đến nhà chơi. Anh xưa nay không thích uống đồ ngọt, vậy mà hôm nay lại đặc biệt đến siêu thị mua hai chai nước cam.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

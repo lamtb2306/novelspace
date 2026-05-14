@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nữ Diêm Vương Trên Thương Trường">
   <meta name="twitter:description" content="Lúc thôi nôi, tôi không cầm tiền, không cầm đồ ăn, cũng không cầm đồ chơi, mà thẳng tay chộp lấy chiếc vòng vàng to bản của mẹ tôi. Bố tôi mừng rỡ ra mặt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

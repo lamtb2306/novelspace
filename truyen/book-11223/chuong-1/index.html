@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Kiếp Hai Không Lỗi">
   <meta name="twitter:description" content="Tôi chết vào một mùa thu hoạch ngũ cốc bội thu. Không ai quan tâm. Cũng chẳng ai vì tôi mà đội khăn tang, canh xác bảy ngày bảy đêm. Ngày thứ hai sau khi tôi chết, chồng tôi đã đánh trống gõ chiêng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tôi Lớn Lên Trong Một Gia Đình Ma">
   <meta name="twitter:description" content="Bố mẹ tôi có một bí mật. Họ luôn bay lơ lửng vào lúc nửa đêm, còn rất thích uống một loại “nước cà chua” màu đỏ. Tôi luôn nghĩ họ đang chơi cosplay, vì tôi vừa ngây thơ vừa đáng yêu, chắc chắn họ k...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

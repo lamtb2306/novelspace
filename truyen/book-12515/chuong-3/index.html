@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | THỨ TÔI CẦN LÀ TIỀN">
   <meta name="twitter:description" content="Các cô bạn không hỏi thêm gì nữa, chỉ nhìn tôi với ánh mắt đầy ngưỡng mộ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

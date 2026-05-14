@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Sự tinh tế và tội lỗi">
   <meta name="twitter:description" content="Chỉ vì mua một chai kem ủ tóc, phụ huynh học sinh đột nhiên nổi đoá. “Cô Lý, cô định làm dâu nhà giàu đấy à?” Tôi ngơ ngác chưa hiểu chuyện gì.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

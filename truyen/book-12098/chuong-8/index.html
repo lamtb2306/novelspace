@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Ngôi Sao Xui Xẻo">
   <meta name="twitter:description" content="Ông đưa tôi một tập tài liệu. Tôi đọc xong, không do dự mà ký tên. “Tuy vậy, trước khi bắt đầu điều trị, tôi muốn bác sĩ thôi miên thêm một lần nữa.” Bác sĩ Trần tò mò: “Cô muốn hồi tưởng điều gì?”...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

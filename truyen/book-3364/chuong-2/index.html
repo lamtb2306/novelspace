@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | KHÔNG CÒN LÀ CÔ DÂU NGỐC CỦA ANH">
   <meta name="twitter:description" content="Tôi mệt mỏi nằm trên giường. Mục Thâm Nam tức tối kéo tôi dậy: “Đường Họa, rốt cuộc em muốn làm gì?” Tôi không muốn tranh cãi, ánh mắt chỉ nhìn sang hướng khác. Anh nghiến răng: “Đừng tham lam quá.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

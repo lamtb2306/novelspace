@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Giấc Mơ Bắc Đại">
   <meta name="twitter:description" content="Trái lại, bên ngoài im lặng đến rợn người. Chỉ có giọng tôi lạnh lùng vang lên: “Sở Tiêu Tiêu, có vẻ khoảng thời gian này chẳng giúp cô khôn ra chút nào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

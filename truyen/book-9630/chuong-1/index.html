@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tôi Đặt Cua Online, Mẹ Tôi Giao Cho Chị Dâu">
   <meta name="twitter:description" content="Tôi đặt mua cua lông Thượng Hải trên mạng, mẹ tôi là người nhận hàng rồi lập tức mang sang nhà anh trai và chị dâu. Bà còn lừa tôi: “Mới nhận được một lúc đã chết sạch rồi.” Mười phút trước, chị dâ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

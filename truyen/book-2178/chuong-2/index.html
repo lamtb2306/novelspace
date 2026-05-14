@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BẠN TRAI BÍ ẨN CỦA TÔI">
   <meta name="twitter:description" content="So với tôi hồi trước, anh thậm chí còn chăm chỉ hơn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

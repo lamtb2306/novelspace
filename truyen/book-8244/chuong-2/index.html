@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Búp Bê Tráo Mệnh">
   <meta name="twitter:description" content="Làm xong mọi việc, tôi nhìn chằm chằm vào tấm ảnh mờ nhòe trên màn hình máy tính—là bức ảnh con búp bê dưới gối Dao Dao ở kiếp trước. Tay tôi run nhẹ khi cầm bút chì phác họa lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

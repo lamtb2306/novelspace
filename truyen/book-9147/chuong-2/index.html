@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Váy cưới và những bí mật">
   <meta name="twitter:description" content="Tôi nhìn chằm chằm vào màn hình, đầu ngón tay lạnh ngắt. Không còn là chuyện sáu trăm vạn nữa. Cái lý do này, từ đầu đến cuối có lẽ vốn là bịa ra. Tôi gọi điện cho Hạ Cảnh Từ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

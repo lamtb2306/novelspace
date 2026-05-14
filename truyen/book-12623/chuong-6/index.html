@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Sau Cùng, Chúng Ta Là Một Nhà">
   <meta name="twitter:description" content="QUAY LẠI CHƯƠNG 1 : Tôi đã âm thầm thích anh ba năm trời. Tôi quay sang nói với bạn thân: “Mẹ tớ chọn cho ba người để xem mắt, bảo tớ về rồi chọn lấy một.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

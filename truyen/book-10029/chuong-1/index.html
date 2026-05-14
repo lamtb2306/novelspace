@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tiểu Bệnh Lao Của Đông Cung">
   <meta name="twitter:description" content="Đại phu nói ta sống không qua nổi tuổi hai mươi, mà năm nay ta đã mười chín. Thế là ta xem mỗi ngày như ngày cuối cùng mà sống. Ta vốn định an an ổn ổn chờ chết, nhưng cố tình có người không cho phép.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

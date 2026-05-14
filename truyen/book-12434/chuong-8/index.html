@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | MỐI TÌNH DANG DỞ">
   <meta name="twitter:description" content="Hôm sau, tôi vốn định theo đoàn quay lại thành phố A. Nhưng khi trả phòng, tôi lại bị Thẩm Dự Hành chặn ngay tại sảnh khách sạn. Anh trông như chưa ngủ suốt cả đêm. “Cho anh nửa ngày thôi, được khô...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Mẹ Của Kẻ Khác">
   <meta name="twitter:description" content="Hai giờ sáng, điện thoại của mẹ reo inh ỏi, kéo tôi ra khỏi giấc ngủ. “Anh con đánh nhau, đánh người ta nhập viện rồi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

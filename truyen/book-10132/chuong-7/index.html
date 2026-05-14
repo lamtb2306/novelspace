@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | CHIẾC GHẾ TRỐNG">
   <meta name="twitter:description" content="Hai chữ “về nhà” bỗng chốc giáng thẳng vào tim tôi. “Về nhà.” Biết bao nhiêu năm trời, tôi đã khát khao được nghe câu đó từ chính miệng ba mẹ. “Đi nào, Vãn Dung, mình về nhà thôi.” Tiếc là, bây giờ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

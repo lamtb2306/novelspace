@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 13 | Tôi Nuôi Năm Đứa Trẻ Sinh Năm">
   <meta name="twitter:description" content="Trên ảnh, một chiếc sedan màu đen đỗ bên vệ đường, cửa sổ xe hé mở một nửa, có thể thấy bên trong có một người đàn ông.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

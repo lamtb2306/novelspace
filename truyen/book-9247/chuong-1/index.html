@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NỐT RUỒI CHU SA">
   <meta name="twitter:description" content="Trước cửa Cục Dân chính, tôi và vị hôn phu đang xếp hàng lấy giấy đăng ký kết hôn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

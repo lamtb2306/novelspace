@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Trò Chơi Đóng Thế">
   <meta name="twitter:description" content="“Đây là những sợi dây chuyền tôi thích nhất, tôi tặng hết cho cô, mong cô có thể quên đi những chuyện không vui trước đây.” Nghe những lời này, lòng tôi bỗng có cảm giác khó tả. Phải rồi. Giữa con ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

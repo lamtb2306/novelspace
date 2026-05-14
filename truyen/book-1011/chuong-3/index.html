@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Ba người là một nhà">
   <meta name="twitter:description" content="“Đừng như vậy chị, cùng lắm thì em không đi nữa, để chị đi với bố mẹ.” “Em chỉ nghĩ là chị kiếm được nhiều tiền, không thiếu chút đó, với lại em cũng chưa từng đi châu Âu.” “Hồi nhỏ mấy hoạt động b...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Lưỡi Dao Mang Tên Gia Đình">
   <meta name="twitter:description" content="Tôi quay lại nhìn mẹ, ánh mắt lạnh băng: “Nếu khó chịu thì đi bệnh viện kiểm tra. Con đưa đi ngay.” Mẹ như bị ánh mắt tôi dọa sợ, vội trốn sau lưng Tinh Thần: “Không đi, không đi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

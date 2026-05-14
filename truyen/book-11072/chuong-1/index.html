@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Kẻ Ở Nhờ Vô Ơn">
   <meta name="twitter:description" content="Khi tôi liên hệ với trung gian để cho thuê căn nhà thuộc diện nhà ở khu trường học tốt, một đồng nghiệp đến tìm tôi, vừa khóc vừa nói rằng cô ấy bị chủ nhà cũ lừa, van xin tôi cho cô ấy thuê nhà.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

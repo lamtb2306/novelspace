@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Đứa Con Không Ai Muốn">
   <meta name="twitter:description" content="Chị cười lạnh khi tôi đi ngang qua. “Sau này ra đời cũng chỉ là dân đi làm thuê.” “Còn hơn có người ngay cả phòng thi cũng không vào nổi.” Tôi lạnh lùng nhếch môi. “Chị, chị còn không chịu thừa nhậ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

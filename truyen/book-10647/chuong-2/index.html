@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Năm Tháng Của Sân Hận">
   <meta name="twitter:description" content="Cô ấy có thể nhìn thấy tôi làm gì, nhưng không hiểu tôi đang làm gì. Nhìn ánh mắt dần trở nên mơ hồ của cô ấy,tôi bảo cô lên máy tính trong văn phòng tôi tìm video học tập. Cô ngoan ngoãn đi ngay.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

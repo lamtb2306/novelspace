@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 14 | Tình Yêu Sau Cơn Mưa">
   <meta name="twitter:description" content="“Về nhà.” “Vậy khi nào em quay lại?” “Có lẽ… sẽ không quay lại nữa.” Tôi chưa bao giờ thích thành phố này. Ngày xưa ở lại là vì anh ta, giờ kết thúc rồi, tôi tự nhiên chẳng còn lý do để ở thêm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Vị Đắng Của Tình Thân">
   <meta name="twitter:description" content="Vào ngày sinh nhật năm mươi tuổi của tôi, con gái tôi – Chu Tĩnh – nhất quyết tổ chức tiệc mừng tại khách sạn sang trọng bậc nhất thành phố. Nó nói muốn tổ chức linh đình để chúc mừng sinh nhật mẹ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

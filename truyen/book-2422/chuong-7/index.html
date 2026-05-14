@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | CHÚNG TA CHỈ LÀ BẠN">
   <meta name="twitter:description" content="Tôi cúi người lặng lẽ đi vào bằng cửa sau, theo hướng chỗ ngồi mà Nguyễn Kiều Nam nhắn, tìm đến đúng số ghế. Không biết tiết mục của hai cậu ấy khi nào mới bắt đầu, nên tôi chăm chú đợi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

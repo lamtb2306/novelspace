@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MỘT MÌNH TOẢ SÁNG">
   <meta name="twitter:description" content="Vì công khai yêu đương,tôi bị người nhà anh ta trói lại đánh đến nhập viện.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

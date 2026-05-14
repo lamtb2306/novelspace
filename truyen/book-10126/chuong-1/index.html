@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trở Về Từ Đáy Biển Sâu">
   <meta name="twitter:description" content="Tôi là kỹ sư hàng đầu của Trung tâm Công nghệ Biển Sâu quốc gia, cũng là người duy nhất trên thế giới từng có kinh nghiệm cứu hộ ở độ sâu mười ngàn mét.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

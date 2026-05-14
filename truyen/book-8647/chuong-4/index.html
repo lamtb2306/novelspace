@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | HƯỚNG DƯƠNG TOẢ NẮNG">
   <meta name="twitter:description" content="Con bé chân trần đứng ngay cửa, sững sờ nhìn chúng tôi. Đến khi ánh mắt tôi giao với nó, con bé mới òa khóc nức nở rồi lao về phía giường. “Mẹ ơi…” “Thả mẹ ra!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

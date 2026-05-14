@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chị Gái Trong Tâm Bão">
   <meta name="twitter:description" content="Trong chương trình “chậm rãi thực tế”, em gái tôi ấm ức khóc kể: “Hồi nhỏ, mẹ có hơi thiên vị chị. Chị được ăn kẹo, còn tôi thì không.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

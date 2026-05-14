@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Chuyến Bay Xuyên Thời Gian">
   <meta name="twitter:description" content="Vì An Tri Hạ, vì tình yêu tự cho là vĩ đại của họ, anh có thể tàn nhẫn đến thế với tôi và con mình. Tôi hối hận. Tôi lẽ ra không nên để anh đến đón tôi ngày hôm đó.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

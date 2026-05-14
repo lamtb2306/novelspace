@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 15 | Mười hai triệu bảy trăm ba mươi nghìn">
   <meta name="twitter:description" content="Bước ra khỏi nghĩa trang, trời nắng đẹp rực rỡ. Tô Tình lái xe chờ tôi sẵn ở cổng, mỉm cười hỏi: “Đi đâu đây?” “Tới tương lai.” Tôi cũng cười đáp lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

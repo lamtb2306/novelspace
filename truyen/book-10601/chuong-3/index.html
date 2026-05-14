@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Con gái út nhà họ Trần">
   <meta name="twitter:description" content="Tôi nghĩ, thôi vậy. Dù sao bà cũng là mẹ tôi. Thôi đi. Nhưng có những cái “thôi đi” tích góp lâu ngày, sẽ không thể “thôi đi” nữa. Tháng sau khi mẹ xuất viện, tôi vẫn gửi một ngàn tiền phụng dưỡng ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

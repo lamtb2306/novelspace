@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NÃO YÊU ĐƯƠNG">
   <meta name="twitter:description" content="Tôi và Lục Trạch Minh là cặp “não yêu đương” nổi tiếng trong giới giải trí. Anh vì bạch nguyệt quang mà rút lui khỏi màn ảnh, còn tôi vì chu sa chí mà si mê cuồng dại. Một người vung tài nguyên để ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

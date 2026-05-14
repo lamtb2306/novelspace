@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Tiểu Thư Nông Thôn">
   <meta name="twitter:description" content="Tôi còn đang rúc trên khúc gỗ hong lửa thì câu hỏi đột ngột kia rơi xuống đầu khiến tôi ngẩn ra một lúc. “Hả?” “Ừm… tôi từ Thượng Hải tới.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

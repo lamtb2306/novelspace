@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nàng Thê Tử Bị Bỏ">
   <meta name="twitter:description" content="Hôm ấy, trời vừa rạng sáng, ta nhận được một phong hưu thư. Giấy đỏ chữ đen, mực còn nhòe ướt. Là hỉ thiếp đỏ tươi, mà chẳng phải báo hỷ, lại là thư đoạn nghĩa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Thiên Kim Không Cần Được Nhận Lại">
   <meta name="twitter:description" content="Tôi bỗng im lặng, chăm chú nhìn cậu. Mấy hôm nay tôi nghĩ rất nhiều. Nghĩ nhiều nhất là, tôi có lẽ thật sự thích Phó Trì. Tuy từ nhỏ Phó Trì vẫn gọi tôi là chị, nhưng thật ra tôi chẳng lớn hơn cậu ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

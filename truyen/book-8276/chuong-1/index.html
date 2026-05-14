@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đường Thanh Uy">
   <meta name="twitter:description" content="Mười lăm năm trước, mẹ tôi mắc trọng bệnh. Trong lúc hoảng loạn, tôi đã bán thận để đổi lấy ba trăm nghìn nhân dân tệ chữa trị cho mẹ. Nào ngờ số tiền ba trăm nghìn vừa đến tay thì đã bị chồng tôi ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

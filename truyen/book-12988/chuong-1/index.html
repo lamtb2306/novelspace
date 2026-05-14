@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đừng Nhầm Lòng Tốt Với Nghĩa Vụ">
   <meta name="twitter:description" content="Đồng nghiệp rủ tôi đi ăn, bảo là chia tiền kiểu AA. Nhưng tôi vừa đến nơi, cô ta lần lượt gọi thêm mười người bạn mà tôi hoàn toàn không quen biết.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

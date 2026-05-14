@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | EM LÀ ÁNH SÁNG CỦA ANH">
   <meta name="twitter:description" content="Trò chơi bắt đầu, ngay vòng đầu tiên đã đến lượt tôi. Tôi chọn “Thật lòng”. Người đặt câu hỏi lại chính là một trong những người bạn của Thẩm Mục.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

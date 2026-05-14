@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | ALBUM KHÔNG CÓ TÔI">
   <meta name="twitter:description" content="tôi viết một bức thư gửi cho Hội nhà văn, nói rằng mình đồng ý gia nhập. Lần này, tôi không muốn làm cái bóng của bất kỳ ai nữa, mà sẽ sống thật đường hoàng, vì chính mình. Dù chỉ một lần, cũng đủ ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

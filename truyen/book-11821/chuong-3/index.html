@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Ngôi Nhà Của Người Chiến Thắng">
   <meta name="twitter:description" content="Chiều hôm đó, tôi nhận được một quyển sổ đỏ. Phần “Chủ sở hữu” được in rõ ràng, là tên tôi. Tôi quay lại tòa nhà quen thuộc đó. Vẫn cũ kỹ, tường tróc lở, hành lang ngập đầy đồ đạc bừa bộn. Nhưng lầ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

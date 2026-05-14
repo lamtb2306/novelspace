@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Con Dâu Kiểu Mẫu">
   <meta name="twitter:description" content="Khi tôi âm thầm gánh vác mọi chuyện trong nhà, nhẫn nhục chăm sóc bố chồng bệnh nặng, hàng xóm ai cũng bảo tôi hiền thục, hiểu chuyện. Thế mà kết cục thì sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

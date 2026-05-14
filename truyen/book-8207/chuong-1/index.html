@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Thí Nghiệm Hoàn Hảo">
   <meta name="twitter:description" content="Tôi chưa từng nghĩ rằng mình sẽ phát hiện ra một bí mật như thế trong thư phòng của chồng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

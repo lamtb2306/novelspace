@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NĂM MƯƠI NĂM LẠNH LẼO, MỘT KIẾP ĐỔI ĐỜI">
   <meta name="twitter:description" content="Sắc mặt Tần Phong xanh mét, mọi người đồng loạt quay lại nhìn họ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

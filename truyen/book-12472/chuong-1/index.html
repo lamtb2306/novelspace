@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Lần Cuối Gọi Là Mẹ">
   <meta name="twitter:description" content="Nghỉ lễ về nhà, mẹ dẫn tôi đi siêu thị, chuẩn bị làm một bàn tiệc lớn cho Tết Trung thu. Đến siêu thị, mẹ hỏi tôi muốn ăn gì, tôi vừa lấy một hộp cá hồi bỏ vào xe đẩy thì ngay lập tức bà lấy ra.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

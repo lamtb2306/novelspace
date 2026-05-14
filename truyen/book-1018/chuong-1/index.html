@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bài Hát Ru Muộn Màng">
   <meta name="twitter:description" content="Vì một lần ngoài ý muốn, mẹ tôi bị mất trí nhớ, lang thang bên ngoài, bị một lão già độc thân lừa gạt về nhà rồi sinh ra tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bản hoàn phí 2.300 tệ">
   <meta name="twitter:description" content="Khi phát hiện đơn hoàn phí công tác của tôi ghi 2.300 tệ, sếp Cố Diễn liền gọi tôi vào văn phòng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

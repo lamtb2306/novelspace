@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đoạn tuyệt">
   <meta name="twitter:description" content="Trên đường lái xe đưa em gái đi học, nó đột nhiên nói. “Chị, thật ra chị cũng giả tạo lắm.” Tôi phanh gấp, em gái lắc lắc chiếc điện thoại trong tay.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

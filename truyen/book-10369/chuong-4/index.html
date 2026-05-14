@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Đêm Tân Hôn Thấy Kịch Bản Đời Mình">
   <meta name="twitter:description" content="Mọi người xung quanh thấy cãi nhau thì nhanh chóng chạy đến can ngăn. Thím Lưu bị lôi đi xa mà vẫn chửi không ngừng: “Đáng đời bị người ta lừa xoay vòng vòng!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đứa Con Gái Vô Dụng">
   <meta name="twitter:description" content="Bố mẹ vì muốn sinh thêm em trai mà đem tôi gửi cho dì út. Về sau, họ lại khóc lóc kể khổ rằng tôi bất hiếu, vì tôi bỏ tiền mua nhà, mua xe cho dì út, còn với họ thì không chịu tiêu một xu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

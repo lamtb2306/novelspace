@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | KHI KẺ THAM LAM ĐỔI VẬN">
   <meta name="twitter:description" content="Bà nội tôi ngồi trên giường đất, vui mừng đến mức không khép được miệng. “Chậc chậc, đúng là cháu bà giỏi giang.” “Cô gái này nhìn là biết dễ sinh con, trắng trẻo, xinh xắn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

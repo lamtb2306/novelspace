@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chỉ vì 130 tệ, tôi mất cả một đứa con">
   <meta name="twitter:description" content="“Tôi có quyền từ chối bất kỳ việc gì mà tôi không muốn làm!” “Thứ hai, cái gói hàng của Lưu Lệ Na là nhận hàng trả tiền, giá 2000 tệ!” “Cô ta bảo tôi đi nhận giúp, tức là muốn tôi trả tiền thay — t...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

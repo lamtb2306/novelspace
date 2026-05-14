@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | BẠN TRAI CỦA TÔI LÀ EM TRAI CỦA BẠN THÂN">
   <meta name="twitter:description" content="Điện thoại vẫn còn đổ chuông. Tô Dã khẽ cười, vươn tay đưa điện thoại cho tôi. Nhưng khi thấy tên hiển thị trên màn hình, Ánh mắt cậu vừa còn mang ý cười bỗng chốc trở nên u ám.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

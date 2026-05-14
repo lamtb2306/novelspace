@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tôi Giả Vờ Ngoan Ngoãn Trong Gia Đình Trọng Nam Khinh Nữ">
   <meta name="twitter:description" content="Gia đình tôi trọng nam khinh nữ. Từ ngày em trai chào đời, tôi hoàn toàn bị lãng quên. Nhưng không sao, tôi biết cách giả vờ ngoan ngoãn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

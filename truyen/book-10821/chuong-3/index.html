@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chúng Ta Đừng Gặp Lại">
   <meta name="twitter:description" content="Tôi tưởng mình sẽ không còn đau lòng nữa. Nhưng khi thấy nụ cười ngọt ngào vô thức hiện lên trên gương mặt cô ấy, như có một bàn tay vô hình đang giày vò trái tim tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Mẹ tôi – người mẹ của ba ông cậu">
   <meta name="twitter:description" content="Ngoại tức điên lên: “Dù gì tao cũng là người sinh ra mày, không có tao thì làm sao có mày ngày hôm nay?! Biết vậy lúc sinh mày tao bóp chết mày luôn cho rồi!” “Đây là bệnh viện! Ồn cái gì mà ồn?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

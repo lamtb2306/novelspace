@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MIẾNG NGỌC BÌNH AN">
   <meta name="twitter:description" content="Tôi dẫn 4 đứa cháu đi ăn ở nhà hàng do chồng tôi quản lý. Vốn dĩ tôi luôn sống rất kín tiếng, không hề tiết lộ mình là bà chủ. Chúng tôi gọi món, ăn uống bình thường, thanh toán hết 600 tệ. Cháu tr...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

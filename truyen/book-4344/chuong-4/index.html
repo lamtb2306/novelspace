@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Năm Năm Bỏ Lại">
   <meta name="twitter:description" content="“Cái ‘cửa’ đó (tường lửa) dễ quá à! Con thử vài lần là tìm ra ‘chìa khoá’ (lỗ hổng) để vào rồi! Bên trong có nhiều ‘nhà’ (máy chủ) to ơi là to, con thấy tò mò nên đi dạo dạo.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

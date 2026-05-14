@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | VỢ LÀ ĐẠI GIA">
   <meta name="twitter:description" content="“Chị dâu đây là vì người mình yêu mà làm đẹp thôi!” “Đúng vậy, nhìn mà đã thấy vui mắt rồi, Giang Chu, đừng không biết trân trọng!” “Phải đó, mẹ tôi ở nhà bao năm nay mà vẫn trang điểm, tôi còn chư...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

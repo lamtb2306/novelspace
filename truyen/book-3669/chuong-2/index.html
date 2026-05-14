@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Lạc Lạc và làng xoài Lý Gia">
   <meta name="twitter:description" content="chú hai ở bên phụ họa: “Với con hai vạn đồng chỉ là bữa ăn, với chúng ta là nửa năm chi tiêu đấy.” Trưởng thôn lại đưa mã QR sát lại gần tôi hơn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

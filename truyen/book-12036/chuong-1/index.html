@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cổ Vương Trở Về">
   <meta name="twitter:description" content="Cô bạn thân Hách Liên Nguyệt của tôi là Cổ vương, quanh năm làm bạn với độc trùng nơi thâm sơn cùng cốc, bỗng nhiên lại khao khát hơi ấm tình người.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

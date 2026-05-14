@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ánh Mắt Cuối Cùng Của Vương Phi">
   <meta name="twitter:description" content="Bóng đêm như nước. Ta ngồi trước bàn trang điểm, lặng lẽ nhìn người phụ nữ ngày càng tiều tụy trong gương, thấu hiểu rằng mình chẳng còn bao nhiêu thời gian nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

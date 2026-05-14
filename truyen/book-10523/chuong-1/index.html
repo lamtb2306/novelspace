@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bảy Ngày Hoàn Dương">
   <meta name="twitter:description" content="Kẻ theo đuổi điên cuồng của Hứa Dịch Dương đã khiến tôi chết trong một vụ tai nạn xe. Năm đầu tiên sau khi tôi chết, địa phủ thường xuyên vang lên tiếng khóc nhớ thương của anh ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

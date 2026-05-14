@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NƯỚC MẮT KHÔNG MÀU">
   <meta name="twitter:description" content="Lúc đang xếp hàng chờ tái khám ở bệnh viện, màn hình lớn trước mặt đang chiếu trực tiếp lễ trao giải quốc tế, nơi vị đạo diễn thiên tài đang nhận giải thưởng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

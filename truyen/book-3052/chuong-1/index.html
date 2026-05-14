@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | GIẤC MƠ LÀM NỮ CHỦ CỦA BÀ GIÚP VIỆC">
   <meta name="twitter:description" content="Người giúp việc có thể không biết thân phận mình đến mức nào? Tôi vừa chuyển vào nhà vị hôn phu, người giúp việc đã thần thần bí bí ngồi xuống bên cạnh tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

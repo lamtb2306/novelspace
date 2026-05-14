@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Thay Em Sống Tốt">
   <meta name="twitter:description" content="Tôi đến Vĩnh Ninh Viện, dừng lại trước một bia mộ phủ đầy hoa. Trong tấm ảnh đen trắng, cô gái mỉm cười rạng rỡ như hoa. “Tú Tú, chị đến thăm em rồi. “Em sẽ không trách chị lén dời mộ em chứ?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | ĐỔI KIM CHỦ">
   <meta name="twitter:description" content="Tôi có một buổi biểu diễn ở sân vận động phía Nam. Sáu giờ sáng, tôi thức dậy, Kỷ Tu đã ăn mặc chỉnh tề, đứng chờ ở cửa. Anh giơ chìa khóa xe lên: “Tôi tiện đường, đưa cô đi.” Lâu lắm rồi tôi chưa ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

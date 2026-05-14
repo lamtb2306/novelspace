@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 13 | KHÔNG BAO GIỜ QUAY LẠI">
   <meta name="twitter:description" content="Tôi biết lúc này ép anh ký cũng vô ích, nói rõ hết thì anh mới dần nguôi. Tôi quay người vào phòng khách. Bữa sáng cũng là anh sắp xếp, toàn cháo bổ máu, đồ tẩm bổ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Anh Chê Tôi Vô Dụng, Không Biết Tôi Nuôi Cả Tòa Nhà">
   <meta name="twitter:description" content="“120 nghìn!” Trần Tuấn ném điện thoại đến trước mặt tôi. “Nhìn đi! Người ta lương tháng 120 nghìn!” Tôi nhìn thông tin tuyển dụng trên màn hình.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

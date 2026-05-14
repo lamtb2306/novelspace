@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGÀY TRỞ LẠI CỦA CHỊ GÁI">
   <meta name="twitter:description" content="Từ nhỏ tôi đã biết, mình phải kém hơn em gái. Em gái thi được sáu mươi điểm, tôi không được thi sáu mươi mốt điểm. Em gái được hai bông hoa đỏ nhỏ, tôi không được nhận ba bông. Mỗi lần trái ý, nhẹ ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

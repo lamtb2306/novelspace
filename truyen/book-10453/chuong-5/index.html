@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | TIỂU BẠCH">
   <meta name="twitter:description" content="Cô ta khó chịu nói: “Thả trong trường luôn rồi, vừa ra khỏi ký túc xá thì con rắn chết tiệt đó cắn tôi một phát rồi bỏ chạy. Để tôi gặp lại, nhất định sẽ cho nó biết tay.” Tôi không nói gì. Hôm sau...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

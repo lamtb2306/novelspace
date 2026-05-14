@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | TÔI CHỈ CẦN CON GÁI TÔI">
   <meta name="twitter:description" content="“Đưa mã QR của lão Lý ra đây, tôi chuyển lại tiền cho.” “Lão Lý là sư đệ tôi, nhưng hắn… đã phản môn lâu rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

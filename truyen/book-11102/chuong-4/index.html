@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | BẠN CÙNG PHÒNG LỪA TÔI ĐI HỌC HỘ, HÓA RA LÀ ĐI THI HỘ">
   <meta name="twitter:description" content="Cô ta khó chịu, “Chậc” một tiếng rồi hằn học nói: “Thật là chịu hết nổi! Cậu sắp được tuyển thẳng rồi còn học gì nữa?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

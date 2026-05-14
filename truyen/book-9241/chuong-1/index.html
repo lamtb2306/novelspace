@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHỒNG TÔI CÓ VỢ HAI">
   <meta name="twitter:description" content="Để chúc mừng em trai tôi vừa lấy được bằng lái phi công, tôi dẫn nó đến tham quan chiếc Boeing 787 mà hãng hàng không của chồng tôi mới mua.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CÚ TÔNG BÁO THÙ">
   <meta name="twitter:description" content="Biết rõ đứa trẻ phía trước là cố tình lao ra để “ăn vạ” chiếc xe mới của tôi, nhưng tôi vẫn đạp ga tông thẳng vào nó. Chỉ vì kiếp trước, tôi vừa mới lấy xe mới ra đường, liền bị một đứa trẻ bất ngờ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

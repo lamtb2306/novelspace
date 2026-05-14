@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đổi Mẹ">
   <meta name="twitter:description" content="Là học sinh cấp ba, nhưng số dư trong thẻ ngân hàng của tôi lại vượt quá bảy con số. Bởi vì tôi có một người mẹ làm chủ công ty. Mỗi tháng năm vạn tiền tiêu vặt đối với tôi mà nói chẳng có gì lạ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

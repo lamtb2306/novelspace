@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Hương Vị Không Thể Sao Chép">
   <meta name="twitter:description" content="Tôi nói chuyện với chủ nhà thêm vài câu, rồi cúp máy. Tôi đứng trên đỉnh núi. Nhìn biển mây cuộn trào phía xa. Tôi biết, phán quyết cuối cùng, sắp đến rồi. Cậu tôi dùng lòng tham, tự tay dệt cho mì...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

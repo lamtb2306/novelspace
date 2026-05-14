@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Người Đặt Ra Quy Tắc">
   <meta name="twitter:description" content="Tôi gập laptop lại, nhấp một ngụm cà phê. Giờ vẫn chưa phải lúc. Trần Khải vẫn còn trong ngân hàng, tôi phải quay lại, cho họ một bất ngờ. Tôi đứng dậy thanh toán, rồi quay lại ngân hàng. Lần này, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

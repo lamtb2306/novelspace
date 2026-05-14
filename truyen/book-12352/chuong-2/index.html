@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Cơm Chiên Trứng Vàng">
   <meta name="twitter:description" content="Tôi ôm chặt lấy hai cái bánh bao, kết quả cánh tay bị trầy một vết thật sâu, đến giờ vẫn còn để lại sẹo. Tôi nhớ lúc đó Cố Thanh Thư đỏ mắt mắng tôi ngốc, nói sau này sẽ cho lắp đèn ở khắp con đườn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

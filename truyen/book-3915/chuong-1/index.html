@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mẹ Tôi Và Chiếc Hộp Ma Thuật">
   <meta name="twitter:description" content="Sắp vào đại học rồi. Tiền sinh hoạt mỗi tháng của tôi… vẫn chỉ có 88 tệ. Tôi tính bàn với mẹ, xin tăng thêm một chút.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

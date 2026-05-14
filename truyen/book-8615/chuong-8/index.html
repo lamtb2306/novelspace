@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | ÁNH NHÌN DỐI TRÁ">
   <meta name="twitter:description" content="Cố Cận Chi giống như một cơn sóng lớn trong đời tôi. Đến rồi lại đi. Tôi quay về với nhịp sống thường nhật: làm nghiên cứu, hướng dẫn sinh viên, chạy dự án.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Kiếp Trước, Kiếp Này, Vẫn Còn Anh">
   <meta name="twitter:description" content="“Sợ gì chứ, chẳng phải là cô chủ động gọi tôi tới đây sao? Chẳng lẽ mục đích của cô không phải là để người ta nghe thấy à?” “Ây da!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

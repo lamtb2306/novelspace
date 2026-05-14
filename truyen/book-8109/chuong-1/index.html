@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chú Rể Hôm Nay, Người Yêu Cũ Của Tôi">
   <meta name="twitter:description" content="Sau hai năm kết hôn, thiếu gia nhà họ Thẩm tăng tận hai mươi cân. Một ngày nọ, tôi bế con cùng anh đi dạo, không ngờ lại bị cánh săn ảnh chụp được.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

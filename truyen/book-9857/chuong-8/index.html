@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | TIỂU THẢO CỦA ANH">
   <meta name="twitter:description" content="Anh nhìn tôi, ánh mắt phức tạp: “Tiểu Thảo, mấy năm nay em sống cũng tốt đấy chứ. Có vẻ nhà lão già đó khá giả. Nếu không có anh, em cũng chẳng có được ngày hôm nay.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

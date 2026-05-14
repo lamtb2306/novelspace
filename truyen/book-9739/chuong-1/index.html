@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hai Hòn Đá Trong Vali">
   <meta name="twitter:description" content="Tôi làm việc tại hải quan, mỗi ngày đều kiểm tra không biết bao nhiêu hành lý. Hôm đó, chiếc vali của một nữ Hoa kiều đã thu hút sự chú ý của tôi, trong ngăn bí mật có giấu hai hòn đá trông hết sức...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

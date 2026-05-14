@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Ngày Bà Không Còn Nữa">
   <meta name="twitter:description" content="“Tống Thanh Thanh, tài nguyên nhà họ Bùi không phải để cô khoe khoang.” “Bà cô chẳng phải đã uống thuốc rồi sao, làm sao có chuyện gì được.” “Đừng tưởng tôi không biết, cô đang muốn nhân cơ hội này...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Yêu Một Tháng, Đòi Chung Sổ Đỏ">
   <meta name="twitter:description" content="Lúc đang đi ăn, bạn trai vô tình nghe thấy điện thoại mẹ tôi gọi đến:”Con gái ngoan, mẹ vừa mua cho con một căn nhà gần công ty để tiện đi làm đấy.” Anh ta liền hỏi dò một câu:”Mẹ em mua đứt hay tr...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Con Đường Của Tiểu Húc">
   <meta name="twitter:description" content="Tôi nhìn ông ta, bỗng thấy buồn cười. Ông ta chẳng cần biết sự thật là gì. Ông ta chỉ quan tâm đến danh tiếng, đến hình ảnh của trường, đến chiếc ghế của chính mình.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

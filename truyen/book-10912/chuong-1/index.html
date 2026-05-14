@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CĂN NHÀ KHÔNG DÀNH CHO CON TRAI">
   <meta name="twitter:description" content="Sau khi biết tôi đã mua được một căn nhà lớn, ba tôi lại dõng dạc yêu cầu tôi sang tên căn nhà cho đứa con riêng của ông trước mặt một đám đông họ hàng bạn bè. “Con vốn không định kết hôn, nhà sớm ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Ba Trăm Nghìn Không Mua Được Một Chỗ Trong Gia Đình">
   <meta name="twitter:description" content="Mười giờ sáng, tôi đến một văn phòng luật ở trung tâm thành phố. Bạn cùng phòng đại học – Trình Tụng, hiện là luật sư hành nghề tại đây.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

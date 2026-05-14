@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đừng Hỏi Vì Sao Tôi Rời Đi">
   <meta name="twitter:description" content="Chiếc vòng ngọc truyền gia bảo mà Hạ Xuyên tặng tôi bị sứt mẻ, tôi mang đến tiệm ngọc uy tín nhất để sửa chữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

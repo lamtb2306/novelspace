@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI LÀ CON GÁI TỶ PHÚ GIẢ NGHÈO">
   <meta name="twitter:description" content="Hai mươi năm trước, ba tôi uống say, lỡ miệng khoe nuôi gà một năm lời hai trăm ngàn. Không lâu sau, cả trại gà bị người ta bỏ độc chết sạch.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tôi Chỉ Muốn Rút Tiền Của Mình">
   <meta name="twitter:description" content="“Giờ thì cho tôi rút tiền được rồi chứ?” Không ngờ giám đốc chi nhánh lại tỏ vẻ ngạo mạn: “Tôi khi nào nói cho anh rút tiền?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

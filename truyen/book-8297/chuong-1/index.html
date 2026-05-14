@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BOBO, CHÓ ANH HÙNG NHÂN DÂN HẠNG NHẤT">
   <meta name="twitter:description" content="Bố tôi tổ chức buổi họp mặt với các chiến hữu. Tôi vừa từ nước ngoài du học trở về, liền bị ông gọi đến chăm sóc một chú chó dẫn đường từng lập công lớn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Con Gái Là Người Ngoài">
   <meta name="twitter:description" content="Tôi dùng đũa chỉ vào đĩa sủi cảo. “Cái này cũng là con mua. Còn mỗi tháng thuê người dọn dẹp nhà cửa cho ba mẹ ở thoải mái, cũng là tiền con bỏ ra.” Ba tôi chỉ tay vào tôi: “Nhớ rõ thật đấy!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

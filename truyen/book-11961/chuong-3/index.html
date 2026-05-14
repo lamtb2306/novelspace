@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CHÚNG TÔI CHƯA TỪNG ĐĂNG KÝ KẾT HÔN">
   <meta name="twitter:description" content="Cô liệt kê ra rất nhiều điều, người đối diện đều ghi chép lại cẩn thận. Đến cuối cùng, đồng chí Trịnh hỏi thêm: “Thế còn cô thì sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

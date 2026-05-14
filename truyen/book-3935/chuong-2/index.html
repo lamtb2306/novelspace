@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | MỐI TÌNH ĐƠN PHƯƠNG">
   <meta name="twitter:description" content="Tôi tìm một khách sạn gần đó, thuê tạm một phòng, rồi hỏi anh có đi nổi không. Anh chống tay xuống bàn cố đứng dậy, suýt nữa thì ngã. Tôi vội vàng đỡ lấy anh. Sự tiếp xúc bất ngờ khiến tim tôi đập ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

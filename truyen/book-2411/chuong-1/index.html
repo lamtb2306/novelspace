@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHÂN TRỜI PHÍA XA">
   <meta name="twitter:description" content="Hồi nhỏ, vì cứu anh ta, tôi bị bọn buôn người tra tấn đến mức trở thành người câm. Lớn lên, anh ta cưới tôi. Nhưng tôi lại nghe được sự thật vào đúng tang lễ của ông nội. “Cần gì cô ta cứu?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Con Chuột Trên Băng Chuyền Sushi">
   <meta name="twitter:description" content="Thoát khỏi những kẻ tồi tệ, những chuyện tồi tệ. Cuộc đời về sau. Nắng trải muôn dặm. Toàn là đường bằng phẳng. [Hết]">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

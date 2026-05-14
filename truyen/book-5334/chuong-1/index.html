@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tôi Chỉ Muốn Rút Tiền Của Mình">
   <meta name="twitter:description" content="Tết đến, tôi ra ngân hàng rút tiền.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

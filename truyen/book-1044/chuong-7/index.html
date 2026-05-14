@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Bạn Trai Một Mét Bảy Chín">
   <meta name="twitter:description" content="“Tôi chỉ ăn mặc, chải chuốt một chút, thay quần áo mới, làm tóc mới thôi.” – tôi mỉm cười – “Điều này chứng minh tôi vốn dĩ cũng khá xinh, cảm ơn cậu đã công nhận nhan sắc của tôi.” “Cậu chẳng phải...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

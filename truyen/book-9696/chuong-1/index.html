@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TOẢ SÁNG VÀO ĐÊM LY HÔN">
   <meta name="twitter:description" content="“Lâm Vãn, chúng ta ly hôn đi. Anh có người khác rồi, cô ấy tên là Bạch Lộ, trẻ hơn em, hiểu chuyện hơn em, cũng giúp được anh nhiều hơn em.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

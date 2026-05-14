@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | APP TÀI VẬN">
   <meta name="twitter:description" content="Trở về ký túc xá. Tiền Vi đã lau dọn chỗ của tôi sạch bong kin kít, bàn học sáng loáng không dính một hạt bụi. Thấy tôi bước vào, tia oán hận thoáng qua đáy mắt cô ta lập tức bị thay thế bằng vẻ nị...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

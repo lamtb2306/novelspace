@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | TRÁI CẤM NĂM 19 TUỔI">
   <meta name="twitter:description" content="Tấn Thần nhanh chóng biết chuyện Triệu Thư đến tìm tôi gây chuyện. Anh gọi tôi ra ngoài gặp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

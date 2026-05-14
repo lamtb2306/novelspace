@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | THỜI NGUYỆT">
   <meta name="twitter:description" content="Tôi còn có gia đình. Tôi còn những người yêu thương mình. Cuộc đời tôi… không đáng để vì một người đàn ông mà dễ dàng buông bỏ như thế. Tôi ăn bát cơm ấy, rồi ngủ trong vòng tay mẹ. Vẫn đau, nhưng ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

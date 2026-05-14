@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Tủ Lạnh Nhà Tôi Không Phải Chợ Miễn Phí">
   <meta name="twitter:description" content="Cho đến bây giờ tôi mới thực sự hiểu ý nghĩa của câu nói đó — Mày không còn có thể hoàn toàn làm chính mình nữa. Hôm đó tôi cố tình nán lại công ty đến bảy giờ rưỡi mới về.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Cả Nhà Đòi Hầu Tôi">
   <meta name="twitter:description" content="“Hôm nay con phải rời khỏi trung tâm dưỡng sinh này! Trả phòng lại cho em dâu!” Tôi chẳng buồn đáp, chỉ để lại một câu “Chỗ này là tôi trả tiền, tôi không đi đâu” rồi quay người định vào phòng. Bất...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Một Sớm Đoạn Tình">
   <meta name="twitter:description" content="Không hiểu chàng bị trúng phong gì. Trước kia thì rập khuôn cứng nhắc, đến cả việc giúp ta vẽ mày cũng chẳng chịu làm. Nay hễ lĩnh được bổng lộc, lại tất tả chạy tới hiệu trang sức.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

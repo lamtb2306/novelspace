@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Lần Thứ 99 Giao Nhầm Địa Chỉ">
   <meta name="twitter:description" content="Rồi lập tức đổi giọng, làm ra vẻ đáng thương: “Cô Diêm à, vợ chồng chúng tôi vốn thật thà chất phác, chuyện đổ rác cũng chỉ là tiện tay, đâu ngờ còn phải giữ lại bằng chứng.” “Tôi chỉ nói thật lòng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

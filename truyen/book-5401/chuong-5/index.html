@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | TẾT NÀY CÓ ANH">
   <meta name="twitter:description" content="Tắt định vị, lái xe về thẳng khu chung cư của mình. “Chút nữa tôi thả anh ở trạm tàu điện ngầm, tự về đi.” “Không cần, cứ lái thẳng về nhà em đi.” Tôi nhíu mày, thằng này mặt dày đến vậy sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

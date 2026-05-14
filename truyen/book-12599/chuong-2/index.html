@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Chồng Tôi Ghét Tôi… Vì Thích Tôi Quá Mức">
   <meta name="twitter:description" content="Thấy anh gật đầu đồng ý, tôi cũng không khách sáo nữa. Mở ngay một phần mềm ra xem. Phát hiện ảnh đại diện là chính ảnh chụp của anh. Không có bài đăng nào, lịch sử lướt web cũng toàn mấy nội dung ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

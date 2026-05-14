@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Món Quà Cuối Cùng Của Chị">
   <meta name="twitter:description" content="Anh ta ở lại trại mèo một tuần, ngày nào cũng chuyển cho tôi mười ngàn tệ tiền ăn. Tôi tất nhiên không chê tiền, nhưng vẫn giữ nguyên thực đơn một bát cháo trắng mỗi ngày. Thêm một tuần nữa thôi là...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

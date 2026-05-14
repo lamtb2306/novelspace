@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trò Lì Xì 1 Đồng">
   <meta name="twitter:description" content="Đêm giao thừa, gia đình chồng bỗng nhiên đề nghị chơi trò giành lì xì. Ai là người có vận may nhất thì phải thực hiện một điều ước của người phát lì xì. Vòng đầu tiên, tôi trúng người may mắn nhất.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

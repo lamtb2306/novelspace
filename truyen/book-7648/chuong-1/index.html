@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ta Trở Về Để Lấy Lại Mọi Thứ">
   <meta name="twitter:description" content="Ngày ta từ Giang Nam trở về, kẻ thế thân đang nghiễm nhiên ngồi ở vị trí chủ tọa của ta. Nàng ta mặc y phục của ta, cài trâm của ta, dỗ dành vị hôn phu cùng đệ đệ của ta ra mặt vì nàng ta. Bọn họ đ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

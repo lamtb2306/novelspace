@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Phép thử hào môn">
   <meta name="twitter:description" content="“Tôi thấy cô chắc cũng chưa đến hai mươi lăm tuổi, chỉ cần ký hợp đồng, cô sẽ có được khối tài sản mà người thường cả đời không kiếm nổi.” “Chuyện giữa tôi và anh ta, là việc riêng, không liên quan...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

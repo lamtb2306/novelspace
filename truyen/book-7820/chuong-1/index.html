@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Em Trai Gửi Nhầm Tin Nhắn, Lộ Bí Mật 20 Năm">
   <meta name="twitter:description" content="Tin nhắn em trai gửi cho mẹ, lại gửi nhầm sang tôi. “Mẹ, con xin lỗi.” “Hồi nhỏ con đã lén lấy 100 tệ mà không dám thừa nhận, đổ cho chị, bây giờ con trả mẹ gấp một trăm lần.” “Chuyển khoản 10.000 ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

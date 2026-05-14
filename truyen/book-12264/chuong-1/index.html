@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cả Đời Tôi Thua Vì Có Một Người Anh">
   <meta name="twitter:description" content="Mất liên lạc bảy năm, anh trai tìm thấy tên tôi trong danh sách hiến tạng của trung tâm cấy ghép nội tạng. Anh nhìn chằm chằm vào tập hồ sơ trong tay y tá, nhìn vào bức ảnh tôi và tên cũ của tôi, l...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

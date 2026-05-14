@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | HÀNH TRÌNH MỚI">
   <meta name="twitter:description" content="“Cậu nói gì cơ?” “Tôi nói – BIẾN!” “Kỳ Hạ, tôi cảnh cáo cậu, sức chịu đựng của tôi có giới hạn đấy!” “Trình Dã, tôi nói cho cậu biết – tôi chụp hình với ai không liên quan gì đến cậu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

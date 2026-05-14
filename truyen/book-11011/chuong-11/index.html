@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Đại Sư Online">
   <meta name="twitter:description" content="Trên trang sách vàng óng, không có dòng chữ nào. Chỉ hiện lên một hình ảnh. Một bức tranh rách nát, xám xịt. Đó là một tòa nhà rất cao, trông như nhà thờ, lại giống một kiểu tháp chuông cũ kỹ nào đó.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

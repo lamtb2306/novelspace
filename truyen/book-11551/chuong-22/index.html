@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 22 | Luôn bận vì em">
   <meta name="twitter:description" content="Rồi, tôi kêu khẽ một tiếng: “A, dì Trương, hình như điện thoại mới của tôi gặp trục trặc chuyển khoản, cứ báo lỗi hoài.” – Tôi nhíu mày – “Hay là, tôi đưa tiền mặt nhé?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tình Yêu Trong Bóng Tối">
   <meta name="twitter:description" content="Bữa tiệc sinh nhật tổ chức tại một khách sạn gần trường, bạn bè và bạn học của Hằng đến rất đông. Tôi chẳng quen ai cả – vì anh chưa bao giờ giới thiệu tôi với họ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

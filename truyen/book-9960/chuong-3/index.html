@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CHÚ ÚT CỦA TÔI">
   <meta name="twitter:description" content="Từ dưới chiếc chăn Hello Kitty màu hồng, tôi thò đầu ra, đưa tay lên môi: “Suỵt.” Tử Hàn căng cứng cả người, rõ ràng chẳng giỏi nói dối tí nào. Cô ấy tay chân lóng ngóng ngồi trước mặt tôi, chắn tầ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Họ Cướp Tiệm Của Tôi, Tôi Mua Cả Con Phố">
   <meta name="twitter:description" content="Khi tôi thuê cái sạp này, cả con phố cười nhạo tôi. Nằm ngay sát cái mương nước thối, ruồi nhiều hơn người, giá một nghìn tệ mà chẳng ai thèm ngó. Triệu Đức Phát thu của tôi tám trăm, bảo rằng: “Ch...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

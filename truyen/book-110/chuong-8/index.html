@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Bóng Đêm Trong Họ Lâm">
   <meta name="twitter:description" content="Tôi nghĩ, có lẽ mình thực sự đã chết rồi. Trên thế giới này, cuối cùng sẽ không còn ai vì ghét bỏ tôi mà phải miễn cưỡng nuôi tôi, để rồi tức giận vô cùng. Tôi cũng không còn phải sợ hãi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

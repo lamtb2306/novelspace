@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHẠY VỀ PHÍA ANH">
   <meta name="twitter:description" content="Lần đầu tôi gặp Hạ Nam Vũ, là trong một bộ phim chiếu mạng kinh phí thấp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

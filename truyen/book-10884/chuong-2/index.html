@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Chỉ Một Lần Tắm, Tôi Mất 1,2 Triệu">
   <meta name="twitter:description" content="Sáng sớm hôm sau, tôi đến thẳng Văn hóa Doanh Huy. Cô bé lễ tân nhận ra tôi, mỉm cười nói: “Cô Cố đến ạ?” “Tổng giám đốc Trần có ở đó không?” “Có ạ, để em thông báo giúp cô.” Cuộc điện thoại kéo dà...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

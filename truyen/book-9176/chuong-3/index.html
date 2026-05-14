@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Trở Lại Phòng Mình Với Tư Cách Người Thuê">
   <meta name="twitter:description" content="“Việc gì ạ?” “Bán hàng.” “Con không hợp.” “Sao lại không hợp?” Mẹ nói. “Giờ có việc là tốt rồi, còn kén chọn gì nữa?” “Con làm quản lý dự án mà.” “Quản lý dự án thì sao?” Bà nói. “Con không phải cũ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

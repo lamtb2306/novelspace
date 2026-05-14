@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Sinh nhật cuối cù ng">
   <meta name="twitter:description" content="“Chúng ta cùng về nhé.” “Ly hôn rồi còn ngồi xe chồng cũ làm gì, không cần thiết đâu.” Anh chỉ đành buông tay. 14 Trên đường về, xe đi ngang một khu chợ đêm, rất nhiều người cầm đèn trời trong tay....">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Xin Đừng Gõ Cửa Quá Khứ">
   <meta name="twitter:description" content="Thế nhưng một ngày nọ, có một đàn chị trong phòng thí nghiệm của Trần Lĩnh bất ngờ nhắn tin cho tôi: “Tĩnh này, cậu nên đến một chuyến đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

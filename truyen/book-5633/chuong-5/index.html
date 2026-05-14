@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | XỬ LÝ TRÀ XANH CẤP CAO">
   <meta name="twitter:description" content="“Rồi, quay lại câu hỏi ban nãy.” Phương Kiện gõ ngón tay lên bàn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

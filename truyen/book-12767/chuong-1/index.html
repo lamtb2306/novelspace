@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MẸ NHẶT">
   <meta name="twitter:description" content="Tôi không phải con ruột của bà. Nhưng bà đã dùng cả mạng sống để nuôi tôi khôn lớn — Nhặt ve chai, cọ toilet, từng muỗng cơm một đút cho tôi ăn. Mười tám năm sau, cha mẹ ruột tìm đến, nói bà chỉ là...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

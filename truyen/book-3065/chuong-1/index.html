@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Gia Đình Hạnh Phúc Không Có Tôi">
   <meta name="twitter:description" content="Tình cờ tôi phát hiện trong điện thoại chồng có một nhóm tên là “Gia đình hạnh phúc”. Thành viên có chồng tôi Lục Minh, bố tôi, mẹ tôi, còn có em gái tôi – Lâm Uyển, đã ly hôn và nuôi hai con nhỏ. ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

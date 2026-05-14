@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Dư Thừa Trong Chính Gia Đình Mình">
   <meta name="twitter:description" content="Chị họ dùng máy tính của tôi mà quên thoát WeChat. Tôi đang giúp chị thoát ra thì một tin nhắn nhóm hiện lên trên màn hình: “Để chúc mừng Hạo Hạo tiến bộ trong kỳ thi, tối nay cả nhà mình đi ăn mừn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

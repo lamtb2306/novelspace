@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Trò Chơi Hứa Chiêu">
   <meta name="twitter:description" content="Là điện thoại của Chu Duật Thanh. Anh đặt trên bàn trà trong phòng khách để sạc. Tôi bước tới, cầm lên nhìn một cái. Là trợ lý của anh gọi tới. Tôi vuốt màn hình nhận cuộc gọi, bật loa ngoài.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Làng Biến Dị">
   <meta name="twitter:description" content="Tôi tăng tốc cải tạo hầm, cuối cùng cũng hoàn thành toàn bộ vào đêm trước ngày đó. Mẹ tôi vừa về đến nhà, liếc thấy dáng vẻ của tôi liền kêu lên: “Sao người mày bẩn thế này? Mau đi tắm đi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

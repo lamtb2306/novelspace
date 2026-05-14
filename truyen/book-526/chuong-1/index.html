@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Năm Triệu Đi Du Lịch Thế Giới, Không Một Xu Cho Con">
   <meta name="twitter:description" content="Bố mẹ tôi đột nhiên nói với tôi rằng: nhà đã bán được 5 triệu tệ. Họ muốn cầm tiền đó để đi du lịch vòng quanh thế giới. “Ngày mai xuất phát.” Lúc đó tôi vừa nhận được thư mời làm việc, đầu óc hoàn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

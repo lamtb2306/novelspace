@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Một Đời Một Người Một Quân Nhân">
   <meta name="twitter:description" content="Tôi hít một hơi thật sâu, ép mình phải bình tĩnh lại. “Hắn tự ý xông vào! Tôi hoàn toàn không biết gì cả!” “Xông vào á?” Một chị vợ lính cười khẩy, “Tiểu Lâm, em nghĩ tụi chị ngốc chắc?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

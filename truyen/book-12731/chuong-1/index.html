@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ngã Rẽ Năm 1980">
   <meta name="twitter:description" content="Mùa đông năm 1980. “Vãn Ngâm à, cuối cùng con cũng nghĩ thông rồi, chịu đến tìm ta xin địa chỉ cha mẹ ruột rồi à!” Hốc mắt Dương Vãn Ngâm đỏ ửng, trông như vừa mới khóc. “Thôn trưởng, cháu nghĩ chú...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

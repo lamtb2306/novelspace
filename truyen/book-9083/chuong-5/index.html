@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Giữa Chúng Ta, Chỉ Còn Lợi Ích">
   <meta name="twitter:description" content="Tới khi tôi tìm cách thoát khỏi vòng vây nhiệt tình của bà, trời đã gần tối. May mà nơi này không quá lạc hậu, tôi vẫn có thể một mình trở về ký túc xá.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

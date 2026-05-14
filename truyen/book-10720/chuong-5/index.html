@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Ngôn Linh Báo Ứng">
   <meta name="twitter:description" content="“Đáng tiếc thật… Nếu chuỗi vốn mà đứt nữa thì càng hay.” Vừa dứt lời, điện thoại lại báo tin mới: “Chấn động!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

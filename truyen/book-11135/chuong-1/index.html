@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | DUYÊN NỢ 800 NĂM">
   <meta name="twitter:description" content="Tại bữa tiệc, tôi khoác lên người bộ lễ phục mà Lục Thường Phong tự tay chọn cho tôi. Chiếc váy dài màu tím sen ôm sát, tôn lên từng đường cong trên cơ thể tôi một cách hoàn hảo.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

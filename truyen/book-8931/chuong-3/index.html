@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | HOA ĐÀO NỞ NƠI ĐẦU THÔN">
   <meta name="twitter:description" content="Ta ngồi bên bàn, gặm bánh ngô từng chút, trong đầu nghĩ kế tiếp theo.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Nữ Phụ Trong Bộ Phim Của Anh">
   <meta name="twitter:description" content="Cho đến khi tôi mở giao diện đơn hàng. “Thấy chưa, người đặt là tôi đấy!” Hứa Châu nhẹ nhàng vác thùng táo xanh, đi song song với tôi trên con đường nhỏ. Câu được câu chăng trò chuyện.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

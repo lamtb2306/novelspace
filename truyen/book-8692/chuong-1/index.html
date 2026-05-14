@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Quay Về Trước Kỳ Nghỉ">
   <meta name="twitter:description" content="Trước kỳ nghỉ lễ Quốc khánh, khi biết tôi sắp đi nghỉ dưỡng ở hòn đảo, hoa khôi nghèo trong lớp liền gào khóc ghen tị: “Giang Thì Nguyện, tại sao cậu lại được đi nghỉ mát?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

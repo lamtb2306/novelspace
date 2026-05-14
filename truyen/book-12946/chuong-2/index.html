@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Thánh Thủ Độc Y">
   <meta name="twitter:description" content="Thậm chí có người còn nhân danh tôi để làm việc thiện cho làng: sửa đường, lắp đèn, nạo vét kênh mương. Có người ganh tị khi thấy nhà tôi tấp nập người ra vào, tưởng rằng tôi kiếm được khối tiền từ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

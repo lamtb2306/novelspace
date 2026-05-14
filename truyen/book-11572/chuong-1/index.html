@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI ĐÃ THẾ CHỖ TÔ VÃN ĐỂ ĐƯỢC QUAY VỀ THÀNH PHỐ">
   <meta name="twitter:description" content="Tôi đã thế chỗ Tô Vãn để được quay về thành phố. Hôm sau, bạn trai của Tô Vãn – Thẩm Nghiễn, kẻ có dung mạo yêu nghiệt ấy – đến nhà tôi cầu hôn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

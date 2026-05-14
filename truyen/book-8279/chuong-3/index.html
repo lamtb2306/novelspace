@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Trò Trốn Tìm Cuối Cùng">
   <meta name="twitter:description" content="Tôi dần dần quen, khi họ gọi “Nha Đản”, tôi sẽ nhanh chóng đáp “Dạ”. Tôi cố gắng làm mọi việc gọn gàng hơn. Cho gà ăn, tôi rắc thóc thật đều, thật rộng, để con nào cũng có thể ăn no. Quét sân, tôi ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CÁI GIÁ PHẢI TRẢ DÀNH CHO KẺ PHẢN BỘI">
   <meta name="twitter:description" content="Tôi viết một con số vào cuốn nhật ký: 3. Rồi dùng bút đỏ khoanh tròn thật đậm. Ba năm kết hôn, đây là người tình thứ ba mà Chu Cảnh Nhượng tìm được. Cũng là người duy nhất dám xuất hiện trước mặt tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | GHI CHÚ TỬ THẦN">
   <meta name="twitter:description" content="Mười giờ tối, tôi đặt một phần đồ ăn khuya cho bạn trai đang ở nơi khác. Và tôi ghi chú đùa cợt trong đơn hàng: [Anh rể à, chuyện anh làm em có bầu phải cho em một lời giải thích đấy nhé, trốn lên ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

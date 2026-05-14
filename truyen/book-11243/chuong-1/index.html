@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hào Môn Phế Nữ">
   <meta name="twitter:description" content="“Thương Thương, sắp đến sinh nhật 22 tuổi của con rồi.” Tiếng mẹ của Thương Thương vang lên từ đầu dây bên kia, không giấu nổi sự mong chờ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | MỘT CUỘC HỌP LỚP">
   <meta name="twitter:description" content="“Tiểu Hiểu, chuyện này…” “Em đã báo công an rồi.” Tôi nói, “Nếu anh cũng muốn báo, mình có thể cùng nhau làm.” “Anh… để anh nghĩ thêm…” “Anh cứ nghĩ kỹ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

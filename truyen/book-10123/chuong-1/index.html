@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trái T i.m Nữ Phụ">
   <meta name="twitter:description" content="Tôi tên là Thẩm Mộng, đạn mạc nói tôi là nữ phụ tâm cơ. Trước cổng cô nhi viện, một đôi vợ chồng rưng rưng nước mắt hỏi tôi: “Ở đây có đứa bé tên Mộng Mộng không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

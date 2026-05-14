@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chế Độ Hẹn Trước">
   <meta name="twitter:description" content="Con trai tôi gửi cho tôi một tin nhắn WeChat: “Mẹ, tuần sau nếu muốn qua thăm Chu Chu thì nhớ hẹn trước ba ngày.” Tôi nhìn tin nhắn đó, nhìn rất lâu. Hẹn trước. Lúc sinh nó ra, tôi đâu có hẹn trước...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | HUỶ HÔN LỄ">
   <meta name="twitter:description" content="Đây chính là gia đình tôi. Họ chỉ quan tâm đến thể diện, đến cái mối hôn sự với nhà họ Chu, chứ chẳng ai hỏi tôi có thấy tủi nhục hay không. “Mẹ, Chu Mặc Thần ngoại tình.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Tình Mẹ">
   <meta name="twitter:description" content="Ngày mai là ngày yên bình cuối cùng. Ngày kia, sẽ là ngày tôi tự sắp xếp để bỏ trốn. Ngày yên bình cuối cùng không cầm cự nổi đến trưa. Mười giờ sáng, mẹ nghe điện thoại xong thì sắc mặt thay đổi. ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

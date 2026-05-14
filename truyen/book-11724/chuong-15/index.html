@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 15 | Nơi Em Không Thuộc Về">
   <meta name="twitter:description" content="“Chị ấy lúc nào chẳng muốn bỏ trốn? Nhỡ đâu chị ấy với dì Trương cố tình phối hợp để phá đám cưới của mình thì sao? Làm sao em biết thật sự có cháy chứ…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

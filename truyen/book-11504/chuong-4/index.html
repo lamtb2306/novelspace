@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Lần Trở Về Cuối Cùng">
   <meta name="twitter:description" content="Nghe đến đây, chú đạp xe chau mày, lặng lẽ châm một điếu thuốc. Nhưng thấy sắc mặt tái nhợt của tôi, chú im lặng dập tắt. Gương mặt chú viết đầy bất lực, chỉ buông một câu khẽ: “Lòng người đúng là ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

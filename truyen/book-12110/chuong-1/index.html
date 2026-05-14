@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đổi Em Về Nhà">
   <meta name="twitter:description" content="Năm tôi năm tuổi, đối tượng kết thân từ bé của tôi chào đời. Tôi theo người lớn đến bệnh viện thăm cô bé, lại phát hiện có người đánh tráo cô bé với một đứa trẻ khác trong phòng bên cạnh. Thế là tô...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

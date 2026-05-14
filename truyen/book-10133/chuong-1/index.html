@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐIỀM ĐIỀM TẦN TRANH">
   <meta name="twitter:description" content="Năm thứ bảy theo đuổi Đoàn Hạ Lễ không ngừng nghỉ, tôi bị chẩn đoán mắc chứng mất trí nhớ. Khi cầm tờ kết quả xét nghiệm đưa cho anh ấy xem, anh chỉ cười lạnh lùng, nói đó là chiêu trò mới của tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

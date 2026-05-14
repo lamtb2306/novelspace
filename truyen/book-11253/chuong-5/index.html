@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Con Cá Mặn">
   <meta name="twitter:description" content="Số tiền tiết kiệm ít ỏi kia chẳng khác nào muối bỏ bể. Mẹ tôi bán hết những gì có thể bán trong nhà, họ hàng vay mượn khắp lượt, cuối cùng vẫn nợ ngập đầu. Cùng đường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

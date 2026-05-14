@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | A Tùng Trong Mộng">
   <meta name="twitter:description" content="Phải rất lâu sau, ta mới hoàn hồn, khẽ hỏi: “Ngươi muốn đưa ta đi đâu?” “Vừa rồi… ngươi đã giết người phải không?” Bàn tay nắm lấy tay ta khựng lại, siết chặt thêm đôi phần, rồi dừng bước.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

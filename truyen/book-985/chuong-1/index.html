@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | 300 Triệu Hay Đình Chỉ?">
   <meta name="twitter:description" content="Tôi là một giáo viên dạy giỏi từng đào tạo ra Thủ khoa toàn tỉnh. Kỳ nghỉ đông vừa rồi, Bộ Giáo dục đã ra lệnh cấm nghiêm ngặt việc dạy thêm có thu phí. Chị gái dẫn con gái đến tận nhà, hết lời cầu...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

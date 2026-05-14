@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ngày Tôi Phát Hiện Chồng Có Con Riêng">
   <meta name="twitter:description" content="Tôi đi công tác lái xe về nhà, phát hiện chồng đã chiếm mất chỗ đậu xe của tôi. Chiếc SUV ngang nhiên đỗ chình ình giữa hai chỗ đậu, khiến người ta chẳng còn chỗ mà bước.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

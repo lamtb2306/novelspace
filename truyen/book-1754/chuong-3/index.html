@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | ÁNH NẮNG CUỐI TRỜI">
   <meta name="twitter:description" content="Tôi nhắn tin cho người bạn đã mời mình đến buổi tiệc, nói rằng tôi có việc nên về trước. Sau đó, tôi mở ứng dụng gọi xe và đặt một chuyến. Trong lúc chờ xe đến, Giang Trình đuổi theo tôi: “Lâm Thư,...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

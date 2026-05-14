@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tiểu Tam Bất Đắc Dĩ">
   <meta name="twitter:description" content="Tôi giật mình, điện thoại rơi khỏi tay, Trượt một đường… Dừng lại ngay trước một đôi dép trong nhà màu đen. Người đàn ông cúi người nhặt điện thoại lên, “Nếu tôi là bạn trai của cô ấy, cô định làm gì?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

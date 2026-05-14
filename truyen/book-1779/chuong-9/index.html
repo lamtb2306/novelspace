@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | ĐƯỜNG CÙNG CỦA KẺ PHẢN BỘI">
   <meta name="twitter:description" content="Một câu nhẹ bẫng, anh ta tưởng có thể được tôi tha thứ sao? Đáng tiếc… anh ta đã đánh giá tôi quá thấp. Tôi cười lạnh: “Anh đừng có diễn trò giả tạo trước mặt tôi nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | NGƯỜI THẾ THÂN">
   <meta name="twitter:description" content="Cả thế giới quan của tôi như bị sụp đổ. Tôi luống cuống đứng dậy, vội vàng lùi khỏi cánh cửa, nhưng lỡ chân đá phải cái bát. Nước đổ ra, đũa cũng đổ theo.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

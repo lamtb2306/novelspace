@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chị Tôi Là Blogger Học Tập Huyền Thoại">
   <meta name="twitter:description" content="Vì thế trước khi người ta đến, mẹ sẽ tự tay dọn dẹp trước, tạo cảm giác như nhà vốn đã sạch sẽ. Một mình mẹ làm thì đương nhiên không xuể, lần nào cũng gọi tôi phụ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

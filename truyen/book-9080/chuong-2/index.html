@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | MỐI TÌNH 10 NĂM">
   <meta name="twitter:description" content="Khi gọi cho Phí Hoài Luật bảo ra cửa đón, anh ta cúp máy, rồi nhắn tin: “Xin lỗi, tôi vừa thấy cô gái mình thích ở sân bay.” “Để tránh cô ấy hiểu lầm, tôi không thể đón cô được.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nữ Gia Cát Ở Tây Bắc">
   <meta name="twitter:description" content="Từ khi đưa ta từ Tây Bắc trở về, phu quân liền không còn nhắc đến chuyện hòa ly nữa. Đối đãi với ta chẳng khác gì thuở mới thành thân. Sáng ra không cho ta hầu hạ, hồi phủ còn tự tay mang điểm tâm ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

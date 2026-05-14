@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TIN TỐT, TIN XẤU">
   <meta name="twitter:description" content="TIN TỐT, TIN XẤU FULL Tin tốt: Tôi đã đậu cao học rồi! Tin xấu: Tôi thi đậu vào lớp cao học của bạn trai cũ! Lúc này, tôi đang đứng trước cổng trường đại học, muốn khóc mà không ra nước mắt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

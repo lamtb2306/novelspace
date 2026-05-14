@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CÓ KHÔNG GIỮ MẤT LẠI TIẾC">
   <meta name="twitter:description" content="Tôi không dọn bàn, cũng không rửa bát. Vừa định làm, Triệu Đình An đã đẩy tôi ngồi xuống sofa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

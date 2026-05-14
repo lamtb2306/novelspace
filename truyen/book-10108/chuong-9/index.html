@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Tô Mì Bò Kho Đắt Giá">
   <meta name="twitter:description" content="Trương Nhã gọi tôi khóc lóc: “Tiểu Tiểu, cô xem tên Trần Cường ấy! Từng ấy năm tình nghĩa! Nói giúp tôi một tiếng đi!” “Liên quan gì tới tôi?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

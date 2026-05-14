@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Một Vạn Một Ngày, Tôi Tiêu Cả Thế Giới">
   <meta name="twitter:description" content="Hối hận ư? Người đáng hối hận chẳng bao giờ là tôi. Vì ông không biết một điều. Ba tháng nữa, quy hoạch mới của thành phố sẽ được công bố. Mảnh đất ông bán cho tôi sẽ được đưa vào khu lõi tài chính...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

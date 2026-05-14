@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Chuyện Của Ba Người">
   <meta name="twitter:description" content="Cẩm Cẩm làm việc rất nhanh. Chưa đến nửa ngày, hòm mail của tôi đã nhận được một file nén có đặt mật khẩu. Phía dưới chỉ vỏn vẹn mấy chữ: “Xem xong thì hít thở sâu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

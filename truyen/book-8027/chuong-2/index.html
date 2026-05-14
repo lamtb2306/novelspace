@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CHIẾC VÒNG VÀNG VÀ HEO ĐẤT VỠ NÁT">
   <meta name="twitter:description" content="Trong danh sách đơn hàng chờ giao, yên lặng nằm đó là một chiếc túi xách màu trắng ngà. Đó là món quà sinh nhật tôi chuẩn bị sẵn cho mẹ vào tháng sau.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

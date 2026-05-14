@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MÁY SƯỞI CHO CHÓA">
   <meta name="twitter:description" content="Trời trở lạnh, nhiệt độ xuống âm 5 độ, tôi vừa mới bật máy sưởi trong nhà. Con dâu đã bước vào liền rút phích cắm. “Mẹ, mẹ đúng là gan to thật đấy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

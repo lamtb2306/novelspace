@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CỨU DỖI CHÍNH BẢN THÂN">
   <meta name="twitter:description" content="Một cơn gió thổi qua, khiến tôi hơi lạnh. Tôi chậm rãi khoác tấm chăn mỏng trên ghế, tiện thể ngăn bước chân Tống Giao Giao đang định vào phòng. “Cô đừng vào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

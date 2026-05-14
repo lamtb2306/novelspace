@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Cả Làng Chỉ Trỏ Tôi Là Kẻ Trộm">
   <meta name="twitter:description" content="Tôi nói chiều hôm qua tôi ở nhà dọn dẹp vệ sinh, buổi tối xem tivi, sáng nay dậy nấu cơm, một bước cũng không rời khỏi nhà. Trần Kiến Quân nói hôm qua anh ta làm việc ở xưởng trên trấn, buổi tối uố...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

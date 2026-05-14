@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Tôi Đặt Cua Online, Mẹ Tôi Giao Cho Chị Dâu">
   <meta name="twitter:description" content="“Mẹ buồn con lắm, Gia Minh.” Mẹ vừa nói vừa lau nước mắt. Anh trai nhíu mày: “Lâm Muộn, tối rồi mà em còn phát rồ cái gì vậy? “Mẹ nấu cơm dọn dẹp cho em mỗi ngày.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

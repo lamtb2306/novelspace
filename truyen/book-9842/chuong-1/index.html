@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Giành Lại Cuộc Đời Thuộc Về Tôi">
   <meta name="twitter:description" content="Khi vừa thành hình trong bụng mẹ, tôi đã phát hiện ra mình có khả năng nhìn thấy tương lai. Tôi nhìn thấy chính mình, lẽ ra phải sống trong nhung lụa, lại bị bế nhầm rồi chết thảm trên đường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

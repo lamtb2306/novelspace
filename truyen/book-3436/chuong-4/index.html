@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Khi Người C h e c Đến Rút Tiền">
   <meta name="twitter:description" content="“Chào các vị của ngân hàng Công Thương.” “Hôm qua, tôi đến đây để làm thủ tục rút tiền thừa kế cho người cha vừa mất.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

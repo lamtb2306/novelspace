@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | HẠNH PHÚC NHƯ Ý">
   <meta name="twitter:description" content="Tết này để đối phó với bố mẹ giục cưới, tôi đã mượn con của cô bạn thân. Trên bàn tiệc, cậu nhóc lanh lợi gọi tôi là mẹ, gọi bố mẹ tôi là ông bà ngoại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

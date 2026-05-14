@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | BẢY NĂM MỘT GIẤC MỘNG">
   <meta name="twitter:description" content="Tối hôm đó, Phó Vân Xuyên như phát điên, liên tục gọi cho tôi. Có lẽ anh ta đã về đến ngôi nhà chúng tôi từng sống chung, nhưng lại không thể tìm thấy tôi đâu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

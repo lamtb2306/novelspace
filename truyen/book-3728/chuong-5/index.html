@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Lời Dạy Của Tổ Mẫu">
   <meta name="twitter:description" content="Mỗi lần gậy rơi, ta tưởng như mình và vô số cô gái khác được giải thoát thêm một chút. Năm đó, khi ta bán đại tỷ, ôm bạc và khế ước thân, ta có thể chạy trốn khỏi cái nhà đó.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

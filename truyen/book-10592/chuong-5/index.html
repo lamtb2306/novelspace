@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Phản Công Của Trả Xanh">
   <meta name="twitter:description" content="Tôi bước tới, cầm lấy vòng xem qua. “Đây chẳng phải chiếc chị Tâm Dao ngày nào cũng đeo sao?” Tôi ngẩng đầu, giọng điệu tự nhiên. “Em nhớ lúc trước đã thấy chỗ này hơi lỏng rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

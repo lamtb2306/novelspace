@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Đồng Minh Đặc Biệt">
   <meta name="twitter:description" content="“Hôm nay nhất định phải phát tiền! Không thì không ai làm nữa đâu!” “Đúng đấy! Ba tháng rồi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

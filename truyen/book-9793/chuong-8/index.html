@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | YÊU ĐƯƠNG ONLINE">
   <meta name="twitter:description" content="Lúc này, tôi nghe thấy tiếng bàn tán xôn xao từ những người xung quanh. “Không phải nói Âu Dương Vi với Tô Miểu không hợp nhau sao?” “Trước đây mọi người còn bảo tin đồn giữa Âu Dương Vi và Tô Diễm...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

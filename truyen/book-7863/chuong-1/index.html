@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | LÀM BẠN GÁI LÃO ĐẠI">
   <meta name="twitter:description" content="Tối hôm đó tôi chơi game thua suốt cả buổi, tức giận quá tôi leo thẳng lên sân thượng. Ai ngờ trên đó lại có người đang mở tiệc. Tất cả ánh mắt đồng loạt đổ dồn về phía tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

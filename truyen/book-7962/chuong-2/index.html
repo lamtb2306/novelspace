@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | KẾT HÔN BÍ MẬT">
   <meta name="twitter:description" content="Đối phương nói như tên bắn: “Chương trình chúng tôi phát sóng hàng tuần, thời gian ghi hình linh hoạt, lại ngay trong thành phố! Hơn nữa thù lao rất hấp dẫn!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

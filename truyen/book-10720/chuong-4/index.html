@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Ngôn Linh Báo Ứng">
   <meta name="twitter:description" content="Thế nhưng, nếu không có năng lực ngôn linh của tôi, họ làm sao có được ngày hôm nay? Đám khách xem kịch càng thêm hả hê: “Nhà họ Thẩm nhờ cô ta?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

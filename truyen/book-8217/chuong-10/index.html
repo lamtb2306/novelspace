@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Khi ‘Tiểu Tam’ Tự Ảo Tưởng">
   <meta name="twitter:description" content="Đêm đó, tôi mơ một giấc mơ. Thấy Tô Tình Tình đứng ở một con đường, phía sau là ánh sáng, phía trước là vực thẳm. Cô ta do dự rất lâu, cuối cùng vẫn bước vào vực thẳm. Tôi muốn gọi cô ta lại, nhưng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hàng Xóm Cực Phẩm">
   <meta name="twitter:description" content="Trong nhóm cư dân tòa nhà bỗng nhiên xuất hiện một thông báo cưới xin: “Con trai tôi tuần sau kết hôn, bà con hàng xóm mỗi nhà mừng phong bì 8888.” “Những hộ có xe trị giá trên 500.000 tệ vui lòng ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Nơi Tôi Thuộc Về">
   <meta name="twitter:description" content="Bà không ngờ tôi dám công khai chuyện xấu trong nhà trước mặt nhiều người như vậy. Bà vốn luôn sĩ diện nhất. “Mày… mày nói bậy nói bạ! Bao giờ nhà này không cho mày ngủ phòng khách?” Bà mạnh miệng ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

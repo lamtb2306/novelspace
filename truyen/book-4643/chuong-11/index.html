@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Sau Khi Ta Bị Ban Cho Trang Đầu">
   <meta name="twitter:description" content="lạnh lùng nói, mạng này ta vốn không cần nữa, kẻ nào muốn làm bạn với ta dưới suối vàng thì cứ việc bước tới thử xem. Đó là một sự quyết tuyệt thực sự coi cái chết nhẹ tựa lông hồng, một sự hung dữ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

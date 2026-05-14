@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Anh Trai Trong Tủ Đông">
   <meta name="twitter:description" content="“An An, có thể cho chú biết nhà cháu ở đâu không?” Giọng Đội trưởng Lý rất dịu dàng. Tôi đọc địa chỉ. Chiếc xe chạy êm ru trên đường, cảnh vật ngoài cửa sổ lùi lại vun vút.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

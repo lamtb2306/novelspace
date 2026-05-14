@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Món Quà Cưới Tôi Tặng Chị Dâu">
   <meta name="twitter:description" content="Tôi chẳng buồn đôi co, lôi chìa khóa từ ngăn kéo ra, đưa cho chị ta. “Đây là thẻ ra vào và chìa khóa. Cưới xong nhớ trả lại cho tôi.” Vương Cầm giật lấy một cách thô lỗ: “Biết rồi biết rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

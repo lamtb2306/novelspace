@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | HOA NHÀI TOẢ NẮNG">
   <meta name="twitter:description" content="Vì vừa kiếm được tiền, tôi đi trung tâm thương mại mua quà cho ba người nhà chú Lâm, cũng mua một món cho mẹ tôi. Dù họ chẳng thiếu gì, nhưng đây là phép lịch sự.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

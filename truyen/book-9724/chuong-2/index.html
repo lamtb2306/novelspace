@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | KHI KHÔNG CÓ NHÀ ĐỂ VỀ">
   <meta name="twitter:description" content="Anh tôi khó xử nói: “Hương Hương, đừng giận, căn hộ đó giờ em trai chị dâu đang ở, em qua đó không tiện đâu.” “Vậy còn căn ở Khu Giang Dương thì sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

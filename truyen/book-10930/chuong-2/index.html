@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Con Đẻ Và Quả Đắng">
   <meta name="twitter:description" content="Tôi nghe thấy những lời giống hệt kiếp trước, nhưng lần này không còn ôm lấy eo chị mà khóc lóc cầu xin đừng đi nữa. Tôi chỉ nở một nụ cười bình thản: “Chị, đi nhanh đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

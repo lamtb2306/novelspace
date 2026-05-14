@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Trở Về Giữa Yêu Thương">
   <meta name="twitter:description" content="Với việc tôi trở về, cô chưa từng nghĩ là bị cướp mất tình thương, ngược lại còn cùng mọi người yêu thương tôi. Vì người vốn đã nhận được nhiều yêu thương thì sẽ không tiếc trao nó cho người khác. ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bồn Cầu Thông Minh Báo Án">
   <meta name="twitter:description" content="Ứng dụng bồn cầu thông minh gửi cho tôi một thông báo đúng lúc đang làm việc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | LỜI CHÀO CUỐI CÙNG">
   <meta name="twitter:description" content="Hàn Dạ nói hôm nay thời tiết đẹp, thích hợp ra ngoài một chút. Tôi không từ chối. Từ khi biết mình mắc bệnh, tôi đã trốn trong căn phòng nhỏ này suốt một tháng, cắt đứt mọi liên hệ với thế giới bên...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chiếc Bánh Đổi Số Phận">
   <meta name="twitter:description" content="Trong buổi tiệc thương mại mừng Trung Thu, nữ sinh nghèo mà anh trai tôi nhận nuôi lại lén cắt mất miếng bánh trung thu mà tôi định chia cho mọi người. Chiếc bánh đó là tôi bỏ ra số tiền rất lớn để...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

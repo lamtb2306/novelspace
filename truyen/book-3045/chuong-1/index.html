@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | GIẢ THIÊN KIM ĐÒI NỢ">
   <meta name="twitter:description" content="Tôi là con gái ruột bị bế nhầm từ nhỏ, mãi đến năm mười tám tuổi mới được đón về nhà. Người nhà đối xử với tôi khách khí, nhưng lại chẳng có chút tình thân nào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

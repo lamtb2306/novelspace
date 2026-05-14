@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | KHI KẺ THAM LAM ĐỔI VẬN">
   <meta name="twitter:description" content="Anh tôi trông như chẳng làm gì, nhưng lại như đã làm tất cả mọi thứ. Âm thanh quái dị kia… không biết có liên quan gì tới anh hay không.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

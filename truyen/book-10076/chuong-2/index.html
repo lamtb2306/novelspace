@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Trở Lại 80, việc đầu tiên tôi làm là theo chồng ra đảo hải quân.">
   <meta name="twitter:description" content="Sắc mặt Triệu Tố Nga thoáng chốc gần như không giữ nổi. “Cái… cái gì cơ?” “Chẳng phải trước đây em nói với A Tiêu là thà chết cũng không ra đảo theo quân sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

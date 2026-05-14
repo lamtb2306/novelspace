@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Anh Ấy Luôn Có Người Khác">
   <meta name="twitter:description" content="Trên chuyến bay đến London, tôi vừa liếc mắt đã nhận ra cô gái ấy. Tám năm trước, vào đêm trước ngày cưới, chính cô ta là người đã mặc chiếc váy ngủ lụa của tôi, trèo lên giường của Mạnh Tự Chu – k...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

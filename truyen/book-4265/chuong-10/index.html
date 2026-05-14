@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Người Tình Năm Năm">
   <meta name="twitter:description" content="Chỉ để phòng khi cô muốn quay lại, còn có cách liên lạc. Trần Dã cười trêu: “Không ngờ, phong lưu đa tình như Tiểu Lục tổng của chúng ta, cũng có ngày gục ngã vì một người phụ nữ.” Anh hừ nhẹ, khôn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

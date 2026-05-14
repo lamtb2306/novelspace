@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Tôi Là “Ứng Dụng Chuyển Tiền” Của Gia Đình Suốt Tám Năm">
   <meta name="twitter:description" content="Tôi muốn lập một nhóm. Tên nhóm, tôi nghĩ rất lâu. Cuối cùng gõ sáu chữ: “Phân chia di sản nhà họ Lâm.” Tôi kéo mẹ, anh trai, chị dâu vào. Rồi kéo cả dì, cậu vào. Những người năm đó đá tôi ra, khôn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Chính Ủy Gọi Tôi Về">
   <meta name="twitter:description" content="Cao một mét tám tám, mặc sơ mi may đo thủ công, khí chất bất phàm, diện mạo tuấn lãng. Chỉ có một điều khiến tôi không vừa ý, là ánh nhìn của anh ta với tôi đầy soi xét và khinh thường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | APP TÀI VẬN">
   <meta name="twitter:description" content="Huống chi, Tiền Vi chỉ là một sinh viên. Cảnh sát điều tra, phát hiện tất cả các khoản vay đều cần nhận diện khuôn mặt chính chủ. Nói cách khác. Chính cô ta tự vay. Hoàn toàn chẳng liên quan gì đến...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

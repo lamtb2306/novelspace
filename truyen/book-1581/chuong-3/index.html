@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | TRÒ CHƠI CỦA THIÊN TÀI">
   <meta name="twitter:description" content="“Vợ tôi trước kia vừa hiền lành vừa yêu trẻ con, tôi cũng không biết sao cô ấy lại trở nên thế này.” “Bác sĩ nói có lẽ là bệnh, do thiếu cảm giác an toàn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

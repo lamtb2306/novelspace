@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BẠN TRAI THỰC DỤNG">
   <meta name="twitter:description" content="Tôi vừa đỗ vào làm ở một doanh nghiệp nhà nước, bố mẹ liền thưởng cho tôi một chiếc xe điện Xiaomi SU7. Bạn trai tôi vừa biết tin, lập tức nhảy việc sang một công ty cách nhà hơn hai tiếng đi lại m...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

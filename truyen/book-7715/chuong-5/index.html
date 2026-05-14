@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Khi Em Không Cần Anh Nữa">
   <meta name="twitter:description" content="“Ôn Tịch, xin lỗi bằng miệng, cô vĩnh viễn không biết chừa.” Ôn Tịch sững người, cổ họng khô rát. “Vậy anh muốn tôi làm thế nào? Quỳ xuống dập đầu?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

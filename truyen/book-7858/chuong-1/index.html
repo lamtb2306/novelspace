@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | RỜI XA THẨM MẪN HÀNH">
   <meta name="twitter:description" content="Tôi có một trò chơi mà mấy người không có. Cô em gái thân thiết của chồng giơ tay lên, “Tôi từng nhổ lông ở chỗ đó của anh ấy đấy.” Trò chơi, chỉ có mình cô ta là thắng. Cô ta chợt nhận ra điều gì,...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

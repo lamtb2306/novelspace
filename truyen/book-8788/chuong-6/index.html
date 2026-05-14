@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | XÀ YÊU THÀNH THÊ">
   <meta name="twitter:description" content="Tuy tu hành ngàn năm, song ở nhân gian nàng xem ra ngang tuổi ta, lại phải gọi ta “mẫu thân”, đến lượt ta ngượng ngùng. “A Mãnh sắp về.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | BẠN CÙNG PHÒNG KHÁC GIỚI CỦA TÔI">
   <meta name="twitter:description" content="Buổi tối, tôi lại một mạch đi siêu thị khuân về một đống nguyên liệu. Dù toàn là đồ giảm giá, nhưng cái chính là còn tươi. Về đến nhà, tôi định làm lại cái bánh đàng hoàng, thêm món cánh gà coca nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

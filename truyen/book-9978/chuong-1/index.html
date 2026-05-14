@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chiếc Thùng Táo Lột Xác">
   <meta name="twitter:description" content="Tôi cố ý mang từ quê lên một thùng táo để chia cho mọi người trong công ty. Sau cuộc họp, đồng nghiệp trong nhóm ai cũng khen táo to, ngọt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

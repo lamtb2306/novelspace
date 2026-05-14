@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NĂM NĂM PHAI NHẠT">
   <meta name="twitter:description" content="Tôi không đến bệnh viện, mà bắt taxi về nhà. Căn nhà trọ tôi và Chu Cận Ngôn thuê chỉ là một căn nhỏ một phòng ngủ, một phòng khách. Ở cửa ra vào có một kệ sách, trên đó đặt vài quyển sách.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

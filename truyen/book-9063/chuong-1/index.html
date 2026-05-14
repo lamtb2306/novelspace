@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hoa Tang Trong Ngày Đại Hỷ">
   <meta name="twitter:description" content="Chúc mừng Tổng giám đốc Cố tân hôn vui vẻ, trăm năm hạnh phúc! Tôi đẩy xe hoa tang, tươi cười xuất hiện ngay trước cửa khách sạn Kim Việt, nơi đang diễn ra hôn lễ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

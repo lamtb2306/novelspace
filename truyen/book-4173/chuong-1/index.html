@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nghìn Năm Báo Oán">
   <meta name="twitter:description" content="Thanh mai trúc mã của tôi là một đại sư xem tướng hàng đầu. Năm mười tám tuổi, anh ấy mở miệng nói dối, phán tôi mang mệnh lệ quỷ, còn em gái thì là mệnh phú quý.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

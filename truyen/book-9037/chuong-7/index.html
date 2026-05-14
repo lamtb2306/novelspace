@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Nhật Ký 500 Chữ">
   <meta name="twitter:description" content="Cầm ống tiêm, chậm rãi tiến về phía tôi. Tôi hiểu rõ, nếu bị họ đưa đi, bất kể tôi có bệnh hay không, tôi cũng không thể nào thoát ra được nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

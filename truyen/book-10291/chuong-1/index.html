@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tấm ga giường đỏ">
   <meta name="twitter:description" content="Tôi mở dù ở độ cao 5000 mét, nhưng thứ bung ra lại là một tấm ga giường màu đỏ in chữ “Sớm sinh quý tử”. Đó là món quà chồng tôi tự tay chọn khi kết hôn ba năm trước, nhưng giờ đây, nó lại trở thàn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

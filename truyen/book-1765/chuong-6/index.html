@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | ĐOÁ HOA CAO LÃNH">
   <meta name="twitter:description" content="Tôi viện cớ đi vệ sinh để điều chỉnh lại tâm trạng. Nhìn vào gương, gò má đỏ bừng. Tôi vỗ vỗ mặt mình: “Trần An, tỉnh táo lại!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trò Chơi Của Kẻ Giả Có Hiếu">
   <meta name="twitter:description" content="Bạn trai tôi nhất quyết bắt tôi rửa chân cho mẹ chồng tương lai trong lễ cưới.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

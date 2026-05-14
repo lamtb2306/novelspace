@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | A Tùng Trong Mộng">
   <meta name="twitter:description" content="Khi lên xe ngựa, bà châm lửa thiêu trụi tòa tiểu viện kia: “A Phù, từ nay về sau, ngươi chính là một người đã chết.” Ngọn lửa sau lưng bùng cháy, hơi nóng mỗi lúc một xa rời.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

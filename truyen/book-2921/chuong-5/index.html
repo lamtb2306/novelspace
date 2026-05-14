@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Cả Thôn Tôi Đi Vay Nặng Lãi">
   <meta name="twitter:description" content="Còn chưa kịp đòi tiền, thím hàng xóm đã ngồi phịch xuống đất gào khóc: “Ôi trời ơi, số tôi khổ quá! Tiền thì không có, mạng thì có một cái.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

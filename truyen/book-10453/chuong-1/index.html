@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TIỂU BẠCH">
   <meta name="twitter:description" content="Bạn cùng phòng của tôi nhặt được một con rắn trắng nhỏ, nói muốn nuôi nó trong ký túc xá. Tôi khuyên cô ấy nên thả nó đi, vì rắn hoang ngoài tự nhiên thường mang mầm bệnh, hơn nữa ký túc xá cũng kh...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

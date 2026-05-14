@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Một Hơi Gả Ba Nhà">
   <meta name="twitter:description" content="QUAY LẠI CHƯƠNG 1 : “Như Chi, chàng có nhớ thiếp không?” Vương Như Chi nheo mắt, kéo ta vào lòng, rồi dắt ta đi về phía hậu viện. “Ngày đêm đều nhớ, chỉ là…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

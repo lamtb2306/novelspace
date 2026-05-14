@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CÔ NHI">
   <meta name="twitter:description" content="Tôi là cô nhi được gia đình họ Hạ nhận nuôi, nhưng cậu con trai út của nhà họ Hạ lại cực kỳ căm ghét tôi. Cậu ta dung túng cho người khác bắt nạt tôi, khiến tôi bị ép phải nhập viện.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

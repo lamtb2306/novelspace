@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ai Mời Người Nấy Trả">
   <meta name="twitter:description" content="Mỗi lần em chồng rủ đi ăn, cuối cùng người trả tiền luôn là tôi. Lần trước cũng vậy, nó nói mời cả nhà, gọi một bàn đầy món ăn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

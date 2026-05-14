@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ở NHÀ TÔI, ĐỪNG HÒNG DIỄN KỊCH!">
   <meta name="twitter:description" content="Nhà tôi mới lắp khóa cửa thông minh, tôi chỉ cài đặt nhận diện khuôn mặt cho ba người. Tôi, chồng tôi và con gái – mỗi người đều có dữ liệu khuôn mặt riêng. Mặt của đứa cháu trai thì mãi không thể ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

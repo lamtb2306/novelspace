@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trứng Cháy">
   <meta name="twitter:description" content="Hôm đó là sinh nhật tôi, mẹ nấu một bàn đầy hải sản, toàn món em gái thích ăn. Tôi bị dị ứng hải sản, chỉ có thể im lặng ngồi ở góc, gặm dĩa cánh gà.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Kiếp Trước Tôi Là Người Phụ Nữ Quên Mình">
   <meta name="twitter:description" content="Tôi thậm chí còn nở nụ cười, dẫn đầu vỗ tay: “Giờ chịu gọi là mẹ rồi hả?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

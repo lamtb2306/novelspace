@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TÌNH YÊU DƯỜNG NHƯ ĐÃ MẤT">
   <meta name="twitter:description" content="Tôi thức trắng đêm, đến lúc trời sắp sáng thì nhìn thấy tin nhắn trong nhóm gia đình. Hôm qua, trong lúc nấu canh gà, Tôn Thế Đồng đã hỏi qua mẹ chồng tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chạm Vào Ánh Trăng">
   <meta name="twitter:description" content="Ta là ám vệ của Thẩm Tự, nhưng lại luôn âm thầm khát khao chàng. Khi chàng từ mây trời ngã xuống, đôi mắt mù lòa, ta đã lặng lẽ đem chàng về. Chàng hỏi ta rốt cuộc muốn gì, ta đỏ mặt nói: “Thuộc hạ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

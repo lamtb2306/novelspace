@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NGƯỜI ĐÃ VÀO NHÀ TÔI">
   <meta name="twitter:description" content="“Đây là nhà của em. Sổ đỏ đứng tên em. Em có quyền quyết định ai được ở trong đó.” Cô ấy cầm điện thoại tra cứu. “Liên hệ ban quản lý khu, xin đổi khóa thông minh. Mang theo sổ đỏ và chứng minh thư...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

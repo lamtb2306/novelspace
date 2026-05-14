@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Trở Lại Ngày Dì Giúp Việc Đòi Lương Tiền Mặt">
   <meta name="twitter:description" content="Tôi tiếp lời: “Mất là chiếc nhẫn mà công ty trang sức gửi tới, cái nhẫn kim cương hồng một carat con từng cho mẹ xem ấy. Giá trị mấy chục vạn, cùng với số tiền mặt ba mẹ cho con cũng mất luôn.” Sắc...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

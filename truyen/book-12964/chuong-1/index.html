@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cả Công Ty Cố Ý Không Đến Bữa Liên Hoan Tôi Tổ Chức">
   <meta name="twitter:description" content="Bữa liên hoan của công ty, tôi đã thông báo trong nhóm trước ba ngày, còn @ tất cả mọi người, thậm chí dán cả thực đơn lên cho mọi người chọn món. Đến tối hôm liên hoan, ba con cừu nướng nguyên con...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

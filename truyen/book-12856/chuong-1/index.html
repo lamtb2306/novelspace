@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Con Gái Của Hai Thế Giới">
   <meta name="twitter:description" content="Tôi là thiên kim ngốc nghếch của nhà họ Lâm – gia tộc giàu nhất Giang Thành.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

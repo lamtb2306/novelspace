@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Trở Lại Phòng Mình Với Tư Cách Người Thuê">
   <meta name="twitter:description" content="Điện thoại báo tin nhắn — là mẹ gửi đến: “Hôm nay chưa chuyển tiền phòng.” Tôi sững người nhìn dòng chữ đó. “Lúc sáng đi gấp quá, con quên.” Tôi nhắn lại. “Vậy chuyển ngay đi.” Tôi chuyển 80 tệ. Bà...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

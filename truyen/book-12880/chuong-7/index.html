@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Khi Tiểu Tam Lên Ngôi">
   <meta name="twitter:description" content="Xung quanh mọi người đều nhìn, ánh mắt khinh bỉ, bất ngờ khiến mặt cô ta đỏ bừng. “Tôi sai ở chỗ nào? Chính họ không chịu ăn, chỉ mải quay phim chụp hình!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

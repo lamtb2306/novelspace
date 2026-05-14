@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chiếc Đèn Lưu Ly">
   <meta name="twitter:description" content="Thế nhưng chàng lại nhớ tên ta. Lần đầu gặp, chàng từ dưới nước cứu ta – kẻ bị đẩy rơi xuống hồ – rồi khoác cho ta một tấm áo choàng dày. Chàng nhìn ta, ánh mắt không chút khinh bỉ, không chút lãnh...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

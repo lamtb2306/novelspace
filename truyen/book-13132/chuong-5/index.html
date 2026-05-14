@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Trở Lại Ngày Giông Bão">
   <meta name="twitter:description" content="Tôi ngừng một nhịp, khẽ nhếch môi mỉa mai: “Chắc… cũng chẳng còn liên quan gì đến nhà tôi nữa, đúng không?” Tôi hất mạnh tay, mạnh mẽ đẩy đám người chắn lối, mở toang cửa lớp. Luồng gió lạnh lập tứ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Người Thừa Kế Bị Che Giấu">
   <meta name="twitter:description" content="Cô ta hãnh diện nhìn quanh, đắc ý khoe: “Ngôi nhà này, chồng tôi đặc biệt sửa sang theo ý thích của tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

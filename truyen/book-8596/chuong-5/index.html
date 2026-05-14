@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Khi Tôi Ngừng Đóng Kịch">
   <meta name="twitter:description" content="“Chắc chắn là gian lận! Đúng rồi! Mua đáp án!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

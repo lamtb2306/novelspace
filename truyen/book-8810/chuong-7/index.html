@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Càng xa, càng lặng">
   <meta name="twitter:description" content="Lời này chẳng khác nào khẳng định kết quả. Ngày trước anh chưa từng để lộ sơ hở, nay vì gấp gáp mà lỡ lời.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

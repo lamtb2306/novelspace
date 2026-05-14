@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Món Quà Đổi Lấy Giấy Nợ">
   <meta name="twitter:description" content="Ngày tôi nhận được giấy báo trúng tuyển Thanh Bắc, thứ chờ đón tôi không phải lời chúc mừng của mẹ. Mà là bà ngọt nhạt khuyên tôi đi làm thủ tục vay vốn sinh viên. “Mẹ dạo này khó xoay xở, con tạm ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

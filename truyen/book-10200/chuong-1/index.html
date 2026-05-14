@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bạch Cốt Kiệu Hoa">
   <meta name="twitter:description" content="Nhà họ Chu cưới vợ, lần nào cũng gặp ma chắn đường. Rèm kiệu vừa vén lên, tân nương hóa thành một con bù nhìn mặc hỉ phục đỏ thẫm. Không ai biết tân nương đã đi đâu. Sống không thấy người, chết khô...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

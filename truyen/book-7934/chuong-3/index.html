@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chỉ Một Mình Em">
   <meta name="twitter:description" content="Tôi gắng gượng cong môi: “Vì… em tin anh…” Nhưng khi tỉnh lại, bác sĩ lại thông báo một tin tàn nhẫn: “Cô Giang, cơ thể cô bị nhiễm lạnh nghiêm trọng, tử cung tổn thương, khả năng mang thai sau này…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

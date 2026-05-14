@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | L-I-NH HỒN NHÌN LẠI">
   <meta name="twitter:description" content="Một tháng sau khi tôi qua đời, con gái năm tuổi của tôi gõ cửa nhà của Tang Kỳ Thâm — người bạn thanh mai trúc mã của tôi. Năm năm xa cách, khi lần nữa nhìn thấy gương mặt đó, tôi đã ngẩn ngơ rất lâu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

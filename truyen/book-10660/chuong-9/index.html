@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Đường Về Phủ Thôi">
   <meta name="twitter:description" content="“Vâng, Thôi đại nhân rất chăm sóc cho ta.” “Thế thì tốt. Sau này ta sẽ đích thân đến tạ ơn hắn.” Huynh cười, nhẹ giọng dặn: “Chiêu Chiêu, ngươi cứ về phủ trước đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

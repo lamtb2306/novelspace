@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NHỮNG NGÀY CUỐI ĐỜI TÔI Ở TRÊN CÕI ĐỜI NÀY">
   <meta name="twitter:description" content="Khương Bạch Liễu từng chụp một tấm ảnh đêm Luân Đôn gửi cho tôi. Tất nhiên, giờ thì tôi chẳng thể nào trả lời lại nữa rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | BAN CÔNG CỦA TIẾN SĨ CỐ">
   <meta name="twitter:description" content="Tôi mở cửa, hỏi qua kẽ hở: “Không đi lối này à?” Cả người bà khẽ run: “Không… không có gì đâu, tôi… đi lối khác cho mát.” Ánh mắt bà không dám nhìn tôi, càng không dám nhìn về phía ban công kính.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

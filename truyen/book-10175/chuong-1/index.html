@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | TÁM NĂM LỪA DỐI">
   <meta name="twitter:description" content="Rời khỏi khách sạn, tôi ôm trán nóng ran, gọi một chiếc taxi đến bệnh viện. Vừa truyền nước, tôi vừa mở Weibo. Lướt từng bình luận dưới bài “làm rõ” của Giang Diên.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

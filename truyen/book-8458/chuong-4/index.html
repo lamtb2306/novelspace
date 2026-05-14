@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Cá Chép May Mắn">
   <meta name="twitter:description" content="Cả nhà họ Lưu đều đã thuê nhà bên ngoài trường, tôi cứ nghĩ Lưu Tư cũng sẽ dọn ra ngoài ở, không ngờ cô ta lại ở lại ký túc. Nhưng tôi chẳng buồn quan tâm đến cô ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

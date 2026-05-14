@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mặt Trời Của Riêng Tôi">
   <meta name="twitter:description" content="Mùa đổi gió, tôi mở ứng dụng mua sắm chung của hai vợ chồng, định mua cho chồng — Chu Minh — vài chiếc sơ mi mới. Vừa cho đồ vào giỏ hàng, hệ thống lại bật lên “Có thể bạn sẽ thích”, gợi ý một thỏi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

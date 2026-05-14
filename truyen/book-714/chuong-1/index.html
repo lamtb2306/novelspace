@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Gả nhầm chú út">
   <meta name="twitter:description" content="Gần đây nhà họ Cố có hai chuyện vui. Một là tôi và thiếu gia nhà họ Cố kết hôn. Hai là đương gia hiện tại của nhà họ Cố cũng cưới vợ. Ba ngày trước hôn lễ, tôi phát hiện mình đã mang thai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

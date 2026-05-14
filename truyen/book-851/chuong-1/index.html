@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ván Cờ Thất Tịch">
   <meta name="twitter:description" content="Phòng họp bị dột nước, tôi cùng vị hôn phu Trang Chính tìm một khách sạn, chuẩn bị tiếp tục bàn chuyện công việc. Vừa lấy tài liệu ra thì một đám người đã xông thẳng vào, đá tung cửa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

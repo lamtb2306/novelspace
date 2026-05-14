@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | YÊU HẾT MÌNH THẾ LÀ ĐỦ RỒI">
   <meta name="twitter:description" content="“Gần Tết rồi, tìm nhà mới cũng không dễ, anh nghĩ để cô ấy đến ở với chúng ta luôn, như vậy tiện chăm sóc hơn.” “Hơn nữa, không phải em luôn nghi ngờ anh và cô ấy sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

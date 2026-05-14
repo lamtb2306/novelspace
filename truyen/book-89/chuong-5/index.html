@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | BUỔI HỌP KHÔNG CÓ BIÊN BẢN">
   <meta name="twitter:description" content="“Tôi sẵn sàng phối hợp cung cấp sự thật kỹ thuật, cũng sẽ gửi lại lịch sử chỉnh sửa.” “Nhưng cột ‘người chịu trách nhiệm’, xin đừng ghi tên tôi.” “Nếu thật sự cần ghi tên ai đó – xin hãy ghi tên ng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | MIẾU XÀ THẦN">
   <meta name="twitter:description" content="Bọn chúng nhìn tôi bằng ánh mắt đê tiện, bỉ ổi. “Nhà mày giờ cũng không còn ai. Bọn tao cũng không muốn làm quá tay.” “Thế này đi — mày cứ ở lại làng, làm vợ chung của bọn tao.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

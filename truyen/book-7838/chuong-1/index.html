@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI BỊ TỐ QUẤY RỐI NGƯỜI ĐÀN ÔNG GIẢ GÁI">
   <meta name="twitter:description" content="Vào ngày thi đại học, tôi tham gia đội xe tình nguyện, đang chuẩn bị đuổi một bà thím định đi nhờ xe thì bà ta lại dọa ngược lại tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

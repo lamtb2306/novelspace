@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NỮ HOÀNG BIỂN">
   <meta name="twitter:description" content="Những năm tôi chỉ lo lang bang làm “hậu cung nữ hoàng biển”. Có người tìm đến tôi, nói là chồng tương lai của tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

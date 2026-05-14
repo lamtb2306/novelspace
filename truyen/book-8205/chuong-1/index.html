@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cô Em Họ Giả Nghèo Và Cái Kết">
   <meta name="twitter:description" content="Khi con gái của chú tôi từ quê lên và bố mẹ nói muốn nhận nuôi cô ta, tôi biết cốt truyện quen thuộc lại bắt đầu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | HẸN HÒ QUA GAME">
   <meta name="twitter:description" content="Sau khi kết bạn, tôi liền chuyển tiền qua. Từ đó đến nay cũng không nói chuyện gì thêm. Một lần tình cờ, khi mời bạn chơi game, tôi bấm nhầm và kéo cả Thẩm Tề Bạch vào trận. Tôi cũng ngại không dám...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

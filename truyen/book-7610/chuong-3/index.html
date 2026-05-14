@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | BÀI KIỂM TRA CUỐI CÙNG">
   <meta name="twitter:description" content="Nhưng kiếp này, tôi lập tức cắn mạnh vào tay kẻ đang túm áo mình. “Đây là tang lễ ba mẹ tôi, người không liên quan thì mời rời đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

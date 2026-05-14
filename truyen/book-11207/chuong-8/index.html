@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | BẠN TRAI THÍCH BẠN THÂN TÔI">
   <meta name="twitter:description" content="Vừa nãy Ben đã nhắn tin cho tôi, nói muốn đến thăm. Lúc này anh ta rụt rè thò đầu ra từ phía sau cánh cửa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

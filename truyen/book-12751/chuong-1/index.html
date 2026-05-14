@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bị Phản Bội Ở Năm Thứ Năm">
   <meta name="twitter:description" content="Ba giờ sáng. Tôi nhìn chằm chằm vào màn hình điện thoại, nơi hiển thị một khoản chi tiêu lạ lẫm. Ngón tay lạnh buốt. 2.980 tệ, phòng tổng thống khách sạn Washington, thời gian tiêu dùng là tám giờ ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

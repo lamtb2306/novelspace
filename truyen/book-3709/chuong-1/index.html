@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | LỜI HỨA MÙA HẠ">
   <meta name="twitter:description" content="Vì sợ nữ sinh nghèo được anh tài trợ không đủ tiền mua vé xe, thanh mai trúc mã của tôi đã đổi nguyện vọng từ Nam Đại sang một trường đại học trong thành phố. Khi tôi biết tin thì chỉ còn hai tiếng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

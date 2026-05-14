@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Chồng Tôi Mua Xe Cho Tiểu Tam">
   <meta name="twitter:description" content="Trên trang web chính thức của trường xuất hiện một thông báo: 【Qua điều tra, giảng viên Cố Khiêm của trường chúng ta có hành vi vi phạm nghiêm trọng đạo đức học thuật, nhiều bài viết trên tạp chí h...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

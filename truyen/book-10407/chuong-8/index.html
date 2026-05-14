@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | CHUYẾN DU LỊCH MỘT CHIỀU">
   <meta name="twitter:description" content="“Đã tới rồi, hay là mình vào xem thử?” “Biết đâu quay được cảnh hay, đăng lên mạng còn hút view nữa!” Lại có đứa phụ họa: “Phải đó! Hay mình quay luôn clip ngắn thể loại ly kỳ, chỗ này không khí hợ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

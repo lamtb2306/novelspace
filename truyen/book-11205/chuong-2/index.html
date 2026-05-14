@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tấm Ảnh Không Có Tôi">
   <meta name="twitter:description" content="Dì cả nhắn cho tôi một tin rất dài, ý là con gái đừng quá so đo, sau này em trai còn phải nối dõi tông đường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | LÂM BẢO">
   <meta name="twitter:description" content="Tôi đứng bên cạnh anh ta, vừa vặn nhìn thấy đuôi mắt anh ta sưng đỏ. “Người tín nam này nguyện dốc hết gia sản, chỉ để gặp cô ấy một lần nữa.” Anh ta nhìn về phía trung tâm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

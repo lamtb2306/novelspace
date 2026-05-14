@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Vạch Trần Ác Ý">
   <meta name="twitter:description" content="Cô giáo phụ trách của tôi – Triệu Thiến, là nữ thần duy nhất của khoa Công nghệ Thông tin. Một lần cô lỡ tay đăng nhầm ảnh riêng tư, khiến cả lớp nam sinh phát cuồng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

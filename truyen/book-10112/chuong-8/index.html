@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Ngày Mai Không Còn Anh">
   <meta name="twitter:description" content="Tôi muốn mua một chiếc chăn lông cho ghế sofa, thêm một cái gối ôm, như vậy tôi có thể cuộn mình đọc sách. Trên bàn làm việc cần một cây đèn, có thể đặt thêm một bình hoa. Tôi muốn mua một cái bát ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

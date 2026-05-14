@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Tám Cái Tát Đêm Giao Thừa">
   <meta name="twitter:description" content="Tôi không dám nghĩ tiếp. “Lý Duyệt, mình đến trường ngay bây giờ!” “Đừng vội!” Lý Duyệt bình tĩnh chỉ đạo qua điện thoại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

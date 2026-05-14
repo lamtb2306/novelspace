@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CÔ GIÁO TRỌNG SINH">
   <meta name="twitter:description" content="Là giáo viên chủ nhiệm lớp 12, sau kỳ thi đại học, tôi dẫn học sinh chọn nguyện vọng dựa theo hoàn cảnh gia đình từng em. Chỉ có một mình học sinh nghèo Sở Mộng Nam không chịu nghe.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

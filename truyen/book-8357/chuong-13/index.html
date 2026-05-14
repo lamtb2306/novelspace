@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 13 | ĐƯỜNG TRI NGỮ">
   <meta name="twitter:description" content="“Anh muốn ngoại tình, anh muốn ở bên người khác, tôi không cho phép!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

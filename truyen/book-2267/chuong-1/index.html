@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bảy Năm Tơ Vương">
   <meta name="twitter:description" content="Ta từng thương mến Cố Hành Chỉ suốt bảy năm, nhưng cuối cùng người lựa chọn thoái hôn, cũng chính là ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

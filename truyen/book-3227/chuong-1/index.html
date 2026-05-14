@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hàng Xóm Tầng Trên">
   <meta name="twitter:description" content="Bố mẹ tôi đi làm xa hơn mười năm, cuối cùng cũng mua được một căn nhà trong thành phố và đưa tôi lên học cấp ba.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

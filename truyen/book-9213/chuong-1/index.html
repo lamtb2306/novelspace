@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÌM ANH SUỐT BA NĂM">
   <meta name="twitter:description" content="Tôi gặp lại Cố Cẩn Hoài – người đã mất tích suốt ba năm – tại lễ cưới của bạn cùng phòng đại học. Anh ấy là chú rể, còn tôi là phù dâu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Nếu chân tình không đổi được chân tình">
   <meta name="twitter:description" content="Vào bên trong, anh cầm thực đơn lên xem.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

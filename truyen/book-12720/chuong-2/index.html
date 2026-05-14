@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | SA VÀO VŨNG BÙN LẦY">
   <meta name="twitter:description" content="Tôi bình tĩnh lại một lúc. Đặt vé máy bay đến thành phố N. Trở lại ghế ngồi, Phương Lê thấy sắc mặt tôi không ổn, đặt ly rượu xuống rồi đi tới hỏi: “Thẩm Di, cậu làm sao thế?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

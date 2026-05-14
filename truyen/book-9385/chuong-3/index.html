@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Cô Dâu Xẻng Hồng">
   <meta name="twitter:description" content="Tôi nói: “Ba à, người ta đâu có quan tâm cảm giác của chúng ta, sao ba còn nghĩ cho họ?” “Ba càng nhẫn nhịn, họ càng được nước lấn tới.” Sắc mặt ba chồng đen sì: “Con mới về nhà này, vốn dĩ ta khôn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

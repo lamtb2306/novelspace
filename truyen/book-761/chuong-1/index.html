@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGƯỜI THÂN">
   <meta name="twitter:description" content="Dì út nhờ tôi kèm học cho em họ, hứa rằng nếu nó thi vào top 30 toàn khối, sẽ tặng tôi một chiếc điện thoại mới. Kết quả, con bé thi được hạng 28, nhưng cả nhà họ lại chối bỏ lời hứa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

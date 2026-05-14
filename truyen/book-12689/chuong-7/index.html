@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | MỘT MÌNH TÔI NHẬP HỌC">
   <meta name="twitter:description" content="Ngay sau đó, cô ta tag tôi rất nhiệt tình: “@Giang Hà, Hà Hà ơi, bọn tớ lập đội tham gia triển lãm nè, cậu cũng tham gia đi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

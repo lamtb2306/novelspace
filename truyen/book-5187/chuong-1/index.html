@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÌNH YÊU DƯỜNG NHƯ ĐÃ MẤT">
   <meta name="twitter:description" content="Tôi lờ mờ cầm điện thoại lên mở khóa, mật khẩu vẫn là ngày sinh của tôi.Ngón tay lướt qua từng tin nhắn,tôi càng đọc, mắt tôi càng mờ đi.Hai người họ ở cùng một văn phòng, từ sáng đến tối trò chuyệ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

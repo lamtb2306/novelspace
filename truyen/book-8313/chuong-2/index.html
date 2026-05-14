@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | KIẾP NÀY, CÔNG LÝ THUỘC VỀ TÔI">
   <meta name="twitter:description" content="“Tôi là anh cậu, ba mẹ cậu không còn thì tôi phải quản cậu!” “Chưa nói đến chuyện chúng ta không hề có máu mủ, dù cậu thực sự là anh tôi, thì lẽ ra cậu nên đứng về phía tôi chứ?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

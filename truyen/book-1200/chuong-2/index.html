@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | DIÊM HOÀ VÃN">
   <meta name="twitter:description" content="Tôi và Tống Tấn Niên quen nhau từ nhỏ. Chỉ là, tôi là đại tiểu thư nhà họ Diệp, còn anh ta chỉ là con riêng nhà họ Tống. Tôi luôn che chở anh ta, giúp anh có được chỗ đứng trong gia đình ấy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

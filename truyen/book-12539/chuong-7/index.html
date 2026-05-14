@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Chẳng Hay Đã Yêu Đến Thế">
   <meta name="twitter:description" content="Cô chỉ thấy may mắn—rất nhanh thôi, cô sẽ rời xa anh, không bao giờ còn phải nhìn thấy người này nữa! Ngay lúc ấy, màn hình điện thoại cô đặt trên bàn sáng lên—là tin nhắn từ sân bay.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Ly Hôn Nơi Bát Canh Hành">
   <meta name="twitter:description" content="Mắt anh tối lại: “Có một bức tượng đứng ngoài kia cả đêm. Thẩm Chi Châu cũng thật giỏi, tìm được tận đây.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

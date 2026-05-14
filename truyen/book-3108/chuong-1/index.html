@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Gã Nhân Viên Kiêu Ngạo">
   <meta name="twitter:description" content="Tôi là một quản lý cấp cao ở tập đoàn lớn, 32 tuổi, lương năm hàng triệu, đứng tên hai căn nhà. Mẹ tôi giục cưới gấp, nhất quyết bắt tôi đi gặp cái gọi là “người đàn ông khởi nghiệp chất lượng cao”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

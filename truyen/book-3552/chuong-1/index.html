@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Kỳ Nghỉ Đoan Ngọ Định Mệnh">
   <meta name="twitter:description" content="Kỳ nghỉ lễ Đoan Ngọ, tôi dẫn cô bạn cùng phòng quê ở tỉnh ngoài về nhà chơi. Không ngờ ngay đêm đầu tiên, cô ta chuốc say anh trai tôi rồi qua đêm với anh ấy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

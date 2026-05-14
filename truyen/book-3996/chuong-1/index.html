@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Phút Lạc Con">
   <meta name="twitter:description" content="Kỳ nghỉ Quốc khánh, khu du lịch đông nghẹt người. Tôi vào nhà vệ sinh, nhờ mẹ chồng trông con gái một phút. Chỉ một phút thôi — bà ta làm lạc con tôi. Cả nhà phát điên đi tìm ba ngày ba đêm, tôi kh...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

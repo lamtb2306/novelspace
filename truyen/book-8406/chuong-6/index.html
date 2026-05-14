@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | BA TẤC ĐẤT TÌM EM">
   <meta name="twitter:description" content="Lúc này, người xem mới phát hiện, người lên tiếng không phải tôi, mà là đoạn ghi âm phát từ chiếc máy ghi âm đặt trong tay tôi. “Tôi biết, có lẽ mọi người đều ước tôi chết đi. Tin tốt là…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

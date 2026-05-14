@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tên Sát Nhân Gửi Tin Nhắn Gọi Tôi Là Vợ">
   <meta name="twitter:description" content="Tin tức đưa rằng có một tên sát nhân đang lẩn trốn ngoài kia. Bạn trai gửi cho tôi tin nhắn: “Nghe nói hắn là kẻ giết người hàng loạt, chuyên ra tay với phụ nữ trẻ.” “Em nhất định phải chú ý an toà...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

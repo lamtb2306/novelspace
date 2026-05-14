@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KHI KẺ THAM LAM ĐỔI VẬN">
   <meta name="twitter:description" content="Anh tôi là con trai duy nhất trong nhà, từ khi sinh ra đã được cưng chiều hết mực. Thế nhưng vào ngày đầy tháng của anh, có một thầy bói đói sắp chết bước vào cửa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

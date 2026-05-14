@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NẾU NGƯƠI CHO TA SỐNG, TA CHO NGƯƠI TẤT CẢ">
   <meta name="twitter:description" content="Vì muốn em trai thiên tài có thể du học, tôi bỏ học đi làm công nhân, mười năm như một, gửi toàn bộ tiền lương về nhà.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

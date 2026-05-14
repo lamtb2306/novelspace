@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trọng Sinh Ngày Đưa Bạn Thân Về Quê">
   <meta name="twitter:description" content="Tôi dẫn bạn thân về quê ăn Tết cùng mình. Bà nội ép cô ấy uống thuốc, sau đó đưa thẳng vào phòng của anh họ tôi. Tôi tức đến phát điên, gào lên đòi báo cảnh sát. Nhưng bà nội lại chẳng hề để tâm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

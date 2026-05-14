@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Một Mình Nhưng Không Cô Đơn">
   <meta name="twitter:description" content="Tôi khẽ nói với bầu trời đêm. Sáng hôm sau, tôi bị đánh thức bởi tiếng gõ cửa. Nhìn qua mắt mèo, thấy Hoắc Cảnh Thâm đang đứng ngoài, tôi nhíu mày, nhưng vẫn mở cửa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

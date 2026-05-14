@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Bản Sao Của Tôi">
   <meta name="twitter:description" content="Một chiếc huy chương. Không phải vàng, cũng không phải bạc. Giống như bằng đồng. Khắc mấy chữ. “Cá nhân tiên tiến dũng cảm cứu người.” Ký tên: Đồn công an Thành Nam. Thời gian: ba mươi năm trước. D...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

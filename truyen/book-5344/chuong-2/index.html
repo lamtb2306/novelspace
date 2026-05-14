@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tôi Là Blogger Ăn Bún Ốc, Chồng Tôi Là Ông Trùm Tài Chính">
   <meta name="twitter:description" content="Câu nói vừa dứt, cả hai đầu dây đều im lặng. Lấy lại phản ứng, tôi gần như cố chấp nắm chặt vạt áo Lệ Chi Hành. “Không được đi.” “Lệ Chi Hành, nguyên tắc của anh đâu?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

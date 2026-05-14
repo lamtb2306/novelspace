@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | SỐNG LẠI, TÔI KHÔNG THA THỨ">
   <meta name="twitter:description" content="Kiếp này, mọi thứ đều được trả lại cho họ — từng người một. Mong là bản thân tôi ở kiếp trước, có thể an nghỉ dưới suối vàng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

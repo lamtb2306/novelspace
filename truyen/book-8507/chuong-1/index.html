@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tình Yêu Sáu Tuần">
   <meta name="twitter:description" content="Tôi tên là Tô Mặc Hàn, 27 tuổi, trưởng phòng thị trường của một công ty dược phẩm. Ba tháng trước, tôi chia tay bạn trai Lục Cảnh Trình, cứ ngỡ cả đời này sẽ không bao giờ gặp lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

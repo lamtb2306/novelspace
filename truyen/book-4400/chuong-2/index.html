@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NỮ THỦ KHOA QUYẾT ĐÒI LẠI CUỘC ĐỜI">
   <meta name="twitter:description" content="Tôi mở WeChat, chọn vào một cái tên quen thuộc — cô giáo chủ nhiệm của tôi. Ngón tay tôi gõ thật nhanh: “Cô Vương, em là Dụ Nhiên. Em nghi ngờ điểm thi đại học của mình bị người khác đánh cắp, kết ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

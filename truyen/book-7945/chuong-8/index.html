@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Tình yêu không đứt đoạn">
   <meta name="twitter:description" content="Những ngày sau, anh ta vẫn không về nhà. Nhưng trên khắp các trang giải trí, đầy rẫy tin tức về Mục Thịnh Tiêu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

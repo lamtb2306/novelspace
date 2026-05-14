@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | NGAY TỪ ĐẦU ĐÃ LÀ DỐI TRÁ">
   <meta name="twitter:description" content="Tôi không ngờ Lục thị làm truyền thông rầm rộ đến mức “mua hotsearch” cả bên nước ngoài. Nhưng có tiền thì ai lại từ chối? Tôi cũng vui vẻ “góp gió”. Ngày hôm sau, hotsearch lại bùng nổ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

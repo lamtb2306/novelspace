@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hồ Tiên Báo Ân">
   <meta name="twitter:description" content="Nửa đêm hai giờ, vòng bạn bè của Hạ Cầm Vận nổ tung. Nguyên nhân là Cố Việt Trạch đã đăng một tấm ảnh của cô lên tài khoản Xianyu (chợ đồ cũ) của mình.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

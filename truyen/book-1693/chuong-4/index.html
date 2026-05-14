@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Tôi Là Người Viết Mệnh">
   <meta name="twitter:description" content="Khóe mắt tôi lướt qua nụ cười cong lên trên môi Thẩm Du Vi. Tôi run rẩy cầm bút lên. Rồi viết ngày tháng năm sinh bát tự của cô ta lên giấy. 5 Không cần máu me, không cần chết bất đắc kỳ tử.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Minh Châu Trong Lòng Thủ Phụ">
   <meta name="twitter:description" content="Đêm đó, tướng phủ sáng đèn suốt. Gà bay chó sủa, loạn cả lên. Ca ca Thủ phụ của ta bị cha cầm gậy chống đuổi đánh khắp sân. “Con không có! Con chẳng làm gì cả!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Vì Em, Anh Rút Khỏi Giới Giải Trí">
   <meta name="twitter:description" content="Tôi nhớ, mưa theo mái tóc anh chảy xuống, đọng lại trên gương mặt. Không rõ đâu là nước mưa, đâu là nước mắt. “Thế thì… vậy đi, Tần Tuyết.” Tôi quay lưng bỏ đi, nghe thấy tiếng anh nghẹn ngào trong...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

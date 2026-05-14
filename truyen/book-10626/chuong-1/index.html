@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Câu Đố Cuối Cùng">
   <meta name="twitter:description" content="Tôi – một pháp y – vừa mới hoàn thành công việc giải phẫu, thì mạng xã hội đột nhiên hiện lên hai tin nhắn thoại. Người gửi… lại chính là người mà tôi vừa giải phẫu!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

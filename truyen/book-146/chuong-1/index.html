@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chia Tay Ngay Trước Chuyến Đi Tốt Nghiệp">
   <meta name="twitter:description" content="Đêm trước khi lên đường cho chuyến du lịch tốt nghiệp, lúc tôi đang thu dọn hành lý, vô tình bấm mở lịch sử chuyển khoản của bạn trai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

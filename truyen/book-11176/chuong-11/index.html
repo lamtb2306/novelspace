@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Bản Sao Của Tôi">
   <meta name="twitter:description" content="“Hạ Hạ, con sao vậy?” Tôi không trả lời. Tôi đẩy ông ra, xông vào. Mùi khói thuốc nồng nặc. Gạt tàn đầy đầu lọc. Tôi ném điện thoại lên bàn. Trên màn hình là bức ảnh và dòng chữ khiêu khích. “Cô ta...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

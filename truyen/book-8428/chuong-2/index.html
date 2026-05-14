@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | LẦN CUỐI TÔI GẬT ĐẦU">
   <meta name="twitter:description" content="Tôi không nói thêm gì nữa. Nói nhiều cũng vô ích, họ chỉ nghĩ tôi tiếc tiền. Mấy ngày sau đó, tin nhắn tiêu dùng từ thẻ tín dụng liên tục gửi tới. Phí khách sạn năm sao, phí hướng dẫn viên cao cấp,...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

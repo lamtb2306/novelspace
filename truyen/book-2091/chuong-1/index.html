@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BÊN TRONG MỘT GIA TỘC HIẾU THẢO">
   <meta name="twitter:description" content="Ông nội năm nay đã chín mươi tám tuổi. Dạo gần đây, ông vừa mới vượt qua một trận bạo bệnh. Cả nhà ai nấy đều vui mừng, dự định mở tiệc ăn mừng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

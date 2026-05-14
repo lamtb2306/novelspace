@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CÔ DÂU KỲ LẠ">
   <meta name="twitter:description" content="Tôi như vừa trải qua một cơn ác mộng, khi mở mắt ra đã thấy mình đang ở trong một nơi hoàn toàn xa lạ. Nhìn quanh, giống như một căn nhà ở nông thôn miền Bắc. Tôi đang nằm trên một chiếc giường đất...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

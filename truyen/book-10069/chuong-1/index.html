@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGUYỆN VỌNG CỦA KẺ PHẢN BỘI">
   <meta name="twitter:description" content="Trên đường leo núi, tôi tình cờ gặp lại người yêu cũ — người đã chia tay tôi ba năm trước và bị mất trí nhớ. Bên cạnh anh ta là một cô bạn gái mới. Cô nàng nũng nịu mè nheo, còn anh ta thì cười hiề...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

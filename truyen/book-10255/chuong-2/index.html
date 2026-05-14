@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | 36 VẠN CHO MỘT BÀI HỌC">
   <meta name="twitter:description" content="Tôi mở ứng dụng ngân hàng, nhập mật khẩu kiểm tra số dư. Màn hình hiện ra, tim tôi như ngừng đập. Số dư: 0.00 đồng. Tôi không tin, làm mới lại. Vẫn là 0.00 đồng. Tôi mở lịch sử giao dịch.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

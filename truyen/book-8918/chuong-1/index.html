@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGƯỜI ĐƯỢC CHỌN VÀ ĐÁM CORGY BẤT TỬ">
   <meta name="twitter:description" content="Trên đường đi thi đại học, tôi và cô bạn thân gặp một bà lão bị ngã. Bạn tôi vội vã tới điểm thi, khuyên tôi đừng xen vào chuyện không liên quan.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

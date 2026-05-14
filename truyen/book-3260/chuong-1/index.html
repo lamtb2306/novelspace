@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hạ Cánh Theo Quy Trình">
   <meta name="twitter:description" content="Trên màn hình radar có hai mươi ba chuyến bay đang chờ hạ cánh, điện thoại cá nhân của Trình Viễn Châu gọi thẳng vào tháp không lưu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

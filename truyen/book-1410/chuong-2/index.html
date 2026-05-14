@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NGÔI SAO">
   <meta name="twitter:description" content="Tôi từng luôn băn khoăn ai là người đã tố cáo, thậm chí các bạn khác trong lớp cũng đều bất an. Vì đâu phải là trường nữ sinh, nếu có ai tố cáo thì chắc chắn có lý do gì đó.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

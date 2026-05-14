@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chuyến Bay Xuyên Thời Gian">
   <meta name="twitter:description" content="Ánh mắt giao nhau. Không có niềm vui, cũng chẳng có sự chán ghét như tôi từng tưởng tượng. Chỉ có sự bình thản.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

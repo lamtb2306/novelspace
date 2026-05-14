@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | TÌNH YÊU ONLINE VỚI TỔNG TÀI CAO LÃNH">
   <meta name="twitter:description" content="Anh ôm chặt lấy tôi, giọng khàn khàn: “Xin lỗi, để em phải lo rồi.” “Rốt cuộc là chuyện gì xảy ra vậy?” Tôi hỏi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

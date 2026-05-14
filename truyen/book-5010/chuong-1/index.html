@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thoát Khỏi Ngôi Nhà Đầy Bóng Tối">
   <meta name="twitter:description" content="Mỗi chiều thứ Sáu, tôi đều đến nhà ba mẹ như thường lệ để dọn dẹp vệ sinh. Khi tôi đang cẩn thận kiểm tra xem trên kệ gia vị có lọ nào đã quá hạn hay không, bên tai bất ngờ vang lên giọng nói đầy k...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

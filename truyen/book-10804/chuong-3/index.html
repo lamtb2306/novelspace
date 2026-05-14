@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | NGỌT NGÀO DÀNH CHO EM">
   <meta name="twitter:description" content="Thấy chưa, chẳng có gì quan trọng cả. Tôi gật đầu, cố nén lại khao khát muốn hỏi rõ. Cúi đầu nhắn: “Không làm phiền đâu ạ, học trưởng Tiêu, cảm ơn anh đã quan tâm!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Lần Cuối Gọi Là Mẹ">
   <meta name="twitter:description" content="Vừa hay nó đang mua đồ gần đó, nhanh chóng tới nơi và giúp tôi thanh toán. Tôi chất hết đồ lên xe, may là chìa khóa xe tôi vẫn giữ bên người, còn có thể tự lái xe về.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

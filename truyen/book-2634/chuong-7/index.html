@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Chiếc Váy Máu Đỏ">
   <meta name="twitter:description" content="Màn hình lớn phía sau, vốn hiển thị logo cuộc thi, bỗng chuyển cảnh, phát một đoạn video. Trong đó, cha Trương Manh với dáng vẻ tiều tụy, vừa khóc vừa nói trước ống kính: “Thưa các thầy cô, các em ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

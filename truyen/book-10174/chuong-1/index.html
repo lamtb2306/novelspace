@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Công Ty Không Cần Nhân Viên, Chỉ Cần Vận May">
   <meta name="twitter:description" content="Trong công ty có một cô gái tên Tô Cẩm Cẩm, được coi là “cá vàng” (người mang lại may mắn), vào làm cùng đợt với tôi. Cô ta chẳng cần làm gì cả, mỗi ngày ngồi ở quầy lễ tân chơi game, xem video, lư...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

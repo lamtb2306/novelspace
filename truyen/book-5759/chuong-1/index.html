@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đại Hôn Hóa Đại Náo">
   <meta name="twitter:description" content="Mười dặm hồng trang, chiêng trống rền vang. Kiệu hoa của ta vừa dừng trước cổng Uy Viễn tướng quân phủ, ta đã thấy ngay một màn hay ho.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

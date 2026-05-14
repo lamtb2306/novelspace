@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Ba Lá Bài Của Số Mệnh">
   <meta name="twitter:description" content="Bà thường mang những hộp bánh ngọt đẹp mắt đến lớp vẽ, chia cho tất cả các bạn nhỏ — trừ tôi ra.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

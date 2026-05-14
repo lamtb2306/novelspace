@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | BÀI KIỂM TRA CUỐI CÙNG">
   <meta name="twitter:description" content="QUAY LẠI CHƯƠNG 1 : Tôi thở dài nhẹ nhõm. Xem ra, kế hoạch đã thành công. Tôi biết rõ ba người họ sau khi mất thân phận thì chẳng đi đâu được, kiểu gì cũng phải quay về.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

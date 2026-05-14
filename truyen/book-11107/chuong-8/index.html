@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Nhà Tôi Mua, Nhưng Không Thuộc Về Tôi">
   <meta name="twitter:description" content="Cảnh sát ghi nhận thông tin và dặn tôi nếu phát hiện bất cứ dấu hiệu khả nghi nào, lập tức gọi lại. Làm xong mọi thứ, tôi mới cảm thấy lưng mình toát ra một lớp mồ hôi lạnh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

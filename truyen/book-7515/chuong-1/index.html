@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BẠN TRAI TÔI LÀ THẨM THÍNH">
   <meta name="twitter:description" content="Năm trước, tôi lướt một ứng dụng và thấy một anh chàng có vóc dáng đúng gu của mình. Thế là tôi quyết đoán để lại một bức ảnh trong phần bình luận. 【Mới làm móng xong, đừng có đùa.】 Tết về quê, tôi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

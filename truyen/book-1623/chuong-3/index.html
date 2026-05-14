@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Thực Tập Không Lương">
   <meta name="twitter:description" content="“Penicillin chẳng phải là thuốc kháng viêm sao?” “Tôi thấy cô ta chỉ là cảm thấy penicillin đắt hơn mấy loại kháng viêm khác, tiếc tiền không muốn chi.” “Cũng chỉ có thể làm khó tôi thôi.” “Đám trâ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

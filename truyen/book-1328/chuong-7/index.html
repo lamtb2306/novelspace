@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Ly Hôn Rồi, Xin Đừng Quay Lại">
   <meta name="twitter:description" content="Lời tôi nói ra, như một cái tát giáng thẳng lên mặt Cố Nghiêm Châu. Anh ta đường đường là Đoàn trưởng Cố, anh hùng được mọi người kính ngưỡng, nào từng bị ai từ chối dứt khoát như thế này?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

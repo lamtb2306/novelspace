@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | TRẦN TÔ TÔ">
   <meta name="twitter:description" content="Kỷ Tranh không về nhà, tôi theo anh ta đến một quán bar. Khói thuốc lượn lờ giữa ánh đèn mờ, anh lại khui thêm một chai whisky. Tần Thanh Hiến nhanh tay giật lấy chai rượu trên tay anh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

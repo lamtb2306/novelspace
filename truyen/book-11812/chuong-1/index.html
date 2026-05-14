@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đêm Tân Hôn, Chồng Tôi Ở Bên Người Khác">
   <meta name="twitter:description" content="Tôi theo dõi một tài khoản bí mật của một cô giáo vùng cao, nơi cô ghi lại chuyện tình yêu quân nhân của mình. Trong đó toàn là những khoảnh khắc ngọt ngào giữa cô và người bạn trai là một thiếu tá.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

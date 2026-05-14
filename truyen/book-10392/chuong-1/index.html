@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nghiệt Chủng">
   <meta name="twitter:description" content="Ngày đưa tang cậu, trước mặt tất cả những người đến viếng, em gái tôi nói: “Mẹ và cậu có quan hệ mờ ám, chị hai không phải con ruột của ba. Con vốn định giấu bí mật này cả đời, nhưng mẹ làm chuyện ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

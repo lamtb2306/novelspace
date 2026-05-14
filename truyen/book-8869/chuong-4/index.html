@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | HÔN NHÂN TÔ KỲ ĐỔ VỠ">
   <meta name="twitter:description" content="Tôi không về thẳng nhà bố mà ghé qua xưởng làm việc cá nhân của mình. Đó là một căn nhà nhỏ trong khu phố cổ, rất yên tĩnh, thường ngày tôi dùng để lưu trữ sách cổ và làm các nghiên cứu học thuật.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

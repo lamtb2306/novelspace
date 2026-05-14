@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | BẾN BỜ HẠNH PHÚC">
   <meta name="twitter:description" content="Cả đêm tôi ngủ không ngon, sáng hôm sau thức dậy thì Phí Mục đã ra ngoài, còn nhắn tin báo rằng hôm nay anh ấy đi dự một diễn đàn, bảo tôi cứ nghỉ ngơi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

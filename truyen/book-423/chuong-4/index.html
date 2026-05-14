@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | HẠNH PHÚC LÀ DO MÌNH TẠO NÊN">
   <meta name="twitter:description" content="Tôi đâu có định tự tử, chẳng phải đang diễn thôi sao? Vậy thì xem ai diễn giỏi hơn! Rất nhanh, bên dưới có người hét to: “Cứu với!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

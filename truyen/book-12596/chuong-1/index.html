@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đổi Giường Đổi Mệnh">
   <meta name="twitter:description" content="Tôi và thư ký của chồng cùng lúc lâm bồn, anh ta lại bảo bác sĩ ưu tiên giữ cô ta. Nghe tin tôi khó sinh mà chết, anh ta gào khóc thảm thiết, rồi quay đầu mặt lạnh nhạt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | HAI ĐỒNG XU MỘT HÀO">
   <meta name="twitter:description" content="Anh cho tôi thì tôi phải trả lại, còn phải chú ý bao nhiêu là vừa. Ít thì không hợp. Nhiều thì thiệt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | KẾT THÚC GỌN GÀNG">
   <meta name="twitter:description" content="Dì bảo muốn gặp mặt trực tiếp nói chuyện. Tôi lo dì lại nhắm trúng tôi thì phiền, Nên giả trang thành một “quý bà trung niên” đi gặp. Nhưng khi vừa tới phòng riêng trong quán cà phê, tôi quay đầu đ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | CHỌN MỘ">
   <meta name="twitter:description" content="Chu Kỳ An đã nghỉ làm. Cậu ấy bắt đầu ở nhà cả ngày, không rời khỏi tôi dù chỉ một bước, lo sợ tôi sẽ làm điều dại dột.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

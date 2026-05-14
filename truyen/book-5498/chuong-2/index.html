@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | VÒNG TAY VẬN MỆNH">
   <meta name="twitter:description" content="Chúng tôi đã nhịn ăn nhịn mặc, gom góp giúp cô ấy qua được kỳ khó khăn đó để tiếp tục học đại học. Cô ấy từng vô số lần nắm lấy tay tôi, nói mình biết ơn tôi đến nhường nào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

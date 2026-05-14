@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Hy Vọng Của Chị, Gông Xiềng Của Tôi">
   <meta name="twitter:description" content="Tôi nhớ lúc còn đi học, bị mấy bạn nữ chặn trước cửa nhà vệ sinh. Giữa ánh mắt dòm ngó của đám học sinh qua lại, tôi bị ép phải quỳ xuống, lấy dép tự tát vào mặt. “Tưởng mình là nữ chính văn học đa...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

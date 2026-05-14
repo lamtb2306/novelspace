@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Sổ Nợ Tình Yêu">
   <meta name="twitter:description" content="Tôi nhìn cái gối tựa mềm mại màu hồng, mới phát hiện căn phòng này đầy dấu vết của cô ấy. Chuông gió và cây xanh nơi bệ cửa sổ, bút đánh dấu đủ màu sắc, thú bông treo trên giá sách…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

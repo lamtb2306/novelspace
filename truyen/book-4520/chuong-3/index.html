@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | QUỲ TRONG TUYẾT CŨNG ĐÃ MUỘN">
   <meta name="twitter:description" content="Tôi không từ chối, nhận lấy. “Đây là thứ tôi xứng đáng có.” Năm năm thanh xuân, một lần trao nhầm, chút bồi thường này chẳng đáng là bao.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

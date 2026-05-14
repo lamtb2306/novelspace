@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | RỜI XA ANH RỜI XA NƠI ĐÂY">
   <meta name="twitter:description" content="Anh đưa tôi đến một tiệm bánh ngọt nhỏ nằm ở góc phố. Người đàn ông thành thạo mở cửa bước vào. “Đây là tiệm bánh của tôi. Tất cả bánh trong tiệm đều do tôi tự tay làm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

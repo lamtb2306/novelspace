@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Tôi Không Thể Rời Đi">
   <meta name="twitter:description" content="Luật sư theo đúng ý tôi, bình tĩnh chuyển lời: “Thân chủ của tôi nói rồi, không muốn nghe bất kỳ lời giải thích nào. Tòa án gặp nhau.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

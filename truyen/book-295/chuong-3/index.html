@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Đồ Ngốc Năm Ấy, Nay Không Còn Chờ Em">
   <meta name="twitter:description" content="Anh đứng cạnh tôi. “Chúng ta đã bên nhau mười năm, nên kết hôn rồi.” “Mấy hôm nữa đi chọn váy cưới, em lo khách mời, anh lo địa điểm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | ĐI GẶP ANH TÓC VÀNG">
   <meta name="twitter:description" content="Thành phố mới, trường đại học mới. Tôi vùi đầu vào việc học và làm thêm. Ngày nào cũng chỉ xoay vòng giữa lớp học, thư viện và chỗ làm. Bận rộn khiến người ta quên được rất nhiều thứ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

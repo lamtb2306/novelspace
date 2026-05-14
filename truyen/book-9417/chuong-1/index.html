@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | PHẢN BỘI TRONG HÔN NHÂN">
   <meta name="twitter:description" content="Khi làm nhân viên chăm sóc khách hàng cho một cửa hàng váy cưới trực tuyến, tôi phát hiện chồng mình đã mua một chiếc váy cưới tại đây.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

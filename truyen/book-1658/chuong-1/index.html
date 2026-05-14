@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÌNH YÊU LẦM LỖI">
   <meta name="twitter:description" content="Tôi tên là Trần Nhất Kiều, năm nay 25 tuổi. Sau khi tốt nghiệp, tôi trở về quê làm việc trong ngân hàng. Công việc ổn định, lương cũng đều đặn, giờ giấc thì rất thoải mái.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

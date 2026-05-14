@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TÂM DU">
   <meta name="twitter:description" content="Khi mới thi đậu vào Đại học A, tôi chỉ là một đứa quê mùa, khép kín. Mới khai giảng chưa được một tuần, tôi đã bị bạn cùng phòng khiếu nại vì cơ thể có mùi lạ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

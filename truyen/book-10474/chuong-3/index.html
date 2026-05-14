@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CHU TẦM THU">
   <meta name="twitter:description" content="Đối phương đặt mua ngay không chần chừ. Giao dịch thành công, tôi mới phát hiện… vừa rồi gõ nhầm một con số 0. Đôi giày hai mươi ngàn, tôi lại đăng thành… hai trăm ngàn! Tên này… chẳng phải là “冤大头...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

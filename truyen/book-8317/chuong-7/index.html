@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Trò Chơi Quyền Lực Chốn Công Sở">
   <meta name="twitter:description" content="Khi đến nơi, tôi mới biết lý do thực sự — tôi đã ‘nổi tiếng’ rồi. Đúng như lời Vương Hồng dọa, “danh tiếng” của tôi lan khắp giới, nhưng lại phản tác dụng. Tổng giám đốc bên kia cười thân thiện, ch...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

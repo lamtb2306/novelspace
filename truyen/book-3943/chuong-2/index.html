@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Mỗi Tháng 8.000 Tệ, Đổi Lại Một Chiếc Áo Rẻ Tiền">
   <meta name="twitter:description" content="Tôi nhìn chằm chằm chiếc áo khoác dạ ấy, ngồi thẫn thờ suốt cả đêm. Nó từng giây từng phút nhắc nhở tôi rằng vẻ hào nhoáng là của họ, còn tôi chỉ còn lại một mảnh nhếch nhác.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Cỗ Bàn Nhà Tôi 1.288, Nhà Chồng 8.888">
   <meta name="twitter:description" content="Tôi bước lên sân khấu, hít sâu một hơi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

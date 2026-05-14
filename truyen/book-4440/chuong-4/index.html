@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | PHÁO HOA CHÓNG TÀN">
   <meta name="twitter:description" content="Sau khi Chu Cẩn Xuyên rời đi, tôi không còn nhận được bất kỳ tin nhắn nào từ bạn bè của anh nữa. Chỉ có bác gái thỉnh thoảng vẫn gửi vài dòng cho tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

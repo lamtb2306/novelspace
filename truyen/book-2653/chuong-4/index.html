@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Chín kiếp không hối hận">
   <meta name="twitter:description" content="Đám thiếu gia ăn chơi đang xem trực tuyến sững người. “Điên rồi à? Tống Bắc Xuyên mới lên làm người thừa kế mà dám chơi lớn thế?” “Con thánh nữ nhà Hồ kia đúng là yêu tinh thật rồi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

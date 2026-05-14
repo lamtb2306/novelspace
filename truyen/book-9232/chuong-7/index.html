@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Chồng tôi lương năm 5 triệu, mỗi tháng chỉ cho tôi 500">
   <meta name="twitter:description" content="Một năm sau. Tôi mở một xưởng thiết kế nhỏ ở trung tâm thành phố. Dựa vào kỹ thuật bằng sáng chế của chính mình. Quy mô không lớn, nhưng tiếng tăm rất tốt. Thỉnh thoảng nhận được đơn hàng từ khách ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

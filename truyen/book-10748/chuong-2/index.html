@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Con trai đặt 3000 chiếc pizza để trừng phạt tôi, và cái kết">
   <meta name="twitter:description" content="Con trai đau đến gào khóc, cuối cùng buộc phải nhận sai. “Chẳng phải hai người muốn con xin lỗi sao? Được! Con xin lỗi! Được chưa! Được chưa!” “Con sai rồi! Con thật sự biết sai rồi! Đừng đánh nữa!...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

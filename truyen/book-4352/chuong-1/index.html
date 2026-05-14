@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nơi Tôi Thuộc Về">
   <meta name="twitter:description" content="Kết quả thi đại học đã có, tôi được 621 điểm. Bố mẹ vui đến mức nước mắt cũng trào ra, nói cuối cùng tôi cũng có thể ở lại thành phố này học một trường đại học tốt. Nhưng tôi lại điền vào một ngôi ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

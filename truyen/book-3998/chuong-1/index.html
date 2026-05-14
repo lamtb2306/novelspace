@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Triệu Rưỡi Cho Sự Phản Bội">
   <meta name="twitter:description" content="Thông báo hiện lên trên màn hình khiến toàn thân tôi cứng đờ, máu như đông lại. “Tài khoản đuôi 8888 của quý khách đã chuyển khoản 1.500.000,00 RMB lúc 07:05 ngày 30/10. Số dư còn lại: 12,56 RMB.” ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

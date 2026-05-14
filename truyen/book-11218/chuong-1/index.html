@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Tôi Từng Gọi Là Thanh Mai">
   <meta name="twitter:description" content="Sau buổi liên hoan kỷ niệm thành lập trường đại học, tôi mới phát hiện trong chai nước mà thanh mai trúc mã đưa cho mình có pha axit sulfuric. Tôi đau đớn hỏi anh ta tại sao.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

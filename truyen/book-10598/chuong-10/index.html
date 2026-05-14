@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Xin Hãy Để Tôi Lương Thiện">
   <meta name="twitter:description" content="Anh tôi thì quá quắt nhất, anh lập tức phát triển cho tôi một cái “Hệ thống bồi dưỡng phản diện”. Ngày nào cũng đăng nhiệm vụ cho tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

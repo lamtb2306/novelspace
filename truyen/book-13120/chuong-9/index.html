@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Mùi Phản Bội">
   <meta name="twitter:description" content="Tôi còn tức hơn, chỉ thẳng vào mặt anh ta mắng: “Lý Gia Hào, anh còn là người không hả? Tự anh chơi ngu xong giờ đổ cho tôi?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

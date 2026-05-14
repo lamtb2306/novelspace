@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tiếng Tap Dance Trên Trần Nhà">
   <meta name="twitter:description" content="Hàng xóm đã khiếu nại tôi suốt ba tháng trời, nói rằng mỗi đêm tôi đều nhảy tap dance trong nhà. Ban quản lý khu nhà và cảnh sát đã đến hòa giải, còn lắp một máy đo độ ồn trong phòng khách của tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | TÌNH YÊU ONLINE VỚI TỔNG TÀI CAO LÃNH">
   <meta name="twitter:description" content="“Nhưng không phải qua điện thoại,” anh bổ sung, ngón tay khẽ gõ lên màn hình chỗ ảnh đại diện bầu trời sao của tôi, “mà là… nhìn thẳng vào tôi.” Căn phòng lặng như tờ, tôi nghe rõ cả tiếng tim mình...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

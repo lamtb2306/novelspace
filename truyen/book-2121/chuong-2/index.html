@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Bài Kiểm Tra Sau Năm Năm">
   <meta name="twitter:description" content="Cô ta cau mày, như thể vừa nhìn thấy thứ gì đó bẩn thỉu. “Cảnh Hành đúng là… sao lại để cô sống trong chỗ thế này, dùng mấy món đồ cũ kỹ này?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

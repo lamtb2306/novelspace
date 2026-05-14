@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đừng Chọc Tôi, Tôi Từng Là Huyền Thoại">
   <meta name="twitter:description" content="Tôi là nữ lính đánh thuê có sức chiến đấu đứng đầu trên dark web. Trong một lần làm nhiệm vụ, tôi vô tình trúng thuốc và có tình một đêm với vị Thượng tướng trẻ tuổi nhất quân khu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

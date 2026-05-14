@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tôi Ly Hôn, Và Anh Mất Tất Cả">
   <meta name="twitter:description" content="Trong bữa tiệc mừng thọ sáu mươi tuổi của mẹ chồng, chỗ ngồi chính vốn nên dành cho tôi, lại bị thư ký nhỏ của anh ta chiếm mất.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

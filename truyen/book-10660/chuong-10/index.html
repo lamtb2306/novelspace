@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Đường Về Phủ Thôi">
   <meta name="twitter:description" content="“Huynh, không phải lỗi của Thôi đại… à không, của điện hạ đâu.” Là ta tự tìm đến trước, lại còn nhận nhầm người. Huynh vẫn phẫn nộ, dằn ta ra sau, nói hùng hồn: “Chiêu Chiêu, đừng sợ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

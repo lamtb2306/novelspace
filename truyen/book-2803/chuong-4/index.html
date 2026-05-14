@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | CÔ DÂU ĐA MƯU">
   <meta name="twitter:description" content="Tôi quay vào phòng, nằm vật xuống giường, tiếc nuối vì chưa kịp đăng bài khoe trên mạng. Mở trình duyệt, tôi tra cứu một hồi, nhanh chóng tìm ra vài bài viết, chụp màn hình xong mới ném điện thoại ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

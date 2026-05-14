@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | APP TÀI VẬN">
   <meta name="twitter:description" content="“Con tiện nhân, dựa vào cái gì mà mày lại có gia đình hạnh phúc, vừa có tiền vừa có tình thương! Dựa vào cái gì mà tao lại phải sinh ra trong một gia đình bất hạnh như thế này!” Không công bằng! Ta...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tôi Không Làm Bảo Mẫu Miễn Phí Nữa">
   <meta name="twitter:description" content="“Không có tiền.”Con trai tôi mắt không rời khỏi điện thoại, giọng lạnh tanh. Tôi đang bế cháu, động tác khựng lại. “Bác sĩ nói bệnh này không thể để lâu…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

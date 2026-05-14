@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | ANH KHÔNG XỨNG">
   <meta name="twitter:description" content="Tôi vừa định tắt nguồn, thì một tin nhắn hiện lên. 【A Thính, gặp nhau một lần đi. Về vụ cháy năm năm trước, tôi có bằng chứng. Là Thẩm Niệm phóng hỏa.】 Tay tôi khựng lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

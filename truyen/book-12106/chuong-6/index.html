@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | GIẤC MƠ GIỮA ĐÊM TUYẾT">
   <meta name="twitter:description" content="Tôi lập tức gọi một chiếc taxi, đưa tài xế xem vị trí định vị trên điện thoại. “Chú ơi, đưa cháu đến địa điểm này.” Khi xuống xe, tôi đội mũ và đeo kính râm. Đi vào một quán cà phê bình dân.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

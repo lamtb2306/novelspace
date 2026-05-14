@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ngôi Nhà Của Người Chiến Thắng">
   <meta name="twitter:description" content="Khoảnh khắc tiếng phán quyết vang lên, tôi hoàn toàn thất bại. Tôi – một người chủ nhà tốt bụng cưu mang cặp đôi gặp khó – bị họ kiện ra tòa với lý do “môi trường sống tồi tệ khiến tinh thần suy sụp”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

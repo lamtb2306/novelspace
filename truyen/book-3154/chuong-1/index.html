@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | HOA LY NỞ MUỘN">
   <meta name="twitter:description" content="Vì cứu chồng, tôi rơi xuống biển và mất trí nhớ. Mọi người đều cho rằng tôi đã chết, không còn thi thể. Năm năm sau, tôi “sống lại” trở về.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Cả Làng Thành Tiên Trong Một Đêm">
   <meta name="twitter:description" content="Tối hôm đó, làng mở tiệc lớn. Không phải ăn mừng chuyện gì khác, mà là để mừng cả làng đã được uống “ngọc dịch”. Vương Phú Quý đích thân cho người giết hai con lợn, bày mấy chục bàn ngay tại sân tu...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

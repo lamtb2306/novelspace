@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TƯƠNG LAI MỞ RA PHÍA TRƯỚC">
   <meta name="twitter:description" content="Thanh mai trúc mã của tôi có hai cô thanh mai. Thanh mai khác của anh ấy vừa chuyển trường đến. Cô ta đặt một chân lên chiếc ghế trước mặt tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

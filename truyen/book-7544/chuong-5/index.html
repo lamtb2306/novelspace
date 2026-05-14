@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CHỊ EM TỐT TRỞ VỀ">
   <meta name="twitter:description" content="Tôi thực sự bất ngờ: “Chuyện của cậu liên quan gì tới tớ? Tớ rảnh đến mức đi truyền tin giúp cậu chắc?” Cô ta hét lớn trong điện thoại: “Không ngờ cậu là loại người như vậy!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

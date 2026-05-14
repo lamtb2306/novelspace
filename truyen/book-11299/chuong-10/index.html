@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Hòa Ly Bảy Năm, Một Lần Mang Thai Khuynh Thành">
   <meta name="twitter:description" content="“Không cần, mấy ngày nữa ta sẽ về nhà, lấy đồ cưới và nha hoàn của ta.” Đúng vậy, mấy ngày nữa ta sẽ quay về lấy những thứ trước kia của mình.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

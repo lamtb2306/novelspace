@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Trò Chơi Ước Nguyện">
   <meta name="twitter:description" content="Không hiểu sao, trong lòng tôi bỗng dấy lên một cơn tức. Kệ đi. Dù sao cũng phải chết rồi. Chết dưới hoa mẫu đơn, làm quỷ cũng phong lưu. BOSS này mặn hay nhạt, hôm nay tôi nhất định phải nếm thử!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

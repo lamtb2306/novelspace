@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Sau Khi Tôi Dụ Dỗ Cả Phòng Ký Túc Của Bạn Trai">
   <meta name="twitter:description" content="Họa Cảnh đã trộm nhật ký của tôi. Hắn khoe khoang trong ký túc xá: “Doãn Linh cũng đâu có khó theo đuổi lắm, ba tháng là tán được rồi. Mấy ông không tò mò cô ấy viết gì mỗi ngày sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bóng Moa Ngày Đông Chí">
   <meta name="twitter:description" content="Ngày Đông chí đoàn viên, tôi cố ý hầm món canh gà mà vợ quá cố của chồng thích nhất, chuẩn bị mang đi cúng cô ấy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

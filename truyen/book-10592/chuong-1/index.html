@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Phản Công Của Trả Xanh">
   <meta name="twitter:description" content="Anh trai tôi có một vị hôn thê là một cô nàng “trà xanh”。">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

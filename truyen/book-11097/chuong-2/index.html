@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Vỏ Bọc Shipper">
   <meta name="twitter:description" content="Buổi chiều đi làm, chị Tôn đem hộp cơm trống đặt lên bàn tôi: “Rửa sạch đi, mai chị còn dùng.” Tôi không động đậy. Chị ta gõ lên bàn tôi: “Nghe rõ chưa?” “Đây là hộp cơm của em.” – tôi nói. “Thì sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

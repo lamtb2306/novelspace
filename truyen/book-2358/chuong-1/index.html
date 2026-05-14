@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BỨC ẢNH NĂM ẤY">
   <meta name="twitter:description" content="Tôi tỏ tình với bạn game của mình, và nhận lại một lời từ chối phũ phàng. Anh ta nói với giọng điệu lạnh lùng, chán ghét, không hề chừa cho tôi một chút thể diện nào: “Xin lỗi, tôi không chấp nhận.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

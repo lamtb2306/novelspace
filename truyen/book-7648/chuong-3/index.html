@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Ta Trở Về Để Lấy Lại Mọi Thứ">
   <meta name="twitter:description" content="Đây chính là đệ đệ mà ta đã yêu thương mười mấy năm trời. Phụ thân day day ấn đường, giọng mệt mỏi: “Chiêu Ninh, chuyện Giang Nam, ta sẽ triệt để điều tra.” Ta gật đầu, thuận tay đẩy một tờ hôn thư...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

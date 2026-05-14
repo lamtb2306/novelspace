@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Cô Dâu Một Tệ">
   <meta name="twitter:description" content="Tiếp theo là tiếng chuông điện thoại, rồi chị hai hét toáng lên: “Cái gì?! Không cần đi làm nữa á?” “Chẳng phải hôm qua còn nói chuyện vui vẻ lắm sao?” Chị cả cũng quát: “Đồ của con tôi sao lại khô...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

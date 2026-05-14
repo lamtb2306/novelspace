@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TRÊN GÁC MÁI CÓ MA">
   <meta name="twitter:description" content="Hồi nhỏ, ông nội tôi mở một quán ăn nhỏ ở lưng chừng núi, thường có tài xế xe tải đường dài ghé ăn. Tối hôm đó, có một người đàn ông bước vào quán.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

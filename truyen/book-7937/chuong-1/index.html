@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mẹ Trở Về Sau Mười Hai Năm">
   <meta name="twitter:description" content="Năm tôi sáu tuổi, mẹ rời khỏi thế giới này. Trước khi đi, bà dặn đi dặn lại: “Con phải nhớ, con là đại tiểu thư danh chính ngôn thuận của nhà họ Tô.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

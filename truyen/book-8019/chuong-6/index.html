@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | NHỮNG LỜI NÓI LẠNH LẼO">
   <meta name="twitter:description" content="Chuyện bên này gây không ít sự chú ý, tôi bất ngờ thấy ba mình bước tới. Tôi nhớ rõ hôm nay chỉ có tôi và chị cả tham dự buổi tiệc. Ông đến từ lúc nào? Và đã đứng đó quan sát bao lâu?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

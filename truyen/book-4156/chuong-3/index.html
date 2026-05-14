@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | NHỮNG KẺ KHÔNG ĐÁNG BẬN TÂM">
   <meta name="twitter:description" content="Mấy ngày sau, mẹ tôi dọn thẳng sang nhà tôi. Ngày nào cũng nấu cơm cho tôi, đi dạo cùng tôi, lúc tôi làm việc thì gọt hoa quả, pha sữa cho tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

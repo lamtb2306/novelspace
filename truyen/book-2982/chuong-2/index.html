@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | DẤU ẤN THIÊN KIM">
   <meta name="twitter:description" content="Hôm sau, tôi về biệt thự cũ lấy chai rượu cho ông ngoại. Vừa định mở cửa đã bị chặn lại: “Cô là Dương Thư? Tiểu thư Lâm dặn, cô không được vào.” Tôi hít sâu: “Đây là nhà tôi, tôi về lấy rượu của ông.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

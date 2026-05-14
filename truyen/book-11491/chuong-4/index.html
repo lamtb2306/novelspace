@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Trạm Dừng Lạnh Giá">
   <meta name="twitter:description" content="“Không sao đâu cô chú, để cháu đợi thêm một lát, biết đâu chú lại quay lại.” “Con bé ngốc, còn chưa hiểu à?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TOẢ SÁNG ĐÚNG CHỖ">
   <meta name="twitter:description" content="Tôi đã chặn Tống Trầm. Dù sao thì cậu ấy cũng chẳng bao giờ chủ động nhắn tin cho tôi, liên lạc hay không cũng như nhau. Tôi còn đến tiệm cắt tóc, cắt đi mái tóc dài, để lại kiểu ngắn gọn gàng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

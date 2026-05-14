@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Sống Lại, Tôi Không Cứu Anh Nữa">
   <meta name="twitter:description" content="Tôi hơi nhíu mày, ánh mắt lóe lên sự kinh ngạc. Không ngờ cô ta cũng có ký ức kiếp trước. Cô ta áp sát lại gần tôi, nhưng ánh mắt lại dừng lại ở người đang đi tới phía sau.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

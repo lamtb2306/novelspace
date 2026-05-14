@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | CHIẾC NHẪN BIẾN HÌNH">
   <meta name="twitter:description" content="Anh bắt đầu tìm tôi, giống hệt như kiếp trước — mãnh liệt và điên cuồng theo đuổi tôi. Tôi nhìn thấy ánh mắt không cam lòng trong anh, như thể đang nhìn lại chính chúng tôi của kiếp trước.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

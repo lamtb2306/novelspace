@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tàn Tro Cũng Nhận Ra Em">
   <meta name="twitter:description" content="Máu vừa rút xong, tôi choáng váng vịn vào tường, thì nghe thấy có người chỉ vào tôi: “Tôi nhớ ra rồi, cô ta từng ngồi tù vì tội kinh tế đúng không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

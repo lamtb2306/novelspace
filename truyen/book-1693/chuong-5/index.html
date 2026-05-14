@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Tôi Là Người Viết Mệnh">
   <meta name="twitter:description" content="Nửa tháng sau, vết thương ở chân dưới sự điều trị của đội ngũ y tế tiên tiến quốc tế, dần dần hồi phục. Tôi theo mọi người nhà họ Phong đến chân núi nghĩa trang. Vừa định đi lên.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

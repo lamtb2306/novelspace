@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Trở Về Không Cần Dấu Ấn">
   <meta name="twitter:description" content="Ra tù đến năm thứ ba, tôi làm phục vụ trong một quán ăn bình dân đầy dầu khói. Ra ngoài đổ rác đúng lúc lại chạm mặt hai người đàn ông. Một là chồng cũ của tôi, một là thanh mai trúc mã.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

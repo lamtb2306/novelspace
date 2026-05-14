@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Lòng Người Sau Một Lần Chuyển Khoản">
   <meta name="twitter:description" content="Tôi lập tức chụp lại tin nhắn này, gửi vào nhóm gia đình. “Mọi người xem đi! Tin nhắn ngân hàng báo cháu đã bị trừ 100000 tệ! Cháu không nói dối!” Sau khi tin nhắn được gửi, nhóm im lặng vài giây. ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

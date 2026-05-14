@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Thực Tập Sinh Là Người Giả">
   <meta name="twitter:description" content="Chu Tổng nhếch môi cười: “Cũng tốt.” “Ngày nào đi xã giao ăn những món kia tôi cũng ngán rồi.” “Ăn chút món nhà cho thanh miệng cũng không tệ.” Hứa Tùng đẩy Lâm Duyệt một cái.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

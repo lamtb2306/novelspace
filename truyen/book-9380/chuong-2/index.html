@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Zombie Biết Khóc">
   <meta name="twitter:description" content="Đây chính là vương quốc mà Lục Châu đã dựng nên. Còn tôi, là con zombie đầu tiên bị bắt sống đưa về vương quốc này. Tôi bị đưa thẳng đến một tòa nhà màu trắng. Trong không khí phảng phất mùi thuốc ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Dưới Bóng Chị Họ">
   <meta name="twitter:description" content="“Tôi đang ở xa, mấy hôm nữa sẽ bổ sung quà cho mọi người.” Chị ấy có ở xa hay không tôi không biết, chứ Ỷ Dương thì đang đứng ngay trước cửa nhà tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

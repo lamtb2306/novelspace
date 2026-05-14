@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | DÙNG CẢ ĐỜI ĐỂ TRẢ NỢ ANH">
   <meta name="twitter:description" content="Tôi cảm thán sự vô tình của thời gian, nhưng cũng mỉm cười nhẹ nhõm. Là người thì ai cũng sẽ già đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

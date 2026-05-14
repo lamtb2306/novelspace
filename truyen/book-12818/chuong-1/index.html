@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Kỳ Nghỉ Của Thiên Kim Và Nữ Phụ">
   <meta name="twitter:description" content="Cô bạn cùng phòng là thiên kim đại tiểu thư muốn đổi kỳ nghỉ hè với tôi để đi trải nghiệm cuộc sống nông thôn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

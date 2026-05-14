@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Đại Chiến Song Sinh">
   <meta name="twitter:description" content="Còn chiếc đồng hồ của tôi ngoài tính năng nghe gọi, còn có chức năng ghi âm 24/7, và cả camera giấu kín ghi lại toàn bộ hành trình hoạt động mỗi ngày. Phòng trường hợp bất trắc, tôi lúc nào cũng nh...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

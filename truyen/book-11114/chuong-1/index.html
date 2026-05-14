@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Những Cái Tên Có Chữ “Nam”">
   <meta name="twitter:description" content="Mẹ tôi sinh được bảy con vịt giời. Bà nội đặt tên cho từng đứa — Chiêu Nam, Phan Nam, Lai Nam, Niệm Nam, Vọng Nam, Nhược Nam, Nghênh Nam. Nhưng bà mong cả một đời cũng chẳng đợi được một đứa con trai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

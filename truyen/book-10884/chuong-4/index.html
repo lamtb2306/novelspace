@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Chỉ Một Lần Tắm, Tôi Mất 1,2 Triệu">
   <meta name="twitter:description" content="Một chai nước giặt bốn mươi tám tệ, bà chê đắt. Nhưng tuần trước bà chuyển cho Chu Nhã tám ngàn tệ để mua túi xách, trừ từ thẻ của tôi, ghi chú là “chi phí gia đình”. Tôi bắt đầu trở nên im lặng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

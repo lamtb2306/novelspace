@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | LY HÔN RỒI, TÔI KHÔNG CẦN ANH NỮA">
   <meta name="twitter:description" content="Trên đường về nhà, tôi gặp tai nạn xe. Tài xế đối diện say rượu, tôi bị đâm đến mức trán và khuỷu tay đều bị thương.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

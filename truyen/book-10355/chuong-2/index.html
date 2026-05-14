@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Ngôi Nhà Hai Nhiệt Độ">
   <meta name="twitter:description" content="Tôi cười gượng: “Em cũng muốn biết vì sao đây.” Chúng tôi quay lại căn phòng lạnh lẽo của mình. Phương Chu ngồi xuống kiểm tra kỹ đường ống sưởi nơi góc tường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

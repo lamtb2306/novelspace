@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | THANH XUÂN BỎ LẠI TRÊN CAO TỐC">
   <meta name="twitter:description" content="QUAY LẠI CHƯƠNG 1 : Đến thành phố mới, mỗi ngày tôi chạy các thủ tục, mặc cả với chủ nhà tìm văn phòng, hoặc đăng tin tuyển dụng để tuyển nhân viên. Đúng lúc tôi bận đến quay cuồng, Diệp Hạo mỗi ng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

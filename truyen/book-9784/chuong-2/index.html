@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Nửa Phần Mệnh">
   <meta name="twitter:description" content="Tôi xin nghỉ một tuần với ông chủ, ông ta liền thanh toán tiền lương rồi bảo tôi khỏi cần xin nghỉ, cũng không cần quay lại nữa. Trong lòng tôi đang rối bời vì chuyện của Trương Tĩnh, nên cũng lười...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

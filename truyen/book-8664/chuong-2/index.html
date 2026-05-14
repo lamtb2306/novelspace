@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | DẤU HIỆU TÌNH YÊU">
   <meta name="twitter:description" content="Không thể trốn tránh, tôi quyết định vào bếp nấu mì. Tay nghề nấu ăn của tôi được thừa hưởng từ bà ngoại, không phải tự khen chứ, rất đỉnh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | YÊU ĐƯỢC THÌ BUÔNG ĐƯỢC">
   <meta name="twitter:description" content="Bạn tôi nói với tôi rằng Diệp Sơn đã mất trí nhớ, nhưng tôi cũng không quá bận tâm. Mặc dù trước đây có tin đồn rằng cô ấy là Bạch Nguyệt Quang trong lòng Thẩm Kỷ Phong, nhưng Thẩm Kỷ Phong đã từng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

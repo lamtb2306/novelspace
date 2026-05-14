@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | ANH BẢO TÔI ĐI ĐÓN CÔ TA">
   <meta name="twitter:description" content="Tôi mở ứng dụng ngân hàng, nhìn vào số dư. Đủ rồi. Đủ để tôi và con sống lâu dài. Đủ để bắt đầu lại. Tôi tắt điện thoại, ngẩng đầu nhìn lên vầng trăng sáng ngoài cửa sổ. Rất tròn, rất sáng. Tôi mỉm...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | BÀ LÃO ĂN MÀY">
   <meta name="twitter:description" content="Tôi muốn nhìn ra ngoài cửa sổ nhưng không dám. Liệu bà ta đã đi tìm cô tôi chưa? Nhưng tôi lại không nghe thấy tiếng cô kêu cứu. Tôi nằm trong chăn một lúc lâu, ngột ngạt không thở nổi, đành thò đầ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

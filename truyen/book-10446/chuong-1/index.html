@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | 5 Năm Trở Về, Tôi Đã Là Vợ Người Khác">
   <meta name="twitter:description" content="Nhà máy phân cho gia đình tôi một suất đi lao động ở nông thôn, giữa tôi và em gái kế phải rút thăm để quyết định. Em gái kế rút trúng suất xuống nông thôn, còn tôi may mắn được ở lại nhà máy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

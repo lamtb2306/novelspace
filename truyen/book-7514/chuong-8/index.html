@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | NGÀY GẶP LẠI ANH">
   <meta name="twitter:description" content="Chuyện gì thế này? Tôi ngây người tại chỗ: “Tần Gia Du, cậu đừng đùa nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

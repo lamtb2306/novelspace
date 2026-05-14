@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | MỘT CHÚT NGỌT NGÀO">
   <meta name="twitter:description" content="Càng ở bên nhau lâu, tôi càng trở nên bạo dạn. Thậm chí tôi còn dám trêu chọc anh ấy khi đang giảng bài.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

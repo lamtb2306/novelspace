@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CƠN BÃO VÀ SỰ GIẢI THOÁT">
   <meta name="twitter:description" content="Ngày hôm đó,tôi bị kẹt ở nhà do một cơn bão lớn, tôi bất ngờ bị hành kinh sớm. Tôi vừa ôm bụng đau vừa lục tủ dự trữ, nhưng phát hiện băng vệ sinh và đường đỏ đều hết sạch.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

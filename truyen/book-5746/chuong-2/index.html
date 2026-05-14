@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | ĐƯỜNG HẦM SAU NÚI">
   <meta name="twitter:description" content="Tôi thì thầm: “Ông ơi, có người tới.” Từ nhỏ tôi đã có thính lực tốt, rất nhạy với âm thanh. Những gì người khác không nghe được, tôi đều có thể nghe thấy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

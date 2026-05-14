@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Đêm Giao Thừa, Tôi Tỉnh Giấc">
   <meta name="twitter:description" content="Một buổi chiều mưa bão, tôi đốt một bếp than nhỏ giữa phòng. Rồi từ ngăn kéo lấy ra một cuốn sổ tay cũ nát, chậm rãi lật xem. Đó là sổ ghi chép chi tiêu của tôi ngày trước.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

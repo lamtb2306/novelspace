@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI ĐÃ TỰ MÌNH LỚN LÊN">
   <meta name="twitter:description" content="Bố mẹ tôi từ trước đến giờ chưa hề hòa thuận với nhau. Họ cãi nhau suốt, rồi cuối cùng cũng dọn ra sống riêng. Đến Tết – lẽ ra là dịp cả nhà đoàn tụ – mẹ vẫn không quay về. Ngày hôm sau, một người ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

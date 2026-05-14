@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tôi Trở Về, Hoa Thành Phải Đổi Chủ">
   <meta name="twitter:description" content="【Chương 3】 Chúng tôi tạm thời trú lại trong một khách sạn bình dân. Tình trạng của mẹ rất tệ. Bà không ăn, không uống, không nói một lời, hoàn toàn chìm trong nỗi đau đớn và cú sốc quá lớn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

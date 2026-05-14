@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MƠ THẤY TƯƠNG LAI">
   <meta name="twitter:description" content="Tôi không nhớ đây là lần thứ bao nhiêu mình mơ thấy cảnh bị “tiểu tam” giếc chếc, còn chồng tôi thì chỉ đứng đó, lặng lẽ nhìn. Ban đầu, tôi nghĩ đó chỉ là một cơn ác mộng thoáng qua.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

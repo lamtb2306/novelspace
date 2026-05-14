@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Kiếp Này Ta Chẳng Tranh Giành">
   <meta name="twitter:description" content="Dù tôi chưa từng thốt ra một câu trách móc, nhưng trong lòng ông rõ ràng hiểu, tôi hận. Kiếp trước, tôi làm gì cũng sai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

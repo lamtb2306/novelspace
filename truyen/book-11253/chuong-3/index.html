@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Con Cá Mặn">
   <meta name="twitter:description" content="Khi dọn hành lý, tôi nhét tận đáy vali mấy gói mì tôm và một chai lớn Lão Can Ma. Linh cảm của cá mặn: nơi đó chắc ngay cả dưa muối cũng hiếm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

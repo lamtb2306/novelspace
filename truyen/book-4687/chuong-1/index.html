@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | SẾP LÀ BẠN TRAI CŨ CỦA TÔI">
   <meta name="twitter:description" content="Năm năm trước, Hạ Đình Xuyên bất ngờ nói lời chia tay với tôi: “Chúng ta không cùng một thế giới, tương lai cũng chỉ là hai đường thẳng song song.” “Vì vậy sớm chia tay thì tốt cho cả hai.” Anh là ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

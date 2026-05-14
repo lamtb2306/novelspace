@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | SƯƠNG RƠI SÁNG SỚM">
   <meta name="twitter:description" content="Từ hôm đó, tôi hoàn toàn buông bỏ Thẩm Tự Hoài. Hóa ra, người mà tôi từng nghĩ rằng không bao giờ có thể rời xa, chỉ cần thời gian đủ dài, cũng có thể quên đi. Giống như cha tôi vậy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

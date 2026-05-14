@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | MƯA LŨ CUỐN TRÔI , TÔI CHÔN VÙI GIA ĐÌNH SÓI TRẮNG">
   <meta name="twitter:description" content="Tôi không quản trời mưa, lái xe thẳng đến chợ nông sản lớn nhất thành phố. Trước khi xuống xe, tôi gọi cho bố mẹ – hiện đang đi nghỉ dưỡng ở nước ngoài – báo rằng trong nước có thể xảy ra lũ lụt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

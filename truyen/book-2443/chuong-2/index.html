@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CHỈ MUỐN GẶP EM MỘT LẦN">
   <meta name="twitter:description" content="Cuối cùng, Phong Thừa được bạn bè dìu vào nhà vệ sinh. An Nguyệt Như ngồi thẫn thờ trở lại chỗ của mình. Lúc anh quay lại, đúng lúc một nhân viên giao hàng đi tới.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

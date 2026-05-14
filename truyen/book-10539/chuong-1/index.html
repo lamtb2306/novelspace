@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Dịu Dàng Không Thuộc Về Ta">
   <meta name="twitter:description" content="Khi ta và Xuân Lan được chọn làm thông phòng nha đầu cho hai vị thiếu gia, nàng ấy vui sướng hệt như một chú chim tước.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

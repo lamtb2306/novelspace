@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Một Vạn Một Ngày, Tôi Tiêu Cả Thế Giới">
   <meta name="twitter:description" content="“Cô biết không? Để tiết kiệm, tôi đã hai ngày không ra ngoài. Không đi một bước nào, vì hễ đi là phải tốn tiền.” Cô ta lẩm bẩm, giọng như tẩm độc, “Tôi mỗi ngày chỉ ăn cái này, mì luộc nước trắng. ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | DANH PHẬN NGỤY TRANG">
   <meta name="twitter:description" content="Tôi bật cười. “Trương Đại Thành thích món này lắm, em đặc biệt đi học đó. Lát nữa em đưa chị một địa chỉ, sau này nếu thèm thì tới đó ăn, sư phụ em nấu còn ngon hơn em.” Đồng nghiệp của tôi có ngườ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

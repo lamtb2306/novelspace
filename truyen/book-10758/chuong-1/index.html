@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NƯỚC CHANH VÀ BẢN ÁN">
   <meta name="twitter:description" content="Trong khách sạn năm sao, tôi mặc đồng phục giao hàng, mang hai ly nước chanh rẻ tiền đến cho hai vị sếp lớn giải rượu. Kiếp trước, ông chủ nổi giận đùng đùng, hắt thẳng ly nước chanh vào người tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

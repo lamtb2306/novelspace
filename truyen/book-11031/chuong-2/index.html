@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Cả Nhà Là Đỉnh Lưu, Chỉ Mình Tôi Là Người Vô Hình">
   <meta name="twitter:description" content="Anh ấy chưa bao giờ nhớ sinh nhật của tôi. Có một lần vào ngày sinh nhật, tôi tự mua một cái bánh kem, đặt ở phòng khách tầng ba, thắp một ngọn nến, chuẩn bị tự hát bài chúc mừng sinh nhật cho chín...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGƯỜI YÊU QUA MẠNG THÍCH NÓI CHUYỆN TRỪU TƯỢNG">
   <meta name="twitter:description" content="“Người yêu qua mạng của tôi thích nói chuyện trừu tượng. Mẹ anh ấy gọi về ăn cơm, anh ấy lại nói: ‘Về nhà tổ ăn bữa cơm với lão thái thái.’ Tôi học theo.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

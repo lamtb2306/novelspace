@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TÌM ANH SUỐT BA NĂM">
   <meta name="twitter:description" content="Tại sao trở về mà không đến tìm tôi? Tại sao tất cả mọi người đều giấu tôi? Tôi muốn phá tan cái lễ cưới này! Nhưng cuối cùng… tôi không làm gì cả. Tôi chỉ lặng lẽ ngồi trong góc, chờ đến khi họ th...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

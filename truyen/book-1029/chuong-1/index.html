@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BẠN GÁI TÔI LÀ HỒN MA">
   <meta name="twitter:description" content="Tôi tên là Thẩm Hi Vi, là một nhà thiết kế thời trang. Bị sếp bóc lột và bắt làm thêm giờ quá nhiều, cuối cùng tôi đột tử trong văn phòng. Vì oán khí quá nặng không thể đầu thai, tôi biến thành một...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

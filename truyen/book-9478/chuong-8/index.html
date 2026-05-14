@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | SỔ GHI THÙ">
   <meta name="twitter:description" content="“Thấy cái nút ‘đăng bài’ này chứ? Tôi sẽ đăng toàn bộ 500.000 từ còn lại. Tôi chẳng cần phải giải thích gì thêm về những cú twist hay ẩn ý trong truyện.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | CHỌN MỘ">
   <meta name="twitter:description" content="Hơn năm năm trước, tôi đã từng làm việc trang điểm tử thi cho một ông lão. Ông ấy và vợ không có con cái, sau khi ông qua đời, bà vợ là Chu lão thái rất cô đơn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

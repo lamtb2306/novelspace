@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NGƯỜI THẾ THÂN">
   <meta name="twitter:description" content="Tôi nắm chặt tay vịn, giọng khẩn thiết: “Bác ơi, bác nói tôi có thể mất mạng là sao? Tôi thật sự không biết chuyện lại nghiêm trọng thế!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

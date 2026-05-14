@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Tái Ngộ Sau Bảy Năm">
   <meta name="twitter:description" content="Một ngày hiếm hoi trời trong xanh. Trong khu dân cư, nhà nào đó đang bật TV rất to.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

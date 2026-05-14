@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Mary Sue Nhà Tôi">
   <meta name="twitter:description" content="Ba tôi cuối cùng cũng nổi trận lôi đình, mẹ tôi dẫu có cố gắng trấn an cũng vô ích. “Tầng ba là phòng khách! Con ở đó thì khách đến ở đâu?!” “Khách đến chẳng phải vẫn còn phòng giúp việc sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

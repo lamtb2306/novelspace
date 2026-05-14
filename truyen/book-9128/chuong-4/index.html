@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Tôi làm giúp việc ở Dubai 10 năm">
   <meta name="twitter:description" content="Ngoài cửa sổ, ánh trăng tràn xuống sân nhỏ. Tôi lau nước mắt, nhìn về hai phong thư còn lại. Trong lòng… Không còn hoang mang. Không còn đau đớn. Chỉ còn lại một sự bình tĩnh và kiên định chưa từng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

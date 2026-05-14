@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐỔI TA LẤY TRẠNG NGUYÊN">
   <meta name="twitter:description" content="Nhà ta từ lâu đã mang tiếng “không bình thường”. Mẫu thân thì đầu óc mơ hồ, suốt ngày cười ngây ngô, bị nhốt trong một góc chuồng heo như thứ đồ thừa. Phụ thân thì tính khí thất thường, cứ nổi giận...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

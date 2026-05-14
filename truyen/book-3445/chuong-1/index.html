@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Khi Tình Thân Hóa Thành Gánh Nặng">
   <meta name="twitter:description" content="Em trai mượn máy tính của tôi nhưng quên đăng xuất WeChat. Trên màn hình máy tính cứ liên tục hiện lên tin nhắn từ nhóm “Gia đình hòa thuận yêu thương lẫn nhau”. Tôi theo phản xạ bấm vào xem.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

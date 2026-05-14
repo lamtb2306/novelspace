@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGÀY DÌ NGÔ SẬP TIỆM">
   <meta name="twitter:description" content="Tôi dùng toàn bộ số tiền dành dụm mở một quán ăn nhỏ ngay cổng khu chung cư. Để tiện lấy nguyên liệu, mỗi lần tôi đều đến tiệm rau của hàng xóm nhập hàng. Hôm đó, con gái tôi vừa xách về một túi hà...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

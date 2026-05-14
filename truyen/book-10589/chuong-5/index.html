@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CUỘC XEM MẮT ĐỊNH MỆNH">
   <meta name="twitter:description" content="Vấn đề là… tôi với ảnh thật sự không thân nổi, mà tôi cũng đâu có muốn thân đâu. Về đến nhà, tôi lật tung cả danh sách phòng khám thú cưng trong thành phố.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

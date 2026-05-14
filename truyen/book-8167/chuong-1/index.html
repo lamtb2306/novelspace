@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐỪNG BÌNH LUẬN VÀO ĐỜI TÔI NỮA">
   <meta name="twitter:description" content="Sau khi thấy bình luận trên màn hình, để mặc nữ chính kiểu ‘chị đại hư hỏng’ đăng ký trường cao đẳng cho nam chính giỏi giang như trạng nguyên Trúc Mã.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

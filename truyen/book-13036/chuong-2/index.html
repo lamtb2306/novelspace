@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Hôn Ước Học Đường">
   <meta name="twitter:description" content="Nhưng đến lúc tan học về nhà, Trương Thừa Kế lại chặn tôi ở cổng trường. Buổi học tối kết thúc đã gần chín giờ, các bạn học đều lơ mơ mệt mỏi bước ra.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

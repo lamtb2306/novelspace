@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đắng Cay Của Một Người Mẹ">
   <meta name="twitter:description" content="Sang năm thứ hai tôi ở nhà con gái trông cháu, thì con trai dắt cả nhà đến thăm. Hơn một năm không gặp cháu đích tôn, tôi mừng quá nên móc ra hai triệu đưa cho nó làm tiền lì xì.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

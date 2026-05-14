@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BẠN CÙNG PHÒNG LÀ PHIÊN BẢN NHÁI CỦA TÔI">
   <meta name="twitter:description" content="Bạn cùng phòng là sinh viên nghèo luôn xem tôi như kẻ địch trong tưởng tượng. Trang điểm và quần áo của cô ta, không sai một ly, đều bắt chước y hệt tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

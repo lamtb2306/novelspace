@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Nhặt Tôi Từ Đêm Mưa">
   <meta name="twitter:description" content="Ba năm sau khi nhà họ Cố huỷ hôn, Cố Thời Yến dẫn theo Hứa Mạn xuất hiện ở nhà đấu giá của tôi. Anh ta nhìn tôi đang lau bức tượng ngọc hình bắp cải, hỏi vì sao tôi lại sống chật vật đến thế.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

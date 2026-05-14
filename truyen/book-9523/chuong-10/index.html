@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Cảnh Báo Của Hắc Tử">
   <meta name="twitter:description" content="Tôi không biết chúng tôi sẽ đi đâu. Điện thoại, máy tính, tất cả thiết bị điện tử có thể liên lạc với bên ngoài, đều bị thu đi hết. Chúng tôi như bị thế giới lãng quên.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

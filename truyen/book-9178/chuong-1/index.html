@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Đàn Ông Tôi Yêu Muốn Chiếm Cả Nhà Lẫn Tiền Của Tôi">
   <meta name="twitter:description" content="Chồng sắp cưới đi đăng ký kết hôn rồi, nhưng cô dâu không phải là tôi. Anh ta giấu tờ giấy đăng ký kết hôn trong hộp giày dưới gầm giường. Quay đầu lại vẫn ôm lấy tôi, thỏ thẻ hỏi khi nào thì sang ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Mắc Nợ Tình Cũ">
   <meta name="twitter:description" content="“Xin vui lòng mang bản gốc căn cước đến quầy giao dịch của chi nhánh nơi mở tài khoản để tra cứu.” Tôi không thể đến Chi nhánh Thành Đông. Nhưng tôi có thể tra thông tin doanh nghiệp trước. Mở Qich...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

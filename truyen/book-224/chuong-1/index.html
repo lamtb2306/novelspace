@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hành trình hồi sinh trên đất lành">
   <meta name="twitter:description" content="Hàng xóm xả thẳng phân lợn từ trại nuôi vào ruộng lúa nhà tôi. Dòng nước đen hôi thối nhấn chìm cả bông lúa cao đến nửa người, mùa màng cả năm coi như mất trắng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

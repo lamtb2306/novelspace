@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | MỘT TRIỆU ĐÔ LA CHIA TAY">
   <meta name="twitter:description" content="Tôi cùng bạn thân đến khách sạn thì trên bàn chỉ còn lại chút đồ ăn thừa nguội ngắt. Hứa Hoài mở cửa, vừa thấy tôi đã sa sầm mặt: “Quà đâu? Em đến gặp ba mẹ anh mà tay không à?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

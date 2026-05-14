@@ -85,6 +85,11 @@ def render_chapter(book, chapter, idx, slug, total):
   <meta name="twitter:title" content="{esc(title)} | {esc(book_title)}">
   <meta name="twitter:description" content="{esc(desc)}">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {{
   "@context": "https://schema.org",

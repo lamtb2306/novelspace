@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Chỉ Một Lần Tắm, Tôi Mất 1,2 Triệu">
   <meta name="twitter:description" content="Ông nhìn tôi vài giây rồi đặt hồ sơ xuống. “Hợp đồng tôi có thể ký lại với cô. Nhưng số tiền cần điều chỉnh một chút.” “Bao nhiêu ạ?” “Một triệu bốn trăm ngàn tệ.” ông ấy mỉm cười. “Hai trăm ngàn t...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

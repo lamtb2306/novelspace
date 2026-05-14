@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | ĐƯỜNG CÙNG CỦA KẺ PHẢN BỘI">
   <meta name="twitter:description" content="Sáng hôm sau, tôi đang ngủ gục bên giường bệnh của con thì bị đánh thức bởi hàng loạt tin nhắn trong nhóm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

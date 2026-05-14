@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Cô Dâu Một Tệ">
   <meta name="twitter:description" content="Lâm Thành vừa nắm tay tôi đầy thương xót, vừa khó xử mà nói: “Em hiểu cho anh được không?” Lần này, tôi không muốn hiểu gì nữa. Tôi mở cửa xe, cười lạnh: “Tất cả xuống xe cho tôi!” Bên trong xe lặn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

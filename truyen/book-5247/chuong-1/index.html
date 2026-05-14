@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI KHÔNG CẦN THỨ TÌNH THÂN GIẢ TẠO">
   <meta name="twitter:description" content="Năm đầu đại học, bố mẹ tôi qua đời vì tai nạn xe, để lại một đứa em trai vừa mới chào đời. Khi mẹ nói bà đang mang thai lần hai, tôi chẳng mấy vui mừng. Thế nhưng lúc nhà trường gọi tôi đến bệnh vi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Giữa Hai Thế Giới">
   <meta name="twitter:description" content="Sắc mặt Tần Hựu rất khó chịu: “Giả vờ ngoan ngoãn chưa được mấy ngày, tới trường đã lộ nguyên hình rồi à? Quả nhiên có mẹ thì có con, bớt gây rắc rối cho tôi được không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

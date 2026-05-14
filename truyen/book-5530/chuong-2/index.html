@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Vương Giả Quay Đầu">
   <meta name="twitter:description" content="Nhưng ở chốn cao nhất ấy, xưa nay chỉ có một người. Nếu phụ thân có tài như Vương Mãng… Nhưng người không có, ta cũng không. Chỉ có nửa cái đầu biết nghĩ ngợi, lại chẳng được tích sự gì.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

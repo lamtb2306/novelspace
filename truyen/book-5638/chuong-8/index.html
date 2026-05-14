@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | YÊU NGƯỜI ĐẸP TRAI, LẤY NGƯỜI ĐÁNG TIN">
   <meta name="twitter:description" content="Chúng tôi tìm một chỗ ngồi xuống. Anh nói: “Em đến đây, không phải định hắt cà phê vào anh đấy chứ?” Anh cũng đang nhớ lại chuyện xưa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

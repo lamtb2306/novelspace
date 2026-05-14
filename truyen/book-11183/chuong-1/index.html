@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đại Tiểu Thư Ẩn Danh">
   <meta name="twitter:description" content="Tại sảnh sân bay đi Bali. Chu Trạch đưa hai tấm vé hạng thương gia cho Giám đốc kinh doanh Bạch Vi và trợ lý của cô ta. Sau đó, anh ta quay sang đưa cho tôi một tờ phiếu đặt chỗ xe khách đường dài.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

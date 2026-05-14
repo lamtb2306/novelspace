@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | HAI ĐƯỜNG THẲNG SONG SONG">
   <meta name="twitter:description" content="“Giống như một đứa ngốc bị lừa gạt, như một kẻ điên cứ tìm cậu khắp nơi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

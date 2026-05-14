@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Tám Năm Cũng Không Làm Anh Quên Em">
   <meta name="twitter:description" content="“Tôi không thể tiếp tục giả vờ như không có chuyện gì nữa.” “Lúc đó, tôi cũng không biết phải nói sao với em.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

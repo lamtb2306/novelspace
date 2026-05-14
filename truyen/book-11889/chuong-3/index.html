@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Người Lạ Cuối Đường">
   <meta name="twitter:description" content="Khi đi ngang phòng Lý Hạo, bên trong vọng ra tiếng trò chuyện của cậu ta và Tôn Phi Phi. “Vợ ơi, đợi cưới xong anh đưa em đi Maldives hưởng tuần trăng mật.” “Thật á?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

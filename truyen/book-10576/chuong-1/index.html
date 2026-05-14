@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ÁNH SÁNG TƯƠNG LAI">
   <meta name="twitter:description" content="Bạn trai tôi hay than phiền với tôi về một đàn em nữ cứ bám theo xe anh ấy. Tôi cũng chẳng để tâm lắm. Cho đến kỳ nghỉ hè, khi anh ấy bảo sẽ lái xe đưa tôi về nhà. Nhưng lúc tôi mở cửa xe ra thì th...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

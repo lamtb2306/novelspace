@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TÔI ĐÃ THẾ CHỖ TÔ VÃN ĐỂ ĐƯỢC QUAY VỀ THÀNH PHỐ">
   <meta name="twitter:description" content="Cho đến ngày thứ ba, trên đường ra đồng làm việc, Thẩm Nghiễn chặn tôi lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

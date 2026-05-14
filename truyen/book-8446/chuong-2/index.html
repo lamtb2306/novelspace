@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Mẹ Là Nhà">
   <meta name="twitter:description" content="Tôi đáp không hề do dự: “Em chẳng muốn nhớ đâu. Ba nói mẹ đã bỏ đi với đàn ông khác, không cần em nữa. Với lại mẹ em vừa già vừa xấu, không biết chăm sóc bản thân, làm sao đẹp được như chị.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ở Nhờ Thành Ở Lì, Tôi Bán Luôn Căn Nhà">
   <meta name="twitter:description" content="Sau chuyến công tác trở về, tôi phát hiện căn nhà tân hôn của mình lại bị em chồng và vợ cậu ta dọn vào ở. Tôi lập tức gọi điện chất vấn chồng sắp cưới.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

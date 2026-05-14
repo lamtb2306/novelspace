@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cháu Tôi Dùng Hộ Khẩu Tôi Làm Của Hồi Môn">
   <meta name="twitter:description" content="Tôi đón cháu gái bên nhà mẹ lên thành phố nuôi suốt mười năm. Để con bé có thể học ở đây, tôi đã vắt óc tìm mọi cách, chạy vạy khắp nơi mới chuyển được hộ khẩu của nó sang tên mình.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

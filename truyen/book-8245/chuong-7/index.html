@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | NGƯỜI CHA BẤT ĐẮC DĨ">
   <meta name="twitter:description" content="Cô ấy chẳng phải đã chết rồi sao? Tại sao lại đột nhiên xuất hiện? Chẳng lẽ là vì biết tôi đã phất lên, nợ đã được tôi trả sạch, nên quay lại tìm tôi?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

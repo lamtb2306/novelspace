@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đêm Tiểu Niên Trở Lại">
   <meta name="twitter:description" content="Tết năm nay mẹ chồng tặng tôi hai cái vòng tay bằng vàng ròng, mỗi cái nặng cả chục cân. Tôi tiện tay dán luôn chúng lên tủ lạnh như nam châm vậy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

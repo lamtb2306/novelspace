@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | TRÁI CẤM">
   <meta name="twitter:description" content="Buổi tiệc hôm nay khiến tâm trạng tôi tệ hại vô cùng. Mẹ của Thương Nghiễn thì rất vui khi gặp tôi, suốt bữa ăn liên tục hỏi han, quan tâm tôi đủ điều.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

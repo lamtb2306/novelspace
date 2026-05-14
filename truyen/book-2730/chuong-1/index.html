@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Con Gái Trong Mắt Mẹ">
   <meta name="twitter:description" content="Tôi dành dụm tiền mua một căn nhà mới ở quê. Ý định ban đầu chỉ là để khi mẹ tôi già đi, tôi có thể quay về chăm sóc bà cho tiện. Tôi từng muốn bà chuyển từ nhà ở làng lên đó, nhưng bà cứ nói không...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

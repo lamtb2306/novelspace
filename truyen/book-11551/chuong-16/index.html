@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 16 | Luôn bận vì em">
   <meta name="twitter:description" content="“Em đã đợi anh đến tám giờ, anh chỉ gửi một tin nhắn là xong!” “Em ngồi một mình ở nhà hàng, như một con ngốc!” “Gặp bạn bè, cùng ăn bữa cơm, có gì sai sao?” Tôi ngẩng đầu, đôi mắt ngấn lệ nhìn anh...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

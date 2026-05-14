@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | BẢY NĂM TÙ, 30 NĂM HẬN">
   <meta name="twitter:description" content="Tôi xoa má – nơi vẫn còn bỏng rát, Lạnh giọng nói: “Cô Trần, cô là bạn mẹ tôi, tôi mới kính trọng như trưởng bối.” “Nhưng sau cái tát này, giữa chúng ta coi như chấm dứt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

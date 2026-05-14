@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Lâu Đài Cát Trong Cơn Mưa">
   <meta name="twitter:description" content="Cái “con trai” đó, là một con chó. Ngày con tôi nhắm mắt, anh ta đang chơi với con chó đó. Giờ anh ta còn muốn dùng món đồ chơi mà chó nhà người phụ nữ khác không thèm để đi dỗ con gái mình.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

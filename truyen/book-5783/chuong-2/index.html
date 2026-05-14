@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | ĐỊNH MỆNH">
   <meta name="twitter:description" content="MC cầm micro thông báo: — “Vừa nhận được tin vui! Nhà tài trợ lớn nhất của lễ trao giải hôm nay sẽ có mặt trước khi buổi tiệc kết thúc!” Tôi đứng dậy, đối mặt với ánh nhìn không mấy thiện cảm từ bà...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

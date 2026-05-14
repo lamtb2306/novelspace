@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | 36 VẠN CHO MỘT BÀI HỌC">
   <meta name="twitter:description" content="Ông nhìn tôi, không hỏi nữa, rút điện thoại ra: “Được rồi, chị có mang theo đăng ký xe, giấy chứng nhận và căn cước không?” Tôi lấy từ túi ra xấp giấy đã chuẩn bị sẵn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

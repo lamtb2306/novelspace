@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Lãnh Cung Ký">
   <meta name="twitter:description" content="Ta là hoàng hậu bận rộn nhất hậu cung, dậy còn sớm hơn gà, ngủ còn muộn hơn chó. Dù đang mang thai cũng phải lo toan đủ chuyện lớn nhỏ trong hậu cung, sáng dậy điểm danh, tối định tâm, xét sổ sách,...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

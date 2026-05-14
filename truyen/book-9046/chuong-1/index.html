@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Vụ Án Nửa Hộp Cơm">
   <meta name="twitter:description" content="Hộp cơm trong ngăn kéo bàn làm việc của tôi, trưa nào cũng bị mất một nửa. Lúc thì là tôm xào vừa nấu, lúc thì là thịt muối mẹ tôi tự tay ướp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

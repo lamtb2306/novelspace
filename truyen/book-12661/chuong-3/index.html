@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Bản Kiểm Điểm Của Ai">
   <meta name="twitter:description" content="Một chiếc “mũ to” mang tên “bắt nạt sinh viên nghèo” cứ thế mà được đội lên đầu tôi. Nhìn cảnh tượng thắm thiết thầy trò trước mặt, tôi tức đến mức toàn thân run rẩy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

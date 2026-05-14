@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hạ Sao Tôi Một Lần, Tôi Đổi Cả Công Ty">
   <meta name="twitter:description" content="Vừa dẫn đoàn trở về, tôi tình cờ nghe được đồng nghiệp đang bàn tán. “Nghe nói gì chưa?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

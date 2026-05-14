@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | MINH HI">
   <meta name="twitter:description" content="Giống như có một bàn tay từ trong bóng tối vươn ra, hai ngón tay nhẹ nhàng bóp tắt ngọn nến cuối cùng đang le lói. Toàn thân tôi như đổ sụp, nước mắt không kìm được mà tuôn xuống.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

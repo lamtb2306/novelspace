@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | BẠN CÙNG PHÒNG KHÁC GIỚI CỦA TÔI">
   <meta name="twitter:description" content="Cho đến lúc vào phòng thi, đầu óc tôi hoàn toàn chỉ còn lại chữ. Khi tiếng chuông kết thúc vang lên, tôi cảm thấy hồn vía mình như bay sạch.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | BẠN TRAI GIẢ THÀNH THẬT">
   <meta name="twitter:description" content="May mà tôi còn có công việc. Công việc khiến tôi bận rộn, ít nhất không có thời gian suy nghĩ lung tung. Hai ngày sau, khi tôi từ phòng dự án trở về khách sạn, vừa bước vào hành lang, tôi bất ngờ n...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

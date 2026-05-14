@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ly Hôn Trong Đêm Mưa">
   <meta name="twitter:description" content="Tôi đặt suất cơm 5 tệ, vậy mà họ giao đến một phần trà chiều khách sạn xa xỉ giá hơn 150.000 tệ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

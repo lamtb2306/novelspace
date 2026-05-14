@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CĂN HỘ 1702 KHÔNG CÓ TÊN TÔI">
   <meta name="twitter:description" content="Có người đang sửa sang lại căn hộ đứng tên tôi. Lúc ứng dụng của khu dân cư bật lên thông báo, tôi đang họp ở công ty. “Căn hộ 1702, tòa 3, khu Phú Giang Hoa Phủ đứng tên quý khách đã nộp hồ sơ đăn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

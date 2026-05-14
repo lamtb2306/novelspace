@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NGƯỜI CỦA ANH">
   <meta name="twitter:description" content="Tô Vãn Vãn thậm chí còn đăng bài đá xéo tôi trên mạng xã hội. “Có người ấy à, không có mệnh phú quý mà cứ cố đấm ăn xôi, kết quả thì sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

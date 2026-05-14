@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CHỖ ĐẬU ĐẮT GIÁ">
   <meta name="twitter:description" content="Tôi nhìn chuỗi tin nhắn trong nhóm, mặt không chút cảm xúc, đặt điện thoại xuống. Chồng tôi, Thẩm Yến, từ phòng làm việc bước ra, mặt mày mỏi mệt. “Em này, anh đọc nhóm rồi… hay là… thôi bỏ qua đi?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | APP TÀI VẬN">
   <meta name="twitter:description" content="Tôi mỉm cười, chỉ tay vào đống bưu kiện chất cao như núi ở góc phòng, thong thả nói: “Tôi dọn sạch giỏ hàng rồi đó–” “C…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

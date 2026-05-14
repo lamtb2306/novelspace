@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Tôi Không Thể Rời Đi">
   <meta name="twitter:description" content="Thêm một ngày nữa trôi qua, bạn môi giới gọi cho tôi, giọng điệu mang theo ý cười: “Cô Trịnh, nhà đã dọn sạch rồi. Hồ ca làm việc hiệu quả thật cao. Nhà đó, hôm qua cả nhà ấy đã dọn đi trong đêm rồ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | GIẢ QUÁNG GÀ ĐỂ TRỐN HỌC TỐI">
   <meta name="twitter:description" content="Điều này rất bình thường, dù sao đây cũng là phòng của Khâu Đức San. Tôi bật đèn khẩn cấp, hỏi Triệu Văn: “Đêm nay mở đèn ngủ nhé?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

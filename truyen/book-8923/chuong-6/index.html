@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | SƯƠNG LẠNH CON TIM">
   <meta name="twitter:description" content="Trên đường về, Trì Kính mới nhận ra vết bẩn trên áo khoác của tôi. “Sao lại thế này?” Tôi hờ hững đáp: “Người ta làm đổ trà sữa lên.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

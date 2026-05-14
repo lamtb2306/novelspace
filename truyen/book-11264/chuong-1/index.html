@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Phía Sau Cánh Cửa Hướng Nam">
   <meta name="twitter:description" content="Ngày bố mẹ ly hôn, trên bàn đặt hai tờ thỏa thuận. Một tờ là theo bố – người nghiện cờ bạc đang nợ nần – sống lại khu phố cũ. Một tờ là theo mẹ – người tái hôn với đại gia – chuyển về vùng ven biển.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

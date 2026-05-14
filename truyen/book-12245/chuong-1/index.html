@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mười Bảy Năm Trong Bóng Tối">
   <meta name="twitter:description" content="Năm tôi năm tuổi, tôi bị người ta bế đi ngay trước cửa nhà. Mười bảy năm, tôi sống trong bóng tối, không biết mình họ gì tên gì. Cho đến khi đối chiếu DNA thành công, cảnh sát thông báo tôi đến nhậ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

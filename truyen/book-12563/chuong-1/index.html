@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cô Bé Sao Chổi">
   <meta name="twitter:description" content="Vì nghĩ rằng ba làm việc quá vất vả, tôi đã tắt chuông báo thức của ba. Nhưng vì thế mà ba lỡ mất một cuộc họp quan trọng, trên đường vội vàng đến công ty thì gặp tai nạn xe, tử vong tại chỗ. Từ đó...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

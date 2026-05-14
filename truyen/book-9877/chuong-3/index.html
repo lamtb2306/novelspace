@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chị Dâu Mới Về Nhà Đã Muốn Đuổi Cả Nhà">
   <meta name="twitter:description" content="Tôi cầm đống áo quần, giận dữ đi tìm chị dâu, chất vấn: “Sao lại thế này hả? Chị làm cái gì đấy?” “Tôi làm sao biết được? Có liên quan gì đến tôi đâu?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Người Trở Về Không Phải Chồng Tôi">
   <meta name="twitter:description" content="Tôi và Phó Minh Trạch quen biết, yêu nhau từ thời đại học, tình cảm khi ấy vẫn luôn rất tốt. Lần đầu tiên chúng tôi gặp nhau, là ở một quán mì nhỏ phía cổng sau trường đại học.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

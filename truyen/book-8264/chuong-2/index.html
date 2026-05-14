@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | YÊU ONLINE THẦY GIÁO">
   <meta name="twitter:description" content="Tôi mơ màng cả đêm thấy mình đang sửa luận văn. Tỉnh dậy thì không nhớ nổi một chữ. Tôi chấp nhận số phận, mở email lên, chuẩn bị tải ý kiến chỉnh sửa của thầy về để tiếp tục tô hoa. Không ngờ tron...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

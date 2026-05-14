@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | VÌ ANH YÊU EM">
   <meta name="twitter:description" content="Kết hôn thông gia hai năm, chồng tôi chưa từng cười với tôi một lần nào. Quả nhiên anh ấy không yêu tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

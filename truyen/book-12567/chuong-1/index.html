@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CÔ DÂU KỲ LẠ">
   <meta name="twitter:description" content="Đi làm phù dâu cho bạn cùng phòng đại học, cô ấy lại hỏi tôi có còn là trinh nữ không. Tôi thấy buồn cười, thời đại nào rồi mà còn tin mấy chuyện đó.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

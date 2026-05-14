@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cả Thế Giới Nợ Tôi">
   <meta name="twitter:description" content="PHẦN 1 Tháng thứ bảy sau khi mẹ tôi gả cho một lão độc thân già trong làng, tôi chào đời đủ ngày đủ tháng. Ở cái làng này, mẹ tôi bị coi là loại đàn bà hư hỏng, tiếng xấu vang xa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHÚNG TA ĐẾN ĐÂY LÀ HẾT">
   <meta name="twitter:description" content="Trong buổi họp lớp, bạn trai tôi ra mặt uống thay rượu cho mối tình đầu, bị người khác trêu: “Xót thế?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

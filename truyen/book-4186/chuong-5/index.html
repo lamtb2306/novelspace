@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Ngày Cuối Cùng Của Em Gái Tôi">
   <meta name="twitter:description" content="Trang đầu tiên là khi tôi năm tuổi. Khi đó, tôi ngồi trong lòng ông, đọc cho ông nghe từng câu để ông viết hộ. Thực ra… là ông viết hết.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

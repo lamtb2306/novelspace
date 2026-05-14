@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Thu Hồi Ủy Quyền">
   <meta name="twitter:description" content="Bề ngoài hào nhoáng, nhưng bên trong đã gãy nát từ lâu. Bố mẹ họ Thẩm tìm đến tôi vào buổi chiều ngày thứ ba. Lúc đó tôi đang xem danh sách thiết bị ở phòng thí nghiệm mới.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

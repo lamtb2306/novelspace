@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | TÍA NẮNG CUỐI CHÂN TRỜI">
   <meta name="twitter:description" content="Rời khỏi nhà hàng, lòng tôi vẫn còn hỗn loạn. Ban đầu, tôi không định mượn thẻ từ Kỷ Yến. Tôi nghĩ rằng chỉ cần biên lai là đủ để chứng minh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

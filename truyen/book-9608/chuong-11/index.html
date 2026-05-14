@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Lời Nói Của Người Sắp Quên Tất Cả">
   <meta name="twitter:description" content="Phóng viên lại hỏi: “Vậy lúc trước cháu cụ không tin cụ, cụ có buồn không?” Bà nội liếc nhìn tôi, ánh mắt dịu dàng lại. “Buồn cái gì chứ?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

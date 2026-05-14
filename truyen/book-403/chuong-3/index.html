@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | GIẢI THOÁT CHÍNH MÌNH">
   <meta name="twitter:description" content="Thấy tôi đang di chuyển các thùng lớn thùng nhỏ ra ngoài, trên mặt anh ta hiếm khi lộ ra chút áy náy. Giọng điệu của anh ta trở nên dịu dàng hơn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

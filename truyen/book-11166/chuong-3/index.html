@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CẢM ƠN VÌ ĐÃ TRỞ VỀ">
   <meta name="twitter:description" content="Chẳng mấy chốc ông ta quay lại, đưa cho tôi hai chiếc thẻ ngân hàng: “Trong này tổng cộng có năm trăm nghìn, thật sự là toàn bộ tài sản của tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

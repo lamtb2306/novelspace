@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tôi Giả Nghèo Ba Năm, Anh Lại Giả Như Chưa Từng Yêu Tôi">
   <meta name="twitter:description" content="Tôi giả nghèo suốt ba năm, cùng Bùi Cảnh Thâm chen chúc trong căn phòng trọ chật hẹp, ngày ngày ăn mì gói. Anh ta cứ ngỡ tôi là một cô gái nghèo lớn lên ở cô nhi viện, đi làm thuê kiếm sống, và tôi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

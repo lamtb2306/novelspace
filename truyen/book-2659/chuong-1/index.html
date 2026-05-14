@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chúng Ta Của Sau Này Không Còn Là Chúng Ta">
   <meta name="twitter:description" content="Sau khi quay lại với nhau, tôi và Bùi Du sống yên ổn một khoảng thời gian. Trên đường anh ấy đón tôi tan làm về, anh đột nhiên nói: “Qua một thời gian nữa, chúng ta chọn một ngày đẹp rồi kết hôn nh...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

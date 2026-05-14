@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | BỆNH VIỆN BÁO NHẦM TIN">
   <meta name="twitter:description" content="Kết quả là tôi vào phòng thử đồ, còn Tiêu Vũ thì đứng ngoài cầm túi giúp tôi. Chưa hết, cậu ta còn tranh trả tiền trước, nói đó là “tiền công tư vấn”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

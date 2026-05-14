@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Tô Mì Bò Kho Đắt Giá">
   <meta name="twitter:description" content="Tiếp sau là tin của ba người còn lại: “Huấn luyện viên trốn về quê, tóm được. Lưu Đình Đình còn định chạy.” “Phá cửa căn hộ! Còn đang livestream kìa? Tiếp tục phát sóng đi?!” “Bãi đậu xe công ty!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

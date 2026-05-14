@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | RỜI XA THẨM MẪN HÀNH">
   <meta name="twitter:description" content="Khi đi gặp khách hàng để bàn về dự án. Địa điểm tiếp khách là một khu nghỉ dưỡng nổi tiếng trong thành phố, chuyên tổ chức tiệc nước. Chúng tôi đi ngang qua hồ bơi. Phía bên kia hàng rào gỗ trắng v...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

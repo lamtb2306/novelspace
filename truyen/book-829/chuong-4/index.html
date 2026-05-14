@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | TÔI CHỌN BỎ RƠI ANH">
   <meta name="twitter:description" content="Người lớn đến đón chúng tôi sau giờ học cũng chỉ cần một người là đủ, có thể đưa cả hai cùng về nhà. Thậm chí họp phụ huynh, bố mẹ hai bên cũng có thể thay nhau đi, thậm chí là một người đi cho cả ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

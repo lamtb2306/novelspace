@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bạn Cùng Phòng và Những Cú Đấm ‘Vui Vẻ’">
   <meta name="twitter:description" content="Bạn Cùng Phòng và Những Cú Đấm 'Vui Vẻ' Bạn cùng phòng của tôi có một thói quen quái dị —Mỗi khi nói một câu, cô ta phải đấm người bên cạnh một cái.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

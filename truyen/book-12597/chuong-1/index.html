@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Ngày Làm Ma Mới Ở Tập Đoàn Tống Thị">
   <meta name="twitter:description" content="Tôi đang ngồi nghỉ ngơi trong phòng pantry thì cô thư ký nhỏ của Tổng giám đốc đột nhiên đẩy cửa bước vào. “Người mới à?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

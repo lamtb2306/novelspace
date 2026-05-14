@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Khách Hàng Đi Theo Người">
   <meta name="twitter:description" content="“Khách hàng theo người, không theo công ty.” “Câu đó hay đấy.” – Chị Vương cười – “Tô Niệm, sau này cô nhất định sẽ càng ngày càng tốt.” “Cảm ơn chị Vương.” “Cảm ơn gì, là tôi tin tưởng cô.” 5 Một ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

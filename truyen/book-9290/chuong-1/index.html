@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI LÀ NGƯỜI MÊ NGOẠI HÌNH">
   <meta name="twitter:description" content="Tôi là một đứa mê ngoại hình. Lần thứ 99 tỏ tình với nam thần của lớp – Từ Cẩn Nhiên, tôi vẫn bị anh lạnh lùng từ chối.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGƯỜI GIỮ LÀNG">
   <meta name="twitter:description" content="Em chồng sắp cưới, đặc biệt dẫn theo vị hôn thê đến gặp tôi – người thân duy nhất trong nhà. Tôi là chị dâu góa chồng của cậu ấy, cũng là người trấn giữ ngôi làng duy nhất.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

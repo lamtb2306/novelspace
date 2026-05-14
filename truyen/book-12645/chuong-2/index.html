@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Chỉ Cần Một Bó Hồng Đỏ">
   <meta name="twitter:description" content="Dù sao thì cũng sắp ly hôn. Anh ta muốn ngủ với ai, ngủ ở đâu… cũng là chuyện của anh ta. Không cần phải báo cáo với tôi. Thôi Vĩnh Thành khựng lại, như muốn nói gì đó, rồi lại thôi: “Tối nay mình ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

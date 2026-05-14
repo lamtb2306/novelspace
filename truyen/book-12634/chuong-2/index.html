@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bên Trong Một Gia Đình Tưởng Là Yêu Thương">
   <meta name="twitter:description" content="Tôi là cháu gái duy nhất trong cả bên nội lẫn bên ngoại, từ nhỏ đã được cưng chiều hết mực. Đúng lúc được nghỉ hè năm nhất đại học, vì không mua được vé tàu cao tốc nên tôi gọi điện nũng nịu với bà...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

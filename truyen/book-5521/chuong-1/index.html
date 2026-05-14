@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Vòng Tròn Ác Độc">
   <meta name="twitter:description" content="Trong buổi tiệc đính hôn, ông nội tôi vui vẻ trao cho Tần Hạo 80 ngàn đồng tiền đổi cách xưng hô. Ngay sau đó, mẹ Tần lại nhét vào tay tôi một tờ một ngàn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

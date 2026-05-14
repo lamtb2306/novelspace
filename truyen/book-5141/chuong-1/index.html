@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tuyến Bay Không Giao Nhau">
   <meta name="twitter:description" content="Tôi và cơ trưởng Văn Tự Nam yêu nhau trong thầm lặng suốt năm năm, cũng vì anh, tôi tình nguyện làm cơ phó cho anh suốt từng ấy năm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

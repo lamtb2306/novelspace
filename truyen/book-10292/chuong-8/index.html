@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Một Sớm Đoạn Tình">
   <meta name="twitter:description" content="Chàng chẳng chút do dự, bước nhanh ra khỏi cửa. Trước khi lên xe ngựa, vẫn ngoái đầu nhìn ta một lần cuối.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

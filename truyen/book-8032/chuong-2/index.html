@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Bốc Thăm Hiếu Đạo">
   <meta name="twitter:description" content="“Cho nó dọn! Cho nó đi!” “Trừ mấy cái quần áo rách rưới, nó còn cái gì?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

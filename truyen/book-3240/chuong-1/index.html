@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hóa Đơn Điện Lộ Bí Mật Chồng Có Một Gia Đình Khác">
   <meta name="twitter:description" content="Tôi muốn kiểm tra số dư tiền điện trong nhà, nhưng khi đăng nhập vào ứng dụng của Công ty điện lực Quốc gia, tôi phát hiện dưới tên của chồng mình lại liên kết hai mã số điện.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

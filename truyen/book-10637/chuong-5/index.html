@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | TÔ ĐƯỜNG">
   <meta name="twitter:description" content="Anh sải bước đến bên cạnh tôi, mắt chăm chú dừng lại ở tay tôi. Nồi súp đang sôi, nước trắng sữa ôm lấy từng lát cá cuộn tròn mượt mà, tiêu rừng rải đều, hơi nóng bốc nghi ngút.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

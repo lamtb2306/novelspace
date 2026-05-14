@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHIẾC VÒNG HÚT MÁU">
   <meta name="twitter:description" content="Trên đường trở về ký túc xá sau bữa cơm, tôi nhặt được một chiếc vòng tay ngọc, thoạt nhìn đã thấy giá trị không nhỏ. Tôi cẩn thận dùng giấy bọc nó lại, rồi mang về ký túc xá.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

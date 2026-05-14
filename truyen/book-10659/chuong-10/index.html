@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Thưởng Cuối Năm Không Có Tên Tôi">
   <meta name="twitter:description" content="Tôi áp dụng chế độ quản lý minh bạch tuyệt đối: toàn bộ tiến độ dự án, toàn bộ ngân sách các phòng ban, đều công khai. Tôi lập kênh khiếu nại độc lập cho nhân viên, bỏ qua tầng quản lý trung gian, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

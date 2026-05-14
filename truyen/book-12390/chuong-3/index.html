@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Bốn Năm Sau Khi Tôi Biến Mất">
   <meta name="twitter:description" content="Từng có người hỏi anh, cưng chiều tôi như vậy, không sợ tôi gây rắc rối à? Anh chỉ nheo mắt, thản nhiên nói: “Gây chuyện thì sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

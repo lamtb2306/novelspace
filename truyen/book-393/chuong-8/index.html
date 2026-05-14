@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Căn Nhà Này Tôi Phải Lấy Lại">
   <meta name="twitter:description" content="“Thế nên em mới thản nhiên giành lấy đồ của tôi.” “Từ một cây bút, một quyển vở, cho tới bây giờ là cả căn hộ.” “Em có bao giờ nghĩ, những thứ đó vốn dĩ không thuộc về em?” “Em đã lấy đi quá nhiều ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BUÔNG TAY ĐI ANH">
   <meta name="twitter:description" content="Sở Doanh gửi tin nhắn xong liền im bặt, chỉ thấy thông báo đang nhập xuất hiện rồi biến mất liên tục. Tôi không để cô ấy lưỡng lự thêm, trực tiếp trả lời: “Là anh ta.” “Có phải là chiêu trò không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Vì một cái váy mấy chục, cả nhà chồng tôi mất trắng">
   <meta name="twitter:description" content="“Con người gì mà ác độc quá vậy trời! Đẹp mà tâm địa như rắn rết!” “Cậu không biết à? Mấy người càng đẹp thì càng đáng sợ, ánh mắt cô ta nhìn mà thấy lạnh cả sống lưng.” “Ủa, nhìn quen quá nha…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

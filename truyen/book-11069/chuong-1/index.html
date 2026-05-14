@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | VỐN DĨ KHÔNG NỢ NHAU">
   <meta name="twitter:description" content="Hứa Quân Lâm nhờ tôi mua bữa sáng nhưng lại không đưa tiền, tôi đành phải đưa phần của mình cho anh ta. Anh ta cắn một miếng bánh trứng cuộn, sau đó tiện tay vứt vào thùng rác. “Không thể mua thứ g...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

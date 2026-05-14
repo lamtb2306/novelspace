@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Người Trở Về Không Cần Dấu Ấn">
   <meta name="twitter:description" content="Hắn hung dữ đẩy Hà Triết Lễ sang một bên, cẩn thận đỡ tôi dậy. “Chân em làm sao vậy?” Hắn quát Hà Triết Lễ: “Khi ly hôn với tôi thì vẫn còn bình thường, sao giờ lại thành ra thế này?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

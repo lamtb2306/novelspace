@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Cô Bé Sao Chổi">
   <meta name="twitter:description" content="Con đã hoàn thành nhiệm vụ mà ba giao cho, lại còn được gặp lại ba nữa, con không còn gì hối tiếc. Còn phải đợi bao lâu nữa con mới có thể rời đi đây? Ba đi tìm con từ sáng đến tận tối mới quay về....">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Tôi Không Làm Bảo Mẫu Miễn Phí Nữa">
   <meta name="twitter:description" content="“Và tôi muốn các người phải công khai xin lỗi trên mạng.” “Thừa nhận các người đã ngược đãi mẹ già. Thừa nhận các người đã biển thủ công quỹ.” “Không đời nào!” Lưu Khải bật dậy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

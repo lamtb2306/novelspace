@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tôi Đặt Cua Online, Mẹ Tôi Giao Cho Chị Dâu">
   <meta name="twitter:description" content="Nếu tôi chưa xem bài đăng của chị dâu, chắc tôi đã tin. “Mẹ, mẹ vứt ở đâu? “Con liên hệ shop đòi hoàn tiền.” Tôi mở điện thoại tra đơn hàng. Tám con cua trị giá 888 tệ, không hề rẻ. Tôi đưa cho mẹ ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

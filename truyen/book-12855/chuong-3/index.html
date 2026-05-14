@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CUỘC ĐỜI CỦA NỮ PHÁO HÔI">
   <meta name="twitter:description" content="Cái gì vậy trời, phim truyền hình hả? Ngay lúc đó, dòng chữ kia lại xuất hiện.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐỔI MẠNG LẤY YÊU THƯƠNG">
   <meta name="twitter:description" content="Trời mới tờ mờ sáng. Điện thoại tôi vang lên tiếng thông báo tin nhắn. Tôi chẳng cần nghĩ cũng biết là ai gửi. Dạo gần đây, mỗi sáng tôi đều nhận được một bức ảnh từ một người phụ nữ lạ mặt. Mà ảnh...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

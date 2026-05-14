@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TỪ ĐÊM GIAO THỪA, TÔI KHÔNG NHỊN NỮA">
   <meta name="twitter:description" content="Đi ngang qua phòng trà nước, tôi nghe mấy nhân viên mới vừa được chuyển chính thức đang bàn tán về kế hoạch du lịch Tết. “Những tám ngày nghỉ liền đó, lại không phải trực!” Tôi im lặng. Tôi đã làm ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

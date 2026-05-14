@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CHỈ LÀ MỘT MÓN ĐỒ CÓ GIÁ">
   <meta name="twitter:description" content="Mọi ánh mắt đều đổ dồn về phía tôi. Người dẫn chương trình vẫn giữ nụ cười chuyên nghiệp, nhìn tôi: “Số 38 thắp đèn trời, xác nhận chứ?” Tôi mệt mỏi ngồi lại ghế, giọng yếu ớt: “Xác nhận.” “Chậc!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

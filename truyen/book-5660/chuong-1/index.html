@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ÁNH SAO ĐÊM HÈ">
   <meta name="twitter:description" content="Đang phục vụ bữa ăn cho nữ minh tinh đình đám Tần Diệp Tử. Màn hình khóa điện thoại của cô ấy sáng lên, là một bức ảnh thân mật chụp chung với một ảnh đế nổi tiếng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

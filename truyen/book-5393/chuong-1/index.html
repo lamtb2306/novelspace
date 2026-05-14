@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TẦN CHU">
   <meta name="twitter:description" content="Khi đến phòng tranh tìm Tần Chu, ánh nắng buổi chiều chiếu đúng vào người anh đang chỉ dẫn học sinh vẽ tranh. Những tia sáng vàng nhạt, phác họa hình dáng người đàn ông như được vẽ bởi bàn tay tài ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | KHÔNG HỐI TIẾC">
   <meta name="twitter:description" content="Tôi lắc đầu: “Không cần đâu.” Tôi buồn không phải vì mất nó, mà vì sợ nó sẽ chết. Nghĩ đến việc nó có thể chết một mình, sợ hãi ở một nơi nào đó khiến tôi đau lòng và áy náy. Nhưng bây giờ tôi khôn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

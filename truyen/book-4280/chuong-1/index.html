@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Đàn Ông Bất Lực">
   <meta name="twitter:description" content="Đêm đó tôi nhận ca cấp cứu, một cô gái 22 tuổi bị rách nghiêm trọng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cuộc Chiến Nhà Trên Nhà Dưới">
   <meta name="twitter:description" content="Máy chiếu mới mua của tôi, ngày nào cũng bị đứa bé nhà trên chiếu bút laser vào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

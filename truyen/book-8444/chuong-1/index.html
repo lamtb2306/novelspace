@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | GỬI NHẦM TIN NHẮN CHO ANH KẾ">
   <meta name="twitter:description" content="Gửi tin nhắn cho ông anh lạnh lùng. 【Anh, tối nay nấu cơm không?】 Tay nhanh quá, gõ nhầm thành “Chồng”。 Chữ “cơm” cũng quên mất. Xấu hổ nhất là, anh đang họp chiếu màn hình, cả phòng họp im lặng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

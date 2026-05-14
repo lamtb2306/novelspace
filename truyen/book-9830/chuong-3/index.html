@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Kẻ Ở Rể">
   <meta name="twitter:description" content="“Nhưng vị này đã gửi trước một trăm triệu vào tài khoản của chúng tôi, sẽ không xảy ra chuyện không có tiền thanh toán. Mời quý vị yên tâm!” Tôi thở phào một hơi, khóe môi nhếch lên thành một nụ cư...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

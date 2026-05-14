@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Bát Cháo Mặn Cho Trà Xanh">
   <meta name="twitter:description" content="Tôi là con gái ruột bị thất lạc nhiều năm, sở thích duy nhất chính là xem đi xem lại “Minh Lan Truyện” tới tám trăm lần, nhờ đó mà luyện được đôi mắt tinh anh, nhìn thấu tâm cơ trà xanh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

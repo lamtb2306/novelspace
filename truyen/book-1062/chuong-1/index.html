@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bị Vu Oan Ăn Cắp Phương Án, Tôi Lật Ngược Cả Phòng Họp">
   <meta name="twitter:description" content="Ba phút trước khi khách hàng đến, bản phương án trên bàn biến mất, dù mười phút trước tôi vừa kiểm tra xong.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

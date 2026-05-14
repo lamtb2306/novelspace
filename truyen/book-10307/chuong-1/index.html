@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | GIANG HÀ LỤC YẾN">
   <meta name="twitter:description" content="Yêu thầm Lục Yến đến năm thứ bảy. Tôi kết hôn với anh ấy. Đêm tân hôn, anh đưa tôi giấy thỏa thuận ly hôn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

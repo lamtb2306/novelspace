@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Báo Án Lúc Nửa Đêm">
   <meta name="twitter:description" content="Vừa chốt sổ xong lúc nửa đêm, trong lúc đang đắp mặt nạ, tôi nhận được khoản tiền thanh lý 500 nghìn tệ từ cậu bạn nối khố chuyển đến. Kèm theo đó là một bức thư chia tay.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

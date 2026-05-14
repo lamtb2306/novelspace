@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Dưới Bóng Chị Họ">
   <meta name="twitter:description" content="Dì tôi gọi điện nói chị họ muốn gặp tôi, tôi đang bận dự án nên không đi. Đến lúc tôi định thu xếp đến thăm thì… đã bị “chị họ hồi phục hoàn toàn” tóm luôn. Vâng, là… bị bắt đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

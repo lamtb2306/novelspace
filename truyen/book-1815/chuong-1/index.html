@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHẠM MẶT BẠN HỌC CŨ">
   <meta name="twitter:description" content="Sau kỳ thi đại học, bạn bè tôi đều đi du lịch khắp nơi, còn tôi thì xui xẻo hết lần này đến lần khác: “Người tôi thích đã yêu cô gái trong mơ của anh ấy.” “Công việc kinh doanh của bố tôi thất bại ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

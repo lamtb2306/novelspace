@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Ranh Giới Của Hiếu Thảo">
   <meta name="twitter:description" content="Tôi nhìn mấy người có mặt, trong lòng cười lạnh. Rõ ràng đây là một cái bẫy, vậy mà họ vẫn coi tôi là đồ ngốc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

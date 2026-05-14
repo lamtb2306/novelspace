@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BÍ MẬT TRONG KHUNG HÌNH">
   <meta name="twitter:description" content="Sau khi bố mất, tôi tìm thấy một tấm ảnh cũ trong di vật của ông. Trong ảnh, ngoài bố mẹ và tôi, còn có một cậu bé xa lạ. Ngày ghi trên ảnh cho thấy lúc đó tôi đã năm tuổi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

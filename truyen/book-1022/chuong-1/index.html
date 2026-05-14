@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bát Tự Cứng Như Thép">
   <meta name="twitter:description" content="Nửa đêm mất ngủ, tôi mở diễn đàn ẩn danh về công sở trong thành phố.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

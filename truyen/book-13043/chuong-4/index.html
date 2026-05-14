@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Chiếc Huân Chương Hạng Nhất">
   <meta name="twitter:description" content="Tôi chỉ có thể dựa vào góc tường hành lang, ép bản thân không được ngủ. Lỡ như bọn họ quay lại– Mẹ tôi sẽ không qua khỏi. Một y tá trực ban đưa cho tôi một tờ giấy, nói có bác sĩ cần liên hệ với tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

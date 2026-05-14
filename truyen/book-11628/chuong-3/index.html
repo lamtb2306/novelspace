@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | YÊU ANH LẦN NỮA ĐƯỢC KHÔNG">
   <meta name="twitter:description" content="Tôi nhìn chằm chằm vào màn hình tối đen, cho đến khi cuộc gọi video của Lâm Nhạc nhảy vào. “Siêu tin nóng!” – Tóc cô ấy còn đang cuốn lô – “Trình Vi bị đình chỉ điều tra rồi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

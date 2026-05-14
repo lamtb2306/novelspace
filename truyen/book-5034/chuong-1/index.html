@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thẻ đen trong túi táo">
   <meta name="twitter:description" content="“Ví rỗng tuếch, bụng thì đang réo ầm lên.” Tôi gửi tin nhắn vào nhóm gia đình. Nửa ngày trôi qua, chỉ nhận được một túi táo.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

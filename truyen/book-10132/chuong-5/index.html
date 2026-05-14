@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CHIẾC GHẾ TRỐNG">
   <meta name="twitter:description" content="Bỗng nhiên, tôi rất nhớ dì Hà — người luôn nhìn tôi với ánh mắt dịu dàng đầy yêu thương. Cũng nhớ cả viện trưởng — người cứ luôn nhắc tôi phải chú ý giữ gìn đôi mắt. Và cả dì béo trong bếp — người ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

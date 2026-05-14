@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Ngày Tôi Ngừng Làm Miễn Phí, Cả Nhà Mới Biết Sợ">
   <meta name="twitter:description" content="Tôi quay người định đi thì bị gọi lại: “Đợi đã.” Tôi khựng lại, nghe bà nói tiếp: “Trước đây em làm không tệ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

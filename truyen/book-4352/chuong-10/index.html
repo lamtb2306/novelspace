@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Nơi Tôi Thuộc Về">
   <meta name="twitter:description" content="Trên đó in huy hiệu của Đại học Hắc Tỉnh. Trang nghiêm, tĩnh lặng. Tôi dùng đôi tay run rẩy xé mở phong bì, lấy ra giấy tờ bên trong. Trên tờ thông báo màu đỏ, tên của tôi được ghi rõ ràng, rành mạ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

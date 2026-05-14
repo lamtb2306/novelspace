@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Tết Này Không Có Mao Đài">
   <meta name="twitter:description" content="Tôi tắt màn hình. Nhìn lần cuối cánh cửa phòng cấp cứu đang sáng đèn đỏ, rồi quay người bước về phía ánh sáng ban ngày rực rỡ ngoài bệnh viện. Không ngoảnh đầu lại nữa. 6 Lần nữa gặp lại Trần Húc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

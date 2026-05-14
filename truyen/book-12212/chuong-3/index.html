@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | BÔNG HỒNG ĐỎ">
   <meta name="twitter:description" content="Nơi này không thể ở lại nữa. Lỡ đâu ba tôi suy đi tính lại, thật sự đem tôi dâng lên để lấy lòng Mục, tôi chết càng nhanh hơn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

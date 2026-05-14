@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Tôi Nuôi Năm Đứa Trẻ Sinh Năm">
   <meta name="twitter:description" content="Lâm Vi bên cạnh thì mang khuôn mặt đau khổ tột cùng nhìn tôi: “Uyển Uyển, quay đầu là bờ! Bây giờ bà dừng tay vẫn còn kịp!” Cả hội trường xôn xao.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

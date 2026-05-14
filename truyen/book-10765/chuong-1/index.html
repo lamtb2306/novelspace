@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Chiếc Nhẫn, Bốn Kiếp Người">
   <meta name="twitter:description" content="Tỷ phú giàu nhất nước đặt làm riêng một chiếc nhẫn trị giá hàng chục tỷ theo đúng kích cỡ của tôi, nói rằng ai đeo vừa thì sẽ cưới người đó.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

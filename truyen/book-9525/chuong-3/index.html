@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Vợ Nhỏ Của Doanh Trưởng">
   <meta name="twitter:description" content="Anh đã quay về – lần này là một cách đường hoàng. Cả đại viện lập tức xôn xao, mấy cô bác ùa ra: “Ôi chao, doanh trưởng Lục về rồi kìa!” “Nhiệm vụ lần này thuận lợi chứ?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

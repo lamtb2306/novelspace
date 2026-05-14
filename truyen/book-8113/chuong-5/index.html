@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Hòa Ly Ký">
   <meta name="twitter:description" content="Mãi đến chiều tối ngày hôm sau, ta mới gặp lại Cố Mặc. Khi ấy ta đang cầm đĩa bánh quế hoa vừa được làm xong từ tiểu trù phòng, định quay về viện, thì bất ngờ đụng phải chàng nơi góc hành lang.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

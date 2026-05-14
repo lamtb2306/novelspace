@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chỗ Ngồi Thuộc Về Ai">
   <meta name="twitter:description" content="Vừa chen được vào hàng ghế đầu tiên của buổi hòa nhạc, tôi đã thấy một thằng nhóc tầm mười mấy tuổi ngồi chễm chệ trên ghế của tôi, tôi vỗ vai nó: “Em trai, em ngồi nhầm chỗ rồi, đây là ghế của chị...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

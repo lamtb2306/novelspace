@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TRẢ GÓP THEO TỪNG BỮA ĂN">
   <meta name="twitter:description" content="Sau khi tôi nhập học đại học, mẹ đề nghị sẽ phát tiền sinh hoạt cho tôi theo hình thức “trả góp”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

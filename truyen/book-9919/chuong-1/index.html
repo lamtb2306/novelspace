@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CẬU BẠN THANH MAI TRÚC MÃ CỦA TÔI">
   <meta name="twitter:description" content="Tôi gặp lại Tống Dũ Bạch tại một buổi tiệc tối thương mại. Anh đứng thẳng người như cây tùng, xung quanh là những tiếng cười nói, rượu chạm ly không ngớt, nhưng dường như anh vẫn tạo ra một khoảng ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

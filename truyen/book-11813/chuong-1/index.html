@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐIỂM THI ĐẠI HỌC BIẾN MẤT">
   <meta name="twitter:description" content="Khi làm bài thi đại học, rõ ràng tôi đã viết kín hết cả tờ đáp án, vậy mà kết quả lại là… 0 điểm. Tôi tưởng là hệ thống chấm thi có lỗi, liền nộp đơn yêu cầu điều tra. Nhưng sau khi kiểm tra, người...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÌM LẠI TÌNH YÊU">
   <meta name="twitter:description" content="Năm mười tám tuổi, tôi giả vờ ngoan ngoãn, trong sáng, dùng chút thủ đoạn để câu được cậu nam thần nghèo lạnh lùng của trường. Nhưng chưa đầy một năm, tôi đã thấy chán. Chia tay không mấy êm đẹp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TIN NHẮN LÚC RẠNG SÁNG">
   <meta name="twitter:description" content="Rạng sáng một giờ, một chuỗi thông báo WeChat cấp tập đánh thức tôi. Là mẹ của bạn học con trai tôi ở mẫu giáo. Cô ta vừa lên đã quát cho một trận.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

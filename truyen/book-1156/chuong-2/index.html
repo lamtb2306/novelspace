@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CÔ EM BÁ ĐẠO">
   <meta name="twitter:description" content="Thịnh Triều Minh. Một cái tên chỉ đọc thôi cũng thấy đầy khí thế. “Nhớ ra rồi chứ? Anh tôi, lớp 12A8, Thịnh Triều Minh.” Tôi nháy mắt với cô.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

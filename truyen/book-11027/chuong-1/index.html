@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGƯỜI ĐẾN KHI TÔI CẦN NHẤT">
   <meta name="twitter:description" content="Tôi đang tưới hoa ngoài ban công thì nghe thấy tiếng cô giúp việc trong phòng khách, cố nén giọng khi gọi điện: “Con à, lương của cô ấy cũng không thấp, chỉ là tiêu xài hơi hoang phí.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

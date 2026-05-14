@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | KHOÁ CHẶT CON TIM">
   <meta name="twitter:description" content="Lần đầu tiên tôi thấy cái tên “Giang Nguyệt” là vào sinh nhật của Thẩm Tri Tu năm ngoái. Lúc đó, tôi dùng điện thoại của anh để chụp ảnh anh với bánh sinh nhật trong nhà hàng thì bất ngờ có một tin...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

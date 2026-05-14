@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | An An, Món Quà Của Mẹ">
   <meta name="twitter:description" content="Tình yêu của bố mẹ tôi từng là một truyền thuyết ở cảng thành. Trên lưng bố có ba vết sẹo dài xuyên qua da thịt, đó là dấu tích để lại khi ông liều mình cứu mẹ thoát khỏi tay ông ngoại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

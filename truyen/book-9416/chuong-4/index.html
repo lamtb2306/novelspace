@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Chiếc Giày Đỏ Trong Bóng Tối">
   <meta name="twitter:description" content="Tôi quay đầu nhìn anh, trong lòng dấy lên một cơn châm biếm. Anh còn hỏi tôi có tâm sự gì ư? “Không có gì đâu, chắc chỉ hơi mệt vì công việc thôi.” Tôi nhàn nhạt đáp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Dịu Dàng Không Thuộc Về Ta">
   <meta name="twitter:description" content="Cô nương nhỏ ngập ngừng rất lâu, mới rặn ra từng chữ: “Ta tên Lý Vi Thiết, dì không được cười đâu đấy! Cái tên này là phụ mẫu đặt cho ta, nói là lấy cái tên này cho mạng cứng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

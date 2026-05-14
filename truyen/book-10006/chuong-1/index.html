@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ly Hôn Trong Ngày Mua Nhà">
   <meta name="twitter:description" content="Hôm đi xem nhà, cô bán nhà hỏi tên sẽ ghi của ai. Chồng tôi cười rạng rỡ, không chút do dự nói: “Dĩ nhiên là tên tôi. Dù sao cũng là tiền tôi kiếm được mà.” Thật ra, 7,8 triệu đó hoàn toàn là tiền ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

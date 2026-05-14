@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Sau Cùng, Em Còn Trẻ">
   <meta name="twitter:description" content="Nội dung chỉ có một bức ảnh. Ảnh mờ, giống như bị chụp lén. Trong màn đêm, tôi đang cúi người ngồi vào ghế phụ của một chiếc Bentley. Bên cạnh xe là bóng dáng một người đàn ông mờ mờ, không nhìn rõ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

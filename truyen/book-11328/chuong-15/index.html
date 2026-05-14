@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 15 | MỘT ĐỜI CHỈ CƯNG EM">
   <meta name="twitter:description" content="Cô quay người, bước về phía cửa. “Nhưng đừng đến tìm em nữa.”">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

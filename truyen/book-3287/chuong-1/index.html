@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | HỌC BÁ LỚP HOÀNG KIM">
   <meta name="twitter:description" content="Cha mẹ nuôi xé bảng điểm của tôi, ép tôi nghỉ học để vào xưởng điện tử làm việc, nhằm tiết kiệm học phí cho cậu con trai cưng của họ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

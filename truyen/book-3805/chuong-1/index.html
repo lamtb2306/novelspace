@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mèo Con Trở Về Đòi Nợ">
   <meta name="twitter:description" content="Tôi vốn là một con mèo nhỏ, bị con người dùng mèo que dụ vào lồng rồi giết chết. Bảy năm sau khi tôi chết, con người từng hành hạ tôi kia lại một bước lên mây, gả vào hào môn, trở thành phu nhân ca...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

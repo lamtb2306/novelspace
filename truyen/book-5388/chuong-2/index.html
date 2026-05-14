@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tấm Bạt Nhún Tử Thần">
   <meta name="twitter:description" content="Tôi dạy cháu học đến tận nửa đêm, chị dâu chẳng nói được một câu cảm ơn. Ngược lại còn đùa giỡn: nếu cháu không đậu Thanh Hoa Bắc Đại, chắc là do cô nó dạy không đến nơi đến chốn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

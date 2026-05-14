@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trò Chơi Trốn Tìm Cả Đời">
   <meta name="twitter:description" content="Từ khi tôi bắt đầu có ký ức, mẹ đã chơi với tôi rất nhiều lần trò chơi “chết giả”. Lần đầu tiên phát hiện mẹ nằm im không động đậy, thậm chí không còn thở, tôi sợ đến mức bật khóc nức nở.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

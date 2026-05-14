@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | THOÁT KHỎI BỂ KHỔ TÔI SỐNG CUỘC SỐNG MỚI">
   <meta name="twitter:description" content="Mọi thứ vẫn y hệt như khi tôi rời đi, giống như tôi chưa từng rời khỏi nơi này. Vali tôi đã sếp vẫn được đặt trên bàn. Tôi vui mừng khôn xiết. Đây là tất cả gia sản của tôi trong những năm qua!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

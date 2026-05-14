@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | TÁM NĂM KHÔNG ĐÁNG MỘT XU">
   <meta name="twitter:description" content="Cậu ấy dẫn tôi đi leo núi ngắm bình minh, khám phá các xưởng thủ công giấu mình trong những con hẻm nhỏ, chèo thuyền ngắm hoàng hôn vùng sông nước. Ở bên cậu ấy, tôi cảm thấy rất thoải mái.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

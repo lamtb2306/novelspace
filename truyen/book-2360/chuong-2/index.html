@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BỮA TIỆC SINH NHẬT CUỐI CÙNG">
   <meta name="twitter:description" content="Bởi tôi là thiên kim của Tập đoàn Triệu thị, mà Tập đoàn Triệu thị là doanh nghiệp có quy mô lớn nhất tại Hải Thành, những người có mặt hôm nay không ai là không cần dựa vào nhà chúng tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

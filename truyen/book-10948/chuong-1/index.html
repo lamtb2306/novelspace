@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGƯỜI ĐI ÂM">
   <meta name="twitter:description" content="Tôi là một “người đi âm”, kiểu như giúp người đã khuất hoàn thành tâm nguyện cuối cùng. Tôi có khả năng trích xuất ký ức của người chết trong một khoảng thời gian trước khi họ qua đời, và gia đình ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

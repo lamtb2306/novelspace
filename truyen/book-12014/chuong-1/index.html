@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trò Chơi Đóng Thế">
   <meta name="twitter:description" content="Sau khi thua trò chơi “Đại Mạo Hiểm”, bạn trai tôi đã hôn cô bạn thanh mai trúc mã của anh ta. Khi anh ta lại một lần nữa bảo tôi “Đừng chơi nếu không chịu nổi”, thì người em trai song sinh của anh...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

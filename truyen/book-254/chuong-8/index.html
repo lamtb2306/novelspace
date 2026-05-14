@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Show Hẹn Hò Hài Hước”">
   <meta name="twitter:description" content="Show Hẹn Hò Hài Hước&quot; “Không chạy nữa! Em không chạy nữa!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Sau Cùng, Chúng Ta Là Một Nhà">
   <meta name="twitter:description" content="Bạn thân tôi hỏi tiếp: “Gì vậy trời? Cậu thích sếp hả?” Tôi nói: “Trước đây thì có. Nhưng từ lúc anh ấy từ chối thẳng thừng, tớ đã không còn tình cảm gì nữa.” “Bị từ chối? Khi nào vậy? Sao tớ không...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

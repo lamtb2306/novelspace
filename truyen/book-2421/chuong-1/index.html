@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHÚNG TA CHIA TAY ĐI">
   <meta name="twitter:description" content="Bạn bè luôn nói với tôi rằng, chính vì tôi đối xử quá tốt với Trần Ổn nên anh ấy mới không biết trân trọng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

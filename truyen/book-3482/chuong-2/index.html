@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Kiếp Này Tôi Chỉ Sống Vì Chính Mình">
   <meta name="twitter:description" content="Thẩm Thanh Duệ đang ngồi trên sofa, khoác tay mẹ, tựa đầu lên vai bà, cùng xem danh sách khách mời trên tay ba. “Ba mẹ mời hết giới hào môn trong thành phố đi mà, con muốn tổ chức sinh nhật lớn một...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

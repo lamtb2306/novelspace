@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | THÌ THẦM CỦA ĐUÔI XÀ">
   <meta name="twitter:description" content="Bạn cùng phòng là cô gái người Miêu, nuôi cổ trùng trong ký túc xá. Kiếp trước, bạn cùng phòng của tôi – Miêu Thanh Thanh, nói rằng cô ta là người Miêu ở vùng Miêu Cương.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

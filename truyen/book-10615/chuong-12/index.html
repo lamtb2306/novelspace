@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Hạ Không Lối Thoát">
   <meta name="twitter:description" content="Thế nhưng khi đối diện với cảnh tượng này, cô vẫn lúng túng không biết làm sao. “Cho nên…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

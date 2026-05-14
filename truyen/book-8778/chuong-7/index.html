@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Mèo Chiêu Tình">
   <meta name="twitter:description" content="Nói xong, cô ta kiêu ngạo ngẩng cằm. “Bố mẹ tôi đã đến nhà anh ấy bàn chuyện cưới xin rồi, bồi dưỡng tình cảm chỉ là chuyện sớm muộn!” “Còn vì sao phải đuổi cậu đi?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

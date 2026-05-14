@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Người Nhặt Tôi Từ Đêm Mưa">
   <meta name="twitter:description" content="Tôi mặc bộ suit tinh tế, trang điểm nhẹ nhàng, sắc mặt rạng rỡ. Hoàn toàn khác với cô gái ngày xưa trong trí nhớ anh ta—luôn ăn mặc giản dị, khuôn mặt mệt mỏi, “sa cơ lỡ vận”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

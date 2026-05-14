@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Nơi Tôi Thuộc Về">
   <meta name="twitter:description" content="Hứa Dương như một quả pháo nhỏ lao thẳng về phía tôi. Tôi nghiêng người tránh, lách qua nó. Tôi dùng hết sức bình sinh, chạy về phía người đưa thư.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

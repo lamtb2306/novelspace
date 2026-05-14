@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Phía Sau Tấm Huy Chương">
   <meta name="twitter:description" content="Chồng tôi – Chu Dực, trở thành anh hùng của cả thành phố. Trên truyền hình, anh ta ôm chặt người sống sót sau ba ngày mắc kẹt, toàn thân lấm lem bùn đất, ánh mắt kiên định và sáng rực.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

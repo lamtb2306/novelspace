@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Ngọc Lục Bảo Và Án Oan">
   <meta name="twitter:description" content="Tôi chẳng buồn để tâm đến những lời châm chọc, chỉ im lặng lấy điện thoại ra bấm số. Trương Vân San khoanh tay đứng xem, cười nhạt: “Đúng là tự chuốc họa vào thân!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

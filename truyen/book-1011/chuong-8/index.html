@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Ba người là một nhà">
   <meta name="twitter:description" content="“Rồi mỗi dịp lễ tết, em vác túi to túi nhỏ mang đi, những thứ đó toàn tiền tôi bỏ ra!” “Tivi, tủ lạnh, máy giặt trong nhà, từng bữa ăn của bố mẹ, thứ nào em từng góp được một xu?” “Em nói tôi coi b...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

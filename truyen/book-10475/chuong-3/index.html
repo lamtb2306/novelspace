@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | TÌNH YÊU RẺ MẠT">
   <meta name="twitter:description" content="Ở nhà bố mẹ, tôi quyết định quay lại với chuyên ngành cũ. Tôi từng học hoạt hình khi đại học, trước đây cũng từng tham gia sản xuất phim hoạt hình và phim ngắn. Lật danh bạ, tôi tìm đến những đồng ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

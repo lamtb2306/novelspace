@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Kiếp Này Tôi Chỉ Sống Vì Chính Mình">
   <meta name="twitter:description" content="Sau khi trọng sinh trở về, lần này bị bắt cóc mười lăm năm rồi được đưa về nhà, tôi tránh hết mọi cơ hội “bồi dưỡng tình cảm” với bố mẹ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

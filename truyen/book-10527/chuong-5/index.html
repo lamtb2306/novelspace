@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Chúng Ta Của Sau N ày">
   <meta name="twitter:description" content="Bố mẹ tôi cũng há hốc mồm, mặt đầy hoang mang, nhìn chằm chằm vào video như không thể tin nổi. “Sao có thể như vậy? Trên đời này thật sự có ‘quỷ đánh tường’ sao?” “Nhưng tại sao chỉ xảy ra với Tiểu...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

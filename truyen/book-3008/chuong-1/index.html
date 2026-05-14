@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | GAME TÌNH YÊU">
   <meta name="twitter:description" content="GAME TÌNH YÊU FULL “Tớ nghi là anh ta bên ngoài có người khác rồi.” Tôi vừa ôm Đại Bảo vừa trầm ngâm nói với cô bạn thân qua điện thoại. Giọng cô ấy đầy khinh bỉ vang lên: “Yêu online lại còn yêu x...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

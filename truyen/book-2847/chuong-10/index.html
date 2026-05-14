@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Có Một Nơi Gọi Là Nhà">
   <meta name="twitter:description" content="Dù từng vòng vèo một quãng đường dài mới gặp lại, tôi tin rằng chính hành trình ấy giúp chúng tôi càng biết trân quý nhau. Tình yêu đôi lúc cần thời gian lắng lại, cần thử thách để chứng minh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

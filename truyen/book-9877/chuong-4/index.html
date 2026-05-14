@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Chị Dâu Mới Về Nhà Đã Muốn Đuổi Cả Nhà">
   <meta name="twitter:description" content="Chờ đến lúc tôi về nhà, anh tôi mới quay lại. Vừa về tới, anh liền hấp tấp đi tìm ba mẹ, vội vã nói đã nhận ra lỗi của mình, hôm đó là anh sai, anh đã tự kiểm điểm rất sâu sắc. “Nếu mày biết sai rồ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

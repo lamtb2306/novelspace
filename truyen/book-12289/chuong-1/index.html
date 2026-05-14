@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chìa Khóa Vắng Mặt">
   <meta name="twitter:description" content="Ngày chuyển nhà, bố mẹ phát chìa khóa nhà mới cho tất cả mọi người. Anh trai, chị dâu, em trai, bạn gái của em, thậm chí cả cô giúp việc cũng có. Chỉ riêng tôi là không. Tôi kéo vali rời khỏi nhà, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

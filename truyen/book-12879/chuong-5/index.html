@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | RANH GIỚI TÌNH YÊU">
   <meta name="twitter:description" content="Tôi nháy mắt với cô ấy một cái, bạn thân tôi lập tức hiểu ý, giơ ngón cái lên: “Tao biết ngay mà, mày không phải dạng dễ bị bắt nạt!” Tôi tất nhiên không để yên như vậy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

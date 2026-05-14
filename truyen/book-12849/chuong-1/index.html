@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người dưng trong chính gia đình">
   <meta name="twitter:description" content="Sau khi cả nhà đi khám sức khỏe tổng quát, tôi đến lấy kết quả. Trên báo cáo hiển thị tôi có khả năng bị ung thư dạ dày, sau khi đi tái khám mới biết là nhầm mẫu giữa tôi và em trai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

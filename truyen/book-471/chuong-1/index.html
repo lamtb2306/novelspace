@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Muốn Nhà Cưới? Vậy Thì Ra Đi Tay Trắng">
   <meta name="twitter:description" content="Con trai sắp cưới vợ, cần có nhà cưới, mà đúng lúc tôi đứng tên một căn nhà. Để tiết kiệm năm trăm nghìn tệ tiền thuế sang tên, nó nghĩ ra một kế bẩn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

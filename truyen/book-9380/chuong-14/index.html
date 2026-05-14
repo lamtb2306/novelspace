@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 14 | Zombie Biết Khóc">
   <meta name="twitter:description" content="Cảm quan của tôi nhạy bén hơn con người rất nhiều. Tôi ngửi thấy ngoài mùi bụi bặm, còn có một mùi rất nhẹ của hoạt động con người. Rất mới. Chứng tỏ nơi này không lâu trước từng có người. Cấu trúc...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Người Nhặt Tôi Từ Đêm Mưa">
   <meta name="twitter:description" content="“Anh còn nhớ tôi đau dạ dày quằn quại trên giường, còn anh thì đưa Hứa Mạn đi mua sắm không?” “Anh còn nhớ sinh nhật tôi, bữa tối dưới ánh nến tôi chờ cả đêm, cuối cùng chỉ nhận được một tin nhắn ‘...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

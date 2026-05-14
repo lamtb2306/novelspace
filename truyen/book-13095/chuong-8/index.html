@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Bạn Cùng Khối Bỗng Thành Cha Dượng Tôi">
   <meta name="twitter:description" content="Trong quán cà phê, tôi nhìn cô gái ngồi đối diện đang bất an lo lắng, khẽ mở miệng: “Lưu Gia Hinh đúng không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

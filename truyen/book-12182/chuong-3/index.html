@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chế Độ Hẹn Trước">
   <meta name="twitter:description" content="Không phải tôi đi thăm nó. Mà nó tới thăm tôi. Tôi hiểu rồi. Nó chưa từng chủ động nói tới thăm tôi. Trước đây là tôi tới, nó bảo phải đặt lịch. Bây giờ nó tới. Vì 2,8 triệu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

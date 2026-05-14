@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Trò Chơi Quyền Lực Chốn Công Sở">
   <meta name="twitter:description" content="Giọng chú tôi bên đầu dây vang lên, mang theo chút ngạc nhiên: “Sao thế? Không muốn làm nữa à?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

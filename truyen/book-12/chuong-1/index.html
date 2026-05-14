@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Sau Khi Tôi Rời Bắc Kinh">
   <meta name="twitter:description" content="Lâm Chân vừa về đến nhà đã bị mẹ nuôi là Vương Quyên chặn ngay ở cửa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

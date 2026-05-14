@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Chiếc Hộp Giày Giữa Tận Thế">
   <meta name="twitter:description" content="Tôi trọng sinh về đúng một ngày trước khi tận thế mưa lớn ập đến, và lần nữa — em gái tôi lại cướp đi hệ thống [Thần cấp phóng đại vật tư].">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

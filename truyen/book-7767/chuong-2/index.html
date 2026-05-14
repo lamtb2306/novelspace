@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | 3,5 Giây Của Sự Thật">
   <meta name="twitter:description" content="Thấy tôi lạnh lùng đến thế, ba tôi loạng choạng. Lý Tiêu nhìn tôi, ánh mắt như tan nát hoàn toàn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

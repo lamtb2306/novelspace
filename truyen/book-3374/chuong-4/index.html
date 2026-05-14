@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | KHÔNG HOÀ HỢP">
   <meta name="twitter:description" content="Có lẽ anh cũng nhớ đến cảnh ngày đó, gương mặt ngà ngà say của anh thoáng hiện chút ngại ngùng như thiếu niên. Nhưng giây tiếp theo, tôi vỗ tay cái bốp rồi cười nhạo: “Hahaha, anh còn giả vờ trai n...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ba Năm, Chỉ Là Bạn Giường">
   <meta name="twitter:description" content="Tôi cá cược với cô bạn thân: nếu trong ba ngày có thể cưa đổ được vị Thiếu tướng lạnh như băng ấy, tôi sẽ được tự do chọn bất kỳ chiếc siêu xe nào trong gara của cô ấy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

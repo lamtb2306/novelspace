@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Livestream Câu View Hay Công Khai Cắm Sừng">
   <meta name="twitter:description" content="Sau chuyến du lịch trở về, tôi phát hiện chiếc Bugatti trong gara biệt thự đã biến mất.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

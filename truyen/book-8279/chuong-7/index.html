@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Trò Trốn Tìm Cuối Cùng">
   <meta name="twitter:description" content="Vậy nên, chị mới để tôi tự ra ngoài, rồi gặp phải chuyện dữ? Họ không dám nghĩ tiếp nữa. Không biết là ai, đã đem lời của chị và chuyện gia đình tôi đăng lên mạng. Tôi lơ lửng giữa không trung, nhì...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

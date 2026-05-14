@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | HY SINH NHIỀU NHẬN LẠI ĐƯỢC BAO NHIÊU">
   <meta name="twitter:description" content="Tôi vô tình lướt thấy một bài viết trên mạng: “Vợ tôi là kiểu yêu đương mù quáng, rất yêu tôi, cô ấy chẳng có lỗi gì cả, nhưng lại vô dụng, làm sao để đuổi cô ta ra khỏi nhà mà không được gì?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

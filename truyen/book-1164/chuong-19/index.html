@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 19 | Cái Giá Của Việc Xem Thường Tôi">
   <meta name="twitter:description" content="Nhưng chuyện vẫn không dừng lại ở đó. Ngày hôm sau, số điện thoại của tôi, địa chỉ nhà tôi, thậm chí cả ảnh chứng minh nhân dân của tôi. Tất cả đều bị người ta đăng lên mạng. Điện thoại quấy rối, h...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

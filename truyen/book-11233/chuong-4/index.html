@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | CUỒNG YÊU">
   <meta name="twitter:description" content="Tôi mua vé máy bay ngay trong đêm. Nghĩ đi nghĩ lại, tôi chọn đến Xuân Thành – nơi có thời tiết mát mẻ quanh năm và là một điểm đến du lịch nổi tiếng. Tôi định mua một ngôi nhà nhỏ ở đó, trồng hoa ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

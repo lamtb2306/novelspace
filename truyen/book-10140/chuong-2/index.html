@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Chủ Nhà Là Bạn Trai">
   <meta name="twitter:description" content="Ngồi lên xe Chu Lỗi. Tôi nhớ lời bạn thân dặn, cố giữ bình tĩnh. Giả vờ như chưa có chuyện gì xảy ra.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

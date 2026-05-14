@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thiên Kim Mong Manh">
   <meta name="twitter:description" content="Tôi sinh ra đã có thể chất cực kém, là kiểu “mong manh dễ vỡ” chính hiệu, gió thổi là ngã, gặp chuyện là khóc. Ngày được cha mẹ ruột tìm về, đón tôi trở lại hào môn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

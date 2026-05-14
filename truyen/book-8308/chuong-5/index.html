@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Cuộc Gọi Không Được Bắt Máy">
   <meta name="twitter:description" content="Tôi chỉ có thể lặng lẽ đi sát bên, không dám rời mắt. Hôm qua con gần như không ăn uống gì suốt cả ngày. Giờ bị nắng chiếu lên, gương mặt đỏ ửng, đôi môi bắt đầu nứt nẻ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

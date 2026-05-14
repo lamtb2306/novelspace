@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Công Ty Gia Đình">
   <meta name="twitter:description" content="Phòng khám đen đầy mùi thuốc lá, kim tiêm thì to đến đáng sợ. “Bốn trăm ml, ba trăm hai mươi tệ.” Người đó ném vài tờ tiền nhàu nát cho tôi, tôi cầm tiền trả lại cho bạn cùng phòng, còn lại mua hai...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | THỜI GIAN KHÔNG THỂ QUAY TRỞ LẠI">
   <meta name="twitter:description" content="Tôi lái xe vô định trên đường, đầu óc trống rỗng. Điện thoại đổ chuông — là bạn thân của tôi, Hạ Băng. “Đường Uyển! Cậu có thai mà không thèm nói gì với tớ à? Tớ thấy phiếu khám của cậu rồi đấy nhé...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Cả Nhà Tôi Là Cổ Thần, Chỉ Mình Tôi Là Người">
   <meta name="twitter:description" content="Tôi nhẹ nhàng đẩy cửa. Dưới ánh trăng, tôi thấy con ngồi trên giường, trong tay cầm chiếc còi xương mà tôi tưởng đã vứt từ lâu. Nó đang nói chuyện với con búp bê một tay.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

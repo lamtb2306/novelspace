@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cô Gái Trong Gương Không Phải Tôi">
   <meta name="twitter:description" content="Không lâu sau khi tôi bị chẩn đoán mắc bệnh bạch cầu, bố mẹ tôi nhận nuôi con gái của người giúp việc trong nhà. Cô gái đó mặc chiếc váy len dài qua gối giống hệt tôi, để mái tóc đen dài thẳng xõa ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

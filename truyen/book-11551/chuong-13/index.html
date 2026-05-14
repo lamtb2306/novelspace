@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 13 | Luôn bận vì em">
   <meta name="twitter:description" content="Tôi đọc ra một mốc thời gian và tên một nhà hàng cao cấp. Là thứ Tư tuần sau, sinh nhật của Tiêu Tẫn. Theo như “thói quen” bao năm nay, nếu không có nhiệm vụ, tôi sẽ đặt sẵn bàn tại nhà hàng đó để ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

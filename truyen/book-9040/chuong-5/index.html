@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | 47 Lần Bị Xóa">
   <meta name="twitter:description" content="Chỉ là tôi cảm thấy, những người này không phải dữ liệu. Họ là những con người thật sự đang sống ở đầu bên kia màn hình. Tôi cầm điện thoại lên. Không phải để liên hệ khách hàng. Mà là khách hàng đ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

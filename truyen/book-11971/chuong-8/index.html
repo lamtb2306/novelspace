@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Quay Lại Là Chính Mình">
   <meta name="twitter:description" content="“Một nhiếp ảnh gia nghèo rớt mở cái studio rách nát, có tư cách gì đứng ở đây?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

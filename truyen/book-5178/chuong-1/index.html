@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÌNH YÊU CỦA AN NHIÊN">
   <meta name="twitter:description" content="Tôi, An Nhiên, một người phụ nữ bình thường mang con bỏ trốn suốt năm năm, cuối cùng cũng đủ can đảm quay về nước. Tưởng rằng sẽ âm thầm lặng lẽ, ai ngờ vừa xuống máy bay đã đụng trúng bố của con m...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

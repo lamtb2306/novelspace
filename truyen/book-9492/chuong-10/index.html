@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Ký Sinh Trùng Mang Tên Tình Thân">
   <meta name="twitter:description" content="Tôi biết rõ, cuộc đời tôi đã thực sự sang trang. Còn dì út, bà ta buộc phải một mình đối mặt với tất cả hậu quả do chính mình gieo trồng. 12 Thêm một năm nữa trôi qua.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

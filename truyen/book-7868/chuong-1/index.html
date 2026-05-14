@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NỤ CƯỜI NGỌT NGÀO">
   <meta name="twitter:description" content="NỤ CƯỜI NGỌT NGÀO FULL Sau khi biết tôi bị mù màu một phần, anh ấy lập tức nhuộm tóc đỏ. Anh ấy còn thay toàn bộ quần áo sang màu sáng, chỉ để tôi có thể nhìn thấy anh ấy ngay trong đám đông.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

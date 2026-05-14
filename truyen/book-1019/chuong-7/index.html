@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Bánh sinh nhật 100 cây nến của bà nội">
   <meta name="twitter:description" content="Tôi bốn tuổi, lần đầu được đưa về quê. Một bà lão tóc bạc ngồi ở cửa phơi nắng. Tôi đi đôi giày không vừa chân và bộ quần áo cũ kỹ. Anh họ lao tới đẩy tôi ngã xuống đất.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

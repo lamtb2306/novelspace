@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Kẻ Thứ Ba Không Thể Bắt Được">
   <meta name="twitter:description" content="Chồng tôi ngoại tình. Nhưng không có vết son, không có mùi nước hoa, thậm chí không tìm thấy cả lịch sử thuê phòng khách sạn. Thế là vào ngày sinh nhật anh ta, tôi tặng anh một chiếc máy cạo râu th...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

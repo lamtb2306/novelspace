@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | ĐƯỜNG VĂN">
   <meta name="twitter:description" content="“Người ta bảo không gặp được anh thì cô ấy không chịu đi bệnh viện, cô ấy một mình về từ Mỹ, không có người thân bên cạnh, anh không thể đứng nhìn cô ấy gặp chuyện mà không làm gì.” Tôi khẽ cười kh...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

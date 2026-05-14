@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CON MA U ÁM">
   <meta name="twitter:description" content="Tôi là kiểu người thích nói lý lẽ. Kể cả với ma, tôi cũng phải nói cho ra nhẽ. Cũng vì thế mà bị một con ma nam ẩm ướt đeo bám. Đúng nghĩa là ma nam. Đêm nào hắn cũng xuất hiện bất thình lình, ôm t...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

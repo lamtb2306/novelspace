@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KHI KHÔNG CÓ NHÀ ĐỂ VỀ">
   <meta name="twitter:description" content="Tôi trúng hai trăm triệu, liền nghỉ việc, quay về quê. Đến bến xe, tôi gọi điện cho ba bảo đến đón, ông hỏi tôi sao lại về. Tôi đùa rằng bị sa thải rồi, thất nghiệp về nhà ăn bám. Trời mưa lớn, tôi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

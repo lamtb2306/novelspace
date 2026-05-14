@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Sai Ghế, Sai Người">
   <meta name="twitter:description" content="Trên chuyến tàu cao tốc về trường, có người ném hành lý chắn ngay trước mặt tôi. Tôi lễ phép nhắc nhở, đối phương liếc qua chiếc vali in khẩu hiệu trường của tôi, khẽ cười khẩy: “Sinh viên mới à? G...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

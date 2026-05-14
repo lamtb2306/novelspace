@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Chỉ vì tám trăm tệ, tôi đoạn tuyệt với gia đình">
   <meta name="twitter:description" content="“Nhà mình bốn người đều mắt hai mí, mũi cao, sao chỉ có mày mắt một mí, mũi tẹt? Có khi nào mày là đứa được ba mẹ nhặt ngoài đường về không?” “Haha, đừng có mơ, vịt xấu xí thì vẫn là vịt xấu xí.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

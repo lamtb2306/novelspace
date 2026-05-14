@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CON ĐƯỜNG KHÔNG CÓ ĐIỂM DỪNG">
   <meta name="twitter:description" content="Lần gặp lại, chú Vương gọi tôi đến nhà, nói rằng chú đã nộp đơn xin trợ cấp với chính quyền, mỗi tháng sẽ có 200 đồng, chờ duyệt xong sẽ báo tôi biết. Ba tháng trôi qua vẫn không có tin gì.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

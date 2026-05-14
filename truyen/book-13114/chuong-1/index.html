@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHUYẾN DU LỊCH CUỐI CÙNG">
   <meta name="twitter:description" content="Em gái tôi thi đại học không tốt, bố mẹ đưa cả nhà đi du lịch để giải sầu. Vì muốn chăm sóc cảm xúc của em, những điểm du lịch trên đường đi bố mẹ đều không cho tôi tham gia. Chỉ để mình tôi lại tr...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

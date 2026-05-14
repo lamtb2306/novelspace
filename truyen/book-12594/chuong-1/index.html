@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | HOÀNG HÔN TUYỆT LỘ">
   <meta name="twitter:description" content="Tôi là một streamer hạng xoàng, sống lay lắt nhờ livestream xem bói lừa cơm lừa nước. Cho đến một ngày, tôi kết nối với một anh trai top 1 bảng xếp hạng, ID là “Hoàng hôn tuyệt lộ”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

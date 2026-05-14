@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đuôi cá trên bàn đêm Giao thừa">
   <meta name="twitter:description" content="Đêm Giao thừa, tôi đưa con gái năm tuổi về nhà ăn Tết. Mẹ tôi chỉ nói một câu: “Muốn ăn món con nấu.” Thế là tôi tất bật từ sáng sớm đến tận tối mịt. Cho đến khi bưng món cuối cùng lên phòng khách.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

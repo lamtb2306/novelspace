@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Cá Chép May Mắn">
   <meta name="twitter:description" content="Tôi ném hóa đơn mua hàng vào mặt cô ta, “Hàng chính hãng, nếu không tin thì đến cửa hàng mà làm ầm lên, nói họ bán hàng giả cho tôi.” “Còn nữa, nếu tôi thực sự ăn trộm cái vòng rách rưới đó của cô,...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

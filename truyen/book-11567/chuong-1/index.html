@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thiên Kim Thật Không Biết Dùng Dao Nĩa">
   <meta name="twitter:description" content="Tôi là thiên kim thật, được nhà giàu tìm về. Nhưng tôi không biết dùng dao nĩa, cũng không dám ngồi vào bàn ăn. Trong bữa tiệc đón gió, thiên kim giả cố ý làm đổ món chính là bò Wellington, nước số...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

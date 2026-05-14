@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Lời Nguyền Tăng Ca">
   <meta name="twitter:description" content="Tôi nhìn vào mắt anh ta. “Tôi chính là tôi thôi, tổng giám đốc Lý.” “Không thể nào!” Anh ta bước lên một bước. “Cô nhất định biết gì đó, tối hôm đó… tối hôm đó tôi rõ ràng đã thấy!” “Ông thấy gì?” ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

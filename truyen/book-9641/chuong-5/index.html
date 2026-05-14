@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Tôi Là “Ứng Dụng Chuyển Tiền” Của Gia Đình Suốt Tám Năm">
   <meta name="twitter:description" content="Tôi nhìn thẳng vào bà. “Tám năm trước, mẹ đá con khỏi nhóm gia đình, mẹ nói với mọi người là vì con lấy chồng.” “Đúng, lấy chồng thì—” “Nhưng tám năm này, mỗi tháng con chuyển cho mẹ ba nghìn. Ngày...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

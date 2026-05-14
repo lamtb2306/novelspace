@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Heo Nái Cứu Vớt Học Bá">
   <meta name="twitter:description" content="Đám người kia bịt mũi, cười nhạo cậu. “Thời Vũ, mày có thể đừng mang mùi hôi từ khu ổ chuột tới trường được không?” “Đúng đấy, cái đồ côn trùng hôi hám!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

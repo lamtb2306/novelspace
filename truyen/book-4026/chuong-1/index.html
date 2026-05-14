@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGOẠI TÌNH VỚI TỔNG TÀI">
   <meta name="twitter:description" content="Khi nhận được tin nhắn của Thẩm Thuật Hoài, tôi vẫn đang ở khách sạn vui vẻ bên người tình mới. “Chiều mai ba giờ tôi sẽ bay về nước, thời gian tới tôi sẽ ở lại trong nước.” Tôi khẽ nhướng mày.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

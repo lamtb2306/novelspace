@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | BÔNG HỒNG TRẮNG">
   <meta name="twitter:description" content="Ký ức về thành phố A quá ồn ào, tôi quyết định chuyển đến một thành phố khác để bắt đầu cuộc sống mới. Khi bạn thân của tôi đến giúp dọn dẹp đồ đạc, cô ấy vô tình tìm thấy chiếc vòng tay mà Đàm Hứa...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

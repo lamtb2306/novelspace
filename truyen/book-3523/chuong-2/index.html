@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | KẾT HÔN SAU MỘT CHÉN SAY">
   <meta name="twitter:description" content="Tôi trừng mắt nhìn anh một cái, rồi quay đi, tiếp tục thu dọn, bỏ lại anh đứng ngây người phía sau. Tôi tưởng rằng trò hề giữa hai chúng tôi đến đây là kết thúc, nào ngờ còn chưa bắt đầu đã có thêm...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

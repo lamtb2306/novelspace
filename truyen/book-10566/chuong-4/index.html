@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Đuôi cá trên bàn đêm Giao thừa">
   <meta name="twitter:description" content="“Em mau về đi! Mẹ bệnh rồi, nhập viện rồi!” Tim tôi thót lên một cái. Dù đã quyết định đoạn tuyệt, nhưng nghe tin này, tôi vẫn không thể thờ ơ. “Bệnh gì?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

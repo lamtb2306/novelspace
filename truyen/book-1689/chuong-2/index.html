@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tình Yêu Sau Cơn Mưa">
   <meta name="twitter:description" content="Tôi ngồi đợi trên hàng ghế dài của Cục Dân chính suốt nửa giờ. Không ngờ Ngụy Lâm Xuyên lại gọi đến. “Nghe nói cô hôm nay không đi làm, đang ở đâu?” Giọng anh lạnh lùng. Tôi không trả lời.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

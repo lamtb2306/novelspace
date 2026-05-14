@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Tài Sản Đã Được Ghi Tên">
   <meta name="twitter:description" content="Tôi nhẹ nhàng nâng tách trà lên, thổi nhẹ làn lá nổi trên mặt nước, nhấp một ngụm. Mùi trà thơm ngát.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

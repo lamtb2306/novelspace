@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Thẩm Chiêu Nguyệt">
   <meta name="twitter:description" content="Tứ hoàng huynh như đã hiểu rõ: “Được rồi được rồi, ngươi xót người ta quá rồi. Có ngươi che chở, Ngũ muội còn có thể gặp chuyện gì được nữa?” “Chỉ là…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

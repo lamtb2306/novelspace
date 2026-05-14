@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Người Nhặt Tôi Từ Đêm Mưa">
   <meta name="twitter:description" content="Anh ta nhét tấm thiệp vào tay tôi, tìm cớ lấp liếm: “Dẫn em đi ăn một bữa ngon.” Tôi đưa tay, nhận lấy tấm thiệp mời ấy. “Được.” Tôi nhàn nhạt đáp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

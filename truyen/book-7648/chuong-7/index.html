@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Ta Trở Về Để Lấy Lại Mọi Thứ">
   <meta name="twitter:description" content="Liễu Phù Tuyết khẽ thở dài một tiếng, ngữ điệu ngọt đến phát ngấy: “Liệu có tàn nhẫn quá không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

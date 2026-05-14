@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | BỨC THƯ CUỐI CÙNG TRƯỚC KHI RỜI ĐI">
   <meta name="twitter:description" content="Chỉ biết, tôi không để tâm đến ánh nhìn soi mói của mọi người xung quanh, lặng lẽ ngồi uống nốt ly cà phê rồi mới rời đi. Ra khỏi quán, tôi mới phát hiện trời đã tối đen. Tôi đi bộ về nhà.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

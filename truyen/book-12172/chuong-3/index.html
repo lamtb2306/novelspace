@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | HÀNH TRÌNH CHO RIÊNG MÌNH">
   <meta name="twitter:description" content="Ông ấy ném cho tôi một cái nhìn khó chịu, lạnh lẽo đến thấu xương: “Cũng biết đường mà về cơ đấy? Sao không chết luôn ở ngoài kia đi cho xong?” “Chắc ở ngoài chẳng ai thèm chứa, nên mới phải vác mặ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

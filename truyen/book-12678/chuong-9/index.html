@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Đồ Ăn Nhà Hàng Xóm Ngon Hơn">
   <meta name="twitter:description" content="Tôi nhìn vào đôi mắt anh đang ở gần sát. Trong đó phản chiếu rõ ràng một tôi bé nhỏ, hai má ửng hồng. Tôi không còn do dự nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

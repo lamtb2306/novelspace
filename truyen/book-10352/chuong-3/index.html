@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CẦU ĐƯỢC ƯỚC THẤY">
   <meta name="twitter:description" content="Rất không may, tôi bị cảm. Mẹ tôi phán ngay một câu: “Chơi điện thoại nhiều mà ra.” Tôi không thể phản bác. Vì đúng là như vậy. Dịp Tết nên bệnh viện không quá đông. Trần Ân Niên bị chặn ngay cửa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

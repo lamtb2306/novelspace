@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chiếc Tủ Không Có Lối Ra">
   <meta name="twitter:description" content="Sau khi bị người giúp việc bạo hành suốt năm năm trời, bố mẹ ruột của tôi — những người thuộc tầng lớp thượng lưu — cuối cùng cũng phát hiện ra tôi mới chính là con gái ruột của họ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | GHI CHÚ TỬ THẦN">
   <meta name="twitter:description" content="Tôi nhìn sang màn hình. Thứ này được đặt ở đây… rốt cuộc để làm gì? Tôi gõ nhẹ vào màn hình — nó sáng lên. Trên đó xuất hiện một bản tin tức nóng. Một cặp nam nữ chết thảm trong nhà riêng, nghi phạ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

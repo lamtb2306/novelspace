@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 22 | Sau Khi Ta Bị Ban Cho Trang Đầu">
   <meta name="twitter:description" content="Ngay khoảnh khắc đó, ta chợt thấy một bóng đen lướt nhanh qua chân tường, nhanh đến mức tưởng như là một ảo giác.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

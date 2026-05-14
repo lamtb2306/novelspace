@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Nếu Tôi Không Trị Được Cô, Để Người Ch ết Trị Cô">
   <meta name="twitter:description" content="Thế nhưng đúng hai giờ sáng hôm đó, mụ điên ấy lại đúng giờ như vắt chanh mà gõ cửa nhà tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

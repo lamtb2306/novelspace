@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Con Lai Của Rồng">
   <meta name="twitter:description" content="Tôi sinh ra, suýt nữa bị mẹ ném vào núi lửa. Bởi vì bà là rồng. Còn tôi thì không có vảy, không có vuốt, chỉ có một cơ thể mềm nhũn trơn bóng. Khi dì tôi biết chuyện, bà lập tức dẫn theo một đám rồ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

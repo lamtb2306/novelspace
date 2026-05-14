@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | QUÝ BÀ THUÊ TÔI TÁT LẬT MẶT THÁI TỬ GIA">
   <meta name="twitter:description" content="Hạ Thành đâu rồi? À, trong phòng tắm, tiếng nước vẫn chảy. Tôi lao qua đó gõ cửa rầm rầm: “Xong chưa đấy?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

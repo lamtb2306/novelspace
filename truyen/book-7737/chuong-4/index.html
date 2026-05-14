@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | CÔ DÂU THẾ MẠNG">
   <meta name="twitter:description" content="Tôi đợi thêm một lát. Sau đó nhắn tin hỏi Hứa Thiến xem quần áo của tôi khi nào mới mang tới. Đối phương nhắn lại rất nhanh: “Sắp tới rồi.” Cô ta đang câu giờ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

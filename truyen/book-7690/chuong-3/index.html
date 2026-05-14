@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | TRÚC DU">
   <meta name="twitter:description" content="Tôi đưa tay ra, lòng bàn tay hướng về phía cậu ta, cắt ngang lời nói đang tuôn như suối. “Đừng làm người ta thấy buồn nôn nữa, cảm ơn. Tôi không cần cậu giúp gì hết.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

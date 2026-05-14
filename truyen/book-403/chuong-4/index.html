@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | GIẢI THOÁT CHÍNH MÌNH">
   <meta name="twitter:description" content="Giữa hai chân tôi, những ngón tay anh không chút thương xót xâm nhập.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

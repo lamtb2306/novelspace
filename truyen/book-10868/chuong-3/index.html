@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | khi tình yêu không trả nổi phẩm giá">
   <meta name="twitter:description" content="Tôi không ra sạp, mà đi thẳng đến trung tâm thương mại để mua sắm thỏa thích. Không người phụ nữ nào không thích shopping cả. Trước đây tôi mặc đồ rẻ chỉ là vì tiết kiệm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

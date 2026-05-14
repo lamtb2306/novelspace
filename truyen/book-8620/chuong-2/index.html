@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Bỏ Việc Xong, Tôi Mua Luôn Công Ty">
   <meta name="twitter:description" content="“Xin nghỉ?” Tôi lại nhắn tin: “Hôm nay anh xin nghỉ à? Có chuyện gì không? Em nghỉ rồi, có đi cùng không?” Nhắn xong, tôi quay về bàn làm việc, định thu dọn đồ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Chiêu Trò Của Bà Mẹ Quái Chiêu">
   <meta name="twitter:description" content="Bỗng nhiên, bà ta phát hiện tôi đã đến, phía sau còn có một đám người đi theo.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

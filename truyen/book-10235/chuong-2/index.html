@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Hào Môn Giả Tạo”">
   <meta name="twitter:description" content="Hồi môn của tôi là một cái chăn và hai nghìn tệ. Chị ấy lại hỏi tôi có cần giúp tìm công ty tổ chức hôn lễ giảm giá không.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

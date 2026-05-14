@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Em Họ Ở Nhờ Mười Hai Năm, Sính Lễ Lại Đòi Nhà Tôi Trả">
   <meta name="twitter:description" content="“Đợi mua xe xong, em còn phải sửa sang nhà cửa theo ý em nữa cơ!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

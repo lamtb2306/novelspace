@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Một Người Ly Hôn, Ba Người Theo Đuổi">
   <meta name="twitter:description" content="Thấy tôi đang nằm trên giường, hắn vừa gặm trái nho trên đĩa trái cây vừa toe toét cười: “Ơ kìa, thưa chủ nhân của tôi, bị bệnh mà không thèm triệu hồi tôi? Còn để tôi tự mò đến.” “Ơ kìa, quản gia ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

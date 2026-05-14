@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Phu Quân Muốn Ta Tuyệt Tự">
   <meta name="twitter:description" content="Thanh La khẽ nói: “Phu nhân, Liễu Uyển Thanh cắn câu rồi. Tiếp theo làm thế nào?” “Không vội.” Ta bưng chén trà, khẽ nhấp một ngụm. “Để ả khoái hoạt thêm vài ngày.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

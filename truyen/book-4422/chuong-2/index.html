@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Oan Gia Trong Nhà">
   <meta name="twitter:description" content="Một lúc sau, như nhớ ra gì đó, cô ta chạy về phòng lấy ra một chiếc hộp nhỏ xinh rồi đưa cho tôi: “Chị, đây là quà em chuẩn bị cho chị, chúc mừng chị được tự do!” Tôi không nhận, chỉ tiếp tục ăn cơ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

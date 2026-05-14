@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | KẾT HÔN NĂM THỨ BẢY">
   <meta name="twitter:description" content="Mì trước mặt đã nguội lạnh, tôi đặt đũa xuống. Thẩm Lãng nhìn tôi, dường như có chút ngạc nhiên, nhưng lại như không hề bất ngờ. “Em đã nghĩ kỹ chưa?” anh hỏi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

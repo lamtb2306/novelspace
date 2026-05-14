@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGUYỆN VỌNG BỊ THAY ĐỔI">
   <meta name="twitter:description" content="Ngày tôi nhận được giấy báo trúng tuyển của Hải Đại, tôi phát điên mà chạy đi tìm Thẩm Dự Bạch. Anh ta lại dám sửa nguyện vọng thi đại học của tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

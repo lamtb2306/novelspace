@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ván Cược Tình Yêu">
   <meta name="twitter:description" content="Năm đó tôi từng giấu tên giấu họ mà quen một anh thợ sửa xe. Vì anh ta, tôi cãi nhau với gia đình, từ bỏ quyền thừa kế, ra đi tay trắng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

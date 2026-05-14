@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | THỜI NGUYỆT">
   <meta name="twitter:description" content="Năm thứ bảy sau khi tôi và Phó Yến Tri kết hôn. Chúng tôi tình cờ gặp nhau ở một nhà hàng sang trọng. Anh đang ăn tối dưới ánh nến cùng Thẩm Nhất Nam. Còn tôi thì đến để dùng bữa với khách hàng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

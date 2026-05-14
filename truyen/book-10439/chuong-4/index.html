@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | TÌNH CẢM THANH MAI TRÚC MÃ CUỐI CŨNG ĐÃ TAN VỠ">
   <meta name="twitter:description" content="Tôi không muốn bị Hoắc Văn Châu làm phiền thêm nữa, nhưng cũng không biết phải đi đâu. Dù tôi trốn ở đâu, anh đều có thể tìm được. Tôi biết, lần trước người nhà họ Hoắc đến tìm tôi là do anh chỉ đạo.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

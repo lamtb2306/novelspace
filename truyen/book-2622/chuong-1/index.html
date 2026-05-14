@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chim Hoàng Yến và Quỷ Béo">
   <meta name="twitter:description" content="Chỉ cần mỗi tháng một hai vạn, là có thể bao nuôi một nữ sinh đại học trẻ đẹp. Tôi là trung gian bao dưỡng, chuyên kết nối chim hoàng yến với các kim chủ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

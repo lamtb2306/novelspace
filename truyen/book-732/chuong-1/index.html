@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KHÉO GẢ">
   <meta name="twitter:description" content="Tỷ tỷ của ta đã gả cho Nhị hoàng tử, còn muốn ta gả cho Thái tử. “Muội muội à, đây gọi là song bảo, gia tộc chúng ta sẽ phú quý, khóa chặt không lối thoát!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

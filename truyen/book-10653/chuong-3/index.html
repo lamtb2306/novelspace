@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CHỒNG BỊ GIANG MAI">
   <meta name="twitter:description" content="Hạ Mẫn nhíu mày, có vẻ khó chịu khi gạt tay tôi ra: “Chuyện lâu như vậy rồi, sao tôi còn nhớ nổi nữa.” “Cô nhất định nhớ!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

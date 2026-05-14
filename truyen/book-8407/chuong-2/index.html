@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Sáu Tháng Cho Một Kẻ Phản Bội">
   <meta name="twitter:description" content="Xúc xích bột rất ngon. Trên đường quay về, tôi lại mua thêm vài món khác. Đi ngang qua một quầy bán hạt dẻ rang đường, mùi thơm ngọt ngào khiến tôi chợt nhớ đến một ký ức xa xưa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

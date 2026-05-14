@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | BẠN TRAI CÂM">
   <meta name="twitter:description" content="Tên mặt sẹo vừa mới giơ tay định bắt tôi, cửa bí mật đã bị rìu bổ tung. “Hehe, tìm thấy các người rồi!” Tên mặt sẹo lùi lại một bước, lập tức dựng một kết giới.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

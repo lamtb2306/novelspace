@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Sóng Gió Năm Nhất">
   <meta name="twitter:description" content="Rõ ràng đây là người nhà của Trần Nam. Tôi lạnh giọng: “Cảnh sát điều tra rõ ràng rồi, chuyện này liên quan gì đến tôi?” Người đàn ông dẫn đầu chỉ tay vào mặt tôi: “Sao lại không liên quan!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | NGƯỜI VỢ CŨ BỊ THIÊU SỐNG">
   <meta name="twitter:description" content="Đúng là… không quá đáng thật. Nhưng cũng… quá đủ rồi! Cho nên, từ giờ trở đi, dù tôi có làm gì đi nữa… cũng chẳng thể gọi là quá đáng!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

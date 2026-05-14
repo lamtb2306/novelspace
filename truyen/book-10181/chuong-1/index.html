@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ta Là Tinh Quái Trong Núi, Bị Một Đứa Nhóc Ép Làm Nương">
   <meta name="twitter:description" content="Ta là tinh quái trong núi, sống đã mấy trăm năm. Có một cô nương lúc còn sống, cứ đến mùng một ngày rằm lại đến thắp hương, đồ cúng năm nào cũng bày trên tảng đá của ta. Ta lười so đo, ăn chực uống...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

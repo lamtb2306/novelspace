@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KHÔNG HỐI TIẾC">
   <meta name="twitter:description" content="Xuyên không kết thúc, hệ thống đột nhiên bị hỏng. Tôi ở lại và kết hôn với Lục Trì. Bảy năm trôi qua, chàng trai u ám, yếu ớt ngày nào đã trở thành nhân vật nổi bật mới của thành phố Dung Thành.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

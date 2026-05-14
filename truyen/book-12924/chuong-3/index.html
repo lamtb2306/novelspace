@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Ai Mới Là Con Mồi?">
   <meta name="twitter:description" content="“Đều là người một làng, tới đây thôi là được rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

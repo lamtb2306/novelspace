@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Họ Đuổi Tôi Khỏi Dự Án 10 Tỷ">
   <meta name="twitter:description" content="Tòa nhà thương mại sắp khánh thành, tôi bàng hoàng phát hiện kích thước trên bản vẽ thiết kế đã bị sai lệch. Việc tháo dỡ và xây lại sẽ ngốn sạch gần mười tỷ tệ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

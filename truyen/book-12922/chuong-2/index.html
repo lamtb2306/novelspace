@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Ân Oán Nhà Họ Kỳ">
   <meta name="twitter:description" content="Họ bắt đầu sợ tôi. Vì tôi đủ độc, cũng đủ im lặng. Một kẻ thù im lặng, còn đáng sợ hơn một kẻ gào thét. Tôi bắt đầu tận dụng mọi nguồn lực có thể.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

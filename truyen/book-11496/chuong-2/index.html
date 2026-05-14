@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TRÌNH NHƯ CẨN">
   <meta name="twitter:description" content="Lướt xong hầu hết bình luận, tôi dùng tài khoản chính của mình, để lại một dòng dưới bình luận hot nhất: “Bạn nói đúng, làm nội trợ thật sự rất thảm.” Bình luận xong, tôi liền đăng một bài viết độn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

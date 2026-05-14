@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | HỒI TƯỞNG">
   <meta name="twitter:description" content="Buổi tối, dưới ánh sáng của những chiếc đèn lấp lánh như những vì sao, những bông hồng leo trông lại càng mộng mơ hơn. Tôi vừa bước một bước vào sân. Đột nhiên nhớ lại, kiếp trước cũng từng có cảnh...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

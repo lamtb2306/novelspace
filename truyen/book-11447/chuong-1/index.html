@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÁI HÔN TRẢ NỢ">
   <meta name="twitter:description" content="Khi tôi và thái tử gia giới Bắc Kinh ly hôn, trên người tôi gánh khoản nợ một trăm triệu tệ. Mọi người đều nói, không quá một tháng tôi sẽ quay lại quỳ gối cầu xin tái hôn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ngón Tay Trong Nhân Bánh Chẻo">
   <meta name="twitter:description" content="Đêm giao thừa gói bánh chẻo, tôi xuống dưới lầu mua thịt băm. Thịt hai mươi tệ một cân, tôi cắn răng mua liền hai cân. Ông chủ bảo đây là lợn vừa mổ dịp Tết, tươi rói. Về nhà, tôi vừa trộn nhân vừa...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

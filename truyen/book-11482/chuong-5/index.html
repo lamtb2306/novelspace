@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Bữa Cơm Đoàn Viên Giá Mười Hai Ngàn">
   <meta name="twitter:description" content="Tôi khẽ lắc lắc điện thoại. “Không sao đâu, công ty tôi có tài khoản riêng, toàn bộ sự việc sẽ được làm rõ ở đó. Cứ để cư dân mạng đánh giá!” Sợ gây thêm rắc rối, dì út vội vàng bỏ chạy, đến mấy mó...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Người Lạ Cuối Đường">
   <meta name="twitter:description" content="“Homestay hiện tại của tôi, mỗi tháng lợi nhuận gấp mấy lần bên các người.” Tôi tiếp tục. “Các người định dùng gì để bù đắp cho tôi?” “Vậy… vậy rốt cuộc chị muốn gì?” Giọng Tôn Phi Phi đầy tuyệt vọ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

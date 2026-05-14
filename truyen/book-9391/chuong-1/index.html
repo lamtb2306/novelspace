@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Triệu Tiền Âm Phủ">
   <meta name="twitter:description" content="Vào ngày tôi được trọng sinh trở lại công ty và được tổng giám đốc Lý thưởng cho một triệu tệ, việc đầu tiên tôi làm là đến ngân hàng mở một trăm thẻ, rồi chia đều số tiền đó gửi vào từng tài khoản.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

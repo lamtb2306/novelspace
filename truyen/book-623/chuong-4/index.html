@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | VẾT SẸO CÒN MÃI">
   <meta name="twitter:description" content="Với bản năng của một bác sĩ, tôi chạy thẳng về phía bệnh viện. Bệnh viện là công trình chống động đất, phần chính chắc không sao, nhưng khu nhà cũ của khoa nội trú thì toàn là nhà xuống cấp. Tới nơ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

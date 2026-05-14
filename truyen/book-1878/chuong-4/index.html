@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | TÌNH YÊU GIÔNG BÃO">
   <meta name="twitter:description" content="Trang Tự lập một tài khoản mới, giả vờ là bạn học cấp ba của Trần Khả và gửi lời mời kết bạn. Trần Khả không nghi ngờ gì, sau khi hỏi tên, cô gửi lại một biểu tượng mặt cười.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

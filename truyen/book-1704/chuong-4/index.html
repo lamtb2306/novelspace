@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | TẬN THẾ QUA ĐI">
   <meta name="twitter:description" content="Sao lại có thể ở đây? Chuyện gì đang xảy ra thế này?! Tôi ôm đầu, không tin nổi vào mắt mình, càng không hiểu Cố Minh đã làm bằng cách nào. Tôi khóa chặt tất cả, không để lộ cho bất kỳ ai biết, vì ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

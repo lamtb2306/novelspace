@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Lần Này, Tôi Sống Cho Chính Mình">
   <meta name="twitter:description" content="Sau khi sống lại, việc đầu tiên tôi làm là giả một tờ kết quả xét nghiệm suy thận. Ở kiếp trước, cháu trai tôi bị chẩn đoán mắc suy thận, cần ghép thận mới có thể cứu được. Tôi lập tức đi kiểm tra ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

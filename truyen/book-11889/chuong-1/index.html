@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Lạ Cuối Đường">
   <meta name="twitter:description" content="Dự án homestay ở Hải Nam, mỗi năm lãi ròng 3,6 triệu tệ. Đến ngày chia tiền, chú thím tôi đều có mặt, em họ đẩy một thẻ ngân hàng 200 ngàn tệ đến trước mặt tôi. “Chị, vất vả rồi, đây là phần chia l...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Lòng Người Sau Một Lần Chuyển Khoản">
   <meta name="twitter:description" content="“Tình Tình, rốt cuộc mày có chuyển 10 vạn đó không?” Giọng mẹ tôi rất gắt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

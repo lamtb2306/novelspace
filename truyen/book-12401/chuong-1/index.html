@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ngày Hẹn Hò, Tôi Khiến Nữ Chính Xấu Hổ Tới Khóc">
   <meta name="twitter:description" content="Đêm trước ngày hẹn gặp mặt bạn trai quen qua mạng. Cô em kế ra sức khuyên tôi uống ly trà dưỡng nhan do chính tay nó pha.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

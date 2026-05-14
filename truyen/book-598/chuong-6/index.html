@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | TÌNH YÊU CỦA THIẾU TÁ">
   <meta name="twitter:description" content="QUAY LẠI CHƯƠNG 1 : Khi bức ảnh kia xuất hiện trên màn hình, anh ta gần như lập tức đặt vé sang nước A. Mỗi bức ảnh, mỗi video trong tài khoản, anh ta đều xem đi xem lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KIẾP NÀY CHỊ SẼ KHÔNG NGĂN EM">
   <meta name="twitter:description" content="Khi đi du lịch vào kỳ nghỉ hè, em gái lén lút leo lên một chiếc xe bán tải. Tôi giả vờ như không nhìn thấy, xoay người rời đi. Kiếp trước, tôi đã ngăn em ấy lại. Nhưng điều đó khiến nó căm hận tôi ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

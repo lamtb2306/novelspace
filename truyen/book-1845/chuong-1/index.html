@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MẬT NGỌT NGÀY TẾT">
   <meta name="twitter:description" content="Tắc đường về quê ăn Tết, tôi chơi mạt chược ngay trên cao tốc. Vài ván trôi qua, tôi thắng đến nỗi tiền đầy túi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

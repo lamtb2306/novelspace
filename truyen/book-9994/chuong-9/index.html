@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Trò Chơi Chia Điểm">
   <meta name="twitter:description" content="“Đồ khốn nạn! Sớm biết thế, lúc đó cứ để mày chết ngoài đường cho rồi!” Những người khác còn chưa kịp hiểu chuyện gì, đã bị cảnh sát áp chế bắt lại. Còn Diệp Noãn Noãn đang định lao lên nhảy lầu cũ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

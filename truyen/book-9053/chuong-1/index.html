@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cô bạn thân và chồng tôi">
   <meta name="twitter:description" content="Lúc tra tài liệu, tôi vô tình lướt thấy một bài đăng đang hot rần rần. 【Làm sao đây khi tôi yêu cô giáo dạy múa của con gái mình?】 Tò mò nên tôi nhấn vào xem.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

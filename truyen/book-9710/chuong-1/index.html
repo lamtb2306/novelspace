@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Dấu Khắc Ôn Tình">
   <meta name="twitter:description" content="Tôi đã quyên góp 58 triệu tệ để xây một bệnh viện hiện đại cho cả huyện.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

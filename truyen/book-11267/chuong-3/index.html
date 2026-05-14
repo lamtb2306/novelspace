@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Bị Trừ 22 Vạn Vì 1 Tệ, Tôi Khiến Cả Công Ty Sụp Đổ Sau 9 Ngày">
   <meta name="twitter:description" content="Tôi về chỗ ngồi của mình. Mở máy tính. Đăng nhập email công ty. Tôi tạo một email mới. Người nhận: Chọn “Toàn thể nhân viên”. Phần tiêu đề, tôi gõ vào mười hai chữ. “Lời nhắc nhở nhẹ nhàng về việc ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

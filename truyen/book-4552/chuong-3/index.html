@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | RỜI XA ANH THEO ĐUỔI ĐAM MÊ">
   <meta name="twitter:description" content="Bà tự tay nấu bữa tối để chúc mừng tôi. Bà rất vui, vì cuối cùng tôi cũng có thể ở lại bên bà. Những ngày tiếp theo, bà Du khuyến khích tôi đi đây đi đó, trải nghiệm thế giới nhiều hơn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CÔ NÀNG NAM TỊCH">
   <meta name="twitter:description" content="Ai ai cũng nói tôi yêu Giang Hoài đến tận xương tủy, nhưng anh ta lại ghét tôi. Anh ta chê tôi tính khí bướng bỉnh, không biết dỗ dành anh ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

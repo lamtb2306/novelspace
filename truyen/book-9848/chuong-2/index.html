@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Sau 99 Lần Trì Hoãn">
   <meta name="twitter:description" content="Ngày diễn ra tiệc đính hôn, tôi vừa làm xong tạo hình thì có người chạy lên báo tin, ấp úng nói: “Hà tiểu thư, Phong thiếu gia anh ấy…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Chỉ Vì Một Gói Mì Cay, Tôi Bị Phong Sát Cả Sự Nghiệp">
   <meta name="twitter:description" content="Ông ta là thương nhân, biết rõ thiệt hơn. Nếu chuyện này bị bùng nổ, mất khách hàng, mất danh tiếng, cái giá phải trả vượt xa ba trăm ngàn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

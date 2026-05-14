@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | TÔI CHỌN BỎ RƠI ANH">
   <meta name="twitter:description" content="Khiến cậu ta nghĩ rằng, sau khi phá nát tương lai của tôi, tôi vẫn có thể làm như chưa từng xảy ra chuyện gì, vui vẻ trở lại làm bạn như xưa với cậu ta?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

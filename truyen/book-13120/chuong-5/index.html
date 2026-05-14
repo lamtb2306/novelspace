@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Mùi Phản Bội">
   <meta name="twitter:description" content="Tôi vừa cười, nước mắt đã rơi. Càng cười… nước mắt càng tuôn. Ngay sau đó, một cơn buồn nôn dữ dội trào lên từ dạ dày. Tôi lao vào nhà vệ sinh, gục xuống bồn cầu mà nôn thốc nôn tháo trời đất quay ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

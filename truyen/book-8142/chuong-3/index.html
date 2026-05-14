@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chuyên Gia Chia Tay">
   <meta name="twitter:description" content="Điện thoại lại hiện lên tin nhắn của Từ Vân Vân trước. Cô ta gửi ảnh selfie để tôi “tham khảo”: “Cô Trần, chị xem giúp em bộ đồ này được không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

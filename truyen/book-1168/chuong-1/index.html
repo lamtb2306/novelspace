@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cô Dâu Bốc Thăm">
   <meta name="twitter:description" content="Tôi là con gái duy nhất của Tư lệnh quân khu tại kinh đô, cũng là con ruột của nhà họ Kỷ bị thất lạc hai mươi năm mới tìm về.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

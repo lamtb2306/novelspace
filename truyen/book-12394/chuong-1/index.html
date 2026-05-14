@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trả Lại Mẹ Một Đời Lầm Lỡ">
   <meta name="twitter:description" content="Kiếp trước, con gái chưa đầy 20 của tôi từng đăng lên vòng bạn bè một bức ảnh tự sướng, trong đó nó quấn khăn quàng đỏ làm áo yếm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

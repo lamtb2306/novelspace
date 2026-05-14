@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Đường Về Nhà">
   <meta name="twitter:description" content="Tôi nhìn cô ta đầy hứng thú: “Tại sao?” “Bởi vì em đã sống trong ngôi nhà này mười tám năm! Ảnh của em treo khắp tường, cúp giải chất đầy tủ kính, sinh nhật nào họ cũng nhớ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

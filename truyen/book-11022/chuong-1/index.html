@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Khoản Trợ Cấp Bị Cướp">
   <meta name="twitter:description" content="Đồng nghiệp nói với tôi rằng có thể xin trợ cấp nuôi con rồi. Tôi đăng nhập vào Alipay để thử đăng ký, sau khi tải lên hết tất cả tài liệu, trang hiển thị rằng tôi đã nộp đơn xin trợ cấp năm 2025, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

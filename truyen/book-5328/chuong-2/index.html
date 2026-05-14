@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tình yêu không dung nổi ba người">
   <meta name="twitter:description" content="Một lần, hai lần, ba lần. Tôi tự nhủ, cũng chẳng sao, chỉ là một cô nàng tham ăn mà thôi. Mười lần, mười một lần, mười hai lần. Tôi bắt đầu thấy lạ – trí nhớ kém đến mấy thì cũng có thể viết ra giấ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

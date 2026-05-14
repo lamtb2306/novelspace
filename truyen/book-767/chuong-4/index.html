@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Người Luôn Đợi Tôi Gọi Xe">
   <meta name="twitter:description" content="“Nếu một người từng làm điều tương tự ở thành phố khác, các anh có tra được không?” Phương Triết ngẩng đầu nhìn tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Nơi Tôi Thuộc Về">
   <meta name="twitter:description" content="Bọn họ quen ngủ đến tận giữa trưa, rồi gọi đồ ăn ngoài đắt tiền. Bọn họ nói, như vậy mới là cuộc sống chất lượng. Còn thói quen mỗi ngày sáu giờ sáng tôi dậy làm bữa sáng, trong mắt bọn họ, là nhỏ ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

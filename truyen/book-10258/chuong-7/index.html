@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Đường Về Nhà">
   <meta name="twitter:description" content="Đầu dây bên kia im lặng. Tôi nói: “Các người chăm sóc Dao Dao cho tốt đi. Tôi vẫn ổn.” Cúp máy, tôi tiếp tục viết. Tối về ký túc xá, các bạn cùng phòng đã đến đủ. Ba cô gái, ai cũng thân thiện.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

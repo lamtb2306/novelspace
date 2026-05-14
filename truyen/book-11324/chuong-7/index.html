@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | NGUYỆT HẠ MÊ TÂM ẢNH">
   <meta name="twitter:description" content="Chỉ cần hắn đừng chạy loạn bị người khác bắt gặp là được, ta sẽ không bị đồn thổi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

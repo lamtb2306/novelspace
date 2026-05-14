@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÌNH YÊU LÀ SỰ MÊ TÍN">
   <meta name="twitter:description" content="Tai nạn xe xong tỉnh lại, tôi phát hiện mình là… một quý bà giàu có. Tiện thể… còn mất luôn trí nhớ. Vừa mở mắt ra, bên cạnh đã có một anh chàng đẹp trai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Con Dao AA">
   <meta name="twitter:description" content="Tôi từ bếp mang ra hai món chay và một tô canh: một đĩa giá xào, một đĩa dưa leo trộn, cùng một tô canh trứng rong biển. Tôi bày ba món đó ngay ngắn trước chỗ ngồi của mình. Cả bàn ăn lập tức im bặt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

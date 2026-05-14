@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NGÔI NHÀ MANG TÊN TÔI">
   <meta name="twitter:description" content="Mục tiêu chưa bao giờ rõ ràng đến thế. Tôi muốn mua nhà. Ở cái thành phố xa lạ không một người thân quen này, xây cho mình một cái tổ. Một cái tổ chỉ ghi tên tôi. Một cái tổ không ai có thể cướp đi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

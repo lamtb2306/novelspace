@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | ĐỪNG TRỞ THÀNH THỦ KHOA ĐẠI HỌC">
   <meta name="twitter:description" content="Cả nước đều đang dõi theo buổi phát sóng này. Ngay cả cảnh sát, sau khi xem livestream, cũng lập tức lao đến nhà tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Trở Về Sau Một Giấc Ngủ Đông">
   <meta name="twitter:description" content="Nhưng trên bản chất, canh bạc mười năm trước của tôi là chín phần chết một phần sống, gọi là “sống lại” cũng chẳng sai. “Anh dựa vào đâu để tin em?” – Trình Việt lại hỏi tiếp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

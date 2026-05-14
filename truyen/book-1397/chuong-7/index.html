@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Một Cái Tát, Một Cái Giá">
   <meta name="twitter:description" content="“Xin lỗi có làm cái tát trên mặt tôi hết đau không?” “Xin lỗi có mang lòng tự trọng bị chà đạp của tôi quay về không?” “Xin lỗi có khiến những người nhà như chó dại của anh biến lại thành người khô...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

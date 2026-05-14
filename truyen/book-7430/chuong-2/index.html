@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Thủ Tục Xong Rồi">
   <meta name="twitter:description" content="Ngay lúc tôi đang lúng túng nhét đống quần áo trở lại, thì một mảnh giấy được gấp vuông vức từ ngăn lót bên trong trượt ra ngoài. Nhẹ bẫng, rơi xuống sàn đá cẩm thạch dưới chân tôi. Tờ giấy mỏng ta...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | TRÒ CHƠI CỦA SỰ LỰA CHỌN">
   <meta name="twitter:description" content="Anh nghĩ có thể quay về nhà họ Sở như chưa có chuyện gì? Thất gia, muốn cướp dâu ư? Anh không làm được đâu.” “Thứ hai, cô ấy không muốn đi với anh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

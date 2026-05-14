@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Thí Nghiệm Trên Hôn Nhân">
   <meta name="twitter:description" content="Anh đưa tôi đến trước cổng trường mẫu giáo, chưa được bao lâu, Tiểu Thiến đã đeo cặp tung tăng chạy ra khỏi cổng: “Chú ơi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Bảy Ngày Trước Khi Tôi Biến Mất">
   <meta name="twitter:description" content="Đêm đó, tôi dọn sang ngủ ở phòng làm việc. Liên tiếp mấy ngày trôi qua, chẳng ai trong nhà nhận ra. Cũng phải thôi — bố mẹ đã lâu lắm rồi chẳng còn qua nói chuyện với tôi buổi tối. Tôi thức trắng, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

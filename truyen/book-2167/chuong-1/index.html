@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BẠCH TẦN">
   <meta name="twitter:description" content="Một tháng chưa có kinh nguyệt, bác sĩ nam ngồi đối diện hỏi tôi: “Trừ tôi ra, em còn người đàn ông nào khác không?” Tôi lập tức nổi giận: “Anh là ai đấy?!” Anh ta nhướng mày: “Chồng em, không nhận ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 14 | Người Lạ Cuối Đường">
   <meta name="twitter:description" content="“Cụ thể là như thế nào?” “Homestay không chỉ là chỗ nghỉ chân đơn thuần, mà là một lối sống.” Tôi nói.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

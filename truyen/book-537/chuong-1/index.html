@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Phiên Dịch Viên Đặc Biệt">
   <meta name="twitter:description" content="Tôi thất nghiệp đến tháng thứ ba, nghèo đến mức chỉ có thể ra công viên giành báo miễn phí với mấy ông cụ để đọc. Đúng lúc đó, một con bồ câu béo ục ịch sà xuống trước mặt tôi, “gù gù” mấy tiếng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

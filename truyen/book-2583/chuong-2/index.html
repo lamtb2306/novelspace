@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CON TIM LẠNH LẼO">
   <meta name="twitter:description" content="Chuyến du lịch gia đình mỗi năm một lần là truyền thống của hai nhà chúng tôi. Nó đã tồn tại từ trước khi tôi và Tiêu Nghiên ở bên nhau. Ba mẹ hai bên hào hứng ngồi lại bàn bạc xem năm nay nên đi đâu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

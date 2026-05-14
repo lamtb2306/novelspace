@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Ba Trăm Vạn Mua Một Tờ Ly Hôn">
   <meta name="twitter:description" content="“Chúc mừng!” “Cuối cùng cũng chờ được ngày này!” “Cô dâu xinh quá!” Tôi mở trang cá nhân của Trần Tư Vũ. Cũng là dạng chín ô ảnh, cũng là dòng chữ y hệt. “Phần đời còn lại, xin hãy chỉ giáo nhiều h...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

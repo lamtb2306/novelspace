@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Thiên Kim Phản Công">
   <meta name="twitter:description" content="“Không sao đâu, trong nhà phòng nhiều lắm, thêm một người bớt một người cũng chẳng ảnh hưởng gì.” Ba mẹ nhìn nhau, cuối cùng chỉ có thể thở dài: “Vậy thì Dự An, con chuyển qua phòng khách ở tạm nhé...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Ly Hôn Vì Một Chiếc Túi">
   <meta name="twitter:description" content="Cả chị nhân viên lẫn Cố Tín Hà đều ngẩn người, không ngờ tôi lại đòi khiếu nại. Ngay sau đó, chị nhân viên nở nụ cười, chỉ vào bảng tên đeo trên ngực: “Chào chị, đây là thẻ nhân viên của tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

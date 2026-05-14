@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Thiên Nhãn Giả Mù">
   <meta name="twitter:description" content="Lão lừa đảo đảo mắt, ngược lại cũng không từ chối, mấy người liền vây quanh bàn ngồi thành một vòng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

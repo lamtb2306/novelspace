@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Thiếu Soái Mù Quáng">
   <meta name="twitter:description" content="“Thật đấy, nếu không phải ta với tỷ có cùng một gương mặt, ta đã nghi mình là đứa nhặt về rồi.” “Sao các người có thể trơ trẽn đến vậy?” “Thật đúng là…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

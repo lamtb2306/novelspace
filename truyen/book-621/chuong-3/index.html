@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Vượng Phu Chi Nữ">
   <meta name="twitter:description" content="Có hàng xóm tò mò hỏi mẹ tôi: “Dàn xe cưới này đến rước ai thế?” Mẹ tôi huỵch toẹt: “Đến rước con gái tôi đấy! Nó ly hôn rồi, hôm nay tái giá.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

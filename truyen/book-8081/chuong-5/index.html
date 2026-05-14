@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Trọng Sinh: Tôi Đầu Tư Cả Thế Giới">
   <meta name="twitter:description" content="Ánh nhìn của mọi người dành cho tôi mỗi người một kiểu. Có người thương hại, có người hóng hớt, cũng có người hả hê. Tôi không quan tâm đến ai, đi thẳng xuống hàng cuối, ngồi xuống, mở sổ tay ra ti...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

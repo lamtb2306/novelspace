@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CHIẾC BÁNH BAO ĐÔNG CHÍ NĂM ẤY">
   <meta name="twitter:description" content="Tôi giúp mẹ gói bánh, chẳng mấy chốc cả bàn đã đầy ắp bánh bao. Đúng lúc đó, bà nội đi dạo ngoài ngõ về. Vừa nhìn thấy mẹ con tôi gói nhiều bánh như thế, bà lập tức nổi trận lôi đình, vung gậy đánh...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

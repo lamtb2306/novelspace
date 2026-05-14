@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | 24 Tuổi, Tôi Chọn Mình">
   <meta name="twitter:description" content="24 tuổi, cuối cùng tôi cũng có một căn phòng thuộc về riêng mình trong ngôi nhà này. Từ chiếc giường, tủ quần áo đến bàn trang điểm và rèm cửa, tất cả đều do tôi tự dành dụm tiền mua. Năm đó về quê...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

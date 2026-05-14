@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Xin Hãy Để Tôi Lương Thiện">
   <meta name="twitter:description" content="Nhìn hàng loạt tài liệu, báo cáo, biên bản họp dồn dập đổ vào điện thoại, đầu tôi như muốn nổ tung. Tôi chỉ là muốn yên ổn đi học thôi mà! Giữa ánh nhìn chăm chú của cả lớp, tôi chậm rãi đứng lên, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

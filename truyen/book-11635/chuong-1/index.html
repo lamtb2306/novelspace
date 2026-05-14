@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MẸ TÔI VÀ NHỮNG GIẤC MỘNG VĨ ĐẠI">
   <meta name="twitter:description" content="Mẹ gọi video cho tôi. Bà bảo tôi nhờ vả giúp đỡ, đưa thằng em họ – đứa thi đại học còn không đậu nổi cao đẳng – vào học ở Thanh Hoa để “đánh bóng tên tuổi”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

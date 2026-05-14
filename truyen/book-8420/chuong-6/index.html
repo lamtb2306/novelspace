@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Phục Chế Lại Chính Mình">
   <meta name="twitter:description" content="Sáng ngày đám cưới của Trần Mặc, Hứa Cảnh Châu dậy rất sớm. Anh ta vụng về bận rộn trong bếp, làm cho tôi một chiếc sandwich trông thảm hại hết mức. Tôi không ăn, chỉ uống một ly cà phê đen.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

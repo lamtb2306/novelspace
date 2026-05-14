@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cháu Gái Của Lão Lý">
   <meta name="twitter:description" content="Tết Trung thu, tôi cùng đường nên phải ra vỉa hè bán đi đêm đầu tiên của mình. Người đến mua lại là một lão già.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

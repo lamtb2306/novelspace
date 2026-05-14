@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CON MA U ÁM">
   <meta name="twitter:description" content="Trước đây tan làm, Tôi toàn lê la dạo mall với hội chị em, vừa đi vừa giảng đạo lý cho mấy người vô ý thức. Còn giờ, vừa tan làm là tôi chỉ muốn phi ngay về nhà. Trong nhà có trai ma cực phẩm chờ, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

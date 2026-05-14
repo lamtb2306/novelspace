@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Kỷ Niệm Ngày Cưới Bằng Một Lời Phản Bội">
   <meta name="twitter:description" content="Tôi ôm đồ rời khỏi văn phòng luật. Không quay về nhà. Bởi vì nơi đó với tôi mà nói, đã không còn là “nhà” nữa rồi. Tôi tìm đại một chỗ nào đó để trú tạm. Lúc này mới có thời gian rảnh để xem tin nhắn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

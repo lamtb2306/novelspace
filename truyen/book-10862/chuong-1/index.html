@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI LÀ PHÚC TINH THIÊN MỆNH">
   <meta name="twitter:description" content="Tôi là một “phúc tinh thiên mệnh”, vừa trốn học tối để chuẩn bị cho lễ tế tổ của gia tộc. Nào ngờ vừa kịp thở ra một hơi, cửa đại điện từ đường liền bị bạn cùng lớp đá văng. “Mày đúng là đồ trơ trẽn!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

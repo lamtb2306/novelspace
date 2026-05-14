@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | ĐƯỜNG VĂN">
   <meta name="twitter:description" content="Về đến nhà, bố mẹ tôi lập tức ra lệnh vứt hết mọi thứ Lục gia gửi đến, đồng thời thông báo sẽ không có bất kỳ mối quan hệ gì với nhà họ Lục nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

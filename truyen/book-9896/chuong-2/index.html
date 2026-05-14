@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Chỉ Một Lần Không Quay Đầu">
   <meta name="twitter:description" content="“Em còn muốn làm ầm ĩ đến bao giờ?” Tôi run rẩy cất tiếng: “Em…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

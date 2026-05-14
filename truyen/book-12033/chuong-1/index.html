@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ÔNG CHỒNG KEO KIỆT">
   <meta name="twitter:description" content="“Anh không có ý gì đâu, chỉ nghĩ là cách này cũng hay, mình thử một năm đi!” “Cả hai chúng ta đều có việc làm, ngoài khoản tiền đóng góp vào quỹ chung, số tiền còn lại đều tự quản lý, thế không tốt...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

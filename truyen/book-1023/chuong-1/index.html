@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bên Kia Vách Tường">
   <meta name="twitter:description" content="Đúng đêm Valentine, cô hàng xóm là võng hồng (influencer) tố cáo tôi gi e c vợ. Cô ta dẫn theo một nhóm cảnh sát vũ trang, đạp tung cửa nhà tôi. Mặt cô ta đầy vẻ hoảng sợ, ngón tay run rẩy chỉ thẳn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

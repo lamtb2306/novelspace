@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Kiếp Này Tôi Chỉ Sống Vì Chính Mình">
   <meta name="twitter:description" content="“Mọi chuyện qua rồi.” Tôi nhẹ nhàng rút tay lại. “Ba cứ dưỡng bệnh cho tốt.” Tôi ở lại bệnh viện ba ngày, đến khi tình trạng của ông tạm ổn định mới rời đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

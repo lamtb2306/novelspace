@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Mở Mắt Thấy Chồng Ôm Chị Dâu">
   <meta name="twitter:description" content="Tôi run rẩy chuyển toàn bộ ảnh và lịch sử trò chuyện sang điện thoại của mình. Sau đó cẩn thận xóa dấu vết gửi đi, đặt điện thoại về chỗ cũ. Trở lại giường, tôi mở mắt suốt đến sáng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

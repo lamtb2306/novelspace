@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ba người là một nhà">
   <meta name="twitter:description" content="Kỳ nghỉ Quốc khánh, tôi chi mười vạn đặt tour du lịch nước ngoài riêng cho ba người – đưa bố mẹ đi chơi. Nhưng gần sát ngày khởi hành, mẹ tôi lại ấp úng nói: “Dạo này con bận lắm mà đúng không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

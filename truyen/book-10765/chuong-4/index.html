@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Một Chiếc Nhẫn, Bốn Kiếp Người">
   <meta name="twitter:description" content="Tôi lắc đầu: “Xin lỗi, bây giờ chưa thể nói.” Giả thiên kim nghiêm túc hỏi tôi: “Vậy nói đi, chúng tôi cần làm gì?” Tôi khẽ cụp mắt: “Tôi cần các chị ngày mai vẫn tham dự hôn lễ như bình thường, gi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

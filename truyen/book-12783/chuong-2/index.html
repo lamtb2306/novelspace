@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tái Ngộ Sau Nhiều Năm Tìm Kiếm">
   <meta name="twitter:description" content="Lúc đi tôi thậm chí còn không dám liếc nhìn Tiêu Diện lấy một cái. Tôi với anh ta mà kết hôn á? Đùa! Vừa bước ra khỏi nhà hàng thì một giọng quen thuộc gọi tới: “Dữu Dữu?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

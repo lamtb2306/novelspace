@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Nhường Chỗ Sai Người">
   <meta name="twitter:description" content="Về chuyện này, bố mẹ tôi rất vui. Họ không biết rõ bên trong như thế nào, chỉ nhìn vào kết quả bên ngoài rồi không ngừng cảm thán rằng tôi đúng là gả được người tốt. Nhưng trong vô số khoảnh khắc, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

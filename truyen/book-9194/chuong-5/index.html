@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Những Bức Tường Biết Nói">
   <meta name="twitter:description" content="“Đón nó về làm gì? Trong nhà còn phòng cho nó nữa sao?” “Theo tôi thì đừng đón nó, một kẻ phế vật vừa ra tù, chỉ biết làm mất mặt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CHÍNH CHỦ TRỞ VỀ">
   <meta name="twitter:description" content="Cũng vì lý do đó, đoàn phim mới đến nhà tôi quay cảnh, tôi mới miễn cưỡng đồng ý. Nhưng sao tôi không hề biết, nhà của tôi—Hứa Kiến Vi—lại đột nhiên biến thành nhà người khác?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

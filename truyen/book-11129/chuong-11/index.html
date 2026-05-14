@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Một Nửa Ảnh Gia Đình">
   <meta name="twitter:description" content="Anh ngày nào cũng ngồi trên ghế sofa phòng khách, ánh mắt vô thức dõi về phía cửa, như đang chờ đợi. Anh tin chắc một điều: Hứa Tri Hạ sẽ quay về.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

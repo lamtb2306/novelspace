@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Nửa Đời Gồng Gánh">
   <meta name="twitter:description" content="Anh ta trợn mắt, giật lấy điện thoại của tôi: “Tốt lắm, Trần Hà, em theo dõi rồi chụp lén tôi! Bao năm nay tôi nuôi em ăn uống, vậy mà em đối xử với tôi thế này, không ngờ em lại nhỏ nhen đến vậy!”...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

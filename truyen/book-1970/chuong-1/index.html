@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | AN AN BÌNH YÊN">
   <meta name="twitter:description" content="Bố tôi nhận nuôi con gái của một người bạn cũ. Cô ấy hoạt bát, hướng ngoại, không giống tôi – chỉ biết học hành, ít nói và trầm lặng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

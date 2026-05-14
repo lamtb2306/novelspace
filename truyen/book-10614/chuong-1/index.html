@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐƯỜNG ĐƯỜNG MẬT NGỌT">
   <meta name="twitter:description" content="Sau khi nhà gặp biến cố, tôi bị ép phải chấp nhận cuộc hôn nhân do gia đình sắp đặt, lấy một người tên là Lăng Duật.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

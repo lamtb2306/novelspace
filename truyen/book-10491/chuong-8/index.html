@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Yêu Đến Tận Cùng Là Buông Tay">
   <meta name="twitter:description" content="Tôi bước ra khỏi khu biệt thự Hoàng Cảnh Đài. Tống Thanh Dã đã đứng ngoài chờ sẵn. “Không nói chuyện được hả?” Tôi mím môi, dịu giọng đáp: “Cũng không đến nỗi, nhưng chắc sẽ chẳng kết thúc nhanh đâu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

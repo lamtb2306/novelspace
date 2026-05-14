@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Người Tình Trong Nhà Tôi">
   <meta name="twitter:description" content="Về đến nhà mình, mẹ tôi đang ở bếp chuẩn bị bữa tối. Bà thấy tôi về, thò đầu ra hỏi: “Đi xem nhà cưới rồi à? Còn thiếu gì không? Mẹ sắm thêm cho.” Tôi nói: “Không thiếu gì đâu mẹ. Cái gì cũng ổn hế...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

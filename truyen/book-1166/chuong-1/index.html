@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cái T-át Ở Tuổi Bốn Mươi">
   <meta name="twitter:description" content="Gần bốn mươi tuổi, trong một buổi tụ họp với bạn bè, tôi đùa với bạn trai rằng: “Năm nay nếu còn không kết hôn, vậy thì chia tay đi thôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

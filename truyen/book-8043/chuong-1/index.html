@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KỲ THI CUỐI CÙNG CỦA TUỔI TRẺ">
   <meta name="twitter:description" content="Sau khi có điểm thi đại học, tôi cùng bạn thân đang trên đường đến khách sạn bằng tàu điện ngầm. Lúc ra khỏi trạm, điện thoại hiện lên thông báo “số dư không đủ”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Tôi Là Nữ Chính Của Chính Tôi">
   <meta name="twitter:description" content="“Lúc đó mày ở đâu mà không nói tao mới là người hạnh phúc?” “Từ nhỏ chỉ cần mày thích cái gì, ai cũng bắt tao nhường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

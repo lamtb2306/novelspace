@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Lần Thứ 99 Giao Nhầm Địa Chỉ">
   <meta name="twitter:description" content="Trương Đan là hàng xóm mới chuyển đến năm nay. Nghe nói chồng cô ta – Chu Huyền, trước đây làm ở công trường, giờ chuyển sang chạy xe công nghệ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

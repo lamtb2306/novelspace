@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NỮ TƯỚNG THANH NHAI">
   <meta name="twitter:description" content="Trong đời ta ghét nhất hai chuyện: bị người khác tính kế, và bị người khác bắt chịu trách nhiệm. Vậy mà chỉ trong một đêm năm năm trước, cả hai chuyện ấy ta đều gặp phải.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | TÔI ĐI RỒI, AI NUÔI EM GÁI">
   <meta name="twitter:description" content="Tôi chuẩn bị cho mình một bữa tối thịnh soạn: một miếng bò bít tết thượng hạng, một chai rượu vang đỏ quý tôi đã cất giữ từ lâu. Dù chỉ có một mình, tôi vẫn cần nghi thức.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

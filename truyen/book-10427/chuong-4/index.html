@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | ÁNH NẮNG MANG TÊN ANH">
   <meta name="twitter:description" content="“Tôi muốn ăn ở quán món nhà nấu ở phía Nam thành phố.” Tôi lập tức báo ngay tên quán. Chỗ đó khó đặt chỗ lắm, nhưng tôi biết — Lục Tử Ương là khách quen ở đó.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

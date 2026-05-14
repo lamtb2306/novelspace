@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Coi Tôi Là Người Ngoài? Vậy Đừng Mong Tôi Ký Tên">
   <meta name="twitter:description" content="Tôi nhìn hai chữ “anh họ” trên màn hình, khóe môi nhếch lên một nụ cười lạnh. Đúng là nhắc Tào Tháo, Tào Tháo đến. Chu Việt đứng bên cạnh ra hiệu cho tôi. Tôi bật loa ngoài.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

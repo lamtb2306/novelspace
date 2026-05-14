@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | ĐƠN PHƯƠNG ANH HÀNG XÓM">
   <meta name="twitter:description" content="Hạ An đưa tôi đến một nhà hàng mới khai trương. Nhân viên phục vụ gợi ý suất ăn dành cho cặp đôi. Tôi nhanh chóng đồng ý trước khi Hạ An kịp từ chối. Anh chỉ có thể bất đắc dĩ nhìn tôi một cái.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

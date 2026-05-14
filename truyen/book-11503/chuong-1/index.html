@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ý VỊ TÌNH THÂN">
   <meta name="twitter:description" content="Kỳ nghỉ về nhà, không tìm thấy mẹ đâu. Gọi điện hỏi thì mới biết bà đã tái giá. Mẹ đến đón tôi, trang sức vàng bạc, lái chiếc Ferrari đỏ, trông trẻ ra hai mươi tuổi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

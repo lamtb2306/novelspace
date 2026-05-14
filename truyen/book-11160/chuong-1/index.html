@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BA NĂM CHƯA MUỘN">
   <meta name="twitter:description" content="Điện thoại rung lên một cái. Tôi đứng trước cửa Cục Dân chính, vừa nhét tờ giấy chứng nhận ly hôn mới toanh vào trong túi. Tự do đổi lấy bằng chín tệ, vẫn còn thấy nóng tay. Theo phản xạ, tôi mở mà...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

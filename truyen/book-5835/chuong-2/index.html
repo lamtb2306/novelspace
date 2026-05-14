@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Đứa Con Hư Trở Về">
   <meta name="twitter:description" content="Tôi lại thong thả nói thêm: “Xong việc rồi, ba tôi sẽ gửi ông một phong bao thật lớn, cảm ơn vì đã ‘hết lòng’.” Thuyền trưởng lập tức hiểu ý tôi. Một tuần sau, ngày bàn giao du thuyền.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

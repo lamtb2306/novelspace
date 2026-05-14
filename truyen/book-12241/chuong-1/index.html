@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tài Sản Đã Được Ghi Tên">
   <meta name="twitter:description" content="Trong bữa tiệc mừng sinh nhật 50 tuổi của tôi, chồng tôi đứng trước mặt tất cả họ hàng và tuyên bố: từ nay về sau, ông ấy muốn “chia đôi chi tiêu” với tôi. Ông ấy nói mình đã nuôi tôi suốt ba mươi ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

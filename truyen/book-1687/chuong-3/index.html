@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tình Mẹ">
   <meta name="twitter:description" content="“Còn một vấn đề nữa, nếu mật khẩu của hệ thống đăng ký nguyện vọng bị phụ huynh sửa rồi, em có thể reset bằng cách nào?” “Bản thân thí sinh có thể mang theo căn cước công dân đến Viện Khảo thí Giáo...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Phía Sau Tấm Huy Chương">
   <meta name="twitter:description" content="“Trần Niệm, nhớ lấy thân phận của mình. Ngày mai, thành phố tổ chức lễ vinh danh cho tôi, em là người nhà, phải có mặt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

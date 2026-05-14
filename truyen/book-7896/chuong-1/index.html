@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MIẾNG THỊT LÚC CÒN SỐNG">
   <meta name="twitter:description" content="Tôi có một năng lực siêu phế, đó là mỗi khi ngửi thấy mùi thịt, trong đầu sẽ hiện lên hình ảnh của miếng thịt đó lúc còn sống. Phần lớn là hình ảnh đủ loại gà, heo, bò, dê các kiểu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

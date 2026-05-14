@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | YÊU ĐƯỢC THÌ BUÔNG ĐƯỢC">
   <meta name="twitter:description" content="Hai tháng sau, vào một đêm khuya, tôi chuẩn bị đi ngủ thì điện thoại bỗng reo lên. Nhìn thấy số điện thoại địa phương, tôi không do dự mà nhấc máy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

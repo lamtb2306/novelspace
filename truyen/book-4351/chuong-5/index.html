@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Năm Ấy Tôi Bị Đem Cho Một Thằng Ngốc">
   <meta name="twitter:description" content="Cô giúp việc là người làm việc cho một gia đình có địa vị trong quân doanh. Có lẽ cô ấy thật sự chưa từng chứng kiến cảnh tượng nào như vậy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

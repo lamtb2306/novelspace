@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Em Họ Ở Nhờ Và Cái Kết">
   <meta name="twitter:description" content="“Bố tôi đặt khách sạn cho mọi người là vì tình nghĩa, là để giữ lại chút thể diện cuối cùng cho nhà chúng tôi, cho dì.” “Nhưng đó không phải là nghĩa vụ của ông ấy.” “Nếu mọi người chọn không cần p...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BẠN TRAI KẾT HÔN VỚI BẠCH NGUYỆT QUANG">
   <meta name="twitter:description" content="Cô ta dựa vào đâu mà nghĩ chỉ cần đổi lại cái tên là tôi có thể bỏ qua mọi chuyện? Tôi xoa bàn tay vừa tát đến tê dại, cười lạnh. “Giờ tôi chẳng quan tâm sổ đó ghi tên ai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

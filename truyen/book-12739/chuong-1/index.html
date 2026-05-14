@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BẠN TRAI ONLINE LÀ NAM THẦN TRƯỜNG">
   <meta name="twitter:description" content="Bạn trai online bảo tối nay có việc, không thể chơi game cùng tôi. Tôi rất biết điều, tỏ ra hiểu chuyện: “Không sao đâu anh, công việc quan trọng hơn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Bạn Cùng Phòng Cừu Con Dũng Cảm">
   <meta name="twitter:description" content="Tôi đã chuyển nhà xa thế rồi, vẫn không thoát khỏi cái làng cừu này. Tôi bất lực cầm điện thoại đi theo cảnh sát về đồn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

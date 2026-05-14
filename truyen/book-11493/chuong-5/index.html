@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Con dâu bắt tôi làm tiểu tam">
   <meta name="twitter:description" content="Nhưng tôi vẫn dặn dò: “Con bảo ba con kiềm chế một chút, dù sao cô ta cũng là vợ con.” Sau khi an ủi xong cả chồng lẫn con, tôi cuối cùng cũng có thể yên tâm nghỉ ngơi, ngủ một giấc thật ngon.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MỘT BỘ ĐỒ NGỦ ĐÔI">
   <meta name="twitter:description" content="Nhìn chằm chằm vào màn hình điện thoại với dòng chữ “Chỉ thiếu 0.01 đồng là có thể nhận miễn phí”, tôi theo thói quen mở tài khoản Pinduoduo của chồng – Tiêu Diễn, định nhờ anh giúp lực.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

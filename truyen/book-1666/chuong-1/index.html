@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÌNH YÊU VÔ TẬN">
   <meta name="twitter:description" content="Sau khi thoát khỏi bài đăng trên mạng, tôi gặp phải một hệ thống. Nó tuyên bố có thể thỏa mãn mọi ước nguyện của tôi. Tôi đã dùng một phần hào quang của mình để giao dịch với nó, tạo ra một câu chu...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

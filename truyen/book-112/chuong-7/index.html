@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | CHÚNG TA CỦA 5 NĂM SAU">
   <meta name="twitter:description" content="Yêu cầu này không có gì quá đáng. Dù chỉ vì dự án lần này, tôi mời anh một bữa cũng hợp tình hợp lý. “Ngày mai tôi có hẹn rồi.” “Nam hay nữ?” “Chuyện này, không nằm trong phạm vi anh cần quan tâm.”...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

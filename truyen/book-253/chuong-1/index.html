@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Sai Người, Sai Cả Tấm Lòng">
   <meta name="twitter:description" content="Đêm trước ngày đi đăng ký kết hôn, bạn trai tôi mang toàn bộ tiền sính lễ đi đưa cho bố của bạn gái cũ để chữa bệnh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | YÊU HẾT MÌNH THẾ LÀ ĐỦ RỒI">
   <meta name="twitter:description" content="Tôi nhấc máy, nhưng Cố Châu Bạch nhấn nút loa ngoài. “Con gái, cậu trai kia bảo muốn xem ảnh của con. Con bảo mẹ gửi tấm nào được đây? Gửi mẹ vài tấm đẹp đi.” Người đàn ông trên người tôi cứng đờ, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

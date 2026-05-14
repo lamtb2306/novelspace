@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐỨA CON CỦA LÒ ẤP NGƯỜI">
   <meta name="twitter:description" content="Còn đúng một trăm ngày nữa là đến kỳ thi đại học, ngày nào mẹ tôi cũng thức khuya cùng tôi ôn bài. Thế nhưng vào đúng ngày thi, mẹ lại như phát điên, chắn trước cửa phòng không cho tôi đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

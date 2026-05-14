@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chúng Ta Lớn Lên Như Cỏ Dại">
   <meta name="twitter:description" content="Năm ấy, tôi bị tống khứ về nông thôn, tôi nhặt được một người chị. Chị còn ngốc hơn cả tôi, trời mưa cũng chỉ biết ngồi thẫn thờ trước cửa ngôi miếu đổ nát. Tôi mềm lòng, nắm tay chị dẫn về nhà.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

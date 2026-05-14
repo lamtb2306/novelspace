@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Chô-n Cha Trước Nửa Đêm">
   <meta name="twitter:description" content="“Các người đang làm cái gì vậy?” Tôi lớn tiếng hỏi. Lý Chí lập tức đứng ra, bày ra dáng làm thủ lĩnh. “Tiểu Trương à, mọi người đều không đồng ý để cô đi cầu thang đâu!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

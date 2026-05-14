@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chính Ủy Gọi Tôi Về">
   <meta name="twitter:description" content="Ông nội – chính ủy đích thân gọi điện cho tôi, ra lệnh tôi ngay trong ngày phải từ đơn vị bảo mật của quân khu trở về, nói đã định cho tôi một mối hôn sự.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

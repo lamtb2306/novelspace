@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Một Đời Không Duyên">
   <meta name="twitter:description" content="QUAY LẠI CHƯƠNG 1 : Tôi cầm đèn lồng, còn anh thì vừa cười vừa phủi những bông tuyết bám trên tóc tôi. Khoảnh khắc ấy, bị một nhiếp ảnh gia đường phố tình cờ chụp lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

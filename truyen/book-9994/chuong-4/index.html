@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Trò Chơi Chia Điểm">
   <meta name="twitter:description" content="Câu nói vừa dứt, cả đám lao tới máy tính, vội vàng nhập số báo danh. Tiếng gõ lách cách vang lên dồn dập, tôi đứng ở vị trí hoàn hảo, hào hứng quan sát từng gương mặt. Trong lòng âm thầm đếm ngược:...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

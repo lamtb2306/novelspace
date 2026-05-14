@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | KIM CHỦ TRUY ĐUỔI VỢ">
   <meta name="twitter:description" content="【Em đang quay chương trình hả? Được, anh tới tìm em.】 Tới tin cuối, tôi trợn mắt. Cái tên mặt dày này tới tìm tôi làm gì?!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

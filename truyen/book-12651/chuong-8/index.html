@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Chủ Mẫu Phủ Ôn">
   <meta name="twitter:description" content="Ta tự tay nâng một bát đặt trước mặt Ôn Thư Bạch, rồi bưng lấy bát của mình, chậm rãi nhấp từng ngụm. Canh thanh trong, hương vị đậm đà, hậu vị ngòn ngọt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

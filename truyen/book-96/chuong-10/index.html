@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | TH- UÔC YÊU">
   <meta name="twitter:description" content="Tôi cần một chuyến đi thật đã. Cần đứng ở nơi cao, nhìn ra xa. Cúp máy, tôi liếc nhìn thời gian trên điện thoại. Cục Dân chính… vẫn chưa tan làm. Một cơn thôi thúc mãnh liệt chộp lấy tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

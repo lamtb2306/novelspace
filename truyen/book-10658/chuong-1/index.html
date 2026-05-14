@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bố mẹ lên Thượng Hải kiểm tra tài khoản tôi">
   <meta name="twitter:description" content="Tôi sống một mình, tích lũy được 5 triệu tệ, nhưng khi bố mẹ hỏi đến tiền tiết kiệm, tôi chỉ nói còn 50 nghìn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

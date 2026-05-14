@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CẢM ƠN EM CŨNG THÍCH TÔI">
   <meta name="twitter:description" content="Trên bàn ăn. Tôi vừa nhâm nhi bát cháo kê, vừa lén nhìn Giang Thiếu Tầm đang ngồi đối diện. Trong lòng thầm nghĩ, sau khi bao nuôi anh ta, tôi nên làm gì tiếp theo?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

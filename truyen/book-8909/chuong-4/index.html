@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Ảo Tưởng Hạnh Phúc">
   <meta name="twitter:description" content="“Bạn trai cô là chồng tôi. Anh ấy nói gì không liên quan!” — Tôi lạnh lùng cắt ngang — “Chiếc xe này đứng tên tôi, là tiền nhà họ Triệu bỏ ra mua! Một đứa con gái như cô, lấy xe của chồng người ta ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

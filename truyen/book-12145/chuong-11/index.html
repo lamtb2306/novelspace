@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Đêm Lạnh Không Người Đón">
   <meta name="twitter:description" content="Cho đến khi bữa tiệc kết thúc, anh ta đứng chờ xe buýt trước khách sạn, tôi thong thả bước tới sau lưng, nghe thấy anh ta bực bội nói chuyện điện thoại: “Cô còn muốn thế nào nữa?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

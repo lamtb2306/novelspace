@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | PHẢI LÒNG ANH CHỦ NHÀ TRỌ">
   <meta name="twitter:description" content="Để trốn cưới, tôi chạy đến một thị trấn nhỏ nơi biên giới và tình cờ phải lòng anh chủ nhà trọ vừa hoang dã vừa điển trai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

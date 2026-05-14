@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | BƯỚC NGOẶT CUỐI CÙNG">
   <meta name="twitter:description" content="Tôi phát ra tiếng cười khàn khàn đầy quái dị. Sắc mặt viên cảnh sát trở nên kỳ lạ. Nhưng tôi biết mình đang cười.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

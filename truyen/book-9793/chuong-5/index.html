@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | YÊU ĐƯƠNG ONLINE">
   <meta name="twitter:description" content="Hai chúng tôi ngồi đối diện nhau, im lặng đến đáng sợ. Khi tôi đang nghĩ cách chuồn thì Hà Thu Sinh cuối cùng cũng lên tiếng. “Trước giờ chưa có ai dám đùa giỡn anh như vậy. Em là người thứ hai.” T...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

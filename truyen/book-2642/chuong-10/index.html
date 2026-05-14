@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Chiến Dịch Cuối Cùng">
   <meta name="twitter:description" content="Tôi cap màn hình, lưu vào cùng một thư mục nọ. Trong đó hiện tại đã chứa 37 bức ảnh chụp màn hình.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

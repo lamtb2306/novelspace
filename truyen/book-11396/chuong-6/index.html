@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Hacker Trong Bữa Tiệc">
   <meta name="twitter:description" content="QUAY LẠI CHƯƠNG 1 : “Không có, tại em vô tình thấy nên hỏi thôi mà.” Tôi cười cười, không truy hỏi thêm. Nhưng trong lòng, nghi ngờ đã thành chắc chắn chín phần.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

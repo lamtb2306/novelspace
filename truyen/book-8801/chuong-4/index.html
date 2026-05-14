@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Hội Những Người Thích Ép Khách Ăn Hành">
   <meta name="twitter:description" content="“Đúng đấy, mau đi khám não đi.” “Có phải muốn làm người giàu đến phát điên rồi không?” “Hay là về chơi game Cờ tỷ phú cho thỏa cơn thèm đi.” Họ đi tìm chủ nhà, và khi chủ nhà xuất hiện, họ lại khôn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

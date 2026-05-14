@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Chú Rể Bỏ Trốn, Tiệc Vẫn Phải Lên">
   <meta name="twitter:description" content="Bây giờ xem ra, không cần nữa. Mọi người đều đã bị tôi kéo lên bàn rồi. Vậy thì dễ xử lý. Tôi cầm micro, lại mỉm cười với toàn hội trường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

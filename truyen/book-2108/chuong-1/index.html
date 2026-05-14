@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BÓNG LƯNG">
   <meta name="twitter:description" content="Chồng tôi có một bức tranh nổi tiếng mang tên Bóng Lưng. Trong tranh, một người phụ nữ với mái tóc đen dài ngang eo, vòng eo uyển chuyển, từng nét vẽ đều thể hiện tình yêu của họa sĩ dành cho nhân ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

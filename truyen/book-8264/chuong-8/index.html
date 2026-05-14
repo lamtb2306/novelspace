@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | YÊU ONLINE THẦY GIÁO">
   <meta name="twitter:description" content="Tôi bị câu “cảm ơn” của anh làm cho rung động. Tôi hỏi anh cảm ơn vì điều gì. “Cảm ơn ông bà nội đã dẫn đường cho anh. Cảm ơn em đã cho anh cơ hội để giải thích.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

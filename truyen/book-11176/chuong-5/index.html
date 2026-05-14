@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Bản Sao Của Tôi">
   <meta name="twitter:description" content="“Không phải của nạn nhân.” Hà Vũ như đọc được suy nghĩ của tôi. “Khả năng là của người gây tai nạn bị trầy tay lúc va chạm.” “Chúng tôi đã làm xét nghiệm DNA với giọt máu đó.” Anh nhìn tôi, từng ch...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

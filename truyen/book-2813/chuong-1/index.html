@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CÔ GÁI TỪ TÂY BẮC">
   <meta name="twitter:description" content="Bố tôi là ông trùm một trang trại ở Tây Bắc. Mười năm trước, ông đến Tây Bắc để hỗ trợ phát triển. Trên bàn rượu, ông từng khoe rằng một năm kiếm được hơn hai triệu tệ. Kết quả là toàn bộ đàn bò tr...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

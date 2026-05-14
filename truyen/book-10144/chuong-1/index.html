@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | SỐNG KHÔNG CÒN MỀM LÒNG">
   <meta name="twitter:description" content="Trong lúc lướt mạng, tôi tình cờ đọc được một bài đăng khiến người ta nghẹn họng: “Tôi mua căn nhà này lúc trước giá 800 triệu, giờ tụt xuống còn 400 triệu rồi.” “Nhưng gần đây chị tôi định mua nhà...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

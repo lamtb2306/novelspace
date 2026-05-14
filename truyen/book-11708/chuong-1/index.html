@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nói Bậy Thành Hiện Thực">
   <meta name="twitter:description" content="Tôi đang lái xe trên cao tốc, em họ của chồng đột nhiên hét lên một tiếng. “Phía trước có người!” Nói xong, nó trực tiếp vươn tay chộp lấy vô lăng, bẻ mạnh sang trái.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

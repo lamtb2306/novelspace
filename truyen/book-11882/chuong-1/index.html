@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cô Vợ Lười Và Kẻ Ăn Cháo Đá Bát">
   <meta name="twitter:description" content="Tôi rất lười, lười đến mức chồng tôi ngoại tình suốt mười năm, tôi cũng lười không thèm quản.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

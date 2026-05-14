@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chiêu Hoa Trưởng Công Chúa">
   <meta name="twitter:description" content="Ta là công chúa nước Tần, là tiểu nữ nhi của hoàng đế. Nói là “tiểu nữ nhi” cũng không hẳn chính xác, bởi hoàng đế chỉ có mỗi ta là con gái.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

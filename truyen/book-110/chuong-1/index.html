@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bóng Đêm Trong Họ Lâm">
   <meta name="twitter:description" content="Anh trai tôi vốn là người theo chủ nghĩa không kết hôn. Năm anh hai mươi lăm tuổi, vì muốn có người nối dõi, ba mẹ đã mạo hiểm tuổi già sinh ra tôi. Mẹ khó sinh mà qua đời, ba thì bặt vô âm tín.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

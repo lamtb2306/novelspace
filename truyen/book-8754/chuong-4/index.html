@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | RỜI XA KỶ NGÔN XUYÊN">
   <meta name="twitter:description" content="Buồn cười là, đến tận bây giờ cô ta vẫn không biết tên tôi. Cô ta từng tìm người điều tra, nhưng chỉ biết Kỷ Ngôn Xuyên nuôi tôi ở đây. Mọi thông tin cá nhân của tôi, cô ta đều không tra ra được.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

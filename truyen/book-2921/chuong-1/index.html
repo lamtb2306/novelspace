@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cả Thôn Tôi Đi Vay Nặng Lãi">
   <meta name="twitter:description" content="Sau khi vô tình nhấp vào cái lij/ nk mà bạn cùng phòng chia sẻ, thẻ ngân hàng của tôi bỗng dưng có thêm hai triệu. Tôi ngơ ngác định trả lại tiền, kết quả bị gọi điện thông báo rằng tôi đang nợ nền...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

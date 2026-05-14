@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tiền Đã Chuyển, Nhưng Không Thuộc Về Tôi">
   <meta name="twitter:description" content="Bố mẹ mỗi tháng đều nói là đã chuyển cho tôi ba nghìn tệ sinh hoạt phí. Nhưng trong thẻ của tôi, lúc nào cũng chỉ có hai chữ số. Sau khi khai giảng, cố vấn học tập giục học phí, tôi cẩn thận gọi đi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

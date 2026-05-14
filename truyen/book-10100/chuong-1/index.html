@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MỘT BÁT CANH, MỘT ĐỜI TÌNH">
   <meta name="twitter:description" content="Ta là nữ phụ trong một cuốn truyện ngôn tình cổ điển. Năm thứ năm ta si mê đơn phương nam phụ mà không được đáp lại: ta chợt bừng tỉnh khỏi giấc mộng dài của chính mình.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tự Giam Để Báo Oán">
   <meta name="twitter:description" content="Ngay cả camera cũng ghi hình tôi là người chủ động mở khóa. Bố tôi nhận được tin, vội vã quay về giữa chuyến công tác thì gặp tai nạn nghiêm trọng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | ĐOÁ HOA NHÀI TINH KHÔI">
   <meta name="twitter:description" content="Sáng sớm ngày thứ ba, tôi bay về nước. Phùng Tranh chắc là lần đầu gặp phụ nữ nào nói đi là đi, chẳng buồn chào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

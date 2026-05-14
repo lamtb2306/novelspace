@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tiếng Nói Trong Nôi">
   <meta name="twitter:description" content="Tôi từng là một quý phu nhân mẫu mực trong giới hào môn của thành phố này. Mỗi ngày dậy từ năm giờ sáng, nửa đêm còn đang kiểm tra sổ sách, dạy con, tiếp khách. Ngay cả khi vừa sinh con xong, tôi c...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

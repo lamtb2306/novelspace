@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tháng Năm Trả Lại Người">
   <meta name="twitter:description" content="Tôi còn từng lén tưởng tượng, một ngày nào đó chúng tôi sẽ cưới nhau, sinh con ở đây, cùng nhau đi hết đời. Nhưng giờ, tôi chỉ thấy mỉa mai. Sống chung ư? Chỉ để tiện trả thù tôi thôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

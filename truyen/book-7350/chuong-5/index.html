@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CÚ ĐÁ DÀNH CHO ANH">
   <meta name="twitter:description" content="Vở kịch kết thúc, khách khứa lần lượt ra về. Thẩm Hồng Viễn gọi tôi vào phòng nghỉ của khách sạn. Căn phòng rộng lớn, chỉ còn lại hai người chúng tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

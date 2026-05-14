@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | 100 VẠN SÍNH LỄ">
   <meta name="twitter:description" content="Tôi: “Cô chắc là người cô đang nói chuyện là Kỷ Lăng Thâm chứ?” Lâm Dao Dao: “Không phải Kỷ Lăng Thâm thì là ba cô chắc? Giờ mới biết sợ à? Muộn rồi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

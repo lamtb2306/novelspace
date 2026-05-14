@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 13 | Hộp Cơm Giữ Nhiệt">
   <meta name="twitter:description" content="Trong căn hộ chúng tôi thuê, một căn phòng nhỏ được anh tạm thời biến thành văn phòng. Bên trong chất đầy đủ loại tài liệu, báo cáo mà tôi không thể hiểu nổi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

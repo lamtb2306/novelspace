@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | VÁN CỜ MƯU PHẢN">
   <meta name="twitter:description" content="Ta không đáp, chỉ lật thêm một trang sách trong tay. Hối hận ư? Hối hận của hắn, có đổi lại được tính mệnh của cả nhà Nghiêm các lão không? Có miễn được tội đày ải của phụ thân ta không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

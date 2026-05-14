@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Vợ Yêu, Anh Biết Lỗi Rồi">
   <meta name="twitter:description" content="Không lâu sau, điện thoại tôi vang lên tin nhắn của anh ta: “Chị dâu, nhà mình sắp có chuyện vui rồi, Mạn Mạn sắp sinh rồi!” Người chồng từng ở bên tôi năm năm, giờ miệng lại vui vẻ gọi “chị dâu”, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

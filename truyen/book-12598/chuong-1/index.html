@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | LỰA CHỌN THỨ HAI">
   <meta name="twitter:description" content="Lúc Diêm Vương đang làm việc thì buồn ngủ, lỡ tay gõ nhầm tên tôi một phát siêu to. Kết quả là tôi đang đi vệ sinh thì đột nhiên tắt thở. Để bù đắp cho sai sót, Diêm Vương cho tôi hai lựa chọn: Một...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

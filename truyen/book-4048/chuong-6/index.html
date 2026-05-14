@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | NGÔI SAO BỊ LÃNG QUÊN">
   <meta name="twitter:description" content="Tôi ngã nhào xuống đất trong cơn rét và hoảng loạn, mắt cá chân đau nhói, chắc đã bị trật khớp. Ngay khi tôi nghĩ mình sắp chết cóng ở nơi này, tiếng động cơ trực thăng vang lên từ xa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

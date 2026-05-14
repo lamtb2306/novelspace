@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Sau Khi Ta Bị Ban Cho Trang Đầu">
   <meta name="twitter:description" content="Hắn là một người tốt. Thật thà, bản phận, lương thiện. Hắn không nên bị cuốn vào những chuyện thị phi của ta. Đêm đó, ta đặc biệt xào thêm hai món, dùng số trứng tiết kiệm được hầm cho hắn một bát ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

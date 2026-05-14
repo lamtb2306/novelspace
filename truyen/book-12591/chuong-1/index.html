@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mãi Mãi Là Một Lời Hận">
   <meta name="twitter:description" content="Năm thứ 3 yêu xa, tôi chuẩn bị cho Cố Ngôn Triệt một bất ngờ. Tôi mua một tấm vé tàu để đến gặp anh. Còn chuẩn bị thêm một bó hoa, định tổ chức sinh nhật cho anh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

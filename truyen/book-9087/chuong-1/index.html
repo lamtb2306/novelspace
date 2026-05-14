@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đuôi Mèo Của Chu Yến">
   <meta name="twitter:description" content="Phát hiện bạn cùng bàn là thú nhân mèo, tôi không nhịn được tò mò mà hỏi hắn: “Chu Yến, thú nhân các cậu cũng có gai ngược à? Có thể cho tôi xem được không?” Chu Yến mặt đỏ bừng, dứt khoát từ chối.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Khi Tôi Ngừng Đóng Kịch">
   <meta name="twitter:description" content="“Hôm nay là ngày cuối rồi, Nguyệt Nguyệt cố gắng thêm chút nữa, thi xong, dì dẫn con đi mua túi hàng hiệu.” “Mình cứ cố hết sức, thi xong là xong, đừng nghĩ ngợi nhiều làm gì.” “Dạ, con cảm ơn dì.”...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

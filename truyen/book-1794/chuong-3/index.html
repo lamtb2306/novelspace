@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Đừng Chọc Tôi, Tôi Từng Là Huyền Thoại">
   <meta name="twitter:description" content="Anh mặc quân phục thẳng tắp, đầu cũng không ngẩng lên mà ra lệnh: “Lục Ngôn đang ở trong thư phòng làm quà cho Tô Thanh, cô vào giúp đi.” Tôi cười lạnh một tiếng, đi thẳng qua.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

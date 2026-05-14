@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | DƯ ĐÀO TỬ">
   <meta name="twitter:description" content="Chu Phàm Tuấn khóc chưa được bao lâu, bà nội tôi đã đến. Bà chân không còn linh hoạt như trước, bước đi lẩy bẩy, suýt chút nữa thì vấp ngã. “Thằng bé này khóc gì vậy?” Bà hỏi tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

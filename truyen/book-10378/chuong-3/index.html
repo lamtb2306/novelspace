@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | QUÁ KHỨ VẪN CHƯA KẾT THÚC">
   <meta name="twitter:description" content="Tôi ngơ ngẩn bước vào một cửa hàng tiện lợi, Tùy tiện chọn một chỗ ngồi xuống. Tôi bấm vào trang cá nhân của cô gái ấy. Số bài viết không nhiều, nhưng từng dòng đều ghi lại tỉ mỉ những khoảnh khắc ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

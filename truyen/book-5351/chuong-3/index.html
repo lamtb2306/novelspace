@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tôi Làm Việc, Không Làm Ơn">
   <meta name="twitter:description" content="Sáng hôm sau đến công ty, tôi nộp đơn xin nghỉ phép năm. Tôi đã làm ở công ty 8 năm, suốt 8 năm chưa từng nghỉ phép. Lúc nộp đơn, Hoàng Phong nhìn tôi chằm chằm: “Cậu có ý gì đây?” “Lâm Phong, tôi ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

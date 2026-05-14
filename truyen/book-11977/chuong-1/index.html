@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | THẾ GIỚI CỦA TÔI RỰC RỠ ÁNH SÁNG">
   <meta name="twitter:description" content="Tôi là học sinh đội sổ của lớp. Hệ thống bảo tôi rằng, cách để nâng cao thành tích là phải liên kết với học sinh đứng đầu, tiếp xúc thân mật với người ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | SAU BỮA CƠM NĂM ẤY">
   <meta name="twitter:description" content="Anh ta vội nói với đầu dây bên kia một câu “nói sau nhé”, rồi trừng mắt nhìn tôi đầy bực bội. “Gì nữa?” “Chăn đệm của tôi.” Anh ta cười khẩy, khoanh tay trước ngực, cằm hất cao. “Hết rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

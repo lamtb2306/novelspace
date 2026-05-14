@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | KIẾP NÀY, KHÔNG LÀM PHÓ PHU NHÂN">
   <meta name="twitter:description" content="Tôi hạ cửa kính xe xuống: “Phó Thành An, hôm nay là ngày vui của anh, đừng làm lỡ giờ lành.” Anh bước tới gần xe, ánh mắt chất chứa cảm xúc khó hiểu: “Tần Sương, em hãy ở lại đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

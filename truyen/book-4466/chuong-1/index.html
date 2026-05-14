@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Phong Vân Bách Hoa Yến">
   <meta name="twitter:description" content="Tại yến tiệc Bách Hoa, tiểu thanh mai của Tiêu Vân Hằng xông vào, giữa thanh thiên bạch nhật, cho ta một cái tát.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

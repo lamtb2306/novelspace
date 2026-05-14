@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Người Thua Là Kẻ Tưởng Mình Thắng">
   <meta name="twitter:description" content="Lúc bị đưa đi, bà ta vẫn trừng mắt nhìn tôi đầy căm hận. Tôi biết, bà ta sẽ không dễ dàng bỏ qua. Nhưng tôi cũng chẳng để bà ta vào mắt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

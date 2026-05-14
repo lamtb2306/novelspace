@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chỉ cần anh không làm ca đêm">
   <meta name="twitter:description" content="“Đúng vậy, đến lúc đó sẽ không còn là cô tự bỏ đi nữa, mà là nhà chúng tôi đuổi cô. Một đứa đàn bà đã qua tay người khác như cô, để xem sau này còn ai thèm lấy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

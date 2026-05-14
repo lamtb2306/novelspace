@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | EM BUÔNG TAY RỒI">
   <meta name="twitter:description" content="Tôi ở lại thành phố Thanh một tháng, mùa đông ở đây đến nhanh hơn. Khi đặt chân trở lại thành phố C, hiếm khi tôi cảm thấy nơi này ấm áp. “Sao cô lâu thế?” Sắc mặt Tư Niên không tốt chút nào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

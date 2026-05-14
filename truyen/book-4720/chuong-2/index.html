@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Sổ Nợ Lâm Vãn">
   <meta name="twitter:description" content="“Em vừa nói là chị làm mẹ tức nhập viện.” Tôi nói, “Chị mỗi tháng đưa tám nghìn, đã mười năm rồi. Còn em thì sao?” “Hoàn cảnh em khác!” “Khác chỗ nào?” “Em là đàn ông!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

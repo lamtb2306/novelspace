@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TỪ NỘI TRỢ ĐẾN TỔNG GIÁM ĐỐC">
   <meta name="twitter:description" content="Cô ta tròn mắt nhìn rồi thốt lên: “Mẹ cháu ác quá! Tôi mà là mẹ thì làm sao nỡ đánh con.” Tôi gật đầu lia lịa: “Đúng rồi đó cô!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

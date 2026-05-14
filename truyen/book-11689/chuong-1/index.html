@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Có Chìa Khóa, Nhưng Không Có Nhà">
   <meta name="twitter:description" content="Tôi cắm chìa khóa vào ổ, cánh cửa lại mở ra từ bên trong. Tôi sững người. Căn nhà này lẽ ra phải trống. Trương Kiến Quân nói người thuê đã dọn đi từ tháng trước, vẫn chưa tìm được người mới. Cửa mở.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

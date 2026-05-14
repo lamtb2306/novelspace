@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Cô Em Dâu và Màn Tống Tiền Hụt">
   <meta name="twitter:description" content="Tôi ngồi vào bàn, mở máy tính và truy cập vào một thư mục được mã hóa. Bên trong là tài liệu mà tôi đã nhờ một người bạn làm đầu tư mạo hiểm điều tra suốt đêm hôm trước.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

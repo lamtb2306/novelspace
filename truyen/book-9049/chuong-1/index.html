@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÌNH YÊU DỪNG LẠI">
   <meta name="twitter:description" content="Tôi vừa đặt một ký cherry đắt đỏ, bạn trai đột nhiên báo con mèo trong nhà chạy mất rồi. Tôi vội vàng lao ra ngoài tìm, nhưng không thấy đâu cả. Khi quay về, thì thấy bạn trai đang đút một quả cher...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

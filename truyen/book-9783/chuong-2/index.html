@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CHUYẾN DU LỊCH XUI XẺO">
   <meta name="twitter:description" content="Sáng hôm sau, Trình Ý cà nhắc quay lại. Bảo là sợ làm phiền tôi nghỉ ngơi, nên tối qua đành ngủ tạm bên ngoài. Tôi lười để ý. Lúc ăn sáng, bốn cậu con trai lại đề nghị muốn rời đoàn, đi chơi tự do.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

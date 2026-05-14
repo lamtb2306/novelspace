@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | LẠC OÁN">
   <meta name="twitter:description" content="Hoàng cung rất lớn, rất đẹp. Trong một thời gian ngắn, ta đã biết rất nhiều điều. Ví dụ như, người đứng đầu một nước là hoàng đế, mẫu nghi thiên hạ là hoàng hậu, và mẫu thân của hoàng đế là Thái hậ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

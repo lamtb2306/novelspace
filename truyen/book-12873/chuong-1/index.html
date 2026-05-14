@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nghèo Nhưng Không Hèn">
   <meta name="twitter:description" content="Bạn cùng phòng là sinh viên nghèo lại một lần nữa lén mang túi giới hạn của tôi ra ngoài, mang về một chiếc hàng fake đường may méo mó. Tôi cầm bằng chứng từ camera bắt cô ta đền tiền, bạn trai tôi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

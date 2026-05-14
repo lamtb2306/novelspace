@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | BỨC THƯ CUỐI CÙNG TRƯỚC KHI RỜI ĐI">
   <meta name="twitter:description" content="Một viên cảnh sát đưa điện thoại cho anh: “Nhưng đây là chiếc điện thoại tìm thấy ở nơi xảy ra vụ nhảy lầu.” “Chúng tôi đã sử dụng kỹ thuật để mở khoá.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

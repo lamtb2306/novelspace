@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trở Lại Ngày Dì Giúp Việc Đòi Lương Tiền Mặt">
   <meta name="twitter:description" content="Kiếp trước, dì Tống yêu cầu tôi trả lương cho dì bằng tiền mặt. Vài ngày sau khi dì về quê, dì gọi điện cho tôi. Nói là ở quê xảy ra chuyện, muốn ứng trước lương tháng sau. Dì Tống làm ở nhà tôi đã...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

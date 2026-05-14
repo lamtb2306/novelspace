@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | TÀNG CHÂU">
   <meta name="twitter:description" content="Vì vậy, ta bước lên một bước, hỏi: “Vậy còn quốc công gia? Vì sao chàng cũng đi đến bước này?” Tay hắn rót trà khựng lại, có chút ngỡ ngàng nhìn sang, có lẽ xưa nay chưa ai dám hỏi như vậy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

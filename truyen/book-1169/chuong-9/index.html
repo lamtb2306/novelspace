@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Cô Dâu Thay Thế Của Hào Môn Họ Họa">
   <meta name="twitter:description" content="Hai ngày. Ba ngày. Ba mẹ vẫn chưa mở cửa. Họ quên tôi rồi sao? Tôi sắp chết rồi sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

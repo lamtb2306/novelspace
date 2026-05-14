@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | DÃ CHI">
   <meta name="twitter:description" content="“Mấy bức ảnh kia sẽ nhanh chóng được gỡ xuống thôi, nhưng những gì lan truyền trong bóng tối thì tôi không can thiệp được, cô chịu đựng thêm chút đi.” Tôi lạnh nhạt nói: “Còn chuyện lên cầu, không ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

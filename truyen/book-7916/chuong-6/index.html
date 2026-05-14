@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | VƯƠNG MIỆN GAI">
   <meta name="twitter:description" content="Tôi nhìn anh ta, giọng vẫn bình thản. Mắt nóng lên, sống mũi cay xè, nhưng tôi cố nén tất cả những cảm xúc không nên có.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

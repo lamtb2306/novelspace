@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Gió sẽ chọn người yêu tôi">
   <meta name="twitter:description" content="Nếu không có Phó Nghiễn Tu, tôi sớm muộn gì cũng chết trong tay hắn. Chiếc sườn xám đỏ trên người tôi cũng vương máu, nhưng vì là màu đỏ nên không rõ ràng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

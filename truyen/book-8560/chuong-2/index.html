@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | KIỀU UYỂN">
   <meta name="twitter:description" content="Tôi đưa hai mẹ con về Hải thị, cho cô ta đi du học, còn con bé được học trường quý tộc. Tôi dẫn cô ta bước vào giới thượng lưu Hải thị, đưa vào Tạ thị làm nhà thiết kế trang sức chính.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

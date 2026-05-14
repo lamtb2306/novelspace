@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Một Bản Di Chúc Muốn Cướp Đi Căn Nhà Của Tôi">
   <meta name="twitter:description" content="– “Đồ ăn cháo đá bát!” Bà Thái Thục Phân run rẩy. “Tao vất vả nuôi mày lớn, cho mày đi học, giờ mày dám nói tao thế này? Nếu không vì mày tham, nhà mình có ra nông nỗi này không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

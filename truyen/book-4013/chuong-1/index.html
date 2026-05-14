@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Đời Không Duyên">
   <meta name="twitter:description" content="Tôi và chồng đánh nhau đến mức bị đưa vào đồn cảnh sát. Tôi thì không hề hấn gì, chỉ có vài sợi tóc hơi rối. Còn gương mặt tuấn tú của chồng tôi thì chi chít vết máu, trên cổ và cánh tay cũng đầy n...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

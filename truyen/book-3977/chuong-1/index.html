@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Chữ Ký, Hai Tội Danh">
   <meta name="twitter:description" content="Tôi bỗng phát hiện ra, hôm qua mình vô tình đóng nhầm dấu, có thể sẽ khiến công ty thiệt hại hàng trăm triệu. Tôi đang cố nghĩ cách khắc phục. Thì bất ngờ, Lý Đức Phát đạp cửa văn phòng tôi xông và...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

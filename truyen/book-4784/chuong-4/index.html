@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | THÁNG SÁU NĂM ẤY">
   <meta name="twitter:description" content="Tôi rút tay về, giọng lạnh lùng: “Nếu bị phát hiện thì bị quy là tội đầu cơ trục lợi. Tôi không thể đưa phiếu cho cậu được.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

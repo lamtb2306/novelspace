@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGƯỜI GIỮ THÀNH CUỐI CÙNG">
   <meta name="twitter:description" content="Khi Chử Việt dẫn quân đánh vào trong thành, ta đang ngồi trên bức tường cao của hoàng cung phơi nắng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

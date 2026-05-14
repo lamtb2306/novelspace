@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đến lớp học thêm để tạo bất ngờ cho con gái, nhưng lại bị coi là kẻ buôn người">
   <meta name="twitter:description" content="Hôm nay là sinh nhật con gái, tôi lặng lẽ đến trước cửa lớp học thêm của con, định cho con một bất ngờ. Khi tôi nói với giáo viên rằng mình là phụ huynh của Tiểu Tiểu, cô ấy lập tức nhíu mày.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Trò Chơi Trốn Tìm Cả Đời">
   <meta name="twitter:description" content="Ông bước tới định kéo tôi. Tôi nghiêng người né tránh, chỉ nhìn ông bằng ánh mắt xa lạ đến đáng sợ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Bà Chủ Nằm Yên, Một Phiếu Lật Bàn">
   <meta name="twitter:description" content="Đi đến cửa, tôi dừng bước, quay đầu nhìn Lý Triết đang thất hồn lạc phách. “À đúng rồi, quên nói cho anh biết.” “Căn biệt thự chúng ta ở, cũng đứng tên cá nhân tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

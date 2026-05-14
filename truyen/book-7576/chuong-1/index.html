@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tân Gia Của Tiểu Tam">
   <meta name="twitter:description" content="Kỷ niệm ngày cưới, tôi định lái xe ra ngoài mua một cái bánh để ăn mừng. Nhưng lại phát hiện không chỉ ghế lái trong xe bị điều chỉnh về phía trước,mà còn có vài vụn bánh mì rơi vãi trong xe.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

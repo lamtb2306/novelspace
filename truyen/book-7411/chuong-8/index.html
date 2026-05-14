@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Cô Giáo Chủ Nhiệm Nhà Họ Lâm">
   <meta name="twitter:description" content="Tiệc mừng công được mọi người bí mật biến thành lễ tốt nghiệp dành cho tôi. Khi đèn tắt, ánh sáng sân khấu chiếu thẳng vào tôi, tôi có chút ngỡ ngàng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

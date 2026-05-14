@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | 18 Năm Sống Trong Nhà Vệ Sinh">
   <meta name="twitter:description" content="Nhà có bốn phòng, chỉ mình tôi phải ở trong nhà vệ sinh. Phòng ngủ chính của bố mẹ, hai cậu em trai mỗi đứa một phòng, phòng còn lại dùng làm phòng trà.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

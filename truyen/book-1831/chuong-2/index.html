@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | HÌNH XĂM HOA HỒNG ĐEN">
   <meta name="twitter:description" content="Thấy tôi cố gắng muốn ở lại, chắc anh ta cũng nhận ra tôi rất quyết tâm. Anh ta nhìn tôi bằng ánh mắt khó đoán, khiến tôi cảm thấy không thoải mái. Sau đó anh ta mím môi, đưa khay dụng cụ trong tay...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

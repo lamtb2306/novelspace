@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Trứng Cháy">
   <meta name="twitter:description" content="Ngay sau đó, điện thoại tôi nhận được một tin nhắn. Là thông báo của ngân hàng. Tôi run rẩy mở ra. 【Ngân hàng XX】Tài khoản đuôi xxxx của quý khách vào xx giờ xx phút ngày xx tháng xx đã phát sinh m...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

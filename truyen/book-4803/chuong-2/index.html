@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | THẨM NGUYỆN">
   <meta name="twitter:description" content="Gửi ba yêu quý: Sáng nay con mặc đồng phục của tiệm trà sữa Mixue đi phát tờ rơi, kiếm được 60 tệ. Trời nóng muốn xỉu, mặc đồ dày bên trong mà ngộp quá trời.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

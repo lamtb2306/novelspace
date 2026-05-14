@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Đường Về Nhà">
   <meta name="twitter:description" content="“Từ ngày em trở về, chúng ta đã sai ngay trọng điểm.” “Trọng điểm gì?” “Chúng ta chỉ lo giữ thể diện cho Dao Dao, lại quên mất người thật sự cần yêu thương là em.” “Em ở ngoài khổ sở mười tám năm, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

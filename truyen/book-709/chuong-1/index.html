@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | GIẢ CÂM ĐỂ SỐ NG">
   <meta name="twitter:description" content="Ngày tôi chào đời, ba và mẹ tôi cá cược với nhau. Nếu tôi gọi “mẹ” trước, toàn bộ tài sản trong nhà sẽ thuộc về mẹ. Ngược lại, nếu tôi gọi “ba” trước thì sẽ thuộc về ba. Nhưng mặc kệ họ dạy thế nào...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

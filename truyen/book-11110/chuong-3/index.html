@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Bản Di Chúc Trước Bữa Cơm">
   <meta name="twitter:description" content="“Anh cả, từ năm mười sáu tuổi tôi đã không tiêu thêm một xu nào của gia đình. Ngược lại, tháng nào tôi cũng gửi tiền về nhà, cho đến khi anh tốt nghiệp và có việc làm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

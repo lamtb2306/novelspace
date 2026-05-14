@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hai Cái Bát Mẻ và Những Kẻ Xa Lạ">
   <meta name="twitter:description" content="Mẹ tôi đã nhẫn nhịn bố tôi nửa đời người. Ông giúp đỡ chú út, trả 35 vạn tệ tiền đặt cọc mua nhà, cho vay 18 vạn để làm ăn, lo học phí 10 vạn cho con chú, chưa bao giờ đòi lại một xu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

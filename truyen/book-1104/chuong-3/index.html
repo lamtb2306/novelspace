@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CUỐI CÙNG CŨNG CÓ ĐƯỢC EM">
   <meta name="twitter:description" content="Lúc này, nếu anh ta mà nói với bố tôi rằng tôi không hề ngoan ngoãn, không hề nhút nhát, không hề hướng nội, mà thực chất là một cô gái nóng bỏng, cuồng nhiệt, thì danh tiếng của tôi trong gia tộc ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

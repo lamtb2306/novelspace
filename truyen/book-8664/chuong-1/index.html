@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | DẤU HIỆU TÌNH YÊU">
   <meta name="twitter:description" content="Tham gia chương trình hẹn hò, tổ chương trình phỏng vấn tôi: “Trước đây bạn đã từng yêu chưa?” Tôi trả lời một cách tế nhị: “Đã từng, nhưng chia tay vì không hợp tính cách.” Tổ chương trình tiếp tụ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

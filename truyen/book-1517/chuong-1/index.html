@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Quán Quân Vật Lý Phản Công Học Đường">
   <meta name="twitter:description" content="Vừa kết thúc cuộc thi quốc tế trở về nước, trường học lập tức thông báo đã sắp xếp cho tôi một ký túc xá đơn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

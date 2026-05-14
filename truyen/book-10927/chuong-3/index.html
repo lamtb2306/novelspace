@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | BÚP BÊ MƯỢN THỌ">
   <meta name="twitter:description" content="Nhẹ nhàng, ngọt ngào, mang theo một chút quyến luyến. Tôi lập tức quay người lại. Phòng tắm trống không. Nhưng tôi cảm nhận được — nó đang ở gần. Nó vẫn luôn dõi theo tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BÔNG HỒNG DẠI">
   <meta name="twitter:description" content="Ai cũng biết Phó Cận Niên rất nghiêm khắc trong việc quản lý tôi, đến mức không thể chấp nhận được. Từ khi tôi có nhận thức, tôi đã không được phép ở lại bên ngoài qua đêm, cũng không được phép yêu...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Món Nợ Gia Đình">
   <meta name="twitter:description" content="Tôi mời cả nhà đi ăn buffet hải sản giá 999 một người. Mẹ tôi cứng rắn không đụng vào một món chính nào. Bà chỉ đứng ở quầy nước chấm, lấy một đĩa tỏi sống rồi ngồi ăn với nước chấm, không nói một ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

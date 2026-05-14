@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TÌNH ĐƠN PHƯƠNG">
   <meta name="twitter:description" content="Mái tóc mềm mượt hơi bồng lên, trông như một chú mèo lười biếng, khiến người ta muốn đưa tay ra vuốt ve. Trong không khí, có hương thơm của cây ngô đồng và hoa quế. Im lặng thật lâu, dưới ngòi bút ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

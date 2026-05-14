@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Hoa Hồng Trong Cơn Mưa">
   <meta name="twitter:description" content="Tôi ngồi dậy, cầm lấy điện thoại đang sạc bên cạnh, đặt mua một vé máy bay lúc 4 giờ sáng. Đó là chuyến bay sớm nhất từ Anh quay về Trung Quốc lúc này. Sau đó, tôi xuống giường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

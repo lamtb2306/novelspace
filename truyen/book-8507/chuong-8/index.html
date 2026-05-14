@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Tình Yêu Sáu Tuần">
   <meta name="twitter:description" content="Trong đám đông bỗng có người hô lên: “Cô dâu phải tung hoa cưới rồi!” Tôi nhận bó hoa từ tay bạn, xoay người quay lưng lại với mọi người. “Ba! Hai! Một!” Tôi mạnh tay ném bó hoa ra sau.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

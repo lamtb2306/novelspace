@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bảy Năm Chung Chồng">
   <meta name="twitter:description" content="Đi công tác gấp, tôi lỡ mang nhầm laptop của chồng. Vào khách sạn, tôi vừa định nhờ lễ tân giúp kết nối wifi. Màn hình hiện “đã kết nối tự động”, nhưng tín hiệu chỉ có hai vạch.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

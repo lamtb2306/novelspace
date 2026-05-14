@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ANH TRAO TOÀN BỘ TÀI SẢN CHO TÌNH ĐẦU">
   <meta name="twitter:description" content="Kỷ niệm bảy năm bên nhau của tôi và Giang Xuyên, được tổ chức tại nhà hàng xoay cao cấp nhất trong thành phố. Bên ngoài khung cửa sổ sát đất khổng lồ là ánh đèn rực rỡ của toàn thành phố, tựa như d...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

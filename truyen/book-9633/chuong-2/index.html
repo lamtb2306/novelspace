@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BẠN CÙNG PHÒNG KHÔNG TỒN TẠI">
   <meta name="twitter:description" content="Tôi hỏi: “Cậu không đói sao?” Cô ấy nói: “Tớ ăn rồi.” Tôi hỏi: “Cậu không mệt à?” Cô ấy trả lời: “Tớ không buồn ngủ.” Tôi bắt đầu cảm thấy sợ. Sợ cô ấy không giống người bình thường. Thậm chí tôi đ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

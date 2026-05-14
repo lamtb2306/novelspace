@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BẢO MẪU MIỄN PHÍ">
   <meta name="twitter:description" content="Kiếp trước, tôi gả cho ông chủ góa vợ. Ông ta liệt giường, con cái không đoái hoài, tôi một lòng tận tụy hầu hạ suốt mười năm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

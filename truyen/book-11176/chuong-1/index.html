@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bản Sao Của Tôi">
   <meta name="twitter:description" content="Vừa từ trường dạy lái xe về, huấn luyện viên chỉ thẳng vào mặt tôi mắng tôi ngu như heo. Tôi tủi thân ngồi xổm bên đường khóc, thì một cuộc gọi đến, tự xưng là cảnh sát giao thông, nói tôi lái xe đ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

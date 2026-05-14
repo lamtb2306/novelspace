@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | NGUYỆT HẠ MÊ TÂM ẢNH">
   <meta name="twitter:description" content="Sớm biết thế này thì đừng dán cái thông cáo đó, giờ thì hay rồi, nữ chính thành bạn cùng phòng rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

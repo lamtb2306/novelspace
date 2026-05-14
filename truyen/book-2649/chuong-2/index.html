@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Cháu Tôi Dùng Hộ Khẩu Tôi Làm Của Hồi Môn">
   <meta name="twitter:description" content="Ví dụ như chiếc thẻ gia đình gắn với điện thoại của nó, thực ra là thẻ phụ của tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

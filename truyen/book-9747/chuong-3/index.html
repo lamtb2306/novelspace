@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | KẾT ĐAN TRONG KIẾP NẠN">
   <meta name="twitter:description" content="Bỗng nhiên sắc mặt hắn đại biến, tựa hồ nhớ ra điều gì. Có lẽ cũng nghĩ tới chuyện bản thân từng gỡ bỏ cấm chế phòng hộ mà chưa từng tái lập lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

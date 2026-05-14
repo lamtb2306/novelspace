@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Đường Về Có Anh Chờ">
   <meta name="twitter:description" content="Dì ngồi xuống lại, vui vẻ ghé sát tai tôi thì thầm: “Đường Đường, phí hoài bảy năm thanh xuân vì một người đàn ông, có đáng không? Cố Viễn Chu còn có thể cặp kè với mấy cô mới ra trường, sao con lạ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

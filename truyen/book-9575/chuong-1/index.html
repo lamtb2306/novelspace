@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ba Triệu Chia Tay, Một Đời Vay Trả">
   <meta name="twitter:description" content="Khác với mấy nhân vật trong tiểu thuyết mắc ung thư rồi giấu chồng giấu con, tôi vừa cầm kết quả xét nghiệm đã đưa thẳng cho Bùi Tu. “Anh chắc chắn muốn chia tay không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

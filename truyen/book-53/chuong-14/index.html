@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 14 | ĐÊM NÀO CŨNG LÀ TA">
   <meta name="twitter:description" content="Ta dậy thật sớm, chờ các thông phòng đến thỉnh an. Nhưng đợi đến tận giữa trưa, vẫn chẳng thấy ai đến. Thật là không coi ta ra gì mà!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

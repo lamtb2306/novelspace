@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 15 | CHIẾC XE HỒI MÔN">
   <meta name="twitter:description" content="Nói rồi, tôi quay lưng đi. Cô ta phía sau vẫn gào theo: “Tô Đoá! Cô không thể thấy chết mà không cứu! Nếu mất nhà, tôi thật sự không còn chỗ nào để đi!” Tôi không quay đầu, cũng không dừng lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

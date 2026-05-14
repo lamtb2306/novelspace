@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Thi 0 Điểm, Nhưng Cả Mạng Nghĩ Tôi Là Học Thần">
   <meta name="twitter:description" content="Tôi thậm chí có thể tưởng tượng ra quá trình đặc sắc khi nó nắm chặt điện thoại, sắc mặt từ trắng bệch chuyển sang xanh lè, rồi từ xanh lè chuyển sang tím tái.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

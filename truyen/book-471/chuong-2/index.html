@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Muốn Nhà Cưới? Vậy Thì Ra Đi Tay Trắng">
   <meta name="twitter:description" content="Tôi nhập mật mã mở cửa, nhưng thử mấy lần đều không mở được. Đang lúc thấy lạ, cửa bật mở, một người phụ nữ trông như đã mang thai bố /n th /áng cảnh giác nhìn tôi: “Bà là ai?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

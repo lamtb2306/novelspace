@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Ngày Tôi Từ Chối Mua Nhà Cho Anh Trai">
   <meta name="twitter:description" content="Từ bệnh viện về, mẹ tôi chẳng hề xin lỗi một câu, ngược lại còn chỉ thẳng vào mũi tôi mắng: “Đồ của nợ!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

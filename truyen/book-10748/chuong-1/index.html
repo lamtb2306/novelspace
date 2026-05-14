@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Con trai đặt 3000 chiếc pizza để trừng phạt tôi, và cái kết">
   <meta name="twitter:description" content="Con trai vì tôi không mua pizza cho nó nên muốn “trừng phạt” tôi, nhân lúc tôi ngủ trưa lén dùng điện thoại của tôi đặt một lần ba nghìn chiếc. Đến khi tôi phát hiện ra thì đã không thể hủy được nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

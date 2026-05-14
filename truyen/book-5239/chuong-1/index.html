@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI GẢ CHO TÊN ĐẦU VÀNG">
   <meta name="twitter:description" content="Sau khi nhà phá sản, tôi gả cho một tên đầu vàng chuyên đi đòi nợ. Ba tháng sau khi kết hôn, ngày nào tôi cũng tính toán chuyện ly hôn. Cho đến rạng sáng hôm đó, tôi ôm mấy bộ quần áo cuối cùng lao...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

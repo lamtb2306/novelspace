@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BẠN TRAI TÔI ĐĂNG ẢNH, NHƯNG NGƯỜI TRONG HÌNH LẠI KHÔNG PHẢI TÔI">
   <meta name="twitter:description" content="Bạn trai tôi đăng ảnh công khai trên vòng bạn bè, nhưng cô gái trong hình lại không phải tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

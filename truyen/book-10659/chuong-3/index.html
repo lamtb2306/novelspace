@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Thưởng Cuối Năm Không Có Tên Tôi">
   <meta name="twitter:description" content="Tôi thậm chí có thể tưởng tượng ra vẻ mặt bên kia đầu dây: phía sau lớp mặt nạ nho nhã, ông ta chắc đang tức đến phát điên khi nghe giọng máy lạnh lùng báo: “Thuê bao quý khách vừa gọi hiện đang bậ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

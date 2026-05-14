@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Đừng Hỏi Vì Sao Tôi Rời Đi">
   <meta name="twitter:description" content="Anh lặp đi lặp lại cái tên đó trong đầu, vẻ mặt bỗng nhiên thay đổi, đồng tử co lại. Vài ngày sau, Hạ Xuyên xông thẳng vào tòa nhà của JM.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hai Nàng Đi ên và Bữa Tiệc Tự Do">
   <meta name="twitter:description" content="Ngày đầu tiên sau khi được xuất viện khỏi bệnh viện tâm thần, tôi cùng cô bạn thân đến quán lẩu Haidilao ăn mừng tự do. Vừa lấy bánh kem ra, một thằng nhóc chạy tới, gào ầm lên: “Tôi muốn ăn bánh!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

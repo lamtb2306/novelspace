@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Tôi Mang Thai, Chồng Lái Ferrari Đi Đón Bạch Nguyệt Quang">
   <meta name="twitter:description" content="QUAY LẠI CHƯƠNG 1 : Còn tôi, đang nằm trong bệnh viện quê nhà, được bố mẹ chăm sóc tận tình. Tinh thần phơi phới, chẳng còn chút đau đớn nào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

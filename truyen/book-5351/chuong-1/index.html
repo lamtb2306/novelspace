@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tôi Làm Việc, Không Làm Ơn">
   <meta name="twitter:description" content="Vì làm thêm giờ đói bụng nên tôi ăn một cái bánh quy, kết quả bị quản lý phạt sáu trăm nghìn!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

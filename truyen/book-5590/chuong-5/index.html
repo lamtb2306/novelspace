@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Vợ Anh Không Còn Keo Kiệt">
   <meta name="twitter:description" content="Nhưng cậu ta lại chẳng biết giữ khoảng cách, đưa tay che màn hình điện thoại của tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

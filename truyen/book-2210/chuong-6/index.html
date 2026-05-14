@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Bạn Cùng Phòng Dùng Ảnh Tôi Để Lừa Tình">
   <meta name="twitter:description" content="“Tôi thích là cô gái trong ảnh — người đáng yêu, trong sáng, vì cuộc sống mà đi làm thêm, chứ không phải một kẻ cầm ảnh người khác đi lừa tình, toàn miệng dối trá.” 8 Câu nói ấy như một cú búa tạ, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

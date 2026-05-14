@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | NGƯỜI TÔI TỪNG NHẶT VỀ">
   <meta name="twitter:description" content="Lần này, điện thoại không còn kết nối được nữa. Màn hình tự động quay về giao diện chờ, còn anh… thì chết lặng. Cô ấy… chặn số anh rồi sao? Anh không nhớ nổi mẹ mình rời đi từ lúc nào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

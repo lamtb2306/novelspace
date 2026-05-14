@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Tôi Ngủ Chung, Chưa Từng Là Chồng Tôi">
   <meta name="twitter:description" content="Năm thứ ba sau khi mắc chứng mất trí nhớ tạm thời, tôi tình cờ nghe được cuộc trò chuyện giữa chồng mình – Lục Đình Ngôn – và đám anh em của anh ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

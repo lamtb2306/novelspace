@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | LÝ UYỂN UYỂN">
   <meta name="twitter:description" content="Tôi thậm chí còn thấy rất nhiều ID quen thuộc – mấy cô em từng cảm ơn rối rít sau khi đến tiệm tôi – giờ quay ngoắt thái độ, chửi tôi thậm tệ trên diễn đàn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

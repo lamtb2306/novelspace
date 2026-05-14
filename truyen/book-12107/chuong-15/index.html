@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 15 | TÔI TỪNG CÓ ÁNH NẮNG ẤM ÁP">
   <meta name="twitter:description" content="Tôi vốn sinh ra cao quý, nhưng vì anh, tôi có thể làm tất cả!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

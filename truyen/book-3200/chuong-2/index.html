@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | HÉ LỘ TẤM BƯU THIẾP">
   <meta name="twitter:description" content="Tôi không tiếp tục chuyến du lịch nữa. Triệu Tùng Diễn gọi cho tôi, nói con trai bị viêm dạ dày phải nhập viện. Khi tôi về đến nhà, ca mổ đã xong, con đang nằm trên giường nghỉ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

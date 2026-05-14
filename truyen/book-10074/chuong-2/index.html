@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Bỏ Lại Phía Sau Một Người">
   <meta name="twitter:description" content="Tôi xỏ giày, lắc đầu: “Không cần đâu ạ.” Hồi đó khi đón tôi về, phu nhân đã nói rõ ràng: “Con cái nhà họ Vệ, sinh ra là để trở thành người xuất sắc nhất, cho dù chỉ là con nuôi.” “Còn cô tiểu thư n...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | TOẢ SÁNG VÀO ĐÊM LY HÔN">
   <meta name="twitter:description" content="Tôi nhìn cái tên nhấp nháy trên màn hình, khóe môi cong lên một nụ cười mỉa mai, dứt khoát tắt máy. Anh ta vẫn cố chấp gọi lại. Tôi lại tắt máy lần nữa. Đến lần thứ ba, tôi bắt máy – nhưng không nó...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

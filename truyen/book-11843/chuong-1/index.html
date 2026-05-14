@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hậu Duệ Bạch Xà">
   <meta name="twitter:description" content="Ngày Rằm tháng Bảy âm lịch, cả nhà tôi đều phải quay về từ đường để tế tổ, kéo dài ba ngày liền. Tôi vừa tròn mười tám tuổi, nhưng đã là cụ tổ có vai vế lớn nhất trong dòng họ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

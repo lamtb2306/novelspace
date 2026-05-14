@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Chị Em Một Nhà, Kẻ Thù Một Kiếp">
   <meta name="twitter:description" content="“Nếu trước ngày mai không thanh toán, chúng tôi sẽ kiện thẳng ra toà!” Tôi cố gắng giải thích, năn nỉ, nhưng không ai nghe. Đến chiều, họ thậm chí dẫn người đến tận cổng nhà máy chặn lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

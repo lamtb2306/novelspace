@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | CÙNG NHAU NGOẠI TÌNH">
   <meta name="twitter:description" content="Tôi lái xe chở cậu ấy lòng vòng trong thành phố. Quay vài vòng, cuối cùng cậu cũng mất kiên nhẫn: “Chị định để em hít gió no trước khi hôn đấy à? Em no rồi.” “Không phải thế.” Tôi cảm thấy hơi nhức...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

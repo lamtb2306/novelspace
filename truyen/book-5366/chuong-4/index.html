@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Tôi Đọc Được Kịch Bản Của Anh">
   <meta name="twitter:description" content="“Tôi sẵn lòng quyên tiền, phiền gửi phương thức liên hệ!” “Tôi đang ở Thượng Hải, hay là tôi trực tiếp đến bệnh viện thăm cậu ấy, tiện thể mang tiền qua luôn?” Rất nhanh, chuyện này đã lan ra khỏi ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

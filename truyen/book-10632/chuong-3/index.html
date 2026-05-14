@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Trăng Khuyết Cũng Có Ngày Tròn">
   <meta name="twitter:description" content="Cho nên trong một buổi tiệc rượu đầy ác ý, tôi bị đẩy ra làm bia. Lúc đó, Lục Tri Ngôn đưa tay chắn, thay tôi nhận lấy ly rượu, đặt trước mặt mình.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

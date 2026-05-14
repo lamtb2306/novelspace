@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | QUAY VỀ TÌM ANH">
   <meta name="twitter:description" content="Sau khi tôi mất, hằng năm Thịnh Nghiên đều đốt cho tôi rất nhiều, rất nhiều tiền. Điều đó khiến tôi ở địa phủ hình thành thói quen tiêu xài phung phí. Đột nhiên, một ngày nọ, anh ấy không đốt nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

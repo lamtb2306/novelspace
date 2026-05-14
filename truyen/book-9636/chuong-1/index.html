@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nhà Cũ Rùng Rợn">
   <meta name="twitter:description" content="Bóng của tôi bỗng biến thành hình dáng một người phụ nữ mang thai, nhưng tôi rõ ràng đâu có mang thai. Tôi làm theo cách mà mẹ quá cố từng dạy – cách hỏi gạo của bà thầy bói trong làng – để thử cầu...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

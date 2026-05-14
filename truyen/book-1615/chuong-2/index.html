@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Thiếu Gia Lưu Lạc">
   <meta name="twitter:description" content="“Đi đến một nơi… không ai biết chúng ta.” “Thiên hạ rộng lớn, nơi nào mới là chỗ có thể yên ổn chứ.” Lão thuyền phu lắc đầu. “Giờ thế đạo này, loạn lắm.” Phải, loạn lắm. Nếu không loạn, Hầu phủ sao...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

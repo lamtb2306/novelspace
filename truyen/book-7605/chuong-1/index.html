@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bạn Thân Muốn Cướp Chồng Tôi">
   <meta name="twitter:description" content="Trong lúc ăn cơm, tôi vô tình lướt trên một diễn đàn nào đó, thấy một bài đăng khiến người ta nghẹn họng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

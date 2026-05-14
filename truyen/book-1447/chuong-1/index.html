@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ngày Đếm Ngược">
   <meta name="twitter:description" content="Trong nhà có một tấm bảng trắng. Trên đó viết đếm ngược của tôi. “Khoảng thời gian ước tính đến khi tim của Kỷ Niệm suy kiệt: 47 ngày.” Mỗi sáng, mẹ đều cẩn thận xóa con số của hôm qua, rồi viết co...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

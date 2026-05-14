@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chồng Tôi Nhưng Không Thuộc Về Tôi">
   <meta name="twitter:description" content="Vị hôn phu của tôi, vì muốn bỏ trốn cùng cô bạn gái thân học cùng học viện, đã tự đạo diễn một màn “hi sinh giả” ngay trong lễ cưới.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

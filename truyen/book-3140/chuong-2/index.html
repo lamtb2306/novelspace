@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | HAI SỢI DÂY CHUYỀN VÀNG">
   <meta name="twitter:description" content="Tôi không thể ở lại cái nơi này thêm một phút nào nữa. Tôi cầm túi xách lên, nói với Chu Thành: “Chúng ta về đi, bữa cơm này tôi không ăn nữa.” Chu Thành đột ngột quay phắt lại, mắt đỏ ngầu, gầm lê...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

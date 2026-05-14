@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Trò Chơi Trốn Tìm Cả Đời">
   <meta name="twitter:description" content="“Tiểu Tiểu.” Giọng ông khàn đặc,“Bớt đau buồn… Giữ gìn sức khỏe.” Ông dừng lại một chút, rồi nói nhỏ: “Ba và dì Trần…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

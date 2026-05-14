@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | MẬT NGỌT NGÀY TẾT">
   <meta name="twitter:description" content="Chưa kịp về đến nhà, tôi đã thấy bố mẹ đứng chờ dưới lầu từ xa. Nhìn thấy xe tôi, hai người vẫy tay đầy hào hứng. Tiểu Triệt nhìn họ, rồi quay sang tôi nói: “Ba mẹ mình trông cũng đáng yêu ghê.” Tô...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

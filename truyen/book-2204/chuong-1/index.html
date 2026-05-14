@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bạch Liên Rơi Xuống Bùn">
   <meta name="twitter:description" content="Nhà họ Thẩm mắc tội bị tống giam, cả nhà bị giáng xuống làm nô tịch. Thẩm Tri Cẩn vì diện mạo xuất chúng, lưu lạc đến Thanh Phong quán làm đầu bảng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

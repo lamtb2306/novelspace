@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Máy Rút Tiền Biết Đi">
   <meta name="twitter:description" content="Giọng trưởng thôn hồ hởi vang lên qua loa điện thoại, cả phòng đều nghe thấy rõ. “Vi Vi à! Ha ha ha, chú đang định gọi cho con đấy!” “Con hỏi vụ thu hoạch hả?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

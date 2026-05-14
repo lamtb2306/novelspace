@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Xem Mắt Hay Tuyển Người Hầ u">
   <meta name="twitter:description" content="Tôi không phải chờ lâu. Một tuần sau, tôi nhận được tin nhắn từ phòng nhân sự của công ty, bảo tôi đến văn phòng một chuyến. “Tô Tình, gần đây có người gọi điện đến công ty, nói một số chuyện… liên...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

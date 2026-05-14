@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Những Lá Thư Không Gửi">
   <meta name="twitter:description" content="Tôi xuyên vào một cuốn tiểu thuyết lấy bối cảnh thập niên 80, trở thành nữ phụ độc ác. Nhưng khi tôi đến, cốt truyện vẫn chưa bắt đầu, tôi chưa làm gì xấu xa cả. Tôi trở thành bạn thân với nữ chính...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

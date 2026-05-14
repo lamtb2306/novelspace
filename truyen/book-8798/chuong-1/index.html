@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Vương Phi Cá Mặn">
   <meta name="twitter:description" content="Ngày đại hôn ta liền ngộ ra một điều — Làm vương phi chi bằng làm cá mặn. Hồng chúc cao nhiên, long phụng trình tường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

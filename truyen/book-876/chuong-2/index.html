@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Đứa Con Ngoan">
   <meta name="twitter:description" content="Mọi người mới thở phào, chồng tôi nhìn vào mắt tôi đầy bất mãn: “Lâm Tiểu Nhiễm, nếu cô có gì không bằng lòng với mẹ thì nói thẳng, động tay động chân như vậy quá quắt, cô thật vô giáo dục!” Tôi ng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

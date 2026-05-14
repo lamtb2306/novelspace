@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | ĐỔI CON GÁI LẤY SÍNH LỄ">
   <meta name="twitter:description" content="Mọi người giống như nghe hiệu lệnh, lập tức ngồi vào bàn tiệc, ánh mắt đầy tò mò nhìn chằm chằm vào mấy người chúng tôi. Mẹ tôi hồ hởi kéo tay tôi lại, nhìn từ trên xuống dưới, trách nhẹ: “Hôm nay ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

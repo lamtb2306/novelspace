@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | YÊU ĐƯƠNG ONLINE 3 NĂM VỚI GIÁO SƯ ĐẠI HỌC">
   <meta name="twitter:description" content="Tôi và bạn trai quen nhau online đã ba năm, mà anh ta chưa gửi nổi một tấm ảnh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | MẬT NGỌT NGÀY LỄ">
   <meta name="twitter:description" content="Tôi vội vàng giải thích: “Không phải, chị chỉ nhờ em một việc nhỏ thôi, ở lại trong phòng chị khoảng một tiếng là được.” Tôi chỉ tay về phía ghế sofa: “Kìa, em ngồi đó đi, chơi điện thoại, chơi gam...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

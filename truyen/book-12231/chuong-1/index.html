@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cô Vợ Bánh Bao Của Tổng Tài">
   <meta name="twitter:description" content="Tôi đã làm không công suốt ba năm ở tiệm bánh bao do chị dâu mở. Vậy mà hôm nay chị ta bỗng sa sầm mặt, nói tôi chậm chạp, làm ảnh hưởng việc buôn bán.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tôi Trở Về, Hoa Thành Phải Đổi Chủ">
   <meta name="twitter:description" content="Gương mặt Cố Hoằng Bác thay đổi liên tục, ông ta biết tính tôi, nói được làm được. Nếu tôi thực sự xảy ra chuyện, dư luận sẽ đè nát toàn bộ kế hoạch của ông ta. Phòng khách rơi vào im lặng chết chóc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

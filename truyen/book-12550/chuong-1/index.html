@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bí Mật Của Chuyến Du Lịch Lớp">
   <meta name="twitter:description" content="Người bạn cũ hẹn tôi đi Tây Tạng, tôi nói sợ phản ứng cao nguyên nên không đi. Họ rất thấu hiểu, còn nói sẽ chụp ảnh và mua đặc sản về cho tôi. Ngày thứ hai sau khi khởi hành, lớp trưởng gửi một bứ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

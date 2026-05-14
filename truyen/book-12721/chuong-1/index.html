@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Căn Nhà Giấy Hứa">
   <meta name="twitter:description" content="Khi đi nộp hồ sơ nhập học cho con gái, tôi mới phát hiện trường được phân không phải là Trường Tiểu học Dục Tài mà tôi hằng mong mỏi, mà là Trường Tiểu học Quang Minh – một nơi cách xa Dục Tài cả “...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

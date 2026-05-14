@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cô Gái Không Thuộc Về Làng">
   <meta name="twitter:description" content="Tôi là đứa con gái thô lỗ được ba mẹ nuôi ở quê. Cũng là đứa con gái nổi tiếng dữ dằn nhất vùng. Bà nội nuôi nhận nuôi tôi, cả nhà bà ăn thịt cá đầy bàn, chỉ cho tôi ăn cháo kê.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

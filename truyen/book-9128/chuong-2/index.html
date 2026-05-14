@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tôi làm giúp việc ở Dubai 10 năm">
   <meta name="twitter:description" content="Cây hòe già đầu làng vẫn xanh um như ngày nào. Người trong làng nhìn thấy tôi, ai cũng hồ hởi chào hỏi. “Con bé Chu Tình về rồi à? Lần này về còn đi nữa không?” “Ôi, đi nước ngoài chắc kiếm được nh...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

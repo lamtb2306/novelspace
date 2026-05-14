@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MÙA XUÂN TÌNH YÊU">
   <meta name="twitter:description" content="Sau khi ở bên cạnh Kỳ Văn, anh ấy bảo tôi đi theo đuổi một học sinh nghèo mới chuyển đến. Vì tiền, tôi đã đồng ý. Học sinh nghèo đó quá ngây thơ. Nhận thư tình của tôi, ăn sáng do tôi mang đến, liề...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Con Mèo Cắn Nát Lời Nói Dối">
   <meta name="twitter:description" content="Hàng xóm bỏ rơi con mèo, tôi đem về nuôi. Nó chẳng thân thiết gì với tôi, nhưng lại cứ bám lấy chồng tôi, kêu meo meo suốt ngày. Vậy nên tôi bắt đầu nghi ngờ. Hôm đó, khi chồng nói là phải làm thêm...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

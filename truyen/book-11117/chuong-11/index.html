@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | HỒNG TRANG VÃN HỐI">
   <meta name="twitter:description" content="Ta mỉm cười: “Đúng vậy. Ta đến đây, chính là để báo thù ngươi.” Kiếp trước, ngươi gạt ta, ép ta chết thảm, cướp đoạt tài sản và vinh hoa phú quý. Kiếp này, ta khiến ngươi tay trắng, thân bại danh l...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

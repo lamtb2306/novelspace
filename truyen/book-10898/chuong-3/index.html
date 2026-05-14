@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tiền Đã Chuyển, Nhưng Không Thuộc Về Tôi">
   <meta name="twitter:description" content="Anh họ cười rất đắc ý, quay đầu nói với mẹ tôi, “Dì à, tuy em gái tiêu tiền hoang phí đúng là không tốt, nhưng dù sao cô ấy cũng là con gái ruột của dì mà.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

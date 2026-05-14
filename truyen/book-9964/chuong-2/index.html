@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TÔI KHÔNG CHÚC MỪNG">
   <meta name="twitter:description" content="Tôi đỡ bà đứng dậy. Trên đường, bà không nói một lời. Đến cửa nhà, bà sờ mãi không tìm thấy chìa khóa. Tôi giúp bà mở cửa. Đóa Đóa nhào tới: “Bà ngoại!” Mẹ ôm chầm lấy con bé, cuối cùng cũng không ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

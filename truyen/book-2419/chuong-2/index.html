@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CHÚ NHỎ CỦA TÔI">
   <meta name="twitter:description" content="Tiệc chào mừng Từ Chi Ân trở về nước, tôi cũng nhận được thiệp mời.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

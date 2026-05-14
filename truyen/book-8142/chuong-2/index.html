@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Chuyên Gia Chia Tay">
   <meta name="twitter:description" content="Tôi giận, anh chạy cả tám con phố mua hạt dẻ nướng dỗ dành. Mang thai, sinh nở, anh chưa từng vắng mặt một lần khám thai. Mỗi khi về nhà, anh đều ôm tôi và con gái, nói chúng tôi là gia đình anh yê...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

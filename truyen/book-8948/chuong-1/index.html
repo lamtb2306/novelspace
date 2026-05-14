@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MỘT CHỮ LÀ THẦY, NỬA CHỮ CŨNG LÀ THẦY">
   <meta name="twitter:description" content="Vào ngày thi đại học, lớp trưởng dẫn cả lớp đến vây kín nhà tôi, uy hiếp rằng nếu tôi không trả lại học phí thì cả lớp sẽ đồng loạt bỏ thi. “Cô giáo à, thành tích của tụi em là nhờ bùa may mắn của ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

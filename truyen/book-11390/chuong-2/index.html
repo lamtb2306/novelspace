@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Cuộc Chiến Thừa Kế Của Con Riêng">
   <meta name="twitter:description" content="Dù sao từ nhỏ đến lớn, số tiền họ bỏ ra cho tôi, đếm trên đầu ngón tay là hết. Sữa bột hồi bé toàn hàng sắp hết hạn, quần áo là đồ cũ của chị, đến cặp đi học cũng là của anh để lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Sau Khi Trở Về Hào Môn, Tôi Tố Cáo Bà Ngoại">
   <meta name="twitter:description" content="Sau mười sáu năm bị bắt cóc, cuối cùng tôi cũng được trở về bên cha mẹ ruột của mình. Cả nhà ôm nhau khóc nức nở, mẹ đỏ hoe mắt hỏi tôi: “Lúc đó quá hỗn loạn, con còn nhớ là ai đã bế con đi không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

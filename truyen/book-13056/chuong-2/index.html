@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Cha Tôi Là Anh Hùng Của Người Khác">
   <meta name="twitter:description" content="Tôi ngẩng lên nhìn gương mặt cha lập tức tái mét, từng chữ từng chữ, rõ ràng vô cùng. “Thứ tôi ghét nhất, chính là bánh kem dâu tây, thật sự là… buồn nôn đến cực điểm.” “Và nữa, tôi đã nói rồi, tôi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

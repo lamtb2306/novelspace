@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đổi Vai">
   <meta name="twitter:description" content="Tên cướp hỏi trong đám tụi tôi ai là con nhà họ Lâm. Tôi thấy chị sợ đến tái mét liền chủ động bước ra. Chúng lôi tôi đi, cảnh sát đuổi theo, nhưng trên đường chạy trốn, bọn chúng bán tôi cho một n...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chúng Ta Của Năm Thứ Mười Một">
   <meta name="twitter:description" content="Tôi nhẹ nhàng rút tay ra, “Hạ Lâm Xuyên, chúng ta đều nên bước tiếp.” Ra khỏi nhà hàng, gió đêm thổi tan hơi nóng trong hốc mắt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

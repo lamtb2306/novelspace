@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Giá Như Mẹ Cũng Yêu Tôi">
   <meta name="twitter:description" content="Mẹ tôi sinh nhật, gọi điện bảo tôi về ăn cơm. Tôi định đi nhờ xe của em gái, nhưng em lại nói mai mới về.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

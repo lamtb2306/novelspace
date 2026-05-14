@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Đừng Đụng Vào Những Thứì Không Phải Của Mình">
   <meta name="twitter:description" content="Tôi mở avatar của một người bạn trong nhóm tên là Lý Nhiên, bấm gọi luôn. “Alô! Bà sinh nhật mà giờ mới chịu bắt máy? Bà trốn đâu đấy?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

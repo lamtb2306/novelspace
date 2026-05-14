@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Ly Trà Đổi Mẹ">
   <meta name="twitter:description" content="Xung quanh toàn là những lời nịnh nọt. Tôi mỉm cười đáp lại, nâng ly ra hiệu. Đúng lúc này, ngoài cửa kính sát sàn của khách sạn, xảy ra một trận ồn ào nho nhỏ. “Làm gì đấy?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

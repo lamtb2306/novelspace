@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CHỦ ĐỀ TÌNH YÊU">
   <meta name="twitter:description" content="Tôi vừa xuống lầu đã nhìn thấy cô gái đó. Trang phục giống hệt trong ảnh: Váy liền màu hồng, tóc xoăn dài như rong biển, xõa ngang vai. Toàn thân tỏa sáng, nhìn cái là thấy nổi bật.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

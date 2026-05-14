@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Kẻ Cứng Đầu Trời Sinh">
   <meta name="twitter:description" content="Tôi trời sinh cứng đầu, người khác nói gì, tôi đều tin thật. Năm tôi 4 tuổi, bà nội nói tôi là đứa con gái chỉ tổ tốn cơm, tôi liền chạy khắp phố tìm người mua mình, xem thử có thật là “lỗ vốn” không.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

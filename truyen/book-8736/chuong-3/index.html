@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | TÌNH YÊU KHÔNG GỈ">
   <meta name="twitter:description" content="Tối về nhà, Trần Nghiễn Chu hiếm khi thấy đang loay hoay trong bếp (bình thường là tôi nấu, còn anh rửa bát và biến bếp thành bãi chiến trường). Anh ấy mặc tạp dề màu hồng Hello Kitty của tôi, hình...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

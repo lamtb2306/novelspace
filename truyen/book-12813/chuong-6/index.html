@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | ĐIỀU ƯỚC NGÀY SINH NHẬT">
   <meta name="twitter:description" content="Tiệc sinh nhật của bà Từ, tôi có trong danh sách khách mời. Khi tôi đến nơi, buổi tiệc đã bắt đầu. Tôi đưa quà cho bà Từ, bà kéo tôi lại trò chuyện một lúc lâu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

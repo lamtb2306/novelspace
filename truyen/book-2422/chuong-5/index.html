@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CHÚNG TA CHỈ LÀ BẠN">
   <meta name="twitter:description" content="Tôi vốn nghĩ Cảnh Dương sẽ không để tâm đến lời mình nói hôm qua. Thế nhưng sáng hôm sau, khi mở cửa ra, tôi lại thấy Cảnh Dương đang đứng ngoài thang máy, không biết đã chờ bao lâu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

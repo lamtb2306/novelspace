@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Trợ Lý Trong Tim Anh">
   <meta name="twitter:description" content="Tôi cảm thấy nghẹn ngực, nói lời chào với mọi người rồi đứng dậy rời đi. Không ngờ lần gặp mặt cuối cùng, lại kết thúc bằng một trò hề như thế.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

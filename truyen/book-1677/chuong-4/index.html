@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | TÔI LÀ MỘT THIÊN KIM GIẢ">
   <meta name="twitter:description" content="Tôi sợ hãi trốn sau lưng Tô Trạch: “Tôi đã cố gắng hết sức rồi.” Tôi thực sự đã cố gắng hết sức, nhưng khả năng của tôi có hạn, không thể bù đắp chỉ bằng sự nỗ lực.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

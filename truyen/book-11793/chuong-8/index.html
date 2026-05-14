@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | TÔI BẮT CẢ NHÀ ANH ĂN MÌ GÓI">
   <meta name="twitter:description" content="Đó là chương trình tôi nhờ một người bạn hacker viết — phần mềm ghi lại màn hình, cài đặt không dấu vết, tự động chạy nền, có thể xem từ xa. Mồi, đã được thả xuống. Vài ngày tiếp theo, tôi đóng vai...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

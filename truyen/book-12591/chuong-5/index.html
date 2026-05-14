@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Mãi Mãi Là Một Lời Hận">
   <meta name="twitter:description" content="Bên trong chi chít những con số: từ số tiền lương hàng tháng anh chuyển cho tôi, đến cả những chai nước anh tùy tiện mua khi đi chơi, tôi đều ghi nhớ rõ ràng. Năm anh bỏ học, có không ít người nói ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

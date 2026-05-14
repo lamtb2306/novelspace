@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Em Gái Tôi Chăm Sóc">
   <meta name="twitter:description" content="Hôm đó tôi đưa em trai đi mua quần áo, đang lựa giúp nó thì nó đột nhiên lên tiếng: “Thật ra chị nhìn chẳng ra gì.” Tôi còn đang so sánh hai cái áo cho nó, hoàn toàn không phản ứng kịp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

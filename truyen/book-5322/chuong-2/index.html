@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tình Yêu Sai Người">
   <meta name="twitter:description" content="Dám đưa người về tận nhà? Lừa tôi thì thôi đi, còn dám đem người về khoe ngay trên đầu tôi, đúng là được voi đòi tiên! Chú có thể nhịn, thím thì không! Trong đại viện quân khu ai mà không biết, chọ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

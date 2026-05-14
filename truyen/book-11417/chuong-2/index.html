@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Thầy Trò Không Giống Thầy Trò">
   <meta name="twitter:description" content="Mà cái đêm trong lời cô ấy nói, tôi cũng nằm lăn lộn trên giường vì đau bụng không dứt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

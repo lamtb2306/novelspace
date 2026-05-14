@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Anh Chê Tôi Vô Dụng, Không Biết Tôi Nuôi Cả Tòa Nhà">
   <meta name="twitter:description" content="Rồi lần thứ ba. Tôi tắt máy. Sáng hôm sau. Trần Tuấn dậy rất sớm. Lúc tôi thức dậy, anh ta đã mặc xong quần áo.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

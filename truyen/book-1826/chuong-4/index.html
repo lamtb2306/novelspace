@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | DỊCH VỤ THẾ THÂN">
   <meta name="twitter:description" content="Vừa được đưa vào giường bệnh, tôi lập tức tỉnh lại. Căn phòng bệnh viện quen thuộc này… Chẳng phải mới hôm trước tôi còn ứng tuyển làm trợ lý phẫu thuật ở đây sao? Họ bảo tôi mai đến làm việc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

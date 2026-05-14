@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ba Tháng Cuối Bên Nhau">
   <meta name="twitter:description" content="Tôi sắp chết rồi. Sống thì như cô hồn vất vưởng, chết đi cũng chẳng khác gì một con quỷ hoang dại. Tôi vốn là người có chút “tinh thần công cộng”, lo rằng nếu xác mình để quá lâu trong nhà, không a...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

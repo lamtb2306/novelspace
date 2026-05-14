@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | DỤNG CỤ TRƯỜNG SINH">
   <meta name="twitter:description" content="Tôi nấp dưới bệ cửa sổ, nghe rõ ràng cuộc trò chuyện giữa họ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

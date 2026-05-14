@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tuổi Già Tôi Chọn Tự Do">
   <meta name="twitter:description" content="Mẹ tôi, năm nay tám mươi sáu tuổi, vừa qua đời. Cả nhà đều không cho tôi về chịu tang. Con dâu cất giọng chua ngoa: “86, hỉ tang!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | LẦN CHIA TAY THỨ 100">
   <meta name="twitter:description" content="Khi Trần An Chi hỏi tôi có thể trả lại cái áo thun đen cho anh không, tôi lại một lần nữa nói lời chia tay.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

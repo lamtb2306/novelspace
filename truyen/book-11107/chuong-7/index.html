@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Nhà Tôi Mua, Nhưng Không Thuộc Về Tôi">
   <meta name="twitter:description" content="“Tôi cho các người thời hạn hôm nay. Nếu quá thời gian không lấy, tôi sẽ xem như đồ bị bỏ và xử lý theo ý tôi.” Ngoài cửa, là một khoảnh khắc yên lặng ngắn ngủi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

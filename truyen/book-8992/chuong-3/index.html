@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | TRỐNG HÒA LY">
   <meta name="twitter:description" content="Ta viết rằng mới học được món ăn mới, đợi gặp nhau sẽ nấu cho chàng; Viết về bức họa phụ thân sưu tầm, nhưng ta vẫn thấy con thỏ chàng vẽ đẹp hơn; Viết đủ chuyện thú vị nơi kinh thành.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Khu Dân Cư Không Thể Rời Khỏi Tôi">
   <meta name="twitter:description" content="Phát hiện có một tờ thông báo dán trước cửa. Là bản in từ Trung tâm Dịch vụ Cư dân.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

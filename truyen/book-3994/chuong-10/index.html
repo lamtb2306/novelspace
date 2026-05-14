@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Một Ngàn Lượng Vàng, Mua Đứt Cả Đời Ta">
   <meta name="twitter:description" content="tôi thở phào nhẹ nhõm. Hệ thống vui mừng khôn xiết, thực sự tặng cho tôi một món quà. “Cảm ơn cô đã cứu hai thế giới. Ta đã hỏi ý kiến cha cô, ông ấy đồng ý ở lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

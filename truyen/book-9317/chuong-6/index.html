@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Khách Hàng Đi Theo Người">
   <meta name="twitter:description" content="“Thông tin?” “Chính là… sở thích, tình hình gia đình của Lý tổng các kiểu ấy.” Tôi không nói gì. Tiểu Lâm lại nói: “Tô Niệm, chị phải cẩn thận. Chu Dao là người gì cũng dám làm.” “Tôi biết. Cảm ơn ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

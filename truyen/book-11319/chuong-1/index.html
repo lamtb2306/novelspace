@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tiểu Tam Không Biết Người Bị Mắng Chính Là Bà Chủ">
   <meta name="twitter:description" content="Mẹ chồng tôi là một thiên kim tiểu thư chính hiệu. Năm xưa khi bà gả cho bố chồng – một người mở tiệm ăn nhỏ, tất cả mọi người đều nói bà bị điên rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

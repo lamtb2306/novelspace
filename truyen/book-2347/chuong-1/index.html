@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bốn Trăm Ngàn Một Giọt Nước">
   <meta name="twitter:description" content="Ngày làng có nước máy, ba mẹ tôi cười tít mắt. Dù sao thì số tiền bốn trăm ngàn kia là tôi bỏ ra, họ cảm thấy có mặt mũi lắm trong làng. Nhưng khi hàng xóm đã dùng nước sạch tinh tươm, vòi nước nhà...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

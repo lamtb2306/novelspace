@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TRƯỚC GIỜ LÊN MÁY BAY, HR TỰ Ý ĐỔI VÉ CỦA TÔI. MỘT TUẦN SAU, CÔ TA HỐI HẬN TỚI PHÁT ĐIÊN">
   <meta name="twitter:description" content="Đây là dự án lớn nhất tôi từng nhận kể từ khi vào công ty. Khách hàng chỉ cho đúng một ngày, bắt buộc phải có mặt ngay trong ngày hôm đó.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

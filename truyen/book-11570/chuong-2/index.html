@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BẠN TRAI CŨ ĐỠ ĐẺ CHO TÔI">
   <meta name="twitter:description" content="Người ta đồn rằng đóa hoa cao lãnh chỉ có thể ngắm nhìn từ xa chứ không thể mạo phạm, giờ lại đang ngồi đối diện tôi, húp húp uống cà phê, trò chuyện với tôi về game và học hành.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

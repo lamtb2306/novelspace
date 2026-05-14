@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI THẦM THÍCH MỘT SÁT THỦ">
   <meta name="twitter:description" content="Người tôi thầm thích là một sát thủ. Để có thể nhìn anh ta thêm vài lần, tôi đã ẩn danh thuê anh đến giết chính mình.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

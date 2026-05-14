@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CUỐI CÙNG CŨNG CÓ ĐƯỢC EM">
   <meta name="twitter:description" content="Lúc mới bước chân vào giới giải trí, tôi sợ bị công ty chèn ép, nên đã tìm cách quyến rũ thái tử gia của công ty. Anh ta đích thân kiểm soát mọi thứ cho tôi, giành kịch bản, đoạt hợp đồng quảng cáo...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

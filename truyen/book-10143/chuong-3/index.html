@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | ĐOẠT MỆNH HOA GIA">
   <meta name="twitter:description" content="Đường đệ phụ họa: “Đúng thế, ta thích tỷ tỷ bây giờ hơn nhiều.” Nàng cười dịu dàng: “Từ nay tỷ sẽ luôn bầu bạn cùng các đệ.” Đường huynh nói: “Được vậy thì hay.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

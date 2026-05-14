@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | GIÁ NHƯ NĂM ĐÓ KHÔNG GẶP NHAU">
   <meta name="twitter:description" content="Tôi từng nghĩ, lần này anh về, nhất định tôi sẽ tìm cơ hội hỏi rõ anh. Hỏi xem anh có chút tình cảm nào với tôi không, hỏi anh có muốn tới nhà tôi dạm hỏi hay không.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

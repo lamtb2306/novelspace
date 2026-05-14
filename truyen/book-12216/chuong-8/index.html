@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | CÔ HÀNG XÓM Ở PHÒNG BÊN">
   <meta name="twitter:description" content="Nhưng shipper đưa địa chỉ và xác nhận tên — đúng là gửi tới nhà tôi, không nhầm. Tôi liếc nhìn hóa đơn, tên người đặt là “chị Vương”. Tôi đoán: “Chắc là hàng xóm kế bên đặt, nhưng ghi nhầm địa chỉ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Ánh Sáng Cuối Cùng Em Để Lại Cho Anh">
   <meta name="twitter:description" content="“Nhóc con, về nhà nói với người mẹ dối trá của cháu.” “Đôi mắt này là của một người hiến tặng cao quý để lại cho tôi, là thứ trong sạch nhất trên đời.” “Còn mẹ cháu?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

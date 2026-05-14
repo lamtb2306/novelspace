@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Trò Trốn Tìm Cuối Cùng">
   <meta name="twitter:description" content="Tôi ngồi xổm tại chỗ, không dám động đậy, chỉ cảm thấy củ khoai lang vừa ăn xong như nghẹn chặt trong dạ dày. Chiều tối, chú đi ra ngoài. Thím ngồi trên bậc cửa, nhìn đám mây đỏ sậm nơi chân trời m...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

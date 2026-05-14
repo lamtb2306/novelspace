@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | THỰC ĐƠN KINH DỊ">
   <meta name="twitter:description" content="Không quay đầu lại, tôi cắm đầu chạy khỏi nhà vệ sinh. Tôi có thể cảm nhận rõ, nó đang cố vươn tay tóm lấy lưng tôi! May mà tôi chạy thoát kịp. Ánh đèn vàng ấm áp trong nhà hàng khiến tôi thấy dễ t...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

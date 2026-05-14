@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | YÊU ONLINE THẦY GIÁO">
   <meta name="twitter:description" content="“Bé yêu bé yêu, tối nay anh đi ăn với bạn từ nhỏ, về trễ nên không nhắn tin cho em được đâu. Em ngủ sớm nha, chúc ngủ ngon, chụt chụt!” “Được rồi. Em để bài lên bàn trong văn phòng đi. Mai thầy xem...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

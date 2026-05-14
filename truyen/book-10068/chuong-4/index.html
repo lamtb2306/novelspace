@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Bản Án Hào Môn">
   <meta name="twitter:description" content="Nhưng điều khiến tôi không ngờ nhất là — khi tôi về đến nhà, thứ chờ đón tôi lại là cơn thịnh nộ của cả gia đình. Bố tát thẳng vào mặt tôi một cái, giận dữ chất vấn: “Con còn là người nữa không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

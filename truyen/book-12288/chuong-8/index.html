@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Tiếng Kèn Dành Cho Kẻ Vô Tình">
   <meta name="twitter:description" content="Nhưng tất cả những chuyện đó, chẳng còn liên quan gì đến tôi nữa. Chúng tôi như hai đường thẳng từng giao nhau, rồi cứ thế xa dần, mỗi người đi về một phía của cuộc đời.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

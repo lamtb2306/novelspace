@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Một câu ‘mẹ ai nấy lo’, tôi khiến nhà chồng tự loạn">
   <meta name="twitter:description" content="Triệu Lỗi bưng hai đĩa thức ăn ra, thấy tôi đang ngồi ở bàn ăn — trước mặt là một phần đồ ăn giao tận nơi. Một phần salad ăn kiêng 68 tệ, kèm nửa quả trứng chần và một ít hạt diêm mạch.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

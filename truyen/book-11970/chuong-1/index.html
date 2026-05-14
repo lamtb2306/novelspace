@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ăn Cắp Gặp Bà Già">
   <meta name="twitter:description" content="Trong nửa tiếng tôi đi vệ sinh ở thư viện, bạn học ngồi cạnh đã sao chép y hệt bài luận văn của tôi thành của cô ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

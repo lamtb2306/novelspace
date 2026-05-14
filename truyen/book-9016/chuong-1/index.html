@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | LÒNG TỐT ĐƯỢC ĐỀN ĐÁP">
   <meta name="twitter:description" content="Tôi tốt bụng tắm cho một chú chó hoang. Một người đàn ông khí thế bừng bừng gõ cửa nhà tôi. Vừa mở miệng đã hỏi: “Chó của tôi đâu?” Tôi chỉ vào con cún ngốc đang nằm cạnh chó nhà mình.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

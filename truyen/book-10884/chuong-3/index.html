@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chỉ Một Lần Tắm, Tôi Mất 1,2 Triệu">
   <meta name="twitter:description" content="“Ồ, cái này à. Mẹ bảo là giúp em quản lý tài chính, lãi suất cao hơn ngân hàng. Anh thấy cũng không nhiều nên thiết lập giúp em luôn.” “Anh thiết lập?” “Ừ.” Ngón tay anh ta vẫn lướt trên màn hình, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

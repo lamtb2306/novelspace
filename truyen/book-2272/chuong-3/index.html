@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | BẦU TRỜI SAO RỘNG LỚN">
   <meta name="twitter:description" content="Tôi nhìn anh ta, bỗng thấy xa lạ vô cùng. Người đàn ông này, thật sự là người tôi từng yêu sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

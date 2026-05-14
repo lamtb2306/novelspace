@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BẮT GIAN VỊ HÔN PHU">
   <meta name="twitter:description" content="Tôi đứng trước khách sạn Vi Lam, nhìn tấm biển dán thông báo tuyển dụng ở cửa mà không kìm được nụ cười. Vừa kịp bật bếp đã có người nhóm lửa rồi. Đúng là trời cũng giúp mình!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

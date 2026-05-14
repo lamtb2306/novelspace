@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | TỚ THÍCH CẬU">
   <meta name="twitter:description" content="Tôi và Thẩm Dã đã yêu nhau gần một năm. Hôm đó, gần hết giờ làm việc, anh nhắn tin cho tôi nhờ qua khu chung cư của một người bạn lấy giúp anh tài liệu, vì anh phải làm thêm giờ và không kịp đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

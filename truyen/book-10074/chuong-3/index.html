@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Bỏ Lại Phía Sau Một Người">
   <meta name="twitter:description" content="Sau đó, tôi muốn học tài chính – thương mại. Họ lại nói: “Học nhiều thế làm gì, nhà họ Ôn đã có anh con rồi, vậy là đủ.” Nhìn bên ngoài thì là chiều chuộng vô hạn, thực chất lại nuôi tôi thành một ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

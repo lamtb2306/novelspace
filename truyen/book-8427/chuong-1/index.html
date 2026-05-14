@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bị Cướp Ghế Trên Tàu, Tôi Lại Là Giám Khảo Kỳ Thi Của Họ">
   <meta name="twitter:description" content="Dịp lễ 1/5, tôi đi tàu cao tốc đến thành phố khác để làm giám khảo chấm thi phỏng vấn công chức.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

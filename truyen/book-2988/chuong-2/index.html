@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | DỤNG CỤ TRƯỜNG SINH">
   <meta name="twitter:description" content="Từ xa, tôi thấy dì út đang đứng trước cửa chờ đón, dáng người mảnh mai yêu kiều, nhẹ nhàng vẫy tay chào tôi. Dì út tên là Tần Linh, còn tôi tên là Tần Uyển. Thấy tôi đến, dì hơi ngạc nhiên, “Uyển N...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

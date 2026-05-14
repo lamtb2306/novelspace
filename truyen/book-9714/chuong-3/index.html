@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | SỰ NHẪN NẠI CỦA TÌNH YÊU">
   <meta name="twitter:description" content="Sau vài bài viết sai sự thật từ các trang tin tự phát và tài khoản công cộng, phòng khám buộc phải tạm dừng hoạt động.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

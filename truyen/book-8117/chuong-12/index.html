@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Tái Hiện Hiện Trường Năm 2016">
   <meta name="twitter:description" content="Trong mắt Uông Dục không mảy may có chút tức giận nào, ngược lại còn cười khẽ một tiếng: “Hà Điềm, đừng kích động thế. Đây chẳng qua chỉ là một bài test tâm thần học của anh mà thôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

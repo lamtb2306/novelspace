@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BÀ MAI ĐỘC ÁC">
   <meta name="twitter:description" content="Tôi và bạn thân cùng làm nhân viên đăng ký hôn nhân tại cục dân chính. Có một cặp vợ chồng đã đến làm thủ tục ly hôn đến lần thứ 9, nhưng lần nào cũng bị bạn thân tôi lấy lý do “máy in hỏng”, “lỗi ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

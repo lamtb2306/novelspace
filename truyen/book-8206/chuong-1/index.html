@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Phúc lợi có điều kiện">
   <meta name="twitter:description" content="Tôi mở một nhà ăn riêng cho nhân viên trong công ty, trợ cấp tiêu chuẩn bữa ăn là 150 tệ/người, bếp trưởng là đầu bếp ba sao Michelin. Còn tôi, mỗi ngày chỉ tượng trưng thu họ 1 tệ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

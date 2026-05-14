@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Bên Kia Cánh Cửa Hào Môn">
   <meta name="twitter:description" content="“Hôm nay trưa tôi mời, bánh bao ăn thoải mái!” Mấy bạn nói tôi keo kiệt, nhưng vẫn cảm ơn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

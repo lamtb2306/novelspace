@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CÂU CÁ LÚC NỬA ĐÊM">
   <meta name="twitter:description" content="Đúng là tin tốt thì không ra khỏi cửa, còn tin xấu thì truyền khắp thiên hạ. Tôi có chút bất lực: “Anh à, sao tin tức của anh linh thông dữ vậy?” Anh Trương bỗng cao giọng: “Thật á?!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

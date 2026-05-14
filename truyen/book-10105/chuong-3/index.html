@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Con Đường Về Thành Phố">
   <meta name="twitter:description" content="Con Đường Về Thành Phố Full 3 Tức điên, tôi lại vung đèn pin phang thẳng vào đầu hắn: “Nghe cho rõ đây, Vương Cẩu Đản!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | BẪY YÊU">
   <meta name="twitter:description" content="“Gì cơ?” Tôi nhất thời không phản ứng kịp. “Tôi hỏi, chồng em, là người nước nào.” Anh tùy tiện bóp bẹp lon bia rỗng trong tay, phát ra một tiếng “rắc” giòn tan.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Đổi Vai">
   <meta name="twitter:description" content="Tôi hoàn toàn bỏ qua sự tồn tại của chị, đi thẳng đến trước mặt mẹ. “Bố mẹ, cô ấy là ai vậy?” Từ ngày công ty của tôi niêm yết, vì phải xử lý vô số công việc, trong nhà càng ngày càng yên tĩnh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

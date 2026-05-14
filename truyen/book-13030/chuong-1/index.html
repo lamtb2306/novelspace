@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ngoan Ngoãn Để Chiếm Hết Gia Sản">
   <meta name="twitter:description" content="Khi Cố Đình Việt vì một cuộc gọi nói “sợ sấm sét” của cô trợ lý nhỏ mà bỏ mặc tôi giữa bữa tiệc sinh nhật của chính mình. Tôi không khóc lóc, không ầm ĩ, mà còn chu đáo nhắc hắn nhớ mang theo ô.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MÁY GIẶT CÓ MẮT">
   <meta name="twitter:description" content="Tôi mới mua chiếc quần lót Victoria’s Secret, bị mất tích một cách bí ẩn trong máy giặt công cộng ở ký túc xá.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

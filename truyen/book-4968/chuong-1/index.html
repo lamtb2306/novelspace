@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thanh Minh Năm Đó, Gia Đình Bỏ Tôi Lại Bên Đường">
   <meta name="twitter:description" content="Thanh minh về quê tảo mộ xong, tôi bận rộn chạy ngược chạy xuôi khuân đồ lên xe. Mẹ đột nhiên cất lời: “Trên xe hết chỗ rồi, con tự bắt xe về nhé.” Tôi sững sờ. Xe năm chỗ, bố mẹ, chị gái, em trai ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

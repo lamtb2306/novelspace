@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Sự Thật Sau Cánh Cửa Phòng Tắm">
   <meta name="twitter:description" content="Khi tôi trở lại bệnh viện, trên mặt không lộ ra bất kỳ điều khác thường nào. Tôi thậm chí còn mua mang theo một phần bánh bao chiên mà Cố Lâm thích nhất. Vừa đến cửa phòng bệnh, tôi đã thấy Cố Lâm ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

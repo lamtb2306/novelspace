@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Tôi Là “Ứng Dụng Chuyển Tiền” Của Gia Đình Suốt Tám Năm">
   <meta name="twitter:description" content="Ông im lặng rất lâu. Nói một câu “con nói đúng”. Rồi cúp máy. Ngày hoàn tất thủ tục nhận thừa kế, tôi đến trước mộ bố. Tháng ba. Gió rất lớn. Tôi ngồi xuống, lau tấm bia mộ. “Bố, tiền con nhận rồi....">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

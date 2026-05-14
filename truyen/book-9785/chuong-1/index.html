@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | VỢ CŨ LẬT MẶT">
   <meta name="twitter:description" content="Năm đó, khi Chung Xích ngoại tình. Tôi bỏ ra một số tiền lớn để mua lại ảnh nóng rồi tung lên mạng. Khiến danh tiếng của Chung Xích hoàn toàn sụp đổ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

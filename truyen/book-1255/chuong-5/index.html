@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Hạ Màn Mối Tình Năm Năm">
   <meta name="twitter:description" content="Nhưng bây giờ, tôi sắp rời đi rồi. Chúng tôi cũng đã chia tay. Tôi còn sợ gì nữa?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

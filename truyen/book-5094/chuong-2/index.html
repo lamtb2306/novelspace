@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Trăng Mật Với Cá Mập">
   <meta name="twitter:description" content="Bọn họ đã sốt sắng muốn theo Tô Hàn Duyệt đi tìm cái chết, vậy tôi nhất định phải thành toàn cho họ. Lúc này con thuyền đã tiến vào vùng biển nơi đàn cá mập thường xuất hiện.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

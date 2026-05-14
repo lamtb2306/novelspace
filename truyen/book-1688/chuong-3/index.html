@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tình Yêu Không Đổi Lấy Hào Môn">
   <meta name="twitter:description" content="Mỗi câu chuyện anh nói ra, tôi đều bắt nhịp được. Dần dần, anh bắt đầu tò mò về tôi. Một cô gái bán rượu ở quán nhậu như tôi, sao lại rành rẽ về những thứ chỉ giới nhà giàu mới chơi? Ly rượu thứ ba...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

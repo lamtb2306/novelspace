@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bức Tường Mẹ Dựng Lên">
   <meta name="twitter:description" content="Đêm Trung thu năm đó, mẹ tôi – lúc ấy đang mắc ung thư – cố gắng nấu một bàn đầy ắp món ngon, chỉ để giữ lại chút kỷ niệm cho ngày đoàn viên cuối cùng. Thế nhưng, bố tôi lại chẳng buồn động đũa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

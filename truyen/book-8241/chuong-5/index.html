@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Bàn Cơm Giao Thừa Không Có Phần Tôi">
   <meta name="twitter:description" content="Trần Tĩnh thậm chí còn chẳng nâng mí mắt lên. “Bà Trương, tôi nhắc bà.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

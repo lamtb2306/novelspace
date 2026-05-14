@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 13 | Một Miếng Bánh Bao Và Bí Mật Trong Cuộn Băng">
   <meta name="twitter:description" content="Bên ngoài cửa sổ, trời đã sáng. Một ngày mới bắt đầu. Là một ngày tràn đầy hy vọng, hay nguy hiểm hơn nữa. Tôi không biết. Tôi chỉ biết tôi phải bước ra ngoài. Bước ra khỏi căn phòng này. Đi tìm ng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

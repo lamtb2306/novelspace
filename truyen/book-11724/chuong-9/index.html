@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Nơi Em Không Thuộc Về">
   <meta name="twitter:description" content="“Giờ đến con em cũng phải lén lút mới được gặp bố. Em chờ đám cưới này mười tám năm rồi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

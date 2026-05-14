@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Chỉ Một Lần Tắm, Tôi Mất 1,2 Triệu">
   <meta name="twitter:description" content="“Mất đơn hàng của tổng giám đốc Trần rồi. Những khách hàng khác thì vẫn còn vài người.” “Đủ sống không?” Tôi nhẩm tính. “Hơi chật vật, nhưng đủ trả tiền thuê nhà.” “Cậu đã nghĩ đến chuyện thuê nhà ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

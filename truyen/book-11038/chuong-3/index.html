@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CHỜ ANH KHÔNG ĐẾN">
   <meta name="twitter:description" content="Là Tống Kỳ Chu, khoa máy tính trường A cạnh bên.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

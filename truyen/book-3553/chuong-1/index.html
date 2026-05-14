@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Kỳ Tích Trên Đảo Hoang">
   <meta name="twitter:description" content="Tôi tên là Thẩm Nhược Kinh, một tiểu thư nhà tư bản mười ngón tay chưa từng dính nước mùa xuân, ra khỏi cửa đến cái cửa xe cũng phải có người mở.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

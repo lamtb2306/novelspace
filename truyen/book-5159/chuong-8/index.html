@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | TÌNH CẠN">
   <meta name="twitter:description" content="Sáng hôm sau, trước khi đi làm, anh căn dặn đi căn dặn lại: “Đừng đi đâu linh tinh. Đợi anh về, anh sẽ cùng em đến bệnh viện.” Tôi mỉm cười gật đầu đồng ý.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tôi Đậu Công Chức, Em Trai Đòi 88 Vạn">
   <meta name="twitter:description" content="Nhận được tin mình đã đậu kỳ thi công chức quốc gia, tôi lập tức về nhà ngay để chia sẻ tin vui với mọi người. Bố mẹ đều mừng rỡ, vui thay cho tôi, nhưng em trai lại bất ngờ buông một câu: “Em nhớ ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 13 | Hồng Mai Trên Má">
   <meta name="twitter:description" content="Nói xong, ta xoay người bước vào tiệm hoa, bỏ lại hai người nhìn nhau trong lặng lẽ. Bọn họ chờ rất lâu, đến khi trời tối, còn ân cần giúp ta đóng cửa tiệm, sắp xếp lại hoa cỏ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

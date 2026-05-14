@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CÁI KẾT CỦA MỘT BỘ PHIM NGẮN">
   <meta name="twitter:description" content="Tôi cũng không biết có phải vì đứa con mà chúng tôi không ly hôn, hay vì lý do nào khác, nhưng tóm lại là chúng tôi vẫn sống với nhau, anh ấy cũng không ngoại tình.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

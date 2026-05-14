@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TOẢ SÁNG ĐÚNG CHỖ">
   <meta name="twitter:description" content="Tôi là “mặt trời nhỏ” của Tống Trầm. Ngày nào tôi cũng luyên thuyên nói nhảm, làm trò xấu xí chọc cười, chỉ để khiến cậu ấy vui. Sau này, có một cô bạn sợ giao tiếp trong lớp tặng cậu ấy một cái bá...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

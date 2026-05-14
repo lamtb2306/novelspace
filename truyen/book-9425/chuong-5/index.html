@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | LỜI KHAI CUỐI CÙNG">
   <meta name="twitter:description" content="Tôi thở dài, giọng chua chát. “Tôi ngăn mẹ, không cho bà ăn bất kỳ thứ gì, mãi đến khi tiếng hét thất thanh của Trần Quyên vang lên từ ngoài phòng khách.” “Bà ta thật may mắn. Không ăn một miếng nào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

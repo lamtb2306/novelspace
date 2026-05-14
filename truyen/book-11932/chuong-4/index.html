@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Thực Tập Sinh Tỷ Đô">
   <meta name="twitter:description" content="Tôi nghiến răng lôi điện thoại ra, vừa định gọi đi thì bị chồng cô ta nhanh tay cướp lấy, đập mạnh xuống đất, màn hình vỡ tan như mạng nhện. “Hôm nay mà không ký, đừng mong rời khỏi đây!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

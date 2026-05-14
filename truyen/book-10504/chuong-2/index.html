@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Một Đời Gấm Hoa">
   <meta name="twitter:description" content="“Chớ trách ta không nhắc ngươi. Là ngươi khăng khăng muốn tham gia, lát nữa làm trò cười cho thiên hạ, đừng mong ta an ủi!” Hắn liếc tờ thi phú trong tay ta, bực bội nói: “Thôi được, thật chẳng biế...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TÌM LẠI CON GÁI BỊ BẮT CÓC">
   <meta name="twitter:description" content="Nhưng tôi biết, đó không phải chuyện cười. Đó là câu chuyện đau thương suốt 11 năm qua của chúng tôi. Chiếc xe lao đi trên đường cao tốc, ánh sáng ngoài cửa sổ lúc tỏ lúc mờ. Hoan Hoan chỉ nhìn ra ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | HẸN HÒ QUA GAME">
   <meta name="twitter:description" content="Dạo gần đây, anh tiền bối lạnh lùng Thẩm Tề Bạch cứ mượn tài khoản của tôi chơi game, rồi đánh lên tận trăm sao. Kết quả là mỗi lần tôi chơi đơn thì bị mấy cao thủ bên kia hành cho không kịp ngáp, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

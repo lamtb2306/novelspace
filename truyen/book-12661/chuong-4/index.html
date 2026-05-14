@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Bản Kiểm Điểm Của Ai">
   <meta name="twitter:description" content="Đây là một nền tảng rất sôi nổi, mỗi ngày đều có hàng ngàn sinh viên chia sẻ thông tin, bàn tán chuyện trường lớp. Tôi hít sâu một hơi, đăng bài viết dài này lên.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

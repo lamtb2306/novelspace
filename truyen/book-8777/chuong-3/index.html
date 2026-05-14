@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | NAN Y TÌNH YÊU">
   <meta name="twitter:description" content="Khi về đến khách sạn, gương mặt Đường Từ u ám như Diêm Vương đang đòi mạng. Dựa vào kinh nghiệm của tôi, lúc này tốt nhất là đừng nói gì. Nói nhiều sai nhiều.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

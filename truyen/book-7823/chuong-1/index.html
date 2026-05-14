@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chuyện Tình Trong Quán Hải Sản">
   <meta name="twitter:description" content="Vị hôn phu đặt tiệc hải sản để mừng sinh nhật tôi, người luôn cao ngạo lạnh lùng ấy lại tự tay bóc tôm cho tất cả mọi người trên bàn. Ai cũng khen anh chu đáo, ghen tị vì tôi có bạn trai tốt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

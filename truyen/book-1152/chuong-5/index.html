@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CÓ KHÔNG GIỮ MẤT LẠI TIẾC">
   <meta name="twitter:description" content="Trong lúc đó, tôi nhận được cuộc gọi từ Lý Trạch Túc. Số của anh ta đã bị tôi chặn từ lâu, lần này là một số lạ. “Ninh Ninh, em còn giận à? “Nhớ anh không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

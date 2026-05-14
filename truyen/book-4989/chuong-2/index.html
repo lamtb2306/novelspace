@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Thiên Kim Giả Ngoan">
   <meta name="twitter:description" content="Tôi ngoan ngoãn gật đầu, vừa quay lưng đi, khóe miệng đã khẽ nhếch lên. Tối hôm đó, trong nhật ký của tôi lại có thêm một trang mới tinh: 【Ngày X tháng X, trời quang. Hôm nay về nhà muộn, mẹ vẫn cò...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Những Ngày Ăn Không Ngồi Rồi Của Tôi">
   <meta name="twitter:description" content="Tôi lấy một chiếc găng tay, cẩn thận gẩy thử vài cành. “Đây chẳng phải là hoa trúc đào sao?” Bên trong có lẫn vài cành trúc đào – loài cây có độc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mèo Chiêu Tài Không Muốn Làm Mascot">
   <meta name="twitter:description" content="Trong lúc đang đứng bán xúc xích bột ngoài đường thì tôi bị người ta đưa đi. Hắn nói hắn đã tìm đại sư xem qua, tôi là mèo chiêu tài chuyển thế. Thế là, từ một người bán hàng rong, tôi bỗng chốc tr...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

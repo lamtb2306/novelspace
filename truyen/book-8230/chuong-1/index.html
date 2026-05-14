@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cái Bánh Bao Năm Hào">
   <meta name="twitter:description" content="Tôi làm việc tại nhà ăn của trường đại học với vai trò cô phụ bếp đã năm năm, điều tôi không thể chịu được nhất chính là thấy sinh viên bị đói bụng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

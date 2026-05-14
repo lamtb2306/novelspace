@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NGƯỜI TỐT CÒN Ở PHÍA TRƯỚC">
   <meta name="twitter:description" content="Tôi đương nhiên không từ chối, lập tức đặt chỗ tại nhà hàng mà Yến Thời An thường dẫn tôi tới. Chủ yếu là vì tôi biết không nhiều nhà hàng, mà nhà hàng này đúng là có hương vị rất ngon.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

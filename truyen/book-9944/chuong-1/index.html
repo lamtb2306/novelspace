@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BUỔI LỄ MỪNG TỐT NGHIỆP">
   <meta name="twitter:description" content="Ở kiếp trước,Tôi đạt 720 điểm trong kỳ thi đại học. Ngày có kết quả, tôi và ba mẹ cùng đến nhà hàng ăn mừng. Tình cờ gặp bạn cùng bàn – Chu Doanh đang bị khách trong nhà hàng quấy rối. Tôi bước đến...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

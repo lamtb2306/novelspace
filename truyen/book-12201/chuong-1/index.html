@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ba Tháng Không Viên Phòng">
   <meta name="twitter:description" content="Phu quân của ta là Phong Đình Dụ, đương triều Thủ phụ, thanh lãnh cô ngạo, không gần nữ sắc. Thành thân ba tháng, ta vẫn còn là thân hoàn bích.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

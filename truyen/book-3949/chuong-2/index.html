@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | MỘT CHÚT NGỌT NGÀO">
   <meta name="twitter:description" content="Trước khi bữa tiệc bắt đầu hôm nay, quản lý đã cảnh báo vài người phục vụ có ý định không đúng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

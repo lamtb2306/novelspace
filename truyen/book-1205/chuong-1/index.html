@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Em Họ Ở Nhờ Mười Hai Năm, Sính Lễ Lại Đòi Nhà Tôi Trả">
   <meta name="twitter:description" content="Em họ ở nhờ nhà tôi suốt mười hai năm, hoàn toàn nhờ bố mẹ tôi nuôi ăn, mặc và cho đi học.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

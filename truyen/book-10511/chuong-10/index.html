@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Tôi Tự Viết Lại Đời Mình">
   <meta name="twitter:description" content="Móng tay bà ta dài và nhọn, cào rách mấy đường máu trên tay tôi. Tôi đau điếng, nhưng không chịu buông. “Đây là của mẹ tôi! Bà buông ra!” Chúng tôi giằng co trong căn phòng chật hẹp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

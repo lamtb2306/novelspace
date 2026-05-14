@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Sau Khi Mẹ Tôi Ly Hôn">
   <meta name="twitter:description" content="Hôm đó tan lớp học thêm, tôi vừa ra đến cổng thì thấy ba đang đứng đợi. Bình thường toàn mẹ đến đón tôi, nay đột nhiên đổi người, tôi có chút không quen. “Ba?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

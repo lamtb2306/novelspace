@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGÔI SAO BỊ LÃNG QUÊN">
   <meta name="twitter:description" content="Cố Hoài An vì cứu tôi trong một trận hỏa hoạn mà bị đập trúng đầu. Anh ấy quên mất buổi hoàng hôn anh cầu hôn tôi, quên cả con mèo chúng tôi từng nuôi chung, nhưng lại chỉ nhớ đến Bạch Nguyệt Quang...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

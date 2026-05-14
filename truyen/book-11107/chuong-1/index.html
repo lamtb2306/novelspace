@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nhà Tôi Mua, Nhưng Không Thuộc Về Tôi">
   <meta name="twitter:description" content="Bà mẹ chồng cầm giấy chứng nhận quyền sở hữu bất động sản lắc lư trước mặt tôi, vẻ mặt đắc ý: “Nhìn đi, đây là mặt bằng tôi mua cho con gái tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

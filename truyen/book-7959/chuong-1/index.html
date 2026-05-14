@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bí Mật Của Thôn Tam Gia">
   <meta name="twitter:description" content="Trước khi lâm chung, bà nội để lại cho tôi một miếng ngọc bội và dặn rằng: Nếu thứ này mà vỡ, phải lập tức rời xa những người đang ở cạnh bên ngay. Đó là đại họa tuyệt thế. Hôm nay tôi kết hôn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

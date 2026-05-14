@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Lỡ Yêu Boss Trong Trò Chơi M á o Lạnh">
   <meta name="twitter:description" content="Tôi xuyên vào game kinh dị, nhưng lại tưởng mình đang chơi game mười tám cộng lãng mạn. Một thiếu niên lạnh lùng vươn ra những xúc tu, tôi ngượng ngùng nắm lấy một cái: “Lần đầu chơi kiểu play này…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

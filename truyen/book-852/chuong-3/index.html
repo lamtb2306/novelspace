@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Vé Tàu Về Quê">
   <meta name="twitter:description" content="Có lẽ… anh thậm chí còn không biết tôi thích ăn gì. Nhưng những điều này, giờ đã không còn quan trọng nữa. Dù sao… tôi cũng sắp rời đi rồi. 9 Sáng hôm sau, cả nhà đều thay đồng phục gia đình mới tinh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

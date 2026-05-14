@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chiếc Ô Màu Vàng Nghiêng Về Người Khác">
   <meta name="twitter:description" content="Tôi cao 1m68, nặng 55kg, dáng người rất chuẩn. Vậy mà cậu bạn thanh mai trúc mã vẫn bắt tôi giảm cân.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

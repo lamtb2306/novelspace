@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | YÊU LÂU SINH TÌNH">
   <meta name="twitter:description" content="Tôi, một “chim hoàng yến” có khả năng vô cảm siêu cấp, lại vớ phải một ông chủ đang bước vào mùa… phát tình. Ông chủ phát cuồng vì yêu, còn tôi thì chẳng hiểu tình là cái quái gì.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

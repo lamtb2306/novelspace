@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bốn Năm Bên Một Ly Nước Ấm">
   <meta name="twitter:description" content="Năm hai mươi chín tuổi, tôi chia tay với bạn trai — người từng ghi nhớ hết thảy sở thích của tôi vào một chiếc ghi chú. Cô bạn thân mắng tôi làm màu:“Anh ta đối xử với mày không tốt à?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nguyện Vọng Bị Đánh Cắp">
   <meta name="twitter:description" content="Tôi nhìn vào danh sách nguyện vọng thi đại học đã bị ai đó sửa đổi từ lúc nào. Trong lòng trào dâng một nỗi tuyệt vọng vô bờ! Người duy nhất biết mật khẩu của tôi chính là thanh mai trúc mã.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

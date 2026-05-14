@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Ly Hôn Rồi, Anh Mới Học Cách Mất Tôi">
   <meta name="twitter:description" content="Sau khi hoàn thành công việc trong tay, vẫn chưa đến giờ tan ca. Tôi tự an ủi mình, ít nhất hôm nay không phải làm thêm, nên thưởng cho bản thân một bữa gì đó ngon ngon.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

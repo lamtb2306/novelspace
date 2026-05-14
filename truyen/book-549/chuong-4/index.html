@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Sai Ghế, Sai Người">
   <meta name="twitter:description" content="Tôi ngẩng đầu nhìn quanh, mọi người như gặp phải virus, đồng loạt lùi lại một bước. Đám đông hoảng loạn hét ầm lên: “Cô làm gì vậy! Mau lùi lại!” Thậm chí còn có người gào to: “Cút khỏi toa tàu của...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

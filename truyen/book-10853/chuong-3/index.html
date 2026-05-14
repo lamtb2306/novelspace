@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | MỐI TÌNH SAU 5 NĂM">
   <meta name="twitter:description" content="Đơn phương là một cuộc chiến loạn lạc của riêng một người, thật sự quá mệt mỏi. Chi bằng mỗi người tự sống tốt, không bao giờ gặp lại. Tôi tìm một quán bar gần đó, một mình uống rượu giải sầu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

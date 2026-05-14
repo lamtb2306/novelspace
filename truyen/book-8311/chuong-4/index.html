@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | BẢY NĂM KHÔNG NGHI NGỜ">
   <meta name="twitter:description" content="Tôi làm theo lời thoại đã bàn sẵn với Phương Mẫn, vừa thay giày, vừa giả vờ mệt mỏi và choáng đầu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

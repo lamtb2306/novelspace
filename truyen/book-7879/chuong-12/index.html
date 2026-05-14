@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Chạy Trốn Khỏi Nhà Họ Lục">
   <meta name="twitter:description" content="“Nếu điều này là thật…” Giọng anh run rẩy. “Nếu điều này là thật, vậy tôi…” “Vậy ông chính là đồng phạm.” Điều tra viên bình thản nói.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tương lai sau năm giây">
   <meta name="twitter:description" content="Tôi sinh ra trong một gia đình có khả năng tiên tri – nhìn thấy trước tương lai năm giây. Ví dụ như bây giờ, tôi liếc sang thấy Bùi Tri Viễn bên cạnh đang mở phần mềm du lịch, chuẩn bị đặt hai vé m...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trọng Sinh Ngày Cha Mẹ Ly Hôn">
   <meta name="twitter:description" content="Tôi có một người cha nổi tiếng hiền lành. Ông chẳng biết cãi vã, cũng chẳng biết mắng nhiếc ai bao giờ, lúc bị dồn vào đường cùng lắm cũng chỉ thốt ra một câu: “Cô thật là cái đồ không biết lý lẽ!”...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

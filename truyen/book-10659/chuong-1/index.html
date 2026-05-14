@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thưởng Cuối Năm Không Có Tên Tôi">
   <meta name="twitter:description" content="Mọi người đều nhận được tiền thưởng, chỉ riêng tôi bị loại ra ngoài. Tôi không chất vấn, cũng không đòi lời giải thích, chỉ lặng lẽ rời khỏi công ty. Về đến nhà, tôi tắt điện thoại, cắt đứt hết mọi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

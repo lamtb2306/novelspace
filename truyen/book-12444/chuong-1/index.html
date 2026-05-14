@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BẠCH NGUYỆT QUANG CỦA LÒNG TÔI">
   <meta name="twitter:description" content="Tuổi trẻ, có một tin đồn nhầm lẫn về “bạch nguyệt quang” của tôi trở về nước. Mọi người xung quanh liên tục nhắn tin hỏi tôi có muốn đến dự tiệc đón người ấy không.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

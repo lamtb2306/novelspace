@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Bạn Trai Tố Tôi Đào Mỏ">
   <meta name="twitter:description" content="Không cần lo lắng có ai vứt quần áo bẩn lên sofa. Không cần dậy sớm nấu bữa sáng cho hai người. Không cần nhìn sắc mặt bất cứ ai. Tôi pha một ly cà phê, ngồi bên bậu cửa sổ lướt điện thoại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

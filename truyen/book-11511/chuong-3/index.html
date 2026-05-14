@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | LÃNG QUÊN QUÁ KHỨ">
   <meta name="twitter:description" content="Tôi không còn gì để nói nữa. Bố mẹ cũng đã nuôi nấng tôi trưởng thành, tôi hy sinh cho họ một chút cũng chẳng đáng là gì. Dù đó có là cuộc hôn nhân của chính tôi đi chăng nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

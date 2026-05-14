@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thiên Nhãn Giả Mù">
   <meta name="twitter:description" content="Ta là một kẻ mù lòa, nhận biết được một lão lừa đảo. Vì để có miếng cơm manh áo, hai ta giả làm đạo sĩ, chuyên đi lừa lọc những nhà quyền quý kia. Ngày ấy, phủ tướng quân dán cáo thị, tìm người có ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

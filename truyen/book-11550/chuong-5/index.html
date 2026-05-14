@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Bí Mật Sau Bài Đăng">
   <meta name="twitter:description" content="Bố mẹ tôi không biết phải nói gì, chỉ có thể thở dài liên tiếp. Tôi quay sang nhìn Tề Minh Thần. “Minh Thần, anh tin em đi, người em yêu là anh, em thật sự chưa từng làm gì cả.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

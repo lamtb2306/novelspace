@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CHIẾC ĐỒNG HỒ CÁT CHẢY NGƯỢC">
   <meta name="twitter:description" content="“Thứ nhất, giả vờ như không biết gì, hôm sau cứ đi làm như thường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

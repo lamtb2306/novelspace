@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | HÔN LỄ KHÔNGRƯỚC DÂU">
   <meta name="twitter:description" content="Tôi đưa ra giấy tờ đầy đủ, mua xe chính chủ, xe đăng ký tên tôi, bằng chứng rõ ràng. “Tôi đến đây không phải gây chuyện, mà để lấy lại chiếc xe thuộc quyền sở hữu hợp pháp của tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

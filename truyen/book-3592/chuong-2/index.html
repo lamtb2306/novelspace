@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Luận Văn Về Nhân Cách">
   <meta name="twitter:description" content="Lúc đó tôi mới nhớ ra mình vẫn chưa rời khỏi nhóm. Mở ra xem, buổi chiều Tôn Tư Duyệt đã gửi tin nhắn trong nhóm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mật Danh Sao Mai">
   <meta name="twitter:description" content="Nghĩa trang liệt sĩ, từng bia mộ dưới ánh nắng hiện lên trang nghiêm, tĩnh lặng. Giang Tri Dư đặt bó hoa xuống, nhìn bức ảnh đen trắng của ba mẹ, khoé mắt nhòe lệ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

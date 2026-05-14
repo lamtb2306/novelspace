@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tôi Là “Ứng Dụng Chuyển Tiền” Của Gia Đình Suốt Tám Năm">
   <meta name="twitter:description" content="Khi tôi bị đá ra khỏi nhóm chat gia đình, mẹ tôi đã gửi một cái phong bao lì xì. 6.66 tệ. Lời nhắn đi kèm là: “Yên tĩnh rồi.” Tôi trơ mắt nhìn cái phong bao đó bị tất cả mọi người lĩnh sạch.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KHÔNG ĐÚNG LÚC">
   <meta name="twitter:description" content="Chồng tôi là người ở rể. Nhưng tôi rất vui lòng nâng đỡ anh ta. Dù sao thì ngoại hình và vóc dáng của anh ta đều thuộc hàng xuất sắc, quan trọng hơn là cũng có chút năng lực, có thể thay tôi đưa cô...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

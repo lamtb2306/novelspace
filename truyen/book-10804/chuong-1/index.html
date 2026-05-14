@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGỌT NGÀO DÀNH CHO EM">
   <meta name="twitter:description" content="Trước khi đi ngủ, tôi nhắn cho trang confession của trường: “Admin thân mến, cho mình đăng bài tỏ tình đàn anh khóa 19 khoa Tài chính – Tiêu Duyệt Ninh. Ẩn danh nhé.” Coi như cho mối tình thầm lặng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Cơm Chiên Trứng Vàng">
   <meta name="twitter:description" content="Trong lòng tôi, vẫn còn giữ lại chút hy vọng ngu ngốc cuối cùng. Tôi không mong cậu ta giúp, chỉ mong cậu ta, nể tình trước kia, đừng xát thêm muối vào vết thương.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

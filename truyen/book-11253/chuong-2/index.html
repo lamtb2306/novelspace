@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Con Cá Mặn">
   <meta name="twitter:description" content="Môn đại cương? Có thể không đi thì không đi, mà đi rồi thì cũng ngủ bù. Lâm Quyển đau lòng như cắt: “Tống Nhàn! Thanh xuân là để phấn đấu đấy! Cậu thế này ra trường rồi biết làm gì?” Tôi ôm bịch kh...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

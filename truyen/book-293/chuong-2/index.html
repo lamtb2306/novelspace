@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Được Cứu Nhờ Lời Tiên Tri">
   <meta name="twitter:description" content="Cánh cửa một lần nữa hé ra, khe hở dần lớn hơn. Bàn tay của tôi dưới ánh sáng le lói cũng sắp lộ diện. Nhưng đúng lúc này, điện thoại mẹ đổ chuông.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

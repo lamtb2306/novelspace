@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | DIÊM LA CHI THÊ">
   <meta name="twitter:description" content="Con đường đi Bắc Vinh xa xăm, ta say xe ngựa, gần như nôn mửa suốt một tháng trời. Đợi đến nơi, thân thể ta đã gầy rộc chỉ còn da bọc xương.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

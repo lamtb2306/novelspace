@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Người Không Có Tên Trong Báo Cáo">
   <meta name="twitter:description" content="“À đúng rồi.” Cô ấy như sực nhớ ra điều gì. “Cậu biết không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

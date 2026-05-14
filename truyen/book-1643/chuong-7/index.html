@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Trở Lại, Tôi Không Nhận Anh Trai Này Nữa">
   <meta name="twitter:description" content="Tôi nở một nụ cười nhàn nhạt: “Cổ phần thì tôi nhận, nhưng lời xin lỗi thì không.” “Anh không có tư cách thay Bạch Chỉ Nhụy xin lỗi tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

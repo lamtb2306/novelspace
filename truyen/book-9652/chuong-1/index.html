@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI SẼ TỰ TẠO RA HẠNH PHÚC">
   <meta name="twitter:description" content="Chồng tôi thường xuyên đi công tác, tích lũy được không ít điểm dặm bay. Sau khi anh ấy từ Pháp trở về, tôi đăng nhập vào ứng dụng hàng không của anh, định dùng số điểm tích lũy đó để đổi vài món đồ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

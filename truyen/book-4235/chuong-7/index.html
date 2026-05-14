@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Người Hiểu Chuyện Là Người Bị Bóc Lột">
   <meta name="twitter:description" content="Tôi xoay màn hình máy tính cho mọi người xem. Trưởng phòng Tống lập tức bước nhanh đến, ánh mắt tràn đầy kinh ngạc và mừng rỡ. Chỉ nhìn một cái, mắt chị ấy đã đỏ hoe: “Đúng rồi… Đúng rồi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

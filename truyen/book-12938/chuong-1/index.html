@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tôi Bị Sa Thải Ngay Giữa Cuộc Họp Trăm Tỷ">
   <meta name="twitter:description" content="Tôi đang thực hiện phiên dịch trực tiếp cho một dự án trị giá hàng tỷ, giọng nói và ngữ điệu hoàn hảo đến mức không ai bắt bẻ được, chiếm trọn sự tin tưởng của tất cả.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

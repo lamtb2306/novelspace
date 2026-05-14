@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | THỰC ĐƠN KINH DỊ">
   <meta name="twitter:description" content="Thậm chí cuối cùng còn quay lại đúng vị trí ban đầu. Lý Phương Phương bắt đầu thực sự sợ hãi: “Tiểu Lưu, chỗ này…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

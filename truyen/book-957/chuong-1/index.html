@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | THAY ĐỔI VẬN MỆNH">
   <meta name="twitter:description" content="Thái tử điện hạ tư thông với thứ muội của ta ở trong chùa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Lời Nguyện Cầu Cuối Cùng">
   <meta name="twitter:description" content="Năm tôi sáu tuổi, vào sinh nhật của mình, tôi lỡ làm đổ bát mì trường thọ bà ngoại nấu, rồi khóc đòi ăn bánh kem. Kết quả là, ông bà ngoại lại bị xe đâm chết trên đường đi mua bánh cho tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

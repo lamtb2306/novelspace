@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHỊU CHƠI CHỊU THUA">
   <meta name="twitter:description" content="Tôi lớn hơn Giang Dã năm tuổi. Vì vậy, khi anh ấy 28 tuổi, tôi đã 33 rồi. Đã từng là anh nói với tôi rằng, tuổi tác vĩnh viễn sẽ không phải là vấn đề giữa chúng tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

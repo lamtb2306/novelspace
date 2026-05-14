@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Tôi Hiểu Chuyện Đến Mức Không Còn Là Chính Mình">
   <meta name="twitter:description" content="Biểu cảm trông rất vui, có lẽ vừa gặp chuyện gì đó khiến anh phấn khởi, đến cả mồ hôi trên trán cũng như viết đầy sự vui mừng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

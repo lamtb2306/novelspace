@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Lựa Chọn Sau Ngã Rẽ">
   <meta name="twitter:description" content="QUAY LẠI CHƯƠNG 1 : Tôi chỉ nói một câu: “Quay lại ư? Không còn đường nào để quay lại nữa.” Kỷ Ngôn lái xe đưa tôi về. Trên đường, anh trầm ngâm rồi đột ngột nói: “Vụ án của Lâm Hải…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

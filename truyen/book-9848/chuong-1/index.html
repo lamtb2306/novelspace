@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Sau 99 Lần Trì Hoãn">
   <meta name="twitter:description" content="Lần thứ 99 Phong Thâm nghe theo lời phán của thầy phong thủy để trì hoãn việc đăng ký kết hôn, anh ta thậm chí còn chẳng buồn thông báo mà trực tiếp cho tôi leo cây.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | VỢ TÔI CUỐI CÙNG CŨNG LY HÔN RỒI!">
   <meta name="twitter:description" content="Tôi nhìn Hoắc Ứng Châu, nhưng anh vẫn chưa có ý định rời đi. “Anh còn gì muốn dặn nữa à?” Ngón tay anh vô thức gõ lên ống quần hai cái.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Hai Đứa Con và Một Trái Tim Tự Do">
   <meta name="twitter:description" content="Chính bà mới là người bỏ tôi trước. Tôi bình thản, không để bà giữ chút thể diện nào, hỏi ngược lại: “Mẹ đã từng cần con sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

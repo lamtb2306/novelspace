@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Sự Sụp Đổ Của Một Kẻ Giả Dối">
   <meta name="twitter:description" content="Lúc mua bánh xong ra quầy Thanh toán thì bị nhân viên cửa hàng báo thẻ hội viên không đủ số dư. Tra cứu lịch sử đơn hàng mới phát hiện, tần suất mua từ mỗi tuần một lần biến thành mỗi ngày một lần....">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

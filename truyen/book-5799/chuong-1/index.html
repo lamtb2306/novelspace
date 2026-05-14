@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐỔI MỆNH">
   <meta name="twitter:description" content="Gia đình tôi tài trợ cho một cô gái nghèo, thậm chí còn coi trọng và yêu thương cô ta hơn cả tôi – người thừa kế chính thức. Tôi đưa ra giấy chẩn đoán ung thư, hy vọng có thể lay động trái tim ngườ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

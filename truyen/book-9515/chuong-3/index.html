@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chạm Vào Ánh Trăng">
   <meta name="twitter:description" content="Vừa xoay người toan chạy, người đã gọi giật lại. “Lâm Khê.” Ta khựng lại tại chỗ — đây là lần đầu tiên người gọi tên ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

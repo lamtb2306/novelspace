@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | TÌNH CẠN">
   <meta name="twitter:description" content="Trời đêm se lạnh, tôi khẽ siết cổ áo, hắt hơi liền mấy cái. Anh ta đưa tôi một chiếc khăn tay bằng lụa, đưa ra trước mặt. Ngước nhìn người đối diện – dáng người cao ráo, khoác áo dạ đen, ánh mắt lạ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

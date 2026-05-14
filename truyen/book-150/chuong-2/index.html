@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CĂN PHÒNG CÓ MẮT">
   <meta name="twitter:description" content="Tôi vội vàng bật đèn lên, thì bất ngờ thấy một con mèo đen phóng ra từ gầm giường. “Người theo dõi tôi… không phải người, mà là… ma treo cổ!” Tôi lại nghe thấy giọng nói đó, lần này là từ miệng con...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

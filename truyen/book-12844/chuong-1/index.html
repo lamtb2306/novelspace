@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TRẦN TÔ TÔ">
   <meta name="twitter:description" content="Con trai của Bạch Du bị sốt, còn tôi — khi ấy đã mang thai tám tháng — thì bị Kỷ Tranh bỏ mặc một mình ở tiệm chụp ảnh. Tối hôm đó, tôi gặp tai nạn xe, dẫn đến sinh non.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

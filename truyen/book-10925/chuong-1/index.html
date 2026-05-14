@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hộp Mù Tình Yêu">
   <meta name="twitter:description" content="Tên tôi được viết trên một tấm thẻ, rồi bị ném vào một chiếc “hộp mù tình yêu”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

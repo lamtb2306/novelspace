@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đi Công Tác Về, Tôi Phát Hiện Vân Tay Nhà Mình Bị Xóa">
   <meta name="twitter:description" content="Đi công tác về, tôi đứng trước cửa nhà bấm vân tay mãi không được, nhập mật khẩu cũng báo sai. Lúc này tôi mới nhận ra mật khẩu đã bị đổi, vân tay cũng bị xóa. Tôi gọi điện cho mẹ, mới biết cả nhà ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

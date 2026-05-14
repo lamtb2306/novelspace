@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cuộc gọi từ sáu năm trước">
   <meta name="twitter:description" content="Sinh nhật mẹ, tôi cầm chặt số tiền nhặt ve chai suốt một năm mới gom được, chạy đến siêu thị mua chiếc bánh kem trái cây đẹp nhất. Tôi háo hức đưa bánh đến trước mặt mẹ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

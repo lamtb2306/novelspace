@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hồ Sơ Giả Mang Tên Con Tôi">
   <meta name="twitter:description" content="Vừa kết thúc hội nghị xuyên quốc gia, điện thoại tôi đột nhiên hiện lên một cuộc gọi lạ từ số trong nước: “Xin hỏi chị có phải là phụ huynh của em Lâm Khê không?” “Phiền chị đến trường một chuyến, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

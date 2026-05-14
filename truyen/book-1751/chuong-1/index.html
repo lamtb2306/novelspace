@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Yêu Miêu Lạc Ổ Hổ">
   <meta name="twitter:description" content="Ta vốn là một yêu miêu, vô ý sa chân vào ổ hổ, lại bị Mẹ hổ nhận lầm là con đẻ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

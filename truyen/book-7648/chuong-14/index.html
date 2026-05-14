@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 14 | Ta Trở Về Để Lấy Lại Mọi Thứ">
   <meta name="twitter:description" content="Đường đi của Thẩm gia, chưa bao giờ chỉ có một hướng. Ta cũng chưa bao giờ chỉ là vị hôn thê của ai, tỷ tỷ của ai, hay nguyên chủ để cho ai làm thế thân. Ta trước hết là chính ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

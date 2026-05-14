@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Công Chúa Cá Mặn">
   <meta name="twitter:description" content="Ta là Triệu Tang Tang , công chúa thứ sáu của nước Triệu. Ngỡ rằng đời này chỉ có thể làm một con cá mặn chẳng ai đoái hoài, nhưng năm ta tròn sáu tuổi, phụ hoàng bỗng nhiên đắc được thuật đọc tâm,...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

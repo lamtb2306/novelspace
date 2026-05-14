@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Kiếp Này Tôi Chọn Bố Bán Hàng Livestream">
   <meta name="twitter:description" content="Mẹ tôi là giáo sư đại học, bà luôn nói điều hối hận nhất đời này chính là gả cho người bố nổi lên nhờ livestr/ eam bán hàng của tôi. “Đầy mùi đồng tiền, thô tục không chịu nổi.” Sau đó, họ ly hôn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

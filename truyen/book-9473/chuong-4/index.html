@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Tái Sinh Nơi Phố Wall">
   <meta name="twitter:description" content="Tôi gọi một cuộc điện thoại quốc tế. “A lô?” “Ngài Lister? Tôi là con gái của Lục Viễn Sơn, Lục Hoài Cẩn. Cha tôi nhờ tôi tìm ngài, vì Tiêu Cảnh Hành.” Bên kia im lặng vài giây, sau đó là một tiếng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

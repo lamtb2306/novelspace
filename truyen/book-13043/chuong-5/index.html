@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Chiếc Huân Chương Hạng Nhất">
   <meta name="twitter:description" content="Vài phút sau, hai quân nhân tiến đến, đỡ tôi đứng dậy. “Đừng quỳ nữa, cô bé.” “Bố cháu… bọn chú vẫn còn nhớ.” “Cháu là con gái Trung tá Lâm đúng không?” Tôi khẽ gật đầu, nước mắt rào một tiếng trào...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

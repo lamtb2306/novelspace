@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | NHỊP ĐẬP THỨ BẢY">
   <meta name="twitter:description" content="Tôi bị chửi rủa tơi tả, hứng chịu làn sóng phẫn nộ khắp nơi. Nhiều người còn tìm ra địa chỉ và thông tin cá nhân của tôi. Thậm chí có người tạt sơn lên nhà tôi, ném rác khắp nơi. Tôi như trở thành ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

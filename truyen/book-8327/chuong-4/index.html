@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | CHƯA TỪNG QUAY ĐẦU">
   <meta name="twitter:description" content="Tôi sẽ không đi. Dù Lục Cảnh Thâm có dùng cách gì, tôi cũng sẽ không vì chuyện riêng mà can thiệp vào một ca mổ không thuộc chuyên môn của mình. Đó là giới hạn của tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

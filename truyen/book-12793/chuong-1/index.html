@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người câm biết nói">
   <meta name="twitter:description" content="Chồng tôi là người câm, lúc đăng ký kết hôn, lời tuyên thệ đều do thanh mai trúc mã của anh thay anh nói. Sau khi cưới, mẹ chồng mắng tôi là “con gà không biết đẻ trứng”, còn anh thì mặt đỏ bừng, c...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

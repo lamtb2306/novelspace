@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Song Hỷ Dưới Tay Người Lạ">
   <meta name="twitter:description" content="Trên đường về quê dịp xuân vận, đang ngồi trên tàu thì gặp một người giàu có, ông ta phát lì xì cho toàn bộ hành khách trong toa. Chỉ riêng phong bao của tôi là khác. Trên đó in chữ “Song Hỷ” đỏ ch...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

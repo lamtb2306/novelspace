@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Chuyến Tàu Không Anh">
   <meta name="twitter:description" content="Chỉ trong vòng một phút, bình luận bùng nổ. “Ủa ủa ủa, tôi nhìn nhầm không vậy? Chú rể không phải là Triệu Cận Xuyên sao?” “Nghe nói chị chia tay với ảnh rồi, là thật hả?” “Chia tay thật đấy, nhưng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

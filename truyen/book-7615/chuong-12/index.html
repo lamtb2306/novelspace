@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Trở Về Sau Một Giấc Ngủ Đông">
   <meta name="twitter:description" content="Tống Nghiêm Hằng từng bảo ba mình cả nửa tháng, cả tháng không về nhà — giờ lại giống như biến thành người khác.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

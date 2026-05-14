@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KHÔNG PHẢI MÈO CỦA TÔI">
   <meta name="twitter:description" content="Mẹ tôi là kiểu người cực kỳ bất cẩn. Nhưng điều buồn cười là, bà chỉ làm mất đồ của tôi. Lúc thì làm thất lạc túi hồ sơ, lúc thì ngay trước giờ bay lại làm mất hộ chiếu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

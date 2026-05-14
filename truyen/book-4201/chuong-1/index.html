@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ngày Tôi Bị Cả Trường Gọi Là Kẻ Ăn Chùa">
   <meta name="twitter:description" content="【Chương 1】 Kỳ nghỉ đông kết thúc, đại học khai giảng, tôi vẫn như thường lệ ghé vào quầy bán bánh lạnh cuộn nướng của chị Triệu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

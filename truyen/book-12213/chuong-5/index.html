@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Vị hôn phu ngạo mạn">
   <meta name="twitter:description" content="“Anh coi ba tôi là gì hả?” Tôi gào lên, nước mắt làm nhòe cả tầm nhìn, “Là máy gieo giống à? Là công cụ để ai cũng có thể bấu víu sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

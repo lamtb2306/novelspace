@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI LÀ MỘT CÔ GÁI ĐANH ĐÁ">
   <meta name="twitter:description" content="Tôi là một cô gái đanh đá. Số tiền ba tôi – ông Lý Quốc Bằng – vất vả làm thuê suốt nhiều năm bị chú Hai chiếm mất. Ba khuyên tôi bỏ qua, tôi thì trực tiếp đến tận nhà chú Hai đòi cho bằng được.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

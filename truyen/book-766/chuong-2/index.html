@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Người Hàng Xóm Tâm Th ần">
   <meta name="twitter:description" content="Chưa đợi tin nhắn thoại phát xong, cửa nhà tôi đã bị đập rầm rầm. “Mở cửa cho tao! Con đĩ nhỏ kia, có gan chửi tao trong nhóm mà không có gan mở cửa cho tao à?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

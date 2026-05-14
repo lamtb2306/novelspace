@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BÀI KIỂM TRA CUỐI CÙNG">
   <meta name="twitter:description" content="Sau kỳ thi đại học, ba mẹ bỏ lại tôi, dẫn con gái nuôi đi du lịch biển, không may gặp bão, ba người toàn bộ thi thể không còn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

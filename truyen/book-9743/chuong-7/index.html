@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Cô Vợ Ẩn Thân">
   <meta name="twitter:description" content="Cùng cô ta đến Disney — nơi mà tôi đã mong muốn được đi. Cùng cô ta ngắm pháo hoa rực rỡ trong mùa hè rực nắng. Cũng cùng cô ta đến bệnh viện khám, mơ mộng về việc giúp cô ta điều dưỡng để sang năm...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

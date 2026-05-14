@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | SỐNG LẠI MỘT ĐỜI TÔI KHÔNG NHẬN LỜI THAM QUAN CỦA CÔ BẠN THÂN NỮA">
   <meta name="twitter:description" content="Người đến chính là cô y tá đã lấy máu tôi tối qua. Sau khi nhìn kỹ tôi, cô xác nhận: “Không sai, cô gái này tối qua ở lại bệnh viện suốt, mãi đến trưa hôm nay mới rời đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

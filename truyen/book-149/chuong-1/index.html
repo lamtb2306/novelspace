@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CÁI GIÁ CỦA BẠO LỰC MẠNG">
   <meta name="twitter:description" content="Ngoài hàng ăn của tôi, chỉ trong vòng một tháng đã bị trộm tới… 9 lần. Tôi tra camera giám sát, rồi chạy lên chạy xuống từng tầng hỏi thăm, vậy mà vẫn không tìm ra thủ phạm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

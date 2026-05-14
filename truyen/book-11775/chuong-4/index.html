@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | ĐÊM KHÔNG SAO Ở TÂY TẠNG">
   <meta name="twitter:description" content="Tôi nén sợ, nảy ra một ý tưởng: “Hay cậu đi trước đi, tớ… tớ cần đi vệ sinh gấp. Cậu mua xong mang về cho tớ nhé?” Cô ta nhìn tôi thật sâu, khóe miệng nhếch lên như cười: “Tớ đợi cậu.” Quả nhiên…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

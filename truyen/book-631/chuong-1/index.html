@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Vụ Ly Hôn Triệu Đô">
   <meta name="twitter:description" content="Đang đúng dịp nghỉ lễ, chồng tôi gác lại công việc, định dẫn tôi đi du lịch. Ngay lúc sắp lên máy bay, anh ta bỗng nhận được tin mẹ chồng bị bệnh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

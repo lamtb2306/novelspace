@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Bạn Thân Phản Bội, Tôi Mở Quán Trước Mặt Cô Ấy">
   <meta name="twitter:description" content="Chỉ đặt trước cửa một standee đơn giản: “Trong thời gian mở bán thử, xuất trình thẻ nhân viên của công ty này, toàn bộ giảm 20%.” “Tất cả khách hàng giám định, cốc đầu tiên miễn phí.” Mười giờ sáng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

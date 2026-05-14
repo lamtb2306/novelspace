@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | 5 NĂM THƯƠNG NHỚ">
   <meta name="twitter:description" content="Tôi mím môi, nhìn thấy trong đáy mắt anh là nỗi buồn và đau đớn cuộn trào. Bỗng nhiên tôi lại không dám nghe tiếp nữa. Tôi quay người định chạy trốn, nhưng bị anh giữ chặt cửa xe.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

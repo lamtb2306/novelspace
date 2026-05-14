@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Tám Nghìn Tệ Của Tôi Đi Đâu Rồi?">
   <meta name="twitter:description" content="Chỉ cần nhả ra tiền là được. Tôi mang bát trả lại chỗ thu gom, bước ra khỏi nhà ăn. Gió tháng Mười hai buốt giá, tôi chỉ mặc mỗi một chiếc áo phông mỏng manh, đoạn chỉ thừa trên cổ áo bay lất phất ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

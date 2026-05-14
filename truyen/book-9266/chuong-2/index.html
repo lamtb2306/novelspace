@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Cuộc Chiến Tiền Điện">
   <meta name="twitter:description" content="Tôi gật đầu. Anh ta chỉ lên trên lầu: “Dạo này tòa nhà mình có chuyện gì vậy? Hình như mọi người đều đang bất mãn về tiền điện.” Tim tôi khẽ giật một cái. Sao anh ta biết?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

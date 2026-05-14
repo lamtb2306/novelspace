@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CUỘC CHIẾN CỦA NƯỚC MẮT VÀ BẢN SAO KÊ">
   <meta name="twitter:description" content="Khai giảng, để tiện lợi hơn, bạn cùng phòng đề nghị nạp tiền ăn của cả bốn người vào thẻ của tôi, tôi chịu trách nhiệm hàng ngày mang cơm giúp họ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

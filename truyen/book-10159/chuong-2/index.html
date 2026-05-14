@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CHUYẾN XE BUÝT LÚC RẠNG SÁNG">
   <meta name="twitter:description" content="Nhìn từ ngoài vào, chiếc xe buýt vốn dĩ đầy cửa ra vào, giờ lại giống như một vỏ sắt kiên cố, nhốt chặt tất cả chúng tôi bên trong.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

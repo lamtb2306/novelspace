@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | 100 VẠN SÍNH LỄ">
   <meta name="twitter:description" content="Em trai tôi đã yêu một cô bạn gái suốt ba năm, cô ấy luôn nói chưa chơi đủ, không muốn kết hôn. Cho đến khi tôi đính hôn, nhà bạn trai đưa sính lễ năm mươi vạn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

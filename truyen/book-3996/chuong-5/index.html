@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Một Phút Lạc Con">
   <meta name="twitter:description" content="Đối diện là một khoảng im lặng chết chóc. Trần Bảo Thanh mất kiên nhẫn. “Tôi sinh cháu trai cho nhà họ Chu rồi! Các người định phủi tay sao?!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Đoạn Tình">
   <meta name="twitter:description" content="Khi ta trở về từ cửa hàng lụa ở Tây phố, vầng tịch dương đã lặn xuống tận chân trời. Ta không trở về chính viện, mà rẽ thẳng vào phòng sổ sách. Đầu ngón tay gẩy những thẻ tính, từng khoản nợ cũ tíc...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

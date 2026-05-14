@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Vở Kịch Tìm Mẹ">
   <meta name="twitter:description" content="Trên mạng bỗng lan truyền một đoạn video tìm mẹ. Một cậu bé chừng năm sáu tuổi đứng trước vùng đất hoang vàng vọt, vừa hát “Mẹ ơi mẹ đi đâu rồi”, vừa rưng rưng nước mắt, trông đáng thương không tả ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

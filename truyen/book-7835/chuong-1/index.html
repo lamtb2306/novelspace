@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TẬN CÙNG CỦA NỖI ĐAU">
   <meta name="twitter:description" content="Khi Cố Hàn Thăng nhận được cuộc gọi từ Bạch Nguyệt Quang, tôi đang nôn trong nhà vệ sinh. Anh ấy nhẹ giọng cúp máy, bước ra cửa, gõ hai cái.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Ba người là một nhà">
   <meta name="twitter:description" content="“Cả nhà đang chờ ở sân bay, bao nhiêu người đi qua đều cười vào mặt chúng ta, chị mau gửi vé qua đi!” “Cho dù chị không muốn em đi thì cũng nên để bố mẹ được mở mang tầm mắt chứ, chẳng lẽ chị vô hi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

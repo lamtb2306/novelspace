@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hội Những Người Thích Ép Khách Ăn Hành">
   <meta name="twitter:description" content="Tôi vào một quán ăn nhỏ gọi hai món, dặn kỹ chủ quán là không cho hành. Thế nhưng, khi hai đĩa thức ăn được bưng ra, món nào món nấy đều ngập tràn hành lá.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

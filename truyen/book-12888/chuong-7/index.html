@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | TRÊN GÁC MÁI CÓ MA">
   <meta name="twitter:description" content="Dân làng vẫn ở lại ăn cơm trong quán nhà tôi. Chỉ riêng trưởng thôn là muốn rời đi. Ông nội tôi nói: “Trưởng thôn, vội gì chứ?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | QUAY VỀ 10 NĂM TRƯỚC">
   <meta name="twitter:description" content="Tôi không cha không mẹ, lớn lên ở trại trẻ mồ côi. Học giỏi, sống tiết kiệm, kỷ luật. Ba mẹ Giang đến tìm tôi, tôi cũng không ngạc nhiên. Dù sao thì, người như tôi hay khiến người khác thấy thương,...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

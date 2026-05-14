@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | CÔ DÂU THẾ MẠNG">
   <meta name="twitter:description" content="Quay lại chương 1 : Một là tôi mặc váy cưới, một là ảnh cô ta trong ngày cưới. Có thể là chụp lén, nên mặt tôi trong ảnh hơi mờ. Cư dân mạng lập tức phẫn nộ tràn vào chỉ trích: “Hai chiếc váy cưới ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

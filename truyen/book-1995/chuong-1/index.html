@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ai Nhận Xe, Người Đó Dưỡng Lão">
   <meta name="twitter:description" content="Trong bữa tiệc sinh nhật của ông nội, tám chiếc chìa khóa xe được bày ngay ngắn trên bàn. Ông gọi tên từng người một, anh chị em họ vui mừng reo hò bước lên nhận.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

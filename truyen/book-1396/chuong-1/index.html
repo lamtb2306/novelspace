@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Cuốc Xe, Một Cuộc Lật Mặt">
   <meta name="twitter:description" content="Tết vừa xong, tôi chuẩn bị lên thành phố đi làm lại. Muốn kiếm thêm chút tiền xăng xe, tôi liền mở ứng dụng đặt xe đi chung. Vừa đến điểm hẹn, tôi sững người thấy bố mình đang ôm eo một người phụ n...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

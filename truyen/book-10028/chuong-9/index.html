@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | CON GÁI LÀNG HƯNG LONG">
   <meta name="twitter:description" content="“Làng tôi dù nghèo thật, nhưng từ trước đến giờ chưa từng xảy ra chuyện như vậy. Chỉ cần phát hiện có hành vi phạm pháp — chúng tôi lập tức báo công an!” “Anh tưởng người ở đây lạc hậu, không biết ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

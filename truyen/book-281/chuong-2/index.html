@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TƯƠNG LAI BỐC CHÁY">
   <meta name="twitter:description" content="Thế thì anh ta nhìn đâu ra là tôi thích anh ta? Tôi sa sầm mặt: “Anh đang nói mấy lời vớ vẩn gì thế? Tôi thích anh hồi nào?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

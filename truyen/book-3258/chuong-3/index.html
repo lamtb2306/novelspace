@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | HẠNH PHÚC SAU LY HÔN">
   <meta name="twitter:description" content="“Chúng tôi còn phát hiện cô ta đăng một loạt ảnh khoe của lên mạng.” Thám tử chỉ vào màn hình điện thoại, “Những món đồ xa xỉ này đều là mua bằng tiền lừa được từ nhà cô.” Nhìn những bức ảnh ấy, cơ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

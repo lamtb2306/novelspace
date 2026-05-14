@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Rời đi trong mưa">
   <meta name="twitter:description" content="Lục Hoài Chi tìm tôi suốt nửa tháng trời. Anh ta về quê tìm đến nhà mẹ ruột tôi, mẹ nói tôi chưa từng quay lại. Anh ta đến công ty cũ của tôi, đồng nghiệp cũ bảo đã lâu không liên lạc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

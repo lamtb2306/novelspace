@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Hào Môn Không Có Chỗ Cho Tôi">
   <meta name="twitter:description" content="Hắn run rẩy cầu xin tôi: “Thanh Thanh, con đừng như vậy.” “Bố biết sai rồi, bố không cưới mẹ con nữa được không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

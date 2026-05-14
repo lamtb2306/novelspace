@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | HỒI ỨC QUÁ KHỨ">
   <meta name="twitter:description" content="Buổi tối, y tá vào tiêm thuốc chống nôn cho tôi. Giọng có chút dò hỏi: “Cô quen Giáo sư Tạ à?” Tôi mệt mỏi ngả trên giường: “Không quen.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Hộp Quà Trung Thu">
   <meta name="twitter:description" content="Tôi không còn cách nào, đành nhảy qua cửa sổ để đến trường, kết quả gãy một chân. Mẹ nói tôi giả vờ, bảo tôi hoàn toàn có thể gọi điện cho bà, nhưng lại cố ý nhảy xuống để khiến bà mang tiếng ác vớ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

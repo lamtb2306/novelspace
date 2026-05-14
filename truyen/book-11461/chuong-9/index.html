@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | CHÚNG TA ĐẾN ĐÂY LÀ HẾT">
   <meta name="twitter:description" content="Rất nhiều chuyện ngọt ngào đã xảy ra như vậy. Chúng tôi thậm chí cùng nhau đi xem căn nhà hiện tại. Anh khoát tay cười: “Chỉ cần em thích, anh cũng thích.” Cô nhân viên môi giới nhìn chúng tôi cười...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

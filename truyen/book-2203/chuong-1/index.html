@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BẠN ĐỜI MIỄN PHÍ">
   <meta name="twitter:description" content="Sáng hôm sau đi làm, tôi ngồi đờ ra tại bàn, đầu óc trống rỗng, chẳng còn tâm trí nào để làm việc. Trong đầu cứ tua đi tua lại chuyện tối qua và biểu hiện kỳ quái của Giang Du.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

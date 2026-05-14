@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Người Đàn Ông Tôi Yêu Muốn Chiếm Cả Nhà Lẫn Tiền Của Tôi">
   <meta name="twitter:description" content="Tắm một trận nước nóng, ngủ một giấc thật ngon. Mười giờ sáng hôm sau, tôi trang điểm thật tinh tế, môi tô đỏ rực, ánh mắt sắc lẹm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

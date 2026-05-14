@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chúng Ta Chưa Từng Thực Sự Ly Hôn">
   <meta name="twitter:description" content="Không biết vì chạy vội, hay vì điều gì khác. Cửa phòng 301 khép hờ, bên trong hắt ra ánh đèn vàng nhạt. Tôi đẩy cửa, bước vào. Đó là một phòng đơn rất giản dị. Một chiếc giường, một cái bàn, một tủ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

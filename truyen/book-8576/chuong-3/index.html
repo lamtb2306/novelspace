@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | KHI TRÀ XANH GẶP LỬA NÓNG">
   <meta name="twitter:description" content="Tôi vẫn giữ nụ cười, giơ tay ấn chuông gọi phục vụ: “Làm phiền, mang cho tôi một chai nước khác nhé. Cảm ơn.” Một tiếng “cảm ơn” vang lên, còn sắc bén hơn bất kỳ lời mắng mỏ nào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Chàng Không Phải Là Chàng">
   <meta name="twitter:description" content="Trong lòng ta hoảng loạn, lắc đầu: “Hạo Lâm, sao đột nhiên chàng lại nói vậy?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | SỐNG KHÔNG CÒN MỀM LÒNG">
   <meta name="twitter:description" content="Cháu chắc chắn không thiếu tiền đâu, căn nhà của dì cũng đang rao bán đây, cháu mua luôn cho dì nhé!” “Đúng đấy! Cháu giàu thế mà, mua vài căn nữa có sao đâu?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

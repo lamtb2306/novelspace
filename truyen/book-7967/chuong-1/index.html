@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Tình Không Biên Giới">
   <meta name="twitter:description" content="Năm thứ hai sau khi chồng tôi hi sinh, tôi nhìn thấy anh ấy trong một buổi lễ tuyên dương. Anh được phong là anh hùng hạng nhất mới nhất. Đứng cạnh anh, là cô em sư muội do chính tay tôi dìu dắt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

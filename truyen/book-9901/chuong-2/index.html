@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BA NĂM TRONG TĨNH LẶNG">
   <meta name="twitter:description" content="Tôi thức trắng đêm ở xưởng để phục chế một bức họa cổ bị hư hại nặng. Hôm sau tôi không về nhà, mà đi cùng bạn thân Giang Nguyệt tới buổi tiệc khai mạc một triển lãm nghệ thuật.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

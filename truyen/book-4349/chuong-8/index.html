@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Năm Thứ Năm Sau Khi Tôi C h e c">
   <meta name="twitter:description" content="Điện thoại tôi đổ chuông. Là trợ lý của tôi — Anthony gọi đến, giọng gần như phấn khích: “Wow, Jessica, chị thấy không?! Người đàn ông đó là ai vậy?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Thiên kim th ật trở về">
   <meta name="twitter:description" content="“Bố?!” Lúc này, một cô gái nãy giờ im lặng đứng bật dậy: “Là bà ấy tự đi lạc cơ mà, sao bố lại phải bồi thường? Bố chẳng nói là bà ấy cứ khăng khăng đòi ra bờ sông à?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

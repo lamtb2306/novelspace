@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BẠN CÙNG PHÒNG CHUỐC SAY TÔI">
   <meta name="twitter:description" content="Bên dưới khán đài, ánh mắt của giáo viên và học sinh đầy chán ghét, những lời thì thầm to nhỏ vang lên không dứt: “Không còn gì để nói, ai ngờ hoa khôi trường mình lại là loại người đi phá hoại gia...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

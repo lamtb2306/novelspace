@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Vì Em, Anh Rút Khỏi Giới Giải Trí">
   <meta name="twitter:description" content="“Đó là món quà… gửi cho một người tôi từng yêu.” “Người tôi từng yêu…” Mấy chữ này… như một mũi kim nhọn, không báo trước, đâm thẳng vào tim tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

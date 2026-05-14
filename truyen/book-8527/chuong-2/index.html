@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Mẹ Nói Tôi Là Ngôi Sao Xui Xẻo">
   <meta name="twitter:description" content="Vừa nói, cô ta vừa nũng nịu ôm lấy vai Thẩm phu nhân, làm nũng, “Mẹ, mẹ không thấy Lệ phu nhân và mẹ có mấy phần giống nhau sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

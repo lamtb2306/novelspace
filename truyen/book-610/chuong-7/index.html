@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Tôi Rời Đi Vào Một Ngày Trời Đẹp">
   <meta name="twitter:description" content="Ở nơi này, tôi dần cảm nhận được giá trị của chính mình. Chị chủ thấy tiếc, khuyên tôi đừng vùi lấp bản thân ở một tiệm nhỏ, khuyến khích tôi đi xa hơn. Nhờ chị giúp đỡ, tôi đăng ký học bổ sung, ch...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

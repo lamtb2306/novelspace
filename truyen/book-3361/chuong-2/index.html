@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | KHÔNG CÒN CƠ HỘI">
   <meta name="twitter:description" content="Sắp xếp qua loa mọi việc trong tiệc đính hôn xong, tôi liền đến bệnh viện. Đó là bệnh viện tư tốt nhất trong thành phố, nguồn lực y tế là tốt nhất, đồng thời chi phí cũng rất đắt đỏ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

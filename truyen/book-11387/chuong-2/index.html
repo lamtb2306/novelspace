@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CẬU CHỦ PHẢI LÒNG TÔI">
   <meta name="twitter:description" content="Tôi không đi theo. Chỉ đến khi cậu ta rời khỏi sân bay, tôi mới từ tốn lấy điện thoại ra, nhìn chấm đỏ đang di chuyển trên màn hình. Đúng vậy, ngay khoảnh khắc tôi níu lấy balo của cậu ta, tôi đã n...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

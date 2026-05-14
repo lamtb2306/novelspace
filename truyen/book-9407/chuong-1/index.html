@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BÁO ỨNG RẮN LINH">
   <meta name="twitter:description" content="Khi tôi còn nhỏ, ông nội tôi đã nhặt được một tấm da rắn khổng lồ trên núi sau nhà. Da rắn đã bị khô quắt lại, trên đó còn bám đầy đất cát.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

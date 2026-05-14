@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | 101 Gia Quy Nhà Họ Trần">
   <meta name="twitter:description" content="Tôi có cuộc sống của tôi, anh ta có con đường riêng. Chúng tôi sẽ không bao giờ có giao điểm nữa. Và như vậy là tốt rồi. Một năm sau, tôi và Lý Minh tổ chức đám cưới.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

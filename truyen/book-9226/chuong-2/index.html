@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Người Trở Về Từ Cõi Oan">
   <meta name="twitter:description" content="Tên “Tô Tình” — ngày thường là cái tên khiến tôi nghe thấy liền vui. Vì mỗi lần dì đi làm xa về, dì đều mang cho tôi đủ thứ mới lạ, kể bao nhiêu chuyện thú vị bên ngoài. Chỉ cần dì về, là trời tron...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

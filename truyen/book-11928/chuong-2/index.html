@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tôi Không Thể Rời Đi">
   <meta name="twitter:description" content="Tôi quay sang nhìn mẹ chồng, giọng đầy tủi thân: “Vả lại, mẹ, mỗi tháng con phát lương đều để lại cho mẹ hai ngàn tệ phụ giúp chi tiêu trong nhà, số tiền còn lại con còn phải tự lo sinh hoạt, bây g...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

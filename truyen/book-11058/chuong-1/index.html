@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHỒNG CÔ QUÊN ĐÓNG CỬA PHÒNG TÔI">
   <meta name="twitter:description" content="Tôi đang ăn trưa ở khu vực căng-tin của công ty. Bất ngờ, mặt tôi bị thứ gì đó đập mạnh vào. Thang thuốc Đông y mà sáng nay tôi vừa để trong tủ lạnh công ty, giờ đây đã đổ hết lên phần cơm của tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Họa Huyết Thống">
   <meta name="twitter:description" content="Bà ta trừng trừng nhìn tôi, như đang cố xem tôi có nói thật hay không. Một lúc sau, bà nghiến răng, nói với vệ sĩ bên cạnh: “Cho cô ta vào! Tôi muốn xem cô ta giở được trò gì!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

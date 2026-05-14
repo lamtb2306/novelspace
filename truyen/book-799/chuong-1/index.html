@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | SÓNG GIÓ NGÀY NHẬP HỌC">
   <meta name="twitter:description" content="Vì công việc của bố nên tôi phải chuyển trường và đến làm thủ tục nhập học. Khai xong thông tin cá nhân, cô giáo phụ trách nhìn tôi đầy nghi hoặc: “Em nói phụ huynh là ông Trình – cổ đông mới?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

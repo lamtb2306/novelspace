@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CÙNG NHAU NGOẠI TÌNH">
   <meta name="twitter:description" content="Tối đó, khi Chu Chí Châu và tôi đang nằm trên giường, điện thoại của cả hai cùng đổ chuông.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

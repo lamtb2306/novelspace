@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Giấc Mộng Dưới Trời Sao">
   <meta name="twitter:description" content="Sinh nhật cô năm đó, anh bao trọn nhà hàng cao cấp, nhưng cuối cùng lại tự tay mang ra một bát mì trường thọ do anh nấu, trông vô cùng bình thường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

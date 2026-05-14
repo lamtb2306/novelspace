@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Căn Nhà Có Người Lạ">
   <meta name="twitter:description" content="Tôi lật từng trang. “Tiền đặt cọc 680.000.” Tôi đặt bản ghi chuyển khoản ngân hàng tiền đặt cọc lên bàn. “350.000 này là tiền tiết kiệm của bố mẹ tôi.” Tôi chỉ vào một khoản.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

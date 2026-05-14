@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 15 | Gió Giang Nam, Mây Tây Bắc">
   <meta name="twitter:description" content="Tôi chỉ gật nhẹ, không nói ra suy nghĩ trong lòng. Chuyển sang hỏi: “Đoàn trưởng, công việc tiếp theo của tôi là gì ạ?” Đoàn trưởng thoáng sững người.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

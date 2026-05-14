@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Thằng Em Tôi Và Con Mắm Của Nó">
   <meta name="twitter:description" content="Mấy món đồ con trai mê như máy chơi game, đồ thể thao, đồ công nghệ, tôi đều sắm đủ. Nó ra trường chưa muốn đi làm, tôi cãi nhau với bố mẹ để bỏ tiền cho nó đi du lịch cả năm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

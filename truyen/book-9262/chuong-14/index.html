@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 14 | Thế Thân Của Thế Thân">
   <meta name="twitter:description" content="Tôi không còn nghĩ đến hoa hồng trắng, hay tuyết tùng nữa. Tôi bắt đầu một trò chơi mang tên “lừa dối”. Tôi dùng lan chuông — thứ hương thơm ngây thơ và vô tội — để che giấu mùi cay nồng và mạnh mẽ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

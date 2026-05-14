@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Một Cái Bát, Hai Triệu Tội Danh">
   <meta name="twitter:description" content="Tôi chỉ vào bốn món đồ trên bàn, nói với người dẫn chương trình và các chuyên gia: “Chính là những thứ này.” “Đây là cấu kiện đồng đen thời Thương Chu.” “Đây là hũ gốm thời Hán.” “Đây là ngọc bích ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

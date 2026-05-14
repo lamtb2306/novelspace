@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Ta Trở Về Để Lấy Lại Mọi Thứ">
   <meta name="twitter:description" content="Hắn vậy mà thực sự lùi lại nửa bước sang bên cạnh, rồi lại đưa hộp gấm trong tay cho ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

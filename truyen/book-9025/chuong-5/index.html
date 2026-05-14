@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Chỉ Là Người Vợ Trên Danh Nghĩa">
   <meta name="twitter:description" content="“Nhưng nếu thật sự anh thấy khó chịu khi nhìn thấy tôi, tôi có thể dọn sang bên anh Chiến Phong ở. Nói với bên ngoài là anh không có nhà, tôi ở một mình sợ quá nên sang ở tạm.” “Không cần!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

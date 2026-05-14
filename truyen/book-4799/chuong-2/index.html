@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | THẦN ĐÀO MỎ">
   <meta name="twitter:description" content="Xe dừng lại trước cổng đại viện. Phía sau, xe của Thẩm Thời Thanh cũng chạy vào. Trong đại sảnh tầng một, một bóng dáng màu vàng nhạt lao tới. Thẩm Thời Thanh bước xuống xe.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

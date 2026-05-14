@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CHIÊU TRÒ CỦA TRAI NGOAN">
   <meta name="twitter:description" content="Việc cô giáo đột nhiên bảo tôi ở lại khiến tôi hoảng hồn, suốt cả tiết học cứ nơm nớp lo sợ. Giờ nghỉ giữa tiết, tôi tranh thủ lên website trường tra lý lịch của cô giáo, rồi tiếp tục tìm thêm thôn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

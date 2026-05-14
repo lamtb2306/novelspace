@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | NGÔI NHÀ MANG TÊN TÔI">
   <meta name="twitter:description" content="Tôi chỉ cười, không nói gì. Biết nói sao đây? Rằng đó là tiền giữ mạng à? Bước ra khỏi ngân hàng, trời bắt đầu mưa lất phất.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

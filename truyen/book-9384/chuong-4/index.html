@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | CŨNG MAY LÀ ĐÃ CÓ BẠN GÁI MỚI RỒI">
   <meta name="twitter:description" content="Thấy băng trắng trên trán tôi, cậu ta có phần áy náy, cúi đầu không dám nhìn thẳng. “Sắp khai giảng rồi, để tôi đặt vé máy bay cho cậu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

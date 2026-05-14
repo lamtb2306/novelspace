@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Cả Làng Chỉ Trỏ Tôi Là Kẻ Trộm">
   <meta name="twitter:description" content="Mọi sai lầm, chỉ có thể là do tôi – người ngoài – gây ra. Tôi nhìn người đàn ông trước mắt, người chồng đã chung giường chung gối với tôi ba năm, đột nhiên cảm thấy một trận xa lạ và ghê tởm chưa t...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

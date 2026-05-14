@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Đêm Rằm Tháng Bảy">
   <meta name="twitter:description" content="Không rõ đã lái xe bao lâu, tôi nhìn thấy một đồn cảnh sát và lập tức tấp xe vào. Cảnh sát lập tức nhận thấy điều bất thường, nhanh chóng gọi thêm lực lượng bao vây lấy chúng tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

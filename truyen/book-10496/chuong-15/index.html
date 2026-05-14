@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 15 | Căn Phòng Không Thể Làm Lạnh">
   <meta name="twitter:description" content="Tôi không biết quay lại rồi mình có thể làm gì. Nhưng tôi biết, nơi đó là trung tâm. Là nguồn gốc. Tôi nhất định phải quay về xem một lần. Tôi dùng tốc độ nhanh nhất đời mình, lao lên tầng mười bốn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Những Miếng Thịt Kho Tàu Quá Mặn">
   <meta name="twitter:description" content="Ông Vương ở cạnh nhà là người rất nhiệt tình, lúc nào cũng thích mang thịt kho đến cho tôi. “Một mình bươn chải nơi đất khách không dễ dàng gì, ăn nhiều vào nhé.” Lần nào tôi cũng cười nhận, nhưng ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | YÊU ONLINE THẦY GIÁO">
   <meta name="twitter:description" content="Tôi lại hỏi xin địa chỉ anh ấy, gửi lại đặc sản chỗ tôi cho anh ấy. Thế là qua lại vài lần, hai đứa add WeChat rồi quen thân. Chúng tôi hợp khẩu vị, sở thích tương đồng, giờ giấc sinh hoạt cũng giố...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

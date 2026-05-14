@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tình Yêu Trong Bóng Tối">
   <meta name="twitter:description" content="Tôi đã yêu thầm anh trai của bạn thân suốt một năm trời, trong một mối quan hệ bí mật. Ban đầu định công khai vào đúng sinh nhật anh ấy. Ngày trước sinh nhật, tôi cùng bạn thân mang cơm đến cho anh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

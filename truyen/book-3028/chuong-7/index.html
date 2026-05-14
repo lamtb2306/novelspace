@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | GIANG TUYẾT QUỲNH">
   <meta name="twitter:description" content="“Tôi biết sự thật năm xưa. Tôi biết anh, Châu Tự Tân, là một kẻ hèn hạ như thế nào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

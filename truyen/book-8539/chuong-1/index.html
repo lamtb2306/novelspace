@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thiếu Gia Vùng Quê">
   <meta name="twitter:description" content="Tôi đang ngồi uống trà ở nhà chú thì điện thoại trong túi quần rung liên tục. Mở nhóm lớp ra xem, giọng nói ngạo mạn của hotboy trường – Trần Hách vang lên: “Em đề nghị hoạt động thực tế hè năm nay...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

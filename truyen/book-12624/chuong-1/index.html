@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hành Trình Không Phanh">
   <meta name="twitter:description" content="Vào dịp Tết Thanh Minh, tôi lái chiếc xe mới mua về quê. Trên đường cao tốc, tôi bật chế độ ga tự động, nhưng nhanh chóng phát hiện ra… phanh không ăn! Dù tôi có đạp phanh thế nào, tốc độ vẫn giữ n...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

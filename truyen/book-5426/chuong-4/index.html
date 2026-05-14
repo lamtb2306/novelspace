@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | TỚ THÍCH CẬU">
   <meta name="twitter:description" content="Sau kỳ nghỉ ngắn ngủi, cuộc sống của tôi lại quay về với guồng công việc bận rộn. Những lời của Thẩm Dã, không phải là lời tỏ tình, nhưng lại giống như tỏ tình, khiến tôi chẳng biết nên định nghĩa ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | NGÔI SAO">
   <meta name="twitter:description" content="Tôi cầm micro, bắt nhịp rồi hát bài hát này. Cậu ta đứng đờ đẫn tại chỗ, thậm chí ly rượu rơi xuống đất cũng không hay biết. Hát xong, tôi lấy lý do có việc ở nhà rồi rời đi ngay. Vệ Hoài đi theo r...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

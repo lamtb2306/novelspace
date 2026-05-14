@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | ÔN THƯ NINH">
   <meta name="twitter:description" content="Tôi đến bệnh viện, đứa bé… không còn nữa. Bác sĩ sắp xếp cho tôi một ca phẫu thuật khẩn cấp, nói rằng nếu đến muộn hơn một chút, tôi sẽ mất luôn cả tử cung.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Khi Tôi Xin Cắt Tuyến Mồ Hôi">
   <meta name="twitter:description" content="Khi làm kiểm tra sức khỏe nhập học đại học, tôi chủ động yêu cầu bác sĩ cắt bỏ toàn bộ tuyến mồ hôi của mình.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Không Có Sau Này">
   <meta name="twitter:description" content="Sau khi bố tôi qua đời, cô con riêng tên An Miên – được nuôi ở nước ngoài – lập tức quay về tranh giành ngôi nhà tổ với tôi. Tôi là con gái duy nhất của vợ cả, lại có di chúc làm bằng chứng. Thế mà...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

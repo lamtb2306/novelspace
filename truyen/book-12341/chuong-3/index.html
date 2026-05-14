@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Những Ngày Cay Nghiệt">
   <meta name="twitter:description" content="Nếu như không tận tai nghe được sự thật, có lẽ tôi sẽ còn chìm đắm trong sự dịu dàng của anh hết lần này đến lần khác. Những gì xảy ra ở trường khiến tôi lần nữa sụp đổ hoàn toàn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

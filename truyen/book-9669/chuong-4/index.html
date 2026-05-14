@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | ÁNH MẮT NGỌT NGÀO">
   <meta name="twitter:description" content="Khi Tạ Hoài Chi dẫn tôi đến chợ, tôi giả vờ ngơ ngác hỏi anh: “Cậu đưa tôi đến đây làm gì vậy?” Tạ Hoài Chi không dám nhìn thẳng vào mắt tôi, chỉ nắm lấy tay tôi rồi nói: “Cậu làm sandwich cho tôi,...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

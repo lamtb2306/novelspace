@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Quả Báo Mười Lăm Năm">
   <meta name="twitter:description" content="Lúc đó tôi vẫn còn trẻ, người môi giới nhìn tôi như nhìn một món hàng, săm soi thật lâu rồi mới ra giá – ba trăm ngàn cho một quả thận. Ba trăm ngàn – đúng bằng số tiền cần cho ca phẫu thuật của mẹ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

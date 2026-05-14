@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | KIẾP SAU KHÔNG NÊN GẶP LẠI NHAU">
   <meta name="twitter:description" content="Quay lại văn phòng, tôi gọi Anna vào. “Tổng Trình, chị định nghỉ việc sao?” “Ừ, lát nữa tôi sẽ chia phần công việc lại cho em.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

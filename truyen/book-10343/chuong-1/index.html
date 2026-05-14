@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BỎ LẠI THANH XUÂN">
   <meta name="twitter:description" content="Tôi và Lục Minh là vợ chồng từ thuở thanh xuân. Từ đồng phục học sinh đến váy cưới, từ tầng hầm chật hẹp đến biệt thự sang trọng, chúng tôi bên nhau suốt mười hai năm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

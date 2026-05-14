@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Ngày Bà Không Còn Nữa">
   <meta name="twitter:description" content="Lần cuối cùng nằm trên bàn phẫu thuật, tôi nghe theo chỉ dẫn của bác sĩ, từ từ nhắm mắt lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

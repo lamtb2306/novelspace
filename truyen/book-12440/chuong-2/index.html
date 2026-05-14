@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | TÌNH YÊU KHÔNG CÓ LỖI">
   <meta name="twitter:description" content="Đêm hội mừng năm mới, âm nhạc trên sân trường vang ầm trời. Tôi một mình trong phòng trang điểm, kiểm tra và sắp xếp lại trang phục biểu diễn. Cửa mở, Phó Tranh bước vào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

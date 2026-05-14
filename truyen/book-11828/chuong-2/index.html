@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TÔI GẶP ĐƯỢC MỘT NGƯỜI ĐÁNG GIÁ CẢ THANH XUÂN">
   <meta name="twitter:description" content="Hè năm lớp tám, vì không phải đi học, tôi hầu như dành cả ngày ngoài đồng làm việc. Chỉ đến giữa trưa, lúc nắng gắt nhất, tôi mới có thể về nhà ngủ trưa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

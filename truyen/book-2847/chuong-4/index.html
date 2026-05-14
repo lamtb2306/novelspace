@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Có Một Nơi Gọi Là Nhà">
   <meta name="twitter:description" content="Ngũ quan của Tiểu Bảo chẳng khác gì phiên bản thu nhỏ của Giang Dĩ Thành. “Cô Thẩm.” Cô giáo đi tới. “Bé đã bớt sốt một chút, nhưng vẫn nên tới bệnh viện kiểm tra.” “Vâng, cảm ơn cô.” Tôi bế Tiểu Bảo.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

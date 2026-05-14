@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Ân Tình Hay Gánh Nợ">
   <meta name="twitter:description" content="Đó là thứ tôi tiện tay lấy ra khỏi túi đồ mỹ thuật của bạn cùng bàn khi rời khỏi chỗ ngồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

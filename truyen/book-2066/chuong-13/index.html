@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 13 | Ba Trăm Vạn Mua Một Tờ Ly Hôn">
   <meta name="twitter:description" content="Nó tròn bảy tuổi. “Mẹ ơi, sinh nhật con ba có về không?” Tôi lắc đầu. “Ba còn đang bận.” “Vậy con gọi điện cho ba được không?” “Không được, điện thoại ba hỏng rồi.” “Khi nào ba về?” “Không biết nữa...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

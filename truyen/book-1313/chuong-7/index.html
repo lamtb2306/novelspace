@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Kẻ Vô Dụng Phản Công">
   <meta name="twitter:description" content="Hóa ra, đây không phải là một ứng dụng bình thường. Nó thực sự có thể thay đổi cuộc đời tôi! Tôi nhấn vào “Cửa hàng hệ thống”, bên trong bày bán vô vàn thứ. Đủ loại kỹ năng, thiên phú, thậm chí có ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

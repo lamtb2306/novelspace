@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | MỘT MÌNH CŨNG ỔN">
   <meta name="twitter:description" content="Anh đưa tôi lên xe, “Đi thôi, chúng ta cùng nhau đi ăn mừng một chút.” Trong lúc lái xe, Lục Vũ Xuyên không ngừng nhìn tôi: “Niệm Niệm, em sao vậy?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Những Bức Tường Biết Nói">
   <meta name="twitter:description" content="Nhà bên cạnh tôi là một gia đình bốn người hoà thuận yêu thương. Người đàn ông là giảng viên đại học, đi làm thường tiện tay giúp tôi mang rác đi vứt. Người phụ nữ là một bà nội trợ, giọng nói ngọt...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

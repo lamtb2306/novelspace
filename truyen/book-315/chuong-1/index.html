@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Buông Tay Giữa Phồn Hoa">
   <meta name="twitter:description" content="Bạn thân thanh mai trúc mã của tôi lại đem lòng yêu một cô gái hát ở quán bar. Vì muốn cưới cô ta, anh ấy bất chấp áp lực từ cả gia tộc, quyết tâm hủy hôn với tôi. Tôi đành sang nước ngoài du học.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

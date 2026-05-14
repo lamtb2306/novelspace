@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chiêu Trò Của Khách Quen Ăn Chùa">
   <meta name="twitter:description" content="Khách quen đã liên tục nhấn “chỉ hoàn tiền” (không trả hàng) tại quán sủi cảo của tôi suốt một tuần rồi. Chính vì hành động này mà điểm đánh giá của quán tụt dốc từ 4.9 xuống còn 4.5, gây ảnh hưởng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

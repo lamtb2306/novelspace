@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Sau Hai Mươi Năm Thức Tỉnh">
   <meta name="twitter:description" content="Vừa tỉnh dậy, tôi đã thành người vợ bị nhà giàu ruồng bỏ. Người nằm cạnh không phải là chồng, mà là một bản thỏa thuận ly hôn. Tôi tên Tống Thanh Nguyệt, năm nay hai mươi lăm tuổi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

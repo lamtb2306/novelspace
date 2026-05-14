@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | KHI NHỚ RA THÌ ĐÃ MUỘN">
   <meta name="twitter:description" content="Sau khi xử lý xong những việc này, hôm nay tôi còn có một việc khác cần làm. Người mua nhà của tôi hôm nay vừa đúng lúc có thời gian, tôi phải cùng cô ấy hoàn tất thủ tục sang tên.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | BẢY NĂM ĐƠN PHƯƠNG">
   <meta name="twitter:description" content="Tôi đã đồng hành cùng Thẩm Tự suốt bốn năm, từng thấy anh ở thời điểm chạm đáy nhất. Tôi chưa từng từ bỏ anh, cũng chưa bao giờ coi thường anh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

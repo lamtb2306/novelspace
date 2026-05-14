@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | LÂM LỘ">
   <meta name="twitter:description" content="Trước kia, chỉ cần Lục Yến Trì hơi nhíu mày, tôi đã lo lắng liệu có phải mình chưa đủ tốt. Bây giờ nhìn thấy anh ta và Kiều Kiều có ghi chép mở phòng khách sạn, trong lòng tôi lại chẳng có chút gợn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

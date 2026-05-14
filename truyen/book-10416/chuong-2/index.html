@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Những Điều Con Nhìn Thấy">
   <meta name="twitter:description" content="Anh ta cầm lấy bảng sao kê, đọc từng khoản một, mày hơi nhíu lại, nhưng trên mặt không có chút hoảng hốt nào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

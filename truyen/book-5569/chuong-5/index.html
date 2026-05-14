@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | VỊ KHÁCH KHÔNG MỜI MÀ ĐẾN">
   <meta name="twitter:description" content="Mỗi bữa tuy có món mặn món rau, nhưng món mặn toàn là xương — chỉ có xương không có miếng thịt nào. Món thịt thật thì toàn là phần mỡ, viền trắng xấu xí, còn rau thì héo rũ, úa vàng. Chưa cần nói n...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

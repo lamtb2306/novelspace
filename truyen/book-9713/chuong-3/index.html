@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | KHÔNG NHẶT NAM CHỦ, NHẶT PHẢN DIỆN">
   <meta name="twitter:description" content="Nửa đêm, ta đang nằm trên giường thì bị một trận dị động làm bừng tỉnh. Mơ màng nhớ ra, trong phòng hình như còn mấy người đang hôn mê. Vừa định ngồi dậy. Một bàn tay nóng hầm hập bỗng như sắt nung...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

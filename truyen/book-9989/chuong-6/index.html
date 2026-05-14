@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | THIẾU GIA CÂM">
   <meta name="twitter:description" content="Tôi đổi hướng đi về phía phòng nhạc. Mơ hồ nhớ lại buổi biểu diễn chào mừng năm lớp 10, lúc tôi lên phát biểu với tư cách đại diện tân sinh, chương trình sau đó hình như là một người chơi piano.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

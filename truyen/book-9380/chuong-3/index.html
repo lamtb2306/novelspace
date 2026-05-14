@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Zombie Biết Khóc">
   <meta name="twitter:description" content="Dùng đầu đập từng cái, từng cái vào tường. Cho đến khi kiệt sức ngã xuống đất. Bên ngoài lập tức xôn xao. “Trời ơi! Nó lại có khả năng tự khống chế!” “Không thể tin nổi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

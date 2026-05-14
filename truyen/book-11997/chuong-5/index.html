@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Ban Công Là Nhà">
   <meta name="twitter:description" content="“Ảnh gia đình là để đem ra ngoài cho người khác nhìn, nếu khách nhìn thấy, chắc chắn họ sẽ cười nhạo tôi sinh ra một đứa con xấu xí!” Người chụp ảnh nói có thể chỉnh ảnh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

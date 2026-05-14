@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | THOÁT KHỎI SỰ RÀNG BUỘC">
   <meta name="twitter:description" content="Năm thứ mười sau khi Phương Trì Ngư kết hôn với Cố Cảnh Hành, anh để quên điện thoại ở nhà. Trên màn hình hiện lên một thông báo nhắc nhở sinh nhật. Ngày 12 tháng 4 — không phải sinh nhật của cô.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

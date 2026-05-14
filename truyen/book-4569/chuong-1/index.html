@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | S á t Thủ Học Bá">
   <meta name="twitter:description" content="Ngày công bố điểm thi đại học, tôi – một giáo viên đặc cấp – như phát điên với cả lớp bốn mươi hai học sinh. Bọn trẻ là những học trò ngoan nhất mà tôi từng dạy. Ngay cả khi tôi đến kỳ kinh nguyệt,...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

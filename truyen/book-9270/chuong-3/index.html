@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | TẤM ẢNH BỊ LỘ">
   <meta name="twitter:description" content="Anh ấy nói vậy tôi mới nhớ ra, bạn cùng phòng đã nháy mắt bảo tôi: “Lỡ anh ấy có hỏi thì cậu yên tâm, chị em lo được!” Thôi được rồi, đúng là ngoài lý do bệnh ra thì chẳng còn cách nào hay hơn. “Ờ…...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

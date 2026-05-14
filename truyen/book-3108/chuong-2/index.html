@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Gã Nhân Viên Kiêu Ngạo">
   <meta name="twitter:description" content="「Bà ta còn chụp ảnh tờ phiếu chấm điểm đó, gửi vào nhóm họ hàng ở quê mình. Còn kèm theo lời rằng, con gái thời nay dù lương năm trăm vạn thì sao, không gả đi được vẫn là không gả đi được.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

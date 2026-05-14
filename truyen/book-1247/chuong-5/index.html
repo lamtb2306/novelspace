@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | HÀ SƯƠNG VẤN NGUYỆT">
   <meta name="twitter:description" content="Ngươi dù là Thái tử, không thương dân, tội thứ nhất. Dung túng người mình ức hiếp lê dân, tội thứ hai. Không phân phải trái, che chở vô độ, tội thứ ba.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

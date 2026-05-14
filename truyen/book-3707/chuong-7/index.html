@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | LỜI CHÀO CUỐI CÙNG">
   <meta name="twitter:description" content="Tôi tỉnh dậy trong vòng tay Hàn Dạ, đã là buổi chiều. Ngón tay anh nhẹ nhàng vẽ quanh khuôn mặt tôi: “Đói chưa?” “Đói lắm rồi.” Tôi dụi đầu vào ngực anh. “Muốn ăn gì?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

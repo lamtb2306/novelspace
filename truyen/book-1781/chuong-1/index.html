@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đại Xà Chắn Đường">
   <meta name="twitter:description" content="Tôi là hướng dẫn viên đặc biệt do thôn cổ thuê, con đường tôi đi, người thường không thể dẫn. Tết Trung thu năm nay, trong thôn tiếp nhận một đoàn khách, nói là toàn quý nhân, yêu cầu tôi đích thân...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bữa Tiệc Hải Sản Vả Mặt Nhà Chồng">
   <meta name="twitter:description" content="Trước ba ngày Quốc khánh, bố chồng gửi thông báo trong nhóm gia đình. “Ngày mùng hai tụ họp ăn cơm, mọi người đều đến nhé, tổng cộng 28 người, cho náo nhiệt.” Tôi đếm lại danh sách.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

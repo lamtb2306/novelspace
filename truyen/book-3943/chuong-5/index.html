@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Mỗi Tháng 8.000 Tệ, Đổi Lại Một Chiếc Áo Rẻ Tiền">
   <meta name="twitter:description" content="“Tôi nhớ ra rồi! Anh chính là thằng học trò được mẹ tôi tài trợ!” “Loại người như anh còn dám nói tôi không có trách nhiệm không có gan gánh vác?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

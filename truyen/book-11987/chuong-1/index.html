@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ba Năm Làm Thế Thân">
   <meta name="twitter:description" content="Khi Giang Mộ Hàn nắm tay Bạch Nhược Tuyết bước vào phòng khách, tôi đang ở trong bếp nấu món chè tuyết nhĩ mà anh thích nhất. “Tô Nguyệt, ra đây một chút.” Giọng anh lạnh hơn thường ngày vài phần.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

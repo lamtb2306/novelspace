@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | DIÊM HOÀ VÃN">
   <meta name="twitter:description" content="Tôi gạt Tống Tấn Niên sang một bên, lao tới trước máy tính. Quả nhiên, anh ta đang đăng nhập vào tài khoản đăng ký nguyện vọng của tôi. Trên đó, nguyện vọng của tôi đã bị đổi thành Đại học A.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

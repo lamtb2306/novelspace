@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Sổ Nợ Lâm Vãn">
   <meta name="twitter:description" content="“8000?” Mẹ tôi ném tấm ảnh chụp màn hình số tiền tôi chuyển vào bàn, “Con một tháng kiếm mười tám nghìn, mà chỉ đưa cho chúng ta tám nghìn?” Tôi không nói gì.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

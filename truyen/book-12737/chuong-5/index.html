@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Chưa Kết Hôn Đã Có Mẹ Chồng Đòi Tiền">
   <meta name="twitter:description" content="Tôi mua voucher của chỗ này trên mạng, đặt lịch cho hai giờ chiều hôm nay, dùng họ tên và số điện thoại thật của mình. Những thông tin này nhân viên cửa hàng đều có thể nhìn thấy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Chiếc xe không có chỗ cho tôi">
   <meta name="twitter:description" content="Đăng xong, tâm trạng tôi nhẹ nhõm lạ thường, tiếp tục lái xe đến điểm đến tiếp theo. Còn cái gọi là gia đình, cái gọi là tình thân ấy ư… để nó đi xuống địa ngục đi. Hai ngày sau, tôi đến được hồ Th...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

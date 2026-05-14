@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | 30 NĂM NGHĨA VỤ NGƯỜI VỢ">
   <meta name="twitter:description" content="Một người qua đường tốt bụng đưa tôi vào bệnh viện, khi tôi tỉnh lại, trời đã gần tối. Tôi mở điện thoại, có tin nhắn từ con dâu: “Mẹ à, tụi con quay lại sân bay không thấy mẹ đâu. Hộ chiếu tìm đượ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

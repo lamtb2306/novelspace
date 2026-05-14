@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | ĐÁP LẠI TRA NAM">
   <meta name="twitter:description" content="Tôi gặp ông ngoại sau khi mẹ và bà mất, lần đầu gặp không vui vẻ gì. Ông ngoại và cậu út ngồi đối diện tôi, nước mắt lăn dài, giọng đầy xót xa, nói muốn công bố danh tính tôi và đón tôi về nhà.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

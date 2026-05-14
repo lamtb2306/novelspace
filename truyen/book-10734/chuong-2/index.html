@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Rút Cạn Yêu Thương">
   <meta name="twitter:description" content="Mùng bảy Tết, cuộc đời tôi chính thức lật sang trang mới. Tôi không còn phải gượng cười đối diện với từng khoảnh khắc bị thiên vị và gạt ra bên lề nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

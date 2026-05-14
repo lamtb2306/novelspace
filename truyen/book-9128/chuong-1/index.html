@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tôi làm giúp việc ở Dubai 10 năm">
   <meta name="twitter:description" content="Tôi làm giúp việc ở Dubai suốt mười năm. Nhà chủ giàu có, còn tôi thì cắm đầu làm việc, chưa từng sai sót dù chỉ một lần. Cho đến ngày hôm đó. Chiếc dây chuyền ngọc trai của bà chủ bỗng dưng biến mất.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

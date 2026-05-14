@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BỮA TIỆC ĐỊNH MỆNH">
   <meta name="twitter:description" content="Tại bữa tiệc, Tống Quân Hành đưa cho tôi một ly champagne. Tôi vừa định uống thì trước mắt bỗng xuất hiện một loạt dòng chữ kỳ lạ. 【Em gái à, đừng uống! Trong rượu có thuốc!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

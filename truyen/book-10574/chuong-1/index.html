@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGÔI SAO SÁNG CỦA LÒNG EM">
   <meta name="twitter:description" content="Tôi là một ngôi sao hạng mười tám. Có người bị đuối nước, tôi dũng cảm lao tới cứu người, ai ngờ lại bất ngờ nổi tiếng. Trong video, tôi hoảng hốt cầm áo chống nắng che phần thân dưới của anh ta. C...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

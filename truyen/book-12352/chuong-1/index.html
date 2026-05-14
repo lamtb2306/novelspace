@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cơm Chiên Trứng Vàng">
   <meta name="twitter:description" content="Tôi vì ăn trộm bánh mì cho em trai Cố Thanh Thư mà bị bắt, rồi bị đánh đến chết. Sau đó, chúng tôi cùng nhau trọng sinh. Kiếp trước, chúng tôi là những đứa trẻ mồ côi, nương tựa vào nhau.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

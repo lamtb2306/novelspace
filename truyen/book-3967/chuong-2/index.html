@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | MỘT ĐỜI KHÔNG THA">
   <meta name="twitter:description" content="“Xem ra, trong nhà không một ai làm quan nơi triều đình. “Thôi cũng được, xa rời tranh chấp triều đường, chưa hẳn không phải chuyện tốt.” Lời nói nghe thì ôn hòa, nhưng thần sắc lại lộ rõ vẻ khinh ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Anh Trai Trong Tủ Đông">
   <meta name="twitter:description" content="Tôi nghe thấy mẹ đang nói chuyện điện thoại bên trong, giọng ép rất thấp, còn đang khóc. “… Em không biết phải làm sao nữa… anh ấy biết rồi…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

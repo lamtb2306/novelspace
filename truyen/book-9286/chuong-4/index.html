@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Thanh Xuân Không Có Song Tinh">
   <meta name="twitter:description" content="Tôi rũ mắt, không nói một lời. Trong lúc giằng co, phía sau vang lên giọng nói ngọt ngào của Khương Huyền. “A Hồi, Đại Bằng và mọi người đang tìm cậu chơi máy nhảy kìa.” “Xin lỗi…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

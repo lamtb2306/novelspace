@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Lễ Cưới Trên Núi Tuyết">
   <meta name="twitter:description" content="Một tuần trước ngày cưới, vị hôn phu của tôi bỗng nhiên đổi địa điểm tổ chức sang bãi biển. Bạn bè trêu chọc anh ấy: “Chỉ vì Lương Kha thích đi biển mà anh đổi chỗ làm lễ cưới sao? Còn không thèm b...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

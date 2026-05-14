@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TAN RỒI HỢP">
   <meta name="twitter:description" content="Tôi nhìn anh từ xa, dáng hình anh ngày càng khuất dần khỏi tầm mắt. Có lẽ, đây là lần cuối chúng tôi gặp nhau. Thế nhưng anh vừa đi, tôi lập tức bị mấy người chắn lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

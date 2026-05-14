@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Mộng Tỉnh">
   <meta name="twitter:description" content="Chàng nói: “Nàng là thê tử của ta, là mẫu thân của Nguyên Gia và Dung Dung, sao ta có thể không cần nàng?” “Chỉ là…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

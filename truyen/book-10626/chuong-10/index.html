@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Câu Đố Cuối Cùng">
   <meta name="twitter:description" content="Ngày hôm sau, tôi mới biết, anh trai tôi đã gánh hết mọi trách nhiệm – y như khi còn bé, anh ấy luôn đứng chắn phía trước, để tôi ở phía sau an toàn. Tôi từng hỏi anh ấy, nhưng anh chẳng bao giờ nó...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

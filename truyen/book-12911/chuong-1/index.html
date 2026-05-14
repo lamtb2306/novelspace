@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ly Hôn Ngày Giao Thừa">
   <meta name="twitter:description" content="Đêm Giao thừa, tôi đến tòa án thêm một lần cuối cùng. Lần này, thẩm phán hỏi tôi có còn muốn khởi kiện để giành lại quyền nuôi con trai không. Tôi lắc đầu. “Tôi đến để rút đơn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

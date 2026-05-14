@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Cô Thư Ký Quá Quyền">
   <meta name="twitter:description" content="Buồn cười thật. Ở thủ đô này, chưa từng có ai dám bắt tôi xin lỗi cả. Tôi ngồi yên tại chỗ, ngẩng đầu nhìn thẳng vào cô ta: “Muốn tôi quỳ lạy cô à?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

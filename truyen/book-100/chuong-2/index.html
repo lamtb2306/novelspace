@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Ta Thiêu Kiệu Hoa Ngày Đại Hôn">
   <meta name="twitter:description" content="Giống như… là cố ý để ta phát hiện ra vào một ngày nào đó sau khi thành thân lúc dọn dẹp giá trang. Khi đó ta đã gả vào Bùi gia rồi. Phát hiện ra thì có thể làm gì? Gạo đã nấu thành cơm. Thứ nàng t...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

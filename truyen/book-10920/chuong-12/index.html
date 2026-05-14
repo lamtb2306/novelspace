@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | CON ĐƯỜNG KHÔNG CÓ ĐIỂM DỪNG">
   <meta name="twitter:description" content="“Gì vậy anh?” “Tôi có tin nội bộ đấy. Người nhà tôi làm trong công ty xây dựng, nói bên đó đang tuyển nhân viên dự toán. Lương cao lắm. Cậu có muốn đi không?” “Đi chứ, sao lại không!” — tôi mừng rỡ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

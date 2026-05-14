@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Tôi Không Keo Kiệt, Tôi Chỉ Giỏi Tính Toán">
   <meta name="twitter:description" content="Tôi chẳng cho hắn xu nào, chỉ đơn giản là đưa cho hắn một tờ đơn xin khoan hồng. Sau đó dẫn hắn đi làm kiểm tra nam khoa. Sự thật không nên bị che giấu mãi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

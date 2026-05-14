@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Trái Tim Dự Phòng">
   <meta name="twitter:description" content="Tôi đứng dậy, phủi sạch cát bụi trên người, một mình bước về phía hoàng hôn. Ánh tà dương vàng óng kéo bóng tôi dài ra mãi, dường như bất cứ lúc nào cũng có thể tan biến trong gió.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

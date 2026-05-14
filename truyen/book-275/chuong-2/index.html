@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tám Mươi Tỷ Không Mua Lại Được Tôi">
   <meta name="twitter:description" content="Anh đặt điện thoại lên bàn, bấm vài cái mở tin nhắn: “Hai triệu? Bây giờ phóng viên còn không đòi bằng một bữa tối của em.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

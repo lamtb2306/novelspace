@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | LÀM PHÚC GẶP HỌA">
   <meta name="twitter:description" content="Tôi đã tài trợ cho một cô gái người miền núi một cách vui vẻ và hào phóng. Ở siêu thị, tôi cầm một nải chuối, định trả tiền. Cô gái từng được tôi tài trợ đột ngột che miệng lại, mỉm cười tinh nghịc...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

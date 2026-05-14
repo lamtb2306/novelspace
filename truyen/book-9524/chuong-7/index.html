@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | BẠN TRAI TƯỞNG TÔI GIẬN DỖI">
   <meta name="twitter:description" content="Cô vẫy một chiếc taxi, nói địa chỉ. Xe chạy qua những con đường sầm uất, rồi dừng lại trước cổng một khu dân cư. Lâm Vãn kéo vali đi vào trong, tìm đến căn hộ cô đã thuê.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

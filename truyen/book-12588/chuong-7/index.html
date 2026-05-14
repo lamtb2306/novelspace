@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | DANH PHẬN KHÔNG THỂ ĐỔI LẤY TÌNH YÊU">
   <meta name="twitter:description" content="Tôi nhìn ra ngoài cửa sổ — lại mưa rồi. Cơn mưa như có duyên với tôi vậy, Cứ mỗi lần tôi buồn bực, nó lại đến thay tôi rơi nước mắt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

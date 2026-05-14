@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Em Họ Ở Nhờ Và Cái Kết">
   <meta name="twitter:description" content="Năm tôi đỗ Bắc Đại, bố mẹ đặc biệt thuê cho tôi một căn hai phòng ngủ gần trường. Ngày cầm chìa khóa, tôi háo hức mở cửa, nhưng vừa nhìn thấy trong phòng thì đứng sững tại chỗ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

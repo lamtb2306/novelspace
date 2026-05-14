@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Trò Chơi Hứa Chiêu">
   <meta name="twitter:description" content="Đây là thói quen mỗi buổi sáng của anh. Ôm tôi vào lòng, nấn ná thêm một lát trên giường. Trước kia tôi thấy rất ấm áp. Còn bây giờ. Tôi chỉ cảm thấy đó là một cái ôm tẩm độc. Tôi lắc đầu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 13 | VẬN ĐỔI NGÀY TA TRỞ VỀ">
   <meta name="twitter:description" content="Tối nay? Ta nhìn ra cửa. Trời đã đen kịt, gió lớn quét qua khiến cây liễu trong sân phát ra âm thanh quái dị. “Cha… lẽ nào người không yêu ta một chút nào sao?” Ta bi thương hỏi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

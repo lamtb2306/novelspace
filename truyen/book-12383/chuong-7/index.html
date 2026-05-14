@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Kiếp Này Em Buông Bỏ Anh">
   <meta name="twitter:description" content="Tôi tưởng cô ta sẽ từ chối, ai ngờ lại đồng ý ngay. Ngồi xuống, tôi đưa menu cho cô ta: “Không biết chị uống gì, tôi chưa gọi.” Cô ta nhận menu, gọi một ly Americano đá.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

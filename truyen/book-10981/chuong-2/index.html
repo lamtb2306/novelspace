@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BỐ TÔI MANG THEO CẢ GIA TÀI RỒI ĐI XUẤT GIA">
   <meta name="twitter:description" content="Trong một lần nhặt rác, tôi tình cờ nhặt được một con chó con. Nó đen sì sì, còn bị què một chân. Nhìn nó đáng thương quá, tôi ôm nó về nhà. Ngày nào cũng dành lại một chút đồ ăn cho nó.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

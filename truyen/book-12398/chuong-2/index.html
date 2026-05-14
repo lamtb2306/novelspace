@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NGAY TỪ ĐẦU ĐÃ LÀ DỐI TRÁ">
   <meta name="twitter:description" content="Lục Sóc chơi điên cuồng, vừa xuất viện đã lao ra đua xe trong mưa lớn. Một cú nhấn ga, phanh trượt, xe lao thẳng khỏi đường đua. May thay, nửa sườn núi có cây cổ thụ nghiêng, chặn kịp cú lật.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

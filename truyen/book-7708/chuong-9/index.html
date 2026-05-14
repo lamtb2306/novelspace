@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Má.u Tôi Không Thuộc Về Ai Nữa">
   <meta name="twitter:description" content="Trên mạng xã hội, ai cũng đăng ảnh check-in. Trong ảnh, người đứng giữa là Lâm Tĩnh Hảo, còn nội dung thẻ nguyện thì không cái nào thiếu tên cô ta. Ba: Mong Tĩnh Hảo luôn bình an, cả đời hạnh phúc!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

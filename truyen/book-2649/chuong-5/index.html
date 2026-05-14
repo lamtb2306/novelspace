@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Cháu Tôi Dùng Hộ Khẩu Tôi Làm Của Hồi Môn">
   <meta name="twitter:description" content="Lý Thiến và gia đình cô ta vẫn chưa chịu từ bỏ. Sáng sớm hôm sau, bọn họ đã rời khỏi nhà. Không phải bỏ trốn, mà là quay về quê.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Mưa Ba Năm">
   <meta name="twitter:description" content="Tôi lau nước mắt nơi khóe mắt, khẽ lắc đầu. “Con nhà danh giá… bê bối là điều không được phép tồn tại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

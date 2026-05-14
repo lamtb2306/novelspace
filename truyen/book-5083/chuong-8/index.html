@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Trò Hề Mang Tên Người Thân">
   <meta name="twitter:description" content="Tôi lấy ra một xấp hóa đơn chi tiêu khổng lồ, hỏi thẳng mọi người trong livestream: “Mọi người có biết số tiền này được tiêu vào đâu không?” Màn hình chẳng ai trả lời, nhưng tôi vẫn tiếp tục nói.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

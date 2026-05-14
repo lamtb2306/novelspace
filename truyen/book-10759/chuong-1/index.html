@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đêm Đầu Ở Nhà Mới, Tôi Gặp Chủ Nhà Đã Ch ế t Ba Năm">
   <meta name="twitter:description" content="Đêm đầu tiên dọn vào, đèn nhà bếp tự động sáng. Một bà cụ đang ngồi trước bàn. Bà nhìn tôi, mỉm cười: “Cô bé, sao cháu gầy thế?” Bà ấy là chủ nhà cũ. Đã mất được ba năm rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

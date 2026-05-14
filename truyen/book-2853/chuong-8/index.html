@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Cô Dâu Cải Mệnh">
   <meta name="twitter:description" content="Cố Hoài Thâm lén tìm đến gặp tôi. Đến giờ anh ta vẫn cho rằng tôi cưới Lục Tu chỉ vì giận dỗi: “Niệm Niệm, nếu giờ em hối hận, anh có thể làm chú rể thay.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

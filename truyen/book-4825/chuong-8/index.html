@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | THỜI NGUYỆT">
   <meta name="twitter:description" content="Ánh mắt rời khỏi món ăn, nhìn sang khuôn mặt anh. Đây là gì? Nhắc tôi về quá khứ ư? Nhắc tôi đừng quên chúng ta từng yêu nhau? Đáng lẽ phải nói gì đó. Nhưng đến cuối, tất cả hóa thành một tiếng thở...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

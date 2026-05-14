@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Máy Rút Tiền Biết Đi">
   <meta name="twitter:description" content="Đứng trước cơ hội đi du học nước ngoài theo diện học bổng toàn phần, tôi lại do dự không biết có nên đi hay không. Con bạn thân lắc vai tôi, giận dữ như muốn đập đầu vào tường vì tức: “Đây là cơ hộ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | PHẾ VẬT PHẢN CÔNG">
   <meta name="twitter:description" content="Khi tôi mở mắt ra, đang nằm trên một cái giường gỗ cứng ngắc, đau ê ẩm cả thắt lưng. Bốn bức tường màu đất vàng bong tróc, loang lổ, dán mấy tờ giấy khen đã phai màu, trên đó viết: “Lao động tiên t...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

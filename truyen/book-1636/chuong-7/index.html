@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Trò Trốn Tìm Khiến Tôi Mãi Mãi Không Về Nhà">
   <meta name="twitter:description" content="Nói rằng tôi hét “tại sao em trai được đi mà con không được”. Mỗi câu nói ra, đều như đọc bản án dành cho chính mình. Ba dùng nắm đấm đập vào đầu mình. Một cái, rồi một cái nữa, những tiếng đập nặn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

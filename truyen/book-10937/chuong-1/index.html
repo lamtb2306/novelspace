@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGƯỜI TỪNG LÀ TẤT CẢ">
   <meta name="twitter:description" content="Anh chỉ bình thản đáp: “Em mãi mãi là em gái của anh.” Tôi bật cười khẽ: “Hiểu rồi.” Tối hôm đó, tôi không chút do dự rời khỏi nơi mình đã sống suốt năm năm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | KHÔNG CÒN GÌ ĐÁNG LƯU LUYẾN">
   <meta name="twitter:description" content="Giang Mộ Niên nhìn tôi, mắt anh đỏ đến đáng sợ. Tôi giúp anh nhận cuộc gọi, còn bật loa ngoài. Bên kia vang lên giọng Thẩm Vãn Khê, nghe như đang nghẹn ngào: “Mộ Niên, anh ở đâu? Có thể đưa Đồng Đồ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

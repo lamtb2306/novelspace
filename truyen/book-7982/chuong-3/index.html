@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | KÝ ỨC DỪNG LẠI NĂM 18 TUỔI">
   <meta name="twitter:description" content="Tôi chuyển về căn nhà của riêng mình. Tất cả đồ đạc đã được tôi sắp xếp và đóng gói từ đêm qua, gửi qua chuyển phát nội thành rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

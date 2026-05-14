@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CỐ VÃN TÌNH">
   <meta name="twitter:description" content="2 giờ sáng, Cố Vãn Tình nhận được cuộc gọi từ lễ tân khách sạn: “Cô Cố, chồng cô là Thẩm Chí Viễn đang say rượu ở phòng 1808. Chúng tôi đã cố liên hệ người thân khác nhưng không được, mong cô đến x...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

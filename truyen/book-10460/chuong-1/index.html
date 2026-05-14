@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Sói Hậu Bất Đắc Dĩ">
   <meta name="twitter:description" content="Xuyên thành một con sói ở tầng đáy, để không bị đói, ta đành quẫy đuôi lấy lòng dưới chân Sói vương. Cho đến khi mùa sinh sản đến, Sói vương đè ta xuống ổ: “Là Sói hậu, ngươi nên thực hiện nghĩa vụ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | ANH HÙNG GIẢ TẠO">
   <meta name="twitter:description" content="Tôi kể sơ qua chuyện xảy ra hôm qua, mẹ tôi nghe xong cũng thấy Vương Kiến Quốc có phần “bay” quá rồi. “Thằng Vương Kiến Quốc này, làm được chút chuyện tốt liền không biết mình họ gì nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

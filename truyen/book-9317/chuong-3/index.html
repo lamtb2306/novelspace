@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Khách Hàng Đi Theo Người">
   <meta name="twitter:description" content="Cô ta rời đi với vẻ mãn nguyện. Buổi tối, tôi hẹn hai khách hàng lâu năm ăn cơm. Một người là Tổng Giám đốc Trương, một người là chị Vương. Đều là khách hàng tôi đã chăm sóc hơn hai năm. “Tô Niệm, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

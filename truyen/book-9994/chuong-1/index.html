@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trò Chơi Chia Điểm">
   <meta name="twitter:description" content="Trước kỳ thi đại học, cô nàng được cả lớp cưng chiều – Diệp Noãn Noãn – nói rằng cô ấy muốn dùng hệ thống chia sẻ điểm số, để liên kết tất cả bạn học trong lớp lại với nhau. “Hu hu hu, tớ ngốc lắm,...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

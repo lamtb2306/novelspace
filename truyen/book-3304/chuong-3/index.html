@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | HỒNG TUYẾN U MINH">
   <meta name="twitter:description" content="Những người xung quanh đồng loạt kêu khẽ, mắt trừng lớn khi trông thấy một bóng người lạ từ hư không bước ra. Áo dài trắng kiểu Trung Sơn, tay áo xắn nửa chừng, cổ tay đeo tràng hạt gỗ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

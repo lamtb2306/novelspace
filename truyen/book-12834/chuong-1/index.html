@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | APP TÀI VẬN">
   <meta name="twitter:description" content="Sau khi bạn cùng phòng của tôi – Tiền Vi – trói định với hệ thống quay số trúng thưởng, trước mắt tôi liền xuất hiện một loạt bình luận như đạn mưa: 【Nữ phụ nào biết, nữ chính quay số trúng thưởng ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

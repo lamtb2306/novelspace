@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÌNH YÊU KÉO DÀI THEO NĂM THÁNG">
   <meta name="twitter:description" content="Ngày thứ hai sau khi về nước, tôi bất ngờ nhận được một cuộc gọi từ một số lạ. “Xin chào, đây có phải cô Giang Như không? Chúng tôi gọi từ Văn phòng Luật Hoài Giang. Ông Lục Hoài Trinh đã để lại mộ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

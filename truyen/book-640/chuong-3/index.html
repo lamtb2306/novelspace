@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | ĐOẠT MẶT THUẬT">
   <meta name="twitter:description" content="Tôi gật đầu, không nói thêm gì nữa, lại lật một trang trong album, chỉ vào một bức ảnh hỏi: “Còn nhớ em gái con không?” Trong ảnh là hai cô bé mặc hai chiếc váy hồng giống hệt nhau. Con gái lẩm bẩm...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

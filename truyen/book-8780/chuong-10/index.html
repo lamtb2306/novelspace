@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | CHIẾC XE HỒI MÔN">
   <meta name="twitter:description" content="Trong lòng tôi dấy lên một chút nghi hoặc — cô ta có thật sẽ rời đi dễ dàng như thế không? Đúng lúc đó, mẹ tôi bưng một cốc nước ra, đưa cho Lâm Du Du: “Cô bé, uống nước đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

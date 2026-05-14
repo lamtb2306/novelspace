@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | HỒI ỨC NĂM MƯỜI TUỔI">
   <meta name="twitter:description" content="Vừa về đến nhà, Tào Thư liền lấy ra một chiếc bánh kem nhỏ xinh. “Nếm thử xem, dì mới làm đấy.” Cô hào hứng nhìn tôi. Tôi chưa bao giờ thấy chiếc bánh nào tinh xảo đến vậy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

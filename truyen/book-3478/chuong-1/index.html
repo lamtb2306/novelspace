@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Kiếp Này Ta Chẳng Tranh Giành">
   <meta name="twitter:description" content="Kết thúc chương trình “Đổi thân phận”, tôi chết trong tháng thứ ba sau khi được cha mẹ ruột đón về nhà. Khoảnh khắc ý thức tan rã, tôi chẳng nghe thấy tiếng khóc bi thương nào như trong tưởng tượng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

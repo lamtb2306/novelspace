@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Đáng Thương Hay Đáng Hận">
   <meta name="twitter:description" content="Trên bàn nhậu xuất hiện một đàn em mà tôi chưa từng gặp. Một người chơi khác thua trò chơi, cô ta nhìn sang tôi. Chưa kịp hiểu bọn họ đang ngầm phối hợp cái gì, cô ta bất ngờ vung tay tát thẳng vào...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

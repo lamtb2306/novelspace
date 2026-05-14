@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | THÍ NGHIỆM TÌNH YÊU">
   <meta name="twitter:description" content="Rời đi không lâu, anh nhắn tin cho tôi giải thích: “Anh đi công tác với chị họ, quên không nói với em.” “Mọi việc sắp xong rồi, về đến nhà anh sẽ dỗ em, giải thích rõ ràng với em.” Tôi không trả lờ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

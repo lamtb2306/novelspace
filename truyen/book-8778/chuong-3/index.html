@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Mèo Chiêu Tình">
   <meta name="twitter:description" content="Số tiền “tặng hoa hồng cho người khác”. Không chỉ sạch sẽ. Mà còn thơm lắm. Nói đến đây, tôi cũng nên tiếp tục thắp lửa với người kia rồi. 【Mèo con đỡ hơn chưa?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

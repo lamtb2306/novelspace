@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cậu Ấy Chỉ Có Một Tay, Nhưng Ôm Tôi Rất Chặt">
   <meta name="twitter:description" content="Anh trai tôi định nhắn tin cho bạn gái, ai ngờ lại gửi nhầm cho tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

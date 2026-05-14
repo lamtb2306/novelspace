@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Dấu Khắc Ôn Tình">
   <meta name="twitter:description" content="Tôi bước vào đại sảnh, ánh mắt đổ dồn về phía tôi: có giận dữ, có nghi hoặc, có cả vẻ hả hê. Tôi không quan tâm. Đi thẳng đến giữa sảnh. Trương Việt đưa tôi một chiếc loa cầm tay.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

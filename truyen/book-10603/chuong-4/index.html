@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | TÌNH ĐƠN PHƯƠNG">
   <meta name="twitter:description" content="Bên cạnh là lối thoát hiểm, tôi định đi vòng xuống từ tầng ba rồi đi lối khác để quay lại. Nhưng không ngờ lại bị vấp ở sau cánh cửa, tôi tưởng mình sắp ngã xuống, nhưng có ai đó đã nhanh chóng giữ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

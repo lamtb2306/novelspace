@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Sổ Nợ Tình Yêu">
   <meta name="twitter:description" content="Tôi cũng chẳng gấp, cứ để anh ta trả từ từ. Từ lúc tôi rời khỏi Hải Thị chưa được mấy ngày, tài khoản mạng xã hội của tôi đã có một người hâm mộ bấm like mọi bài đăng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

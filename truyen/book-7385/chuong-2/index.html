@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TÌNH YÊU QUÂN NHÂN">
   <meta name="twitter:description" content="Tôi đứng dậy tẩy trang, nhìn vào gương thấy gương mặt bị nhòe bởi nước mắt, cuối cùng không kiềm được bật khóc thành tiếng. Tôi hiểu rằng, khoảng thời gian thầm yêu suốt mấy năm nay của tôi, cuối c...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

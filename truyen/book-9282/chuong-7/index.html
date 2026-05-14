@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | SỐNG LẠI TỪ TRO TÀN">
   <meta name="twitter:description" content="“Ông trời đã để chúng ta đi trên một con đường khó khăn gấp vạn lần người khác… nhưng chúng ta không có sự lựa chọn nào khác, chỉ có thể tiếp tục bước đi, và nhất định phải hạnh phúc mà bước tiếp.”...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

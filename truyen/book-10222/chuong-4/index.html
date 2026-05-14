@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Tôi Và Ảnh Đế Cũ Lên Sân Khấu Tái Ngộ">
   <meta name="twitter:description" content="Người, người ở đâu ra? Mọi người đưa mắt nhìn nhau, đều đang xem trò cười của tôi. Nhưng chỉ một lúc sau, một luồng ánh đèn xe chói lóa xé toạc màn mưa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

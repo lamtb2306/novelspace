@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Ly Hôn Trong Gió">
   <meta name="twitter:description" content="“Anh làm gì mà lâu vậy?” Cô tò mò hỏi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Ai Mới Là Con Mồi?">
   <meta name="twitter:description" content="Tôi quay đầu lại nhìn, hóa ra là em họ tôi. Nó đi cùng tôi, biết tôi định làm gì, nên cũng đã chuẩn bị sẵn sàng mới đến. Cậu ấy vừa mới kết hôn, đã mua nhà và xe ở thành phố.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

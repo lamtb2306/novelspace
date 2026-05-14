@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Gia Cảnh Giả Tạo">
   <meta name="twitter:description" content="Đó là một chiếc chìa khóa có hình dáng kỳ lạ, toàn thân đen bóng, trên thân khắc một ký hiệu thập tự mà tôi không hiểu nổi. “Chìa khóa két sắt của ngân hàng Thụy Sĩ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

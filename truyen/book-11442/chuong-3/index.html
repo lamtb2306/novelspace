@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | TÔ THANH DIÊU">
   <meta name="twitter:description" content="Có lẽ nhận ra tâm trạng tôi không tốt, Tạ Quán Tẫn bắt đầu cho phép Nguyễn Yên đến thăm tôi. Ngày nào cô ấy cũng ở cạnh tôi, trồng hoa, chơi đàn, bơi lội, vẽ tranh… nghĩ đủ cách để khiến tôi vui lên.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

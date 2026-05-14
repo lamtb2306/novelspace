@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Họ Đuổi Tôi Khỏi Dự Án 10 Tỷ">
   <meta name="twitter:description" content="Tôi nhìn về phía bóng người quen thuộc trong đám đông. “Thư ký Lý, cậu lại đây.” Lý Minh Viễn từ ngày đầu vào công ty đã đi theo tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

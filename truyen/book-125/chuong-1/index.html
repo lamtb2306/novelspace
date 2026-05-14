@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mẹ Ơi Con Về Rồi">
   <meta name="twitter:description" content="Mười năm trước, tôi bị l//ừ/a b//á/n vào vùng núi hẻo lánh, é//p bu/ộ/c sinh con gái. Mười năm sau, tôi dắt tay con bé, đi suốt sáu ngày sáu đêm, cuối cùng cũng trở về nhà.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

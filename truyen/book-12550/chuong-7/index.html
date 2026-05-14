@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Bí Mật Của Chuyến Du Lịch Lớp">
   <meta name="twitter:description" content="Giống như ở sân bay. Hoặc nhà ga. “Lị Lị, cậu đang ở đâu?” Tôi hỏi. “Cậu về thành phố rồi à?” “Không.” Cô ấy trả lời. “Tớ đang ở nơi khác.” “Tớ đang xử lý một vài việc.” “Khương Ninh.” Giọng cô ấy ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

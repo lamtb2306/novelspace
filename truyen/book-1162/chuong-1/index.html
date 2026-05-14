@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CÙNG EM BƯỚC VÀO TƯƠNG LẠI MỚI">
   <meta name="twitter:description" content="Mẹ bảo tôi giục anh trai về nhà ăn cơm sớm. Tôi gửi đi một tin nhắn: 【Anh, nhớ anh quá】 Đánh vội thành 【Anh, muốn làm rồi】 Chưa bao lâu, anh trai về: “Làm sao, như lần trước à？” Chẳng bao lâu sau, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

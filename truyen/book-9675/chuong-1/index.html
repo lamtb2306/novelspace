@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cuốn Sổ Nợ Của Mẹ">
   <meta name="twitter:description" content="Mẹ tôi là người sống vì sĩ diện. Bà mua cho tôi bộ đồ chỉ ba mươi đồng, nhưng lại khoe với họ hàng là ba trăm. Đóng học phí sáu ngàn, bà lại than vãn với ngoại rằng tôi học đại học hết sáu trăm ngàn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

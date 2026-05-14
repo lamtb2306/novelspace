@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Con Là Lý Do Tôi Sống">
   <meta name="twitter:description" content="Sau khi trải qua việc con gái suýt mất mạng vì không đóng đủ tiền phẫu thuật, tôi cuối cùng cũng thỏa hiệp. Tôi quyết định không truy cứu chuyện của chồng và cô bạn thanh mai trúc mã của anh ta nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | BẠN CÙNG BÀN NÓI TÔI BẮT NẠT CÔ ẤY">
   <meta name="twitter:description" content="Tôi tiến lên một bước, áp sát khuôn mặt vừa uất ức vừa sắp khóc kia, ánh mắt sắc như dao: “Cậu nói trường học chỉ cho tôi cơ hội?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

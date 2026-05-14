@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Chúng Ta Lớn Lên Như Cỏ Dại">
   <meta name="twitter:description" content="Giống như một món đồ trưng bày trong viện bảo tàng. Quản gia mang đến quần áo sạch và khăn tắm, giọng cứng nhắc: “Lương tiên sinh, xin hãy tắm rửa trước. Bữa tối sẽ có người mang tới.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

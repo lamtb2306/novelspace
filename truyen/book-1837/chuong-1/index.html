@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KHI TÌNH CẢM CHỈ ĐẾN TỪ MỘT PHÍA">
   <meta name="twitter:description" content="Vé xem concert mà tôi phải trả thêm tiền mới có được, chồng tôi không do dự đưa cho đàn em. Tôi nói với anh ấy rằng đó là món quà kỷ niệm ngày cưới tôi tặng anh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

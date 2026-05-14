@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | TÌNH CẠN">
   <meta name="twitter:description" content="Anh sững người nhìn tôi, đôi mắt đen ánh lên như muốn xác nhận lại. Tôi cười nhạt, chậm rãi nói tiếp: “Hôm qua em không làm phẫu thuật… Vì em không nỡ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

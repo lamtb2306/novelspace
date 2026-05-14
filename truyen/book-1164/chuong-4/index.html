@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Cái Giá Của Việc Xem Thường Tôi">
   <meta name="twitter:description" content="“Được, tôi hiểu rồi.” “Có câu này của cô, chúng tôi làm án cũng yên tâm hơn nhiều.” “Cô nghỉ ngơi cho tốt, có tin tức gì tôi sẽ báo cho cô ngay.” Cúp điện thoại, tôi nhìn ra bầu trời đêm ngoài cửa ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

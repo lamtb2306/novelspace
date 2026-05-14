@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BẠN TRAI ONLINE LÀ CHỒNG LIÊN HÔN">
   <meta name="twitter:description" content="Trước đêm đính hôn với cậu ấm ăn chơi khét tiếng trong giới nhà giàu Bắc Kinh,tôi lấy “người yêu online” ra làm cái cớ để khéo léo từ chối hôn sự. “Hay là thôi đi nhé?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

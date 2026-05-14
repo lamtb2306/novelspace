@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 13 | Mẫu Tử Lãnh Cung">
   <meta name="twitter:description" content="Hoàng hậu buông chén trà, ánh mắt dừng trên mặt ta, đột nhiên sắc lạnh: “Bản cung hỏi ngươi. Năm xưa chuyện tại Dịch đình, rốt cuộc là thế nào? Nhi tử kia… quả thật là huyết mạch của Hoàng thượng?”...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

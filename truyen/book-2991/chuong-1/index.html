@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | EM CHỒNG LÀM MÓNG NGÀY TẾT">
   <meta name="twitter:description" content="Tôi là thợ làm móng, nhưng cô em chồng cứ đến tiệm tôi làm móng miễn phí, chưa bao giờ trả tiền. Trước đây tôi nhịn, nhưng bây giờ gần Tết, khách đông nườm nượp, vậy mà mỗi lần tới, cô ta đều chọn ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

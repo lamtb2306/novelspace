@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Người Lạ Trong Hôn Nhân">
   <meta name="twitter:description" content="Đêm đó tôi không trả lời bất kỳ ai. Sáng hôm sau, mẹ tôi gọi điện bảo tuần sau lên thành phố tái khám, hỏi tôi có bận không.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

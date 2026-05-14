@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Chốn ân ái lạc lối">
   <meta name="twitter:description" content="Ta ở kinh thành chưa được mấy ngày đã lại lên đường đến nơi tiếp theo, ta nghĩ đây hẳn chính là sứ mệnh mà cả đời ta phải hoàn thành.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

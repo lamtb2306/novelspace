@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHƯA TỪNG ĐƯỢC YÊU THƯƠNG">
   <meta name="twitter:description" content="Tôi là người có cơ địa cực kỳ dễ dị ứng. Lần đầu đến nhà bạn trai ăn cơm, anh ấy đưa cho mẹ mình một tờ giấy A4. “Duệ Duệ bị dị ứng với hải sản, xoài, dâu tây, trứng, sữa, thịt bò, thịt cừu…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

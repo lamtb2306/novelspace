@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mỹ Nhân Kế">
   <meta name="twitter:description" content="Phu quân chưa cưới của ta, ba tháng mất tích nay bỗng trở về, lại còn mang theo chân ái của hắn. Trùng hợp thay, ta cũng dẫn về một nam nhân — kẻ đã thề, không lấy ta thì chẳng cưới ai khác.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

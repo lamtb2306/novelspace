@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chiếc Nhẫn Trong Ly Trà Sữa">
   <meta name="twitter:description" content="Thẩm Độ đã đổi mật khẩu khóa cửa. Mật khẩu mới được gửi trong WeChat, tôi thử hai lần, mở được. Trong nhà có mùi không đúng. Trong không khí là mùi nước xả vải hương dành dành, không phải loại tôi ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

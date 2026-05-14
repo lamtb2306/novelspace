@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mẹ Con Tôi Lật Đổ Hào Môn">
   <meta name="twitter:description" content="Ngày tôi được bố mẹ ruột đón về gia tộc hào môn hàng đầu, tôi tiện tay mang theo một đứa trẻ bốn tuổi. Cô em gái giả danh của tôi che miệng cười như hoa nở: “Chị ơi, đứa con hoang ở đâu ra vậy?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

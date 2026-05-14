@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Thực Tập Không Lương">
   <meta name="twitter:description" content="Khiến tôi bị bạo lực mạng. Không ngờ tôi lại trực tiếp báo cảnh sát. Tôi thầm cười. Bấm vào khu bình luận.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

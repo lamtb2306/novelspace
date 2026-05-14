@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Ngôn Linh Báo Ứng">
   <meta name="twitter:description" content="Ngày trước, khi tôi mới về nhà họ Thẩm, anh từng nói với tất cả mọi người rằng tôi là em gái ruột của anh. Mọi thứ tốt đẹp anh đều nhường cho tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

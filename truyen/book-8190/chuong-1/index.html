@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thanh Xuân Bị Đ ánh C ắp">
   <meta name="twitter:description" content="Năm năm mươi tuổi, tôi phát hiện mình mới là thiên kim tiểu thư thật sự của hào môn. Lúc đó, tôi vừa mới thay tã cho cháu xong, dọn dẹp hết đống bát đũa chồng chất trong nhà.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

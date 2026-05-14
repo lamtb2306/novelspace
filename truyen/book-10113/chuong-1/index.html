@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Vạn Một Ngày, Tôi Tiêu Cả Thế Giới">
   <meta name="twitter:description" content="Tôi và bạn thân Tiền Tư Tư, một người có thể liên kết với “hệ thống tiêu xài hoàn tiền”, một người có thể liên kết với “hệ thống tiết kiệm cần kiệm”。 Kiếp trước, cô ấy chọn tiêu xài, tôi chọn tiết ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

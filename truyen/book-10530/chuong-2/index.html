@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | LỤC TRẦM NGUYỆT">
   <meta name="twitter:description" content="Tôi bắt đầu gửi hình bánh ngọt tự làm mỗi ngày, kể chuyện khách hàng kỳ lạ trong tiệm cho cô ấy nghe. Tôi: “Bé ơi nhìn nè! Chiếc bánh ngàn lớp cầu vồng có phải nhìn thôi đã thấy chữa lành không?” C...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

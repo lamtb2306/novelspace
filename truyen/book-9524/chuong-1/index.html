@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BẠN TRAI TƯỞNG TÔI GIẬN DỖI">
   <meta name="twitter:description" content="“Vé máy bay đặt rồi.” Lâm Vãn đặt điện thoại xuống. “Đặt vé gì?” Trần Mặc đang chơi game, đầu không buồn ngẩng lên.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

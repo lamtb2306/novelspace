@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI TRỞ THÀNH SẾP CỦA BẠN THÂN">
   <meta name="twitter:description" content="Tôi chỉ mất vài phút gọi 120 và mua chai nước, quay lại thì bạn thân đã biến mất. Không ngờ cô ấy lại được công ty nhận vào làm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

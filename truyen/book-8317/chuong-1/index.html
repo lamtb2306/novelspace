@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trò Chơi Quyền Lực Chốn Công Sở">
   <meta name="twitter:description" content="Sau khi cố gắng cả năm trời để được thăng chức, tôi vẫn mãi không nhận được thông báo tăng lương. Lãnh đạo gọi tôi lên nói chuyện, bảo rằng công ty đang gặp khó khăn, mong tôi “đồng cam cộng khổ”, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

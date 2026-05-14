@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tết Này Không Có Mao Đài">
   <meta name="twitter:description" content="Sắp đến Tết, tôi vẫn như mọi năm, bỏ hai chai Mao Đài vào hộp quà. Trần Húc vắt chân ngồi lướt điện thoại, mí mắt còn chẳng buồn nhấc lên: “Lại bày vẽ mấy thứ hình thức đó à?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

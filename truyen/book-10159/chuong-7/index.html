@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | CHUYẾN XE BUÝT LÚC RẠNG SÁNG">
   <meta name="twitter:description" content="Khi tôi tỉnh lại lần nữa, đã ở trong bệnh viện. Bố tôi đang đứng cạnh giường, lo lắng nói gì đó với bác sĩ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

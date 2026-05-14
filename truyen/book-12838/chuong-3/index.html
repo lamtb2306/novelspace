@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chị Em Tranh Mệnh">
   <meta name="twitter:description" content="Không lệch một ly, vừa khéo chặn mất đường đi. Ngẩng đầu lên nhìn, anh ta lạnh lùng nhìn tôi, mấy người anh em của anh ta thì mặt đầy trêu chọc, nháy mắt với tôi không ngừng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Vết Bớt – Hai Cuộc Đời">
   <meta name="twitter:description" content="Khi vợ chồng nhà tài phiệt đến trường diễn thuyết, anh trai thanh mai trúc mã của tôi lại kéo tôi trốn ra ngoài, đi làm thêm ở căn tin để kiếm tiền trang trải.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

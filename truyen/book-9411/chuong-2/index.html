@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Bà mẹ chồng thiên vị">
   <meta name="twitter:description" content="Không chút do dự, tôi mở ứng dụng ngân hàng, nhập mật khẩu một cách thành thạo. Trong mục “chuyển khoản định kỳ”, hiện lên một lệnh đã cài sẵn: ngày 5 hằng tháng, tự động chuyển 5000 tệ đến tài kho...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

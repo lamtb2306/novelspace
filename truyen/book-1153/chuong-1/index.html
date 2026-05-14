@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CÔ BẠN THÂN PHÚ NHỊ ĐẠI CỦA TÔI">
   <meta name="twitter:description" content="Bạn thân của tôi hẹn hò với một anh chàng nhà giàu. Lần đầu tiên gặp mặt, anh ấy tặng tôi ngay một chiếc túi LV. Tôi không dám nhận, nhưng anh ấy lại nghĩ tôi chê ít.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

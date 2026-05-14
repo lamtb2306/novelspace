@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Trò Chơi Trốn Tìm Cả Đời">
   <meta name="twitter:description" content="QUAY LẠI CHƯƠNG 1 : Tôi khẽ cười, nụ cười bình thản như bụi trần đã rơi xuống đáy. “Vì vậy, con chưa từng tin rằng mẹ đã chết.” “Không phải vì con không thể chấp nhận, mà bởi vì bằng chứng vẫn luôn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

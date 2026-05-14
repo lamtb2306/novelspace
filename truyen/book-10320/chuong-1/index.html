@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Xuyên Vào Truyện Ngược, Nhưng Vai Chính Là Tra Nam">
   <meta name="twitter:description" content="Một nước đi sơ suất, tôi xuyên vào một cuốn ngược văn. Hệ thống nói, chỉ cần tích đủ giá trị “đau khổ” là có thể quay về thế giới ban đầu. Tôi gật đầu, trầm ngâm suy nghĩ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | VẬN KHÍ BỊ ĐÁNH CẮP">
   <meta name="twitter:description" content="“Đây là toàn bộ tiền tôi còn lại. Tôi sẽ đi làm thêm mấy hôm tới, kiếm được tiền rồi trả dần cho cậu.” Nếu là trước đây, nghe đến chuyện cậu ta đi làm thêm, chắc tôi sẽ đau lòng lắm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

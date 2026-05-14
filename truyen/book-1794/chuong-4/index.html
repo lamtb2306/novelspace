@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Đừng Chọc Tôi, Tôi Từng Là Huyền Thoại">
   <meta name="twitter:description" content="Tôi mỉm cười: “Đáng ra phải ra ngoài hít thở không khí từ lâu rồi.” Thấy tôi hưởng ứng, bạn thân càng nói hăng: “Đúng thế! Mình nói cậu nghe, đáng ra cậu nên ly hôn sớm hơn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

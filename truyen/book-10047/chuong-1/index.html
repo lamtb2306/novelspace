@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | SỐNG TRÊN QUỶ MÔN QUAN">
   <meta name="twitter:description" content="Tôi là chủ một homestay nhỏ nằm trên núi. Mỗi ngày đều có du khách đến đây để ngắm bình minh, và họ thường nghỉ lại ở chỗ tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

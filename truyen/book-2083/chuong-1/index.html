@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BÁCH HỢP TÀN PHAI">
   <meta name="twitter:description" content="Tôi theo bên cạnh Tiêu Diễn từ năm mười tám tuổi. Bảy năm bên nhau, tôi đã làm tất cả vì anh ta, nhưng anh ta vẫn không chịu cưới tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

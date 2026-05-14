@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Khoảng Cách Giữ a Hai Thế Giới">
   <meta name="twitter:description" content="Tôi dùng WeChat của bạn trai cũ làm ứng dụng ghi chú, ngày nào cũng gửi tin nhắn. [Ăn bánh xèo, -12] [Thanh toán tiền thuốc, -520] [Đi bệnh viện, -1314] [Làm phẫu thuật, -8888] Từng dòng tin nhắn đ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

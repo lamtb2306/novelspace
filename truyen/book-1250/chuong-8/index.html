@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Hào Môn Cá Mặn">
   <meta name="twitter:description" content="Buổi chiều thì tập lướt sóng (phần lớn thời gian là nằm úp sấp trên ván bị sóng cuốn), hoặc đi làm một liệu trình spa. Buổi tối nằm trên ghế dài ở bãi cát riêng, ngửa mặt nhìn sao, nghe tiếng sóng ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÌNH YÊU KHÔNG CÓ SỰ TIN TƯỞNG">
   <meta name="twitter:description" content="Tôi đi dạo phố với chồng, vô tình chạm phải nút camera trên điện thoại. Anh ấy tưởng tôi đang chụp trộm một anh chàng đẹp trai đi ngang, sắc mặt lập tức sầm xuống. Dù tôi giải thích thế nào, anh cũ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

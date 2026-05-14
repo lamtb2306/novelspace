@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Sau Cùng, Em Còn Trẻ">
   <meta name="twitter:description" content="Tất cả ánh mắt, “soạt” một cái, đồng loạt dồn về phía tôi. Ngô Thanh Đới cũng quay đầu, nhìn tôi bằng ánh mắt như tẩm thuốc độc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KHI CÔ GIÁO LÊN HOT SEARCH VÌ TỪ CHỐI TRÔNG TR Ẻ">
   <meta name="twitter:description" content="Ngày đầu tiên của kỳ nghỉ hè, Một bà mẹ dưới tầng dắt theo ba đứa con trai gõ cửa nhà tôi. “Cô giáo rảnh rỗi nghỉ hè đúng không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

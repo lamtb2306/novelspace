@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NỮ THẦN CHÍNH CHÍNH LÀ TÔI">
   <meta name="twitter:description" content="Sau một năm cãi nhau với kẻ thù không đội trời chung trong game trên mạng. Chúng tôi hẹn gặp nhau để quyết đấu offline. Kết quả là tôi vừa đến thì đã bị cho leo cây.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

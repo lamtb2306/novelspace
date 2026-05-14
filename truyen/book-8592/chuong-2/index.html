@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Bùa Bình An">
   <meta name="twitter:description" content="Tôi thậm chí còn bắt đầu nghĩ xem nên chết bằng cách nào để không làm phiền người khác, phải chết thế nào để không để lại dấu vết. Nhưng kế hoạch còn chưa làm được nửa chừng đã tan vỡ, tôi bị cảnh ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

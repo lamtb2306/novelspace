@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NẾU CÒN CÓ KIẾP SAU">
   <meta name="twitter:description" content="Tôi đã chết được mấy ngày rồi, vậy mà Họa Vân Niên vẫn chưa hay biết. Anh ta vẫn chưa từng về nhà. Cho đến khi một người bạn thân của anh vô tình lướt thấy tin tức.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

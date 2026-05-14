@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | BA NĂM CHƯA MUỘN">
   <meta name="twitter:description" content="Hàng chục cuộc gọi nhỡ, vô số số lạ, cùng làn sóng tin nhắn cuồn cuộn đổ về. Có bạn bè hỏi han đầy kinh ngạc. Có phóng viên ngỏ lời phỏng vấn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

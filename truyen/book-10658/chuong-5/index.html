@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Bố mẹ lên Thượng Hải kiểm tra tài khoản tôi">
   <meta name="twitter:description" content="Câu nói đó khiến tim tôi run lên: “Anh có ý gì vậy?” “Không có gì, chỉ nhắc em một câu thôi. Thôi, không làm phiền em làm việc nữa.” Cúp máy, cảm giác bất an trong tôi càng lúc càng mạnh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

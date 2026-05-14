@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | VÁN CỜ MƯU PHẢN">
   <meta name="twitter:description" content="Chúng ta một đường nam hạ, rồi lại chuyển hướng tây, tới tận đất Thục xa xôi. Thục đạo nan, nan ư thượng thanh thiên. Cũng bởi đường hiểm trở, mới có thể tuyệt tình đoạn mối cũ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

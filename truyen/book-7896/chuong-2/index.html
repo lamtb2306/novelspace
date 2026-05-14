@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | MIẾNG THỊT LÚC CÒN SỐNG">
   <meta name="twitter:description" content="Nhà cậu ấy ở ngay tầng trên, liền với cửa tiệm. Lúc này tiệm đã dọn quầy, cửa đóng im lìm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

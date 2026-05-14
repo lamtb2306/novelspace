@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TẤT CẢ CỦA EM ĐỀU LÀ CỦA ANH">
   <meta name="twitter:description" content="Tôi đến thế giới này khi câu chuyện đã gần đến hồi kết. Đúng lúc nữ phụ vì yêu mà phát điên, ép chồng phải dâng cả gia sản hàng tỷ cho người khác.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

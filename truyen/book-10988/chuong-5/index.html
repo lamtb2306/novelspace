@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CHỌN MỘ">
   <meta name="twitter:description" content="Anh ấy nhìn tôi, chăm chú nhìn tôi như thể muốn đục một lỗ trên người tôi, như muốn nhìn thấu trái tim tôi được làm bằng gì. Ánh mắt anh dường như đã mờ đi, một lúc sau anh đứng dậy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

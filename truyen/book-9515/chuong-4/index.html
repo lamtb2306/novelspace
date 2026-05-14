@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Chạm Vào Ánh Trăng">
   <meta name="twitter:description" content="Tối đến, mùi canh gà thơm ngát lan khắp tiểu viện. Ta bưng một bát đầy canh gà đến trước mặt Thẩm Tự. Người yên lặng dùng bữa, còn ta thì ngồi đối diện, lặng lẽ ngắm nhìn người.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

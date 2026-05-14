@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Ba Tấm Vé Số">
   <meta name="twitter:description" content="“Trang web chính thức của xổ số vừa đăng thông báo khẩn!” “Cái tấm vé cào ghi ‘Cảm ơn đã tham gia’ ấy! Góc dưới bên trái có ký hiệu như hoa văn ấy — chính là biểu tượng ẩn của giải nhất!” “Chị Tô!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

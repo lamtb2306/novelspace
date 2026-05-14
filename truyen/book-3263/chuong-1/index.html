@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | HẦU MÔN MƯU HÔN KÝ">
   <meta name="twitter:description" content="Hầu Phủ đổi người ta gả cho. Bà mối nhét tờ canh thiếp vào tay ta, vẫn cười híp mắt, những nếp nhăn trên mặt xô lại thành một chùm: “Nhị cô nương, thật có phúc!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

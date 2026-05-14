@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trở Về Với Biển">
   <meta name="twitter:description" content="Khi tôi – thiên kim thật sự – được đưa trở về nhà họ Lục, thì mọi thứ nơi đây sớm đã an bài. Người anh trai hơn tôi ba tuổi, giờ đã là người thừa kế của tập đoàn Lục thị.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

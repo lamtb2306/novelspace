@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cô Gái Đến Từ Cô Nhi Viện">
   <meta name="twitter:description" content="Tôi là con ruột nhà họ Lâm, bị thất lạc bên ngoài từ nhỏ. Năm tư đại học, tôi được tìm về. Vừa đặt chân vào biệt thự nhà họ Lâm, hành lý còn chưa kịp để xuống.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

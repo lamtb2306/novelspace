@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | TỪ BỎ PHÓ THỜI DỰ">
   <meta name="twitter:description" content="Tôi tự mình khiêng thùng đồ ra thẳng thùng rác ngoài biệt thự. Vừa ném xuống, trời liền đổ mưa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

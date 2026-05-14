@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CON ĐƯỜNG KHÔNG CÓ ĐIỂM DỪNG">
   <meta name="twitter:description" content="Khi còn nhỏ, ba mẹ ly hôn, tôi bị một trận bệnh nặng. Ba đạp xe chở tôi đến trước cửa nhà mẹ, gõ cửa rồi bỏ đi. Mẹ thấy tôi, đội mưa đưa tôi quay lại nhà ba. Nhà ba cách nhà mẹ hai mươi dặm, nhưng ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

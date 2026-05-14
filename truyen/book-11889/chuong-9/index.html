@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Người Lạ Cuối Đường">
   <meta name="twitter:description" content="Giọng mẹ tôi mang theo phần khó xử. Tôi cười lạnh: “Rồi sao? Mẹ định khuyên con à?” “Vãn Vãn, con ăn nói kiểu gì thế?” Giọng mẹ tôi cao hẳn lên.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

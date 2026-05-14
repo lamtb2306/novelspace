@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Phàn Hoa Vận Tú">
   <meta name="twitter:description" content="“Ồ!” Gã người hầu gãi đầu, từ từ lùi về phía cửa. Đi được nửa đường lại quay đầu hỏi: “Phu nhân, người thật sự không quay về xem sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

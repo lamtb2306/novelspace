@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | NỮ PHỤ KHÔNG CAM TÂM">
   <meta name="twitter:description" content="Vừa về đến nơi, một luồng hơi nóng cùng tiếng mắng chửi chói tai ập tới: “Diệp Tư Ngữ! Cô còn mặt mũi quay về đây à!” “Đúng đó!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

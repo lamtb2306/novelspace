@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHỒNG TÔI CÓ 2 NGƯỜI VỢ">
   <meta name="twitter:description" content="Chồng tôi mỗi năm đều biến mất bảy ngày. Anh nói là đi công tác, nhưng chưa bao giờ cho tôi tiễn ra sân bay. Chúng tôi kết hôn mười năm, tôi chưa từng nghi ngờ điều đó.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

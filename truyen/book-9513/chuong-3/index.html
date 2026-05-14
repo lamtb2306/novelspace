@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Họ Đuổi Tôi Khỏi Dự Án 10 Tỷ">
   <meta name="twitter:description" content="Tôi không quay đầu lại, đi thẳng về phía thang máy. Vừa đi được hai bước, đã nghe phía sau Vương Diên Siêu gào lên: “À đúng rồi, dọn văn phòng của Lâm Húc Dương cho tôi! Đống rác rưởi của hắn vứt h...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

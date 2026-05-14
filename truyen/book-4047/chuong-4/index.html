@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | NGÔI NHÀ MANG TÊN TÔI">
   <meta name="twitter:description" content="Mẹ tôi như bị châm ngòi pháo, lao thẳng đến trước mặt tôi, ngón tay gần như chọc vào mũi tôi: “Lâm Vân Hi! Giỏi quá ha! Trốn đến cái xó xỉnh thế này! Làm tụi tao tìm muốn chết! Mau dẫn đường!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

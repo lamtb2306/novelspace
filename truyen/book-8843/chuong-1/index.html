@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chiếc Bánh Trung Thu 5 Triệu">
   <meta name="twitter:description" content="Tôi bị nhân viên đăng bài bóc phốt lên mạng, nói rằng tôi keo kiệt, đến Trung thu cũng không phát bánh trung thu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

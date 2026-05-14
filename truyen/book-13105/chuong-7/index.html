@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Người Gọi Tôi Là Cả Thế Giới, Giờ Gọi Tôi Là Kẻ Thứ Ba">
   <meta name="twitter:description" content="Hôm tốt nghiệp, Tiêu Mộ Nhiên bao trọn sân bay đón tôi, trước mặt bao người đưa cho tôi hai lời mời nhận việc: “Chúc mừng em gia nhập Tập đoàn Tiêu thị.” “Chúc mừng em trở thành vị hôn thê của tổng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

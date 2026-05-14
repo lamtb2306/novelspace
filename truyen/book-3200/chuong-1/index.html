@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | HÉ LỘ TẤM BƯU THIẾP">
   <meta name="twitter:description" content="Tôi phát hiện ra nét chữ của chồng mình trên một tấm bưu thiếp khi đi du lịch ở cổ trấn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Hạ Sao Tôi Một Lần, Tôi Đổi Cả Công Ty">
   <meta name="twitter:description" content="Tôi lạnh lùng đáp trả: “Những thứ đó chẳng phải do tự bà chuốc lấy sao? Chẳng phải bà nói người mới biết nghe lời hơn, có giá trị tương lai hơn sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

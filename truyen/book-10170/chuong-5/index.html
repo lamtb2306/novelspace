@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Ly Hôn Nơi Bát Canh Hành">
   <meta name="twitter:description" content="Ánh sáng xanh biếc của đom đóm bay rợp trời, như vũ trụ sao lấp lánh ngay trước mắt. Những ngày như thế, ngoài vài tin nhắn rác từ số lạ, tôi chẳng còn phiền muộn nào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

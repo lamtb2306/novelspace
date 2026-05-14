@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Kẻ Ở Rể">
   <meta name="twitter:description" content="Tôi nhìn bộ móng vừa mới làm, cười lạnh rồi nói: “Vậy à? Tôi còn tưởng là anh nuôi con hồ ly tinh nhỏ nào bên ngoài chứ.” Từ Hiển cười gượng hai tiếng: “Vợ à, sao em lại nghĩ về anh như thế?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

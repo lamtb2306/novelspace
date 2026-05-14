@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Một Mình Nhưng Không Cô Đơn">
   <meta name="twitter:description" content="Cậu ta do dự một chút, “Tôi muốn xin lỗi chị.” “Xin lỗi?” Tôi hơi bất ngờ. “Về những chuyện trước kia…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

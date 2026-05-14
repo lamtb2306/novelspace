@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Những Ngày Cay Nghiệt">
   <meta name="twitter:description" content="Có lẽ nghe được nhắc đến tên mình, cô ta bước tới ôm lấy tay anh, giọng nũng nịu: “Có chuyện gì vậy? Giữa đêm mà ồn ào ngoài sân nhắc tên em là sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

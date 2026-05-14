@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CHÚNG TA ĐẾN ĐÂY LÀ HẾT">
   <meta name="twitter:description" content="Tôi định nhắn tin nói chia tay qua WeChat, thì phát hiện mình lại bị chặn rồi. Người này đúng là… không biết mệt à? Nhưng còn chưa kịp nghĩ thông mọi chuyện, mẹ của anh ta lại gọi điện cho tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

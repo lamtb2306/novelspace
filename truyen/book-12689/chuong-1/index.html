@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MỘT MÌNH TÔI NHẬP HỌC">
   <meta name="twitter:description" content="Sau kỳ thi đại học, nhỏ bạn thân kéo tay tôi, nước mắt lưng tròng: “Bọn mình cùng đăng ký một ngành nha, ngành này đang thiếu nhân lực, tốt nghiệp là có việc liền.” Tôi tin lời cô ấy, lúc điền nguy...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

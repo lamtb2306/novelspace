@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 14 | Bữa cơm và mối nhân duyên">
   <meta name="twitter:description" content="Ta vẫn luôn cảm thấy, chỉ có người như vậy mới có thể cai trị tốt một vương triều. Biết đâu, vào một ngày nào đó trong tương lai, ta còn có thể tranh được một phần công lao theo rồng nữa chứ! (Hết)">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

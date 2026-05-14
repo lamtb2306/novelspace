@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Nhìn Thấu Lời Thề">
   <meta name="twitter:description" content="Khi ta nói ra, tất cả mọi người trong đại đường đều nhìn ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

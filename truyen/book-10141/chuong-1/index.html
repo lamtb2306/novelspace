@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGƯỜI MONG CÓ CHÁU NHẤT">
   <meta name="twitter:description" content="Đêm Giao thừa, nước ối bất ngờ vỡ ra. Tôi cầm lấy túi đồ sinh, chuẩn bị ra cửa thì mẹ chồng lại chặn tôi lại, nói rằng bà chưa gọi xe.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

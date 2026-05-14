@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ly Hôn Trong Đêm Hòa Nhạc">
   <meta name="twitter:description" content="Khi Lâm Ký Xuyên đến đón tôi đi nghe hòa nhạc, anh ta giới thiệu người phụ nữ ngồi ghế phụ: “Đây là Hòa Dao, người mà anh từng nhắc với em.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

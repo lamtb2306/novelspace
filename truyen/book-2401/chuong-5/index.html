@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CHUYẾN BAY KHÔNG TRỞ VỀ">
   <meta name="twitter:description" content="“Chỉ là một cái hộp cũ thôi mà, Ôn Nhiên, em có cần phải nhỏ nhen như vậy không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

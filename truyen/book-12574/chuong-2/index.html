@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BÓNG DÁNG KẺ THỨ BA TRONG NHÀ TÔI">
   <meta name="twitter:description" content="Đang nghĩ vậy thì bất ngờ ở cửa vang lên tiếng nhập mật khẩu, sau đó là âm báo lỗi — nhập sai mã. Người đến hình như chưa bỏ cuộc, vẫn tiếp tục thử mã.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Dưới Bóng Chị Họ">
   <meta name="twitter:description" content="Tôi có một bà chị họ, cực kỳ hứng thú với việc “th/ ử ngh/iệ/m” từng người bạn trai của tôi. Dù tôi đã nhiều lần từ chối, chị ấy vẫn cứ hăng say như thể đang chơi một trò giải trí thú vị.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tủ Sườn Xám Của Bà">
   <meta name="twitter:description" content="Tôi được bà nội nuôi lớn. Sau khi bà qua đời, để lại bốn căn nhà. Trong di chúc, bà chia mỗi căn nhà cho một người cháu trai bên bốn bác trai, mỗi người một căn. Không hề nhắc đến tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

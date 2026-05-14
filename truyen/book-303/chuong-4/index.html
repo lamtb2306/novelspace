@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | ANH KHÔNG XỨNG ĐÁNG ĐƯỢC TRÂN TRỌNG">
   <meta name="twitter:description" content="Tôi quay về thành phố quê nhà. Mấy năm không về, quê đã thay đổi rất nhiều. Tôi đi loanh quanh vô định, không biết từ lúc nào lại đi tới chỗ mà trước đây tôi và Lộ Minh từng sống.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

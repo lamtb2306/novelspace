@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Hòa Ly Thư Đêm Nến">
   <meta name="twitter:description" content="Ta đứng dậy ra đón, hắn đã xách theo hộp thức ăn bước vào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

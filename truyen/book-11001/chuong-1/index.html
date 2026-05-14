@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | HỒI ỨC TRÊN ĐỈNH NÚI MƯA">
   <meta name="twitter:description" content="Kỳ nghỉ hè, tôi và các bạn cùng phòng đại học rủ nhau đi leo núi. Vì trời có mưa nhỏ nên tôi chỉ muốn ở lại trong homestay. Mưa càng lúc càng to, tôi sốt ruột chờ họ mau quay về.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

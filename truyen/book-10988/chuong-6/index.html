@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | CHỌN MỘ">
   <meta name="twitter:description" content="Có một ngày, khi tôi bước ra từ phòng khám tâm lý, nhìn thấy một cặp đôi tay trong tay bước ngang qua mình. Tôi đột nhiên nhận ra một vấn đề lớn. Tôi đột nhiên tự hỏi: Tại sao mình lại chia tay Phó...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

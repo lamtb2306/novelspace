@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Khói Bếp Trong Sân Nhỏ">
   <meta name="twitter:description" content="Năm thứ hai mẹ mất, bố tôi cưới mẹ kế. Mẹ kế không cần gì cả, chỉ yêu cầu bố đừng nuôi tôi nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐẠO VĂN">
   <meta name="twitter:description" content="Sau khi được đặc cách vào Thanh Hoa và Bắc Đại, tôi quyết định không tham gia kỳ thi đại học nữa. Hoa khôi lớp Phùng Yên Nhiên biết chuyện, lập tức lao tới tát tôi một cái. “Trước kỳ thi đại học, a...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

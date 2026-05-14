@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Tôi Tự Viết Lại Đời Mình">
   <meta name="twitter:description" content="Sau đó, tôi đưa ra giấy chứng nhận nhà đứng tên mẹ tôi, nói rõ rằng căn nhà đó là tài sản phúc lợi tổ chức cấp cho gia đình liệt sĩ – tức mẹ tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

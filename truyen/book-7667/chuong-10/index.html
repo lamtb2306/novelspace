@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Mùi Của Người Già">
   <meta name="twitter:description" content="Tôi giặt giũ nấu cơm cho họ, chăm con, lo liệu việc nhà. Tôi cứ nghĩ đó là số mệnh của mình. Bây giờ, họ quỳ trước mặt tôi, cầu xin tôi quay về. Tôi lấy từ trong túi ra một tờ giấy. Đơn ly hôn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

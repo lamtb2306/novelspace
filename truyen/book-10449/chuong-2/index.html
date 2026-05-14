@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Nỗi Oan Của Người Ở Lại">
   <meta name="twitter:description" content="Tôi là người trưởng thành, tôi biết rõ mình muốn gì.” Tôi không né tránh những điều mà nhiều người thường ngại nhắc đến. “Vậy nên dù anh ấy hơn cô gần ba tuổi, cô vẫn chọn anh ta?” — cảnh sát tổng ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Đều Là Người Một Nhà">
   <meta name="twitter:description" content="Đây là lần đầu tiên, anh ta thật sự nói lời xin lỗi với tôi. “Bây giờ tôi mới hiểu, mình đã đánh mất thứ gì. Vì cái gọi là gia đình, vì mẹ, vì em gái, tôi đã để tuột mất em. Tôi cứ ngỡ họ là người ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

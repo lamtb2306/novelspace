@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CÔ EM BÁ ĐẠO">
   <meta name="twitter:description" content="Anh tôi ở sân bóng rổ làm trúng người khác, bắt tôi mang thư xin lỗi đến. Vì quá tò mò, tôi không nhịn được mà bóc phong bì ra xem.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

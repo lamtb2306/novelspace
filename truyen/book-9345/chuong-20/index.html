@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 20 | Chờ Một Người Không Quay Lại">
   <meta name="twitter:description" content="Người này, sau khi cưới như nghiện mấy chuyện này vậy. “Anh không phải nói còn phải về nhà ăn cơm sao, em gái anh vẫn đang chờ mà.” “Anh bảo con bé về trước rồi, không gấp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

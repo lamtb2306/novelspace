@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Vị Hôn Phu Cũ Không Nhận Ra Tôi">
   <meta name="twitter:description" content="Ví dụ lúc anh uống cà phê, sẽ nhìn tôi một cái để xác nhận tôi cũng đang uống đồ nóng. Ví dụ lúc anh họp, sẽ bảo trợ lý cũng rót cho tôi một cốc nước. Ví dụ buổi tối về khách sạn, anh sẽ bảo tôi đi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

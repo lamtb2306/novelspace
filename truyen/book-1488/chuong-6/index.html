@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | NỮ HOÀNG BIỂN">
   <meta name="twitter:description" content="Cuối tuần đó, hiếm hoi tôi không ra ngoài chơi. Tôi tìm ba, nói muốn đi học thêm. Ba tôi tưởng nghe nhầm, còn hỏi lại. “Học thêm?” “Học gì? Khóa game online hả?” Tôi cúi mắt đáp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

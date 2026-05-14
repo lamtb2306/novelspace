@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ngày Thi Đại Học, Tôi Bị Vu Đi Xe Chùa">
   <meta name="twitter:description" content="Sáng ngày thi đại học, tôi cố tình dậy sớm bắt taxi đến điểm thi. Nào ngờ lúc chuẩn bị xuống, tài xế đột nhiên khóa trái cửa xe lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

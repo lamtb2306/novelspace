@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NẾU TÌNH YÊU CHỈ LÀ TRÒ CHƠI">
   <meta name="twitter:description" content="Sau khi phát hiện trong nhóm gia đình của chồng không có tôi mà lại có cô hàng xóm. Tôi đề nghị ly hôn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

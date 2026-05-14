@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHUYẾN XE GIAO THỪA">
   <meta name="twitter:description" content="Tết năm nay tôi không mua được vé xe, nên đã bỏ ra 20 triệu thuê trọn một chiếc xe để về quê. Vừa mở cửa xe, đã thấy một đứa bé ngồi trong. “Tôi ,con trai tôi đấy, cả năm rồi chưa về quê, cô thông ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

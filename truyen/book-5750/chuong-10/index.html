@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Đường Về Thượng Hải">
   <meta name="twitter:description" content="Cô ấy nói đó là phần chia của tôi, tôi không để tâm mấy thứ này, chỉ đi theo cô ấy, mỗi ngày giúp cô ấy quay video, viết nội dung, cắt ghép video. Đó là công việc của tôi, cũng là cuộc đời của tôi ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

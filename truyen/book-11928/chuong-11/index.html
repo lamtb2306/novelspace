@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Tôi Không Thể Rời Đi">
   <meta name="twitter:description" content="Lúc tôi đến, bà đang ngồi trên ghế dài trong sân phơi nắng, sắc mặt trông còn khá hơn lần nằm viện trước đó, nhưng ánh mắt vẫn có phần đờ đẫn. Nhìn thấy tôi, bà sững ra một chút, các ngón tay co lạ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chỉ Vì Một Miếng Bánh, Tôi Đoạn Tuyệt Với Gia Đình Hào Môn">
   <meta name="twitter:description" content="Tôi là thật thiên kim của một gia đình hào môn bị thất lạc bên ngoài, lúc được tìm thấy và đón về, trong nhà đã có một giả thiên kim. Bố mẹ không nỡ để cô ta đi nên giữ lại làm con nuôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

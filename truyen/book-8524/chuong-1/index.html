@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Vì Em, Anh Rút Khỏi Giới Giải Trí">
   <meta name="twitter:description" content="Bốn năm trước, để đi làm đặc vụ nằm vùng, tôi và người yêu chia tay, sau đó giả chết rời đi. Bốn năm sau, tôi vất vả lắm mới sống sót trở về. Còn chưa kịp đi tìm anh để nói rõ sự thật, thì lại nghe...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

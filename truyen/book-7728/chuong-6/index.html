@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Tôi Không Phải Con Cừu Của Các Người">
   <meta name="twitter:description" content="QUAY LẠI CHƯƠNG 1: Tôi khựng lại một chút mới nhớ ra cái tên này. “Hôm nay cậu thật sự khiến người ta hả giận quá! Video đó bây giờ đã lan đi khắp nhóm bạn học của chúng ta rồi! Ai cũng nói cậu là ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

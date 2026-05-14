@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Ly Hôn Vì Một Múi Sầu Riêng">
   <meta name="twitter:description" content="Ngày nào cũng năm giờ dậy, nấu cơm, giặt giũ, lau nhà thành nếp. Miệng ăn thì khắt khe, đòi hỏi đủ món mặn ngọt, nên tôi phải dậy sớm chen chúc với các bà cô ngoài chợ để mua thực phẩm tươi nhất.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

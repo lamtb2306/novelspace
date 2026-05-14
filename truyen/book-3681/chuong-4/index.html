@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Lần Này, Tôi Sống Cho Chính Mình">
   <meta name="twitter:description" content="Suy nghĩ vài hôm, họ quyết định bán nhà, trốn đến nơi khác, dù sao tôi bây giờ cần tiền hơn mạng, nếu tôi phát điên rồi trả thù thì xong đời. Không chỉ phải bán nhà, mà còn phải chuyển trường cho T...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

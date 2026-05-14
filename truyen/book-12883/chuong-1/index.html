@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đời Này Không Nhượng Bộ">
   <meta name="twitter:description" content="Vừa nghỉ hè xong, nhà hàng xóm liền lấy cớ hai vợ chồng họ đều là công nhân viên, gửi con sang nhà tôi. Nhà tôi dự định đi chơi vài ngày, nên tối hôm trước đã báo tin cho cô ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

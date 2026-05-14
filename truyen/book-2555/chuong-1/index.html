@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHỤP ẢNH RIÊNG TƯ">
   <meta name="twitter:description" content="Khi tiểu thư nhà họ Kinh hôn trộm cậu bạn thanh mai trúc mã của tôi. Tôi ở ngay bên cạnh chụp lén, lại quên tắt đèn flash. Ngay sau đó, trước mắt tôi hiện ra mấy dòng chữ chạy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

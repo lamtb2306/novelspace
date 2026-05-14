@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trọng Sinh Trở Về, Tôi Từ Chối Làm Bảo Mẫu Miễn Phí">
   <meta name="twitter:description" content="Thím họ nghe nói tôi làm bảo mẫu ở cữ tại một trung tâm cao cấp, liền xách theo hai thùng sữa hết hạn đến tìm bố mẹ tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

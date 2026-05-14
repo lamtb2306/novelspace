@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Người Họ Ngô Không Được Lên Thuyền">
   <meta name="twitter:description" content="Mọi người lần lượt đứng dậy, người đàn ông bản địa hỏi lớn: “Chuyện gì nữa vậy? Người họ Ngô chẳng phải cô đã ném xuống hồ rồi sao? Sao lại còn có người họ Ngô trên thuyền nữa?” Tôi vừa định trả lờ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

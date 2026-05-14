@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | XUÂN NÀY CHÚNG TA CÓ NHAU">
   <meta name="twitter:description" content="“Tôi không biết thích một người là cảm giác thế nào, vì tôi chưa từng thích ai.” Tôi nói. “Nhưng tôi không muốn thấy anh buồn, không muốn ai bắt nạt anh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

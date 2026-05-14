@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Buông Tay Ở Kiếp Sau">
   <meta name="twitter:description" content="Kiếp trước, tôi bị tụt đường huyết, mẹ luôn cho tôi kẹo dâu mỗi sáng. Sau khi mẹ mất, anh cũng làm vậy. Tôi cười nhẹ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

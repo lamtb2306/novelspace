@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Tình Yêu Không Hồi Đáp">
   <meta name="twitter:description" content="Lúc đó tôi còn ngây ngốc nghĩ rằng, chắc anh cố ý để tôi biết. Vậy mà bây giờ, chỉ vì Lâm Dự muốn vào, anh liền đưa mật khẩu luôn. Vậy tôi của ngày trước… là cái gì cơ chứ?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

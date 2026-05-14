@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | ANH ĐÃ HỐI HẬN CHƯA">
   <meta name="twitter:description" content="Tôi mất một tháng để làm quen với các công việc hiện tại của công ty, chọn xong các dự án cần tiếp nhận. Nhưng hôm nay tôi không đến công ty, mà lại đến cục dân chính. Thời gian chờ đã hết, giờ là ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

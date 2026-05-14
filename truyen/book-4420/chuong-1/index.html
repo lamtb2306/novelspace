@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nữ Đại Ca Nhà Họ Kỳ">
   <meta name="twitter:description" content="Tôi là nữ đại ca trẻ nhất – cũng là duy nhất – của thế giới ngầm Kinh Hải! Chuyện gì có thể giải quyết bằng nắm đấm thì tuyệt đối không nói lý.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

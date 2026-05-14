@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Vé Tàu Về Quê">
   <meta name="twitter:description" content="Anh ơi, đưa em về nhà được không? Em không thích họ, em không muốn quay lại nữa… hu hu…” Viền mắt anh trai đỏ hoe, ôm chặt tôi vào lòng, giọng nghẹn ngào: “Được! Về nhà!” Chiếc xe máy cũ ba tay phó...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Thiên Vị">
   <meta name="twitter:description" content="Dạ dày tôi đói đến mức cảm giác như đang bị thiêu đốt, tôi lê chân xuống bếp, tự nấu cho mình một bát mì.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Báo Án Lúc Nửa Đêm">
   <meta name="twitter:description" content="“Thả tôi ra! Tôi không điên! Tôi không báo án giả!” “Các anh tra đi! Trong tiệm nhất định có vết máu!” “Dùng thuốc thử Luminol! Tra kẽ sàn! Tra cống thoát nước!” Tôi gào thét tuyệt vọng, tiếng hét ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

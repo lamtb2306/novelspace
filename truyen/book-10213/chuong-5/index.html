@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | HUYỆT MỘ ĐÔI CHO KẺ PHỤ TÌNH">
   <meta name="twitter:description" content="Tôi còn chưa kịp mở miệng, người trong làng đã thi nhau mắng trả: “Ai là vợ anh chứ? Nói cho sạch cái miệng! Vợ anh không phải là cô họ Trình à?” “Không nghe tin à?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Thánh Thủ Độc Y">
   <meta name="twitter:description" content="Trong giao dịch quả thật có nhiều khoản tiền lớn, nhưng tất cả đều ghi chú rõ: Tự nguyện biếu tặng. Còn lại, tiền từ người trong làng chuyển cho tôi, toàn là vài tệ lẻ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Kiếp Trước, Kiếp Này, Vẫn Còn Anh">
   <meta name="twitter:description" content="“Tôi không có thời gian nghe cô ngụy biện. Hôm nay là ngày vui của Thời Vũ, quỳ xuống, thành toàn cho nguyện vọng sinh nhật của cô ấy.” “Mơ đi!” Tôi xoay người bỏ đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

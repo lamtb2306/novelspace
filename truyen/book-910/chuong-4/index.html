@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | GIANG VĂN SỞ HÀ">
   <meta name="twitter:description" content="Tôi kéo tay Tần Vũ: “Như này có hơi quá không?” Tần Vũ ngẩn người: “Quá? Chỗ nào quá? Nếu không thích, chúng ta đổi người.” Được rồi, đúng là bạn thân, trả lời tin nhắn theo cách chẳng giống ai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

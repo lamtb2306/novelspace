@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | 47 Lần Bị Xóa">
   <meta name="twitter:description" content="Tôi đăng ký một tài khoản thương hiệu cá nhân, không bán hàng, chỉ làm dịch vụ khách hàng — giúp khách chọn sản phẩm, kiểm tra thành phần, lập phương án chăm sóc da.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | RỜI XA MÙA HẠ">
   <meta name="twitter:description" content="Ngày thi đại học kết thúc, tôi ném thẳng một xấp tiền vào mặt Lâm Sơ Ý trước cả lớp: “Chơi đủ rồi, kết thúc tại đây nhé.” Cô ấy cúi người, từng tờ từng tờ nhặt tiền lên.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

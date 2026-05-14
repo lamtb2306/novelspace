@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Kẻ Rình Mò Tầng 17">
   <meta name="twitter:description" content="Dù dữ liệu được mã hóa, nhưng tôi vẫn có thể nhìn thấy nó đang liên lạc với máy chủ nào. Thiết bị mang tên “LK-Drone-Controller” liên tục gửi “gói giữ kết nối” đến một máy chủ đám mây thuộc một hãn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

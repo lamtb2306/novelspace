@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | THÁI TỬ GIA TỎ TÌNH">
   <meta name="twitter:description" content="Chỉ nhìn màn hình thôi, tôi cũng tưởng tượng được gương mặt chán ghét như đang nhìn một đứa ngốc của Thời Tú.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Tiền và Tình Thân">
   <meta name="twitter:description" content="Người khác không biết, chẳng lẽ tôi còn không biết sao? Bọn họ chỉ nhắm vào tiền mà thôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

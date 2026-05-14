@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | 17 Lần Ly Hôn">
   <meta name="twitter:description" content="“Không… không cần, vẫn là nơi này đi!” Nếu không có những chuyện đau lòng đó… Thì nơi này — thật ra là nhà hàng mà cô thích nhất! Mọi chuyện… đã qua rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

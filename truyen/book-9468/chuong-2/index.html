@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Trở Lại Đêm Tiệc Báo Thù">
   <meta name="twitter:description" content="Tôi càng khóc thảm hơn, nhưng vẫn đứng chặn ngay lối vào hành lang, không nhúc nhích. “Không được! Không thể vào!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

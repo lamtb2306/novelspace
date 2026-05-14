@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NỐI LẠI TÌNH XƯA">
   <meta name="twitter:description" content="Chưa đi được mấy bước, Thẩm Phùng Chu đã xách áo khoác bước theo sau: “Việc gì? Tôi đi cùng.” Anh mà đi cùng thì tôi còn đi làm gì nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

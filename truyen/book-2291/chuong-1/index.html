@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bệnh Viện Hết Thuốc Chữa">
   <meta name="twitter:description" content="Trưởng khoa gõ gõ lên mặt bàn tôi, nói như thể chuyện hiển nhiên. “Tiểu giang, Tết này em trực thay một ca.” Tôi đang viết bệnh án, tay khựng lại. “Lại là tôi à?” “Mấy người lớn tuổi còn phải lo ch...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

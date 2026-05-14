@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Cuộc Chiến Trong Căn Bếp">
   <meta name="twitter:description" content="Những ngày tiếp theo, bữa ăn của tôi quả nhiên không hề có chút cải thiện nào. Rau xanh, đậu phụ, thỉnh thoảng có thêm một đĩa giá xào thì cũng được coi là “ăn sang”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

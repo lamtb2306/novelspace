@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Giấc Mơ Bắc Đại">
   <meta name="twitter:description" content="“Chị à, em nghĩ chắc chị từ nhỏ sống ở quê, chưa từng thấy nhiều tiền như vậy, cũng không biết tiêu sao cho hợp lý, nên em mới làm vậy.” “800 cũng không phải ít, bao nhiêu sinh viên nghèo một tháng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

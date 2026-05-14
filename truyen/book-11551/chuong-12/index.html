@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Luôn bận vì em">
   <meta name="twitter:description" content="Là một hình con rồng hoạt hình rất đơn giản. Vừa kiêu ngạo, lại có chút tinh nghịch. Giống hệt Thẩm Dao. Tay tôi siết chặt lấy đũa. Nhưng gương mặt vẫn bình tĩnh, thậm chí mang theo chút mỏi mệt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

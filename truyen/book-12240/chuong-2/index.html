@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Cá Rồng Tắm Xà Phòng">
   <meta name="twitter:description" content="“Mai chỉ cần đổ cá mới vào bể, chuyên gia liếc qua thấy đỏ au là được, rực rỡ thế kia, ai chẳng thấy vui? Vậy là qua cửa rồi còn gì?” Tôi siết chặt song sắt cánh cửa: “Các người đang lừa đảo!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

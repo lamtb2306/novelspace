@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Phòng Đặc Cách Và Chiếc Còng Tay">
   <meta name="twitter:description" content="Tôi vừa hoàn thành nhiệm vụ tuyệt mật, trên người còn chưa lành vết thương thì lãnh đạo đã vội vàng nhét cho tôi một cuộc xem mắt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

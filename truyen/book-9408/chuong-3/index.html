@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | MÈO TIÊN TRẤN MỘ">
   <meta name="twitter:description" content="Có như vậy tôi mới yên tâm đi đoạt hồn. Nói đến người bạn cũ này, tôi với hắn coi như đồng hương, tuổi cũng xấp xỉ nhau, nhưng ngoại hình thì không bằng tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

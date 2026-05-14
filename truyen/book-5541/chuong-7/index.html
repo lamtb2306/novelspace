@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Vẫn Yêu Anh Như Ngày Đầu">
   <meta name="twitter:description" content="Tôi đi thẳng tới khách sạn — nơi tổ chức tiệc. Vừa bước vào, thấy anh trai vui vẻ tiếp khách, tôi vội vàng đi đến. Nhưng ngay khoảnh khắc nhìn thấy Lục Duy… Tôi khựng người lại, chân như dính chặt ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

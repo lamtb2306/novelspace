@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | MẤT TRÍ RỒI MỚI NHỚ AI LÀ VỢ">
   <meta name="twitter:description" content="Tôi chỉ muốn rời khỏi nơi này càng nhanh càng tốt, không muốn ở lại thêm một giây nào nữa. Vừa xuất viện, tôi không mang theo thứ gì, đi thẳng đến sân bay. Mấy hôm trước tôi đã mua vé máy bay sang ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

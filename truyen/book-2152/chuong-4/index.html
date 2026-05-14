@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Bóng Ngắm Của Tôi, Mạng Sống Các Người">
   <meta name="twitter:description" content="Tên cướp giơ loa hướng về phía tôi gào lên: “Cảnh sát các người đúng là vô liêm sỉ! Tao đã bảo đừng giở trò, các người giả điếc à?!” “Dám cử cả lính bắn tỉa nhắm vào tao, chán sống rồi đúng không?!...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

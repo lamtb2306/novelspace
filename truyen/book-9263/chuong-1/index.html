@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGƯỜI ẤY ĐẾN SAU NHƯNG YÊU TA TRỌN ĐỜI">
   <meta name="twitter:description" content="Trên đường về thăm nhà, ta bị hải tặc chặn giết. Mọi người đều nghĩ ta đã bỏ mạng, thương tiếc thay cho một người đàn bà mệnh khổ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

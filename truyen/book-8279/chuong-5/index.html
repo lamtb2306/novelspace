@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Trò Trốn Tìm Cuối Cùng">
   <meta name="twitter:description" content="Bố cũng đặt tờ báo xuống, nhìn chị, trong mắt đầy vẻ hài lòng và yêu thương. “Ừ, tốt thật. Nhà mình cuối cùng cũng ổn rồi.” Chị ngẩng đầu, nở một nụ cười nhẹ với bố mẹ. Nụ cười đó, tôi chưa từng th...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

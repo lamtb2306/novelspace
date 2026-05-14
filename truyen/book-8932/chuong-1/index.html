@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trò Chơi Hứa Chiêu">
   <meta name="twitter:description" content="Tôi lấy người từng bắt nạt mình thời cấp ba làm chồng. Lần xem mắt, anh ta giả vờ không quen biết tôi, tôi cũng không vạch trần. Dù sao tuổi cũng không còn nhỏ, bố mẹ thúc giục gấp, mà điều kiện củ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | THẨM DẠNG">
   <meta name="twitter:description" content="Nhận được tin nhắn tiêu dùng từ hiệu thuốc báo rằng Anh Cố mua bao cao su loại nhỏ, tôi mừng rỡ đến phát cuồng. Tưởng rằng sau ba năm yêu nhau và sống chung, cuối cùng anh cũng chịu chạm vào tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

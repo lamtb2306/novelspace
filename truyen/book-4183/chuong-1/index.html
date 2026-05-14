@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nguyệt Ảnh Hoành Thánh">
   <meta name="twitter:description" content="Năm thứ tám được gả vào phủ Hầu cao quý, chỉ một tờ hưu thư, ta bị đuổi ra khỏi nhà.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

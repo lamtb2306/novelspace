@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hộp Quà Trung Thu">
   <meta name="twitter:description" content="Vào dịp Trung thu, mẹ tôi xuất viện, nhà đông vui náo nhiệt. Trước mặt cả gia đình, bà trao cho tôi một hộp quà Trung thu được gói rất đẹp và nặng tay. Tôi tưởng rằng — sau bao nhiêu năm, cuối cùng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

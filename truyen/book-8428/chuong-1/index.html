@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | LẦN CUỐI TÔI GẬT ĐẦU">
   <meta name="twitter:description" content="Một tuần trước Tết, ba tôi bất ngờ thông báo trong bữa cơm. “Năm nay cả nhà mình sẽ đi du lịch đảo đón Tết.” “Chỉ có Nhân Nhân ở lại trông nhà.” Tôi cúi đầu, lặng lẽ khuấy động bát cơm trắng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

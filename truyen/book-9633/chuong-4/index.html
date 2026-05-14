@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | BẠN CÙNG PHÒNG KHÔNG TỒN TẠI">
   <meta name="twitter:description" content="Ngày hôm sau tôi hỏi, cô ấy lại hoàn toàn không nhớ gì. Chỉ nói có thể là mộng du. Nhưng người mộng du, đầu có thể xoay một trăm tám mươi độ sao? Tôi vốn không dám nói thẳng cho cô biết.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

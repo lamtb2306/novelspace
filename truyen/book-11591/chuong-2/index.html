@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Công Chúa Trong Tủ Lạnh">
   <meta name="twitter:description" content="Tựa như rơi vào một cơn ác mộng dài dằng dặc, khi mở mắt lần nữa, tôi đã không còn trong tủ lạnh. Tôi lơ lửng trước cánh tủ, nhìn bàn tay trong suốt của mình mà chết lặng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

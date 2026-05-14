@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | DUYÊN NỢ HÀO MÔN">
   <meta name="twitter:description" content="Năm năm trước, cậu đã không đấu nổi tôi. Bây giờ, càng chỉ là vọng tưởng. Thẩm Thanh Nguyệt chọn một nhà hàng kín đáo, trong phòng riêng chỉ có hai chúng tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

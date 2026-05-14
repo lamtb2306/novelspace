@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Gia Đình Như Cái Kén">
   <meta name="twitter:description" content="Vừa ăn cơm xong, bố mẹ đã kéo tôi ra dạy dỗ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

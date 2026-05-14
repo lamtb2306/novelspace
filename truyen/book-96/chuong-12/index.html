@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | TH- UÔC YÊU">
   <meta name="twitter:description" content="Tôi nhìn dòng chữ ấy, khẽ mỉm cười, dịu dàng mà trịnh trọng đáp lại: “Cảm ơn em.” “Chị cũng rất yêu bản thân mình.” “Nhưng, cô bé à, chủ nghĩa anh hùng của em chính là em đấy, chỉ có em mới thật sự...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

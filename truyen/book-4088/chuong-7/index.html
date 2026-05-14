@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | NGƯỜI THỬ NGHIỆM VÀ KẺ BỊ THỬ">
   <meta name="twitter:description" content="Tôi đến một thành phố hoàn toàn xa lạ để học đại học, tưởng rằng mình như một tờ giấy trắng — sẽ được tô vẽ bởi cuộc sống sôi nổi, những người bạn mới, sự giúp đỡ lẫn nhau.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

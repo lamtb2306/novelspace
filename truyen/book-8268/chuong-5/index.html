@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Buông tay sau tám năm chờ đợi">
   <meta name="twitter:description" content="Tin nhắn chất vấn, cuối cùng tôi vẫn không gửi đi. Giao bản thảo xong, tôi chỉnh trang lại bản thân, quyết định tự thưởng cho mình một bữa cay nồng ở tiệm Tứ Xuyên yêu thích. Không ngờ, ngay trước ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

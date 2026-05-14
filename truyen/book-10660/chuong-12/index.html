@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Đường Về Phủ Thôi">
   <meta name="twitter:description" content="Nghĩ vậy, nước mắt ta lại lăn dài. Ta khẽ rụt người, tựa trán vào vai hắn. Người phía trước cảm nhận được, khẽ nghiêng đầu nhìn ta: “Sao vậy?” Ta nhỏ giọng, “Đại nhân, những điều ngươi nói hôm nay,...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

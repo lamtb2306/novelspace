@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | 18 TUỔI TRÁI TIM RUNG ĐỘNG">
   <meta name="twitter:description" content="Tôi là một ngôi sao hạng mười tám không ai biết đến.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

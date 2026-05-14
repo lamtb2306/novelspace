@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | LẦM LỠ SÁU NĂM">
   <meta name="twitter:description" content="Năm nay, vào dịp Tết, tôi dự định cùng bạn trai sáu năm về quê ra mắt bố mẹ anh, tiện thể bàn chuyện kết hôn vào năm sau.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

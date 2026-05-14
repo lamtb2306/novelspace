@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | HÀNH TRÌNH CHỮA LÀNH">
   <meta name="twitter:description" content="Cô không muốn nhìn nữa, lập tức đóng cửa kính xe và nổ máy rời đi. Cô mang theo giấy tờ, đến cơ quan làm thủ tục xuất cảnh. Nhân viên cho biết cuối tháng này sẽ hoàn tất phê duyệt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

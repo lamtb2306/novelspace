@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Ba Tấm Vé Số">
   <meta name="twitter:description" content="Họ tưởng rằng đưa mấy tấm vé cào là có thể đuổi khéo tôi đi, nào ngờ lại vô tình trao tận tay tôi một món “đại lễ”. Cùng lúc đó, Phùng Lộ Lộ cũng bắt đầu đợt “xử lý khủng hoảng” của mình.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

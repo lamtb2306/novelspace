@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | CHIẾC BÁNH BAO ĐÔNG CHÍ NĂM ẤY">
   <meta name="twitter:description" content="Nhớ lại cái chết thảm khốc ở kiếp trước, toàn thân tôi run lên từng cơn. Tôi đang định tìm lý do từ chối thì mẹ tôi lại gào lên trong điện thoại: “Đồ chết tiệt!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

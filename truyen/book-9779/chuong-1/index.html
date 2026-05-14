@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nàng Công Chúa Ngầm">
   <meta name="twitter:description" content="Ba năm trước, tôi đã nhầm tổ yến thượng hạng trong nhà bạn trai tổng tài Thẩm Thanh Việt thành một bát miến.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | ĐỪNG MỞ CỬA">
   <meta name="twitter:description" content="Nhìn qua mắt mèo, bên ngoài là một cô gái trẻ, trông như sinh viên đại học, gương mặt thanh tú, đáng yêu. “Bạn là ai vậy?” Cô gái giơ điện thoại lên: “305, người nhắn tin tối qua cho chị đó.” Tôi b...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

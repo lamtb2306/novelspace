@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Sống Lại, Tôi Không Cứu Anh Nữa">
   <meta name="twitter:description" content="Anh ta lướt nhìn tôi, mỉa mai: “Anh đã nói rồi, chỉ có Mộng Mộng mới thật lòng vì anh.” Mọi người xung quanh đều khen ngợi Lý Mộng Mộng, ánh mắt nhìn tôi đầy khinh thường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

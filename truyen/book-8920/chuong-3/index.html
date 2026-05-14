@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Ba Năm Đợi Một Người Chưa Từng Thương Tôi">
   <meta name="twitter:description" content="Anh nhìn chằm chằm đống đồ trong tay tôi, sắc mặt lập tức sa sầm: “Cô muốn đem mèo cho người khác? Cô dựa vào cái gì mà dám đem con mèo mà tôi…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

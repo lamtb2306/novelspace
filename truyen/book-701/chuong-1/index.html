@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cú Lật Mặt Của Vợ Hợp Pháp">
   <meta name="twitter:description" content="Ngày thứ ba sau khi đăng ký kết hôn, tôi đăng nhập vào hệ thống để xin nghỉ phép kết hôn giúp chồng. Nhưng lại hiển thị rằng 15 ngày nghỉ phép kết hôn của anh ta đã dùng hết rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

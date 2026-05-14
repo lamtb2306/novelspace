@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Quán Cơm Nổi Giận">
   <meta name="twitter:description" content="“Được thôi, tôi không làm khó anh nữa. Bữa trưa của công ty chúng tôi, anh không cần giao nữa. Anh cứ yên tâm xuống lầu bán cơm cả ngày đi, cũng chẳng ai giục anh đâu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

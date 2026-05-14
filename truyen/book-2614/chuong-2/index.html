@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Ca M ổ Khiến Tôi Mất Tất Cả">
   <meta name="twitter:description" content="Một bệnh nhân khác bất ngờ nhào tới nhìn màn hình máy tính của tôi, thấy bảng lịch mổ liền chỉ tay: “Ngày này trống mà, sao bác sĩ không sắp cho người ta?” Không ngờ có người xông lên, tôi vội đổi ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

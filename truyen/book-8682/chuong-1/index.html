@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Gánh Hồn">
   <meta name="twitter:description" content="Chúng tôi là phường khiêng quan tài của trấn, tám đời tổ tiên đều ăn chén cơm này. Cái nghề này, quan trọng nhất là một chữ “Ổn”. Trước khi khâm liệm, phải xem giờ, đốt ba nén hương, dán bùa ở bốn ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

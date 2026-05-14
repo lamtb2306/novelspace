@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CÔ EM HỌ VÔ ƠN">
   <meta name="twitter:description" content="Tôi cho em họ đang mang thai mượn tạm căn nhà tân hôn để ở một thời gian. Chuyến công tác kết thúc, tôi kéo vali trở về trước cửa nhà. Mở cửa lại là một bà lão xa lạ, bà cau mày hỏi tôi tìm ai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

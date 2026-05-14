@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | THỬ THÁCH YÊU ĐƯƠNG">
   <meta name="twitter:description" content="Tôi mới đợi anh chưa tới ba phút. Ba phút thì tính gì là lâu. Nhưng anh nói đợi lâu thì cứ coi là lâu vậy. Hừ, đúng là… còn để người ta đợi lâu như thế nữa. Giang Tịch xấu tính. “Hừ.” Tôi hừ nhẹ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

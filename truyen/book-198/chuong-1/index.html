@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bảy Ngày Ngoại Phạm">
   <meta name="twitter:description" content="Chồng tôi ngoại tình. Thấy tôi không khóc cũng chẳng làm ầm lên, anh ta càng được đà lấn tới. Anh ta còn dẫn người đó về nhà. Tôi không phản đối, chỉ rời đi xa một thời gian. Khi quay về, tôi phát ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Dẫn Đường Cho Người Kh u ất">
   <meta name="twitter:description" content="Tôi là một người dẫn xác được nhà nước đặc biệt tuyển dụng. Đêm trước lễ Trung Nguyên, tôi nhận được một nhiệm vụ đặc biệt — hộ tống linh hồn anh dũng của một cảnh sát phòng chống ma túy trở về quê...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

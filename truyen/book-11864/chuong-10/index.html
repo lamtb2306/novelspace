@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Hết Yêu">
   <meta name="twitter:description" content="Là do anh không kiềm chế được ham muốn trong phút chốc!” “Tôi không còn yêu anh nữa.” Tôi bình thản đáp. “Tôi không muốn tiếp tục uất ức bên cạnh anh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

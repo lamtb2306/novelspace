@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Cả Nhà Ép Tôi Giao Sổ Đỏ, Tôi Cho Họ Một Bài Học Nhớ Đời">
   <meta name="twitter:description" content="Lát thì nói chỗ này sai, lát lại kêu chỗ kia có vấn đề. Nhân viên làm thủ tục cũng bắt đầu mất kiên nhẫn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

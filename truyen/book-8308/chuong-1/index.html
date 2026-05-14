@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cuộc Gọi Không Được Bắt Máy">
   <meta name="twitter:description" content="Khi tôi lên cơn nhồi máu cơ tim, cuộc gọi duy nhất tôi kịp gọi đã bị Phó Thời Hưu cúp máy. Lúc đó, anh ta đang nằm trên giường của một người phụ nữ khác, mồ hôi nhễ nhại. Sáng hôm sau.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

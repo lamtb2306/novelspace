@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cứu Rỗi Song Sinh">
   <meta name="twitter:description" content="Trong lễ trưởng thành, em gái song sinh của tôi đỏ mặt cầu cứu: “Chị ơi, em không biết uống rượu, chị uống thay em được không?” Lại giả vờ nữa! Rõ ràng bình thường thuốc lá rượu chè cái gì cũng biế...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

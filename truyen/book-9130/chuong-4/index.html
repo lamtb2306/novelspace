@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | LUÔN YÊU CHIỀU EM">
   <meta name="twitter:description" content="“Nhạc Thiên Nhiễm, cô tưởng tôi cũng dễ dãi chiều cô như mấy người kia sao?” “Mày thật sự tự cho mình là trung tâm quá rồi đấy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

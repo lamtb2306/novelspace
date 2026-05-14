@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Thiên Kim S ơn T ặc">
   <meta name="twitter:description" content="Ta chẳng thèm quay đầu, liền bước thẳng vào từ đường, quỳ xuống ngay ngắn. Tròn năm năm, sớm đã quen rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 17 | Tôi Không Phải Con Cừu Của Các Người">
   <meta name="twitter:description" content="Tôi đi đến một góc yên tĩnh, là Lục Thân. Anh không gửi chữ, chỉ gửi một tấm ảnh. Phông nền của bức ảnh là một nhà hàng Tây thanh lịch, trên bàn đặt chân nến tinh xảo và một chai vang đỏ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

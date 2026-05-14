@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hai Viên Sô-Cô-La Trong Vũng Bùn">
   <meta name="twitter:description" content="Tôi m. ất một cái chân, anh trai m. ất một cánh tay. Anh sẽ dìu tôi đi, còn tôi giúp anh cầm chiếc bát khất thực. Chúng tôi là cặp anh em bù trừ cho nhau hoàn hảo nhất trong căn hầm ngầm này.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

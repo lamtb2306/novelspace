@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tình Yêu Sai Người">
   <meta name="twitter:description" content="Tôi – Trình Tiêu Tiêu – là tiểu bá vương lừng danh của khu đại viện. Ai dám chọc vào tôi, tôi sẽ đánh thẳng tới tận cửa, đập bàn lật ghế, cho hắn biết tay.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

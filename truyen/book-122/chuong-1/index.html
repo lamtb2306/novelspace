@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | LẠC OÁN">
   <meta name="twitter:description" content="Ta là con gái của Trường Ninh công chúa và một kẻ quê mùa. Năm ta bảy tuổi, được Hoàng Thái Hậu ban cho tên. Bà nói rằng ta sinh ra mang theo một oán nghiệp, vì thế đặt tên cho ta là Lạc Oán.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Âm Mưu Hoa Bách Hợp">
   <meta name="twitter:description" content="Để tránh bà phát hiện cửa phòng ngủ bị khóa, tôi lấy cớ bà mới ốm dậy, bảo chỉ cần nấu đơn giản rồi về nghỉ. Bà nghe vậy thì vui vẻ, còn nói sẽ làm thêm vài món cho tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

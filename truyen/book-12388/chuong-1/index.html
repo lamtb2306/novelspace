@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ăn Chùa Phải Trả Giá">
   <meta name="twitter:description" content="Thực tập sinh sau khi được chuyển chính thức đã mời toàn bộ nhân viên công ty đi ăn một bữa lớn. Ăn xong, cô ta lại lén ký hóa đơn dưới danh nghĩa của tôi. Khi chủ quán tìm tới tận nơi, tôi mới biế...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

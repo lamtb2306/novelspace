@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hoà Ly Cầu Bất Đắc">
   <meta name="twitter:description" content="Biểu ca ở kinh thành vốn là nhân vật nổi tiếng, không biết bao nhiêu cô nương muốn gả cho chàng. Ta cùng chàng thành thân, thật ra chẳng phải vì chàng, mà là vì muốn ở bên di nương – người luôn yêu...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

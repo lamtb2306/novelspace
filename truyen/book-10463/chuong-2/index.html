@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tình Yêu Trong Bóng Tối">
   <meta name="twitter:description" content="Trong suốt một năm đó, tôi cùng anh thức đêm ôn thi, gọi điện tâm sự thâu đêm suốt sáng. Một năm đó, anh dắt tôi đi xem concert, còn cười nói sau này sẽ cầu hôn tôi ở những nơi hoành tráng như vậy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

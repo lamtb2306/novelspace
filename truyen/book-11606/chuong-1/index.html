@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tám Nghìn Tệ Của Tôi Đi Đâu Rồi?">
   <meta name="twitter:description" content="Tám nghìn tệ, tối qua vừa vào tài khoản. Hai trăm tệ, số dư sáng nay. Tôi ngồi xổm trước cây ATM duy nhất trên trấn, kiểm tra lại tới ba lần. 200.00 tệ. Về đến nhà, mẹ tôi đang phơi chăn ngoài sân.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

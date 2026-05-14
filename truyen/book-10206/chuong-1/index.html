@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thanh Thủy Viện">
   <meta name="twitter:description" content="Ta ở nơi tổ trạch vì tổ mẫu thủ tang suốt ba năm, đến khi quay lại kinh thành, thì một nữ tử tên là Tiết Ngọc Uyển đã thay ta chiếm lấy vị trí vốn dĩ thuộc về ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

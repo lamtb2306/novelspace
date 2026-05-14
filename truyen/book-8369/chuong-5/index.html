@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | LÁ THƯ TÌNH">
   <meta name="twitter:description" content="Ngoài tôi ra, tất cả phụ huynh và học sinh đều chết sững tại chỗ. Học bá trong mắt họ… lại đi làm chuyện như vậy? Từ hồi lớp 10 đã bắt đầu rồi? Hóa ra suốt giờ học chẳng hề chú tâm vào bài giảng?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

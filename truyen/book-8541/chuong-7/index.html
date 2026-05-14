@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Đêm Hồ Đỏ">
   <meta name="twitter:description" content="Những lời họ gán lên tôi, đặt vào Từ Hạo Thiên mới đúng hơn. Lệ Mặc Vân không nhịn nổi nữa, chắn trước giường tôi, giọng băng lạnh: “Bệnh nhân cần nghỉ ngơi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

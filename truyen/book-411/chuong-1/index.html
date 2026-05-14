@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Giữa Chúng Ta, Chỉ Là Thuê Mướn">
   <meta name="twitter:description" content="Tôi tháp tùng sếp đi chuyến công tác gấp, chuyến bay lúc một giờ sáng, thì nhận được cuộc gọi từ vị hôn thê của anh ấy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

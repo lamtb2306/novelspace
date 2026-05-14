@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Mã QR Trên Giường Cưới">
   <meta name="twitter:description" content="Tiêu Hạc từ dưới đất lồm cồm bò dậy, còn định mở miệng nói gì đó. Tôi không cho anh ta cơ hội. Chậm rãi giơ điện thoại lên, màn hình sáng rõ hiện mã QR thu tiền. “Ý gì đây?” – anh ta gắt gỏng hỏi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

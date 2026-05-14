@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Đêm Tôi Sinh Con, Anh Bỏ Tôi Đến Với Bạch Nguyệt Quang">
   <meta name="twitter:description" content="Đến ngày đầu đông năm ấy, tôi nhận việc tại cô nhi viện, trở thành bác sĩ tâm lý trẻ em. Ngày còn học đại học, chuyên ngành của tôi chính là tâm lý học.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

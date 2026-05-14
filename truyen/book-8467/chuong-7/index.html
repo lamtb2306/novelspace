@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Vô Diện Sát">
   <meta name="twitter:description" content="“Các bạn ơi mau nhìn nè! Chính là cô ta — Lưu Nhiễm, sinh viên ưu tú của trường X, giành học bổng hai năm liền, vậy mà sau lưng lại mê tín dị đoan! Mọi người nói xem, vậy có đúng không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

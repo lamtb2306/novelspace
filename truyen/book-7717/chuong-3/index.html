@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Mười Năm Bị Ngầm Kiểm Soát">
   <meta name="twitter:description" content="Tôi nhấn nút nghe. Đầu dây bên kia vang lên giọng nói đầy hưng phấn: “Cô Giang! Cô xem livestream chưa? Con bé Khả Hân nhà tôi thật làm rạng danh tổ tông! Nói hay lắm! Có khí phách!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

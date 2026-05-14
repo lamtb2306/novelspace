@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Tôi Là Blogger Ăn Bún Ốc, Chồng Tôi Là Ông Trùm Tài Chính">
   <meta name="twitter:description" content="“Chuyện này… chờ tôi xuất viện rồi nói.” Đầu dây bên kia vang lên tiếng cười khẩy đầy thiếu kiên nhẫn. Có lẽ anh nghĩ tôi đang kiếm cớ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

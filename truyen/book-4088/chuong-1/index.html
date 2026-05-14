@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGƯỜI THỬ NGHIỆM VÀ KẺ BỊ THỬ">
   <meta name="twitter:description" content="Ngày đầu tiên nhập học, tôi vui vẻ cầm theo mấy món đặc sản quê nhà, định bụng sẽ chia cho bạn cùng phòng để làm quen.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

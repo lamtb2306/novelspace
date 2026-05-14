@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Dưng Chung Một Mái Nhà">
   <meta name="twitter:description" content="Văn phòng Sở Dân chính Bắc Kinh. Công tố viên Đinh An nhìn tôi, vẻ mặt nghiêm túc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

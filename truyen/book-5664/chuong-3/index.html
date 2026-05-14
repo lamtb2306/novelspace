@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Ám Ảnh Đám Cưới">
   <meta name="twitter:description" content="「Chúng tôi đã lục soát đi lục soát lại mấy lần rồi, trong quán không giấu người, chùm đèn cũng cố ý kiểm tra từ hôm qua, rất chắc chắn, tuyệt đối sẽ không có vấn đề gì.」 「Những người ra vào hôm nay...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

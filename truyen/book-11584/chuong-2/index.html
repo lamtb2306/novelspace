@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Chuyện WiFi, Chuyện Hàng Xóm">
   <meta name="twitter:description" content="【Tôi mới chuyển đến, mạng chưa kịp lắp, con trai tôi ngày mai có một cuộc thi tuyển rất quan trọng, nhất định phải học online.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

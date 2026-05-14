@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đi Trong Tuyết – Trở Về Trong Lửa">
   <meta name="twitter:description" content="Đi Trong Tuyết - Trở Về Trong Lửa Khi cậu bạn thanh mai trúc mã bị lửa bao vây, cậu ấy lại điềm tĩnh nhìn về phía tôi đang đứng. Tôi biết… cậu ấy cũng đã trọng sinh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

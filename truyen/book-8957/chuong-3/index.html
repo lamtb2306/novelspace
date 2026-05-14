@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Người Không Có Tên Trong Báo Cáo">
   <meta name="twitter:description" content="Hỗ trợ kỹ thuật. Lại là hỗ trợ kỹ thuật. “Dự án này có bao nhiêu ngân sách?” Tôi hỏi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

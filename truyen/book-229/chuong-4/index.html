@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Không Có Sau Này">
   <meta name="twitter:description" content="Quả nhiên, người yêu mình nhất luôn biết đâm vào đâu là đau nhất. Tôi thậm chí không còn đủ tức giận. Chỉ thấy trống rỗng, thất vọng đến tột cùng. Và căm ghét chính mình vì quá bất lực.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

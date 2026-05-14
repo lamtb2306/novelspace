@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | 7 Ngày Sinh Tồn">
   <meta name="twitter:description" content="Tôi lập tức quay người chạy về phía căn phòng gần nhất. Ấn tay vào tay nắm cửa — không mở được! Tôi vội vàng chạy đến phòng tiếp theo — cũng khóa! Thời gian đang cạn dần, tôi gần như rơi vào tuyệt ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

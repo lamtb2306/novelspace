@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MỐI TÌNH CỦA TRẦN HY">
   <meta name="twitter:description" content="Tôi dự định đi nơi khác để tham gia khóa đào tạo cắm hoa kéo dài một tháng. Trước khi đi, tôi đã giao lại chìa khóa tiệm hoa – nơi tôi dồn hết tâm huyết – cho bạn trai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

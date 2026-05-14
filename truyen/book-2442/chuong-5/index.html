@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CHỈ LÀ LY HÔN THÔI MÀ">
   <meta name="twitter:description" content="Sau đó, tôi hỏi anh em số 2.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

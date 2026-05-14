@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | TÔI SẼ ĐI CÙNG BẠN">
   <meta name="twitter:description" content="Tôi cũng không quay về nhà nữa. Chỉ lặng lẽ đi theo Hạ Thanh Dương — anh đi đâu, tôi liền bay theo đó. Hôm ấy, sau khi kết thúc một cuộc họp, anh trở lại văn phòng. Trong nhóm bạn học có mấy tin nh...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CON TIM LẠNH LẼO">
   <meta name="twitter:description" content="Tôi và anh ấy là thanh mai trúc mã, được gia đình tác thành, thuận theo lẽ tự nhiên mà ở bên nhau. Yêu nhau sáu năm, nhưng anh ấy luôn né tránh chuyện kết hôn, dù người lớn có thúc ép thế nào cũng ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

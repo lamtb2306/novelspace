@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Năm Ấy Tôi Bị Đem Cho Một Thằng Ngốc">
   <meta name="twitter:description" content="Tôi vừa xấu hổ vừa tức giận, nắm chặt tay: “Cậu nói bậy!” Thằng ngốc vẫn nghiêm túc nói tiếp: “Chính anh cậu đã nói, đưa cậu cho tớ làm búp bê.” “Không ai đi nhặt lại thứ mình đã vứt cả.” Tôi cắn c...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Kiếp Này, Tôi Không Cùng Lớp Với Các Người Nữa">
   <meta name="twitter:description" content="Bố tôi từng đưa bọn họ ra khỏi vùng núi nghèo khó, không tiếc công sức lo ăn mặc, học hành cho họ. Nhưng đến cả sinh nhật bố, họ cũng chỉ thả một cái like, gõ vài câu chúc mừng lấy lệ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

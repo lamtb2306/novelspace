@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | THIÊN KIM DỊ ỨNG NẮNG">
   <meta name="twitter:description" content="Sau khi kết thúc cuộc họp cuối cùng ở công ty, tôi mở điện thoại ra thì phát hiện cô giáo phụ trách của con gái đã gửi cho tôi không ít tin nhắn. “Chị là mẹ của Thẩm Thính Vãn đúng không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

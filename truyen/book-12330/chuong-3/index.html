@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tiếng Lòng Của Con">
   <meta name="twitter:description" content="Tôi giả vờ thấy vị trí kẹp không đẹp, mạnh tay gỡ xuống. Hạ Thi Thi khẽ kêu “á”, tôi vội vàng xin lỗi: “Xem này, chắc do bế con nhiều nên tay tôi khỏe quá!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Lưỡi Gươm Công Lý">
   <meta name="twitter:description" content="Tôi ngồi ở ghế nguyên đơn, ánh mắt dừng lại nơi người phụ nữ đang ngồi bên bị cáo — một người trông có vẻ yếu đuối, đáng thương. Cô ta tên là Lâm Vãn Ý, là “bạch nguyệt quang” mà chồng tôi — Cố Lâm...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

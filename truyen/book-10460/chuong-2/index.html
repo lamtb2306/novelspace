@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Sói Hậu Bất Đắc Dĩ">
   <meta name="twitter:description" content="Hai chân ta quẫy đạp trong không trung, thở hồng hộc, cho đến khi cảm thấy có ai đó nắm lấy đuôi ta. Có lẽ là một con sói tốt bụng, thấy ta vùng vẫy nên định kéo ta lên.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

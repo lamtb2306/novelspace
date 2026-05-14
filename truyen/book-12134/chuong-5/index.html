@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Chị Tôi Là Blogger Học Tập Huyền Thoại">
   <meta name="twitter:description" content="Về đến nhà, mẹ lại giơ điện thoại lên khoe với bố, mặt mày rạng rỡ: “Anh xem Thư Hoa nhà mình chăm chỉ chưa! Toàn viết tiếng Pháp đấy nhé! Lần đi học này chắc chắn đáng đồng tiền!” Bố tôi liếc qua ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CHUYẾN BAY ĐỊNH MỆNH KẾT THÚC">
   <meta name="twitter:description" content="Tôi nắm lại tay mẹ, tay còn lại khẽ vuốt mu bàn tay bà: “Ba mẹ không sai, sao phải thấy có lỗi? Đây là quyết định của con mà.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

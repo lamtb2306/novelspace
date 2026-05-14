@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Bố Tôi Là Kẻ Cuồng Con Gái">
   <meta name="twitter:description" content="Cô tôi hung hăng đá mạnh một cước vào eo tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

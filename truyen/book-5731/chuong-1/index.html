@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đêm Tân Hôn Bị Bán">
   <meta name="twitter:description" content="Hôm qua tôi vừa mắng cô bảo mẫu mới vì làm cháy váy cưới, tối nay, chồng mới cưới đã nhân lúc náo động phòng mà tặng tôi cho cậu nhân viên phục vụ khách sạn đi theo đoàn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

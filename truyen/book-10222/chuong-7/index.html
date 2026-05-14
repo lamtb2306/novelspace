@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Tôi Và Ảnh Đế Cũ Lên Sân Khấu Tái Ngộ">
   <meta name="twitter:description" content="Bây giờ ở Thượng Hải, đã không còn ngọn đèn nào thuộc về tôi Lương Lương nữa, nên tôi cũng không cần thiết phải ở lại. Đúng lúc này, điện thoại tôi chợt reo lên. Tôi cầm lên xem, trên màn hình nhấp...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

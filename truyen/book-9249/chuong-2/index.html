@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NGÀY DÌ NGÔ SẬP TIỆM">
   <meta name="twitter:description" content="Khách trong quán đều nhăn mặt, có người quát lớn: “Tôi là người đã có gia đình, chị ăn nói cho cẩn thận!” “Đúng là đồ điên!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

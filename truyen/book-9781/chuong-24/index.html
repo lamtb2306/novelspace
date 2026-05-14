@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 24 | Một Lần Co Giật, Tôi Nhìn Rõ Lòng Người">
   <meta name="twitter:description" content="Đây có nhầm không vậy? Những lần trước, tôi nài nỉ đòi đi thì anh ta luôn tìm cớ từ chối. “Em chẳng hiểu gì, đến đó làm gì? Người ngoài ngành, em không thấy ngại à?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Giả Nghèo Ở Chung, Kết Quả Bị Đuổi Khỏi Nhà Mình">
   <meta name="twitter:description" content="Thấy tôi vẫn không lay chuyển, tên tóc vàng lại hung hăng đẩy tôi một cái: “Mẹ nó, nghe thấy chưa! Mau bồi thường tiền!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

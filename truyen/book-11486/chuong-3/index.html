@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Hè Này Có Một Đứa Em Trai">
   <meta name="twitter:description" content="Tôi đặt thìa xuống, lau miệng: “Đừng nhắc nữa, mẹ em nhận nuôi một đứa trẻ mồ côi. Nói trắng ra là tự dưng vác về một đứa con trai.” “Thằng nhóc đó kinh khủng lắm, còn dám giơ tay đánh em.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

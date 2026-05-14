@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Nửa Cuộc Đời Bị Đánh Cắp">
   <meta name="twitter:description" content="Sau vụ tai nạn, tôi toàn thân đầy máu nằm trên giường bệnh. Người cha nuôi đứng bên cạnh, miệng lẩm bẩm: “Đồ phá của, mất tiền…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

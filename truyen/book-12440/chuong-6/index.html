@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | TÌNH YÊU KHÔNG CÓ LỖI">
   <meta name="twitter:description" content="Tôi quay về quê một chuyến. Hồi nhỏ, tôi sống với bà nội mấy năm. Khi tôi tới nơi, bà đang đội nón rơm, ngồi trong sân nhổ đậu phộng. “Về làm gì?” — bà trừng mắt nhìn tôi. Tôi đáp: “Con thi đậu đại...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

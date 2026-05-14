@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | TIỂU THƯ VÀ KẺ SĂN MỒI">
   <meta name="twitter:description" content="“Ba người họ đâu rồi nhỉ? Sao đi lâu vậy mà chưa thấy quay lại? Không xảy ra chuyện gì chứ? Để tôi đi tìm xem sao.” Người quen trong bữa tiệc cũng tỏ vẻ khó hiểu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

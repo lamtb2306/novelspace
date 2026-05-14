@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Khi Tường Vi Không Còn Nở">
   <meta name="twitter:description" content="Tôi sống ở tầng một có sân, đã trồng hoa tường vi suốt ba năm. Mỗi năm vào tháng Năm, hoa nở kín cả bức tường, hương thơm lan tỏa khắp khu dân cư.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

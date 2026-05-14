@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÌNH YÊU ĐÃ HẠ MÀN">
   <meta name="twitter:description" content="Chồng tôi muốn có con thứ hai, tôi không đồng ý. Anh ta tức giận đập cửa bỏ đi, từ đó không quay về nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

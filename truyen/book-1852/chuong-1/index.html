@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NĂM 28 TUỔI TÔI LY HÔN">
   <meta name="twitter:description" content="Hôm nay là sinh nhật 28 tuổi của tôi. Tôi chuẩn bị một bàn đầy món mà Giang Dã thích, chờ anh ta về. Tôi đợi mãi, gọi cho anh ta cả chục cuộc, nhưng anh ta không bắt máy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

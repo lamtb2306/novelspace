@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Công Ty Không Cần Nhân Viên, Chỉ Cần Vận May">
   <meta name="twitter:description" content="Một số lạ. Tôi nghe máy, đầu bên kia là giọng quen thuộc: “Giang Nhụy, là tôi, Triệu Khâm.” Tôi khựng lại, không nói gì. Giọng ông ta có chút gấp gáp: “Giang Nhụy, cô đang ở đâu?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

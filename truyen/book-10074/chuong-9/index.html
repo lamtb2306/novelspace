@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Bỏ Lại Phía Sau Một Người">
   <meta name="twitter:description" content="Tôi chớp mắt, trêu anh: “Biết đâu sau này, Minh Nguyệt lại trở thành chỗ dựa cho Vệ thị đấy, anh à.” Vệ Diễn cười khẽ: “Đúng, em gái anh giỏi nhất.” Tôi nghiêng đầu. Nhìn xuống thành phố rực rỡ ánh...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

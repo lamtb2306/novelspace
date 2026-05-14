@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Tuổi Già Cho Riêng Mình">
   <meta name="twitter:description" content="QUAY LẠI CHƯƠNG 1 : Một tuần sau, tôi xuống chợ mua rau, gặp chị Vương, người hàng xóm đối diện. Chị kéo tôi lại, vẻ mặt bí mật: “Thanh Hoan, cuối cùng chị cũng về rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

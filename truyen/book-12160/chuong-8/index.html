@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Máy Rút Tiền Biết Đi">
   <meta name="twitter:description" content="Tôi khẽ nói: “Hồi nhỏ con chưa từng thích mấy món này.” Nụ cười trên mặt mẹ đông cứng lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

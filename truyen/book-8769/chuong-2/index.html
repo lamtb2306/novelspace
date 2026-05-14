@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | MÃ KHOÁ NGÔI SAO">
   <meta name="twitter:description" content="Khi tay chạm vào tay nắm, anh gọi với theo sau lưng: “Hứa Nhiễm, em bước ra khỏi cánh cửa này thì đừng hòng quay lại!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Cô Gái Không Nhà">
   <meta name="twitter:description" content="Tôi nhếch môi, cười giễu: “Hay là… anh chỉ muốn cái nhà mà không muốn chịu trách nhiệm gì? Trên đời làm gì có chuyện vừa ngon vừa miễn phí như vậy?” “Mày nói xằng!” Giang Hải giận điên, giơ nắm đấm...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

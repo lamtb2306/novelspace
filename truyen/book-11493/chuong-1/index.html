@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Con dâu bắt tôi làm tiểu tam">
   <meta name="twitter:description" content="Sau khi con trai kết hôn, con dâu nhất quyết không chịu dọn ra ngoài sống riêng với chồng. Nó nói muốn ở lại nhà để phụng dưỡng vợ chồng tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

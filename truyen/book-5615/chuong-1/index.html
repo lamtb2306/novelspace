@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | XUYÊN THÀNH BẠCH NGUYỆT QUANG CỦA TỔNG TÀI">
   <meta name="twitter:description" content="Tôi xuyên thành bạch nguyệt quang của phản diện bệnh kiều. Lúc tôi xuyên đến, phản diện chỉ là một cậu bé đáng yêu, đang nở nụ cười ngọt ngào với tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

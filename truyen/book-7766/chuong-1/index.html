@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐÀN ÔNG THÍCH NGOẠI TÌNH">
   <meta name="twitter:description" content="Bùi Kim Yến gọi điện cho tôi. “Chuyến bay bị hoãn, em không cần chờ anh ăn cơm đâu.” Giọng anh ta trong điện thoại bình thản và lạnh lùng. Ngay cả lời giải thích cũng mang chút lạnh nhạt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐI GẶP ANH TÓC VÀNG">
   <meta name="twitter:description" content="Thay thiếu gia đi gặp mặt một gã tóc vàng trên mạng. Tôi chỉ chờ bị ăn đấm một trận cho xong chuyện. Trong lúc giằng co, khẩu trang của tôi bị một tên đàn em của tóc vàng giật phăng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

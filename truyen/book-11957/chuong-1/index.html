@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | QUY THỦ MỘC HY">
   <meta name="twitter:description" content="Tết năm nay, chồng tôi đánh bài suốt một đêm, thua mất hai trăm nghìn tệ. Đó là số tiền hai vợ chồng đi làm thuê cả năm, ăn uống tiết kiệm mới dành dụm được.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

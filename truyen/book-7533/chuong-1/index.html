@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Khi Tôi Ngừng Làm Người Tốt">
   <meta name="twitter:description" content="Đồng nghiệp tố cáo tôi nhận job ngoài, tôi không giải thích, cũng chẳng làm ầm ĩ. Từ ngày đó, tôi dừng mọi việc “tiện tay giúp đỡ”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

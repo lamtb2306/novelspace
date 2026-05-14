@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ÁC NỮ SONG SÁT">
   <meta name="twitter:description" content="Tôi và cô bạn thân từ nhỏ đã nổi tiếng là cặp “ác nữ song sát” trong trại trẻ mồ côi. Tôi miệng lưỡi độc địa, có thể mắng người ta đến phát khóc, còn cô ấy thì vũ lực bùng nổ, chuyên “lấy lý lẽ” ra...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

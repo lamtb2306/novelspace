@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 29 | Nơi Tôi Thuộc Về">
   <meta name="twitter:description" content="Đây là lần đầu tiên tôi có thể hoàn toàn dựa theo sở thích của mình mà lựa chọn mọi thứ trong cuộc sống. Cảm giác này, vừa lạ lẫm, lại vừa tuyệt diệu vô cùng. Tôi chọn xong một đống đồ lớn, đẩy xe ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

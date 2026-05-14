@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Bảy Năm Chung Chồng">
   <meta name="twitter:description" content="Anh ta lại nhìn về phía bếp, nhớ bao lần đi làm về mệt mỏi, mở cửa ra đã thấy tôi đứng dưới ánh đèn vàng ấm, nấu món anh thích nhất, cả căn phòng tràn ngập mùi hương hạnh phúc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | MƯỜI LĂM PHÚT CUỐI CÙNG">
   <meta name="twitter:description" content="Tôi không dám lớn tiếng, chỉ khe khẽ đáp. Rolls-Royce rẽ vào khu nhà họ Diêm, chạy qua con đường rợp bóng cây, dừng lại trước biệt thự. Mẹ bước ra, quan tâm hỏi: “Thế nào rồi?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

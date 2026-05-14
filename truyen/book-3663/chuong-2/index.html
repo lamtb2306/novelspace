@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | LƯỚI TÌNH">
   <meta name="twitter:description" content="Tôi kéo vali bước vào sảnh sân bay. Vừa đi được vài bước, đâu đó bỗng vang lên một tiếng hét chói tai. “Lâm Quỳ Sương kìa!” Chỉ trong chớp mắt, vô số máy quay, máy ảnh từ bốn phương tám hướng tràn ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

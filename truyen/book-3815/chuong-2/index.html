@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Mù Yêu Anh Năm Năm">
   <meta name="twitter:description" content="Sẽ không có ngày đó nữa. Không thấy biểu cảm vui mừng như điên mà anh ta mong đợi, Cố Hàn Đình hình như cũng nổi giận. “Thẩm Sơ, hôm nay rốt cuộc em lên cơn gì vậy?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Rắn Yêu Gõ Cửa">
   <meta name="twitter:description" content="Không lẽ… đến cả mèo em cũng sợ? Gan bé vậy sao! 【Chẳng phải con mèo mập này chính là con đã từng bắt nạt nam chính mấy hôm trước sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

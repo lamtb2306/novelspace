@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | HÀNH TRÌNH PHẢN CÔNG CỦA TIỂU BẢO">
   <meta name="twitter:description" content="Tôi là đứa trẻ mồ côi từ bé. Ba tôi mất trong một vụ tai nạn xe. Chú út thừa kế tập đoàn nhà họ Dư, đồng thời nuôi dưỡng cả tôi và mẹ. Cho đến một ngày, tôi nghe được tiếng lòng của mẹ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | VỢ TÔI CUỐI CÙNG CŨNG LY HÔN RỒI!">
   <meta name="twitter:description" content="Tôi chẳng có bí mật gì, cũng không hiểu sao anh lại bất ngờ lục điện thoại tôi. Một lúc sau, anh bật cười khẽ. “Quả nhiên là vậy…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

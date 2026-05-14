@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Cuộc Chiến Nhà Trên Nhà Dưới">
   <meta name="twitter:description" content="“Nhà tôi, Lạc Lạc, chỉ là một đứa trẻ, rất ngây thơ, đừng có áp đặt những suy nghĩ bẩn thỉu của người lớn lên nó!” “Mà nói cho cùng, chẳng phải chỉ chiếu một cái thôi sao? Cái tấm vải rách của ông ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

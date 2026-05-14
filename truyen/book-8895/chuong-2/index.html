@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Một Kỳ Nghỉ Đổi Ba Năm Cơm Nhà Nước">
   <meta name="twitter:description" content="Những thứ này chỉ cần ngâm trong nước 10 phút là hỏng hoàn toàn. Lô hàng này đã hẹn ngày đầu tiên sau kỳ nghỉ sẽ giao cho khách hàng lớn ở Thâm Quyến.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bát Bánh Trôi Không Nhân">
   <meta name="twitter:description" content="Mười lăm người quây quanh bàn tròn, mẹ vợ bưng lên món cuối cùng. Bánh trôi. Nhân mè đen, nhân lạc, nhân đậu đỏ. Từng bát từng bát được bày ra, nghi ngút khói. Đến lượt tôi, bánh trôi trong bát trắ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

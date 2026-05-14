@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | NÀNG THƠ CỦA CHÍNH TÔI">
   <meta name="twitter:description" content="Bên cạnh ID tài khoản của tôi là thời gian tạo file chính xác đến từng mili giây. Còn tài khoản của Lâm Khê, chỉ có vài lần mở và lưu lại sau khi tác phẩm đã hoàn thiện.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | 1040 Cây Số Vẫn Không Thoát">
   <meta name="twitter:description" content="Tôi từng nghĩ, chỉ cần chuyển trường là có thể trốn thoát. Từ Giang Thành đến Hải Ninh, một nghìn không trăm bốn mươi cây số. Trường mới, lớp mới, không ai quen biết tôi. Tôi tưởng rằng cuối cùng m...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

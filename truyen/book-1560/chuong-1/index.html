@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | THIÊN KIM GIẢ TRONG CHỢ ĐÊM">
   <meta name="twitter:description" content="Khi cha mẹ ruột lái chiếc Maybach đến tìm tôi, tôi đang mặc váy hai dây ngắn cũn cỡn, ngồi giữa chợ đêm, cùng một đám khách du lịch nam say xỉn chơi oẳn tù tì uống rượu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

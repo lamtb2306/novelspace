@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Một Trăm Mười Triệu Lương Tâm">
   <meta name="twitter:description" content="Mẹ nuôi bị ánh mắt tôi làm sợ hãi, tuột miệng nói: “Hôm nay là ngày vui lớn của nó, đang ở nhà Vương què làm lễ nạp, giờ chắc đã vào phòng tân hôn rồi.” Nhà Vương què không xa lắm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

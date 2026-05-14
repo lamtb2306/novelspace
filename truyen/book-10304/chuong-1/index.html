@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thuê Học Bá Làm Bài Tập Ở Bar">
   <meta name="twitter:description" content="Khi đang quẩy trong quán bar, tôi tình cờ gặp một nam thần học bá cùng trường. Khói mù mịt, tôi nheo mắt lại hỏi: “Làm không?” Anh ta nhướng mày, lười biếng ngả người trên sofa, ra hiệu cho tôi tiế...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

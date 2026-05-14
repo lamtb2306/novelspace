@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tình Mẹ">
   <meta name="twitter:description" content="Tất nhiên con thú nhỏ đó không phải tôi. Mà là mẹ đang cuộn mình trên sofa, quấn chăn, mắt đỏ sưng. “Con nói xem, một đứa con gái như con, đi xa như thế làm gì? Bắc Kinh có gì tốt?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

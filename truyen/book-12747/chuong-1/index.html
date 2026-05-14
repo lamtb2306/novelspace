@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BẢN CHẤT GIẤY ĐĂNG KÝ KẾT HÔN">
   <meta name="twitter:description" content="Ngày thứ hai sau khi đăng ký kết hôn, tôi lướt thấy một bài đăng hot trong thành phố.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

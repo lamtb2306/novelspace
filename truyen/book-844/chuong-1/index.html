@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TẾT NĂM ẤY TÔI BỊ ĐUỔI KHỎI NHÀ">
   <meta name="twitter:description" content="Bố tôi trước mặt toàn bộ họ hàng, đập mạnh tay xuống bàn, nước bọt bắn tung tóe. “Hôm nay tôi nói rõ luôn ở đây! Sau này chuyện dưỡng già của tôi và mẹ cậu, toàn bộ giao cho Lâm Huy!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

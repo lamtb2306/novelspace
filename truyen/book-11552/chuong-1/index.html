@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bà tổng đổi gu">
   <meta name="twitter:description" content="Tôi đang chuẩn bị ký hợp đồng với một tân binh tên là Lục Cẩn. Một người còn non nớt như cậu ta, lại đột nhiên trở nên lạnh lùng và cao ngạo. Hoàn toàn không giống một tân binh mới vào nghề.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thông Phòng Thành Quận Chúa">
   <meta name="twitter:description" content="Năm thứ bảy làm nha hoàn thông phòng, ta mang thai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bánh Trung Thu Mốc">
   <meta name="twitter:description" content="Bạn nữ chí cốt của chồng tôi Tưởng Ngâm, mang đến mấy cái bánh trung thu ngũ nhân. Tôi nhìn thấy trong nhân có chấm mốc, vội vàng khuyên chồng đừng ăn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

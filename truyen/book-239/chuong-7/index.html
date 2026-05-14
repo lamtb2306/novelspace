@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Mùa Hè Năm Ấy Vẫn Còn Yêu">
   <meta name="twitter:description" content="Ngồi chính diện là Thẩm Nghiễn Lễ, người vừa chuyển tôi một triệu. Âu phục màu tối cắt may chỉn chu, tóc vuốt keo bóng loáng, trông như chuẩn bị đi tiệc chứ không phải họp. “Sếp Thẩm, đây là người ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

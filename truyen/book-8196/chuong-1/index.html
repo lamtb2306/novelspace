@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bẫy Nguyện Vọng">
   <meta name="twitter:description" content="Ngày công bố điểm thi đại học, tôi cùng cậu bạn thanh mai trúc mã ngồi tra cứu nguyện vọng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

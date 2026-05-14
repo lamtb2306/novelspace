@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Người cha xa lạ">
   <meta name="twitter:description" content="【Yêu con khỉ ấy!】 【Haha, ông ta chẳng phải yêu “em gái” của cô ta sao.】 【Người phụ nữ này sao mà ghê tởm thế?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

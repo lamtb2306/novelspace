@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | GIÔNG TỐ TRONG LÒNG">
   <meta name="twitter:description" content="Hình ảnh tôi bị lột sạch quần áo hôm đó, cuối cùng vẫn bị chụp lại. Và hiện tại, nó đang lan truyền khắp internet với tốc độ khủng khiếp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

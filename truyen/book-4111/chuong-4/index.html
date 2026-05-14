@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | NGƯỜI YÊU TÔI LÀ NAM THẦN">
   <meta name="twitter:description" content="Tôi cũng không biết anh ấy thả tôi ra từ lúc nào. Chắc là lúc tôi mặt đỏ bừng như sắp ngất đi. Anh ấy mới bất đắc dĩ buông bàn tay đang luồn vào tóc tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

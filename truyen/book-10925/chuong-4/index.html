@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Hộp Mù Tình Yêu">
   <meta name="twitter:description" content="Anh ta chỉ vào chiếc váy tôi đang mặc, rồi lại chỉ sợi dây chuyền kim cương trên cổ tôi, cười khinh bỉ: “Mấy thứ này, em xứng sao?” “Trò chơi kết thúc rồi. Trả lại hết những thứ không thuộc về em đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

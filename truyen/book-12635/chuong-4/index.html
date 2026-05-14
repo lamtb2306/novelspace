@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Rắn Yêu Gõ Cửa">
   <meta name="twitter:description" content="Đuôi nó gõ vào cái tên: “Rắn phu yêu kiều ngươi chạy đâu!” Tôi: “Em thích cái tên này?” Tiểu Hắc gật đầu! Tôi: “…” Khỉ thật. Không lẽ nó còn trộn lẫn trong cái giới kia sao!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BA NGÀY KHÔNG CHO BÁO TIN">
   <meta name="twitter:description" content="Rồi tôi không nói một lời, xoay người bước về phía phòng kỷ luật. Lưỡi dao lạnh lẽo rạch qua da tay tôi, máu nóng trào ra, nhỏ xuống nền xi măng, rất nhanh tụ thành một vũng đỏ sẫm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

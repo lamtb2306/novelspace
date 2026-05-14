@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | BỆNH CỦA CHỊ ÁN TỬ CỦA TÔI">
   <meta name="twitter:description" content="Tôi đã cười nói: “Tôi chỉ muốn làm một việc tốt thôi, lỡ một ngày nào đó uống nước lạnh bị sặc chết, còn có thể tận dụng phế vật.” Tôi cầm bút, tay run đến mức ngay cả tên mình cũng viết xiêu vẹo.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | GẶP LẠI NGƯỜI YÊU CŨ">
   <meta name="twitter:description" content="Ba năm sau khi chia tay với thiếu gia giới kinh thành, chúng tôi vô tình gặp lại nhau ở chợ. Gia đình anh ấy đã phá sản, giờ đây trông chẳng khác gì một con chó lang thang nơi đầu đường xó chợ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

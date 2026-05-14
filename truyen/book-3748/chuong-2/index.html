@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | LỤC TIỂU HOA">
   <meta name="twitter:description" content="Cho đến một ngày, chị nắm tay tôi kéo xuống khỏi gác, đứng trước mặt mẹ. “Mẹ, cho em đi học đi.” “Chuyện đó là lỗi của bọn buôn người, không liên quan đến em ấy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

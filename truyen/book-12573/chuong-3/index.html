@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Người Ngoài Trong Nhà">
   <meta name="twitter:description" content="Tôi chuyển vào khách sạn năm sao tốt nhất ở trung tâm thành phố. Nằm trên chiếc giường lớn mềm mại, tôi gọi dịch vụ phòng. Tôm hùm Úc, bít tết thượng hạng, những món trước đây tôi chê đắt không dám...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

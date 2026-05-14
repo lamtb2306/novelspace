@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Sau Khi Trúng Số, Tôi Rời Khỏi Công Ty">
   <meta name="twitter:description" content="Tôi tên là Lâm Dao, 26 tuổi, làm chuyên viên hành chính ở Tập đoàn Hằng Thái được bốn năm. Lương tháng bốn ngàn tám. Ba ngày trước, tôi mua một tờ vé số. Chỉ là đi ngang qua tiệm vé số rồi tiện tay...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

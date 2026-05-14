@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CUỐI CÙNG CŨNG TÌM ĐƯỢC EM">
   <meta name="twitter:description" content="Từ ngày đó, tôi không bao giờ quay lại nhà nữa. Tôi nghỉ việc, một mình bay đến thành phố khác. Trong lòng tôi có một ngọn lửa — dù có nghiến răng chịu đựng, tôi cũng phải sống ra hồn một lần. Năm ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

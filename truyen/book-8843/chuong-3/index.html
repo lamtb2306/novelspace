@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chiếc Bánh Trung Thu 5 Triệu">
   <meta name="twitter:description" content="Những lời nói dối lan truyền nhanh như virus. Tôi nhìn chằm chằm vào dòng bình luận ấy. Tôi biết, đó chính là giọt nước tràn ly.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

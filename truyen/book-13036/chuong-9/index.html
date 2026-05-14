@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Hôn Ước Học Đường">
   <meta name="twitter:description" content="Tôi giới thiệu cho cậu ta một trò chơi cờ bạc đang rất “hot”. Tôi biết, có thể ban đầu cậu ta sẽ không mắc bẫy. Nhưng với bản tính đó, thời gian đủ lâu thì chắc chắn sẽ không cưỡng lại nổi cám dỗ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

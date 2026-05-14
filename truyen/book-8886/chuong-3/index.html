@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | THÍCH EM TỪ LẦN GẶP ĐẦU TIÊN">
   <meta name="twitter:description" content="Lúc này tôi mới nhớ ra, hôm nay khi thanh toán, tài khoản WeChat thường dùng của tôi đã hết tiền, nên tôi đã đăng nhập vào tài khoản WeChat khác.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

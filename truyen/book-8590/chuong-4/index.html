@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | CÁI GIÁ CỦA LÒNG THAM">
   <meta name="twitter:description" content="Bố tôi giơ một bàn tay. “Năm chục triệu. Coi như tôi – người bác – có chút tấm lòng với hậu bối.” Chú tôi nhảy dựng lên: “Mới có năm chục?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

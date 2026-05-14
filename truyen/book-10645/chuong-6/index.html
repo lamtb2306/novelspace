@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Người Trở Về Không Phải Chồng Tôi">
   <meta name="twitter:description" content="Tôi nhìn anh ta, khẽ cười nhưng không hề có ý cười thật sự: “Anh là gì của tôi…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ly Nước Giá Trăm Đô">
   <meta name="twitter:description" content="Ra khỏi thẩm mỹ viện, tôi bị bà chủ gọi giật lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

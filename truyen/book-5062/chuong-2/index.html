@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tiểu Cửu Không Tồn Tại">
   <meta name="twitter:description" content="Ta nâng chén trà lên nhấp một ngụm, giọng điệu tùy ý như đang tán chuyện thời tiết: “Lâu rồi không còn nữa, con quên rồi sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

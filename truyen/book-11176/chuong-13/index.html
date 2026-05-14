@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 13 | Bản Sao Của Tôi">
   <meta name="twitter:description" content="Giọng Lâm Niệm lập tức lạnh xuống, đầy hận ý khắc cốt. “Chị về hỏi ông ta đi.” “Hỏi xem ba mươi năm trước, ở chợ đêm đó.” “Người thanh niên bị anh họ súc sinh của Lý Kiến Quốc đâm chết.” “Tên là gì...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Chỉ cần anh không làm ca đêm">
   <meta name="twitter:description" content="“Hàng trong nhà máy cô, chúng tôi đã thu giữ hết. Người cũng đã bắt. Cô đừng diễn trò nữa.” “Không thể nào! Hàng của tôi giấu kỹ như vậy, làm sao các người có thể tìm ra được?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

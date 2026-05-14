@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | YÊU ĐƯƠNG QUA MẠNG">
   <meta name="twitter:description" content="Trong buổi kiểm tra thể lực chạy 800 mét, lỡ tay bấm gọi cho người yêu qua mạng. Đợi đến khi chạy xong, thở dốc hồi sức lại, phát hiện người yêu – bình thường rất ít nói – đột nhiên gửi tin nhắn th...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

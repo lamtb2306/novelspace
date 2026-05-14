@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Người đứng đầu danh sách">
   <meta name="twitter:description" content="“Khi anh đưa tôi vào vị trí đầu tiên trong danh sách sa thải, thì lòng tin tôi dành cho anh, đã không còn.” “Nhưng… nhưng giờ anh biết sai rồi.” Giọng Phương Dĩ Nam nghẹn lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

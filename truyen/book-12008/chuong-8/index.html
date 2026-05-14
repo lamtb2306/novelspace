@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | BẠCH CỐT VÔ HOA">
   <meta name="twitter:description" content="Tiêu Dự tiều tụy ngồi đối diện tôi — hay đúng hơn là đối diện với bộ xương của tôi — suốt một ngày một đêm. Nếu không phải nhìn thấy lồng ngực anh còn phập phồng, tôi cũng không biết ai mới thật sự...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | GẶP NGƯỜI YÊU QUA MẠNG">
   <meta name="twitter:description" content="Mười hai giờ đêm, tôi trừng mắt mãi mà vẫn không ngủ nổi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

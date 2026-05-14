@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tình yêu không dung nổi ba người">
   <meta name="twitter:description" content="Bạn trai tôi có một cô bạn thanh mai trúc mã, tính ham ăn lại trí nhớ kém vô cùng. Cô ấy chẳng bao giờ nhớ nổi chỗ bán đồ ăn ngon. Trà sữa ở phía đông thành, bạch tuộc nướng ở phía bắc thành, lần n...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

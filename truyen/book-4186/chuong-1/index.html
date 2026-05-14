@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ngày Cuối Cùng Của Em Gái Tôi">
   <meta name="twitter:description" content="Trước khi tôi chết, ba mẹ đã tính với tôi một món nợ. Họ nói, cả đời này, họ không bạc đãi tôi. Người ta có gì, tôi cũng có cái đó. “Nhưng nhà mình giờ không còn nhiều tiền nữa.” “Ba mẹ cũng chỉ là...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

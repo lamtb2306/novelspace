@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Tôi Không Thể Rời Đi">
   <meta name="twitter:description" content="Không còn cách nào khác, tôi đành tự mình về nhà lấy. Đi đến trước cửa nhà, tôi móc chìa khóa ra tra vào ổ, nhưng vặn thế nào cũng không mở được, chìa khóa cũng cứng đầu không rút ra nổi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tô Gia Tiệm Giấy Tang">
   <meta name="twitter:description" content="Tôi giả vờ không hiểu: “Cái gì là tôi làm? Giang Đại tiểu thư, có phải cô gọi nhầm số rồi không?” “Cô đừng giả vờ nữa! Người tôi phái đi tìm cô đều chết hết rồi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

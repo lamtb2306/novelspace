@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Gia Đình Thiên Tài Và Con Cá Mặn">
   <meta name="twitter:description" content="Đây mới là nhân gian! Đây mới là sân nhà của tôi! Tôi theo địa chỉ gõ cửa phòng 302. Người mở cửa là một phụ nữ trung niên, mặc tạp dề, tay còn cầm xẻng đảo chảo. Thấy tôi, bà sững người. “Con…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

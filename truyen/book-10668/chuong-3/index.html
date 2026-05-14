@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Bạch Liên Đừng Diễn, Tôi Có Cả Rạp Phim Ở Đây">
   <meta name="twitter:description" content="“Nếu con không thích thì thôi khỏi mặc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHỖ ĐẬU ĐẮT GIÁ">
   <meta name="twitter:description" content="Nửa đêm mười hai giờ, tôi bất ngờ nhận được tin nhắn WeChat từ cô hàng xóm tầng dưới. Cô ta hỏi tôi: “Chị Lận ơi, nhà chị có phải có hai chỗ đậu xe không?” Tôi cố nhịn cơn buồn ngủ, trả lời một chữ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

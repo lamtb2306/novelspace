@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Mười hai triệu bảy trăm ba mươi nghìn">
   <meta name="twitter:description" content="Tôi nhìn dãy số đó, trong lòng không gợn sóng gì mấy. Đây chỉ là số tiền đầu tiên tôi lấy lại được.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

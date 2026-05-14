@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Hành trình hồi sinh trên đất lành">
   <meta name="twitter:description" content="Tôi ngẩng đầu lên. Một cô gái trẻ mặc áo thun trắng, quần jean, tóc buộc cao, đeo ba lô vải, da trắng, mắt sáng— trông trạc tuổi tôi. “Là tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

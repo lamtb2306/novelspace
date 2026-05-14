@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Vị Khách Không Mời">
   <meta name="twitter:description" content="“Lạc Du, hôm nay mình đi dạo trung tâm thương mại mới mở nhé? À, còn có phim mới nữa, đi xem không?” Đúng lúc tôi vừa thay xong một bộ vest trang trọng, từ phòng bước ra: “Đi chứ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

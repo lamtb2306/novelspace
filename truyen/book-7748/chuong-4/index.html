@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | MỘT CHÚT THÚ VỊ">
   <meta name="twitter:description" content="Sau khi ra khỏi phòng tiếp khách, vệ sĩ nhìn tôi với vẻ mặt đầy khó xử, hỏi: “Cô Trần, cô thật sự muốn đi à?” “Ừ, ba tháng kiếm được gần cả trăm ngàn, đủ để tôi về quê mua một căn nhà, nuôi một con...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

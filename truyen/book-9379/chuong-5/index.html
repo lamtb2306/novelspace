@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Tạm biệt nửa đời trước không ra gì">
   <meta name="twitter:description" content="Tôi đã giằng co trong nỗi đau một thời gian dài rồi mới có thể bước ra. Không yêu là không yêu, dù tôi có làm ầm lên cũng chẳng thay đổi được gì.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

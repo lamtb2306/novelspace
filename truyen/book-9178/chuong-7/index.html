@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Người Đàn Ông Tôi Yêu Muốn Chiếm Cả Nhà Lẫn Tiền Của Tôi">
   <meta name="twitter:description" content="Chỉ lặng lẽ chụp màn hình lại toàn bộ lịch sử trò chuyện. Vài ngày sau, một người không ngờ tới lại hẹn gặp tôi. Là Bạch Vi Vi. Chúng tôi gặp nhau trong một quán cà phê.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

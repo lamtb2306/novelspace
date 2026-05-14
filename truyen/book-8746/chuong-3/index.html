@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Livestream Đổi Mạng">
   <meta name="twitter:description" content="Người từng vì tôi bị cảm mà bay mấy tiếng sang London chỉ để nấu cháo gà, cuối cùng lại là người ngay sau khi tôi chết đã lên giường với Thẩm Thanh. Không ai đứng về phía tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

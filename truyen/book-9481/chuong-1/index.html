@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHIẾC VÒNG TỤ TÀI">
   <meta name="twitter:description" content="Vào ngày sinh nhật, bạn trai học bá của tôi tặng tôi một chiếc vòng bạc, còn nói bạc có thể tụ tài. Tôi cười cười, không mấy tin. Nhưng chỉ sau vài ngày, tôi thực sự trúng giải thưởng một tỷ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | ĐI GẶP ANH TÓC VÀNG">
   <meta name="twitter:description" content="Mở ra xem — lại là “99+” tin nhắn. “Xin lỗi, sáng tôi bận đi làm, không kịp xem điện thoại.” Tôi có chút áy náy. “Không sao không sao!” Hắn vội vàng xua tay. “Tôi biết em không cố ý. Nhưng mà…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

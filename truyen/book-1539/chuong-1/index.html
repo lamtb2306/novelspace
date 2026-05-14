@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | SẾP PHẢI LÒNG NHÂN VIÊN">
   <meta name="twitter:description" content="Nửa đêm tôi nhắn tin cho sếp: “Anh Trần, hôm nay em bị choáng đầu, em xin nghỉ phép được không ạ?” Ngủ dậy, danh sách tin nhắn báo 99+. Tin nhắn đầu tiên của Trần Dịch là: “Với ai?” “Anh ta có nhiề...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

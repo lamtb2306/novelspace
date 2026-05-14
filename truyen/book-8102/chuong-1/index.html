@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MỐI TÌNH TAY BA">
   <meta name="twitter:description" content="Ôn Yến là người thiếu cảm giác an toàn. Mỗi lần yêu xa, anh ấy đều tìm đủ mọi cách để thử xem tôi có yêu anh ấy không. Lần này, anh ấy dùng chiêu mới: tạo một tài khoản phụ. Tôi liếc qua là nhận ra...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thanh Mai Muốn Tôi Nuôi Anh Ta Học Hoa Đại">
   <meta name="twitter:description" content="Sau khi có kết quả thi đại học, tôi chỉ đỗ vào một trường hạng hai bình thường, còn cậu thanh mai trúc mã thiên tài nhưng nghèo khó lại đỗ vào Đại học Hoa Đại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

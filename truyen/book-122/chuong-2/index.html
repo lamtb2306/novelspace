@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | LẠC OÁN">
   <meta name="twitter:description" content="Sau đó, ta thường đến nhà A Bình. Vì mẫu thân của A Bình đã thay đổi. Bà nói rằng bà sẽ dạy A Bình biết chữ. Ta theo A Bình, bà cũng dạy ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

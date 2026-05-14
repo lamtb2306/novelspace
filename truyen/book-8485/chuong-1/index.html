@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TẬN THẾ TRƯỚC KỲ THI ĐẠI HỌC">
   <meta name="twitter:description" content="Ba ngày trước kỳ thi đại học, tôi đột nhiên nhìn thấy trên đầu mọi người xuất hiện một con số. Tôi tưởng rằng đó chỉ là đồng hồ đếm ngược đến ngày thi. Cho đến ngày thi, ngày tận thế với nhiệt độ c...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 14 | Người Chồng Chỉ Xuất Hiện Mỗi Năm Một Lần">
   <meta name="twitter:description" content="Anh không hoàn toàn quên tôi. Như vậy là đủ rồi. Chỉ cần anh còn sống, chỉ cần anh vẫn ở đây. Cho dù anh không nhớ gì nữa, cũng không sao. Chúng tôi có thể bắt đầu lại từ đầu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

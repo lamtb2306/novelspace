@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | RỰC RỠ THEO CÁCH RIÊNG">
   <meta name="twitter:description" content="“Tôi biết rồi.” Tôi bình tĩnh cúp máy. Tiểu Trần đứng bên cạnh tức giận nói: “Quá đáng thật đấy!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

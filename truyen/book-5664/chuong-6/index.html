@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Ám Ảnh Đám Cưới">
   <meta name="twitter:description" content="Còn tôi, chỉ có thể đi theo con đường đã được sắp sẵn. 7 Đám “hôn lễ” thứ hai được sắp xếp vào ba ngày sau.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

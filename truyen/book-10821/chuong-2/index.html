@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Chúng Ta Đừng Gặp Lại">
   <meta name="twitter:description" content="Trước cửa bày vài dãy ảnh chụp du khách, vị trí trung tâm rõ ràng là Mục Trường Khanh với gương mặt dịu dàng. Trong mắt anh ánh lên tia sáng mà tôi quen thuộc nhất, tay anh cầm nút đồng tâm lớn che...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

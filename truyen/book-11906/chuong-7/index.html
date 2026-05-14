@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | ƯỚC HẸN MƯỜI NĂM">
   <meta name="twitter:description" content="Hành động này khiến tất cả mọi người sững sờ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

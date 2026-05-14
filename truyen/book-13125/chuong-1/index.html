@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | LẠNH TRONG TIM">
   <meta name="twitter:description" content="Dự báo bão tuyết, tôi gọi điện cho Cố Hoài, bảo anh ấy đến công ty đón tôi. Chờ mãi mới nhận được tin nhắn của anh: “Thời tiết thế này, Viên Viên sống một mình nguy hiểm lắm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

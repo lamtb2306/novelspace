@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tôi Làm Việc, Không Làm Ơn">
   <meta name="twitter:description" content="Tôi bỗng hiểu ra mọi chuyện. Là giám đốc kinh doanh, tôi ngồi làm việc chung với mọi người, chỉ khác là cả dãy này chỉ có một mình tôi, tầm nhìn thoáng đãng, ngẩng đầu là thấy toàn bộ đối diện. Bây...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

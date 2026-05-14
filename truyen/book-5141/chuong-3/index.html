@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tuyến Bay Không Giao Nhau">
   <meta name="twitter:description" content="Tổng cộng một trăm tấm ảnh, mỗi tấm đều mang ý nghĩa đặc biệt, đều là những phong cảnh họ đã cùng nhau đi qua.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

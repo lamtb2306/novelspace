@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tôi Chỉ Muốn Rút Tiền Của Mình">
   <meta name="twitter:description" content="Tôi nghiến răng, lạnh giọng nói: “Mục đích rút tiền tôi đã nói rõ khi đặt lịch rồi. Còn tiền gửi của tôi, các anh không tự tra được sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

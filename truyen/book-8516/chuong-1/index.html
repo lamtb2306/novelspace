@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TUYỆT ĐỐI KHÔNG GẢ">
   <meta name="twitter:description" content="Ngày cưới, tôi mặc váy trắng ngồi chờ Tần Hạo đến rước dâu. Thế nhưng sát giờ làm lễ, anh ta chỉ gọi một cuộc điện thoại: “Y Y say xe, không ngồi được xe người khác, chỉ có thể ngồi Cullinan của anh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

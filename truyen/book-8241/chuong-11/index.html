@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 11 | Bàn Cơm Giao Thừa Không Có Phần Tôi">
   <meta name="twitter:description" content="Cấm họ xuất hiện trong phạm vi một trăm mét quanh nhà tôi, công ty của tôi và những nơi khác tôi thường lui tới. Nếu vi phạm, nhẹ thì phạt tiền, tạm giam, nặng thì truy cứu trách nhiệm hình sự.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

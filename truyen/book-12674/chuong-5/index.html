@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Hồ Sơ Bí Ẩn">
   <meta name="twitter:description" content="“Tôi biết hiện giờ cô đang ở đâu, cũng đại khái đoán được cô đang làm gì.” Câu nói ấy khiến tôi rùng mình. Nhà họ Thẩm đúng thật đang theo dõi tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

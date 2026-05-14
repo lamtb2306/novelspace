@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KHÔNG GẶP, KHÔNG NỢ , KHÔNG NHỚ">
   <meta name="twitter:description" content="Tôi và Tạ Cảnh Chiêu kết hôn rồi lại ly hôn trước mộ của Bạch Nguyệt Quang anh ấy. Lúc kết hôn, anh ấy nói: “Đây là tâm nguyện của Tây Đường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

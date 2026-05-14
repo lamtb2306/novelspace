@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CUỘC ĐÀI THOÁT LÚC 1 GIỜ SÁNG">
   <meta name="twitter:description" content="Về phía xa xôi, hoang vu, hẻo lánh hơn. Chạy được một đoạn, Chu Nham dừng xe tại trạm dịch vụ. “Em ở yên trên xe, khóa cửa lại, dù ai gõ cũng không được mở.” Anh dặn dò. Rồi xuống xe, đi vào cửa hà...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

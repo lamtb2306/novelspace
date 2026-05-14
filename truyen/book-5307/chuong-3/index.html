@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tám Năm Hẹn Ước, Một Lời Từ Biệt">
   <meta name="twitter:description" content="Tôi cố nuốt nghẹn, đưa tay ra trước mặt anh. “Được rồi, anh lừa tôi vì lý do gì, tôi cũng chẳng muốn hỏi nữa.” “Trả lại chiếc đồng hồ cho tôi, từ nay đừng gặp lại.” Bên ngoài, có đám người tụ tập xem.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chiếc Bẫy Trà Xanh">
   <meta name="twitter:description" content="Nghỉ lễ Quốc tế Lao động được nghỉ sớm, ba mẹ bảo anh trai đến trường đón tôi. Trên đường về, bạn gái anh gọi video, thấy tôi ngồi ghế phụ liền lập tức biến sắc. “Em gái anh làm sao vậy, không biết...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

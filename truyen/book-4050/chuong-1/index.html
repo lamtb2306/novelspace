@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGÔI SAO VÀ KẺ PHẢN BỘI">
   <meta name="twitter:description" content="Lúc 10 giờ tối, tôi bất ngờ nhận được cuộc gọi từ một chị nhân viên bán hàng quen thuộc. Cô gái nhỏ mang giọng nghẹn ngào xin lỗi: “Chị ơi, anh rể vừa đến lấy hai bộ đồ lót, do mạng bị lỗi nên chưa...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | LỤC TRẦM NGUYỆT">
   <meta name="twitter:description" content="Anh ngừng lại, như đang cân nhắc từ ngữ. “Là những tấm hình bánh ngọt và mấy câu chuyện cười ngốc nghếch em gửi mỗi ngày… đã kéo tôi ra khỏi vực sâu.” “Nếu tôi nói mình là đàn ông…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

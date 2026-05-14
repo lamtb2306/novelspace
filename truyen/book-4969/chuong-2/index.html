@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Thanh Xuân Rực Rỡ">
   <meta name="twitter:description" content="Hiện thực lúc nào cũng phũ phàng hơn tưởng tượng. Ngày đầu tiên vào lớp mới, tôi đã gặp xui. Không hổ danh là lớp nổi tiếng “vấn đề” nhất toàn trường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

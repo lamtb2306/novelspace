@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đổi Mệnh Nữ Phụ">
   <meta name="twitter:description" content="Tôi tài trợ cho cậu học sinh nghèo điển trai nhất trường, vậy mà cậu ta lại ném thẳng thẻ ngân hàng của tôi trước mặt bao người.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

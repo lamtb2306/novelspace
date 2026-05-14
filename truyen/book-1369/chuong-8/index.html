@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Máy Rút Tiền Mang Tên Con Gái">
   <meta name="twitter:description" content="Tôi chỉ nói với cảnh sát một câu: “Chuyện của họ không liên quan gì đến tôi, tôi không thích dính vào chuyện gia đình người khác.” Họ không biết tôi và chồng đã sắp xếp công việc ở một thành phố mớ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

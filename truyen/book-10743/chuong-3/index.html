@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | ĐỪNG GỌI ĐÓ LÀ YÊU">
   <meta name="twitter:description" content="Tôi nhìn về phía Nhã Nhã và đứa con của cô ta, lạnh nhạt nói: “Sau này họ cũng sẽ sống ở đây, những chuyện như vậy…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

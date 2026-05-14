@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ANH MÃI MÃI LÀ CỦA EM">
   <meta name="twitter:description" content="Món đồ chơi nhỏ lén mua lại bị gửi nhầm đến nhà anh kế. Anh ấy tìm khắp nơi xem là của ai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

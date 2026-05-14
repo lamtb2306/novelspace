@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | KỶ NINH">
   <meta name="twitter:description" content="“Một người như vậy là người thế nào?” Tôi rưng rưng nước mắt, đối diện với ánh mắt đầy khinh bỉ của ông.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

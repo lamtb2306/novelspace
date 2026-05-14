@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Sai Ghế, Sai Người">
   <meta name="twitter:description" content="Một bà cô bên cạnh chỉ tay mắng tôi: “Cô đúng là chẳng có phép tắc gì! Rõ ràng sai lè còn dám trách người khác.” Những hành khách khác cũng hùa theo: “Đúng thế! To tiếng thì hay lắm à!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

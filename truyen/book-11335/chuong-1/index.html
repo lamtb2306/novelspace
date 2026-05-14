@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trả Anh Cho Người Khác">
   <meta name="twitter:description" content="Bảy năm sau, ở sân bay, em gái của bạn trai cũ chỉ thẳng vào tôi, giọng the thé. “Thẩm Thanh Huyền, cô tuyệt đối không thể kết hôn!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chiến Thắng Của Bà Trùm Chung Cư">
   <meta name="twitter:description" content="Đối diện nhà tôi có cô hàng xóm đang mang bầu, cô ta bắt nhà tôi phải mở điều hòa 24/24. “Nhà tôi không có điều hòa, tôi cũng không muốn ngày nào cũng qua nhà cô để hóng mát.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TAXI ÂM DƯƠNG">
   <meta name="twitter:description" content="Tôi sinh ra đã đặc biệt, mệnh cũng đặc biệt, hiện tại đang lái taxi ngoài thành. Ban ngày chở người kiếm tiền mặt, ban đêm chở ma tích công đức, hai bên không bên nào chậm trễ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

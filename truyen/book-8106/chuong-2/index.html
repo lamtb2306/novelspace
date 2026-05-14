@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | ĐỨA CON DẠI KHỜ">
   <meta name="twitter:description" content="Tôi uống mấy ngụm nước để trấn tĩnh lại, mãi mà vẫn không thốt nổi một lời. Tôi quay sang nhìn đứa trẻ bên cạnh Tiết Đại Bảo. “Đây là…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

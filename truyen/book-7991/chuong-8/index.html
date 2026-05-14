@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Trò Đùa Giá Bao Nhiêu">
   <meta name="twitter:description" content="Chó cắn chó, lông bay tứ phía! Cảnh tượng trước mắt bẩn thỉu đến phát tởm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

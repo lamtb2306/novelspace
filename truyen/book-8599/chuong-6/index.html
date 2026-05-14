@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | BẤT NGỜ CHO HAI BÁC">
   <meta name="twitter:description" content="Tôi mặc kệ, buông cậu ấy ra, quay sang Cố Dục. “Thấy chưa? Chúng tôi mới là vợ chồng.” “Đừng tới tìm tôi nữa.” Sau lưng, chẳng biết từ lúc nào bố mẹ tôi đã đứng trong phòng khách.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

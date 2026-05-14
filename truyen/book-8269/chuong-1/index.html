@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGÔI SAO SÁNG">
   <meta name="twitter:description" content="Tôi là con chó trung thành của Chu Lễ. Cậu ấy trốn học đi ngủ, tôi là người che chắn. Cậu ấy theo đuổi nữ sinh chuyển trường, tôi là người đưa thư tình. Kỳ thi đại học kết thúc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Bẫy Hôn Nhân">
   <meta name="twitter:description" content="Tôi phóng to bức ảnh, cái tên trên phiếu siêu âm là Kiều Nhạc. Tim tôi chìm xuống đáy vực, thì ra câu “đứa trẻ không thể không có bố” là thật. Ở cuối email, chú Minh viết thêm một câu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

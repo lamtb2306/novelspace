@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Khi Học Trò Cướp Luôn Công Lao Của Thầy">
   <meta name="twitter:description" content="Chúng tôi nhìn nhau chằm chằm vài giây. Cô ta rời mắt đi trước, cầm lấy tập tài liệu trên bàn. “Tô Niệm, tôi không biết cô đang nói cái gì.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

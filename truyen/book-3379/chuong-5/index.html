@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | KHÔNG PHẢI MÈO CỦA TÔI">
   <meta name="twitter:description" content="Chị ấy đi rồi, còn mừng rỡ lắm. Ngay lúc đó, có tiếng gõ cửa văn phòng. Có người báo rằng tổng giám đốc nhỏ – cô Lâm – muốn bàn chuyện một dự án với tôi. Chính là cô tiểu thư ấy!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

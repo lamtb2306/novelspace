@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Ngày Thi Đại Học, Tôi Bị Vu Đi Xe Chùa">
   <meta name="twitter:description" content="“Định bỏ chạy đúng không? Anh nói cho em biết, anh là người mắt không dung được hạt cát.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

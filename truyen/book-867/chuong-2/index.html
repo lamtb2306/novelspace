@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Đơn Điều Chuyển">
   <meta name="twitter:description" content="Nói cô ta hời hợt, không chín chắn, khó qua nổi kỳ thực tập. Cho đến lần đó, trong buổi tiếp đón khách hàng quan trọng, Lâm Trạch bỗng phát bệnh dạ dày cấp tính. Khi ấy tôi đi công tác ở xa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

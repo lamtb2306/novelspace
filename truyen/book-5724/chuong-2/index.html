@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Đêm Giao Thừa, Tôi Tỉnh Giấc">
   <meta name="twitter:description" content="Tôi không muốn nghe thêm nữa, liền cúp máy, đứng dậy hâm nóng lại mấy món ăn đã nguội ngắt. Thịt bò luộc cay mà Kỷ Dương thích, đậu hủ Tứ Xuyên mà Tô Nhã mê, thịt viên xíu mại mà Hạo Hạo thích ăn… ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

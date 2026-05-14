@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CÁ CƯỢC HỌC ĐƯỜNG">
   <meta name="twitter:description" content="Tôi và cậu bạn thanh mai trúc mã cùng cô bạn cùng bàn đã đánh cược với nhau. Cược rằng trước khi hết hạn đăng ký, tôi có phát hiện ra tụi nó đã âm thầm đổi nguyện vọng đại học của tôi hay không. Đế...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

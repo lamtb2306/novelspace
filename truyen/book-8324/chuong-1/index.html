@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Em Gái Trà Xanh Và Chuyến Xe Đi Nhờ">
   <meta name="twitter:description" content="Trong chuyến du lịch, Bùi Húc Phong cho một cô gái đi nhờ xe. Cô ta bị bạn bỏ quên ở trạm thu phí, tình cờ lại đi cùng hướng với chúng tôi. Suốt dọc đường, cô ta và Bùi Húc Phong hợp nhau đến lạ kỳ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

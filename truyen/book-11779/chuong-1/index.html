@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | THÁI TỬ GIA TỎ TÌNH">
   <meta name="twitter:description" content="Do gia đình tôi thuộc hàng hào môn kém nhất. Tôi nổi tiếng là nhát gan trong giới, chẳng dám đắc tội với ai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

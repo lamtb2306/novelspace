@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Sau Khi Thay Bạn Cùng Phòng Hẹn Hò Với Ông Chú">
   <meta name="twitter:description" content="Bạn cùng phòng chê người yêu quen qua mạng của cô ta quá “ông chú”, nên muốn chuyển nhượng cho tôi. “Anh ta cứ động một chút là kiểm tra vị trí của tớ, thậm chí tớ mặc gì cũng quản.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

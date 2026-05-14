@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Mười Tám Năm Không Bằng Một Cô Gái Mười Tám">
   <meta name="twitter:description" content="Tôi bàng hoàng nhìn anh. Rốt cuộc là tôi đã thay đổi, hay anh đã thay lòng?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

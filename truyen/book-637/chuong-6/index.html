@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | ÂM THANH KHÓ QUÊN">
   <meta name="twitter:description" content="Tôi chưa từng ngồi trên chiếc xe nào chạy nhanh như thế này… Tạ Trần giữ vẻ mặt bình tĩnh, hoàn toàn phớt lờ những tiếng còi xe và ánh mắt kinh ngạc của người đi đường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

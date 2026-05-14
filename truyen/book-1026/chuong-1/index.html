@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bóng Hình Người Thứ Ba">
   <meta name="twitter:description" content="Trước đêm tôi và anh ấy đi đăng ký kết hôn, tôi ngồi trò chuyện với Linh Du trên ghế sofa. Cô ấy lại bất ngờ thú nhận một bí mật. Cô ấy đã mang thai được năm tuần, còn cha đứa bé thì tôi chưa từng ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

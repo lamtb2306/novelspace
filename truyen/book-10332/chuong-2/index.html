@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | TẤT CẢ CHỈ LÀ DỐI TRÁ">
   <meta name="twitter:description" content="Mãi sau này tôi mới hiểu, anh sợ tôi sẽ biến mất. Mà mấy ngày đó, đúng là tôi cũng chỉ biết bám víu vào chiếc điện thoại. Mỗi lần ánh mắt tôi dừng lại trên con dao gọt trái cây trong tiệm tiện lợi,...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

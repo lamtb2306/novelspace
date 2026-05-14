@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Không Có Sau Này">
   <meta name="twitter:description" content="Nếu không vì nể mặt cậu ba, ba tôi có khi chẳng đưa mẹ con An Miên ra nước ngoài nổi. Nhiều năm rồi không liên hệ, tôi không biết thứ tình thân còn sót lại này liệu có thể vay mượn thêm được gì khô...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

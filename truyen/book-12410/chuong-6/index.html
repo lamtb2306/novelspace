@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Đêm Thanh Minh, Có Người Trong Nhà Tôi">
   <meta name="twitter:description" content="Tôi liên hệ với một người bạn đáng tin làm thám tử tư, nhờ anh ta giúp tôi điều tra tung tích của Trần Dương. Người bạn làm việc rất hiệu quả, rất nhanh đã đưa cho tôi một vài manh mối ban đầu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

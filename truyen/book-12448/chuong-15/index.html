@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 15 | Cuộc Gọi Sau Năm Năm">
   <meta name="twitter:description" content="Cô ta viết: “Khi tôi đỗ đại học, muốn dùng chính đôi bàn tay của mình để tạo dựng tương lai, ông ta cảm thấy bị mạo phạm, bởi vì ‘tác phẩm’ của ông ta lại muốn thoát khỏi sự khống chế của ông ta.” ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGƯỜI LẠ MỘT TUẦN">
   <meta name="twitter:description" content="Bạn trai đề nghị chia tay vào ngày kỷ niệm 7 năm yêu nhau. Không phải vì phản bội, không phải vì mâu thuẫn, chỉ là đã mệt mỏi. Tôi bình thản gật đầu: “Được thôi, em đồng ý.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

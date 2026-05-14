@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Từ Con Mồi Thành Kẻ Săn Mồi">
   <meta name="twitter:description" content="Lỡ tay bấm vào đường link bạn cùng phòng gửi, trong thẻ ngân hàng của tôi tự nhiên có thêm hai nghìn tệ. Tôi ngơ ngác định trả lại tiền, kết quả lại nhận được cuộc gọi thông báo tôi nợ nền tảng mườ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

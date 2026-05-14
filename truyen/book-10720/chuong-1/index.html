@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ngôn Linh Báo Ứng">
   <meta name="twitter:description" content="Buổi tiệc nhận thân hôm đó, tôi bị vạch trần là “giả tiểu thư”. “Chính danh thiên kim” – Thẩm Thanh Nguyệt – nhìn chiếc vòng tay giới hạn trên cổ tay tôi, bật cười khinh miệt: “Ồ, đây chẳng phải là...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

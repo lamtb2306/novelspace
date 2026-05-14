@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ÔNG GÂY SAI NGƯỜI RỒI">
   <meta name="twitter:description" content="Tôi đậu xe vào chỗ trước cửa nhà hàng, rồi dắt con gái đi mua trà sữa. Chủ quán vừa mở cửa nhìn thấy tôi khóa xe rời đi, liền hét lớn: “Đồ không cha không mẹ, không vào nhà tôi ăn thì đừng có đậu x...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

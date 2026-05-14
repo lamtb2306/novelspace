@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tận Cùng Yêu Thương, Là Buông Bỏ">
   <meta name="twitter:description" content="Tối hôm đó, chồng tôi tổ chức tiệc mừng sinh nhật cho người sếp cũ. Tôi lần theo địa chỉ, đến tận nơi tổ chức. Vừa bước vào sảnh, tất cả mọi người đều quay lại nhìn tôi, vẻ mặt đầy ngạc nhiên, cứ t...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

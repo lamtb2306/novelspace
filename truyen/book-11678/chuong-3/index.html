@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Giữa Bão Tuyết, Tôi Chọn Gia Đình Mình">
   <meta name="twitter:description" content="“Vốn là ngày mai chở lên siêu thị trong thành phố, giờ thì để nhà mình ăn.” Tôi mừng muốn phát khóc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

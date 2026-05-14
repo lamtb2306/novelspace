@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Bóng Hồng Nơi Thao Trường">
   <meta name="twitter:description" content="Cô ta ngẩng cao đầu, mang theo khí chất kiêu ngạo đặc trưng của trinh sát viên: “Bình thường tôi tiếp xúc với rất nhiều trường hợp ngụy trang và giả mạo thân phận, tự tin là mắt nhìn người của mình...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

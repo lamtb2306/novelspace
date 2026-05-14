@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | HẠNH PHÚC TỪ NHỮNG ĐIỀU NHỎ NHẶT">
   <meta name="twitter:description" content="Hiện tại việc tôi có thể làm, đương nhiên là: mỗi ngày đều vào trang cá nhân trên Mỗ Thư (một nền tảng mạng xã hội) của anh để “điểm danh”. Không chỉ để xem anh có cập nhật gì mới không, mà còn là ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

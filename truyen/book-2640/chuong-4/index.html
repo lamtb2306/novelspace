@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Chiếc Đồng Hồ Vạch Trần Sự Thật">
   <meta name="twitter:description" content="Tôi và con trai đứng trước cửa, hệ thống khóa vân tay hiển thị: Sai dấu vân tay. Con trai chạy lên nhập sinh nhật của mình — sai mật mã. Tôi thử nhập sinh nhật của tôi — vẫn sai mật mã. Tất cả mật ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

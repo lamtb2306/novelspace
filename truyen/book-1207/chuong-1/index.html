@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | GIA SƯ THỦ KHOA VÀ CẬU ẤM NGHIỆN GAME">
   <meta name="twitter:description" content="Gần đây, tôi cảm thấy mọi người xung quanh mình rất kỳ lạ. Người anh trai trước nay luôn lạnh nhạt với tôi đột nhiên nói muốn đưa tôi đi học. Ba mẹ thì bảo muốn mua biệt thự và còn muốn ghi tên tôi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

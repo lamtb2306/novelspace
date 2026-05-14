@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Cô Bé Sao Chổi">
   <meta name="twitter:description" content="Tôi chết rồi nhỉ. Thật đáng tiếc, chỉ còn một ngày nữa thôi, cả nhà tôi sẽ được đoàn tụ thật sự. Mẹ sẽ không còn bắt tôi quỳ trước mộ ba để chuộc tội nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

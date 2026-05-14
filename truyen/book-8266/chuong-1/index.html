@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Sinh nhật cuối cù ng">
   <meta name="twitter:description" content="Bệnh di truyền trong gia đình tôi có rất nhiều loại, và ung thư xương là một trong số đó. Mấy năm trước, mẹ tôi đã vì căn bệnh này mà qua đời. Hôm qua, em trai tôi cũng nối bước mẹ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

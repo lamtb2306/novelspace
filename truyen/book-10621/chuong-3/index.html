@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Một câu ‘mẹ ai nấy lo’, tôi khiến nhà chồng tự loạn">
   <meta name="twitter:description" content="Tôi mở từng hộp ra, bày lên bàn ăn. Mùi thơm của tôm tít, mùi tỏi của hàu nướng, mùi tươi của cá vược lập tức lan tỏa khắp phòng ăn. Trên bàn ăn, một bên là đại tiệc hải sản nóng hổi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

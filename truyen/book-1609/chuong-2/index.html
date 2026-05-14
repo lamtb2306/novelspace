@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Thay Vì Cứu Mẹ Tôi, Anh Chọn Mua Xe">
   <meta name="twitter:description" content="Tôi quyết định tự mình bỏ tiền ra. Tiền của tôi, tại sao phải nghe anh ta đồng ý? Tôi mở app ngân hàng. Số dư tài khoản: 83.206,5 tệ Không đến một nửa viện phí. Tôi sững sờ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

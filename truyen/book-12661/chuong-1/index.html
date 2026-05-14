@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bản Kiểm Điểm Của Ai">
   <meta name="twitter:description" content="Khi tôi lấy lại máy tính từ tay bạn cùng phòng Chu Khiết, ổ đĩa C đã chuyển sang màu đỏ. Trên màn hình là ba biểu tượng game online dung lượng lớn và hơn chục trình phát video.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hết Yêu">
   <meta name="twitter:description" content="Sinh nhật tối hôm đó, tôi ngồi đợi Diệp Chi Thiên ở nhà hàng đến tận mười giờ rưỡi. Anh lại một lần nữa thất hẹn. Thấy bài đăng của Trương Khả Khả trên vòng bạn bè, tôi lại chẳng có chút cảm xúc nà...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

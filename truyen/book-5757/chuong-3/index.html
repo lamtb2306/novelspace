@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | ĐẠO VĂN">
   <meta name="twitter:description" content="Kiếp trước, khi tôi bị oan là đạo văn, thầy ấy là người dẫn dắt các bạn học đứng ra đòi lại công bằng cho tôi. Dù cuối cùng thất bại, nhưng đến lúc này, tôi chỉ còn biết nhờ thầy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

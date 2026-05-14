@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Tủ Lạnh Nhà Tôi Không Phải Chợ Miễn Phí">
   <meta name="twitter:description" content="Đêm đó nằm trên giường, nghe tiếng tivi ngoài phòng khách. Mẹ chồng đang xem Việt kịch, tiếng hát văng vẳng lọt qua khe cửa chui vào tai, Triệu Quân đang tắm, tiếng nước rào rào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

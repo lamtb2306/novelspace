@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Ly Hôn Tay Trắng, Nhưng Tài Khoản Có 5 Triệu">
   <meta name="twitter:description" content="Bố tôi cúi đầu ăn, không nói gì. Mẹ tôi ăn hai miếng, đặt đũa xuống. “Thẩm Mạn Như, công việc tìm đến đâu rồi?” “Con gửi mấy bản lý lịch, vẫn chưa có hồi âm.” “Mau tìm đi, nhà này không nuôi người ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

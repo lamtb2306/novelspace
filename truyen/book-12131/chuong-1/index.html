@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nam chính não tình yêu">
   <meta name="twitter:description" content="Vì để được chuyển chính thức, tôi đã gồng mình suốt một tháng trời. Đêm cuối cùng, tôi nhìn chằm chằm vào bản kế hoạch hoàn hảo trên màn hình, cuối cùng cũng thở phào một hơi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

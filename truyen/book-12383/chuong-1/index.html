@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Kiếp Này Em Buông Bỏ Anh">
   <meta name="twitter:description" content="29 tuổi, sinh nhật hôm đó, chồng tôi tặng tôi một lọ nước hoa. Tôi không nhìn kỹ, xịt lên người một cái, kết quả bị dị ứng sốc phản vệ phải vào phòng cấp cứu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

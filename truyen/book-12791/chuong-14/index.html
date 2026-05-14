@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 14 | Người Đến Sau Là Tôi, Người Rời Đi Cũng Là Tôi">
   <meta name="twitter:description" content="“Tịch Tịch…” Anh nghẹn giọng, nước mắt rơi xuống vỏ gối, loang ra một mảng ướt nhỏ. “Đợi anh…” “Đến bên kia rồi, em có thể…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

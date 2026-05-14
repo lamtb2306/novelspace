@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tuổi Già Cho Riêng Mình">
   <meta name="twitter:description" content="Kỳ nghỉ Quốc khánh vừa kết thúc, con gái đã than thở với tôi rằng phải đi làm lại, lại còn phải trông con, mệt mỏi quá chừng. Tôi thương con, liền mua vé máy bay đến thành phố nơi con đang sống.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

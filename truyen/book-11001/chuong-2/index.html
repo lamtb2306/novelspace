@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | HỒI ỨC TRÊN ĐỈNH NÚI MƯA">
   <meta name="twitter:description" content="Minh Lệ nhìn tôi. Bốn năm đại học, Minh Lệ luôn là người bình tĩnh và thông minh nhất trong nhóm. Dù gặp chuyện gì, cô ấy cũng có thể tìm ra cách giải quyết.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

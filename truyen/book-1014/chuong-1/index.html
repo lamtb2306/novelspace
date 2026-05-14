@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BÍ MẬT KẾT HÔN BỊ LỘ">
   <meta name="twitter:description" content="Tôi là một tiểu hoa mới nổi trong giới giải trí. Kết hôn bí mật với tổng tài trẻ tuổi của giới thương nghiệp đã được một năm, cứ ngỡ có thể che trời qua biển. Cho đến cái đêm đó.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

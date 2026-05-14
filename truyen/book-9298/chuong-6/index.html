@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | BẠN HỌC GIẢ TẠO">
   <meta name="twitter:description" content="Tôi tiến lên một bước, cười lạnh một tiếng. “Sao thế, người khác nhường cậu, chiều cậu, cậu thật sự tưởng mình đúng à?” Tôi khoanh tay trước ngực, đột ngột chuyển hướng nhìn sang Vương Sảng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tận Cùng Của Phản Bội">
   <meta name="twitter:description" content="Chồng tôi trở về từ chuyến công tác, trông đầy vẻ mệt mỏi phong trần. Anh ấy cười rạng rỡ, ôm chầm lấy tôi, rồi đưa ra một chiếc túi xách bản giới hạn mới mua.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

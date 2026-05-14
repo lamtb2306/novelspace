@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tiểu Yêu Đói Bụng Ba Trăm Năm">
   <meta name="twitter:description" content="Ta là một tiểu yêu chuyên ăn tim người. Mẫu thân nói, nếu ăn đủ một vạn trái tim người thì có thể tu thành tiên. Thế nhưng, bà còn chưa kịp dạy ta cách ăn thế nào thì đã qua đời.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

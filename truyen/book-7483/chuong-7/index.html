@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | CUỘC CHIẾN CỦA NHỮNG KẺ THAM LAM">
   <meta name="twitter:description" content="Thẩm Gia Nam gọi điện cho tôi, yêu cầu tôi xóa bài đăng trên vòng bạn bè.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

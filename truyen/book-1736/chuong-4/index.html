@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | VỢ CŨ KHÔNG PHẢI BIA ĐỠ ĐẠN">
   <meta name="twitter:description" content="Tôi nhất định phải lột xác! Nhất định phải sống một cuộc đời khác! “Về nhà? Tôn Kiến Quốc, tôi đã làm theo ý ông, ký vào đơn ly hôn, ra đi tay trắng!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cô Thư Ký Quá Quyền">
   <meta name="twitter:description" content="Thần tượng mà tôi thích tổ chức concert, tôi đã đặt trước chỗ VIP có tương tác từ sớm. Tôi đi theo nhân viên tìm đến đúng chỗ ngồi của mình, vừa định ngồi xuống.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

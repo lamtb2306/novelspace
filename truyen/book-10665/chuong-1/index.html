@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ta Là Rắn, Nhưng Cả Yêu Giớ i Đều Gọi Ta Là Rồng">
   <meta name="twitter:description" content="Mẫu thân ta là một con rồng cao quý, nhưng vì lười ấp trứng nên đã tiện tay vứt ta vào một ổ rắn ngay bên cạnh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

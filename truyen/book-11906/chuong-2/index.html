@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | ƯỚC HẸN MƯỜI NĂM">
   <meta name="twitter:description" content="Tôi chỉ biết cạn lời. Theo quy định trong trại, anh ta bắt buộc phải ở lại, đợi tôi trưởng thành rồi cưới tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

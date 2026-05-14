@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Bạn Trai Một Mét Bảy Chín">
   <meta name="twitter:description" content="“Lâu rồi tôi chưa thấy ai ăn cơm ngon miệng thế này.” – anh cười – “Nhìn em ăn cơm cũng là một loại hưởng thụ.” “Nếu anh không ăn thì hết đó.” – tôi nhắc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

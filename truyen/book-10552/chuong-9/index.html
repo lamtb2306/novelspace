@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | 25 Năm Nuôi Cả Nhà">
   <meta name="twitter:description" content="Tôi nuôi một con mèo, tên là “Bánh Bao”. Bánh Bao nằm gọn trên đùi tôi, rù rì rù rì ngủ say. Đèn thành phố lấp lánh trong màn đêm. Tôi nhớ lại rất nhiều chuyện. Mùa hè năm 18 tuổi, tờ giấy báo trún...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Mười năm trăng khuyết">
   <meta name="twitter:description" content="Vậy thì… ta chẳng còn lý do nào để quay về. Tiêu Nhất vẫn cố chấp quỳ trước cửa nhà ta. Hàng xóm xung quanh túa ra xem náo nhiệt. “Giang cô nương, có chuyện gì vậy?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

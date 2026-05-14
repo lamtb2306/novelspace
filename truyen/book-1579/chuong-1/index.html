@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TRÁI CẤM">
   <meta name="twitter:description" content="Mười tám tuổi, mùa hè năm đó, Thương Nghiễn dẫn tôi lén nếm trái cấm. Tôi nhịn đau, nhưng thầm vui cả đêm, nghĩ rằng sáu năm thầm thương trộm nhớ cuối cùng cũng thành trái ngọt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

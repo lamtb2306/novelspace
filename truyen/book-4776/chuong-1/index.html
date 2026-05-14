@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | THOÁT KHỎI CHỐN THANH LÂU">
   <meta name="twitter:description" content="Mẫu thân ta đã đổi đời rồi. Bà ấy không làm kỹ nữ ở thanh lâu nữa, mà chuyển sang làm thê tử của một phú gia.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

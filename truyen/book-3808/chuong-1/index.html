@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Món Nợ Hai Mươi Năm">
   <meta name="twitter:description" content="Tôi nằm trên giường bệnh, dầu cạn đèn tắt. Con trai Trần Hạo cầm tờ giấy chuyển nhượng tài sản, ép tay tôi ký điểm chỉ. “Mẹ, mẹ ký đi, cũng là để chữa bệnh cho mẹ.” “Nói thật ra, nhà mình nợ nhà Lệ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

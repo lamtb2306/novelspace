@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Cả Thôn Tôi Đi Vay Nặng Lãi">
   <meta name="twitter:description" content="Nói xong, hắn phịch một cái ngồi lên bậc cửa nhà tôi, bày ra bộ dạng vô lại. Tôi nghiến răng mắng: “các người mới là đồ không biết xấu hổ! Đây là ép vay!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

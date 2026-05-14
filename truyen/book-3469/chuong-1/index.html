@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Khúc Nhạc Đã Dứt">
   <meta name="twitter:description" content="Chuyến lưu diễn piano vừa kết thúc, tôi lại bị b/ ắt c/ óc ngay trên đường phố theo một lịch trình bảo mật do chính chồng mình sắp xếp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

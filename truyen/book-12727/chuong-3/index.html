@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | GIA TỘC DỐI TRÁ">
   <meta name="twitter:description" content="Mẹ tôi khoe khoang, rõ ràng thích thú: “Mấy hôm nay cháu ấy ở khách sạn, sắp về rồi.” “Bướng ghê nhỉ, cứ mè nheo vài ngày thế, nhưng sinh con gái vẫn sướng, ít nhất là biết khéo léo.” “Đấy, nó là c...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

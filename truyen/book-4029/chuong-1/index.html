@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGUYỆT ẢNH HOÀNG ĐỒ">
   <meta name="twitter:description" content="Mười tuổi năm ấy, cả nhà ta bị tru diệt. Bọn thích khách vì muốn tuyệt hậu, chẳng chừa gà chó. Lũ bé trai trốn kỹ cũng từng đứa bị lôi ra chem sạch, trứng gà bị lắc cho tan, giun đất chẻ dọc thân, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

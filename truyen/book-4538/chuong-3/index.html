@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Quản Lý Â.m Phủ Trả Tôi Về Nhân Gian">
   <meta name="twitter:description" content="Vì chút sĩ diện ngu ngốc, tôi đã từ chối, còn nghĩ cô coi thường mình, cãi nhau một trận. Giờ nghĩ lại, tôi đúng là dở hơi, đã không có gì ăn còn giữ sĩ diện gì chứ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

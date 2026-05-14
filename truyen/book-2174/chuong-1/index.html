@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BẠN GÁI CŨ PHÁT TÀI SAU CHIA TAY">
   <meta name="twitter:description" content="Bạn trai về quê đón Tết một mình. Ba ngày không có tin tức. Khi nhận được tin thì anh ta đã kết hôn rồi. Bạn thân an ủi tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

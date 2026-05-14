@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Ở Rể, Nhưng Muốn Nuốt Cả Nhà Vợ">
   <meta name="twitter:description" content="Bên kia nhanh chóng trả lời: “Được, đã điều xe cảnh sát tới cứu viện. Xin cô cho biết biển số xe cô đang ngồi.” Gửi xong thông tin, Cố Phong cũng nhắn lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

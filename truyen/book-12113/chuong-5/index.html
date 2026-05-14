@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | KẺ TRỐN TRONG NHÀ">
   <meta name="twitter:description" content="Thịnh Ngọc Thành đảo mắt nhìn quanh, hỏi tôi. “Khoảng mười mét vuông, trên lầu còn có một phòng tắm nữa, nhỏ hơn phòng này.” Ông gõ gõ, quan sát khắp nơi, không phát hiện chỗ nào có thể giấu người....">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

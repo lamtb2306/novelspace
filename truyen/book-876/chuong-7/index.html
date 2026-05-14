@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Đứa Con Ngoan">
   <meta name="twitter:description" content="Vài ngày sau, tôi chẳng làm gì, chỉ gọi điện.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Cuộc thi lòng hiếu thảo">
   <meta name="twitter:description" content="Anh chị tôi không nói gì. Tôi nghe xong choáng váng, liền lớn tiếng: “Mẹ, vậy con ở lại với mẹ.” Thế là tôi dứt khoát điền nguyện vọng vào trường trong thành phố.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

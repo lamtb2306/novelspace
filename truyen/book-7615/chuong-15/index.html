@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 15 | Trở Về Sau Một Giấc Ngủ Đông">
   <meta name="twitter:description" content="“Anh biết em trách anh không nuôi con cho đàng hoàng. Nhưng càng lớn, nó lại càng giống em. Anh không biết phải đối mặt thế nào, chỉ có thể trốn tránh. Rồi sau đó, chính nó cũng thấy không cần đến ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

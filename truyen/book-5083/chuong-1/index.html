@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trò Hề Mang Tên Người Thân">
   <meta name="twitter:description" content="Bà nội tôi là nữ tỷ phú giàu nhất nước A, tôi là cháu gái duy nhất của bà. Vậy mà hai anh trai tôi lại để mặc cho con chim hoàng yến mà họ bao nuôi chung mạo danh tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

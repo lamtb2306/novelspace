@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGƯỜI YÊU CŨ TÌM ĐẾN NHÀ">
   <meta name="twitter:description" content="Nửa đêm mở một trang web “mờ ám”. Bấm vào livestream của một anh chàng nhỏ con, eo thon, mông cong.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

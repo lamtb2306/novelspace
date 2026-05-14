@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | DANH PHẬN CHÍNH ĐÁNG">
   <meta name="twitter:description" content="Việc Giang Hành Châu tìm đến tôi là điều tôi không ngờ đến. Cũng trách tôi sơ ý, quên đổi mật khẩu cửa chính.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Người Tôi Từng Gọi Là Thanh Mai">
   <meta name="twitter:description" content="Như một nhát dao, đâm thẳng vào tim tôi. Tôi bảo y tá mang cho tôi một cái gương. Họ nhìn nhau, không ai dám động. “Đưa đây!” Tôi gào lên. Giọng tôi khàn đặc, nghe chẳng giống của chính mình nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Ba Tấm Vé Số">
   <meta name="twitter:description" content="Cô ta bước thêm một bước, giơ tay với bộ móng đỏ chót chỉ vào ba tấm vé trong tay tôi, hạ giọng: “Mỗi tấm vé này giải thưởng tối đa là một trăm ngàn, ba tấm là đúng ba trăm ngàn rồi còn gì.” “Công ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

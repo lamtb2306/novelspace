@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Tôi Làm Việc, Không Làm Ơn">
   <meta name="twitter:description" content="Khi trở lại chỗ làm, tôi nhìn vào sổ ghi chép công việc mà Hoàng Phong để lại. Mỗi ngày chỉ biết xem tài liệu rồi lại xem tài liệu. Không có một khách hàng, không có kế hoạch gì.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

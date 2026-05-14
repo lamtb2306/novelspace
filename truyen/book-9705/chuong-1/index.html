@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chồng Tôi Là Đại Ca Đông Bắc">
   <meta name="twitter:description" content="Ba tôi là người Đông Bắc chính gốc, còn mẹ tôi là một cô gái Thượng Hải đài các, kiêu kỳ. Họ kết hôn ba mươi năm, thì suốt ba mươi năm ấy, mẹ tôi mắng ông không có tiền đồ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

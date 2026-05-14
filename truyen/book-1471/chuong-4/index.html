@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | NÉ TRÁNH CHỒNG CŨ">
   <meta name="twitter:description" content="Tôi từ nhà bà ngoại về, đã là một tuần sau đó. Lần này, tôi cố ý ở nhà bà ngoại một tuần, vì biết khi tôi đi học xa, việc gặp lại họ sẽ không dễ dàng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

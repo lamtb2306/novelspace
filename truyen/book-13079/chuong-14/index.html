@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 14 | Người Thua Là Kẻ Tưởng Mình Thắng">
   <meta name="twitter:description" content="Rất nhiều người là xem livestream “Bếp Ánh Sáng” suốt một tuần của chúng tôi rồi tìm đến vì nghe danh. Bọn họ dành cho chúng tôi một thứ niềm tin gần như cuồng nhiệt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

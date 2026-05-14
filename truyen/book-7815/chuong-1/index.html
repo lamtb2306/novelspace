@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | GIANG VÃN VÃN">
   <meta name="twitter:description" content="Giang Vãn Vãn bước ra khỏi quán cà phê, tay nắm chặt tấm ảnh. Trong bức ảnh, người đàn ông đang ôm eo một người phụ nữ, hai người đứng rất gần nhau, trông cực kỳ thân mật dưới ánh đèn mờ của quán bar.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

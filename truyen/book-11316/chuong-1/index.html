@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chuyến Tàu Trùng Sinh">
   <meta name="twitter:description" content="Trên chuyến tàu cao tốc về nhà dịp Quốc Khánh, cô thanh mai của bạn trai tôi không kịp mua vé. Vì muốn ngồi cùng cô ta, anh ta liền ngang nhiên chiếm luôn ghế của người khác bên cạnh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

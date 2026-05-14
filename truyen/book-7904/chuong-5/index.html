@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Mộng Tỉnh">
   <meta name="twitter:description" content="Ngày thường, dù ta nhịn ăn, cũng sẽ cố giấu dưới đáy bát mì của mỗi đứa một miếng trứng hay vài sợi thịt. Phương Uyển lật nhẹ bát mì, ngập ngừng nhìn ta: “Tẩu tẩu, người lớn thì ăn uống giản tiện c...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

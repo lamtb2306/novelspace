@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Một câu ‘mẹ ai nấy lo’, tôi khiến nhà chồng tự loạn">
   <meta name="twitter:description" content="Tôi tìm thợ điện của ban quản lý, đưa 200 nghìn tiền công, nhờ họ lắp hai chiếc khóa vân tay cho tôi. Một cái cửa phòng ngủ, một cái cửa phòng tắm. Cài vân tay, thử ba lần, xác nhận chỉ có tôi mới ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

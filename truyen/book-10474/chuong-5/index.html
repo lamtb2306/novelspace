@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CHU TẦM THU">
   <meta name="twitter:description" content="Anh mưa đêm lại gửi tin nhắn riêng. 【Có đó không?】 【Cái vòng cổ chơi với mối tình đầu kia, tôi vừa đặt rồi.】 Đã nhận giày cao gót, bút máy, giờ lại nhận thêm cả dây chuyền vàng?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

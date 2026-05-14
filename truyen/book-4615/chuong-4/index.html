@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | SHOW HẸN HÒ">
   <meta name="twitter:description" content="Lúc này, Họa Thính khẽ kéo tay tôi. Hóa ra đã đến lượt chúng tôi chơi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

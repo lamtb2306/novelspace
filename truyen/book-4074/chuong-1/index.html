@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGƯỜI GÕ CỬA  LÚC NỬA ĐÊM">
   <meta name="twitter:description" content="11 giờ 30 phút đêm, tôi đang nghỉ ngơi một mình trong căn phòng trọ. Lúc này, bố gửi cho tôi một tin nhắn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

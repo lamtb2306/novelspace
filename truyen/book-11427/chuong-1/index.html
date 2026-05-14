@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bạn Trai Cũ Gửi Tặng Cư ơng Thi">
   <meta name="twitter:description" content="Lúc còn yêu đương mặn nồng, tôi từng đùa với bạn trai: “Nếu sau này anh lấy vợ người Đông Bắc, nhớ gửi cho tôi hai quả lê đông nhé.” “Nếu lấy vợ người Vân Nam, nhớ gửi hai thùng nấm.” Anh gào lên: ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

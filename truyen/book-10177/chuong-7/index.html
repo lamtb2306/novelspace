@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | THỰC ĐƠN KINH DỊ">
   <meta name="twitter:description" content="Tại sao tôi không thể thoát? Tôi đã bỏ sót điều gì sao!? ‘Lý Phương Phương’ và ‘Từ Huy’ tiến lại gần.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

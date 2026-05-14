@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | MẬT NGỌT DÀNH CHO NGƯỜI XỨNG ĐÁNG">
   <meta name="twitter:description" content="Khi anh theo đuổi, tôi đã đơn giản giải thích, nhưng anh lại nghĩ tôi chỉ đang từ chối khéo. Anh không tin, tôi cũng đành tôn trọng suy nghĩ đó của anh ta vậy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

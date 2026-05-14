@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 18 | Hào Môn Phế Nữ">
   <meta name="twitter:description" content="Cô rút điện thoại ra bấm vài cái: “Tất cả hồ sơ tài trợ đều được đăng công khai trên trang web của nhà họ Thương, ai cũng có thể tra cứu.” Đám đông lập tức lấy điện thoại tra cứu, tiếng kinh ngạc v...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

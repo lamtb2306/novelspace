@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bị chú rể đuổi xuống xe , tôi cưới luôn tình địch của anh ta">
   <meta name="twitter:description" content="Kẹt xe ngày Quốc Khánh, chú rể sợ lỡ giờ lành, để tôi tự xuống xe đi bộ về khách sạn. Anh ta còn nói tôi đi chậm, lát nữa anh sẽ bắt xe đến sau. Dù sao tôi cũng là cô dâu, vậy mà phải tự đi bộ đến ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

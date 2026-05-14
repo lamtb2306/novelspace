@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Trở Về Từ Đáy Biển Sâu">
   <meta name="twitter:description" content="Những người khác cũng ào ào rút điện thoại, từng tấm ảnh chụp giao dịch chuyển khoản giống như từng nhát búa giáng xuống người tôi. “Đúng vậy! Nhà tôi cũng nộp tiền!” “Chúng tôi đều nộp rồi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

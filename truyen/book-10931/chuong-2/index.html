@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tầm Tâm Kế">
   <meta name="twitter:description" content="Trong lòng ta sóng trào cuộn cuộn, trăm ngàn suy nghĩ va đập, xoay chuyển, cuối cùng chỉ hóa thành một tầng sương lạnh mờ mịt. Tất cả những điều này… rốt cuộc là chuyện gì?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

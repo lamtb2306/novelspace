@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TH- UÔC YÊU">
   <meta name="twitter:description" content="Tôi có được một lọ thuốc thần kỳ. Ai uống nó, người đó sẽ vô phương cứu chữa mà yêu tôi say đắm. Không chút do dự, tôi ngửa đầu, uống cạn tất cả. Lần này, tôi chọn yêu chính mình. Yêu bản thân. Ngà...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

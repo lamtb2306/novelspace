@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | HUYỆT MỘ ĐÔI CHO KẺ PHỤ TÌNH">
   <meta name="twitter:description" content="Tôi ngây thơ nghĩ rằng, chỉ cần kết hôn rồi, tôi sẽ có cả đời để khiến Lục Bình Sinh yêu tôi. Nhưng tôi đã sai! Sai đến thảm hại!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

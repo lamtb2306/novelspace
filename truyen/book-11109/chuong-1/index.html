@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CÔNG TỬ ĐẾN TỪ ĐỊA NGỤC">
   <meta name="twitter:description" content="Tôi yêu qua mạng một công tử Anh tên Ryan — vừa đẹp trai vừa hào phong. Tiếc là anh ta vừa dính người vừa hay ghen. Cuối cùng tôi chia tay dứt khoát, đoạn tuyệt như rơi khỏi vách núi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

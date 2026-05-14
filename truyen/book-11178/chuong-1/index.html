@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | GƯƠNG MẶT TRẢ T H Ù">
   <meta name="twitter:description" content="Vì cứu chồng, tôi bị hủy dung trong một vụ tai nạn xe. Chồng tôi là chuyên gia phẫu thuật thẩm mỹ, ôm lấy tôi, thề rằng nhất định sẽ giúp tôi khôi phục nhan sắc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

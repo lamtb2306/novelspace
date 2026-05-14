@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | BỖNG TRỞ THÀNH BẠN GÁI CỦA KẺ THÙ KHÔNG ĐỘI TRỜI CHUNG">
   <meta name="twitter:description" content="Ánh nắng ngoài cửa sổ chiếu lên gương mặt của Kinh Mạc, khiến một nửa sáng rõ, còn một nửa chìm trong bóng tối.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

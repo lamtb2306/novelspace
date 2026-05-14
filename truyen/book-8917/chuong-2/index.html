@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Bạn Thân Thế M ạng">
   <meta name="twitter:description" content="Tôi cố ý nói to vào điện thoại: “Ồ, cậu và bạn trai vừa hẹn hò xong hả? Anh ta lớn tuổi vậy, không biết đã cưới chưa! Thật không hiểu cậu mê điểm gì ở anh ta! Nhớ đừng để anh ta lừa đấy!” Kỷ Viên V...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

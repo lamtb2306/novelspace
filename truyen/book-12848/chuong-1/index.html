@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | LÂM HẠ">
   <meta name="twitter:description" content="Hạ Hạ, tám trăm tệ đủ không? Không đủ thì anh chuyển thêm cho em. Lâm Hạ nhìn vào ghi chép chuyển khoản trên màn hình điện thoại, cả người cô cứng đờ. Tám trăm tệ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

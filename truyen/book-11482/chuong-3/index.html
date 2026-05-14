@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Bữa Cơm Đoàn Viên Giá Mười Hai Ngàn">
   <meta name="twitter:description" content="【Tôi mang rượu tới rồi, chúng ta cùng uống một trận thật vui nhé!】 【Tôi cũng sắp đến rồi, cuối cùng cũng có người thân cùng đón Trung thu!】 【Cảm ơn trưởng nhóm đã tổ chức, chúng ta đều là người một...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

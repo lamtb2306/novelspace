@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Làng Biến Dị">
   <meta name="twitter:description" content="Tôi để mặc bà khóa chặt cửa hầm, rồi mở camera giám sát, chỉnh sang hình ảnh trước cửa siêu thị. Mọi người đang liều mạng tranh giành thức ăn và nước uống.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

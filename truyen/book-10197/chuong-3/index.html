@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Yêu Xà Và Ba Nguyện Vọng">
   <meta name="twitter:description" content="“Trời đã mưa rồi! Các người còn mặt mũi đến nữa sao?!” Trưởng thôn Tôn vẫn giữ bộ dạng đạo mạo chính nghĩa. “Dù trời có mưa rồi, nhưng ai dám chắc mai không lại hạn?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

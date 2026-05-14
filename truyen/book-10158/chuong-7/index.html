@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Cậu Muốn Tôi Trượt, Tôi Lại Lên Thẳng Thanh Hoa">
   <meta name="twitter:description" content="Thầy nhìn vẻ mặt khiếp sợ của mọi người, thở dài một hơi, trong ánh mắt ngập tràn cảm khái.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

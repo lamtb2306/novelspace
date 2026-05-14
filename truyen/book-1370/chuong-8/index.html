@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Món Ăn Tình Người">
   <meta name="twitter:description" content="“Anh với mẹ mình tham rẻ, toàn dùng nguyên liệu cũ, đồ ăn không tươi.” “Nhà ai tử tế mà tối mịt mới đi mua thực phẩm?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

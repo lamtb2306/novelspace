@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Giữa Hai Đứa Trẻ">
   <meta name="twitter:description" content="Kẻ bắt cóc gửi đến một đoạn video, con trai tôi vừa khóc vừa hét: “Mẹ ơi cứu con với!” Chồng tôi thì ấp úng nói trong thẻ không còn một đồng nào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

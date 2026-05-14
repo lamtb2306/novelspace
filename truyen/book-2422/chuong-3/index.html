@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CHÚNG TA CHỈ LÀ BẠN">
   <meta name="twitter:description" content="Lúc này tôi mới kịp phản ứng, không biết có phải do cậu ấy quá đẹp trai không, mà tôi cũng thấy bối rối, như bị ma xui quỷ khiến mà đưa tay phải ra: “Chào bạn, chào bạn.” Cậu ấy bật cười, khóe mắt ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

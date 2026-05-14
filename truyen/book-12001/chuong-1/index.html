@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Phiếu Sinh Tồn">
   <meta name="twitter:description" content="Năm nhất vừa khai giảng, mẹ đưa cho tôi một trăm tấm phiếu mua hàng theo nhóm làm tiền sinh hoạt. “Mẹ đã sắp xếp hết ăn ở đi lại cho con rồi, chỉ cần quét mã QR là được.” “Tiền thì để dành, đợi con...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

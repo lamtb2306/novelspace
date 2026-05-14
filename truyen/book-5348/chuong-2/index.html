@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tôi Là Nữ Chính Của Chính Tôi">
   <meta name="twitter:description" content="Mặt hắn tối sầm, nghiến răng ken két: “Cô không biết hối cải, còn ngang ngược vô lý, rõ ràng hại người mà vẫn tự cho là đúng, tôi thật không nên nương tay!” “Nếu mẹ cô có chuyện gì, đó là do cô hại...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

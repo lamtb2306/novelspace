@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thực Tập Sinh Kiêu Ngạo Và Cái Kết Đắng">
   <meta name="twitter:description" content="【Chương 1】 Nữ thực tập sinh mới vào công ty mỗi lần về nhà đều phải đi nhờ xe tôi, nghĩ dù gì cũng tiện đường nên tôi vẫn luôn không nói gì.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

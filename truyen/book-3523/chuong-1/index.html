@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KẾT HÔN SAU MỘT CHÉN SAY">
   <meta name="twitter:description" content="Sau khi say rượu, tôi ép thanh mai trúc mã của mình đi đăng ký kết hôn, chỉ sau một đêm, anh ấy trở thành chồng tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

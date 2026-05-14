@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TIN NHẮN LÚC NỬA ĐÊM">
   <meta name="twitter:description" content="Nửa đêm tôi nhận được một tin nhắn từ bên bán nhà: “Cô Du, có thể cho tôi số liên lạc của bạn trai cô không? Tháng này tôi chưa có kinh nguyệt, tôi hơi sợ.” Tôi nhìn tin nhắn, lại liếc sang người đ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

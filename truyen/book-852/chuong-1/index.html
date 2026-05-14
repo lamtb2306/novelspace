@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Vé Tàu Về Quê">
   <meta name="twitter:description" content="Đêm trước khi cả nhà đi du lịch nhân dịp Quốc khánh. Anh trai đưa cho tôi một tấm vé tàu đi về phương Bắc. “Hồng Anh, xe không đủ chỗ. Em cũng biết từ nhỏ Mạn Mạn chưa từng rời chúng ta…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

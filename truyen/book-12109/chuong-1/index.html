@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Kẻ Truy Tung">
   <meta name="twitter:description" content="Tôi có một năng lực đặc biệt. Chỉ cần chạm vào đồ vật thân cận của người mất tích, tôi có thể nhìn thấy chính xác vị trí của họ. Trong giang hồ, người như tôi được gọi là “Kẻ truy tung”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

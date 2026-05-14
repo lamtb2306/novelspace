@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Người Vợ Vô Hình">
   <meta name="twitter:description" content="Tôi chẳng buồn đôi co, rút thẳng thẻ đen từ ví ra, đưa cho nhân viên: “Chiếc này cô ta đã đụng vào, và tất cả các mẫu trong cùng bộ sưu tập này, gói hết cho tôi.” “Còn nữa, mời cô ta ra ngoài.” Nhâ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

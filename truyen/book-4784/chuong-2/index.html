@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | THÁNG SÁU NĂM ẤY">
   <meta name="twitter:description" content="Tô Duệ thản nhiên đáp: “Nhà họ Tô không cho tớ làm ăn, càng không cho tớ mở xưởng, nên đuổi tớ ra khỏi nhà.” Tôi gặng hỏi tiếp: “Vậy còn cậu với Diễn Minh thì sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

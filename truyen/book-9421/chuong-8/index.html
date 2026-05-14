@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Chuyện Lạ Ở Trường Dục Anh">
   <meta name="twitter:description" content="“Hồ sơ học tập của em ấy, chúng tôi sẽ khôi phục. Chuyện em ấy bị oan, chúng tôi sẽ trả lại sự trong sạch cho em ấy. Nếu dì đồng ý, em ấy có thể quay lại trường Trung học Dục Anh, hoặc chuyển sang ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

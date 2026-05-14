@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thực Tập Sinh Tự Phong Thiên Sứ">
   <meta name="twitter:description" content="Tôi bị dị ứng nên đến bệnh viện của anh trai đăng ký khám, lại gặp đúng cô thực tập sinh luôn thầm thích anh ấy. Cô bé vừa nghe được đoạn “hội thoại thân mật” giữa tôi và anh trai, vừa ghen vừa cuống.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

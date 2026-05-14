@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CẢM ƠN THANH XUÂN CÓ EM">
   <meta name="twitter:description" content="Tại sao lại như vậy ư? Vì chúng tôi đều đứng từ dưới lên. Thẩm Phóng nhìn bảng xếp hạng, không thể tin nổi: “Người ta bảo nhà nghèo thường sinh ra quý tử.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

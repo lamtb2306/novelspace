@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tôi Chỉ Muốn Nhặt 100 Tệ, Ai Ngờ Hoa Khôi Đưa Tôi Một Triệu Để Chia Tay Nam Thần">
   <meta name="twitter:description" content="Tên đeo kính nhỏ bé này, chuyện nhỏ như rắc nước thôi. Thắng áp đảo!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

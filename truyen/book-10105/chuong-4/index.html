@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Con Đường Về Thành Phố">
   <meta name="twitter:description" content="Con Đường Về Thành Phố Full 4 Trần Văn Đào quay sang nhìn tôi, kéo tay áo cầu xin: “Hạ Thư, tôi sai rồi, tôi xin lỗi cô, xin cô đừng báo công an.” Tôi hất phăng bàn tay bẩn thỉu ấy, suy nghĩ một lá...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

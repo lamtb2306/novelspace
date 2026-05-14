@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | ĐÊM TRƯỚC LỄ TRƯỞNG THÀNH">
   <meta name="twitter:description" content="Cuối cùng tôi cũng không vào bệnh viện. Vì không có tiền. Không còn sức để quay về ngay, Tôi ngồi trên bậc thềm bệnh viện, mãi đến khi trời tối mới lê bước trở lại biệt thự. Họ đã về rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Căn Phòng Bí Mật">
   <meta name="twitter:description" content="Khi tan ca trở về, tôi phát hiện căn hộ mình đang ở bốc cháy dữ dội, vội vàng chạy lên lầu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | LẦN RÚT THẺ CUỐI CÙNG">
   <meta name="twitter:description" content="Đến lúc này, anh vẫn không tin lời tôi nói là thật. Tôi khẽ nhếch môi, trong mắt không có một chút ý cười: “Tôi không đùa. Hay là anh quên mất rồi?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

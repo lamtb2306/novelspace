@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chồng Tôi Lên Hotsearch">
   <meta name="twitter:description" content="Sau khi bàn bạc xong tất cả chi tiết về địa điểm tổ chức hôn lễ với chồng, tôi rảnh rỗi mở Weibo để giết thời gian. Vô tình thấy tin tức một tiểu hoa đang nổi công bố hôn sự, ôm tâm lý hóng hớt tôi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

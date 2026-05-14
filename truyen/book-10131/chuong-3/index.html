@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Ngày Tôi Tìm Đến, Anh Đang Khóc Vì Vợ Khác">
   <meta name="twitter:description" content="“Vậy còn con của chúng ta thì sao? Đứa con chúng ta vốn có thể có thì sao!” “Chính vì sự tồn tại của nó mà có thể cả đời này em không làm mẹ được nữa!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

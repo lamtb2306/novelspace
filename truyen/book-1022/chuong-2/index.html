@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Bát Tự Cứng Như Thép">
   <meta name="twitter:description" content="Tôi cầm tách trà, thong thả uống một ngụm, thở phào nhẹ nhõm. Coi như né được rồi, chắc không có chuyện gì nữa đâu. Đến trưa, không hiểu ma xui quỷ khiến thế nào, tôi lại mở lại bài viết đó.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

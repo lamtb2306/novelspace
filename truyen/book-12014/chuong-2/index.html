@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Trò Chơi Đóng Thế">
   <meta name="twitter:description" content="Hành lang yên ắng, Tạ Quân cau mày bực bội, hỏi tôi: “Em làm đủ trò rồi chưa?” “Từ nãy giờ em cứ nhằm vào Tô Thiền, giờ đến cả A Dương cũng là người em chọn để gây sự à?” Gió lạnh thổi qua khiến lò...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

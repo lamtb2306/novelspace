@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Giải Thoát">
   <meta name="twitter:description" content="Tôi nhìn anh, “Trình Hạo, bây giờ anh mới hối hận? Sao không nghĩ sớm hơn?” Trình Hạo lại im lặng. Tôi nói tiếp: “Phiên tòa sẽ công khai, đến lúc đó tất cả bằng chứng sẽ được đưa ra.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

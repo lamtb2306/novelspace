@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | TÌNH YÊU CỦA NHƯ YÊN">
   <meta name="twitter:description" content="Về đến công ty, tôi đi thẳng tới văn phòng của Tống Cảnh Thâm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

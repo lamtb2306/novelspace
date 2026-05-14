@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | LÃNH TÌNH THÁI PHÓ">
   <meta name="twitter:description" content="Ta đang yên lặng trốn bên góc nghe chuyện, vừa nghe đến đó liền bị ngụm trà nóng làm cho sặc đến ho khù khụ. Thái tử và phụ hoàng đồng loạt quay đầu nhìn ta, ánh mắt tràn đầy nghi hoặc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Theo Cậu Cả Một Mùa Thanh Xuân">
   <meta name="twitter:description" content="Bố mẹ tôi vốn cũng muốn tôi bứt tốc, cố gắng thi được ít nhất một trường đại học hạng kém nhất, còn bỏ ra rất nhiều tiền mời gia sư cho tôi. Nhưng hiệu quả lại rất ít.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

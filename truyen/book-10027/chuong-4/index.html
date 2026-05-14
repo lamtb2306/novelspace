@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Vị Khách Không Mời">
   <meta name="twitter:description" content="Tin nhắn gửi đi thành công, tôi liền bắt taxi về nhà. Uống gói thuốc cảm xong, tôi bắt đầu thu dọn hành lý. Kéo ngăn tủ quần áo, bên trong là cả hàng dài khăn lụa Hermès được xếp ngay ngắn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

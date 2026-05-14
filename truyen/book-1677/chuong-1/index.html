@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI LÀ MỘT THIÊN KIM GIẢ">
   <meta name="twitter:description" content="Tôi không phải là con ruột của gia đình giàu có này. Năm mười ba tuổi, người giúp việc đột nhiên nói tôi là con gái của bà ta, không phải là con ruột của chủ gia đình này. Bà ta bảo tôi đưa tiền để...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

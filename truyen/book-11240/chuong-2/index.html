@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TRỞ THÀNH NGƯỜI XA LẠ">
   <meta name="twitter:description" content="Tôi lập tức tắt màn hình, không thèm trả lời nữa. Buổi trưa đi ăn với bạn cơm trưa – Trần Viện, cô ấy tò mò hỏi: “Này, thật không hiểu sao lại điều chị đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

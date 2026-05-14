@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tôi Dọn Dẹp Di Vật Cho Nhân Tình Của Chồng">
   <meta name="twitter:description" content="Tôi tên là Tô Niệm, là một người làm nghề dọn dẹp di vật. Nói trắng ra, chính là người chuyên thay người chết thu dọn hậu sự.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

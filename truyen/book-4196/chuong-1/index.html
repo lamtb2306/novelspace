@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ngày Sinh Trong Bão Tố">
   <meta name="twitter:description" content="Ngày dự sinh lại trúng ngay lúc chồng tôi đi công tác. Tôi đành một mình bắt taxi đến bệnh viện, ai ngờ giữa đường bị nguyên một hàng xe Ferrari chắn ngang lối.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

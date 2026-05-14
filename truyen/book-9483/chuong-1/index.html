@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | LÂM VIÊN">
   <meta name="twitter:description" content="Vì để giữ mạng sống, tôi đã đổi quần áo với nữ chính. Nhưng đúng vào khoảnh khắc đó, kẻ phản diện lại nhận ra vết bớt trên cổ tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

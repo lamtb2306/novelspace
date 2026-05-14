@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI MƠ THẤY MÌNH LÀ BẠCH NGUYỆT QUANG">
   <meta name="twitter:description" content="Vào ngày tôi phát hiện ra mình mắc bệnh ung thư giai đoạn cuối, tôi đã mơ thấy mình chính là bạch nguyệt quang sớm qua đời trong một câu chuyện ngược.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

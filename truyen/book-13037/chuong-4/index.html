@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | BẠN TRAI GIẢ THÀNH THẬT">
   <meta name="twitter:description" content="Tôi và Thời Vũ sống trong cùng một thành phố. Cậu ấy không nói, tôi cũng im lặng. Nhưng cậu ấy vẫn thường tìm cơ hội rủ tôi đi ăn. Chúng tôi cũng giúp nhau đối phó với bố mẹ hai bên.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

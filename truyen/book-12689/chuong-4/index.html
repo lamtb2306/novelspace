@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | MỘT MÌNH TÔI NHẬP HỌC">
   <meta name="twitter:description" content="Tôi thản nhiên đáp: “Chỉ có mình tớ.” Phương Lâm Lâm giả vờ kinh ngạc đưa tay che miệng, nhưng trong mắt lại ánh lên vẻ hả hê: “Trời ơi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

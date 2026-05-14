@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | TÔ NIÊN">
   <meta name="twitter:description" content="Cho đến khi Giang Trọng Ninh đưa tôi về nhà và lái xe rời đi, tôi vẫn còn chút ngẩn ngơ. Thật ra không phải là hoàn toàn không nhận ra. Những khoảnh khắc bên Giang Trọng Ninh cứ như thước phim quay...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

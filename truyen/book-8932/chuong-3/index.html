@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Trò Chơi Hứa Chiêu">
   <meta name="twitter:description" content="Ngày 7 tháng 6. Ngày thi đại học. Cũng là… một ngày trước buổi xem mắt của chúng tôi. Một nỗi sợ khổng lồ, không thể diễn tả thành lời, lập tức siết chặt lấy tôi. Như một bàn tay lạnh lẽo bóp chặt ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

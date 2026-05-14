@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Cá Chép May Mắn">
   <meta name="twitter:description" content="Ba tôi mắt đỏ hoe, chỉ nói được hai chữ đã vội quay người lau mặt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

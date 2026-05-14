@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nhiễm Nhiễm Không Hiểu Ác Ý">
   <meta name="twitter:description" content="Từ nhỏ cung phản xạ của tôi đã dài, không hiểu được ác ý của người khác. Nhưng vì tôi có một khuôn mặt quá xinh xắn, nên mọi người đều gọi tôi là “mỹ nhân ngốc nghếch”. Hồi tiểu học.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

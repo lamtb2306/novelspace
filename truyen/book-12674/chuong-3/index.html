@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Hồ Sơ Bí Ẩn">
   <meta name="twitter:description" content="Sáng hôm sau, tôi đặt vé chuyến tàu sớm nhất về quê. Có những sự thật, chính tôi phải tự mình đi tìm. Nhà tôi ở một huyện nhỏ hẻo lánh thuộc tỉnh bên cạnh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CÙNG CON KHỞI HÀNH">
   <meta name="twitter:description" content="Tôi đang ngồi xổm dưới đất buộc dây giày cho Ninh Ninh thì điện thoại đột nhiên reo lên. Là Chu Nghiễn gọi đến. Tay tôi trượt một cái, lỡ ấn vào loa ngoài.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

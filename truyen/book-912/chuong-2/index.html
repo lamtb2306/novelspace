@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | GƯƠNG VỠ LẠI LÀNH">
   <meta name="twitter:description" content="Ôn Uyển nắm lấy tay tôi, nhẹ nhàng khuyên nhủ: “Chị Đồng Niên, sao chị có thể vì tiền mà tự hủy hoại bản thân như vậy?” “Chúng ta là phụ nữ, phải biết giữ gìn danh dự.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

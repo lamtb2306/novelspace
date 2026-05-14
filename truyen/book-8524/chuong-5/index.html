@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Vì Em, Anh Rút Khỏi Giới Giải Trí">
   <meta name="twitter:description" content="Tôi hít sâu một hơi, run rẩy nhấn nút nghe, đưa lên tai: “Xin chào, đây là Trung X Bank – Trung tâm cho vay ưu đãi. Xin hỏi hiện tại anh có cần xoay vòng vốn không ạ?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÌNH YÊU KHÔNG THỂ QUAY LẠI">
   <meta name="twitter:description" content="Sau khi chiến tranh lạnh với Cố Thời Tự, anh ta dẫn bạn gái mới đến nhà hàng tôi làm thêm. Tôi bưng đồ ăn ra, anh ta cố ý kiếm chuyện.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

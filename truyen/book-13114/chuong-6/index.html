@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | CHUYẾN DU LỊCH CUỐI CÙNG">
   <meta name="twitter:description" content="Vậy tôi cũng không ngại “thêm hai cái thùng rác” quanh đây. Thế là, tôi bắt đầu một trận… tổng vệ sinh. Lẩu tự sôi ăn dở, táo thối, cơm bị cháy — tôi gom hết chúng lại…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

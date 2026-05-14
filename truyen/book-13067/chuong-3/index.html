@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | chuyến bay cuối cùng và kẻ bị bỏ lại">
   <meta name="twitter:description" content="Ai cũng chỉ muốn bình an trở về. Nhưng giờ con đường an toàn nhất để về nước đã mất. Không ai dám chắc mình còn sống đến ngày mai. Không ai dám chắc mình còn cơ hội về nhà.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CUỘC XEM MẮT ẤN TƯỢNG">
   <meta name="twitter:description" content="Ra ngoài, tôi ghé nhà vệ sinh. Đợi thêm một lát nữa, cuối cùng cũng thấy Lục Tử Nhàn bước ra. Tôi hỏi: “Anh không sao chứ?” “Không sao.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

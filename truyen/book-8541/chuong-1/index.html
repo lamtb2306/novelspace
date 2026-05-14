@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đêm Hồ Đỏ">
   <meta name="twitter:description" content="Anh trai tôi tình cờ gặp được đại tiểu thư nhà họ Thẩm rơi xuống sông, anh dốc hết sức lực cứu cô ta lên bờ và làm hô hấp nhân tạo.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

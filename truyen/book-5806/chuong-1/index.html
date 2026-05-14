@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐỘT QUỴ VÌ YÊU EM">
   <meta name="twitter:description" content="Tôi là con chim hoàng yến mà Hạ Hành Tiêu nuôi. Trên giường thì lười biếng, cứ lâu một chút là kêu đau, kêu mệt. Nhưng đi mua sắm thì nhanh như bay, ra sức tiêu tiền của anh ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

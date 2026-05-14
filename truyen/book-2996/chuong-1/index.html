@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | EM LUÔN LÀ ĐÓA HOA RỰC RỠ">
   <meta name="twitter:description" content="Rời khỏi cục dân chính, Lâu Thừa quăng cho tôi một chiếc thẻ năm triệu. “Ba năm nay cô ngoan ngoãn, hiểu chuyện, coi như phần thưởng. Cô keo kiệt như thế, chắc đủ tiêu cả đời.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

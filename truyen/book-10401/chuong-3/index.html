@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | 7 Ngày Sinh Tồn">
   <meta name="twitter:description" content="Chúng tôi ở tầng 7, nằm giữa tòa nhà. Nhưng với kiểu “quái gở” của các quy tắc trước, ai mà dám chắc nước mưa sẽ không ngập cả tòa nhà? Đến lúc đó, không ai có thể sống sót.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

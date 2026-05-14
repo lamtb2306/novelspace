@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | TUỔI THƠ CÙNG ANH TRAI XĂM TRỔ">
   <meta name="twitter:description" content="Thẩm Hoài không đưa tôi về nhà ngay. Anh mua một đống đồ ăn, thức uống, rồi dắt tôi đến nghĩa trang.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

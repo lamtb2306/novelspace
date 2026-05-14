@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | NĂM THÁNG ÁC MỘNG">
   <meta name="twitter:description" content="Mỗi năm, tôi đều đích thân đến nhà bạn ấy để cảm ơn. Nhưng tôi rất ít khi quay lại thị trấn. Tết đến lễ về, tôi chỉ gửi tiền về nhà coi như báo hiếu. Lần cuối cùng tôi trở lại quê là khi em trai đỗ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

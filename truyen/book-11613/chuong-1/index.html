@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CON GÁI KHÔNG CẦN GIỮ TIỀN">
   <meta name="twitter:description" content="Lúc bà mất, tôi đang ngồi bên cạnh nhặt đậu. Tôi không khóc, cũng không kêu gào gì, chỉ đưa tay tháo chiếc nhẫn vàng 15 gram trên ngón áp út của bà xuống.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

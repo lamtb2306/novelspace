@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ngày Tôi Thoát Khỏi Cuộc Đời Hoàn Hảo">
   <meta name="twitter:description" content="Tôi là con gái duy nhất của một gia đình giàu có, xinh đẹp, ra vào đều có vệ sĩ, muốn gì được nấy. Tôi có thể nghe được tiếng lòng của bạn cùng bàn — Triệu Dĩnh. Cô ta ghen tị tôi, hận không thể đổ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

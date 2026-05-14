@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | GIANG TỰ">
   <meta name="twitter:description" content="“Lâm Khê biết nói chuyện với mèo sao?” “Lở đất?” “Thật không? Sao không nghe thấy gì cả?” Đám bạn xung quanh bắt đầu hoang mang.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

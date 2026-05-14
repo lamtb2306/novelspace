@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Cha Tôi Là Anh Hùng Của Người Khác">
   <meta name="twitter:description" content="Tôi dừng lại giây lát, trong không khí chỉ còn tiếng tôi kể lại, bình thản đến đáng sợ. “Họ đã lấy mạng mình, để trải đường cho tôi sống sót.” “Nhưng tôi thà rằng…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

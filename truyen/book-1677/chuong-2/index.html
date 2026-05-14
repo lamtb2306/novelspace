@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TÔI LÀ MỘT THIÊN KIM GIẢ">
   <meta name="twitter:description" content="Tôi cảm giác, cô ấy đã nhìn thấu tâm tư của tôi. Tôi cố ý nói chúng tôi là sinh đôi, không nói mình là con giả, như vậy sẽ không bị bạn học chế giễu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

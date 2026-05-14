@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | HÔN NHÂN CỦA BÁC SĨ DIỆP">
   <meta name="twitter:description" content="Lệnh điều chuyển của tôi bị chặn lại. Lý do thì được viết rất đường hoàng: Căn cứ có một dự án nghiên cứu y tế tuyệt mật, mà tôi là thành viên chủ chốt, không được phép rời đi. Tôi nhìn tờ thông bá...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

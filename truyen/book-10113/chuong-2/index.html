@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Một Vạn Một Ngày, Tôi Tiêu Cả Thế Giới">
   <meta name="twitter:description" content="Tôi nhìn rất rõ, gương mặt cô ta thoáng qua một nét méo mó. Hai đồng. Cô ta loay hoay cả buổi, hết tắt đèn lại rút phích cắm, cuối cùng còn phải nhịn uống nước mới gắng gượng tiết kiệm được một đồn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

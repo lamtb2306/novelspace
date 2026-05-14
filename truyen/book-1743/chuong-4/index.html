@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | XOÁ TẤT CẢ QUÁ KHỨ">
   <meta name="twitter:description" content="Mẹ tôi đúng là đầu óc không được bình thường. Mấy ngày trôi qua, đứa con trong bụng tôi cũng đã không còn. Lúc ấy bà mới bắt đầu phản ứng, rồi chạy đến tìm tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

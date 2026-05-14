@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cả Họ Từng Xem Tôi Làm Việc Lặt Vặt, Giờ Đứng Chật Trước Tiệm Mì Của Tôi">
   <meta name="twitter:description" content="Họ hàng ba năm không liên lạc, hôm nay đến đủ mười chín người. Tôi đứng ở cửa tiệm mì, nhìn ra ngoài, thấy một đám người đen nghịt. Dì lớn, chú hai, thím ba, anh họ, chị họ, em họ, còn có cả mẹ tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Từ đây chẳng đợi gió về">
   <meta name="twitter:description" content="“Xin lỗi.” Kiều Niệm đứng yên, không nhúc nhích. “Kiều Niệm!” Giọng anh càng lạnh hơn. “Đừng để tôi phải nói lần thứ hai.” Cô biết, nếu không làm, sẽ không thể rời khỏi đây.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

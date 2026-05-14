@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | LỜI NGỌT NGÀO TRAO ANH">
   <meta name="twitter:description" content="Tôi nhận lấy tờ phiếu, cả bàn tay run lên. “Không có gì.” Anh hơi dừng một chút rồi hỏi: “Em định đăng ký vào ban nào?” 【Có ý gì đây? Tại sao lại hỏi tôi như vậy?!】 Tôi há miệng, đầu óc trống rỗng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | TỜ ĐĂNG KÝ KẾT HÔN KHÔNG CÓ TÊN TÔI">
   <meta name="twitter:description" content="Về đến khách sạn. Ba tôi vừa thấy tôi đã mắng một trận: “Ôn Ôn! Trước kia con không chịu đi du học tiếp, chỉ để sống chết với cái thằng khốn đó?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

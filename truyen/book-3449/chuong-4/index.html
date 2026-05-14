@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Khi Tôi Xin Cắt Tuyến Mồ Hôi">
   <meta name="twitter:description" content="Chuyện này không thể nào. Tôi hiểu cơ thể mình hơn ai hết. “Bản báo cáo này có sai sót.” Bác sĩ Vương cười khẩy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

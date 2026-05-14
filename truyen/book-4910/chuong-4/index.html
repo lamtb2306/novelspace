@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | TRỌNG SINH LÀM LẠI TỪ ĐỒI TRÀ">
   <meta name="twitter:description" content="Tôi mỉa mai đáp lại: “Chuyện nhà tôi, không cần cô bận tâm! Tốt hơn hết là cô lo cho bản thân mình trước đi!” “Chu Vệ Quốc khi nào tới đón cô về?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

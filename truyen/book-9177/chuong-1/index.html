@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐÊM DÀI ĐẾ TÂM">
   <meta name="twitter:description" content="Tân đế vốn mắc chứng du nguyệt. Mỗi khi trăng sáng, người liền đến tẩm cung ta dây dưa ái luyến. Ba nguyệt trôi qua, ta bất ngờ mang thai, trong lòng bàng hoàng lo sợ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | BA NĂM ĐƠN PHƯƠNG">
   <meta name="twitter:description" content="Lục Dực Thâm nói được làm được, thật sự bắt đầu “đích thân hướng dẫn” tôi. Mỗi lần tôi hát, anh đều có thể soi ra đủ loại lỗi. “Chỗ này, cảm xúc không đúng.” “Chậm nửa nhịp.” “Tô Niệm, chưa ăn cơm à?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

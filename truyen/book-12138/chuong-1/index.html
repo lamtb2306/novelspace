@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Khi Tôi Không Còn Làm Phiền Anh Nữa">
   <meta name="twitter:description" content="Tạ Tân Ngôn phát hiện ra dạo gần đây, mỗi khi chịu ấm ức, tôi không còn tìm anh ta để an ủi nữa. Ở công ty, tôi bị đồng nghiệp gây khó dễ, bị điều chuyển khỏi vị trí cũ, nhưng tôi không hề than vãn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

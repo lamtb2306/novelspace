@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hôn Thư Giữa Phố">
   <meta name="twitter:description" content="Vào ngày thứ ba sau khi Hoàng thượng ban hôn cho ta và Tiêu Khiên, một nữ tử chặn xe ngựa của ta giữa phố. Nàng ta nói rằng đã sớm thành thân với Tam hoàng tử, thậm chí còn đưa ra cả hôn thư.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

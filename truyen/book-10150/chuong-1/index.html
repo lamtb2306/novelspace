@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cô Chủ Sân Nhỏ Và Hội Thú Giang Hồ">
   <meta name="twitter:description" content="Tôi thừa kế một cái sân nhỏ, trước đây chuyên dùng để nhốt… chó điên. Ngày đầu tiên dọn vào ở, điện thoại tôi đột nhiên bật lên một thông báo nhóm chat.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

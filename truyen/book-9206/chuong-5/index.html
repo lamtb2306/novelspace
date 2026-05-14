@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Bảy Lần Đăng Ký Kết Hôn">
   <meta name="twitter:description" content="“Nếu anh không muốn cưới tôi, mỗi lần đến ngày đi đăng ký kết hôn anh đều chạy đi với cô thanh mai của anh, thì tôi chỉ có thể thành toàn cho anh thôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

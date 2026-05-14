@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | YÊU XA">
   <meta name="twitter:description" content="Trước đây tôi đã nhiều lần bảo em đến Giang Thành làm việc, nhưng em nhất quyết không đi. Bây giờ thấy tôi thăng tiến, em hối hận rồi à?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

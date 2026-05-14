@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Cái Tủ Lạnh Đắt Giá">
   <meta name="twitter:description" content="Vừa định gọi món thì nghe tiếng ồn ào từ cửa ra vào. Tôi quay đầu lại, thấy ba đang tranh cãi với nhân viên phục vụ. “Sao lại không cho tôi vào?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

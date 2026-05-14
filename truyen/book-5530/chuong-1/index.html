@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Vương Giả Quay Đầu">
   <meta name="twitter:description" content="Đế vương đã có người khác trong lòng, mà ta lại chen chân vào, cố chấp cầu duyên. “Quý phi họ Đường, nhẹ dạ nghe lời gian nịnh, kiêu căng mất đức, không giữ lễ nghi.” Ấy là lời phán quyết của Hoàng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

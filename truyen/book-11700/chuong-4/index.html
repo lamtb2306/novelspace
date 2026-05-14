@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | CÚ TÔNG BÁO THÙ">
   <meta name="twitter:description" content="Tôi liếc sang anh một cái: “Ừ, đúng là bị dọa sợ không nhẹ. Nhưng có vẻ chuyện nghiêm trọng lại không phải do tai nạn xe.” “Bác sĩ nói chỗ bị trầy xước chảy máu không ngừng, kiểm tra mới phát hiện ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

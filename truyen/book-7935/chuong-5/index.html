@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Từ Con Mồi Thành Kẻ Săn Mồi">
   <meta name="twitter:description" content="Hai tiếng sau xe cảnh sát mới tà tà đến nơi. Cũng vì đường vào làng tôi khó tìm quá.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

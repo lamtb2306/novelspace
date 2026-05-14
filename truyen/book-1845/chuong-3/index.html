@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | MẬT NGỌT NGÀY TẾT">
   <meta name="twitter:description" content="Bố mẹ sắp xếp cho Tiểu Triệt phòng ngay đối diện cửa phòng tôi. Vì phòng tắm bên ngoài bị hỏng, anh ta không còn cách nào khác ngoài việc dùng phòng tắm trong phòng tôi. Nghe tiếng nước chảy bên tr...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

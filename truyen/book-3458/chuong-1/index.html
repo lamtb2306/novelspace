@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Khách Quen Bị Ép Giá">
   <meta name="twitter:description" content="Lượng đơn đặt phòng khách sạn tăng vọt trong dịp lễ 1/5. Nhưng tôi vẫn chừa lại 30 phòng trống cho Trương Hạo, một khách quen đã hợp tác suốt mười năm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

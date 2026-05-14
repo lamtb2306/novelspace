@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thang Máy Quỷ Môn Quan">
   <meta name="twitter:description" content="Vừa bước vào thang máy được một phút, tôi đã biết ngày chết của mình sắp tới gần. Sau khi thang máy khởi động, nó lắc lư mấy cái, đèn chớp nháy, cái bóng tôi in trên nền bị cắt thành ba đoạn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

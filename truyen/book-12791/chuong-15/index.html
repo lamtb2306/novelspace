@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 15 | Người Đến Sau Là Tôi, Người Rời Đi Cũng Là Tôi">
   <meta name="twitter:description" content="Trong bữa tiệc đón gió, thỉnh thoảng chạm mắt, anh ta cũng chỉ lịch sự gật đầu. Như thể họ thật sự chỉ là họ hàng lần đầu gặp. Lý Dư Sơ âm thầm thở phào. Tan tiệc, Lâm Nghiên Từ đi lấy xe.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

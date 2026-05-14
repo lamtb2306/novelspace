@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Mùi Phản Bội">
   <meta name="twitter:description" content="Tôi vẫn chưa từ bỏ, liền mở toàn bộ app mua sắm và đặt đồ ăn. Cũng chẳng thấy điều gì bất thường. Sao có thể như vậy? Trong khoảnh khắc đó, tôi bắt đầu nghi ngờ bản thân. Chẳng lẽ… thật sự là tôi h...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

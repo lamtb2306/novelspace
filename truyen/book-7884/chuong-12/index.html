@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Hai Mươi Năm “Chia Đôi”, Tôi Mới Biết Mình Chỉ Nhận Phần Thừa">
   <meta name="twitter:description" content="Khoản tiền mười lăm triệu tệ đã được chuyển vào tài khoản của tôi ngay buổi chiều hôm đó. Nhìn một dãy số 0 dài dằng dặc trong ứng dụng ngân hàng, tôi không thấy sướng rơn như mình vẫn tưởng, chỉ c...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hộp Bánh Trung Thu Cuối Cùng">
   <meta name="twitter:description" content="Trong bữa cơm Trung Thu, bạn trai tôi vừa nghe điện thoại xong liền đứng dậy ra ngoài. “Gọi nhắc dời xe thôi, anh đi xem một chút, em cứ ăn trước đi.” Nhưng trong ống nghe rõ ràng vang lên tiếng re...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

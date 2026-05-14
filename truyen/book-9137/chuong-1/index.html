@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cậu mở công ty, mẹ tôi mở lòng tham">
   <meta name="twitter:description" content="Vừa tròn một tháng đi làm, tôi đã ký được mấy hợp đồng trị giá hàng triệu tệ. Hôm nay, vất vả lắm mới chốt thêm được một cái. Tôi đang định báo tin vui cho cậu thì lại nhận được tin nhắn báo lương ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

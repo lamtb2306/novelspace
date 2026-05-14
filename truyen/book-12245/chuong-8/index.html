@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Mười Bảy Năm Trong Bóng Tối">
   <meta name="twitter:description" content="“Sạp nào? Chủ sạp trông như thế nào?” Một loạt câu hỏi của tôi khiến ông ta có chút trở tay không kịp. Sắc mặt ông ta đổi đi đổi lại. “Cái này… chuyện đã lâu như vậy rồi, sao tôi còn có thể nhớ rõ ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

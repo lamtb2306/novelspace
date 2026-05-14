@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Chồng Tôi Là Đại Ca Đông Bắc">
   <meta name="twitter:description" content="Ông nhìn mẹ, ánh mắt nghiêm túc mà tôi chưa từng thấy. “Anh không lừa em.” “Anh cũng không thấy thú vị.” “Càng không coi em là ngốc.” Mẹ cười lạnh: “Không lừa tôi?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

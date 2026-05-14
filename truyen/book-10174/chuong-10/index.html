@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Công Ty Không Cần Nhân Viên, Chỉ Cần Vận May">
   <meta name="twitter:description" content="Tôi hít sâu một hơi, bước xuống bậc thềm, đi vào trong mưa. Cánh cổng nhà giam phía sau từ từ khép lại. Cuộc đời tôi, vào khoảnh khắc đó, thật sự mở sang một trang mới. Một năm sau.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

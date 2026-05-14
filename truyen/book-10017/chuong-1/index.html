@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mẹ Ơi, Con Vô Tội">
   <meta name="twitter:description" content="Sinh nhật của tôi và ngày giỗ của bố rơi vào cùng một ngày. Sau khi bố mất, tôi không còn tổ chức sinh nhật nữa. Khi bị kẻ giết người dí súng vào đầu, bọn chúng ép tôi gọi điện cho mẹ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

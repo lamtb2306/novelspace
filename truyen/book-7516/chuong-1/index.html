@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | LÂM NHƯỢC DƯƠNG">
   <meta name="twitter:description" content="Trước ngày tốt nghiệp, tôi lại bị nhận nhầm thành một người tên là “Lâm Nhược Dương”. Nhắc đến cái tên ấy, tôi lờ mờ nhớ ra, hình như hồi nhỏ tôi có một người anh em sinh đôi. Nhưng người thân và b...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

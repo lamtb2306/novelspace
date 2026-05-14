@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | NỔI HỨNG MUỐN YÊU ĐƯƠNG">
   <meta name="twitter:description" content="Thẩm Vãn Tịch ngồi đối diện, đang xem thực đơn thì quay sang hỏi tôi: “Nghi Niên, em muốn ăn gì?” Tôi nắm chặt gấu quần, cố gắng hết sức để nặn ra một nụ cười gượng gạo: “Em…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

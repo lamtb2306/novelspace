@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Theo Cậu Cả Một Mùa Thanh Xuân">
   <meta name="twitter:description" content="Tin nhắn thỉnh thoảng cậu gửi về cũng đủ khiến tôi vui cả một lúc lâu. Nhưng đến sau này, tôi bắt gặp cậu và đàn chị cùng ăn cơm ở căng tin.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

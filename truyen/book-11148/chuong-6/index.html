@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | HỒNG NGỌC DI HẬN">
   <meta name="twitter:description" content="Nàng gào lên, còn định nhào tới, nhưng ngay khi ấy, nội giám trong cung dẫn thị vệ tràn vào. Thấy Lưu Giao Giao, công công chỉ tay: “Bắt lại!” Nàng hoảng loạn: “Các ngươi dám!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

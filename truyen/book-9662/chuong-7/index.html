@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | GIẢ CHẾT RỜI XA ANH">
   <meta name="twitter:description" content="Tôi đến thế giới mới này cũng đã một thời gian rồi. Không phải tận thế, cũng không có xác sống. Chỉ là một hòn đảo nhỏ ven biển. Và nhiệm vụ của tôi… là làm đồ ngọt trong một quán cà phê.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

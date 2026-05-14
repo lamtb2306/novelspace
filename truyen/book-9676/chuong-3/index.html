@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CHỊ GÁI DỰ BỊ ĐỔI MỆNH">
   <meta name="twitter:description" content="Tôi bấm mạnh ngón tay vào lòng bàn tay, cơn đau sắc lịm giúp tôi tỉnh táo trở lại. Từ nay, tôi không muốn khao khát thứ tình yêu mơ hồ ấy nữa. “Tạm biệt.” Đây là câu cuối cùng tôi nói ở nơi này.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

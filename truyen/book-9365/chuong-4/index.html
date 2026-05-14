@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Một Màn “Giúp Đỡ” Khiến Tôi Muốn Cười">
   <meta name="twitter:description" content="Tôi không có thói quen làm trò cười cho người khác, trực tiếp đi qua hỏi: “Bạn học, xảy ra chuyện gì vậy?” Người này hôm qua từng cười nhạo tôi, đương nhiên cũng đã xin lỗi. Tôi còn nhớ anh ta tên ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

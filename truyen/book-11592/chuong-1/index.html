@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cảm Ơn Anh Đã Rời Đi Trước Khi Tôi Phát Tài">
   <meta name="twitter:description" content="Vào đúng ngày sinh nhật, người bạn trai đã yêu năm năm của tôi nói lời chia tay. Tôi đồng ý. Ngày hôm sau, anh ta đăng lên vòng bạn bè một bức ảnh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

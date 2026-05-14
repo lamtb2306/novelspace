@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | HOA KHÔI QUÂN ĐỘI">
   <meta name="twitter:description" content="Người đang nằm trong trạm xá — không phải tôi. Người duy nhất trong làng đi xem phim tối qua và có hộ khẩu nông thôn, ngoài Lý Tuyết Nhung ra, còn ai vào đây nữa? Dù vậy, để chắc chắn, tôi vẫn lặng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

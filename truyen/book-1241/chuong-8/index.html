@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | HUỶ HÔN ĐÚNG LÚC">
   <meta name="twitter:description" content="Tôi nộp đơn xin chuyển công tác sang chi nhánh khác. Lần trước tôi đi công tác và ký được một hợp đồng lớn. Công ty đã có ý định điều tôi sang chi nhánh bên kia phát triển từ lâu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

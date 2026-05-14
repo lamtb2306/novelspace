@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | GỬI NHẦM TIN NHẮN CHO NGƯỜI YÊU CŨ">
   <meta name="twitter:description" content="Khi đi công tác, tôi họp tại khách sạn và lỡ gửi nhầm số phòng cho bạn trai cũ: 【Nhanh lên, anh không đến thì tôi cho người khác thay đấy.】 Sau đó, tôi cúp máy trước hàng loạt cuộc gọi từ anh ấy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Đêm Lạnh Không Người Đón">
   <meta name="twitter:description" content="Nói cho anh biết thì sao? Anh sẽ đến đón tôi chắc? Nghĩ lại tin nhắn giữa tôi và anh ta, chỉ có hai lần tôi đi công tác về khuya, vì không bắt được xe nên mong anh đến đón. Nhưng cả hai lần đều bị ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

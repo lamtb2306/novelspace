@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | QUAY LẠI TRƯỚC KHI YÊU ANH">
   <meta name="twitter:description" content="Tại bữa tiệc sinh nhật của Tiêu Hàn, bạn bè hỏi anh ấy mong ước gì cho tuổi 34. Anh ta đôi mắt mơ màng vì men say, cầm ly rượu lắc nhẹ, ánh mắt xuyên qua làn rượu sóng sánh mà nhìn tôi, khóe môi nh...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

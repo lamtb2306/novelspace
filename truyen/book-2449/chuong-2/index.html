@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CHỊ DÂU NỬA ĐÊM GỬI ẢNH GỢI ẢNH GỢI CẢM CHO CHỒNG TÔI">
   <meta name="twitter:description" content="Sáng sớm vừa mở điện thoại ra, toàn màn hình là cuộc gọi nhỡ và tin nhắn chưa đọc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

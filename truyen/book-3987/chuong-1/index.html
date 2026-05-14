@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Hơi Gả Ba Nhà">
   <meta name="twitter:description" content="Ta nghe lời bà mối, một hơi gả đến ba phu quân. Một người ở Đông thôn, một người ở Tây trang, còn một người trú tại trấn trên. Kẻ ở Đông thôn vốn thư sinh, dạy con ta đọc sách viết chữ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

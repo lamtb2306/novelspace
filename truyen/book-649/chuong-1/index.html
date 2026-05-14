@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đứa Con Thứ Tư">
   <meta name="twitter:description" content="Mẹ tôi sinh năm đứa con, tôi đứng thứ 4. Mấy chị gái thường bảo thật ra tôi sinh sau, nhưng mẹ nói muốn cả nhà phải cưng chiều thằng út, nên tính tôi là thứ 4, còn em trai là thứ 5.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

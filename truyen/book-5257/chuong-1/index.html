@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI LÀ MỘT MIÊU TINH NGÂY THƠ">
   <meta name="twitter:description" content="Tôi là một miêu tinh. Sau khi trưởng thành, anh trai đá tôi xuống núi. Anh nói tôi đã là một mèo tinh trưởng thành, phải tự học cách bắt cá để ăn. Thế là tôi ra bờ biển và bắt được một con nhân ngư.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

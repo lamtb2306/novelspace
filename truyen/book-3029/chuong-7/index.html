@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | GIANG TẦM">
   <meta name="twitter:description" content="Về đến khách sạn, tin nhắn WeChat của Kỷ Vân vẫn liên tục gửi đến. Anh dỗ dành tôi: 【Anh thực sự không có ý gì với cô ấy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

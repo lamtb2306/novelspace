@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Vết Bớt Trên Lưng">
   <meta name="twitter:description" content="Là một nữ sinh nghèo, người tôi ngưỡng mộ nhất chính là bạn cùng phòng giàu có Tần Vũ Thần. Tôi một tháng chỉ có 300 tệ sinh hoạt phí, còn chẳng đủ tiền cho cô ấy ăn một bữa tối.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

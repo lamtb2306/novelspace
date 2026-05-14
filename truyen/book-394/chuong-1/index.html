@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cưới Vợ Không Tốn Một Xu">
   <meta name="twitter:description" content="Trợ cấp nuôi con vừa về tài khoản, chồng tôi bỗng nhiên hỏi: “Khoản tiền này em định tiêu thế nào?” Tôi không mấy bận tâm, đáp: “Đương nhiên là mua sữa bột với bỉm cho con rồi, hỏi cái đó làm gì?” ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

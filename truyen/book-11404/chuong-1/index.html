@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cô Chủ Tiệm Nướng và Hạt Bắp">
   <meta name="twitter:description" content="Nhà tôi mở tiệm nướng, dùng hạt bắp làm nhiên liệu – thân thiện môi trường hơn than. Cho đến hôm nay một cô bé con, khóc lóc đòi tố cáo chúng tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mái Nhà Dột Nát">
   <meta name="twitter:description" content="Bố tôi đã nhịn mẹ nửa đời người. Bà gửi tiền cho nhà ngoại – cho cậu 25 vạn, cho cháu ngoại 17 vạn, cho em họ 6 vạn – ông chưa từng đỏ mặt một lần.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

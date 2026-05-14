@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | 80 Gram Vàng">
   <meta name="twitter:description" content="Mười năm trước, tôi lấy số tiền lương năm đầu tiên đi làm, góp với mẹ mua một cây vàng 100 gram. Mười năm sau, tôi bị chẩn đoán sỏi mật, phải mổ nội soi cắt túi mật, chi phí ba mươi ngàn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÌNH YÊU ONLINE VỚI TỔNG TÀI CAO LÃNH">
   <meta name="twitter:description" content="Đang họp thì lén nhắn tin cho người yêu online: “Bảo bối ơi, anh đang làm gì đó? Nhớ anh quá nè【gửi tim】” Cả phòng họp đột nhiên la lên. Tôi ngẩng đầu, chết đứng nhìn màn hình chiếu đang hiển thị đ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Tôi Lắp Cửa Thông Minh, Nhưng Không Ai Cho Bố Mẹ Tôi Vào">
   <meta name="twitter:description" content="QUAY LẠI CHƯƠNG 1 : Còn một phe là “không quan tâm”. “Nhà tôi có cổng riêng, cổng lớn liên quan gì.” “Tôi đi bộ ra vào, có hay không cũng vậy.” “Trộm muốn vào thì chặn cũng không nổi, lắp làm gì.” ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

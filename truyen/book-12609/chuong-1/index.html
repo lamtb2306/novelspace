@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MỘT TIẾNG NỔ, MỘT ĐỜI HẬN">
   <meta name="twitter:description" content="Sau khi biết mình mang thai, tôi vui mừng đi tìm chồng — một lính đánh thuê hàng đầu — để nói cho anh biết tin tốt này.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

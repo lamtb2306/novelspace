@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Hè Này Có Một Đứa Em Trai">
   <meta name="twitter:description" content="Tôi thẳng chân đá nó một phát lăn quay. Nó là cái thá gì chứ, đây là nhà tôi! “Bố, mẹ. Đừng nói đạo lý với con. Từ bé đến lớn, hai người giở trò còn ít à?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

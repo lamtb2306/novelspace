@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Gia Đình Hạnh Phúc Của Anh">
   <meta name="twitter:description" content="Hôm nay là sinh nhật tôi, tôi đã đặt chỗ ở một nhà hàng sang trọng. Thế nhưng chồng và bố chồng lại lấy lý do phải tăng ca nên không thể đến được. Dù có chút hụt hẫng, tôi vẫn tỏ ra thông cảm, tự m...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

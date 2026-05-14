@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | MÂY TAN TRĂNG SÁNG">
   <meta name="twitter:description" content="Nhà hàng trang trí rất sang trọng, là chỗ nổi tiếng ở Giang Thành. Tôi mặc một chiếc váy dài màu đen, tóc búi gọn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

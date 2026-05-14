@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tương lai sau năm giây">
   <meta name="twitter:description" content="Anh từng hứa, nhất định sẽ đưa tôi đi một lần trong đời. Ngày kia, anh sẽ đến đó để hẹn hò — nhưng không phải với tôi. Tim tôi như rơi thẳng xuống đáy biển lạnh giá, chìm vào hố sâu thăm thẳm không...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

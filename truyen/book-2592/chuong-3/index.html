@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CUỐI CÙNG EM CŨNG TÌM ĐƯỢC CHÂN ÁI ĐỜI MÌNH">
   <meta name="twitter:description" content="Trong quán bar, Lâm Tự Nam ngồi uống rượu một cách khó chịu. Mấy người bạn thân của anh nhìn nhau dò xét. “Chuyện gì thế này?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Bánh sinh nhật 100 cây nến của bà nội">
   <meta name="twitter:description" content="Bác cả trợn mắt. “Dựa vào đâu? Dựa vào việc tôi là anh cả, tôi nhiều hơn hai lần thì sao?” “Hơn nữa bao nhiêu năm nay, chăm sóc bà cụ, tiền chữa bệnh, tiền chăm nom, nhà tôi gánh phần lớn.” Mợ hai ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

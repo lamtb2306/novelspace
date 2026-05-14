@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Cô Dâu Không Dễ Bắt Nạt">
   <meta name="twitter:description" content="Đúng vậy, tôi không chỉ có một mình. Tôi chưa từng chỉ có một mình. Dù tôi bay cao đến đâu, đi xa đến đâu, gia đình mãi mãi là bến cảng cuối cùng và là chỗ dựa của tôi. “Con biết rồi, bố.” Tôi gật ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

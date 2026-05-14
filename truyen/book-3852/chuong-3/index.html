@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Mảnh Ghép Cuối Cùng">
   <meta name="twitter:description" content="Giỏi đến mức khiến tôi tin là thật. Đang nghĩ ngợi, Thẩm Ký Minh chẳng biết từ khi nào đã đứng ngay sau lưng tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

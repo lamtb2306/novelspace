@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thượng Nguyên Dạ, Có Người Nhận Nhầm Hoàng Hậu">
   <meta name="twitter:description" content="Đêm Thượng Nguyên, mẫu hậu lén dẫn ta ra phố xem đèn. Ta liên tiếp đoán trúng hơn chục câu đố đèn, cả con phố reo hò tán thưởng. Đột nhiên, một nam một nữ chặn đường chúng ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

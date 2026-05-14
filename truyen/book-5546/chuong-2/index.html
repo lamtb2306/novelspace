@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | VẾT NỨT TRONG ĐỜI">
   <meta name="twitter:description" content="Đậu Đậu bỗng siết chặt tay tôi, giọng non nớt nghẹn ngào: “Ba nói dối! Ba nói đi Disneyland là đi với mẹ mà!” Đám đông vây quanh ngày một đông, ánh đèn flash lóe lên trong bóng tối.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Định Mệnh Hai Alpha">
   <meta name="twitter:description" content="Tần Tư Triệt và tôi — một người là Alpha cấp A, một người là Alpha cấp S. Người ta đồn rằng chúng tôi là kẻ thù không đội trời chung, hận nhau đến muốn giết nhau.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

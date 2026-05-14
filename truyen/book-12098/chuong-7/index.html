@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Ngôi Sao Xui Xẻo">
   <meta name="twitter:description" content="Tôi yên tâm bò đi. Đèn bật sáng, đồng nghiệp đồng loạt bật dậy, nhìn tôi bò loạn xạ dưới sàn. Cơn say cũng tan sạch.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

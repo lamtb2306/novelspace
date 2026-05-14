@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BÀ TRIỆU ĐỆ">
   <meta name="twitter:description" content="Bà Triệu Đệ không thích tôi, tôi cũng không dám cãi lại. Tôi sợ, sợ nếu ngay cả bà cũng không cần tôi nữa thì tôi thật sự chẳng còn ai trên đời. Bà không thích mái tóc dài của tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

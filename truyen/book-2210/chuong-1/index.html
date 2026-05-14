@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bạn Cùng Phòng Dùng Ảnh Tôi Để Lừa Tình">
   <meta name="twitter:description" content="Bạn cùng phòng lấy ảnh selfie đã chỉnh kỹ của tôi để yêu đương qua mạng, đối phương lại là một thiếu gia cốt cán trong giới quý tộc Bắc Kinh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

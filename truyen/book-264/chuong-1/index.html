@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thực Tập Sinh Và Biến Cố Ba Hào">
   <meta name="twitter:description" content="“Ba hào rốt cuộc đã đi đâu rồi?” “Trời ơi, tan ca nhanh lên đi!” — cô thực tập sinh ngồi trong góc suốt buổi chỉ lo chơi game bỗng nhiên mở miệng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

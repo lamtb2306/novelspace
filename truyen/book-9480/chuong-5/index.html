@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | GIANG THỜI HỰU">
   <meta name="twitter:description" content="Về đến nhà, tối đó tôi sốt cao. Tỉnh lại lần nữa đã là chiều hôm sau.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

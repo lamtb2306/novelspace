@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐỪNG NGỦ , NGỦ LÀ CHẾT ĐẤY">
   <meta name="twitter:description" content="Đêm khuya, nhóm chat của trường bất ngờ hiện lên một tin nhắn kỳ lạ. “Còn ai sống không?” Tôi tiện tay trả lời một câu: “Sống tốt chứ, đang chuẩn bị đi ngủ đây.” Không ngờ, đối phương lại nhắn lại ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CHU HỒI">
   <meta name="twitter:description" content="Tôi chậm rãi ngẩng đầu, bình thản nhìn anh. Người đàn ông trước mặt là chồng tôi suốt ba năm qua. Là người tôi đã yêu thầm từ thuở niên thiếu. Nhưng cũng là người mà tôi mãi không thể nhìn thấu. Là...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CON NÍT KHÔNG BIẾT NÓI DỐI">
   <meta name="twitter:description" content="Ban đầu tôi định dùng mùi nước hoa để nhận diện,nhưng mấy cô bạn trong tiệc hôm đó đều xài cùng một loại,khiến tôi thật sự khó phân biệt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

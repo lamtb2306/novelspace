@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | SÁO XƯƠNG GỌI HỒN">
   <meta name="twitter:description" content="Lúc ấy, tôi làm tất cả là vì điều gì? Có lẽ là để ông nội vui. Để trở thành anh hùng. Để dân làng ghi nhớ tên tôi. Nhưng trong muôn vàn lý do ấy, duy chỉ không phải là vì muốn cứu họ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

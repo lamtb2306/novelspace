@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ÁNH NẮNG SAU KHÓI LỬA">
   <meta name="twitter:description" content="Đêm Trung Thu, trên đường đến nhà bạn trai, tôi bị xe tông mạnh. Con đường vắng tanh không một bóng người, cửa xe vì va chạm mà kẹt cứng, trong khi mùi xăng đã tràn ra, lửa bén lên, chỉ chờ một tia...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

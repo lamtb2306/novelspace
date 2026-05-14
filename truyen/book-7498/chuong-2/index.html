@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | GIANG LY">
   <meta name="twitter:description" content="Trên đường về nhà. Tôi hỏi cô: “Nhà này, em nhất định phải về sao?” “Bố mẹ em mà cũng gọi là bố mẹ à?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

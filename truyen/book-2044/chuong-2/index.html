@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BUÔNG BỎ MỐI TÌNH MƯỜI BỐN NĂM">
   <meta name="twitter:description" content="Khi mở mắt ra, tôi đã đến một nơi hoàn toàn xa lạ – một thành phố ven biển. Gió đêm nhẹ nhàng thổi qua, khung cảnh đêm thật đẹp. Tôi chọn một khách sạn có thể nhìn ra biển và làm thủ tục nhận phòng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

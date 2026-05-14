@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | CHỊ SẼ CHO EM ĐI HỌC">
   <meta name="twitter:description" content="Năm nay cậu mười bảy… hay đã mười tám rồi? Tôi bỗng thấy hoảng hốt. Không nhớ rõ từ khi nào, Cố Trì cuối cùng cũng chán trò “giả vờ bình thường”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

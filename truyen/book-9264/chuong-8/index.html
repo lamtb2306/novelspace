@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | ĐOÁ HOA PHA LÊ">
   <meta name="twitter:description" content="Vậy thì tôi tự nhiên chẳng khách sáo nữa. Nghe nói sau kỳ thi đại học, có phóng viên hỏi cô ta về việc vu khống người khác trộm quỹ lớp, liệu có phải vì ghen tị. Cô ta gào lên: “Tôi không có!!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

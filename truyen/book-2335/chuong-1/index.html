@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BỎ LẠI QUÁ KHỨ CŨ">
   <meta name="twitter:description" content="Đồng nghiệp đùa giỡn với tôi, dán biên lai đỗ xe lên xe của tôi và bảo rằng tôi vi phạm giao thông. Tôi tưởng thật, liền đăng nhập vào hệ thống công cộng để kiểm tra.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

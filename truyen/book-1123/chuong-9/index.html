@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Chúng Ta Gặp Lại Khi Đã Không Còn Tư Cách">
   <meta name="twitter:description" content="“Nhìn ra rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

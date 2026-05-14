@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ÂM MƯU SAU CÁNH CỬA">
   <meta name="twitter:description" content="Một sinh viên nghèo được nhà tôi tài trợ suốt năm năm, vào kỳ nghỉ hè đại học đã gọi điện cho tôi. Cô ấy nói mang đặc sản quê nhà đến để cảm ơn tôi, hiện đang đứng ngay trước cửa nhà tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

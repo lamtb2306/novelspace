@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Hôm ấy, tôi bị k é o q u ần trước 2.000 người">
   <meta name="twitter:description" content="Phiền phức, bám người, chẳng có gì hết. “Cậu nói đúng.” Tôi lùi lại một bước, “Tớ thật sự chẳng có gì cả.” “Cho nên, tớ phải rời đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

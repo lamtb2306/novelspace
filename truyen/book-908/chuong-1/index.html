@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | DẪN THỎ VÀO HANG SÓI">
   <meta name="twitter:description" content="Tôi là một chú thỏ tai cụp, bị ép phải kết hôn với người sói lạnh lùng, nhưng anh ấy không thích tôi. Để trả đũa, tôi đã lén bỏ thuốc vào rượu của anh ta. Nhưng khi tỉnh dậy, tôi phát hiện chúng tô...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

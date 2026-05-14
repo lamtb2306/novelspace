@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CHẠY THEO EM ĐẾN CUỐI CHÂN TRỜI">
   <meta name="twitter:description" content="Nghe tin tôi và Kỷ Văn Triêu đang quen nhau, Tần Thời Việt cố ý đến tìm tôi. “Anh đến để đòi lại công bằng cho Kiều Duyệt đúng không… Xin lỗi…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Chủ Nhà Tăng Giá, Tôi Mang Cả Khách Đi">
   <meta name="twitter:description" content="“Cô Vương, mọi người đừng đi, vô ích thôi ạ.” “Đây là vấn đề hợp đồng giữa cháu và chị ta, mọi người có đi cũng không giải quyết được đâu.” Cô mỉm cười, “Sau này dù không ở đây nữa, cháu vẫn sẽ về ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

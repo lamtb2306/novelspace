@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Bạn Cùng Phòng Của Em Trai Tôi">
   <meta name="twitter:description" content="Tôi nhướn mày. “Còn chuyện gì nữa không?” “Nghe nói… đàn chị ở Stanford, em cũng muốn tìm hiểu một chút về việc du học… không biết chị có thể giúp em được không?” Tôi mỉm cười không thành tiếng, đá...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

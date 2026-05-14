@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Lưỡi Dao Mang Tên Gia Đình">
   <meta name="twitter:description" content="Trong bữa tiệc gia đình mừng em trai mua nhà, đột nhiên nó chỉ tay vào tôi mà trách móc. “Chị, thật ra chị làm mất mặt cả nhà mình đấy.” Khi ấy, tôi đang bận rộn đưa bát đũa cho mọi người, nghe vậy...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

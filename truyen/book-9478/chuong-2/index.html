@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | SỔ GHI THÙ">
   <meta name="twitter:description" content="“Thôi, nói với cậu cũng vô ích. Bao nhiêu năm rồi, tớ cũng đã buông bỏ.” “Huệ Ân à, tớ không định hận cậu nữa. Uống ly rượu này, chúng ta giải hết hiềm khích nhé.” Cô ta nghiêng ly rượu về phía tôi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

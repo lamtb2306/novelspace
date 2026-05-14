@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | YÊU ANH ĐÃ LÂU">
   <meta name="twitter:description" content="Người đàn ông tôi đã yêu sâu đậm, dù chết, tôi cũng không buông. Hôm phát hiện Lục Bắc Xuyên thay lòng, tôi rất bình tĩnh hỏi anh: “Cô ấy hơn tôi chỗ nào?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

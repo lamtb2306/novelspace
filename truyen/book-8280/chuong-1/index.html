@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Dùng 5 Tệ Dạy Cả Văn Phòng Một Bài Học">
   <meta name="twitter:description" content="Tôi phụ trách việc mua trà chiều cho công ty, ngân sách mỗi người là 5 tệ. Để giữ thể diện cho công ty, mỗi ngày tôi đều săn voucher, đàm phán ưu đãi. Cố gắng dùng 5 tệ tạo ra hiệu quả như 50 tệ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

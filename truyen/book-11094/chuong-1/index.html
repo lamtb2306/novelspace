@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tiểu Thư Với Mẹ Chồng Ảo Tưởng">
   <meta name="twitter:description" content="Mới vừa vào công ty, tôi tự thưởng cho mình một chiếc túi ba vạn tệ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

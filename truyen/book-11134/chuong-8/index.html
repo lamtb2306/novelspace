@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | GỬI NHẦM TIN CHO CHỒNG">
   <meta name="twitter:description" content="Chúng tôi chơi ở đảo biển một tuần rồi quay về Bắc Kinh. Tối hôm đó, vẫn là ai về phòng nấy. Sáng hôm sau dậy, Thẩm Yến Chu đã đến công ty. Tôi ở nhà xem phim.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

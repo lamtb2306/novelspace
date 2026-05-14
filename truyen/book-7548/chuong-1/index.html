@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KHÊ KHÊ GIANG DIỄN THẦN">
   <meta name="twitter:description" content="Tôi đã đóng vai một cô nàng yêu mù quáng bên cạnh thái tử gia của giới thượng lưu Bắc Kinh suốt hai năm. Anh ấy cool ngầu chuyển tiền cho tôi, còn tôi thì cứ hét lớn rằng tôi yêu anh, kiểu tình yêu...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

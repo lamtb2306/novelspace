@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Bàn Cơm Giao Thừa Không Có Phần Tôi">
   <meta name="twitter:description" content="Thế là tôi tự lên kế hoạch cho chuyến du lịch một mình vòng quanh châu Âu này. Điện thoại rung lên một cái. Là cuộc gọi video mẹ tôi gửi tới. Tôi bắt máy. Trong màn hình là gương mặt rạng rỡ của mẹ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

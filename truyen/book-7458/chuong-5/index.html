@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Ai Cùng Ta Đi Hết Thanh Xuân">
   <meta name="twitter:description" content="“Chu tổng, ngài cũng biết bọn tôi là dân cho vay nặng lãi. Vừa rồi là năm triệu, nhưng giờ ngài và đàn em đánh chúng tôi, lại mất thời gian thế này, món nợ kia…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

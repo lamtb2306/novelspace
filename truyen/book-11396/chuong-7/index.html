@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Hacker Trong Bữa Tiệc">
   <meta name="twitter:description" content="Tôi giơ điện thoại lên, đưa màn hình cho mọi người xem — con số hiển thị rõ ràng: 0.00 đồng. “Tiền của tôi lại biến mất. Vừa mới nãy, sau khi mọi người chuyển khoản.” Trong phòng yên lặng vài giây,...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

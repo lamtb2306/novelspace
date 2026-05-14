@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | GẶP LẠI BẠN TRAI CŨ">
   <meta name="twitter:description" content="Năm thứ ba làm cảnh sát chìm, tôi lại ra vỉa hè bán bánh mochi. Chỉ là, tay nghề không được tốt lắm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

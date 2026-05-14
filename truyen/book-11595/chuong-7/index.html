@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Sau Cùng, Em Còn Trẻ">
   <meta name="twitter:description" content="Tôi bước ra khỏi văn phòng của Giang Kỳ An, cả khu làm việc với hàng chục ánh mắt đồng loạt đổ dồn về phía tôi. “Mãn Mãn, chúc mừng nhé! Tớ biết mà, cậu là giỏi nhất!” Vài người vây lại, ríu rít nói.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

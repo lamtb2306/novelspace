@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | KHÔNG HOÀ HỢP">
   <meta name="twitter:description" content="Anh bóp chặt sống mũi, cố kìm nén: “Bảy ngày… em không nhắn cho anh một tin nào. Em không quan tâm anh đi đâu sao?” Tôi cười gượng: “Sợ làm phiền anh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

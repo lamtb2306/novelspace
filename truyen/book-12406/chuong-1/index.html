@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thiên Tài Rơi Xuống Lò M-ổ">
   <meta name="twitter:description" content="Năm năm trước, một loạt ca phẫu thuật do chính tôi thực hiện đều thất bại, bệnh nhân lần lượt chết ngay trên bàn mổ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

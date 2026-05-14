@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chị Dâu Mới Về Nhà Đã Muốn Đuổi Cả Nhà">
   <meta name="twitter:description" content="Trước Tết, chị dâu mới cưới liên tục gửi cho tôi mấy tin nhắn. Nào là “Con gái đã lấy chồng thì không được về nhà ăn Tết”, nào là “Tác hại của việc con gái lấy chồng mà vẫn về nhà đón Tết”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | BẠN TRAI CỦA BẠN CÙNG PHÒNG LÀ TÊN BIẾN THÁI">
   <meta name="twitter:description" content="Quay lại chương 1 : Tôi giả vờ lau nước mắt không hề tồn tại, giọng run run nói. “Em là sinh viên năm ba khoa Kinh tế trường Đại học Giang Thành.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

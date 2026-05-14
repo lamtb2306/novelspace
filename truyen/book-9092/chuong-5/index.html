@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Trái T im Thay Thế">
   <meta name="twitter:description" content="Tôi khoác thùng giấy, đôi chân trần đầy vết thương. Thảm hại vô cùng, đứng giữa con phố xe cộ như nước chảy. Xung quanh cao ốc san sát, đèn neon lấp lánh, mà tôi lại chẳng có chỗ nào để trốn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

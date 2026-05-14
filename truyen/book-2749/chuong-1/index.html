@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cuộc Chiến Chỗ Đậu Xe">
   <meta name="twitter:description" content="Tôi xin nghỉ phép năm, cùng nhỏ bạn thân đi chơi hai tuần ở Đông Bắc mới về. Nửa đêm nhận được cuộc gọi bảo tôi ra dời xe. Lúc đó đang nửa mê nửa tỉnh, tôi tưởng lừa đảo, liền mắng một câu “Đồ thần...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

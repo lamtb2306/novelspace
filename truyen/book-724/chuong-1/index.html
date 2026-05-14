@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | HỌA CỐT SƯ">
   <meta name="twitter:description" content="Tôi là một họa sĩ, chuyên vẽ… xương. Nghề này là truyền thống gia tộc, dòng máu đặc biệt cho phép tôi thông qua việc phác họa xương cốt mà giao tiếp với người đã khuất, đọc được ký ức sâu trong họ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Kiếp Này Tôi Chỉ Sống Vì Chính Mình">
   <meta name="twitter:description" content="Ba tôi cũng quay sang, trong mắt mang theo sự dò xét. Thẩm Thanh Duệ lại hiện đúng vẻ lo lắng “giả mù sa mưa”. Tất cả quá quen thuộc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

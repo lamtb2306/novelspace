@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Hoàng Hậu Bất Tửu">
   <meta name="twitter:description" content="“Nghe nói ca ca ta đã trở về rồi? Ta muốn về nhà một chuyến.” Ta chớp chớp đôi mắt to tròn, chăm chú nhìn hắn không chớp. “Lại về nhà? Tháng trước ngươi chẳng mới về đấy thôi?” Ta vẫn chớp chớp mắt...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

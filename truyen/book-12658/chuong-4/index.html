@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Hệ Thống Nghiệp Báo Tức Thì">
   <meta name="twitter:description" content="Ba tôi đứng ở vị trí chủ tọa, chỉnh lại giọng rồi nói: “Thưa các vị, hôm nay tôi có chuyện gia đình phải làm rõ. Về việc thay đổi cổ phần lần trước…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | TẤT CẢ CHỈ LÀ DỐI TRÁ">
   <meta name="twitter:description" content="“Này này! Cô bé, cháu làm cái gì đấy hả?” “Nguy hiểm lắm cháu có biết không?” “Băng qua đường kiểu đó, nếu bị xe tông thì sao hả? Bánh xe mà cán qua thì sao đây?” Ở bên kia làn đường tấp nập, tôi v...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

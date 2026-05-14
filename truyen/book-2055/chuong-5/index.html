@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Ba Người, Một Tờ Giấy Hôn Nhân">
   <meta name="twitter:description" content="Lúc này, cuối cùng dì cũng không nhịn được nữa, quay sang quát thẳng vào đám phóng viên: “Làm ơn buông tay ra.” “Cô Trần nhà chúng tôi không may gặp người xấu, vừa gặp tai nạn còn sảy thai, bây giờ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

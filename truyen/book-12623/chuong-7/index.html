@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Sau Cùng, Chúng Ta Là Một Nhà">
   <meta name="twitter:description" content="Cô ta ngồi bệt dưới đất, gào lên: “Tôi có quyền quản! Tôi là mẹ của Triều Triều và Dương Dương! Anh nửa đêm không về nhà, lại đi gặp con hồ ly này, tôi không được quyền hỏi à?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

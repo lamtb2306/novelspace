@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Tàn Cục">
   <meta name="twitter:description" content="Đến lúc tôi chết rồi, anh lại nhớ thương không nguôi. Nếu được chọn lại, tôi nhất định nhờ tiểu ca kia đổi lời nhắn, chỉ nói: “Bình Nam Dụ, anh yên tâm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | MÙNG BẢY TẾT TÔI THÀNH KẺ ĂN CHẶN">
   <meta name="twitter:description" content="“Anh tưởng chỉ cần nói một câu là tôi sẽ rời đi à?” “Tôi vượt qua một vòng thi viết, ba vòng phỏng vấn mới có được công việc này.” “Anh nghĩ mình là ai mà có quyền quyết định như vậy?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

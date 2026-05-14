@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Con Sói Mắt Trắng">
   <meta name="twitter:description" content="Rời khỏi nhà hàng của em trai, tôi bị quản lý gọi lại: “Cô ơi, cô chưa thanh toán hóa đơn.” Tôi nhìn gương mặt xa lạ, nghĩ chắc là nhân viên mới không nhận ra tôi, bèn dịu giọng giải thích: “Hóa đơ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

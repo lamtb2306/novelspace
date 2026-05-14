@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Lạ Trong Ký Ức">
   <meta name="twitter:description" content="Sau khi làm phẫu thuật xóa ký ức, tôi quên mất người bạn trai mười năm yêu nhau, quên cả đứa em gái do chính tay mình nuôi lớn nhưng lại phản bội tôi, quên hết tất cả những gì liên quan đến Kinh Th...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Kiếp Này, Tôi Ích Kỷ Đến Cùng">
   <meta name="twitter:description" content="Kỷ Hạo Sơ và Lục Song Song liếc nhau một cái, rồi chạy xuống tầng hầm kiểm tra. Sau đó quay lại với vẻ mặt thản nhiên. “Biết điều đấy.” “Thôi được, nếu chị Cố đã nhất quyết muốn đi, thì cứ đi đi.” ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

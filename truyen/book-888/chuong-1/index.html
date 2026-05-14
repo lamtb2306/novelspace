@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bạn Cùng Phòng Cừu Con Dũng Cảm">
   <meta name="twitter:description" content="Khi đi du học, bạn cùng phòng của tôi ngày nào cũng tự hào khoe mình là “con cừu dũng cảm nhất thế giới”. Ngay ngày đầu mới chuyển vào, cô ta đã thuê thợ đến cạy sạch lớp cách nhiệt trên tường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

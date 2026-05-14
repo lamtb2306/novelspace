@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | VẾT NỨT TRONG BÓNG ĐÊM">
   <meta name="twitter:description" content="Tôi tên là Vệ Lan, năm 1983 gả về làng Lý Gia. Chồng tôi tên Lý Kiến Quốc, dáng vẻ ưa nhìn, làm công tạm thời ở trạm cơ giới nông nghiệp của huyện, được xem là “miếng bánh ngọt” trong mắt các cô gá...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

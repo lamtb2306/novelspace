@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Khi Tình Thân Bị Đem Ra Mặc Cả">
   <meta name="twitter:description" content="Trước ngày nhập học đại học, tôi lướt mạng và nhìn thấy một bài đăng. “Cô tôi không kết hôn cũng không sinh con, dưới tên có hai căn nhà ở Thượng Hải, tiền tiết kiệm vài triệu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

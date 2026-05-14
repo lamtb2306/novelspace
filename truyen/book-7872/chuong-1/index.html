@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nguyện Vọng Cu ối Cùng">
   <meta name="twitter:description" content="Ngày cuối cùng nộp nguyện vọng đại học, cậu bạn thanh mai của tôi đã lén đổi nguyện vọng của tôi thành Đại học Khoa học Quốc phòng. Chỉ vì một câu nói đùa của “hoa khôi lớp”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

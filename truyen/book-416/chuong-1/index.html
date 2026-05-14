@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hoàng Hậu Trị Cung">
   <meta name="twitter:description" content="Ta là Hoàng hậu.Xuất thân từ danh môn võ tướng, chỉ tin vào lý lẽ, không tin trò quỷ mị. Đêm đại hôn, quý phi cố ý giả bệnh, sai thái giám đến truyền chỉ gọi hoàng thượng rời khỏi tân phòng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

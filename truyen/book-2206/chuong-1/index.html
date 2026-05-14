@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bạch Nguyệt Quang Sụp Đổ Rồi">
   <meta name="twitter:description" content="Giới thiệu: Học sinh nghèo được mẹ tôi tài trợ lại giả mạo thân phận của tôi ở trường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

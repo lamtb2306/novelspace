@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | SỢI CHỈ ĐỎ TAN VỠ">
   <meta name="twitter:description" content="Tôi sinh ra đã có thể nhìn thấy sợi chỉ đỏ nhân duyên trên người mỗi người. Ai với ai là chính duyên, chỉ cần liếc mắt là rõ. Thế nhưng ba tôi lại mắng tôi mê tín, bảo thế kỷ hai hai rồi mà còn tin...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

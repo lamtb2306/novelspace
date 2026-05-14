@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | SOCOLA NGỌT NGÀO">
   <meta name="twitter:description" content="Những ngày không đi đón Thẩm Duy Tự, tôi vẫn chưa nhận được tin tức gì về công việc. Mỗi ngày chỉ quanh quẩn ở nhà nhận vẽ thuê, thời gian còn lại thì dùng tài khoản phụ để làm dữ liệu cho anh ấy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

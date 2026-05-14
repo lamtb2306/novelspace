@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHỊ ĐẠI NHÀ HỌ TÔ">
   <meta name="twitter:description" content="Tôi tên là Tô Nhu. Lúc mới sinh ra, tôi không tên như vậy, mà tên là Tô Ngôn Phi. Chỉ là sau đó tôi quá nghịch ngợm, còn quậy hơn cả con trai, lại càng khó dạy hơn tụi con trai trong xóm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

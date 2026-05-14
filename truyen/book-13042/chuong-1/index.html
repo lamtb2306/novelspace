@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trò Hề Cung Đấu">
   <meta name="twitter:description" content="Để bôi nhọ danh tiếng của Thái tử, ta tự xưng là sủng thiếp của hắn. Đi khắp nơi làm càn, gây rối thị phi. Giữa chừng, ta lại để mắt đến một lang quân tuấn mỹ. Hắn từ chối: “Cô nương chẳng phải là ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

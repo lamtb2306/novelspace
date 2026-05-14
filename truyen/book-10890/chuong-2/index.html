@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Thanh Mai Muốn Tôi Nuôi Anh Ta Học Hoa Đại">
   <meta name="twitter:description" content="Còn học phí của tôi, mỗi lần cha mẹ đưa tiền đều vô cùng miễn cưỡng, ngày nào họ cũng lẩm bẩm: “Tiền mồ hôi nước mắt của chúng ta tại sao phải cho đồ vô dụng như mày tiêu.” Mà tôi từ nhỏ đến lớn bị...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

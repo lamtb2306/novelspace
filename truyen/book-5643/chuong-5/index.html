@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | YÊU XA">
   <meta name="twitter:description" content="Tôi có thể hiểu được tâm trạng của anh ta bây giờ, nhưng khi Giang Kỳ Nghiên nói: “Nếu em không ngại làm người phụ nữ bên ngoài, tôi cũng không ngại nuôi em.” Tôi chỉ im lặng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

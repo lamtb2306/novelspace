@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Mười Năm Yêu Một Cái Bóng">
   <meta name="twitter:description" content="Tôi run rẩy rút điện thoại, mở ảnh Giang Lẫm: “Vậy, nếu cô ấy là phu nhân Giang, thì người đàn ông này có phải tiên sinh Giang không?” Bảo vệ thoáng nhìn, lập tức gật: “Tất nhiên.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

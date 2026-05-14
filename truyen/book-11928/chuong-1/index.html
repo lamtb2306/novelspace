@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tôi Không Thể Rời Đi">
   <meta name="twitter:description" content="Chồng tôi qua đời chưa đầy ba tháng, chị dâu cả đã thúc giục tôi dọn phòng. “Em dâu, chị không phải muốn đuổi em đâu, mà là anh cả em định sửa lại căn phòng ngủ của em, em thu dọn sớm để tiện thi c...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

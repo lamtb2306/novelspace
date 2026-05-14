@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Người Thí Nghiệm Hoàn Hảo">
   <meta name="twitter:description" content="Camera giám sát sẽ ghi lại hành trình của tôi, chứng minh tôi đang trực ca vào thời điểm “vụ việc” xảy ra. Khoa cấp cứu vẫn đông nghẹt. Tôi như mọi ngày, tiếp nhận bệnh nhân, kê đơn, viết bệnh án.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

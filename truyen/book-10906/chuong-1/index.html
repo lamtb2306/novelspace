@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NHÀ HÀNG BUFFET CÔNG LÝ">
   <meta name="twitter:description" content="Nhà hàng buffet của tôi đón một nhóm khách ăn khỏe. Họ ăn cực kỳ nhiều, toàn chọn món mắc nhất — thịt, hải sản, thịt nướng, thịt sốt… chẳng hề đụng đến rau. Ăn xong còn đòi… lấy hộp ra đóng gói man...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

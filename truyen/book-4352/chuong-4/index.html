@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Nơi Tôi Thuộc Về">
   <meta name="twitter:description" content="Tôi không để ý tới bà ta, từ trong vali lấy ra một chiếc hộp gỗ cũ có khóa. Mở hộp ra, bên trong là một cuốn sổ nhỏ đã ố vàng. Tôi lấy nó ra, đặt lên bàn. “Mẹ, mẹ còn nhớ cuốn sổ này không?” Lưu Vâ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

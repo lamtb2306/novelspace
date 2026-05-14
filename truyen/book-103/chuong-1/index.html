@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tình Yêu Sườn Xào Chua Ngọt">
   <meta name="twitter:description" content="Bạn trai đang nấu cơm thì có tin nhắn của một nữ đồng nghiệp gửi tới điện thoại anh ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

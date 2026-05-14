@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Đường Về Thượng Hải">
   <meta name="twitter:description" content="Tôi ngồi trên taxi, chợt nhớ hồi còn rất nhỏ, bố mẹ tôi cũng từng như vậy, đầu cũng không ngoảnh lại mà ngồi lên taxi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

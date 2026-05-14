@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đám cưới đổ vỡ vì một chiếc Audi">
   <meta name="twitter:description" content="Ngày cưới, bạn trai cũ lái một chiếc Audi chắn ngay trước đầu xe hoa của chúng tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Năm Năm Trong Bóng Tối">
   <meta name="twitter:description" content="Cô lái xe thẳng tới trụ sở Cố thị, cô phải hỏi cho rõ ràng! Cánh cửa phòng tổng tài khép hờ, bên trong truyền ra tiếng cười nói. “Chậc, chỉ tiếc cho tâm huyết của Thẩm Tòng Linh thôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

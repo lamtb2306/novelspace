@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trò Chơi Sinh Tồn Hậu Cung">
   <meta name="twitter:description" content="Đêm đầu tiên nhập cung, các tú nữ đều đang tập luyện cách lấy lòng hoàng thượng. Chỉ có muội muội cùng cha khác mẹ của ta lại ăn vận lộng lẫy, squat trong sân nhóm lửa nấu nồi lẩu, ồn ào đòi làm “Y...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

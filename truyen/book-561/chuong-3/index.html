@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | THÁI TỬ TƯƠNG SÁT">
   <meta name="twitter:description" content="Hắn thật sự gấp gáp, đến mức sáng hôm sau đã định quay lại để giết ta rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

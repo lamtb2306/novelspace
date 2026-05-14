@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | KHÔNG CÒN LÀ CON DÂU HỌ AN">
   <meta name="twitter:description" content="Sau khi con trai chào đời, mẹ chồng tôi đề nghị mỗi tháng chuyển một khoản tiền vào thẻ ngân hàng, coi như tiền sính lễ để dành cho ngày nó cưới vợ sau này.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

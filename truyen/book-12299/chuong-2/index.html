@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Trở Lại Tuổi Ba Mươi Hai">
   <meta name="twitter:description" content="“Con không đi đâu!” Tôi còn chưa nói dứt lời, con bé đã đập bát xuống bàn. “Bà ngoại chẳng bao giờ mua quà cho con, nhà còn nồng nặc mùi thuốc nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

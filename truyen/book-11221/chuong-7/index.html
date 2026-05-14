@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Thiên Kim Hào Môn Chỉ Muốn Ngủ">
   <meta name="twitter:description" content="“Tôi đã nói rồi, chẳng có gì phải tha thứ cả.” Tôi ngáp một cái, “Bức tranh đó cô thích thì cứ lấy đi. Tôi chỉ muốn xem hồi nhỏ tôi trông thế nào, xem xong là đủ rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Kẹo Cola Của Hạ Tinh Dã">
   <meta name="twitter:description" content="Một người trượng nghĩa như Hạ Tinh Dã, lại bị dồn ép thành phản diện. Anh đã giúp tôi một lần, thì tôi cũng phải giúp anh một lần.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

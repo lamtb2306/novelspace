@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TRẢ SAU TẬN HƯỞNG TRƯỚC">
   <meta name="twitter:description" content="Vừa mới ngồi lên tàu cao tốc để quay về, trong nhóm chat ký túc xá bỗng hiện lên một thông báo yêu cầu chuyển tiền.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

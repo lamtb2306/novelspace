@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | YÊU LÂU SINH TÌNH">
   <meta name="twitter:description" content="Sắc mặt Cố Bách Xuyên càng thêm u ám. “Tìm cái web nào thu phí ấy, miễn phí chắc chắn là rác.” Thế là tôi mở một trang 9 tệ 9.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Em Gái Nhà Hào Môn">
   <meta name="twitter:description" content="Tôi vội trấn an: “Thôi mà anh, chuyện qua rồi.” Anh tức đến mức đi qua đi lại. Nén mãi mới nói ra được một câu: “Anh giận vì em có chuyện gì cũng giấu anh.” “Bị bắt nạt nghiêm trọng như vậy mà khôn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

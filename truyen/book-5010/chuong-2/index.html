@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Thoát Khỏi Ngôi Nhà Đầy Bóng Tối">
   <meta name="twitter:description" content="Tôi không quay đầu lại. Đèn cảm ứng trong hành lang sáng lên rồi tắt đi. Giống hệt chút hơi ấm cuối cùng giữa tôi và mẹ, đã bị cái tát ấy dập tắt hoàn toàn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

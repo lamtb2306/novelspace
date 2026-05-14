@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BÀI KIỂM TRA CUỐI CÙNG">
   <meta name="twitter:description" content="Kiếp trước, vì tiết kiệm, bữa ăn mỗi ngày của tôi chỉ là mì sợi luộc nước lã, đến cả dưa chua cũng không dám mua, chỉ dám rắc một nhúm muối.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

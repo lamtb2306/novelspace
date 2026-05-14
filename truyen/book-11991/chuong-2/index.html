@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TÔ NIÊN">
   <meta name="twitter:description" content="Tôi rời khỏi quán lẩu chưa bao lâu thì điện thoại của Giang Văn Vũ gọi tới. “Tô Niên, anh không đồng ý ly hôn. Bây giờ em đang ở đâu?” Tôi cầm điện thoại, vừa định nói gì thì một chiếc xe chậm rãi ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tiền Chia, Mạng Trả">
   <meta name="twitter:description" content="Bạn cùng phòng là sinh viên nghèo hình như không giỏi tính toán cho lắm. Trà sữa mua một tặng một, cô ấy nói ly cô ấy uống là ly được tặng, tôi vẫn phải chia tiền ly đó với cô ấy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

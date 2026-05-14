@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Lỡ Nhau Một Đời">
   <meta name="twitter:description" content="Nhưng Lục Chiêu lại sải bước tiến vào phòng. “Đang làm gì vậy?” Rõ ràng tôi cảm nhận được tiếng bước chân tiến về phía mình.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

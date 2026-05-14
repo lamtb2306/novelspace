@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | BẠN HỌC GIẢ TẠO">
   <meta name="twitter:description" content="“Trương Tường Tường, váy của tôi, cô mặc thấy hài lòng chứ?” “Mặc đồ của tôi, lái xe của tôi, rồi tự nhận biệt thự nhà tôi là của cô.” “Thế không buồn cười sao?” Tôi dừng lại một chút, rồi tiếp tục...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

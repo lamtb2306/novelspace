@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | MỘT NĂM RƯỠI KHÔNG Ở NHÀ">
   <meta name="twitter:description" content="Buổi sáng, không ai nấu bữa sáng. Ba đứa trẻ đói meo khóc ầm cả nhà, lục tung tủ lạnh. Sữa đổ lênh láng, vụn bánh mì và mứt bôi đầy mặt bàn bếp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

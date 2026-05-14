@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Hủy Hôn Trong Danh Dự">
   <meta name="twitter:description" content="Tôi bật cười lạnh: “Nhà không liên quan đến tôi, tôi trả làm gì? Anh định ăn không à?” Anh ta vẫn cãi: “Sao lại không liên quan? Sau cưới em ở đây, đỡ tốn tiền thuê nhà rồi còn gì.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

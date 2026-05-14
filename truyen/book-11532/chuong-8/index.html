@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | CHỊU CHƠI CHỊU THUA">
   <meta name="twitter:description" content="Khi thấy tôi xuất hiện ở bệnh viện, cậu ta kinh ngạc đứng bật dậy, vội vã nhường chỗ: “Hai người nói chuyện nhé, em ra ngoài hút điếu thuốc.” Tôi liếc cậu ta: “Vẫn chưa bỏ thuốc hả?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

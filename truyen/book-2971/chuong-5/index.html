@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Di Chúc Luân Hồi">
   <meta name="twitter:description" content="Làng chúng tôi tên là làng Đăng Cao, ban đầu nằm ở một ngọn núi cao hiểm trở, địa thế hiểm nghèo, gần như không có đường nối xuống chân núi, cuộc sống cực kỳ khép kín.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

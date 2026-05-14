@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | MỆNH PHƯỢNG HOÀNG">
   <meta name="twitter:description" content="Phần còn lại anh đưa tôi, dặn kỹ là tôi phải giữ thật cẩn thận. Anh còn nói, từ nay mỗi tháng sẽ gửi cho tôi 10 đồng, anh ghi rõ tên tôi trên phiếu lĩnh tiền, người khác không rút được. Tôi vô cùng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

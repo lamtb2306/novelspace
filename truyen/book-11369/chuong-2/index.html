@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Người Giữ Từ Đường">
   <meta name="twitter:description" content="Cố tổ bà hơi cau mày: “Ta trút giận xong sẽ rời đi.” “Hay con để chị dâu con quỳ một cái, thắp nén hương cho người?” “Chị ấy mới về, chưa hiểu quy củ, người rộng lượng, tha cho chị ấy được không?” ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

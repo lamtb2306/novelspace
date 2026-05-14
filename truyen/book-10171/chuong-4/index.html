@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | CON TRAI SẾP TỔNG LÀ BẠN TRAI TÔI">
   <meta name="twitter:description" content="Tôi đáp lại bằng một câu đầy cáu kỉnh. Tôi: “Anh giỏi quá, vỗ tay cho anh nè.” Vài giây sau, cậu ta lại nhắn tới. Cún con sửa chữa: “Bảo bối, em giận rồi à?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

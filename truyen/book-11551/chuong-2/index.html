@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Luôn bận vì em">
   <meta name="twitter:description" content="Trong lòng hơi bực bội. Chiếc dây chuyền đó rất đẹp, tôi biết. Nhưng tôi không muốn thứ kiểu như… một sự bồi thường ban phát. Hay nói đúng hơn, là một cách qua loa để bù đắp cho sự vắng mặt kéo dài...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

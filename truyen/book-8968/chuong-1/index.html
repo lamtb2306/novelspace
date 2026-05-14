@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BỮA CƠM CHA NẤU">
   <meta name="twitter:description" content="Năm sáu tuổi, Tôi bị đuổi ra khỏi nhà, tự lập sinh sống. Khi tôi đang nhặt rác trên phố, cha tôi ngồi trong hàng ghế sau của chiếc Maybach, nhìn tôi chăm chú.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

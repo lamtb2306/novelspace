@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | ÁNH NẮNG SAU KHÓI LỬA">
   <meta name="twitter:description" content="Ngay lúc tôi sắp lịm đi, một người đàn ông trung niên chạy xe máy đi ngang qua. Thấy xe đang cháy dữ dội, ông vội thắng gấp, hét lớn: “Này! Hai người kia làm gì vậy?!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

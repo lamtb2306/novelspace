@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Vỏ Bọc Shipper">
   <meta name="twitter:description" content="Trong tủ lạnh công ty, hộp há cảo của tôi bị dán tên người khác. Mẹ tôi đã thức cả đêm để làm cho tôi hai mươi cái há cảo tôm thủ công, từng cái đều có vỏ mỏng nhân đầy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

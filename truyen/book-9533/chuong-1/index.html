@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | 20 TỆ VÀ NƯỚC MẮT">
   <meta name="twitter:description" content="Tiền sinh hoạt của tôi là ba mẹ thay phiên nhau gửi từng ngày, mỗi ngày 20 tệ. Thứ hai, tư, sáu thì ba gửi. Thứ ba, năm, bảy thì mẹ gửi. Chủ nhật thì tôi tự đi làm thêm kiếm tiền.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

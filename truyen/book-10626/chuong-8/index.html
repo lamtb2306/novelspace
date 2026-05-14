@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Câu Đố Cuối Cùng">
   <meta name="twitter:description" content="Tôi khẽ gật đầu. Thật ra, sâu trong lòng, tôi đã có quyết định từ trước rồi. Nhưng đúng lúc tôi nghĩ mọi thứ đã kết thúc, thì ngày hôm sau, Lý Hạo lại gọi điện đến, khiến tôi sững sờ. “Chị!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

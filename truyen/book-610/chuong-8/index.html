@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Tôi Rời Đi Vào Một Ngày Trời Đẹp">
   <meta name="twitter:description" content="“Các con quên rồi sao, chính các con đã nói mong tôi chết đi, để tìm một người mẹ mới thay thế cơ mà.” Hai đứa khóc dữ dội hơn. Đến Hạo Nghiêm cũng không chịu nổi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tôi Mang Thai, Chồng Lái Ferrari Đi Đón Bạch Nguyệt Quang">
   <meta name="twitter:description" content="Tùy anh nghĩ thế nào cũng được. Tôi không còn muốn giải thích nữa. Đúng lúc đó, một mùi hương thoang thoảng tràn vào, ngay sau đó là một mỹ nhân tóc dài xách túi bước vào, cười rạng rỡ. “Xin chào, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

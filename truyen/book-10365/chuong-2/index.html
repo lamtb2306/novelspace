@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BÍ MẬT VỀ 3 HẠT ÓC CHÓ">
   <meta name="twitter:description" content="Anh trở thành anh hùng của tôi, ánh sáng của tôi. Chúng tôi thuận theo tự nhiên mà đến với nhau. Nhưng giờ đây, tấm ảnh kia đã đập tan tất cả những ảo tưởng hạnh phúc của tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

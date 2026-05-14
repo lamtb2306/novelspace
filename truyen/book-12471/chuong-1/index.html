@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bố Tôi Là Kẻ Cuồng Con Gái">
   <meta name="twitter:description" content="Bố tôi là một kẻ cuồng con gái. Từ lúc tôi sinh ra, ông đã luôn nghe lời tôi răm rắp. Ông dành dụm rất lâu mới mua được một chiếc xe mới, tôi nói: “Con không thích”. Ông không do dự, lập tức bán rẻ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | BOSS LẠNH LÙNG">
   <meta name="twitter:description" content="Tôi bê nguyên một bát nếp đầy về nhà. Trên đường về, gặp thứ gì âm u là tôi rắc thử một ít. Khi về tới nhà, vẫn còn hơn nửa bát. Thời U đúng là có hơi ngán cái bát này thật.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

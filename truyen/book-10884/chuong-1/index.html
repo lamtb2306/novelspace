@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chỉ Một Lần Tắm, Tôi Mất 1,2 Triệu">
   <meta name="twitter:description" content="Gội đầu xong, tôi vừa lau tóc vừa bước ra khỏi phòng tắm. Trên bàn trà, màn hình điện thoại tôi đang sáng. Trang danh sách bạn bè trên WeChat mở toang ra. Tôi tiện tay lướt nhẹ một cái. 1286 bạn bè...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

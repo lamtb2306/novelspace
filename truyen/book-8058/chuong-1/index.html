@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BẠN TRAI THI ĐẬU CÔNG CHỨC LIỀN MUỐN CHIA TAY VỚI TÔI">
   <meta name="twitter:description" content="Sau vụ tai nạn giao thông và phải nhập viện, tôi vô tình lướt thấy một bài đăng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | THÍCH EM TỪ LẦN GẶP ĐẦU TIÊN">
   <meta name="twitter:description" content="Cho đến ngày cuối cùng trước khi kết thúc đăng ký nguyện vọng, Trần Diễn vẫn không tìm tôi. Có vẻ cậu ấy giận tôi lắm rồi. Vì cậu ta không đến tìm tôi, nên tôi đành phải chủ động ra tay.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

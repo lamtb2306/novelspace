@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐẶT NIỀM TIN NHẦM CHỖ">
   <meta name="twitter:description" content="Tôi nhận được tin nhắn từ Thẩm Cảnh Lâm, anh ấy bảo tôi đến phòng 308 ở khách sạn Sherman vì anh ấy có việc cần gặp tôi. Khi nhìn thấy tin nhắn, tôi cảm thấy vô cùng phấn khởi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

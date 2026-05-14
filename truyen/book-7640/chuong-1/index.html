@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cái Giá Của Việc Xem Thường Khách Cũ">
   <meta name="twitter:description" content="Chúng tôi là công ty, lâu nay vẫn hợp tác định điểm với khách sạn này ở ngoài thành phố, tôi đã phụ trách đối nối suốt ba năm. Mùng Một tháng Năm, tôi đưa toàn bộ nhân viên công ty ra ngoài đi team...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

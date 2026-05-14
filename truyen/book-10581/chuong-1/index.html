@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Giúp Bố Đóng Tiền Điện, Tôi Phát Hiện Ông Có Hai Gia Đình">
   <meta name="twitter:description" content="Giúp bố đóng tiền điện, tôi phát hiện ra ông có hai gia đình. Hôm đó mẹ bảo tôi đăng nhập vào ứng dụng điện lực của bố, nói là đến tháng đóng tiền điện rồi. Tôi nhập mật khẩu vào, rồi sững người. C...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

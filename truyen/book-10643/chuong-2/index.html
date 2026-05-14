@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | HẠNH PHÚC NHƯ Ý">
   <meta name="twitter:description" content="Cả căn phòng bỗng chốc im lặng. Tôi: “?” Bố mẹ tôi mắt rưng rưng: “Thật sao? Đây là con rể của chúng tôi!” Bố mẹ anh ấy thì mắt trợn tròn: “Không phải con đi học tiến sĩ sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | DỰ ÁN TÌNH YÊU MƯỜI NĂM">
   <meta name="twitter:description" content="Tôi vừa thành công chốt được khách hàng khó nhằn nhất công ty. Ông chồng tổng tài mừng rỡ hứa sẽ đề bạt tôi lên làm quản lý dự án.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chủ Nhà Là Bạn Trai">
   <meta name="twitter:description" content="Tôi đã thuê căn nhà này ba năm, nhưng chủ nhà lại không chịu gia hạn hợp đồng. Bất đắc dĩ, tôi phải chạy khắp nơi tìm chỗ mới để chuyển đi. Bạn thân nhìn thấy tin cho thuê của chủ nhà đăng trên web...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

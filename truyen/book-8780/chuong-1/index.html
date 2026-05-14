@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHIẾC XE HỒI MÔN">
   <meta name="twitter:description" content="Tôi và Trần Triết vừa lái xe cưới từ cửa hàng 4S về, anh ta liền đưa chìa khóa cho bạch nguyệt quang khóc đến đỏ cả mắt, nói: “Du Du phải đi làm việc ở ngoài thành, không có xe thì bất tiện.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

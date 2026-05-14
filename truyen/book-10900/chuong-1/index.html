@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | HỒ TIÊN">
   <meta name="twitter:description" content="Phía sau núi làng tôi có một hồ nước trong vắt như ngọc bích, được gọi là hồ tiên. Mỗi năm vào tháng Tám, trong hồ sẽ mọc lên một nụ hoa súng màu hồng phấn kiều diễm. Tháng Tám cũng là thời điểm là...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

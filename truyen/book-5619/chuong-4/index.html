@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | XUÂN NÀY CHÚNG TA CÓ NHAU">
   <meta name="twitter:description" content="Năm thứ hai đi làm, tôi nghỉ việc. Chủ yếu là vì tôi quyết định khởi nghiệp riêng. Ba mẹ tôi đã lớn tuổi, không còn hứng thú quản lý công ty nữa, họ muốn tôi tiếp quản.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

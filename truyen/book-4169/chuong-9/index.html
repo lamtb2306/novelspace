@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Ngay Trong Hôn Lễ, Tôi Vạch Trần Chú Rể">
   <meta name="twitter:description" content="Một lúc sau, tôi khẽ hỏi: “Nếu là anh, anh sẽ làm gì?” “Đầu tiên là lấy lại tiền, sau đó lấy lại danh dự, cuối cùng để cho những kẻ đáng phải trả giá nhận lấy hậu quả.” Anh đáp, “Trình tự đừng lộn ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

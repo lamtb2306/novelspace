@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Cô Ấy Sa Thải Tôi, Ngày Hôm Sau Công Ty Mất Nửa Khách Hàng">
   <meta name="twitter:description" content="“Tôi trả cô bảy triệu một năm, không phải để mua danh sách khách hàng của cô, mà là mua đầu óc của cô, mua thủ đoạn của cô, mua chính con người cô.” “Danh sách chỉ là tấm vé gõ cửa của cô, còn cô m...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

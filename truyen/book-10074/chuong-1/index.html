@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bỏ Lại Phía Sau Một Người">
   <meta name="twitter:description" content="Tôi và Ôn Thanh Thì cùng trọng sinh. Kiếp trước, tôi là cô em gái được anh ấy tự tay chọn từ trại trẻ mồ côi, cũng là người vợ cùng anh đầu bạc răng long. Kiếp này, khi ba mẹ nhà họ Ôn lại giơ tay ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

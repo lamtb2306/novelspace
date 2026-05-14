@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Nàng Công Chúa Ngầm">
   <meta name="twitter:description" content="“Nếu có tin vui, website của tập đoàn Giang sẽ thông báo ngay.” Đã là Giang thiếu tự mình lên tiếng, mọi người mới nhận ra vừa rồi hành vi của mình ngu ngốc thế nào, vội vàng cúi đầu rút lui.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

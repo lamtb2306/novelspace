@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Thưởng 0 Đồng">
   <meta name="twitter:description" content="Khi thưởng cuối năm được công bố, cả phòng ban như nổ tung, ai cũng nhận được 366.000 tệ. Tôi là người duy nhất “mua với giá 0 đồng”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

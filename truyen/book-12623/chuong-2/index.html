@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Sau Cùng, Chúng Ta Là Một Nhà">
   <meta name="twitter:description" content="Thế là tôi dẫn hai nhóc đến công viên, cả buổi chiều tràn ngập tiếng cười. Hai đứa chơi đến toát mồ hôi. Chỉ là… trời cũng bắt đầu sẩm tối.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

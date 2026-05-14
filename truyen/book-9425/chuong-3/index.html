@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | LỜI KHAI CUỐI CÙNG">
   <meta name="twitter:description" content="Tôi bắt đầu nức nở. “Nghe thì có vẻ hợp lý, logic chặt chẽ.” Viên cảnh sát trung niên cắt ngang tiếng khóc của tôi. “Nhưng tôi còn một câu hỏi cuối.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

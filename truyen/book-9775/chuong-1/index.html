@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Căn Phòng Sinh Tử">
   <meta name="twitter:description" content="Tôi sắp sinh rồi, vậy mà lại bị chồng lạnh lùng chặn ngoài cửa phòng sinh. “Phòng sinh đặc biệt này, cô không xứng để vào.” Thấy tôi ôm bụng đau quặn, ngồi bệt xuống đất, một đám em dâu em rể đi tớ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

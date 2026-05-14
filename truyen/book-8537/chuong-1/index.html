@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Canh Mướp Không Đắng, Chỉ Mặn">
   <meta name="twitter:description" content="Ngày tôi thi đậu công chức, mẹ tôi hiếm hoi làm hẳn một mâm cơm ngon để chúc mừng. Bà cười tươi, gắp cho tôi một bát canh: “Tiểu Kính dạo này vất vả rồi, ăn thêm mướp bù lại sức đi.” Tôi vốn ghét n...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | NGÔI SAO">
   <meta name="twitter:description" content="Thậm chí tôi đã cầm chặt con dao gọt trái cây, tự hỏi liệu điều này có được coi là phòng vệ chính đáng không. Nhưng anh ta lại bất ngờ mở miệng nói: “Hân Hân! Cậu định bao giờ thì bắt đầu dạy thêm ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

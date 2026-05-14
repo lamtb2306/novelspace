@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Chiến Tranh Ký Túc Xá">
   <meta name="twitter:description" content="Cô ta không sai tôi đi mua bữa sáng như mọi ngày nữa, mà tự mình đặt đồ ăn từ khách sạn năm sao, riêng tiền ship đã bằng cả ngày tiền ăn của tôi. Đồ ăn vừa đến, cô ta cố tình mở ngay trước mặt tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

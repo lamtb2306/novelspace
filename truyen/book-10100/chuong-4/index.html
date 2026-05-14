@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | MỘT BÁT CANH, MỘT ĐỜI TÌNH">
   <meta name="twitter:description" content="Ta đành loạng choạng đứng dậy, dẫn họ vào thành. Giữa đường ta hỏi: “Hai người là gì của nhau? Vì sao đi đêm ngoài đường?” Hắn lặng một lúc: “Chúng ta là huynh muội.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

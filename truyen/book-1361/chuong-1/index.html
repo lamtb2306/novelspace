@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MINH HI">
   <meta name="twitter:description" content="Sau vụ tai nạn xe, tôi mất trí nhớ hoàn toàn. Một người đàn ông tên là Thẩm Diễn Tu đến đón tôi từ bệnh viện và đưa tôi về một căn biệt thự ở ngoại ô.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

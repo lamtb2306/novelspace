@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Tôi Trở Về, Hoa Thành Phải Đổi Chủ">
   <meta name="twitter:description" content="Đúng lúc tưởng chừng không còn đường thoát, một người ngoài dự liệu đã tìm đến — luật sư Trương, người mà bà ngoại tôi lúc sinh thời tin tưởng nhất. Ông mang theo một tin khiến tôi chấn động.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

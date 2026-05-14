@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | GẶP LẠI CHỒNG CŨ Ở SẢNH SÂN BAY">
   <meta name="twitter:description" content="Khi nghe thấy cái tên quen thuộc ấy vang lên ở sảnh sân bay, tôi đang ngẩng đầu nhìn bảng thông tin chuyến bay trên màn hình lớn. Một ngàn ngày xa cách với Chiến Dã, dường như trong khoảnh khắc đó,...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

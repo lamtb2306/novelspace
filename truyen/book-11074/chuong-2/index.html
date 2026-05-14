@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | VÌ ANH KHÔNG BIẾT TRÂN TRỌNG">
   <meta name="twitter:description" content="Hai phút sau, Thẩm Cảnh Thâm gửi tới một bức ảnh. Một đống mảnh vỡ ngọc Hòa Điền nằm rải rác trong chiếc hộp gỗ. Còn có cả ảnh chụp màn hình một đơn giao hàng. “Vừa lòng chưa?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

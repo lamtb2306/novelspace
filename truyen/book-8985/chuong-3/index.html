@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | PHÒNG KỸ THUẬT 8 TỆ 8">
   <meta name="twitter:description" content="Một tuần sau, công ty đón một người mới. Là họ hàng xa của ông chủ. Ông chủ đích thân dẫn anh ta đến phòng kỹ thuật.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Một Cái Bát, Hai Triệu Tội Danh">
   <meta name="twitter:description" content="“Nhưng tôi không có nhiều tiền như thế, các người phải viết cho tôi một tờ quyết định xử phạt.” “Tôi cầm giấy quyết định đó đi vay tiền, chứ không người ta không tin tôi, lại tưởng tôi đánh bạc thu...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

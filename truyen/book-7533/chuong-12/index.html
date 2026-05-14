@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Khi Tôi Ngừng Làm Người Tốt">
   <meta name="twitter:description" content="Việc thứ nhất, tôi xin sếp Lý cấp cho tôi một văn phòng độc lập lớn nhất, có tầm nhìn tốt nhất, nằm ngay cạnh phòng ông ta. Việc thứ hai, tôi lấy Tôn Lợi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

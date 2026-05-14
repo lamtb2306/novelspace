@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CHỌN MỘ">
   <meta name="twitter:description" content="Lời nói đó như một nhát dao đâm thẳng vào lòng tôi. Gần chết rồi mà vẫn bị người ta ghét bỏ, thực sự, cũng đau lòng lắm chứ. Tôi không biết phải nhìn đi đâu, đành cúi đầu, ánh mắt dừng lại trên bản...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

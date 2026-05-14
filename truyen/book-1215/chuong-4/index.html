@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | GIỌT LỆ TRONG TIM">
   <meta name="twitter:description" content="Ngồi trên xe về nhà, một người bạn gửi cho tôi một đường link: “Hoan Hoan, cái này hình như đang nói về cậu. Có chuyện gì vậy?” Tôi nhấn vào xem, phát hiện đó là bài viết trên tài khoản mạng xã hội...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nhà Tân Hôn Có Khách Lạ">
   <meta name="twitter:description" content="Ngày thứ ba đi công tác, tôi vô tình mở tài khoản phụ trên Weibo của bạn trai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

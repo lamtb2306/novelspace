@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | TRẦN MẪN CHI">
   <meta name="twitter:description" content="Tôi cười lạnh: “Thế hôm đó tôi mặc gì, đeo túi gì, thời gian và địa điểm ở đâu — chắc anh nhớ rõ chứ?” Hai người ấp úng, mắt đảo qua lại: “Làm sao mà nhớ được, chuyện cũng lâu rồi còn gì!” “Đúng, đ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

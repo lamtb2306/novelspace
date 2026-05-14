@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Cái Kết Của Kẻ Hóng Hớt">
   <meta name="twitter:description" content="Vậy mà giờ, một thằng nhóc từ đâu chui ra lại muốn thay thế vị trí của tôi? Nực cười thật đấy! Chẳng mấy chốc, Lâm Tố Nhung bưng ly trà đến đặt trước mặt tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

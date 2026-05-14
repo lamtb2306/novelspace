@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hoa Rơi Bên Suối, Duyên Chẳng Thành">
   <meta name="twitter:description" content="Trong yến tiệc thưởng hoa của Hoàng hậu nương nương, Thẩm Hoài Thanh nhặt được cây trâm hoa đường của ta vô tình đánh rơi xuống dòng suối.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

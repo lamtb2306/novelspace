@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | CHỈ LÀ MỘT MÓN ĐỒ CÓ GIÁ">
   <meta name="twitter:description" content="“Hừ! Xác minh thì xác minh! Đã chơi thì để cô tâm phục khẩu phục!” Trên màn hình lớn, toàn bộ hình ảnh của tôi đều bị gỡ xuống, thay vào đó là thông tin số dư tài khoản của tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

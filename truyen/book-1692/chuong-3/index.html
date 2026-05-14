@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tôi Không Làm Bảo Mẫu Miễn Phí Nữa">
   <meta name="twitter:description" content="Tôi bước vào tiệm vàng. “Chú ơi, thu mua vàng không?” “Có, hôm nay giá 450 tệ một chỉ.” Ông chủ cân xong: “30 chỉ — được mười ba ngàn rưỡi.” “Bán chứ?” Tôi sờ lên hoa văn trên chiếc vòng — tay run ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

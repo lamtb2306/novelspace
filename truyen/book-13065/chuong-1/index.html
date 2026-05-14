@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chia Tay Không Hối Tiếc">
   <meta name="twitter:description" content="Tôi và bạn trai cãi nhau vì chuyện thêm tên tôi vào sổ đỏ căn nhà cưới, anh quay lưng đi, liền mua ngay một chiếc xe mới, rồi đăng lên WeChat dòng trạng thái: “Một số người đừng tính toán quá. Còn ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

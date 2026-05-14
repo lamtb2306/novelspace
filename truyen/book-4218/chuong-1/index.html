@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ngâm Rượu Yêu Xà">
   <meta name="twitter:description" content="Trong buổi đấu giá, “chim hoàng yến” của Cố Tuấn lại nhìn trúng cùng một chiếc bình hoa với tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

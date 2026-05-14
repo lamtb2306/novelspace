@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 14 | TRÒ CHƠI CỦA THÁI TỬ GIA">
   <meta name="twitter:description" content="Anh nhớ tới đêm mưa tầm tã, cô che ô đứng dưới ngọn đèn đường, thắp sáng cho anh ánh đèn về nhà. Nhớ đến những ngày trời giá lạnh, cô đưa cho anh bát mì nóng hổi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

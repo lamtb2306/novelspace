@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | GIẤC MƠ GIỮA ĐÊM TUYẾT">
   <meta name="twitter:description" content="Sau kỳ thi đại học, em kế Trần Nhược Tâm đỗ vào Đại học Thanh Hoa, còn tôi, Trần Nhược Sơ, người đứng nhất khối, lại trượt đại học và chỉ có thể chọn con đường du học.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

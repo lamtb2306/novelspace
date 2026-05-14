@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Đao Trả Đao, Mệnh Đổi Mệnh">
   <meta name="twitter:description" content="“Đứa nhỏ này, đúng sai không phân!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

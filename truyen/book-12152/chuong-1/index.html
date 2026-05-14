@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chiếc Thẻ Cơm Và Những Lời Dối Trá">
   <meta name="twitter:description" content="Tôi nghèo đến mức phải dùng thẻ cơm của bạn trai người khác để ăn. Giữa giờ trưa ở căn tin, khi tôi đang mua cơm thì bị ai đó chụp ảnh lại rồi đăng lên “tường tỏ tình” của trường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

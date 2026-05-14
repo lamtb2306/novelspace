@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | DỤNG CỤ TRƯỜNG SINH">
   <meta name="twitter:description" content="Dì út của tôi vốn có tấm lòng nhân hậu, dung mạo lại xinh đẹp đến mức ở thành phố đã có biết bao nhiêu người đến hỏi cưới.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

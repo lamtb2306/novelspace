@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chim Hoàng Yến Dám Nghĩ Dám Làm">
   <meta name="twitter:description" content="【Chính là hôm nay!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

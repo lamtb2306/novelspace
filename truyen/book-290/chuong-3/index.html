@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | ÁO BA MƯƠI, LỜI NÓI BA TRĂM">
   <meta name="twitter:description" content="Nói mình mập mà còn thở phì phò. Thậm chí còn bắt đầu khoác lác: “Tôi giỏi sinh thế này, chỉ sinh một đứa có phải ít quá không?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

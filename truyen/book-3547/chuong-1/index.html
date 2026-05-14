@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Kịch Bản Này Ta Không Diễn">
   <meta name="twitter:description" content="Thành thân ba ngày, phu quân chẳng hề chạm đến thân thể ta. Ngày Quy ninh, chàng đi đón huynh đệ, lúc rời đi còn tiện tay xách mất một con nhạn lớn trong lồng của ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

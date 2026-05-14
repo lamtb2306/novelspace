@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Anh Nợ Anh Tôi, Không Nợ Tôi">
   <meta name="twitter:description" content="Sau khi anh trai hy sinh, chiến hữu của anh, người đàn ông đeo huân chương ấy đã quỳ trước cửa nhà tôi ba ngày ba đêm, cầu xin tôi lấy anh ta. Hàng xóm ai nấy đều cảm thán anh ấy có tình có nghĩa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

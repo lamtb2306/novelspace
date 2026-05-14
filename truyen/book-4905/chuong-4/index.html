@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | TRẦN HY">
   <meta name="twitter:description" content="Khi hàng xóm biết chuyện này, ai cũng khen ba tôi tình cảm, có nghĩa có tình.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Kiếp Này Tôi Chỉ Sống Vì Chính Mình">
   <meta name="twitter:description" content="Thật lạ. Kiếp trước, tôi năn nỉ bà gọi cho tôi vài ngày một lần, bà luôn tỏ ra phiền phức. Vậy mà kiếp này, lại chủ động quan tâm đến tôi. Chỉ là… ba thì chưa từng gọi lấy một lần.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

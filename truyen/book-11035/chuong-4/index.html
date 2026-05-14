@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Cô Dâu Bỏ Lễ Đường">
   <meta name="twitter:description" content="Đúng lúc này có người hỏi: “Vậy… cô dâu Giang Chi đâu?” Trong lúc tất cả đang xôn xao, không biết tôi là người bỏ trốn hay xảy ra chuyện. Kẽo kẹt một tiếng. Cửa lớn của hội trường bị đẩy ra.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

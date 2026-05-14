@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | SAU KHI A NƯƠNG TÁI GIÁ">
   <meta name="twitter:description" content="Vừa lắc đã kêu “leng keng”. Ta vui mừng khôn xiết, cầm ngựa gỗ chạy khắp sân. “Là cha tặng đó!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CHƯA TỪNG ĐƯỢC YÊU THƯƠNG">
   <meta name="twitter:description" content="Khi A Triết đưa tôi về nhà. Anh ấy mấy lần muốn mở miệng, nhưng chỉ mấp máy môi, cuối cùng vẫn chỉ im lặng nắm chặt vô lăng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

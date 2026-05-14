@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | GƯƠNG MẶT DƯỚI ÁNH ĐÈN">
   <meta name="twitter:description" content="Làm xong những chuyện đó, cô ta chỉ việc chờ tôi từ nước ngoài trở về. Cô ta bảo tôi mặc bộ váy hôm đó, còn bịa chuyện nói Châu Tiểu Xuyên chuẩn bị cho tôi một “bất ngờ” ở công ty, giục tôi mau đến.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

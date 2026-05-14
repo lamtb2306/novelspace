@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Đại Sư Cấp Ba">
   <meta name="twitter:description" content="Giờ ra chơi, bàn tôi nhanh chóng chất đầy vở bài tập.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

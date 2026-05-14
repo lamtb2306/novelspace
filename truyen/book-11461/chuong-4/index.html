@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | CHÚNG TA ĐẾN ĐÂY LÀ HẾT">
   <meta name="twitter:description" content="Chỉ có tôi là người đau lòng, khó chịu, trằn trọc không ngủ được. Giờ thì… có lẽ không phải là không còn đau nữa. Mà là… đã quen rồi. Nơi từng bị tổn thương đến mức rớm máu giờ đã đóng vảy, mọc ra ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

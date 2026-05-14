@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Anh, Tôi và Người Ấy">
   <meta name="twitter:description" content="Trên đường về nhà, những lời bàn tán từ người qua đường như thủy triều đổ ập đến: “Nhìn kìa, chẳng phải là Mục Trưng Diêu sao? Nghe nói ngoại tình, còn bị vợ kiện, giờ mất cả chức vụ rồi!” “Không n...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

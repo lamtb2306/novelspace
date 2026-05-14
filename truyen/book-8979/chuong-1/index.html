@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bếp Trưởng Bậc Thầy">
   <meta name="twitter:description" content="Vì xào một đĩa cơm trứng không có trong thực đơn cho khách quen, tôi bị vị quản lý mới bạt tai ngay giữa đám đông! Hắn là cháu ruột của ông chủ khách sạn, chỉ tay vào mặt tôi mà chửi mắng: “Cô là c...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

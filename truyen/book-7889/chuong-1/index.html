@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chiếc Thẻ Hai Vạn Không Bao Giờ Rút Được">
   <meta name="twitter:description" content="Bố mẹ đưa cho tôi một thẻ ngân hàng, mỗi tháng chuyển hai vạn tệ tiền sinh hoạt. Nhưng họ lại chưa từng nói cho tôi biết mật khẩu, khiến tôi một đồng cũng không rút được. Tôi không có tiền ăn, đi x...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

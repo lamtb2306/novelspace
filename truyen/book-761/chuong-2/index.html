@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NGƯỜI THÂN">
   <meta name="twitter:description" content="Tôi né đi, lạnh giọng: “Ba mẹ tôi đã đưa tiền sinh hoạt cho nhà cô rồi.” “Ngoài chợ trứng có một tệ một quả thôi, nhà em chỉ được ba nghìn, chị mà cũng đòi ăn trứng à? Trả đây!” Tiếng cãi vã khiến ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

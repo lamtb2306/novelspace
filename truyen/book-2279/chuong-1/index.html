@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bật Chế Độ Lái Tự Động, Tôi Phát Hiện Chồng Có Ngôi Nhà Thứ Hai">
   <meta name="twitter:description" content="Bật chế độ lái tự động, tôi phát hiện chồng mình có “ngôi nhà thứ hai” Sau buổi tiệc tối thương mại, vì không tìm được tài xế thay lái, tôi đành bật chế độ lái tự động.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

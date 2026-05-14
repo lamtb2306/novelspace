@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ngày Anh Ngừng Mua Bữa Sáng">
   <meta name="twitter:description" content="Sau khi người chồng từng ngày nào cũng dậy sớm mua bữa sáng cho tôi ngừng làm điều đó, tôi không hỏi tại sao, chỉ lặng lẽ lên mạng tìm video học nấu ăn đơn giản.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

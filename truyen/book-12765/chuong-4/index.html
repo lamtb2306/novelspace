@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | BẠN TRAI TÔI ĐẾN TỪ MƯỜI NĂM TRƯỚC">
   <meta name="twitter:description" content="Tôi ngẩn người nhìn cậu, trong đầu thoáng hiện lại những bài đăng tôi đọc hôm qua trên Weibo của cậu, chợt có chút do dự. Vài giây sau, tôi cười nhẹ: “Bịa ra câu chuyện như vậy để lừa tôi? Cậu còn ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

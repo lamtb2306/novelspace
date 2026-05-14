@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÌNH YÊU GIẢ DỐI">
   <meta name="twitter:description" content="Bạch Nguyệt Quang vừa ra nước ngoài chưa lâu, Châu Vân Lễ đã tỏ tình với tôi. Bạn bè trêu chọc: “Đi một vòng lớn, người phù hợp nhất vẫn luôn ở bên cạnh.” Anh ấy im lặng không đáp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

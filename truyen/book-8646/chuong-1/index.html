@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hai Đứa Con và Một Trái Tim Tự Do">
   <meta name="twitter:description" content="Mẹ tôi luôn nói, đàn ông không nên quản quá chặt, dễ dẫn đến phản tác dụng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

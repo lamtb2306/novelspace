@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ÁNH DƯƠNG TRONG BÓNG ĐÊM">
   <meta name="twitter:description" content="“Niệm Niệm, chúng ta bàn bạc một chuyện được không?” “Sau khi hôn lễ kết thúc, chúng ta có thể…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

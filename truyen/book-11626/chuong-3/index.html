@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Một Chiếc Túi Giả Và Mười Năm Tình Thật">
   <meta name="twitter:description" content="Tôi quay lại hỏi: “Cô ta nói tôi như vậy, anh không thấy cần phản ứng gì sao?” Anh ta cau mày, giọng bất đắc dĩ: “… Em vốn đã mập mà, người ta nói cũng không sai.” Tất cả ấm ức và tức giận bùng lên...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

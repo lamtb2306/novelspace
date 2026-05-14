@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | LÂM UYỂN DU">
   <meta name="twitter:description" content="Về đến nhà, tôi mở trang cá nhân của Tô Thanh Thi. Một chiếc vòng tay đá quý to đùng kèm chú thích: “Quà đền bù của ông xã. Em tha thứ cho anh rồi.” Tôi chỉ biết cười khổ — thì ra số tiền tôi cố gắ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

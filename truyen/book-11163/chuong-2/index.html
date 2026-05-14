@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Một Bó Hoa, Một Kiếp Người">
   <meta name="twitter:description" content="Chỉ nghe “xoẹt” một tiếng, váy cưới của tôi bị xé toạc một mảng lớn. Hôm nay là ngày vui của hai nhà, có không ít phóng viên truyền thông có mặt. Rất nhanh chóng, hình ảnh xấu hổ của tôi đã lấp đầy...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

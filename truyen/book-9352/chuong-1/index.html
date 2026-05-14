@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Sống Lại, Chống Lại Định Mệnh">
   <meta name="twitter:description" content="Thưởng cuối năm đã phát rồi, trong chiếc phong bì mỏng dính chỉ có năm ngàn tệ! Tôi cầm bảng lương tìm đến cấp trên, anh ta liếc tôi một cái: “Lâm Lâm à!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

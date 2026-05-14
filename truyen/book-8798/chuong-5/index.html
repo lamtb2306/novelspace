@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Vương Phi Cá Mặn">
   <meta name="twitter:description" content="Biết ngồi xổm bên vũng nước sau mưa, cười ngây ngô nhìn bóng mình. Biết khi ta vô ý đụng bàn mà đau, chạy đến dùng bàn tay mũm mĩm xoa xoa, Miệng khẽ gọi: “Nương nương…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

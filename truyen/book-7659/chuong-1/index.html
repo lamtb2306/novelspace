@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGƯỜI EM HỌ TÔI CHƯA TỪNG CÓ">
   <meta name="twitter:description" content="Một buổi tối bình thường, chồng tôi lái xe chở tôi lao vun vút trên con đường vắng ở ngoại ô. Anh ta đột nhiên nói: “Em có biết là em họ của em chết rồi không?” Tôi chưa kịp phản ứng: “Hả?” “Cô ấy ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

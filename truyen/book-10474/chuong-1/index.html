@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHU TẦM THU">
   <meta name="twitter:description" content="Kim chủ gặp tai nạn xe, mất trí nhớ, quên mất tôi là chú chim hoàng yến của anh ta. Tôi nhân cơ hội này, ôm bụng bầu bỏ trốn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

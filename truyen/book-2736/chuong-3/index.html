@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Con Sói Mắt Trắng">
   <meta name="twitter:description" content="Người này mới là quản lý thực sự, trước đây tôi đích thân chiêu mộ, rất trung thành với tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Trò Chơi Trốn Tìm Cả Đời">
   <meta name="twitter:description" content="Mà là hậu quả sau khi sống sót từ một vụ nổ lớn và nhiệt độ cực cao, trải qua vô số cuộc phẫu thuật tái tạo mới có thể giữ được mạng sống.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

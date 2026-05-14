@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Cô Ấy Kể Hộ Cuộc Đời Tôi">
   <meta name="twitter:description" content="“Tôi làm cuộc khảo sát này không phải để đòi lại công bằng cho cô. Tôi làm vì thương hiệu. Tôi cần xác nhận người mà tôi chọn làm đại diện phải có một câu chuyện thật.” “Câu chuyện của cô là thật. ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI CHỈ LÀ CÂY ATM TRONG GIA ĐÌNH">
   <meta name="twitter:description" content="Mẹ quên đăng xuất WeChat rồi đi nấu cơm. Ban đầu tôi chỉ định giúp bà trả lời một tin nhắn. Rồi tôi nhìn thấy lịch sử trò chuyện giữa mẹ và em trai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

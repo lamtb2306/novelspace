@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Trò Chơi Sinh Tồn Hậu Cung">
   <meta name="twitter:description" content="Không phải thư tình phong nguyệt, cũng chẳng phải nhật ký sinh hoạt. Mà là từng dòng ghi chép chằng chịt những phương thuốc ghê rợn và… sổ tay nuôi dưỡng thí nghiệm: “Ngày mồng bảy tháng ba năm Giá...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

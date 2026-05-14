@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | CÔ DÂU ĐA MƯU">
   <meta name="twitter:description" content="Trước ánh mắt của tất cả mọi người, tôi mở miệng, nói câu đầu tiên từ lúc bước vào nhà: “Bố, còn cả bà Dương Cầm Cầm, hôm nay con đến đây là để thông báo một chuyện.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

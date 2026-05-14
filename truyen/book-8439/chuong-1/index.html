@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | VẾT THƯƠNG LÒNG">
   <meta name="twitter:description" content="VẾT THƯƠNG LÒNG FULL 4 Tôi liếc anh một cái, lạnh nhạt. Không còn chút hứng thú để nói chuyện. Đến nước này rồi, tôi còn không hiểu rõ sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

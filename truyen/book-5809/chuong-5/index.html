@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Độc trong tách trà">
   <meta name="twitter:description" content="Ngay khi dứt lời, trong phòng họp xuất hiện vài giây yên lặng. Nhưng rồi một cánh tay, hai cánh tay… Càng lúc càng nhiều người giơ tay, nhanh chóng vượt quá nửa số phiếu. Niềm vui sướng trong lòng ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Trò Chơi Nhập Vai">
   <meta name="twitter:description" content="Trong phòng vang lên tiếng huýt sáo ầm ĩ. Tôi nhắm chặt mắt, trước khi nước mắt trào ra, đẩy cửa bỏ đi. Ngoài phố, người qua kẻ lại tấp nập. Còn tôi, như một cái xác không hồn, loạng choạng bước đi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

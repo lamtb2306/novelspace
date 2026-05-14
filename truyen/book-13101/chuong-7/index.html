@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Xin Đừng Gõ Cửa Quá Khứ">
   <meta name="twitter:description" content="Anh cũng thích bay khắp thế giới, chỉ để bắt lấy những khoảnh khắc đẹp nhất qua ống kính máy ảnh. Không biết là ai mời ai trước, nhưng rồi… chúng tôi đã cùng đồng hành với nhau một khoảng thời gian.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

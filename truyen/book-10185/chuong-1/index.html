@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Đàn Bà Rời Đi Trong Đêm Tuyết">
   <meta name="twitter:description" content="Giữa mùa đông khắc nghiệt, tôi không chút do dự lao xuống dòng sông lạnh như băng cứu con trai. Cả hai mẹ con đều bị viêm phổi, cần gấp quay lại thành phố để điều trị.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

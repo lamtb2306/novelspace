@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Khi Tôi Ngừng Đóng Kịch">
   <meta name="twitter:description" content="Mọi người đều nói tôi may mắn, gặp được người mẹ kế tốt như Trần Phương, đối xử với tôi còn hơn cả con đẻ. Chỉ có mình tôi biết. Đó hoàn toàn không phải là một vụ tai nạn. Năm mười bốn tuổi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

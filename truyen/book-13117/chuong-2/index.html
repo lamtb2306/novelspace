@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BA NĂM ĐƠN PHƯƠNG">
   <meta name="twitter:description" content="Tôi tưởng đêm đó là lần cuối cùng tôi và Lục Dực Thâm có bất kỳ giao điểm nào. Tôi cố tình đăng ký vào Đại học A – một ngôi trường cách nhà rất xa. Nhưng số phận luôn thích trêu người.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

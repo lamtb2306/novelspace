@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CUỘC ĐỜI CẦM CỐ">
   <meta name="twitter:description" content="Người ta đồn rằng trên đời này tồn tại một tiệm cầm đồ đặc biệt — nơi có thể nhận cầm bất cứ thứ gì.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐÀO MỘ NHÀ HÀNG XÓM">
   <meta name="twitter:description" content="Kiếp trước, nhà hàng xóm dời năm ngôi mộ sang ruộng nhà tôi, cướp đi vận may của cả gia đình. Sau khi trùng sinh, việc đầu tiên tôi làm chính là đổi tên tài khoản livestream thành “Cào Cào Tử”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

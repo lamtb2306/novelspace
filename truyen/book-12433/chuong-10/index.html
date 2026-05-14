@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Ăn Miếng Trả Miếng">
   <meta name="twitter:description" content="“Lâm Thích, vợ tôi nói gì thì chính là như vậy.” Lâm Thích trợn tròn mắt: “Tôi không dám nhìn nữa! Đây thật sự là anh Kỳ của tôi à?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

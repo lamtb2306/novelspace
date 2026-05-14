@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | BA NỤ HÔN">
   <meta name="twitter:description" content="Tần Chiêu Dã nhìn tôi, mắt mở to hơn một chút. Tôi cứ tưởng là do tôi bịa quá đạt khiến họ tự tưởng tượng thêm. Hóa ra là do lời tôi bịa quá mức khiến họ bị dọa sợ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

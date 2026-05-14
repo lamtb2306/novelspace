@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Nếu Hối Hận Thì Đừng Để Mất Em">
   <meta name="twitter:description" content="Tôi đã theo đuổi Thẩm Tinh Thì nhiều năm, vậy mà hắn vẫn không chút động lòng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

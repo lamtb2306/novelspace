@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | KHÔNG PHẢI MÈO CỦA TÔI">
   <meta name="twitter:description" content="Ngoài sức tưởng tượng, em trai tôi thẳng thừng thừa nhận. Nó vén tay áo lên, trên cánh tay đầy vết cào của mèo. “Con súc vật đó cào người, tôi đá nó mấy cái thì sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ly Hôn Sau Bữa Cơm Đoàn Viên">
   <meta name="twitter:description" content="Vào đúng ngày Tết Trung thu, tất cả người giúp việc trong nhà đều được cho nghỉ. Từ sáng sớm đến tận tối, một mình tôi lo liệu ba bữa ăn cho cả đại gia đình mười hai người.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

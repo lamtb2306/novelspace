@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | BA TẤC ĐẤT TÌM EM">
   <meta name="twitter:description" content="Tôi mệt mỏi phẩy tay, cuốn nhật ký bỗng tự động lật đến trang có chữ. “Ngày 12 tháng 7 năm 2016. Hôm nay tôi lại lén đến trường quốc tế để nhìn anh ấy. Anh ấy thật đẹp trai, như hoàng tử vậy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

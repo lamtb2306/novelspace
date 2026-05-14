@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chiếc Huân Chương Hạng Nhất">
   <meta name="twitter:description" content="Tôi vừa bước lên bục nhận giải, tấm bằng khen còn chưa kịp ấm tay, thì hoa khôi của trường đã chỉ tay vào tôi giữa đám đông mà mắng lớn: “Bố cô ta là tội phạm bị đi cải tạo, mẹ thì bán đậu phụ thối...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

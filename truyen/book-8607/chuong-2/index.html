@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | GHÉP ĐÔI THÀNH CÔNG">
   <meta name="twitter:description" content="“Cái gì! Người máy tình yêu của cậu biết nấu ăn á!” Tô Niệm hét lên ở đầu dây bên kia, làm tôi ngớ người. “Người máy của cậu không biết sao?” “Trời ơi! Không lẽ tôi rút phải hàng lỗi rồi?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

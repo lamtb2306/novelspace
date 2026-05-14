@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÌNH YÊU QUÂN NHÂN">
   <meta name="twitter:description" content="Tôi – Giang Nam và Cố Hàn Tô là thanh mai trúc mã, từ nhỏ đã lớn lên cùng nhau trong một khu tập thể. Cha của chúng tôi đều là quân nhân. Tôi thích anh ấy, dường như cả thế giới đều biết điều đó.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

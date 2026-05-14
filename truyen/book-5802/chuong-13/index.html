@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 13 | Đổi Một Đời Để Thấy Sáng">
   <meta name="twitter:description" content="Là ai trước lúc chết còn nói với tôi “cầu đi cầu, đường đi đường”? Là ai vì cái gọi là “tình yêu thuần khiết” mà đạp đổ tất cả những gì tôi đã hy sinh suốt ba mươi năm?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

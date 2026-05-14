@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | KHÔNG CÒN GÌ ĐÁNG LƯU LUYẾN">
   <meta name="twitter:description" content="Giang Mộ Niên lạnh lùng nhắc nhở. “Được.” Tôi tiếp tục gật đầu. Giang Mộ Niên nhìn tôi mấy lần, thấy tôi không có phản ứng gì đặc biệt mới yên tâm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

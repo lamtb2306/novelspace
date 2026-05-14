@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Theo Cậu Cả Một Mùa Thanh Xuân">
   <meta name="twitter:description" content="Ngay từ khi sinh ra, tôi đã biết một chuyện. Tôi là nữ chính của tiểu thuyết, còn cậu bạn thanh mai trúc mã mặt lạnh, học bá của tôi, Bùi Lâm, là nam chính. Từ nhỏ đến lớn, tôi đều có thể nhìn thấy...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

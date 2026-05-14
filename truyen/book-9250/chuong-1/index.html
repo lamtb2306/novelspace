@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHỈ VÌ MỘT QUẢ VẢI">
   <meta name="twitter:description" content="Hôm sinh nhật lần thứ 56, tôi mua một thùng vải rất đắt làm quà tặng cho chính mình. Vải đặt trên bàn, còn chưa kịp ăn thì cháu nhỏ đã bắt đầu khóc quấy. Cho bú, thay tã, dỗ cháu ngủ, rồi giặt quần...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

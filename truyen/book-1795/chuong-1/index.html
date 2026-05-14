@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ưu Sinh Ưu Dưỡng">
   <meta name="twitter:description" content="Đêm trước ngày tiến cung, ta vô tình nghe thấy thứ muội hét lên: “Hệ thống gì cơ? Ngươi có thể giúp ta trở thành Hoàng hậu sao?” Sau khi nhận được câu trả lời khẳng định, gương mặt nó đỏ bừng vì kí...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

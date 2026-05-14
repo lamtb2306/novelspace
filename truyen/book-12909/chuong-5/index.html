@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Bữa Tiệc Vạch Mặt Kẻ Vô Ơn">
   <meta name="twitter:description" content="Hình ảnh trình chiếu trên máy chiếu lập tức chuyển đổi. Là giao diện hộp thư công việc của tôi. Ngay giữa màn hình, hiện rõ một email từ phòng nhân sự.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

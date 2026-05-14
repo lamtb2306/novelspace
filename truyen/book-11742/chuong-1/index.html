@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bảy Giờ Đếm Ngược">
   <meta name="twitter:description" content="Đang kỳ nghỉ đông, nhóm lớp đột nhiên nhảy ra thông báo nhắc tên từ bố của cô bạn cùng bàn. Ông ta nói con gái mình đi tìm tôi chơi rồi hiện tại mất liên lạc, yêu cầu tôi phải trả lời ngay lập tức.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | RỜI XA CỐ CHIÊU DÃ">
   <meta name="twitter:description" content="Tôi do dự một chút, rồi vẫn bắt máy. Giọng anh vẫn đầy mất kiên nhẫn, thậm chí còn mang theo tức giận: “Em đi đâu rồi? Sao còn chưa về nấu ăn?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

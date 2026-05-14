@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Căn Phòng Bí Mật">
   <meta name="twitter:description" content="Tôi nói, giọng băng lạnh như thép: “Rốt cuộc hai người là muốn cứu con gái, hay là… muốn hủy đi thứ gì đó trong căn hộ kia? Hoặc là…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

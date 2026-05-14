@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Lập Trình Và Lương Tâm">
   <meta name="twitter:description" content="Nửa tiếng trôi qua, điện thoại im phăng phắc, nhưng đoạn đường phía trước lại càng lúc càng khó đi. Không chỉ kẹt xe, mà ngã rẽ cũng dày đặc. Tôi uống một ngụm nước để thả lỏng thần kinh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

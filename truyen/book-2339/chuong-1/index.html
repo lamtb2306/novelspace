@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BỎ ĐI CHƯA BAO GIỜ LÀ QUÁ MUỘN">
   <meta name="twitter:description" content="Khi tôi đi du lịch ở cổ trấn, trên một tấm bưu thiếp, tôi phát hiện ra hình ảnh của chồng tôi. Dòng chữ trên tấm bưu thiếp viết rằng: “Nguyện có năm tháng để quay đầu, viết bằng tình thâm đến khi đ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

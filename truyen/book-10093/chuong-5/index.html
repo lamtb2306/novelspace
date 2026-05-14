@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | HÀNH TRÌNH MỚI">
   <meta name="twitter:description" content="“Cậu là người ngoài, ở đây không đến lượt cậu lên tiếng! Với lại, tôi và Kỳ Hạ có hôn ước từ nhỏ.” “Nói trắng ra, sau này Kỳ Hạ sẽ là vợ tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

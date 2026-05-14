@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TUỔI GIÀ KHÔNG CHỐN DUNG THÂN">
   <meta name="twitter:description" content="Tôi đã dành dụm cả đời để dưỡng già, vậy mà giờ mất trắng. Năm trăm ngàn tệ, không còn lấy một xu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

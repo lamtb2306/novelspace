@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | GẢ THAY MỘT LẦN">
   <meta name="twitter:description" content="Tôi cố làm ra vẻ e lệ: “Chỉ là tự dưng thèm ăn sủi cảo dưa cải cô làm thôi ạ.” “Bình thường mà sao tự nhiên lại thèm cái đó?” Tôi cúi đầu, vân vê vạt áo: “Cũng chẳng hiểu sao nữa, từ hôm anh Chi Vi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

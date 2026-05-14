@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 13 | Bí Mật Của Chuyến Du Lịch Lớp">
   <meta name="twitter:description" content="Rất lâu sau. Anh ta mới nói. “Đến cái kho đó.” “Nhưng đừng đi một mình.” “Ở tòa nhà đối diện kho.” “Trên sân thượng.” “Tôi sẽ đợi cô ở đó.” “Làm sao tôi biết có thể tin anh?” Tôi hỏi. “Cô không có ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

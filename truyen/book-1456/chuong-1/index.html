@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Phụ Nữ Cả Khu Phải Khiếp Sợ">
   <meta name="twitter:description" content="Sau khi giá nhà sụp đổ, tôi đã trả toàn bộ tiền để mua một căn hộ. Thế nhưng ngay ngày đầu tiên dọn vào, hàng xóm đã gõ cửa nhà tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

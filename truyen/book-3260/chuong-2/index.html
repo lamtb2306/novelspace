@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Hạ Cánh Theo Quy Trình">
   <meta name="twitter:description" content="“Ây da, bất kể vì chuyện gì, con không nhường nhịn thằng bé một chút được sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

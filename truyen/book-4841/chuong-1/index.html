@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TIẾNG VỌNG ẤM ÁP">
   <meta name="twitter:description" content="Khi ra khỏi sân bay, trời mưa như trút nước. Tôi ngồi bên ngoài phòng chờ đợi người đến đón, thế nhưng hơn một tiếng trôi qua, người tôi chờ vẫn không đến.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Không Có Sau Này">
   <meta name="twitter:description" content="“Kiến Ninh!” “Cô ấy đâu rồi?!” Người giúp việc lắc đầu hoang mang: “Phu nhân… hai ngày trước không về nhà nữa rồi ạ.” “Tôi chỉ thấy trên bàn trà có chiếc nhẫn cô ấy hay đeo… ngoài ra thì… tôi không...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

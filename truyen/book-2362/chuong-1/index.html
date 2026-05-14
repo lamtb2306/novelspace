@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bữa Cơm Tử Thần">
   <meta name="twitter:description" content="Đêm giao thừa, mẹ tôi đầu độc cả gia đình bên nội. Chỉ còn tôi và bác dâu cả là may mắn thoát nạn. Cảnh sát hỏi tôi hết lần này đến lần khác:“Đêm giao thừa hôm đó, cháu đã nhìn thấy gì, nghe thấy g...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

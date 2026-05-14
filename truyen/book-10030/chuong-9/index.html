@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Cái Bóng Dưới Ánh Trăng">
   <meta name="twitter:description" content="Tôi cười, không nói gì. Phục vụ mang cà phê và sữa đến. Tôi cầm ly sữa uống một ngụm, nhìn cô ấy. “Niệm Sơ, em còn nhớ hồi nhỏ không?” “Hồi nhỏ, hai chúng ta cùng học múa. Em nhỏ hơn tôi bốn tuổi, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

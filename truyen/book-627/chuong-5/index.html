@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Vở Kịch Của Tình Thân">
   <meta name="twitter:description" content="Bên cạnh xuất hiện dòng chữ: “Công chúa của ba mẹ, chào mừng con về nhà. Chúc mừng sinh nhật.” Ngay lúc ấy, ánh đèn trong sảnh tiệc sáng bừng trở lại. Trên sân khấu, đã chẳng còn ai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

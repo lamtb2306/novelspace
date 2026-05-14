@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | HẸN HÒ VỚI THẦY GIÁO">
   <meta name="twitter:description" content="Nhưng tôi bắt đầu đuối thật rồi. Ai mà dậy nổi 6 giờ sáng mỗi ngày chứ? Huống chi tôi lại là dân cú đêm chính hiệu, ngủ không có giờ giấc gì cả.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

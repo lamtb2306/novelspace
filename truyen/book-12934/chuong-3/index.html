@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Bữa cơm phân gia">
   <meta name="twitter:description" content="“Con mau thu dọn rồi đến chỗ này, đừng đến muộn để người ta bắt bẻ!” Nói xong, bà gửi cho điện thoại tôi một vị trí. Thấy địa chỉ nhà hàng, tôi không nhịn được mà bật cười.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

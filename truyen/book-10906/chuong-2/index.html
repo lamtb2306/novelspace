@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NHÀ HÀNG BUFFET CÔNG LÝ">
   <meta name="twitter:description" content="Nói xong, tôi quay người vào văn phòng. Phía sau vang lên một tràng pháo tay. Bà ta gào lên: “Đừng có đắc ý! Rồi tao sẽ cho mày biết tay!” Tôi nghĩ bụng: Tôi đắc ý đó, rồi sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

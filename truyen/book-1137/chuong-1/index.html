@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chồng tôi là cha của đứa trẻ khác">
   <meta name="twitter:description" content="Tôi và chồng là một cặp đôi theo chủ nghĩa DINK — sau khi kết hôn, chúng tôi chưa từng có ý định sinh con. Không phải vì chúng tôi không thể sinh, mà là anh ấy nói rằng nếu có con, thế giới của hai...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

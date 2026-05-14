@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | PHU QUÂN CỦA TA LÀ MỘT TÚ BÀ">
   <meta name="twitter:description" content="Phu quân của ta là một “tú bà” chốn thanh lâu, là loại chuyên dưỡng dục những tiểu quan.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

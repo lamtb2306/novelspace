@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Đứa Con Thứ Tư">
   <meta name="twitter:description" content="Tôi và chị hai bước ra khỏi nhà, rời khỏi làng, rời khỏi thị trấn. Đây là lần đầu tiên chúng tôi được lên thành phố, lần đầu tiên được ngồi tàu hỏa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

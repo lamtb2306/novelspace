@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Anh Trai Tôi Là Kẻ Trộm">
   <meta name="twitter:description" content="Bữa cơm tất niên, ông anh tôi — người luôn tự nhận mình sự nghiệp thành đạt — cứ ngồi đó mắng tôi hết câu này đến câu khác, chê tôi chẳng ra gì. “Cùng là một mẹ sinh ra, sao mày lại lăn lộn thảm đế...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

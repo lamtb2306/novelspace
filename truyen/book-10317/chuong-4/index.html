@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Bạn Thân Giật Bồ? Vậy Thì Đừng Trách Tôi Tàn Nhẫn">
   <meta name="twitter:description" content="Tôi tỏ vẻ kinh ngạc: “Ai vậy? Sao mà không biết xấu hổ thế!” Quý Nhiên quay đầu chỉ về phía nơi Lâm Tri Ý vừa ngã: “Một người phụ nữ đeo khẩu trang và kính râm!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

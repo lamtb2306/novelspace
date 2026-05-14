@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | SẾP PHẢI LÒNG NHÂN VIÊN">
   <meta name="twitter:description" content="Tôi có thể tưởng tượng ra, nếu không giải thích ngay, mấy tin đồn này sẽ thổi phồng đến cỡ nào. Nhưng Trần Dịch thì lại chẳng hề quan tâm đến mấy ánh mắt xung quanh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

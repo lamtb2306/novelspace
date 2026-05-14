@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | HÀ THƯ DIỄM">
   <meta name="twitter:description" content="Cậu sinh viên đại học nhảy nhót bước vào tiệm. “Chị Vân Miểu!” Tôi cảm thán sức sống của sinh viên. Nhớ hồi tôi còn đi học, cũng nhảy nhót thế này.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

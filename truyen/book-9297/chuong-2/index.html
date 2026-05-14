@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | KIẾP NÀY TÔI KHÔNG LÀM NGƯỜI TỐT">
   <meta name="twitter:description" content="Lúc này, một đồng nghiệp khác là Hoàng Tử Huyên chen vào: “Đúng đó Nhạc Kỳ, chị có xe thì tiện đường chở Tinh Tinh về luôn đi.” Tiện đường?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

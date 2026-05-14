@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Một Lần Co Giật, Tôi Nhìn Rõ Lòng Người">
   <meta name="twitter:description" content="Hai giờ sáng. Tôi đang ăn khuya ngoài tiệm thì Tô Dật Thần bất ngờ nhắn tin WeChat: “Tối nay anh không về. Phải cùng Thi Thi dự tiệc tối.” Cái tin nhắn “báo trước” bất ngờ ấy khiến tôi buồn cười.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

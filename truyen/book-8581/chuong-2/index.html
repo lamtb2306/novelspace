@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | KHÔNG CÒN LIÊN QUAN GÌ NHAU NỮA">
   <meta name="twitter:description" content="Cậu ta luôn cố tình áp sát tôi, nói những câu tưởng chừng rất ngầu, trong khi đám bạn thì bịt miệng cười trộm, giơ điện thoại quay lén. Tôi chẳng thèm nghe, bút vẫn lướt nhanh trên giấy, không tặng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

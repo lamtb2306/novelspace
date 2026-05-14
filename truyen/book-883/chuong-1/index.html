@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | APP “Hiếu Lễ” Và Món Nợ Ba Triệu">
   <meta name="twitter:description" content="Mẹ tôi vay một khoản tín dụng đe/ n trị giá năm mươi vạn tệ, quy định rằng đứa con nào có điểm tích lũy thấp nhất trên ứng dụng “Hiếu Lễ ” sẽ phải trả nợ. Mà tôi… vì tăng ca lỡ mất cuộc gọi của bà,...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | TRÍ TUỆ BỊ ĐÁNH CẮP">
   <meta name="twitter:description" content="Tối hôm đó, khi ba tôi đang dùng bữa với một khách hàng quan trọng, ông vô tình nhắc đến chuyện của tôi… Trùng hợp thay, vị khách đó vừa từ vùng Tây Tạng trở về.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

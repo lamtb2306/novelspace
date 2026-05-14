@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Mẹ Vĩ Đại và Đứa Con Bất Hiếu">
   <meta name="twitter:description" content="Tôi đang ngồi trong ký túc xá ăn mì ly thì điện thoại reo. “Tô Niệm, mẹ cháu sắp về rồi.” Giọng của cậu tôi trong điện thoại nghe nặng trĩu. Cái ly mì trong tay tôi rơi “bộp” xuống đất, nước súp nó...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

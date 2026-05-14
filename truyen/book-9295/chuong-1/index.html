@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Sổ Nợ Gia Đình">
   <meta name="twitter:description" content="Mẹ tôi sau khi xuất viện tiện tay mua hai tấm vé số cào, bất ngờ trúng được một triệu tệ, đã trừ thuế. Tôi mừng rỡ nói rằng cuối cùng cũng có thể thanh toán xong viện phí.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

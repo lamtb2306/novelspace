@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chỉ Một Lần Không Quay Đầu">
   <meta name="twitter:description" content="“Phẫu thuật được sắp vào tháng sau.” Kiều Sơ Lê thở phào, mỉm cười: “Anh không biết đâu, bác sĩ Tần này khó hẹn thế nào!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

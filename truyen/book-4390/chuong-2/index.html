@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | NỮ CHỦ TỊCH TRỞ VỀ">
   <meta name="twitter:description" content="Thấy tôi im lặng, hắn liền ôm lấy tôi, làm ra vẻ chiều chuộng: “Minh Lan, em mới về chắc mệt lắm rồi. Vào tắm rửa nghỉ ngơi chút đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

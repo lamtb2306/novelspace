@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Chiếc Bánh Sinh Nhật Cuối Cùng">
   <meta name="twitter:description" content="Tên thứ ba thì nhăn nhó: “Mẹ kiếp, ai ngờ cái thân thể yếu thế vậy. Mới mang thai mà đã chẳng làm được việc rồi?” Tôi nhìn chằm chằm tên thứ ba, giọng đầy giận dữ: “Anh là chồng cô ấy?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

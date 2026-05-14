@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BUỔI HỌP KHÔNG CÓ BIÊN BẢN">
   <meta name="twitter:description" content="Sáng thứ Hai, tôi bị điểm danh vào phòng họp. Không phải qua hệ thống thông báo, cũng không phải lời mời họp đột xuất.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

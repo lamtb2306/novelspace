@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Một Ngày Của Mẹ Bỉm Sữa">
   <meta name="twitter:description" content="Lúc về đến nhà, anh ta đang nằm trên sofa chơi game. “Về rồi à?” “Ăn gì chưa?” “Không đói.” Tôi vào phòng nhìn Lạc Lạc, con đã ngủ rồi, ôm con gấu nhỏ của mình, khóe miệng vẫn còn nước dãi chưa lau...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

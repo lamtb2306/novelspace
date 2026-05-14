@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hiếu Thảo Định Giá">
   <meta name="twitter:description" content="Tôi đưa mẹ đi ăn buffet hải sản cao cấp. Hải sản, bít tết, thịt nướng bày la liệt đầy một bàn. Bà ấy ngồi co rúm ở góc bàn, một miếng cũng không đụng, chỉ lẳng lặng ăn đĩa đồ ăn kèm miễn phí.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

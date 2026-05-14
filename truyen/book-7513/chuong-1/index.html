@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Căn Nhà Ngốn Điện">
   <meta name="twitter:description" content="Bố mẹ mặc kệ sự phản đối của anh trai, vét sạch gia sản mua cho tôi một căn nhà. Tôi vui mừng khôn xiết dọn vào ở, nhưng một tháng sau, số tiền điện chưa thanh toán trên điện thoại hiện lên lại là:...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Xin Hãy Để Tôi Lương Thiện">
   <meta name="twitter:description" content="Không khí lập tức đông cứng. Ba giây sau, ba tôi, mẹ tôi và anh tôi, đồng loạt nhìn về phía tôi. Ánh mắt ấy, phức tạp, nặng nề, còn mang theo một tia… đồng cảm?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

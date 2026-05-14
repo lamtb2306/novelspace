@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Khi Cháu Gái Thành Tiểu Tam">
   <meta name="twitter:description" content="Tôi đến sân bay đón chồng đi công tác về, lại bắt gặp anh đang ôm một cô gái hôn say đắm. Cô ấy vừa tròn mười chín tuổi, là cháu gái tôi một tay nuôi lớn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

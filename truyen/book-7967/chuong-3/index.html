@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Người Tình Không Biên Giới">
   <meta name="twitter:description" content="Anh nhíu mày, cũng bắt đầu nổi nóng: “Ai ép em phải đợi? Con đường em chọn, thì hậu quả cũng do em gánh!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

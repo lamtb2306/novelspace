@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chậu Lan Quỷ Dị">
   <meta name="twitter:description" content="Bố tôi đi câu cá về, chậu lan quân tử trong nhà đã nuôi suốt mười năm, chỉ qua một đêm, héo rũ hoàn toàn. Mẹ chỉ khẽ thở dài, em trai thì chẳng mấy quan tâm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

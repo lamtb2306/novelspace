@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bạn Trai Mạng Là Em Trai Tiểu Tam Của Bố Tôi">
   <meta name="twitter:description" content="Bạn trai mạng nói đã chuẩn bị quà sinh nhật cho tôi. Vừa nhận được chuyển phát nhanh và mở ra, tôi đã đứng hình. Đó là một chiếc dây chuyền thủ công, chế tác cực kỳ tinh xảo.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

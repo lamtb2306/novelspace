@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | KHÔNG BAO GIỜ QUAY LẠI">
   <meta name="twitter:description" content="Sinh tử vốn là chuyện lớn, tôi chẳng nói gì nhiều, chỉ bảo anh chú ý nghỉ ngơi rồi cúp máy. 2 Không biết có phải do dọn nhà quá mệt, cơ thể tôi rất khó chịu, tôi đăng ký khám qua một ứng dụng nhỏ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

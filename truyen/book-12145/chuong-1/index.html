@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đêm Lạnh Không Người Đón">
   <meta name="twitter:description" content="Lại một chuyến công tác kết thúc, máy bay vừa hạ cánh. Tôi đã không còn chấp niệm chuyện bắt Trần Gia Kha phải đến đón mình. Vì thế, khi đứng trong gió đêm lạnh cắt ngoài sân bay và nhìn thấy anh t...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

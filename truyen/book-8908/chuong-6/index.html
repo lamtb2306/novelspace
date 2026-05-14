@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Người Tôi Yêu, Mang Khuôn Mặt Em Gái Kiếp Trước">
   <meta name="twitter:description" content="Sau đó, tôi quay về phía ống kính, chậm rãi nói ra mục đích thực sự của mình. “Tôi làm tất cả điều này, không vì danh, cũng chẳng vì lợi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

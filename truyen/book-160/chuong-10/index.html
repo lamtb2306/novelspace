@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Ly Hôn Khi Tôi Chưa Hay Biết">
   <meta name="twitter:description" content="Một buổi chiều, khi tôi đang bận trong quán, bưu điện chuyển đến một phong thư từ phía quân đội.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

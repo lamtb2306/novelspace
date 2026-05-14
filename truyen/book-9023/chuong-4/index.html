@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Tàn Cục">
   <meta name="twitter:description" content="Tôi từng nghĩ giao thông, liên lạc phát triển là để con người có thể đến gần người mình yêu hơn một chút. Nhưng Bình Nam Dự không nghĩ vậy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

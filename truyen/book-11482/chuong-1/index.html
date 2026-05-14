@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bữa Cơm Đoàn Viên Giá Mười Hai Ngàn">
   <meta name="twitter:description" content="Vào đúng ngày Tết Trung thu, tôi đã đặt bàn ở một khách sạn năm sao, nhưng vì đang bàn chuyện làm ăn nên đến trễ năm phút. Khi tôi vội vàng đến nơi, sắc mặt mẹ đã u ám.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

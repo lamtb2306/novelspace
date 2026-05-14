@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Tình Mẹ">
   <meta name="twitter:description" content="Kiếp trước, tôi đã đi tiếp theo con đường này. Làm giáo viên hai năm. Rồi bị mẹ sắp xếp đi xem mắt, đối diện ngồi là một người đàn ông ba mươi sáu tuổi. Ánh mắt đánh giá tôi của anh ta giống như đa...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Ngón tay trên phím Delete">
   <meta name="twitter:description" content="Tôi chụp ảnh hợp đồng, gửi vào email cá nhân. Sau đó mở trang thiết lập quyền truy cập kho mã nguồn. Công ty hơn 200 người, chỉ có 5 người có quyền truy cập toàn bộ mã lõi. Tôi là một trong số đó.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

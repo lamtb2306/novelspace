@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Show Hẹn Hò Hài Hước”">
   <meta name="twitter:description" content="Show Hẹn Hò Hài Hước&quot; Tôi: “Đừng lạnh lùng vậy chứ, nói chuyện về việc hồi nhỏ anh bị ngỗng rượt cắn đi?” Lục Tử Áng: “Hoặc là nói về chiến tích ném pháo vào phân bò của anh?” Bùi Nhiên: “……">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

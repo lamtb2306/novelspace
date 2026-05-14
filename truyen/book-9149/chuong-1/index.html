@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ta Không Chơi Ngược Luyến">
   <meta name="twitter:description" content="Ta đang tỉ mỉ chuẩn bị tiệc sinh thần cho Tiêu Cảnh Từ, trước mắt bỗng hiện lên một hàng “bình luận bay”.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

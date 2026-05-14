@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | CHỈ LÀ MỘT MÓN ĐỒ CÓ GIÁ">
   <meta name="twitter:description" content="Mở điện thoại ra — quả nhiên, ba trăm sáu mươi lăm tấm ảnh riêng tư của tôi đã bị chỉnh sửa độ nét cao, đóng gói thành một tệp nén và lan truyền khắp mạng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

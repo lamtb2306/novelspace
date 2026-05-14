@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | QR Trước Cửa Phòng Tân Nương">
   <meta name="twitter:description" content="Tôi lao tới trước, giật lấy hồ sơ trong tay ông ta rồi xé nát. Bố tôi xông tới tát tôi một cái: “Con điên rồi à?” “Bố, con không điên.” “Lúc này con tỉnh táo hơn bất cứ lúc nào.” “Con cưới vợ, chứ ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

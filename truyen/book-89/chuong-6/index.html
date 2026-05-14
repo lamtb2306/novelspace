@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | BUỔI HỌP KHÔNG CÓ BIÊN BẢN">
   <meta name="twitter:description" content="Bảo vệ dùng thẻ của mình quét, để tôi vào được bên trong. Vừa đến thang máy, điện thoại rung — là trưởng dự án nhắn: “Mười giờ, phòng họp số 4. Mang theo máy tính.” Không phải lời mời. Là mệnh lệnh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

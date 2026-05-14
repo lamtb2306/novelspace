@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TRÚC DU">
   <meta name="twitter:description" content="Tôi nhướng mí mắt, nhìn thẳng cậu ta: “Cậu đọc nhiều tiểu thuyết quá hả? Còn trọng sinh nữa? Nếu thật sự là người trọng sinh, vậy nói thử xem, mười năm tới cổ phiếu nào sẽ tăng?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | TÌNH YÊU KHÔNG ĐÁNG CÓ">
   <meta name="twitter:description" content="“Tình yêu là che chở, là trân trọng, là không nỡ để người mình yêu phải chịu một chút tổn thương nào.” Tôi lau nước mắt, giọng nghẹn lại: “Còn anh thì sao?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

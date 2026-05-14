@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | ĐỪNG MỞ CỬA">
   <meta name="twitter:description" content="Nếu cứ như thế này, tôi sắp phát điên mất! Tôi rót một ly nước uống, rồi không lâu sau lại chìm vào giấc ngủ. Sáng hôm sau, tôi không chịu nổi nữa, quyết định gọi cảnh sát. Khi hai anh cảnh sát đến...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

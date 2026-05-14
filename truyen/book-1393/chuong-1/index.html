@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mỗi Hạt Tràng Là Một Lời Yêu">
   <meta name="twitter:description" content="Ba tôi bắt tôi liên hôn, chỉ được chọn một trong hai. Một là Mạnh Trạch Khải, nhị thiếu nhà họ Mạnh, nổi tiếng ăn chơi lêu lổng. Một là Phó Dụ Hành, đại thiếu nhà họ Phó, người ta gọi là “Phật tử” ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

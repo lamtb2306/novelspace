@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Tôi Không Thể Rời Đi">
   <meta name="twitter:description" content="sở hữu nhà đất đã ghi rõ căn nhà này là của cô Trịnh, vậy cô ấy có quyền định đoạt đối với căn nhà này.” “Các anh là người đang ở đây, nếu chủ nhà yêu cầu các anh dọn đi thì các anh nên phối hợp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

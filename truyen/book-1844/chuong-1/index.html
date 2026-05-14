@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | LUÔN TRÂN TRỌNG EM">
   <meta name="twitter:description" content="Tôi đã quay trở về thời cấp ba với cân nặng 180 cân. Lúc đó, tôi đang đưa một bức thư tình cho anh bạn thanh mai trúc mã, cũng là nam thần của trường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

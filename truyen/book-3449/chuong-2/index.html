@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Khi Tôi Xin Cắt Tuyến Mồ Hôi">
   <meta name="twitter:description" content="Ông nhìn tôi, ánh mắt đầy phức tạp. Chắc ông chưa từng thấy đứa con gái nào dám nói chuyện với mẹ mình như tôi vừa rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

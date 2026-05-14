@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Bốn Năm Sau Khi Tôi Biến Mất">
   <meta name="twitter:description" content="Anh chắc chắn sẽ tự hào về tôi. Và bây giờ, chắc anh cũng có thể thoải mái uống bia, không còn phải lo bệnh tái phát nữa. Hôm sau, tôi đưa Đoá Đoá đến sân bay. Trên màn hình lớn ở sân bay, tôi thấy...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

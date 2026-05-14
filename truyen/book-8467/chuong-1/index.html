@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Vô Diện Sát">
   <meta name="twitter:description" content="Khi đang gọi video với bạn trai Hàn Vũ, bạn cùng phòng Hứa Thanh Thanh bỗng lao tới, sắc mặt tái nhợt, chỉ vào màn hình. “Lưu Lưu! Sau lưng anh Hàn Vũ…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

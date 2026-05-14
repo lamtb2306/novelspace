@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trái Tim Tôi Vỡ Tan Cùng Chậu Cây">
   <meta name="twitter:description" content="Chỉ vì căn hộ tôi thuê cho bạn trai không quay đúng hướng Nam, mỗi ngày thiếu hai giờ nắng, anh ta lại bắt đầu làm loạn. “Không tìm được? Môi giới nhiều như thế, em hỏi thêm mấy chỗ thì chết à!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

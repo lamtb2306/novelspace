@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Em Trai Tôi Là Thiếu Gia Hào Môn">
   <meta name="twitter:description" content="Tôi không nhịn được đỡ trán: “Đây là trọng điểm sao? Hai người hoán đổi thân xác rồi à?! Mấy tình tiết như trong phim truyền hình này lại xảy ra thật ngoài đời…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

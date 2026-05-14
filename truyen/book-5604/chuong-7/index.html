@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | VỤ ÁN HAMSTER">
   <meta name="twitter:description" content="“Tôi không thừa nhận! Tôi không tin, tôi chết cũng không thừa nhận, thì cô có thể làm gì tôi? Chỉ là một con chó thôi mà! Tự nó chạy ra nghịch rồi bị thương, không liên quan gì đến tôi hết!” Tôi đã...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mang Song Thai Bỏ Trốn, Tôi Gặp Lại Anh Ở Vân Nam">
   <meta name="twitter:description" content="Tôi tên là Hồ Bán Hạ, đã kết hôn được năm năm. Chồng tôi là tổng giám đốc của một công ty nổi tiếng ở thành phố Khánh, cuộc hôn nhân của chúng tôi là một cuộc liên hôn thương mại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

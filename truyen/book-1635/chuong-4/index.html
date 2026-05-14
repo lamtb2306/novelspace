@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Trò Chơi Trốn Tìm Cả Đời">
   <meta name="twitter:description" content="“Ba à, con đã nhìn thấy mẹ rồi, con còn được mẹ ôm nữa.” Giọng tôi rất khẽ, trong lòng ngập tràn một niềm vui cuồng nhiệt, không còn chỗ cho bất kỳ cảm xúc nào khác. Ba ngẩn ra một lúc rồi càng thê...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

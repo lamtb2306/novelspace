@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Ly Trà Đổi Mẹ">
   <meta name="twitter:description" content="“Vừa rồi không phải cô đã nói rồi sao, ơn sinh thành cô đã trả bằng tiền của tôi. Bây giờ, tôi thu lại tiền, vậy coi như ơn cũng dứt.” “Chúc hai người trăm năm hòa hợp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

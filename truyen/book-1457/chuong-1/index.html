@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Phụ Nữ Dám Yêu Dám Hận">
   <meta name="twitter:description" content="Ngày thứ hai sau khi tôi bỏ đứa bé, Cố Dự Bạch từ doanh trại trở về. Anh mang cho tôi hộp kem dưỡng mới nhất, cùng lá đơn ly hôn có dấu đỏ chói lọi từ quân khu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

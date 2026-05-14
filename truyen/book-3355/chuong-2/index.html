@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | KHOẢN VAY KHÔNG THUỘC VỀ TÔI">
   <meta name="twitter:description" content="Tôi tiếp tục lật qua. Tài sản thế chấp: Căn hộ số XXX, tầng X, tòa X, khu XX. Đó là căn hộ chung cư của vợ chồng tôi. Anh ta dùng nhà của chúng tôi để thế chấp?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

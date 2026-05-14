@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Chị Em Tranh Mệnh">
   <meta name="twitter:description" content="Đầu óc tôi ong lên một tiếng. Tôi lập tức lấy điện thoại ra, gọi cho anh. “Anh đừng đi, Hứa Tấn Nam.” Đầu dây bên kia, anh khẽ hừ một tiếng. “Em không cho tôi đi? Em là thân phận gì mà không cho tô...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

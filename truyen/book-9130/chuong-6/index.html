@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | LUÔN YÊU CHIỀU EM">
   <meta name="twitter:description" content="Tôi ở nhà quá lâu, Mạnh Nhàn Nguyệt sợ tôi mốc meo nên lôi tôi ra ngoài dạo phố.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

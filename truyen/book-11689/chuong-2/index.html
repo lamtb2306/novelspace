@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Có Chìa Khóa, Nhưng Không Có Nhà">
   <meta name="twitter:description" content="Anh ta nhìn tôi một cái, không nói gì, tiếp tục ăn. “Nước rò sửa xong chưa?” Tôi hỏi. “Mai anh gọi người xem.” Anh ta cúi đầu ăn cơm, không nhìn tôi. Tôi cũng cúi đầu ăn cơm. Vòi nước trong bếp vẫn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

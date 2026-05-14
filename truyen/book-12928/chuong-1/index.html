@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | GẶP NGƯỜI YÊU QUA MẠNG">
   <meta name="twitter:description" content="Trên đường đi, tôi định chào người yêu qua mạng một tiếng Không ngờ anh ta lập tức lùi lại ba mét, ánh mắt cảnh giác nhìn tôi: “Anh có bạn gái rồi, sẽ không thích người khác đâu.” “Đừng yêu anh, kh...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

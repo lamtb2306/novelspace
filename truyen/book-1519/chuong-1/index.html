@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | RƠI ĐỎ KHÔNG VÔ TÌNH">
   <meta name="twitter:description" content="Tôi lấy ra chiếc váy đẹp nhất trong tủ, trang điểm lộng lẫy và chỉn chu. Thế nhưng, con gái tôi lại phải mặc một chiếc áo rách, ngắn cũn cỡn. Tôi dắt con đến trước sảnh chính của Tập đoàn Tiêu Thị.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

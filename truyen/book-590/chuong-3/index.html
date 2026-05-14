@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tiểu Thư Giả – Danh Phận Thật">
   <meta name="twitter:description" content="Tiểu Thư Giả - Danh Phận Thật 3 Tôi không như họ tưởng sẽ chui xuống hố trốn, mà thẳng thắn gật đầu: “Đúng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

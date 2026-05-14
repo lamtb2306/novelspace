@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Chỉ Một Lần Không Quay Đầu">
   <meta name="twitter:description" content="Tôi ngẩn ra, buột miệng: “Chúc anh ly hôn vui vẻ.” Anh mím môi: “Thẩm Dịch Hoan, nếu năm đó tôi không đồng ý ly hôn, em có rời đi không?” Tôi nghĩ một chút rồi đáp: “Lục Từ, anh biết không, từ lúc ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

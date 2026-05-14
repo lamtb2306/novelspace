@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | LƯƠNG CHÂU CÓ NGƯỜI CHỜ TA">
   <meta name="twitter:description" content="Thái hậu băng hà, triều đình phủ trắng khăn tang. Vì nhà ta có tước vị, ta buộc phải dẫn con trở về kinh thành dự lễ ai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

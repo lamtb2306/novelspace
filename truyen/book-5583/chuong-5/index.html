@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | VỢ QUÁ CỐ CỦA SẾP">
   <meta name="twitter:description" content="Tôi hít sâu một hơi, nói vào điện thoại: “Anh ơi, đừng di chuyển nữa, gửi địa chỉ cho tôi, tôi đến lấy, mười phút nữa có mặt.” Bó hoa hồng xanh chói mắt kia và hộp bánh kem tiểu tùng lan đắt đỏ đều...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

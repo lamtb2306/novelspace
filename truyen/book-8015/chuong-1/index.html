@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHỊ DÂU EM CHỒNG">
   <meta name="twitter:description" content="Em chồng tôi gần đây rất không an phận, suốt ngày tìm cách khuyên tôi ly hôn. Anh ta nói: “Chị dâu, kẻ không được yêu mới là kẻ thứ ba.” Tôi vội vàng bịt miệng anh ta lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | ĐÊM NÀO CŨNG LÀ TA">
   <meta name="twitter:description" content="Ánh trăng đêm nay, giống hệt như khi ấy. Hát mãi, cuối cùng ta cũng thấy mắt mình díp lại. 10 Sáng hôm sau, khi ta tỉnh dậy, Tiết Triển đã không còn trong phòng. Ta dậy thật sớm, chờ các thông phòn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

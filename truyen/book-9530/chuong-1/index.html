@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGƯỜI THẾ THÂN">
   <meta name="twitter:description" content="Dưới cơn mưa lớn, tôi lên chuyến xe buýt cuối cùng trong ngày để về nhà. Cửa xe vừa đóng, xe vừa lăn bánh thì bác tài quay lại nhìn tôi, cười nhạt đầy lạnh lùng. Tôi nghe ông ta nói: “Cô gái nhỏ cũ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

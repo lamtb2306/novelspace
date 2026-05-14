@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Bữa Tối Cuối Cùng">
   <meta name="twitter:description" content="Tôi nhìn những mảnh giấy đang tung bay khắp nơi. Nước mắt không kìm nổi nữa, lặng lẽ trượt xuống má. Tôi xoay người bỏ đi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

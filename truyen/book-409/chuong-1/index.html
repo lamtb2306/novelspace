@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Giấc Mơ Bắc Đại">
   <meta name="twitter:description" content="Ngày nhận được giấy báo trúng tuyển Bắc Đại, tôi đang ở quê cho gà ăn. Cả làng kéo nhau gõ trống khua chiêng, cùng đến còn có cặp vợ chồng nhà giàu mà tôi chỉ từng thấy trên tivi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

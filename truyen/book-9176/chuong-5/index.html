@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Trở Lại Phòng Mình Với Tư Cách Người Thuê">
   <meta name="twitter:description" content="Tôi nhắn cho chủ nhà: “Chào anh/chị, em muốn xem nhà.” “Được, chiều mai nhé?” “Vâng ạ.” Tôi đặt điện thoại xuống, nằm dài trên giường. Ngày mai đi xem nhà. Tuần sau dọn đi. Từ nay về sau — không nợ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

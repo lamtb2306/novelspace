@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Sống Lại Một Đời, Tôi Chọn Rời Xa Anh">
   <meta name="twitter:description" content="Người chồng vốn luôn khỏe mạnh của tôi đột ngột rơi vào tình trạng hấp hối. Anh nắm chặt lấy tay tôi, thều thào: “Thanh Thanh đi rồi, anh cũng chẳng sống nổi nữa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

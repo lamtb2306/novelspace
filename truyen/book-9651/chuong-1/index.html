@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TỜ GIẤY BÁO DANH ĐỔI MỆNH">
   <meta name="twitter:description" content="Năm 1977, sau khi kỳ thi đại học được khôi phục. Tôi nhận được tấm giấy báo danh duy nhất của đại đội. Nhưng ngay trước ngày lên đường, tôi phát hiện giấy báo danh đã biến mất.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

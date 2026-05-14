@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BỊ MẮNG BA NGÀY CHỈ VÌ GIÀNH MỘ T BAO LÌ XÌ">
   <meta name="twitter:description" content="Vì giành một bao lì xì một đồng bảy, tôi bị mắng suốt ba ngày. Ghi chú bao lì xì trong nhóm là “Dành riêng cho khách hàng mới”, tôi không nhìn rõ đã bấm vào. Ngay giây sau, chủ tiệm @ tôi rồi xả mộ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

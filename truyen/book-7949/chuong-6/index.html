@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | KHÔNG PHỤC CHẾ LẠI TÌNH CŨ">
   <meta name="twitter:description" content="Giọng tôi không lớn, nhưng từng chữ như mang theo máu, rạch nát từng mảnh lương tâm của những người có mặt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

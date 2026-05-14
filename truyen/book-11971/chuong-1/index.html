@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Quay Lại Là Chính Mình">
   <meta name="twitter:description" content="Sau khi phát hiện cô bảo mẫu nhỏ luôn lén đưa con trai mình đi mỗi khi tôi đi công tác, và nửa đêm lại lẻn vào phòng ngủ chính của vợ chồng tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

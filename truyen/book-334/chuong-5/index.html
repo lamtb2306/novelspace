@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | BẠN TRAI THỰC DỤNG">
   <meta name="twitter:description" content="Nếu không phải anh đến gây sự, làm gì có chuyện hôm nay? Mà giờ cả hai sếp đều có mặt, cùng lắm thì mất mặt cả đôi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

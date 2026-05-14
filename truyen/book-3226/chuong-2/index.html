@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Hàng Xóm Tôi Là Kịch Sĩ">
   <meta name="twitter:description" content="Nhìn cây quạt bẩn thỉu trong tay, tôi không nhịn nổi nữa. “Cháu nể bác nên gọi bác là bác, chứ bác tưởng mình quan trọng lắm sao?” “Cháu không hề muốn gả cho con trai bác.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

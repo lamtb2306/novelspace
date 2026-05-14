@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cô Dâu Một Tệ">
   <meta name="twitter:description" content="Tôi bế cô con gái vừa chào đời được 48 tiếng đứng trước cổng bệnh viện, trơ mắt nhìn chồng mình lái xe của tôi, chở theo mẹ chồng và ba cô em chồng nghênh ngang rời đi. Chỉ để lại sau lưng một làn ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

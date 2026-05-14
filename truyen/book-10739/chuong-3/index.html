@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tôi Là Con Một, Nhưng Không Phải Người Thừa Kế">
   <meta name="twitter:description" content="Cô ấy hít hít mũi, “Chỉ cần cả nhà mình ở bên nhau, ở đâu cũng vậy.” Tôi biết, cô ấy đang an ủi tôi. Mấy năm nay Lưu Tú Nga đã khiến cô ấy chịu bao nhiêu ấm ức, trong lòng tôi đều rõ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

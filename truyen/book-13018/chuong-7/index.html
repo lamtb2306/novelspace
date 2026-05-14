@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Quay lại khoảnh khắc bị bỏ lại phía sau">
   <meta name="twitter:description" content="Họ đưa Giang Vũ Ninh sang châu Âu du lịch. “Ngoan, lần sau sẽ dẫn con theo.” Họ chê quần áo tôi mặc là hàng rẻ tiền, làm mất mặt nhà họ Giang.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

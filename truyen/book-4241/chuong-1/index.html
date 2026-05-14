@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Người Lạ Trong Nhà">
   <meta name="twitter:description" content="Tôi đang đi công tác ở ngoài tỉnh, thì nhận được tin nhắn báo tiền điện bị nợ. Tôi cảm thấy có chút nghi hoặc. Bởi vì tiền điện tháng này của nhà tôi cao bất thường, trong khi tôi và vợ đều không c...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

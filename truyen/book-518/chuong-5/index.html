@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Nhờ Sếp Làm Bạn Trai">
   <meta name="twitter:description" content="Nhưng hình như tôi chỉ chào mỗi câu “Cháu chào dì” thôi mà? Huống chi, anh giúp tôi còn nhiều hơn tôi giúp anh nữa cơ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

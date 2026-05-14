@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | AN AN BÌNH YÊN">
   <meta name="twitter:description" content="Tôi cầm điện thoại, tay run đến mức suýt đánh rơi. Lưu Y Nặc — không phải con gái của bạn bố tôi. Cô ta là con riêng mà ông ta dan díu bên ngoài! Bảo sao ông ta nâng cô ta như trứng mỏng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

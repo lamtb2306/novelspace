@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CÔ NHI">
   <meta name="twitter:description" content="Cậu ta ngồi ở ghế sau, ôm lấy tôi trong lòng, nhẹ nhàng ngửi mùi hương, cảm nhận được hương rượu thoang thoảng – tôi đã uống rượu cùng với Thẩm Thanh Duy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

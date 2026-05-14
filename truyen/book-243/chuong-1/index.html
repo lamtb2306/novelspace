@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Tuần Cuối Cùng Của Trang Hạ">
   <meta name="twitter:description" content="Biết được chồng quân nhân của mình còn có một “bạch nguyệt quang” không thể buông bỏ. Tôi chủ động xin hủy hộ khẩu, gia nhập kế hoạch nghiên cứu khoa học tuyệt mật của quốc gia.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

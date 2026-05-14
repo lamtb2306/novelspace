@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Trả Anh Cho Người Khác">
   <meta name="twitter:description" content="Con gái tôi lập tức vui mừng hẳn lên. Nó vừa khóc vừa gọi: “Bố ơi, ôm con với!” Cố Hoài An lập tức sáng mắt, thậm chí còn tự cho mình là đúng mà dang tay ra: “Đúng rồi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

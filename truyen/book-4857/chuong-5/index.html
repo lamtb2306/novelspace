@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | TIỂU THƯ GIẤU MẶT">
   <meta name="twitter:description" content="Tôi nói với Sở Tu và mẹ anh: “Xin lỗi cô, Sở Tu, lúc nãy sếp gọi bảo có việc gấp, tôi phải quay về ngay.” “Thế còn bữa này…” mẹ Sở Tu ám chỉ. “Cô lên thành phố không dễ, cứ yên tâm ăn ạ.” Thấy tôi ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

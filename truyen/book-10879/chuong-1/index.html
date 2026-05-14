@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BẠN THÂN MUỐN MUA CĂN NHÀ TỪNG CÓ NGƯỜI CHẾT">
   <meta name="twitter:description" content="Bạn thân tôi muốn mua một căn nhà từng có người chết, tôi đã cố ngăn cô ấy lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

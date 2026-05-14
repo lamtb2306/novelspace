@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | HỒNG TRANG VÃN HỐI">
   <meta name="twitter:description" content="“Nếu mẫu thân không hài lòng, muốn ta chờ ba năm cũng không đặng, vậy thì ta có thể tự xin hưu thư.” Diệp thị cân nhắc thiệt hơn, đành cắn răng chịu đựng: “Ba năm thì ba năm…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

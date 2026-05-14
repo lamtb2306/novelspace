@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | ANH TRAI VÀ TÔI CÙNG THI ĐỖ VÀO CÙNG MỘT TRƯỜNG">
   <meta name="twitter:description" content="Tôi mở rương gỗ ra, bên trong là toàn bộ tài sản của tôi: hai cái áo sơ mi cũ đã giặt đến bạc màu, mấy cuốn sách giáo khoa lật đến rách nát, và một cái hộp sắt nhỏ đựng tiền tiết kiệm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

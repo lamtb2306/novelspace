@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Cảm Ơn Anh Đã Rời Đi Trước Khi Tôi Phát Tài">
   <meta name="twitter:description" content="Lúc đó, tôi tin rằng, chỉ cần có tình yêu, mọi khổ đau đều không còn là khổ. Tôi làm việc chăm chỉ, chắt bóp từng đồng, chỉ mong tích góp đủ tiền, sớm mua được một căn nhà cho cả hai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

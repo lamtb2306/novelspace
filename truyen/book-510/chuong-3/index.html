@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Người Lạ Trong Ký Ức">
   <meta name="twitter:description" content="Tôi cũng bất giác nhớ về quá khứ. Ngày đó tôi sốt cao, anh lái xe giữa đêm khuya mang thuốc đến, suýt chút nữa gặp tai nạn. Lúc đi lễ chùa, có sư thầy phán rằng tôi cả đời cô độc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | HÃY SỐNG VÌ MÌNH MỘT LẦN">
   <meta name="twitter:description" content="Tôi thở dài, dứt khoát nói hết trong một hơi: “Tớ nghĩ những gì cần nói đã rõ ràng rồi.” “Cậu không thích tớ. Đã vậy, tớ cũng không bám theo cậu nữa, cậu cũng đừng ràng buộc tớ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

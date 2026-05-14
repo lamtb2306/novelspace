@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Tôi Không Keo Kiệt, Tôi Chỉ Giỏi Tính Toán">
   <meta name="twitter:description" content="Tiếp đó, tôi lật đống hóa đơn lách cách, lớn tiếng nói: “Hồi nãy còn ai bàn tán sau lưng tôi nữa, lại đây đi, tính nốt nợ cho rõ ràng nào.” Tôi đi một vòng quanh văn phòng, nửa tiếng sau, phần mềm ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

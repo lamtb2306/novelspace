@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | SAU TÁI SINH, TÔI RỜI XA ANH">
   <meta name="twitter:description" content="Cái tên ấy như một viên sỏi nhỏ rơi vào mặt hồ chết lặng, gợi lên trong lòng tôi một vòng sóng nhẹ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

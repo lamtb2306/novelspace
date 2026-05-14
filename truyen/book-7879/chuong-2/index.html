@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Chạy Trốn Khỏi Nhà Họ Lục">
   <meta name="twitter:description" content="Tối hôm sau, phòng bao tầng ba khách sạn Hoa Đình. Thương Lâm Vãn mặc một chiếc váy đen đơn giản, mặt mộc, tóc búi lỏng lẻo. Khi cô đến, phòng đã đông đủ người.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Cô Vợ Không Tên">
   <meta name="twitter:description" content="Anh chuyển tiền cho bạn cùng phòng của tôi, chỉ để hỏi tôi đang ở đâu. Anh nhớ mọi chi tiết liên quan đến tôi, và nói lời yêu giữa biển hoa rực rỡ. Khi ấy, ai cũng cho rằng chúng tôi sẽ chẳng thể đ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

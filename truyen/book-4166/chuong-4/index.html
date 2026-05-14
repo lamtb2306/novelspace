@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | NUÔI TÔI ĐỂ THU LÃI">
   <meta name="twitter:description" content="Đi nhà bạn người ta còn chuẩn bị cho con một phòng khách, về chính nhà mình lại chẳng có nổi cái giường. Người biết thì bảo con về nhà, không biết còn tưởng con đến chịu kiếp nạn.” Nói xong tôi qua...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

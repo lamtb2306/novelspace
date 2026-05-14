@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tôi Đã Bắt Cóc Con Gái Ngay Trong Ngày Cưới">
   <meta name="twitter:description" content="Bất kể họ cầu xin thế nào tôi cũng không thả người.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

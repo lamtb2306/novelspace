@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | TRÌNH NHƯ CẨN">
   <meta name="twitter:description" content="Sau khi con đường thông suốt, dân làng bắt đầu dốc sức trồng khoai tây. Chỉ cần trồng ra được, là có thể chở xuống núi bán kiếm tiền. Có tiền rồi, thì chẳng cần phải đi khắp nơi xin xỏ, mạo hiểm bị...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

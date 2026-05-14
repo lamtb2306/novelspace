@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Ngày Báo Danh Định Mệnh">
   <meta name="twitter:description" content="Kim phút nhảy sang đúng 12 giờ, giây cuối cùng lướt qua. Tôi thở phào nhẹ nhõm. Triệu Lương, từ khoảnh khắc này, cuộc đời chúng ta chính thức rẽ lối. 4 Sau chuyến du lịch, về lại đã là một tuần sau...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

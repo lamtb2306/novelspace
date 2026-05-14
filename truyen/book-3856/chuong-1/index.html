@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mẫu Tử Lãnh Cung">
   <meta name="twitter:description" content="Ta tên là Thẩm Thanh Y, đã ở nơi lãnh cung này gần năm năm trời. Lãnh cung – cái danh nghe qua khiến người rợn tóc gáy, kỳ thực cũng chẳng có chi đáng sợ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

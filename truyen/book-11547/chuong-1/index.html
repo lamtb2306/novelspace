@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Họ Nghĩ Tôi Hiểu Chuyện, Không Biết Tôi Đang Rút Lui">
   <meta name="twitter:description" content="Chồng tôi hào hứng khoe: “Em gái sắp sinh rồi, anh bảo cô ấy về nhà mình ở cữ, đến cả bảo mẫu chăm đẻ anh cũng tìm xong xuôi rồi.” Tôi nhìn anh ta: “Được thôi.” Anh ta ngẩn người, rõ ràng là không ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

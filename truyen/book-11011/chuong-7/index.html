@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Đại Sư Online">
   <meta name="twitter:description" content="Cục đá trong lòng tôi cuối cùng cũng rơi xuống đất. “Vậy thì tốt.” “Thật sự… thật sự cảm ơn ngài rất nhiều!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

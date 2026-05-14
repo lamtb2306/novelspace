@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Con Chóa Không Dám Nhìn Tôi">
   <meta name="twitter:description" content="Đúng lúc đó, điện thoại tôi rung lên thông báo có cập nhật trên vòng bạn bè — từ tài khoản phụ tôi dùng để theo dõi Triệu Văn Văn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

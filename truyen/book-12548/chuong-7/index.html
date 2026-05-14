@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | GẶP LẠI THANH MAI TRÚC MÃ">
   <meta name="twitter:description" content="Sáng thứ Hai đến trường, tôi phát hiện không khí có gì đó là lạ. Trên hành lang, có người chỉ trỏ sau lưng tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

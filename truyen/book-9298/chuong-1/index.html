@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BẠN HỌC GIẢ TẠO">
   <meta name="twitter:description" content="Trước khi nhập học năm nhất, tôi đã tham gia nhóm chat của lớp. Khi vào nhóm giới thiệu bản thân, có một bạn học con nhà giàu đăng ảnh tay đặt lên vô-lăng xe sang.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

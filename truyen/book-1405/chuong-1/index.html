@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGÀY CUỐI CÙNG CỦA GIANG HOÀN">
   <meta name="twitter:description" content="Vì có thể nhìn thấy đồng hồ đếm ngược trên đầu người thân, từ nhỏ tôi đã bị cả nhà xem là điềm xui. Tôi từng nói ra thời gian tử vong của ông nội, bố, và cả mẹ. Kết quả là họ đều chết trong cùng mộ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

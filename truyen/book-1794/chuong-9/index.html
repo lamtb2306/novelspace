@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Đừng Chọc Tôi, Tôi Từng Là Huyền Thoại">
   <meta name="twitter:description" content="Tôi mệt mỏi quay mặt đi không nhìn anh, không lâu sau trên người đã được đắp thêm một chiếc chăn, động tác của anh rất nhẹ, nhưng tôi lại không muốn nhìn thêm một lần nào.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

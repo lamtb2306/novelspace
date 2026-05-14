@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Nghỉ Thai Sản Giúp Người Khác">
   <meta name="twitter:description" content="Chỉ có một cái tên mới trong giao diện trò chuyện. 【Ly Ly: Cảm ơn chú nhỏ đưa em về~ Mai em mang cơm hộp tự làm cho anh nha.】 Mạnh Khinh Hồng trả lời: Đừng vất vả quá. Không từ chối.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

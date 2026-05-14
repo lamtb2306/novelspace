@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Câu cá câu luôn Long Vương">
   <meta name="twitter:description" content="Đây là người tôi đã chọn để kết hôn sao? Một kẻ nhu nhược, chỉ biết dàn hoà, lúc nào cũng để mẹ mình làm “bia đỡ đạn”, đứng mũi chịu sào. “Nhường bà ấy?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

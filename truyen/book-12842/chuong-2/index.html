@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Bốn lần nhẫn nhịn">
   <meta name="twitter:description" content="Lúc tôi chuẩn bị đi nghỉ, đột nhiên vang lên tiếng đập cửa ầm ầm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

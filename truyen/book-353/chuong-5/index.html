@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | CHỚ GỌI TÊN TA SAU HOÀNG HÔN">
   <meta name="twitter:description" content="Dù gì thì… tôi cũng đã hiểu—có thứ gì đó đang muốn lấy mạng tôi. Suốt quãng đường, mẹ tôi thiếp đi mê man.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

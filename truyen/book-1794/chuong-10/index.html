@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 10 | Đừng Chọc Tôi, Tôi Từng Là Huyền Thoại">
   <meta name="twitter:description" content="Tôi đợi nó nói xong liền nhướng mày: “Lúc tôi và ba cậu chưa ly hôn cậu muốn cô ta làm mẹ, còn có thể châm chước.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

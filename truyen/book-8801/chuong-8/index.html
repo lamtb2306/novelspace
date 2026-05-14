@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Hội Những Người Thích Ép Khách Ăn Hành">
   <meta name="twitter:description" content="Tôi bước ra ngoài, đúng là đám thuê mặt bằng quay trở lại. Gương mặt ai nấy đều hiện rõ vẻ lo lắng và hoảng hốt. “Thuê cho người khác thật rồi, giờ tính sao đây?” “Tìm đâu ra chỗ thuê rẻ như thế nà...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

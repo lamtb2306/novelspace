@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Nguyệt Nguyệt – Người Con Bị Quên Lãng">
   <meta name="twitter:description" content="“Uổng công tao còn nghĩ nợ mày một cái sinh nhật, mua bánh về bù đắp.” “Lục Minh Nguyệt!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

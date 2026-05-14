@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | TẶNG ANH MỘT TANG LỄ">
   <meta name="twitter:description" content="Trở về nước, tôi tự mình cắt chiếc bánh sinh nhật không ai khác ngoài tôi. Lục Trạch Khiêm nhắn tin tới. “Tiểu Vãn, xin lỗi. Anh không thể ở bên em sinh nhật năm nay.” “Bệnh tình của Linh Linh lại ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

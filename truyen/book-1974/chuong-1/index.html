@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ANH CHƯA TỪNG THƯƠNG TÔI">
   <meta name="twitter:description" content="Đêm tôi sắp sinh, tôi bị vỡ nước ối, hoảng loạn gõ cửa phòng Chu Vũ Chi. Tôi cầu xin anh đưa tôi đến bệnh viện. Anh ấy phải một lúc lâu mới mở cửa: ” Lại có chuyện gì nữa?” Tôi trong hoảng loạn, vộ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Con Dâu Ngầm">
   <meta name="twitter:description" content="Sau khi tốt nghiệp đại học và đi làm được một năm, mẹ của bạn trai đuổi tôi ra khỏi cổng bệnh viện, lại còn ngang nhiên tuyên bố trong nhóm làm việc: “Chỉ cần tôi còn ở bệnh viện một ngày, tuyệt đố...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

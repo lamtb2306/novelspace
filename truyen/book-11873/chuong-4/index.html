@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | Chiếc Bẫy Trà Xanh">
   <meta name="twitter:description" content="Địa điểm ăn cơm mà Triệu Tri Tuyết chọn là một nhà vườn ở ngoại ô, có núi có nước, phong cảnh hữu tình. Phong cách điền viên cổ điển, có chút tinh tế, thực ra là một nơi khá đẹp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

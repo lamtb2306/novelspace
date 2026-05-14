@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | CƯA ĐỔ NAM THẦN">
   <meta name="twitter:description" content="Tôi chán đời chỉnh lại quần áo, cầm tờ đơn khám rồi cùng anh đi đóng tiền. Lần này thật sự là mất mặt ngay trước mắt Cố Dịch luôn rồi. “Nếu sau này còn thấy không khỏe, em có thể đến tìm tôi bất cứ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Trái Tim Dự Phòng">
   <meta name="twitter:description" content="“Nhìn đi, đây chính là điều các người mong muốn. Tôi sắp chết rồi, cuối cùng các người cũng có thể yên tâm hoàn toàn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

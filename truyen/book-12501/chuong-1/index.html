@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trở Lại, Tôi Từ Chối Làm Thế Thân">
   <meta name="twitter:description" content="“Đừng lề mề nữa, điền tên xong thì mau nộp đi.” Dư Trần Huyền sốt ruột giục giã, vừa nói vừa liên tục nhìn đồng hồ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

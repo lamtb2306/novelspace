@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 9 | Đứa Con Không Ai Cần">
   <meta name="twitter:description" content="“Tôi học chuyên ngành máy tính. Cái video đầy lỗ hổng ấy của bà, định lừa ai vậy?” “Nói là chỉ có tôi phù hợp để ghép tủy? Bà đã kiểm tra chưa? Đã đối chiếu với ngân hàng tủy chưa?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

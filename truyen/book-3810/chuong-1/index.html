@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Món Quà Cuối Cùng Của Chị">
   <meta name="twitter:description" content="Đêm giao thừa, tôi phát hiện ra nick phụ của bạn trai. Hơn một ngàn bài đăng, toàn là đồng hồ xa xỉ, siêu xe, biệt thự ven biển, núi tuyết, cực quang… Có tất cả mọi thứ anh ta yêu thích. Duy nhất, ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

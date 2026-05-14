@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGƯỜI DƯNG SAU MƯỜI LĂM NĂM">
   <meta name="twitter:description" content="Lúc quê nhà làm thủ tục đăng ký giải tỏa, tôi phát hiện mất giấy đăng ký kết hôn nên đến Cục Dân chính xin cấp lại. Không ngờ nhân viên tra cứu mấy lần rồi rất chắc chắn nói với tôi: “Chị đang độc ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

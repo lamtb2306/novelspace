@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Phu Nhân Hiểu Chuyện">
   <meta name="twitter:description" content="Ta kéo tay y lại. “Phu quân, để ta đi.” Ta nói, “Có những chuyện, vẫn nên có một cái kết rõ ràng.” Tiêu Triệt nhìn ta, gật đầu: “Ta đi cùng nàng.” Chúng ta cùng nhau bước ra trước cổng vương phủ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

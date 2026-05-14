@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đại Sư Online">
   <meta name="twitter:description" content="Tôi ngáp một cái. Trên màn hình máy tính trước mặt, góc phải trên của phòng livestream hiện rõ con số “134” người xem online. Con số này, giống hệt số dư tài khoản ngân hàng của tôi, thật sự chẳng ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

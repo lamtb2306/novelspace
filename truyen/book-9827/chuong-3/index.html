@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Mọt Sách Phản Công">
   <meta name="twitter:description" content="Tôi không hề từ chối. Dựa vào việc đọc trộm tư duy trong lòng tôi, một người không có chút cơ bản lập trình như cô ta, lại thật sự viết ra được đoạn code dùng để thi đấu. Các đồng đội của cô ta đều...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tỉnh Mộng">
   <meta name="twitter:description" content="Tận mắt thấy bạn trai mình ngoại tình, sẽ là cảm giác thế nào? Không biết người khác ra sao, nhưng tôi lúc này chỉ thấy một sự bình thản lạnh lẽo, dường như người trước mắt chẳng còn liên quan gì đ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

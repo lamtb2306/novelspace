@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 12 | Khi Em Không Cần Anh Nữa">
   <meta name="twitter:description" content="Anh không ngừng lẩm bẩm, trong đầu chỉ toàn là hai chữ “không thể”. Ngồi một lúc lâu, anh đột ngột đứng bật dậy, đẩy cửa lao thẳng về phía quầy dịch vụ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

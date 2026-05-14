@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Mười Năm Vong Ân">
   <meta name="twitter:description" content="Lúc ấy, có người đưa cho tôi một tờ khăn giấy: “Cần giúp gì không?” Là một người đàn ông mặc áo sơ mi bạc màu, ánh mắt dịu dàng: “Tôi tên là Trần Mặc, cũng là một luật sư.” “Dù hiện giờ tôi chưa có...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

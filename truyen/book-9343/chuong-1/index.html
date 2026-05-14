@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Ngày Chị Họ Lập Bẫy, Tôi Bay Ra Biển Xanh">
   <meta name="twitter:description" content="Chị họ tôi kết hôn, cả họ đều nhận được thiệp mời. Chỉ riêng nhà tôi, ngay cả một lời thông báo cũng không có.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

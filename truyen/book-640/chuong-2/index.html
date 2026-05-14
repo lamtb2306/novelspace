@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | ĐOẠT MẶT THUẬT">
   <meta name="twitter:description" content="Tôi để câu nói ngỏ, chờ đợi phản ứng của con gái. Không ngờ con bé tự nhiên đáp lại: “À đúng rồi, là cái bánh quy ấy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

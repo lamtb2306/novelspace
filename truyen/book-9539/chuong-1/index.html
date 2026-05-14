@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bị Vu Oan Mắc Bệnh, Tôi Lật Ngược Cả Khoa">
   <meta name="twitter:description" content="Khi nhận được cuộc gọi của vị hôn phu Giang Triết, tôi đang thử váy cưới.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

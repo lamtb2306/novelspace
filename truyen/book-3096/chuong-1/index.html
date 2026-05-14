@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Giữa Hai Thế Giới">
   <meta name="twitter:description" content="Năm ta hai mươi tám tuổi, thành công công lược được nam nhị si tình. Từng mất đi hai thai nhi, thân thể sớm đã suy nhược. Vệ Quân tự phía sau vùi mặt nơi gáy ta, thấp giọng nói: “Về sau, ta chỉ tốt...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

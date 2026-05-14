@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Bóng Đêm Trong Họ Lâm">
   <meta name="twitter:description" content="Tôi lê bước dọc theo con đường trong khu, đi mãi mới tìm được một cánh cổng nhỏ để ra ngoài. Tôi không có nơi nào để đi. Tôi bước dọc con phố dài hun hút, cứ đi, cứ đi. Mắt tôi chẳng còn thấy rõ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | GIẢN YÊN">
   <meta name="twitter:description" content="Nhà họ Phong và nhà tôi là thế giao. Mọi mối quan hệ thân tộc, lợi ích qua lại sẽ không vì một mình tôi mà cắt đứt. Huống hồ, anh trai tôi đã đá gãy hai cái xương sườn của Phong Tứ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

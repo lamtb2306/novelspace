@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | GIANG VĂN SỞ HÀ">
   <meta name="twitter:description" content="Sáng hôm sau, vừa mở mắt ra, tôi đã nhìn thấy Giang Văn đang quay lưng lại với tôi, mặc quần áo. Giang Văn thành thạo mặc áo sơ mi, cài nút đến tận trên cùng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

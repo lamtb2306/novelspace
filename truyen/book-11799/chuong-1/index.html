@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CÔNG CHÚA NHÀ HỌ HỌA">
   <meta name="twitter:description" content="Tôi là con gái duy nhất của gia tộc họ Họa, từ nhỏ đã được bố mẹ nuôi dạy như người thừa kế tương lai.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

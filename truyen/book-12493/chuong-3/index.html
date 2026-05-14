@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Tết Này, Cả Phòng Ban Cùng Trực">
   <meta name="twitter:description" content="Khi tôi quay lại văn phòng, Giang Na và chị Ngô đang ríu rít chọn đồ đi chơi. “Na Na à, áo khoác trắng này vẫn là đẹp nhất đấy.” “Nhưng mình đi chơi tận ba ngày lận, tớ nghĩ mặc áo đen sẽ đỡ bẩn hơ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

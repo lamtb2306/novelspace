@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tình Chị Em">
   <meta name="twitter:description" content="Sau khi say rượu, tôi chạy tới gõ cửa phòng của ông chủ mà mình thầm yêu, vừa khóc vừa mắng anh là đồ bạc tình. Mắng được một lúc, phía sau vang lên một giọng lạnh lùng: “Ninh Ninh, qua đây!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

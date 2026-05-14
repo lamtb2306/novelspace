@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Cô Bé Sao Chổi">
   <meta name="twitter:description" content="Ngày hôm sau, thi thể của tôi được đưa ra khỏi nhà xác. Tôi thấy ảnh chân dung đen trắng của mình xuất hiện trên truyền hình, dòng tiêu đề là: “Em bé anh hùng dũng cảm nhất.” Ôi chao, tôi thấy cũng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

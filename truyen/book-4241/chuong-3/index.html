@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Người Lạ Trong Nhà">
   <meta name="twitter:description" content="Tôi nói với cậu nhân viên tên Tiểu Vương: “Nhà anh có việc, phải về gấp, công ty có gì gấp thì gọi điện cho anh.” Tiểu Vương gật đầu: “Dạ vâng, anh Hứa!” Tôi đạp ga như muốn bốc cháy, xe chạy nhanh...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Mẫu Giáo Chưa Ra, Tôi Đã Phải Làm Hòa Ba Mẹ Rồi">
   <meta name="twitter:description" content="Ba mẹ tôi là nhân vật chính trong một câu chuyện ngược cẩu huyết. Còn tôi là đứa con xui xẻo được sinh ra từ hận thù của hai người.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

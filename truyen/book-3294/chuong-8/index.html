@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Học sinh của tôi là ác moa">
   <meta name="twitter:description" content="Anh tôi, người bị hại, lại quay sang an ủi ngược cả nhà: “Không sao đâu, chỉ cần có kết quả xét nghiệm, sự thật sẽ sáng tỏ.” Anh trai ngốc của tôi, kiếp trước khi thấy kết quả xét nghiệm, như bị sé...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

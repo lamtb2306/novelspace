@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Con Sói Mắt Trắng">
   <meta name="twitter:description" content="Rồi hắn quay lại nhìn tôi, giọng nói gần như hạ xuống thành cầu xin: “Chị, cho tôi chút thể diện đi, được không?” “Để cảnh sát về trước…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

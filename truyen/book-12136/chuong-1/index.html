@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CẢ VĂN PHÒNG KHÔNG TIN TÔI">
   <meta name="twitter:description" content="Tôi là một đứa con được giữ lại sau nhiều lần dọa sảy, nên không hiểu nổi ẩn ý đâu. Ăn bún ốc trong văn phòng, sếp đi ngang qua còn mỉa mai: “Ăn ngon lành quá nhỉ!” Hôm sau, tôi đặt cho chị ấy một ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

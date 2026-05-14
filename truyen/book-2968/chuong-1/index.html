@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | DUYÊN NỢ HÀO MÔN">
   <meta name="twitter:description" content="Bạn tin nổi không? Tôi – một con nhỏ “tiểu tam” vô danh trên mạng chẳng ai biết đến – lại được vợ chồng nhà giàu nhất Giang Thành mang năm trăm triệu đến quỳ cầu xin làm con dâu họ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

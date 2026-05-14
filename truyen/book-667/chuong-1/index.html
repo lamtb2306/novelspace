@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BẠN CÙNG PHÒNG VÔ ƠN">
   <meta name="twitter:description" content="Nửa đêm lướt mạng, tôi tình cờ thấy một buổi livestream đang kết nối người xem. Vừa nhìn thấy ảnh đại diện quen thuộc ấy, tôi như có ma xui quỷ khiến mà bấm vào xem. “Bạn cùng phòng của tôi rất già...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

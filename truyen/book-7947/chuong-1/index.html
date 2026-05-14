@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | LẦN NÀY LÀ TÔI CHỦ ĐỘNG">
   <meta name="twitter:description" content="Kỳ nghỉ đông năm nay, tôi và mấy đứa bạn cùng phòng đăng ký một tour du lịch nước ngoài. Vừa xuống sân bay, chúng tôi đã bị lôi ngay vào một cửa hàng mua sắm. Tôi rất bức xúc vì bị ép mua đồ nên ch...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

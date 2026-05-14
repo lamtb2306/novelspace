@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Tôi Trở Về, Hoa Thành Phải Đổi Chủ">
   <meta name="twitter:description" content="Chúng tôi đi theo chú Chung đến một căn biệt thự nhỏ nằm gần biển.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

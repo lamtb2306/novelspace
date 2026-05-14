@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Một Cái Bát, Hai Triệu Tội Danh">
   <meta name="twitter:description" content="Đám đông vây xem xung quanh, cùng với khán giả trên sóng trực tiếp, đều bùng nổ. “Đáng đời!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Một Sớm Đoạn Tình">
   <meta name="twitter:description" content="Sau sáu năm thành thân với vị trạng nguyên nghèo khó, cuối cùng chàng cũng bước lên ngôi vị Tể tướng. Thiên hạ đều nói chàng không hề có chút thanh cao của bậc thư sinh, chắc chắn là kẻ tâm trí kiê...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

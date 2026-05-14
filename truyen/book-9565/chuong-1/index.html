@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Đầu Thai Nhầm Nhà Tài PhiệT">
   <meta name="twitter:description" content="Trước khi đầu thai ở địa phủ, tôi bất ngờ nhận được cuộc gọi từ cô bạn thân. Cô ấy kích động nói với tôi:“Bạn yêu à, tôi nạp tiền cho cậu rồi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

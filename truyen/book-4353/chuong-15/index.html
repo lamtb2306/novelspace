@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 15 | Nơi Hoa Hướng Dương Nở Rộ">
   <meta name="twitter:description" content="“Húc Xuyên, chẳng lẽ chúng ta thật sự chỉ có thể đến đây thôi sao? Mộ Ngôn chị ấy đã đi rồi, chị ấy cũng không mong anh mãi sống trong quá khứ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

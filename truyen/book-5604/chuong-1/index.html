@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | VỤ ÁN HAMSTER">
   <meta name="twitter:description" content="Nhân dịp cuối tuần, tôi bỏ ra hơn hai trăm vạn mua một căn hộ nhỏ gần công ty, chỉ để có thể tranh thủ thêm chút thời gian nghỉ trưa.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

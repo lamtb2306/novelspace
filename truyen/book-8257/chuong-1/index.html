@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Quán Ăn Của Ác Quỷ">
   <meta name="twitter:description" content="Nhà tôi có một quán ăn mở cửa suốt hai mươi bốn giờ. Ban ngày chỉ tiếp khách sống, ban đêm chỉ tiếp khách chết. Ban ngày là em gái tôi trông quán, giống như một nhà hàng bình thường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

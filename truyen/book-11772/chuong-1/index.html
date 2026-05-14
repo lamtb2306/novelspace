@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | THỦ KHOA 0 ĐIỂM">
   <meta name="twitter:description" content="Ngày công bố điểm thi đại học, ba mẹ tổ chức tiệc mừng cho tôi và cô em gái nuôi. Chỉ vì một câu hỏi vu vơ của họ hàng, cả nhà lập tức biến buổi tiệc thành sòng bạc, cá cược xem điểm ai cao hơn giữ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

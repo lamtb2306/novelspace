@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | 7 NĂM KÝ ỨC">
   <meta name="twitter:description" content="Vậy còn tôi, tôi là gì trong mối tình này? 4 Tôi chụp lại màn hình, quay video và giữ lại tất cả bằng chứng. Tối đó, Vệ Nhiên về nhà, mang theo rất nhiều đồ mới.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

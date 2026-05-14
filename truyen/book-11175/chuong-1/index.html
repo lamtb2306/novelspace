@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CUỘC ĐÀI THOÁT LÚC 1 GIỜ SÁNG">
   <meta name="twitter:description" content="Một giờ sáng, anh đột ngột đẩy tôi ngã khỏi giường. Tôi còn chưa kịp phản ứng, anh đã lao tới tủ quần áo, cuống cuồng kéo đồ ra. “Đi mau, đừng hỏi, đừng quay đầu lại!” Giọng anh là thứ tôi chưa từn...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 16 | Nơi Tôi Thuộc Về">
   <meta name="twitter:description" content="Nó như một bàn tay lạnh buốt, trong nháy mắt siết chặt lấy tim tôi. Nhưng tôi càng hiểu rõ hơn, vào lúc này, tôi tuyệt đối không thể lùi bước.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | KHÔNG THỂ THA THỨ">
   <meta name="twitter:description" content="Số tiền Chu Tự Ngôn chuyển cho tôi đã vào tài khoản, và tôi lập tức ẩn danh quyên góp cho đoàn khảo sát của ân sư. Tôi in bản thỏa thuận ly hôn và tất cả các ảnh chụp màn hình tin nhắn.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

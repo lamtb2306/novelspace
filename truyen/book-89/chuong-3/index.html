@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | BUỔI HỌP KHÔNG CÓ BIÊN BẢN">
   <meta name="twitter:description" content="Tôi nhìn anh ta: “Nên các anh quyết định – đưa tôi ra mặt tiền.” Anh ta cau mày: “Đừng nói như vậy, chỉ là hỗ trợ thôi.” Tôi hỏi: “Vậy tại sao họp lại không gọi tôi?” Anh ta nghẹn lại một chút, rồi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

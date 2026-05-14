@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI TỪNG NHẶT ĐƯỢC NAM CHÍNH">
   <meta name="twitter:description" content="Năm tôi mười tuổi, đang lang thang ngoài đường thì nhặt được một cậu bé nhỏ hơn tôi hai tuổi. Tôi nhận thằng bé làm em trai, dạy nó chỗ nào có thùng rác nhiều đồ ăn nhất.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

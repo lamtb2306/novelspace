@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Kẹo Cola Của Hạ Tinh Dã">
   <meta name="twitter:description" content="Tôi nhát gan, mà bạn cùng bàn lại là một tên côn đồ. Hắn ngày nào cũng nghịch tóc tôi, còn kéo dây áo lót của tôi. Cho đến một ngày, hắn làm ra cái động tác bẩn thỉu, tôi không chịu nổi nữa, bật khóc.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

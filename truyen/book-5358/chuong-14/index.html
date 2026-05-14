@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 14 | Tôi Nuôi Năm Đứa Trẻ Sinh Năm">
   <meta name="twitter:description" content="Còn kẻ ngu ngốc là tôi, vẫn ngây thơ coi bọn chúng là người thân thiết nhất.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

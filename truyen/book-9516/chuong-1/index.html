@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | THẨM TẪN HOAN">
   <meta name="twitter:description" content="Trước khi cưới, tôi từng bắt gặp anh ấy ở xưởng vẽ. Anh ăn mặc chỉnh tề, nhưng lại đang ôm một cô gái chỉ đeo mỗi chiếc vòng cổ kim cương hồng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 13 | CON ĐƯỜNG KHÔNG CÓ ĐIỂM DỪNG">
   <meta name="twitter:description" content="“Chị biết rồi, chị đã kiểm tra số dư trong tài khoản, em chưa tiêu một đồng nào.” “Vậy mà chị vẫn chuyển tiền cho em…” “Em tiêu hay không là chuyện của em, đó là tiền sinh hoạt chị cho em.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

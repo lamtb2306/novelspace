@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 4 | BUÔNG BỎ MỘT CHẤP NIỆM">
   <meta name="twitter:description" content="Tôi có thói quen để điện thoại ở chế độ im lặng khi ngủ. Hôm đó, khi tỉnh dậy, tôi nhìn thấy trên màn hình có hơn 30 cuộc gọi nhỡ và 99+ tin nhắn WeChat.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

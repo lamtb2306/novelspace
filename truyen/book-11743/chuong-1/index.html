@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Chiếc Lược Gỗ Và Sợi Dây Chuyền Vàng">
   <meta name="twitter:description" content="Chồng tôi nói muốn đưa mẹ chồng đi du lịch tự lái xe vào dịp Quốc Khánh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

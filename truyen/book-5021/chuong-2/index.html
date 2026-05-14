@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Thông Phòng Thành Quận Chúa">
   <meta name="twitter:description" content="Nhưng nào ai biết, năm xưa chính hắn uống say rồi xông vào phòng ta, kéo ta làm ra chuyện ấy. Bảy năm trôi qua, ta vẫn không rõ bản thân đã sai điều gì. Chỉ biết may thay, mọi chuyện sắp chấm dứt rồi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

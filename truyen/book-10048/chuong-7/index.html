@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Con Chóa Không Dám Nhìn Tôi">
   <meta name="twitter:description" content="Khi tôi bước ra khỏi khách sạn, luật sư liền đưa cho tôi một tập hồ sơ…">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

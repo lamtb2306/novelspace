@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bàn Cơm Giao Thừa Không Có Phần Tôi">
   <meta name="twitter:description" content="Đêm giao thừa, tôi và chồng vội vàng về nhà chồng để ăn cơm đoàn viên. Vừa đẩy cửa ra, mùi thức ăn thơm nức xộc thẳng vào mặt, cả nhà quây quần bên bàn ăn, không khí vô cùng náo nhiệt.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

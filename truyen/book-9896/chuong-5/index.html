@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Chỉ Một Lần Không Quay Đầu">
   <meta name="twitter:description" content="Nói xong liền đi mất, bước chân vội vã. Tôi ôm con bé vào trong: “Con muốn chơi trò gì nào?” Đôi mắt to đen láy của con bé lóe lên chút cẩn trọng: “Con muốn chơi xe điện đụng, nhưng ba không cho.” ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

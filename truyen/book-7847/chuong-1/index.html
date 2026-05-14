@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHÚNG TA TỪNG LẠC MẤT NHAU">
   <meta name="twitter:description" content="Khi chuyển trường, tôi đã từ chối một cậu trai hư theo đuổi tôi dai dẳng. “Tôi không thích người chỉ biết chơi game. Chúng ta không cùng một thế giới, sau này đừng liên lạc nữa.” Hôm đó, tôi rời đi...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

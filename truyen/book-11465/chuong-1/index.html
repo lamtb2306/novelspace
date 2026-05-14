@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TÔI CHƯA BAO GIỜ YÊU ANH">
   <meta name="twitter:description" content="Tôi và Giang Tự Đình từ nhỏ đã được định hôn ước. Năm tôi mười sáu tuổi, không còn người thân, tôi dọn vào sống tại Giang gia. Cùng sống dưới một mái nhà tám năm, người anh ấy yêu mãi mãi không phả...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

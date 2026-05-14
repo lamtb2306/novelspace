@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NHẶT NAM THẦN VỀ NHÀ">
   <meta name="twitter:description" content="Thư viện sắp đóng cửa, tôi tiện tay ném nửa chai nước khoáng còn lại vào thùng rác.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

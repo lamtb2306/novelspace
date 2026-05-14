@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CÔ EM HỌ VÔ ƠN">
   <meta name="twitter:description" content="Tôi lấy điện thoại ra, mở album ảnh. Bên trong vẫn còn lưu rất nhiều hình của căn nhà ấy. Từ lúc còn là nhà thô, đến bản thiết kế, rồi từng bước từng bước biến thành ngôi nhà mơ ước của tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

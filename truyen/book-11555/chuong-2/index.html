@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Bốn Năm Để Quên Một Người">
   <meta name="twitter:description" content="Tôi tưởng rằng, chỉ cần tôi đủ tuổi, chúng tôi sẽ có thể ở bên nhau. Dù sao cũng không có quan hệ huyết thống. Tôi cũng nhìn ra ánh mắt anh nhìn tôi, không giống anh trai nhìn em gái.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

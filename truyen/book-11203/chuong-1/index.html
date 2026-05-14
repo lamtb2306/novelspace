@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TIẾP CẬN EM LẦN NỮA">
   <meta name="twitter:description" content="Kỳ kinh nguyệt đã trễ hai tháng, tôi đi khám phụ khoa. Bác sĩ cầm tờ báo cáo của tôi vừa kiểm tra xong đẩy đẩy mắt kính. [ông xã cô đâu? Không đi cùng à?] Tôi lắc đầu, có một linh cảm chẳng lành.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

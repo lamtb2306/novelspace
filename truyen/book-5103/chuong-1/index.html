@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Trật Tự Mới">
   <meta name="twitter:description" content="Chồng tôi đã nhường suất đăng ký học trường quốc tế của con trai chúng tôi cho con của thư ký anh ta. Anh ấy nói khi nộp hồ sơ, hệ thống bị lỗi, nên vô tình tải nhầm bản hồ sơ của thư ký lên.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

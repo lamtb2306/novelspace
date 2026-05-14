@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Giới Hạn Cuối Cùng Của Tôi">
   <meta name="twitter:description" content="“Thứ hai, tiếp tục ở trong đó. Không phải thích ở sao? Vậy ở cho đủ đi. Nhưng tôi sẽ báo cảnh sát, tố các người xâm nhập trái phép, chiếm dụng tài sản bất hợp pháp.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

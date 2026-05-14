@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Mười Năm Không Uổng">
   <meta name="twitter:description" content="“Đấy, thấy chưa? Thế là giận rồi chứ gì! Có cái ly thôi mà, cậu muốn đền thì nói thẳng ra đi, làm gì phải diễn cái kiểu miệng thì nói không sao, lòng lại để bụng.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

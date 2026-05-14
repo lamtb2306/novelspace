@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | TÔI TỪNG NHẶT ĐƯỢC NAM CHÍNH">
   <meta name="twitter:description" content="Lúc trước có thêm một người ngồi ăn cơm tôi thấy lạ. Giờ thiếu mất một người, lòng lại thấy trống rỗng. Tối đó, cậu ấy bất ngờ nhắn tin cho tôi. [Tôi bị sốt rồi] Tôi mới nhớ ra, số này là cậu ấy bả...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

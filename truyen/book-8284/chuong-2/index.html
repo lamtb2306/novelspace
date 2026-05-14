@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | Một Tờ Hưu Thư">
   <meta name="twitter:description" content="Gió, dường như đã ngừng thổi. Bọt tuyết như treo giữa không trung. Thần sắc mọi người đều cứng đờ trên nét mặt. Khâm sai há miệng, chẳng khác nào cá lìa nước. Thẩm Nguyệt Nhu quên cả khóc, trong mắ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | MỘT THÁNG CUỐI CÙNG">
   <meta name="twitter:description" content="Tôi thích ăn trứng chiên nhất, mà hai quả trứng đó… chính là sự nhượng bộ của mẹ. Bữa ăn hôm ấy yên ắng lạ thường, ba người không ai nói với ai câu nào. Ba tôi ăn xong thì vào phòng, đóng cửa lại.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

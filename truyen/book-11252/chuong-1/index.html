@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MÁY BAY RIÊNG VÀ BÍ MẬT">
   <meta name="twitter:description" content="Tôi đang gấp gáp bay sang châu Âu để đàm phán một dự án hàng trăm tỷ với hoàng thất châu Âu, vậy mà máy bay riêng lại bị người ta chặn lại ngay lúc chuẩn bị cất cánh.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Khách Hàng Đi Theo Người">
   <meta name="twitter:description" content="Cô ta cười lạnh: “Tôi đi kiện cô. Dẫn theo tài nguyên công ty là vi phạm pháp luật.” Tôi nhìn cô ta. “Cô cứ kiện đi.” Cô ta khựng lại. Tôi nói: “Tôi không trộm dữ liệu, không tiết lộ bí mật. Khách ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

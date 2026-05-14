@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Miếng Bánh Thừa">
   <meta name="twitter:description" content="Ba tôi quên cả sợ hãi, lao đến tát thẳng vào mặt tôi một cái như trời giáng: “Lâm Oanh Oanh! Quả nhiên là mày giở trò! Cả nhà tao sắp được đầu thai sống sung sướng, tao đã thấy lạ là sao lại bị kẹt...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hoán Diện">
   <meta name="twitter:description" content="Tin Vĩnh An hầu muốn nạp bình thê truyền khắp kinh thành ba ngày, thì phu nhân của hầu gia bước lên lầu nhỏ của ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

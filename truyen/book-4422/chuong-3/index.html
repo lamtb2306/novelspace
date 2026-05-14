@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Oan Gia Trong Nhà">
   <meta name="twitter:description" content="Tôi không chịu nổi nữa, hất tay anh ra, đôi mắt đỏ hoe phản bác: “Cô ta tặng em sợi dây chuyền đó là thật lòng hay cố tình chọc tức, anh thực sự không nhìn ra sao, Lâm Triết?” “Em là em ruột của anh!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

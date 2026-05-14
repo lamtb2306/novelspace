@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 7 | Ánh Nhìn Qua Mắt Mèo">
   <meta name="twitter:description" content="Nhà tôi ở tầng sáu, nếu mục tiêu của hắn là tôi, tại sao lại lên tầng bảy? “Vậy nên tôi suy đoán, hắn đã từng lên tầng bảy.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

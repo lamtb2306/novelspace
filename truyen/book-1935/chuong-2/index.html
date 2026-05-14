@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | 200 Tệ Và 30 Triệu">
   <meta name="twitter:description" content="Tôi tính rồi — lương tôi mỗi tháng 50.000, thêm tiền thưởng, hoa hồng và cổ phiếu, tổng cộng gần 30 triệu tệ đều nằm trong tay anh ta. Còn Nghiêm Hoài? Một tháng 8.000 tệ, ngoài ra không có gì.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Cậu Muốn Tôi Trượt, Tôi Lại Lên Thẳng Thanh Hoa">
   <meta name="twitter:description" content="Phút cuối cùng trước khi vào phòng thi, trúc mã – người giữ giấy tờ của cả hai – chỉ nộp thẻ dự thi của mỗi cậu ta. Đến lượt tôi, cậu ta lại hai bàn tay trắng, giọng điệu coi đó là điều hiển nhiên:...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

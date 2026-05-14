@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Kiếp Này Tôi Không Nhịn Nữa">
   <meta name="twitter:description" content="Chỉ vì tôi lỡ nói một câu “không hứng thú yêu đương với thầy huấn luyện quân sự” mà bị bạn cùng phòng mắng là giả tạo,làm màu. “Các thầy huấn luyện ai nấy đều cao to lực lưỡng, mày còn chê bai gì?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

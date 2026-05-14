@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Bọn Họ Tích Trữ Chống Rét, Tôi Chuẩn Bị Cho Nắng Nóng 70°C">
   <meta name="twitter:description" content="Sáng thứ Hai, tôi đang mệt rũ vì buồn ngủ, thì đồng nghiệp xung quanh đột nhiên đồng loạt bật dậy cười vang. “Thật tuyệt! Chúng ta thực sự đã quay về bảy ngày trước tận thế băng giá rồi!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | TẤM GƯƠNG LUÂN HỒI">
   <meta name="twitter:description" content="Ta có một tấm gương, soi được kiếp sau của con người. Chỉ cần soi vào gương, liền thấy được dung mạo bản thân ở kiếp lai sinh. Tin tức lan ra, thiên hạ ùn ùn kéo đến, trước cửa tiệm của ta xếp hàng...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

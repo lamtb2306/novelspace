@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Giữa Bão Tuyết, Tôi Chọn Gia Đình Mình">
   <meta name="twitter:description" content="Ngày đầu tiên của kỳ nghỉ Tết, chồng tôi – người vừa mới cưới không lâu – viện cớ nhà cũ ở quê xuống cấp, không có sưởi nên đưa cả bố mẹ chồng và em chồng lên căn nhà mới của chúng tôi để ăn Tết.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

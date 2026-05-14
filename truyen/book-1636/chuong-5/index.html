@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | Trò Trốn Tìm Khiến Tôi Mãi Mãi Không Về Nhà">
   <meta name="twitter:description" content="“Tôi tưởng là nó về rồi tự khóa cửa… tôi… tôi thật sự không nhớ…” “Không nhớ?!” Giọng mẹ vừa nghẹn ngào vừa tuyệt vọng không thể tin nổi. “Một câu không nhớ của mẹ?!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

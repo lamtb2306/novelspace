@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MÀN KỊCH TẤM PHIẾU MƯỜI TỶ">
   <meta name="twitter:description" content="Vào sinh nhật tôi, bạn bè trêu tôi một trò. Trong hộp quà họ tặng có một tấm “phiếu trúng thưởng” chế nhạo: “Chúc mừng, bạn trúng mười tỷ!” Thấy thú vị, tôi tiện tay nhét nó vào túi áo khoác.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

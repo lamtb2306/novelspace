@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | GƯƠNG MẶT DƯỚI ÁNH ĐÈN">
   <meta name="twitter:description" content="Kiếp trước, bạn thân làm food blogger của tôi trong lúc đi khám phá quán ăn đã yêu cầu bàn bên không được phát ra tiếng động, còn ngang nhiên mượn danh nghĩa tôi để lớn tiếng quát tháo: “Đứa nào cũ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

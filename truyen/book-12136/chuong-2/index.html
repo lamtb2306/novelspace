@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | CẢ VĂN PHÒNG KHÔNG TIN TÔI">
   <meta name="twitter:description" content="“Á á á là idol tôi thích hơn chục năm nay đó! Ảnh còn gọi tên tôi nữa…” “Vãi chưởng! Giang Giang em đúng là bá đạo, có chuyện là em làm tới cùng luôn á!” “Đỉnh thật sự!">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

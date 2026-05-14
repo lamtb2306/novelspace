@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ÁNH MẮT THẤU HIỂU">
   <meta name="twitter:description" content="Ngày gia đình tôi phá sản, tôi đã đá tên bạn trai nghèo đó. Năm năm sau, gặp lại ở hội sở khi tôi đang bưng khay, anh ta đã là ngôi sao mới của giới thương trường.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

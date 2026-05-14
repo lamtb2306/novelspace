@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | ĐI GẶP ANH TÓC VÀNG">
   <meta name="twitter:description" content="Lớn lên, tôi càng ít gặp ông hơn, mà ông cũng chẳng đoái hoài gì tới tôi. Nhờ được chủ nhà cho phép, mẹ tôi thỉnh thoảng đưa tôi về ở mấy ngày.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

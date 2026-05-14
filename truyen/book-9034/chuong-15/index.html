@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 15 | Em Họ Ở Nhờ Và Cái Kết">
   <meta name="twitter:description" content="Tôi ngả người ra sau, kéo giãn khoảng cách giữa hai chúng tôi. “Chuyện đã qua rồi.” “Nói đi, hôm nay anh tới tìm tôi, rốt cuộc là vì chuyện gì?” Tôi không tin anh ta chỉ đơn thuần đến để thay người...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

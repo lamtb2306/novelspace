@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 13 | ALBUM KHÔNG CÓ TÔI">
   <meta name="twitter:description" content="Tạ Hằng Ngọc đón lấy áo, tay dừng lại nhẹ một thoáng đúng nơi tôi vừa chạm vào. Ngẩng lên, trong mắt anh là nụ cười dịu dàng: “Ngày mai, thư viện chỗ cũ nhé.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

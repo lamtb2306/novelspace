@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | NGƯỜI NẰM LẠI TRÊN CAO TỐC">
   <meta name="twitter:description" content="Vì tôi không chịu nhường ghế phụ cho thư ký, chồng tôi đã đẩy tôi xuống đường cao tốc giữa đêm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

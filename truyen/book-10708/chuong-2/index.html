@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | TÔI CHỈ LÀ CÂY ATM TRONG GIA ĐÌNH">
   <meta name="twitter:description" content="Mẹ quay lưng bước vào bếp: “Mẹ đi xem món ăn.” Phòng khách im lặng vài giây.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

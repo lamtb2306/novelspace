@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Tám Năm Nuôi Sói, Một Ngày Vạch Mặt">
   <meta name="twitter:description" content="Khi tôi đang làm tóc cho khách trong tiệm cắt tóc quốc doanh, bạn trai tôi đẩy chiếc xe đạp khung ngang đứng ngoài cửa gọi lớn: “Tan làm tiện đường đi lấy phiếu thịt trong sổ thực phẩm phụ, mua ít ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | DỪNG LẠI ĐÚNG THỜI ĐIỂM">
   <meta name="twitter:description" content="Trên đường về, tôi nhận được cuộc gọi từ Ôn Mộ Sâm. “Em đi đâu rồi?” “Em có chút việc.” “Việc gì mà phải đi gấp vậy? Giờ vẫn chưa đến ngày làm việc mà?” “Không phải chuyện công việc, là nhà em có v...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

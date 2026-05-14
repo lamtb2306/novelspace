@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 6 | Phúc Họa Vô Môn">
   <meta name="twitter:description" content="QUAY LẠI CHƯƠNG 1 : “Ai cho ngươi phát cháo hả?!” “Nơi này có quá nhiều dân chạy nạn, ai nấy đều đói khát, không ít người đã chết đói. Chúng ta có lương thực, sao có thể khoanh tay đứng nhìn?">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

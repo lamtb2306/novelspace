@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CHUYẾN DU HÀNH CUỐI CÙNG">
   <meta name="twitter:description" content="Sau một đợt hóa trị nữa, tôi lại quằn quại trong đau đớn vì tác dụng phụ. Đành lên mạng để phân tán sự chú ý.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

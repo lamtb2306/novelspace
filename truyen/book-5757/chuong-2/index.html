@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 2 | ĐẠO VĂN">
   <meta name="twitter:description" content="Đúng lúc này, tôi nhìn thấy bài đăng mới nhất của cô ấy. Cô ấy nói mình đã đoán đúng đề văn kỳ thi đại học và chia sẻ nó để mọi người cùng tham khảo. Nhìn vào bài đăng, tôi lập tức sững người. Đây ...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

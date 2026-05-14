@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Lựa Chọn Sau Ngã Rẽ">
   <meta name="twitter:description" content="Vào đúng ngày đầy tháng của con trai tôi, tôi phát hiện trong điện thoại của Lục Thừa An một tờ phiếu khám thai — tên người mẹ không phải tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

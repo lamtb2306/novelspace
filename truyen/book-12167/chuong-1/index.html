@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | BÀ PHÓ DANH CHÍNH NGÔN THUẬN">
   <meta name="twitter:description" content="Cô thư ký cười tươi như hoa trên du thuyền, liên tục đăng ảnh chiếc nhẫn. Dòng chữ đính kèm là: Tổng tài đại nhân của tôi.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

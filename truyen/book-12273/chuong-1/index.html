@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | Hai Ngày Còn Lại">
   <meta name="twitter:description" content="Tôi xuyên không đến năm thứ mười sau khi chết. Phó Thanh Xuyên cuối cùng cũng buông bỏ chấp niệm trong lòng, kết hôn với trợ lý luôn ở bên cạnh anh ta. Ba mẹ rơi lệ chúc phúc dưới sân khấu.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

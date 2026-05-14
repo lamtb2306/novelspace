@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | ĐƯỜNG HẦM SAU NÚI">
   <meta name="twitter:description" content="Hồi nhỏ, sau núi có một đường hầm, mỗi khi gần đến Tết, sẽ có tàu hỏa chạy qua đường hầm đó. Chiều hôm đó, trong sân nhà tôi xuất hiện một người đàn ông bị thương.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

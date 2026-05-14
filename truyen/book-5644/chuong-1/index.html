@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | YÊU XA 2">
   <meta name="twitter:description" content="Tôi và Giang Kỳ Nghiên yêu xa đã một năm, gặp nhau thì ít mà chia xa thì nhiều. Sau ba tháng không gặp mặt, bất ngờ Giang Kỳ Nghiên thông báo tin vui kết hôn trong nhóm bạn học.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

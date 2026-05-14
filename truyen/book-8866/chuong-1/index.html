@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | MANG THA I KHÔNG PHẢI LÁ BÙA MIỄN TỘI">
   <meta name="twitter:description" content="Tết Dương lịch, tôi về nhà thì chồng tôi đưa cho tôi một tấm vé đứng, tay còn đang đỡ người phụ nữ anh ta yêu nhất — “bạch nguyệt quang” của anh ta.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

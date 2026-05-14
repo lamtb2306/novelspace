@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 8 | Chân Tướng Chuyến Bay XX">
   <meta name="twitter:description" content="Mọi chuyện đến ngày hôm nay, phóng viên Trần có thể nói là “có công không nhỏ”. Giờ cô ta tự dẫn xác tới tận nơi, tôi cũng chẳng cần phải mất công đi tìm.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

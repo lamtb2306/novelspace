@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 5 | NĂM NGHÌN CÂN QUÝT MỐC">
   <meta name="twitter:description" content="Vừa nói, tôi vừa mở app hủy liên kết thẻ phụ. Thật không hiểu kiếp trước tôi bị làm sao, chuyện gì cũng chiều chuộng hắn, đến cả thẻ phụ với hạn mức hai mươi vạn cũng đưa không chút do dự.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 3 | Chồng Tôi Nhưng Không Thuộc Về Tôi">
   <meta name="twitter:description" content="Phó Diêu Niên trừng mắt nhìn tôi, không thể tin nổi. “Người điên là anh.” Tôi khẽ cười, giọng bình tĩnh mà lạnh lùng: “Mười năm trước, anh bị khai trừ khỏi quân ngũ.">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",

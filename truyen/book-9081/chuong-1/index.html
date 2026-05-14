@@ -16,6 +16,11 @@
   <meta name="twitter:title" content="Chương 1 | CUỘC ĐỜI CỦA THANH THANH">
   <meta name="twitter:description" content="Năm đó, tôi đúng là một công cụ sống. Anh trai tôi muốn hẹn hò nhưng lại lấy tôi làm cái cớ. Lúc giao tôi cho anh em tốt của mình, anh ấy còn thề thốt: “Kỹ năng ngôn ngữ ký hiệu của Kỷ Thời An siêu...">
   <link rel="icon" href="../../../favicon.ico">
+  <script>
+    var p = window.location.pathname.replace(/\/$/, '');
+    sessionStorage.setItem('redirectPath', p);
+    window.location.replace('/');
+  </script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
