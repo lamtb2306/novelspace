@@ -3,3 +3,11 @@ __pycache__/
 *.pyc
 .DS_Store
 .truyen-old/
+
+# Backend
+backend/.env
+backend/.venv/
+backend/__pycache__/
+backend/*.pyc
+backend/*.sql
+.env.docker

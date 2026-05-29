@@ -111,7 +111,7 @@ def generate_html_template(book):
 <body>
   <header class="topbar">
     <div class="topbar-inner">
-      <div class="brand" id="homeBtn">NOVELSPACE</div>
+      <div class="brand" id="homeBtn">NovelSpace</div>
       <div class="topbar-actions-mobile">
         <button id="mobileSearchToggle" class="icon-btn mobile-only" type="button" aria-label="Mở tìm kiếm" aria-expanded="false"></button>
         <button id="mobileMenuToggle" class="icon-btn mobile-only" type="button" aria-label="Mở menu" aria-expanded="false"></button>
