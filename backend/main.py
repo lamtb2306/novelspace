@@ -1668,7 +1668,7 @@ def _render_hybrid_chapter_html(book, chapter, chapter_number: int, total_chapte
   <meta name="twitter:description" content="{_safe_text(meta_description)}" />
   <meta name="twitter:image" content="{_safe_text(cover_url)}" />
   <link rel="icon" href="/favicon.ico" />
-  <link rel="stylesheet" href="/style.css?v=20260531-continue-toggle" />
+  <link rel="stylesheet" href="/style.css?v=20260601-author-filter" />
   <script>
     window.NOVELSPACE_PAGE = {json.dumps(page_data, ensure_ascii=False)};
     window.TRUYENFULLVN_PAGE = window.NOVELSPACE_PAGE;
@@ -1830,7 +1830,7 @@ def _render_hybrid_chapter_html(book, chapter, chapter_number: int, total_chapte
       <div id="authMessage" class="auth-message"></div>
     </div>
   </div>
-  <script src="/script.js?v=20260531-continue-toggle"></script>
+  <script src="/script.js?v=20260601-author-filter"></script>
 </body>
 </html>"""
 

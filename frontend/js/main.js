@@ -71,6 +71,7 @@ const BOOK_DETAIL_CACHE_MAX = 80;
 const CHAPTER_RENDER_CACHE_MAX = 120;
 const BOOKS_CACHE_KEY = "novelspaceBooksCacheV1";
 const BOOKS_CACHE_TTL_MS = 10 * 60 * 1000;
+const EMAIL_LIKE_VALUE_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 const booksPerPage = 6;
 
@@ -1293,6 +1294,45 @@ function setCachedBooksIndex(items) {
   }
 }
 
+function isEmailLikeValue(value) {
+  return EMAIL_LIKE_VALUE_PATTERN.test(String(value || "").trim());
+}
+
+function clearAuthorFilterEmailAutofill() {
+  if (!authorFilter || !isEmailLikeValue(authorFilter.value)) return false;
+
+  authorFilter.value = "";
+  return true;
+}
+
+function getAuthorFilterKeyword() {
+  clearAuthorFilterEmailAutofill();
+  return authorFilter?.value?.trim().toLowerCase() || "";
+}
+
+function initAuthorFilterAutofillGuard() {
+  if (!authorFilter) return;
+
+  authorFilter.type = "search";
+  authorFilter.name = "novel_author_filter";
+  authorFilter.autocomplete = "new-password";
+  authorFilter.autocapitalize = "none";
+  authorFilter.spellcheck = false;
+  authorFilter.readOnly = true;
+
+  const unlockAuthorFilter = () => {
+    authorFilter.readOnly = false;
+  };
+
+  authorFilter.addEventListener("pointerdown", unlockAuthorFilter);
+  authorFilter.addEventListener("focus", unlockAuthorFilter);
+  authorFilter.addEventListener("input", clearAuthorFilterEmailAutofill);
+
+  [0, 250, 1000].forEach((delay) => {
+    window.setTimeout(clearAuthorFilterEmailAutofill, delay);
+  });
+}
+
 function setBookDetailCache(bookId, fullBookData) {
   const id = String(bookId);
   if (!id || !fullBookData) return;
@@ -2328,7 +2368,7 @@ function getFilteredBooks() {
   }
 
   const keyword = searchInput?.value?.trim().toLowerCase() || "";
-  const authorKeyword = authorFilter?.value?.trim().toLowerCase() || "";
+  const authorKeyword = getAuthorFilterKeyword();
   const sortValue = sortSelect?.value || "popular";
 
   if (keyword && !searchModeActive) {
@@ -3945,6 +3985,8 @@ function bindEvents() {
 
   if (authorFilter) {
     authorFilter.addEventListener("input", () => {
+      if (clearAuthorFilterEmailAutofill()) return;
+
       currentPage = 1;
       renderBooks();
     });
@@ -4223,6 +4265,7 @@ function bootApp() {
   }
 
   initDomRefs();
+  initAuthorFilterAutofillGuard();
   applyMobileButtonIcons();
   updateMobileToggleState();
   bindEvents();

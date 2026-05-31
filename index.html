@@ -74,7 +74,7 @@
   <link rel="icon" href="favicon.ico" />
   <link rel="apple-touch-icon" href="favicon_180.png" />
   <link rel="sitemap" href="sitemap.xml" />
-  <link rel="stylesheet" href="style.css?v=20260531-continue-toggle" />
+  <link rel="stylesheet" href="style.css?v=20260601-author-filter" />
 </head>
 <body>
   <header class="topbar">
@@ -229,7 +229,16 @@
               <option value="title">Sắp xếp: A → Z</option>
               <option value="chapters">Sắp xếp: Tổng số chương</option>
             </select>
-            <input id="authorFilter" type="text" placeholder="Lọc theo tác giả" />
+            <input
+              id="authorFilter"
+              name="novel_author_filter"
+              type="search"
+              placeholder="Lọc theo tác giả"
+              autocomplete="new-password"
+              autocapitalize="none"
+              spellcheck="false"
+              readonly
+            />
           </div>
 
           <div class="chip-group" id="chipGroup">
@@ -459,7 +468,7 @@
     </div>
   </footer>
 
-  <script src="script.js?v=20260531-continue-toggle"></script>
+  <script src="script.js?v=20260601-author-filter"></script>
 
   <script>
     (function () {
