@@ -3570,26 +3570,8 @@ async function loadBooks() {
 
 function bindEvents() {
 
-  if (continueToggleBtn) {
-    continueToggleBtn.addEventListener("click", (e) => {
-      e.preventDefault();
-      continueExpanded = !continueExpanded;
-      renderContinueReadingPanel();
-    });
-  }
-
   if (continueRefreshBtn) {
     continueRefreshBtn.addEventListener("click", refreshContinueReadingPanel);
-  }
-
-  if (continueReadingGrid) {
-    continueReadingGrid.addEventListener("click", (e) => {
-      const btn = e.target.closest("[data-continue-book]");
-      if (!btn) return;
-
-      e.preventDefault();
-      goToBook(btn.dataset.continueBook, Number(btn.dataset.continueChapter || 0));
-    });
   }
 
   if (relatedMoreBtn) {
