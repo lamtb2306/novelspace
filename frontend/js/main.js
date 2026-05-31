@@ -1435,6 +1435,17 @@ function renderRecentlyUpdatedBooks() {
   }
 }
 
+function useRecentlyUpdatedFallback() {
+  if (!Array.isArray(books) || !books.length) return false;
+
+  recentUpdatedItems = [...books]
+    .sort((a, b) => Number(b.id || 0) - Number(a.id || 0))
+    .slice(0, 12);
+  recentUpdatedHasMore = false;
+  renderRecentlyUpdatedBooks();
+  return true;
+}
+
 async function loadRecentlyUpdatedBooks(reset = false) {
   if (!recentUpdatedSection || !recentUpdatedGrid) return;
 
@@ -1461,6 +1472,10 @@ async function loadRecentlyUpdatedBooks(reset = false) {
       throw new Error("Recently updated response is not an array");
     }
 
+    if (!data.length && !recentUpdatedItems.length && useRecentlyUpdatedFallback()) {
+      return;
+    }
+
     const items = data.map((book, index) => normalizeBook(
       {
         ...book,
@@ -1482,12 +1497,8 @@ async function loadRecentlyUpdatedBooks(reset = false) {
   } catch (err) {
     console.warn("Không tải được truyện mới cập nhật:", err);
 
-    if (!recentUpdatedItems.length && Array.isArray(books) && books.length) {
-      recentUpdatedItems = [...books]
-        .sort((a, b) => Number(b.id || 0) - Number(a.id || 0))
-        .slice(0, 12);
-      recentUpdatedHasMore = false;
-      renderRecentlyUpdatedBooks();
+    if (!recentUpdatedItems.length) {
+      useRecentlyUpdatedFallback();
     }
   }
 }
