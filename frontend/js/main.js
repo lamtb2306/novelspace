@@ -2491,9 +2491,7 @@ function renderBooks() {
   pageItems.forEach((book) => {
     const isSaved = isBookSaved(book.id);
     const saveText = isSaved ? "Đã lưu" : "Lưu";
-    const continueIndex = getReadingProgress(book.id);
     const totalChapters = getBookChapterCount(book);
-    const continueChapter = Math.min(continueIndex + 1, Math.max(totalChapters, 1));
 
     const card = document.createElement("div");
     card.className = "book-card";
@@ -2527,8 +2525,8 @@ function renderBooks() {
           <button class="read-btn" type="button" data-id="${book.id}">Đọc ngay</button>
           ${
             showContinueBtn
-              ? `<button class="continue-btn" type="button" data-continue="${book.id}">
-                   Đọc tiếp ${continueChapter}
+              ? `<button class="continue-btn" type="button" data-listen="${book.id}">
+                   Nghe truyện
                  </button>`
               : ""
           }
@@ -3906,7 +3904,7 @@ function bindEvents() {
       if (!(target instanceof HTMLElement)) return;
 
       const readId = target.getAttribute("data-id");
-      const continueId = target.getAttribute("data-continue");
+      const listenId = target.getAttribute("data-listen");
       const saveId = target.getAttribute("data-save");
 
       if (readId) {
@@ -3914,8 +3912,8 @@ function bindEvents() {
         return;
       }
 
-      if (continueId) {
-        goToBook(continueId, getReadingProgress(continueId));
+      if (listenId) {
+        goToBook(listenId, 0);
         return;
       }
 
