@@ -29,6 +29,10 @@ def cloudflare_key_func(request: Request) -> str:
     if forwarded_for:
         return forwarded_for.split(",", 1)[0].strip()
 
+    real_ip = request.headers.get("X-Real-IP")
+    if real_ip:
+        return real_ip.strip()
+
     if request.client:
         return request.client.host
 
