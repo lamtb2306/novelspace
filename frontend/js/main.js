@@ -1298,6 +1298,15 @@ function isEmailLikeValue(value) {
   return EMAIL_LIKE_VALUE_PATTERN.test(String(value || "").trim());
 }
 
+function normalizeSearchText(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/đ/g, "d")
+    .replace(/Đ/g, "D")
+    .toLocaleLowerCase("vi");
+}
+
 function clearAuthorFilterEmailAutofill() {
   if (!authorFilter || !isEmailLikeValue(authorFilter.value)) return false;
 
@@ -1315,7 +1324,7 @@ function clearSearchInputEmailAutofill() {
 
 function getAuthorFilterKeyword() {
   clearAuthorFilterEmailAutofill();
-  return authorFilter?.value?.trim().toLowerCase() || "";
+  return normalizeSearchText(authorFilter?.value?.trim() || "");
 }
 
 function initSearchInputAutofillGuard() {
@@ -2098,12 +2107,36 @@ function highlightSuggestionText(value, keyword) {
   const q = String(keyword || "").trim();
   if (!q) return escapeHtml(text);
 
-  const index = text.toLocaleLowerCase("vi").indexOf(q.toLocaleLowerCase("vi"));
+  const directIndex = text.toLocaleLowerCase("vi").indexOf(q.toLocaleLowerCase("vi"));
+  if (directIndex >= 0) {
+    const before = text.slice(0, directIndex);
+    const match = text.slice(directIndex, directIndex + q.length);
+    const after = text.slice(directIndex + q.length);
+    return `${escapeHtml(before)}<mark>${escapeHtml(match)}</mark>${escapeHtml(after)}`;
+  }
+
+  const normalizedKeyword = normalizeSearchText(q);
+  if (!normalizedKeyword) return escapeHtml(text);
+
+  let normalizedText = "";
+  const originalIndexByNormalizedIndex = [];
+
+  for (let i = 0; i < text.length; i += 1) {
+    const normalizedChar = normalizeSearchText(text[i]);
+    for (let j = 0; j < normalizedChar.length; j += 1) {
+      originalIndexByNormalizedIndex.push(i);
+    }
+    normalizedText += normalizedChar;
+  }
+
+  const index = normalizedText.indexOf(normalizedKeyword);
   if (index < 0) return escapeHtml(text);
 
-  const before = text.slice(0, index);
-  const match = text.slice(index, index + q.length);
-  const after = text.slice(index + q.length);
+  const start = originalIndexByNormalizedIndex[index];
+  const end = originalIndexByNormalizedIndex[index + normalizedKeyword.length - 1] + 1;
+  const before = text.slice(0, start);
+  const match = text.slice(start, end);
+  const after = text.slice(end);
   return `${escapeHtml(before)}<mark>${escapeHtml(match)}</mark>${escapeHtml(after)}`;
 }
 
@@ -2148,25 +2181,47 @@ function renderSearchSuggestions(keyword) {
 }
 
 function getLocalSearchSuggestions(keyword, limit = 8) {
-  const q = String(keyword || "").trim().toLocaleLowerCase("vi");
+  const q = normalizeSearchText(keyword).trim();
   if (q.length < 2) return [];
 
   return books
     .filter((book) => {
-      const haystack = [
+      const haystack = normalizeSearchText([
         book.title,
         book.author,
         Array.isArray(book.tags) ? book.tags.join(" ") : ""
-      ].join(" ").toLocaleLowerCase("vi");
+      ].join(" "));
       return haystack.includes(q);
     })
     .sort((a, b) => {
-      const aTitle = (a.title || "").toLocaleLowerCase("vi").startsWith(q) ? 1 : 0;
-      const bTitle = (b.title || "").toLocaleLowerCase("vi").startsWith(q) ? 1 : 0;
+      const aTitle = normalizeSearchText(a.title).startsWith(q) ? 1 : 0;
+      const bTitle = normalizeSearchText(b.title).startsWith(q) ? 1 : 0;
       return bTitle - aTitle || (b.views || 0) - (a.views || 0) || (b.popularity || 0) - (a.popularity || 0);
     })
     .slice(0, limit)
     .map(normalizeSuggestion);
+}
+
+function getLocalSearchResults(keyword, limit = 80) {
+  const q = normalizeSearchText(keyword).trim();
+  if (!q) return [];
+
+  return books
+    .filter((book) => {
+      const haystack = normalizeSearchText([
+        book.title,
+        book.author,
+        Array.isArray(book.tags) ? book.tags.join(" ") : "",
+        book.desc
+      ].join(" "));
+      return haystack.includes(q);
+    })
+    .sort((a, b) => {
+      const aTitle = normalizeSearchText(a.title).startsWith(q) ? 1 : 0;
+      const bTitle = normalizeSearchText(b.title).startsWith(q) ? 1 : 0;
+      return bTitle - aTitle || (b.views || 0) - (a.views || 0) || (b.popularity || 0) - (a.popularity || 0);
+    })
+    .slice(0, limit);
 }
 
 async function loadSearchSuggestions(keyword) {
@@ -2324,6 +2379,10 @@ async function searchBooksFromAPI(keyword, limit = 80) {
       )
     );
 
+    if (!searchResults.length && Array.isArray(books) && books.length) {
+      searchResults = getLocalSearchResults(q, limit);
+    }
+
     searchModeActive = true;
     showShelfOnly = false;
     activeChip = "all";
@@ -2340,8 +2399,8 @@ async function searchBooksFromAPI(keyword, limit = 80) {
     if (err.name === "AbortError") return;
 
     console.warn("Không tải được Search API, dùng tìm kiếm local:", err);
-    searchModeActive = false;
-    searchResults = [];
+    searchModeActive = true;
+    searchResults = getLocalSearchResults(q, limit);
     currentPage = 1;
     renderBooks();
   }
@@ -2399,16 +2458,16 @@ function getFilteredBooks() {
     filtered = filtered.filter((book) => shelf.includes(Number(book.id)));
   }
 
-  const keyword = searchInput?.value?.trim().toLowerCase() || "";
+  const keyword = normalizeSearchText(searchInput?.value?.trim() || "");
   const authorKeyword = getAuthorFilterKeyword();
   const sortValue = sortSelect?.value || "popular";
 
   if (keyword && !searchModeActive) {
     filtered = filtered.filter((book) => {
-      const title = (book.title || "").toLowerCase();
-      const author = (book.author || "").toLowerCase();
-      const tags = Array.isArray(book.tags) ? book.tags.join(" ").toLowerCase() : "";
-      const desc = (book.desc || "").toLowerCase();
+      const title = normalizeSearchText(book.title);
+      const author = normalizeSearchText(book.author);
+      const tags = Array.isArray(book.tags) ? normalizeSearchText(book.tags.join(" ")) : "";
+      const desc = normalizeSearchText(book.desc);
 
       return (
         title.includes(keyword) ||
@@ -2421,7 +2480,7 @@ function getFilteredBooks() {
 
   if (authorKeyword) {
     filtered = filtered.filter((book) =>
-      (book.author || "").toLowerCase().includes(authorKeyword)
+      normalizeSearchText(book.author).includes(authorKeyword)
     );
   }
 
