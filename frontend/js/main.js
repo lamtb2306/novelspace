@@ -3093,6 +3093,13 @@ function resetToHomeMode() {
 
 function goHome(e) {
   if (e) e.preventDefault();
+
+  const routePage = window.NOVELSPACE_PAGE || window.TRUYENFULLVN_PAGE;
+  if (routePage?.mode === "chapter" && isBookRoutePath()) {
+    window.location.assign("/");
+    return;
+  }
+
   closeMobilePanels();
   updateMobileToggleState();
   resetToHomeMode();
