@@ -100,7 +100,17 @@
       </div>
 
       <div class="search-wrap" id="searchWrap">
-        <input id="searchInput" type="text" placeholder="Tìm truyện, tác giả, tag..." />
+        <input
+          id="searchInput"
+          name="novelspace_search_query"
+          type="search"
+          placeholder="Tìm truyện, tác giả, tag..."
+          autocomplete="new-password"
+          autocapitalize="none"
+          spellcheck="false"
+          inputmode="search"
+          readonly
+        />
         <button id="searchBtn" type="button">Tìm</button>
       </div>
 
@@ -468,7 +478,7 @@
     </div>
   </footer>
 
-  <script src="script.js?v=20260602-home-nav"></script>
+  <script src="script.js?v=20260602-search-autofill"></script>
 
   <script>
     (function () {

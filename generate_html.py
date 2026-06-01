@@ -117,7 +117,17 @@ def generate_html_template(book):
         <button id="mobileMenuToggle" class="icon-btn mobile-only" type="button" aria-label="Mở menu" aria-expanded="false"></button>
       </div>
       <div class="search-wrap" id="searchWrap">
-        <input id="searchInput" type="text" placeholder="Tìm truyện, tác giả, tag..." />
+        <input
+          id="searchInput"
+          name="novelspace_search_query"
+          type="search"
+          placeholder="Tìm truyện, tác giả, tag..."
+          autocomplete="new-password"
+          autocapitalize="none"
+          spellcheck="false"
+          inputmode="search"
+          readonly
+        />
         <button id="searchBtn" type="button">Tìm</button>
       </div>
       <nav class="nav" id="mainNav">

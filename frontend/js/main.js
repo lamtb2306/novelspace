@@ -1305,9 +1305,41 @@ function clearAuthorFilterEmailAutofill() {
   return true;
 }
 
+function clearSearchInputEmailAutofill() {
+  if (!searchInput || !isEmailLikeValue(searchInput.value)) return false;
+
+  searchInput.value = "";
+  hideSearchSuggestions();
+  return true;
+}
+
 function getAuthorFilterKeyword() {
   clearAuthorFilterEmailAutofill();
   return authorFilter?.value?.trim().toLowerCase() || "";
+}
+
+function initSearchInputAutofillGuard() {
+  if (!searchInput) return;
+
+  searchInput.type = "search";
+  searchInput.name = "novelspace_search_query";
+  searchInput.autocomplete = "new-password";
+  searchInput.autocapitalize = "none";
+  searchInput.spellcheck = false;
+  searchInput.inputMode = "search";
+  searchInput.readOnly = true;
+
+  const unlockSearchInput = () => {
+    searchInput.readOnly = false;
+  };
+
+  searchInput.addEventListener("pointerdown", unlockSearchInput);
+  searchInput.addEventListener("focus", unlockSearchInput);
+  searchInput.addEventListener("input", clearSearchInputEmailAutofill);
+
+  [0, 250, 1000].forEach((delay) => {
+    window.setTimeout(clearSearchInputEmailAutofill, delay);
+  });
 }
 
 function initAuthorFilterAutofillGuard() {
@@ -4270,6 +4302,7 @@ function bootApp() {
   }
 
   initDomRefs();
+  initSearchInputAutofillGuard();
   initAuthorFilterAutofillGuard();
   applyMobileButtonIcons();
   updateMobileToggleState();
